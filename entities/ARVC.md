@@ -1,0 +1,117 @@
+---
+dg-publish: true
+title: "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)"
+tags: [cardiomyopathy, inherited-arrhythmias, gene-therapy, sudden-cardiac-death, arrhythmogenic-cardiomyopathy]
+source_count: 7
+last_updated: 2026-04-15
+---
+
+# Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
+
+## Overview
+Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized form of ACM, defined by progressive fibrofatty replacement of RV myocardium, biventricular dysfunction, and life-threatening ventricular arrhythmias. It is primarily a disease of the cardiac desmosome ("desmosomopathy"). Diagnosis is based on the 2010 Modified Task Force Criteria. ARVC accounts for up to 20% of sudden cardiac deaths in young individuals.
+
+## Epidemiology
+- ARVC accounts for up to **20% of sudden cardiac deaths** in young individuals. ([[sources/acm-hrs-2019]] — high)
+- In 1293 patients with early-onset AF undergoing WGS, 2.9% (37 participants) carried a P/LP variant in an AC/ARVC-associated gene; restricted to major disease genes (ClinGen strong/definitive evidence), the rate was 0.4%. This makes AC/ARVC the **third most common cardiomyopathy syndrome** overlapping with early-onset AF, after DCM (7.2%) and HCM (3.3%). ([[sources/eoaf-jama-2021]] — high)
+- **LV involvement:** Most patients with ARVC develop LV involvement on sensitive imaging (CMR). Biventricular ACM is common; 50% of index patients and 17% of family members have an arrhythmic phenotype with LV dysfunction. ([[sources/acm-hrs-2019]] — high)
+
+## Pathophysiology
+- ARVC is a **"desmosomopathy"** — mutations in desmosomal proteins disrupt intercellular adhesion at the intercalated disc, triggering apoptosis, fibrofatty replacement, and conduction slowing. ([[sources/acm-hrs-2019]] — high)
+- PKP2 mutations reduce **Nav1.5 surface expression** (interplay with SCN5A) and **Cx43** at intercalated discs, contributing to conduction slowing and arrhythmia vulnerability. ([[sources/gene-therapy-arrhythmia-2025]] — high)
+- Exercise acts as a **disease accelerant** — dose-dependent relationship with structural penetrance, arrhythmic events, and disease progression, particularly in PKP2 carriers. ([[sources/acm-hrs-2019]] — high)
+
+## Genetics
+- **Autosomal dominant** inheritance predominates. Pathogenic variants in desmosomal genes are found in the majority of familial cases: **PKP2** (most common), DSP, DSG2, DSC2, JUP. Most non-desmosomal ARVC genes encode desmosomal binding partners or disrupt desmosomal function indirectly (TMEM43, CDH2, CTNNA3). ([[sources/acm-hrs-2019]] — high)
+- The most prevalent form results from **loss-of-function mutations in PKP2** (plakophilin-2) — compromising intercellular adhesion, promoting fibrosis, and impairing gap junction (Cx43) expression. ([[sources/gene-therapy-arrhythmia-2025]] — high)
+- **Genetic testing yield (HFSA 2018):** 10–50% overall; 63% yield when genetic testing includes PKP2, DSP, DSG2, DSC2, JUP, TMEM43, and PLN in patients who meet Task Force criteria for ARVC. Digenic inheritance and compound heterozygosity are frequent features of ARVC — present in up to 20% of cases — and combined with reduced penetrance can significantly complicate genetic counselling ([[sources/genetic-cmp-jcf-2018]] — very high)
+- ARVC overlaps with arrhythmogenic LV cardiomyopathy; desmosomal gene mutations have been identified in patients clinically diagnosed with DCM. Genetic testing with a larger cardiomyopathy panel may identify non-desmosomal pathogenic variants ([[sources/genetic-cmp-jcf-2018]] — very high)
+- Exercise plays a well-established role in the pathogenesis of desmosomal cardiomyopathies; identifying a desmosome gene mutation can help determine optimal exercise recommendations ([[sources/genetic-cmp-jcf-2018]] — very high)
+
+## Diagnosis
+
+### 2010 Task Force Criteria
+- Five domains: structural, tissue characterization, ECG repolarization, ECG depolarization/conduction, arrhythmias, and family history.
+- **Definite ARVC:** 2 major criteria OR 1 major + 2 minor OR 4 minor from ≥2 different categories. ([[sources/acm-hrs-2019]] — high)
+- See [[concepts/ARVC-Task-Force-Criteria]] for full criteria table.
+
+### Key ECG Findings
+- **TWI in V1–V3** — major criterion. ([[sources/acm-hrs-2019]] — high)
+- **Epsilon wave in V1–V3** — major criterion (but see Contradictions re: ESC 2023 caution). ([[sources/acm-hrs-2019]] — high)
+- **Prolonged TAD ≥55 ms in V1–V3** — minor criterion. ([[sources/acm-hrs-2019]] — high)
+- **LBBB-morphology VT** — major or minor depending on QRS axis. ([[sources/acm-hrs-2019]] — high)
+
+### Imaging
+- CMR is the most sensitive modality; most patients develop LV involvement detectable on CMR even when clinically RV-dominant. ([[sources/acm-hrs-2019]] — high)
+
+## Management
+
+### Exercise Restriction
+- **Competitive or frequent high-intensity endurance exercise is contraindicated** in definite ARVC (COR III: Harm, LOE B-NR — HRS 2019; Class I, Level B — ESC 2022). Discontinuation can slow disease progression and reduce VA burden. ([[sources/acm-hrs-2019]] — high; [[sources/VA-SCD-ESC-2022]] — very high)
+- Genotype-positive/phenotype-negative relatives should be counseled to avoid high-intensity exercise (COR I, LOE B-NR — HRS 2019; Class IIb — ESC 2022). ([[sources/acm-hrs-2019]] — high; [[sources/VA-SCD-ESC-2022]] — very high)
+
+### Antiarrhythmic Therapy
+- **Beta-blockers** are first-line; may be considered in all patients with definite ARVC (ESC 2022: Class IIb). ([[sources/VA-SCD-ESC-2022]] — very high)
+- **Flecainide** should be considered when single-agent therapy fails or autonomic side effects limit beta-blocker use. ([[sources/esc-cmp-2023]] — very high)
+
+### ICD Indications
+- **Cardiac arrest or hemodynamically intolerated VT → COR I** (HRS 2019). ([[sources/acm-hrs-2019]] — high)
+- **Hemodynamically tolerated VT, syncope suspected due to VA, ≥3 major risk factors** (NSVT, EPS inducibility, LVEF ≤49%) → COR IIa (HRS 2019). ([[sources/acm-hrs-2019]] — high)
+- **Arrhythmic syncope in definite ARVC → ICD: Class IIa** (ESC 2022, upgraded from IIb). ([[sources/VA-SCD-ESC-2022]] — very high)
+- **Symptomatic ARVC** (presyncope/palpitations suggesting VA) + moderate RV/LV dysfunction + NSVT or inducible SMVT at PES → ICD: Class IIa (ESC 2022, upgraded from IIb). ([[sources/VA-SCD-ESC-2022]] — very high)
+- ICD with **ATP programming capability** for SMVT up to high rates: Class IIa (ESC 2022). ([[sources/VA-SCD-ESC-2022]] — very high)
+- **PES for risk stratification** in ARVC with symptoms highly suspicious for VA: Class IIb (ESC 2022). ([[sources/VA-SCD-ESC-2022]] — very high)
+
+### Catheter Ablation
+- Combined **endocardial + epicardial approach** is required for ARVC; 60–80% long-term freedom from VT.
+- **Not curative** — does not prevent SCD or reduce mortality. ([[sources/acm-hrs-2019]] — high)
+
+### Gene Therapy (Emerging)
+- **AAV9-PKP2 gene replacement:** In PKP2-IVS10-1G>C knock-in mice, early delivery fully prevented ARVC phenotype; late-stage delivery also improved cardiac function, reduced fibrosis, eliminated PVCs, and achieved 100% survival (Bradford 2023). ([[sources/gene-therapy-arrhythmia-2025]] — high)
+- PKP2a delivery in PKP2-deficient mice restored intercalated disc proteins, prevented RV dilation, reduced arrhythmias, improved conduction velocity and survival even with late-stage therapy (van Opbergen 2024). ([[sources/gene-therapy-arrhythmia-2025]] — high)
+- **Clinical-stage candidates:** LX2020 (Lexeo), RP-A601 (Rocket Pharmaceuticals), TN-401 (Tenaya) — all PKP2-targeted, early-phase trials. ([[sources/gene-therapy-arrhythmia-2025]] — high)
+
+## Guideline Notes
+
+| Topic | HRS 2019 | ESC 2022 | ESC 2023 |
+|---|---|---|---|
+| Nomenclature | Uses "ACM" as umbrella; ARVC is one subtype | ARVC as distinct entity | Rejects "ACM" as diagnostic category; LV-dominant → [[entities/NDLVC]] |
+| Diagnostic criteria | 2010 TFC recommended | 2010 TFC recommended | 2010 TFC recommended; Padua criteria acknowledged but lack external validation |
+| Exercise restriction (definite ARVC) | COR III: Harm, LOE B-NR | Class I, Level B (upgraded) | Restriction maintained |
+| Exercise restriction (genotype+/phenotype−) | COR I, LOE B-NR | Class IIb | — |
+| Arrhythmic syncope → ICD | COR IIa | Class IIa (upgraded from IIb) | — |
+| Epsilon wave reliability | Major criterion (2010 TFC) | — | Caution: poor sensitivity/specificity, high interobserver variability |
+
+## PKP2 and Early-Onset AF
+- **PKP2 truncating variants enriched in EOAF:** In large-scale WES/WGS studies, truncating variants in PKP2 — the most common ARVC gene — are significantly enriched in early-onset AF cohorts. These variant classes are the same as those considered P/LP and reportable for ARVC. Importantly, these variants were associated with AF even after accounting for prevalent cardiomyopathy — indicating that PKP2 truncating variants confer AF risk that is not simply mediated by overt cardiomyopathy. ([[sources/genetic-eoaf-ehj-2024]], rating: high)
+- **Exercise restriction applies when PKP2 identified via EOAF genetic testing:** When a PKP2 P/LP variant is identified through EOAF genetic testing, avoidance of competitive high-level exercise is recommended — consistent with standard ARVC management guidelines — even if the patient does not yet meet Task Force Criteria for ARVC diagnosis. This proactive management reflects the cardiomyopathy risk carried by the genotype. ([[sources/genetic-eoaf-ehj-2024]], rating: high)
+- **Longitudinal ARVC assessment indicated:** An ARVC-associated variant identified in an EOAF patient should prompt thorough assessment of the right ventricle (CMR, Task Force Criteria evaluation) to detect early ARVC features that may not yet be clinically apparent. ([[sources/genetic-eoaf-ehj-2024]])
+
+## Contradictions / Open Questions
+- **ESC 2023 vs. HRS 2019 — ARVC vs. ACM nomenclature:** HRS 2019 adopted ACM as an umbrella term encompassing ARVC, ALVC, and biventricular forms. ESC 2023 explicitly rejects ACM as a distinct phenotypic category and classifies LV-dominant disease as NDLVC. Patients with biventricular disease or LV-dominant arrhythmia are therefore categorized differently depending on which guideline a clinician follows. ([[sources/acm-hrs-2019]], [[sources/esc-cmp-2023]])
+- **Exercise restriction data limited to PKP2:** The dose-dependent exercise-penetrance relationship is best established for PKP2 carriers. Data for DSP, PLN, LMNA, FLNC, and other NDLVC/ALVC genes are insufficient — exercise restriction recommendations for non-PKP2 genotypes rest on extrapolation, not direct evidence. ([[sources/acm-hrs-2019]], [[sources/esc-cmp-2023]])
+- **Epsilon wave status — major criterion vs. unreliable finding:** The 2010 Task Force Criteria treat the epsilon wave as a major criterion. ESC 2023 warns that epsilon waves and SAECG have poor sensitivity/specificity and high interobserver variability, and typically only appear in severe structural disease. The 2010 TFC have not been updated to reflect this; using epsilon waves as major criteria may lead to over- or misdiagnosis. ([[sources/esc-cmp-2023]], [[sources/acm-hrs-2019]])
+- **2010 Task Force Criteria vs. Padua Criteria:** The 2010 TFC were developed for RV-dominant ARVC and have no criteria for LV involvement. The Padua criteria (2020) incorporate LV structural and functional abnormalities, better capturing biventricular and LV-dominant forms. ESC 2023 acknowledges Padua criteria but notes they lack external validation; the 2010 TFC remain the recommended standard. This creates diagnostic gaps for a clinically important patient group. ([[sources/esc-cmp-2023]], [[sources/acm-hrs-2019]])
+
+## Connections
+- Related to [[concepts/Arrhythmogenic-Cardiomyopathy]]
+- Related to [[concepts/ARVC-Task-Force-Criteria]]
+- Related to [[concepts/Desmosome]]
+- Related to [[concepts/Exercise-Restriction-in-ARVC]]
+- Related to [[concepts/Final-Common-Pathway]]
+- Related to [[concepts/Cascade-Family-Screening]]
+- Related to [[entities/ALVC]]
+- Related to [[entities/PKP2]]
+- Related to [[entities/DSP]]
+- Related to [[entities/SCN5A]]
+- Related to [[concepts/AAV-Gene-Delivery]]
+- Related to [[concepts/Sudden-Cardiac-Death]]
+- Related to [[concepts/Early-Onset-Atrial-Fibrillation]]
+- Related to [[entities/NDLVC]]
+- Related to [[concepts/Phenotypic-Approach-to-Cardiomyopathy]]
+- Related to [[concepts/Electrical-Storm]]
+- Related to [[concepts/Gene-Silencing-Therapy]]
+- Related to [[concepts/SupRep-Therapy]]
+- Related to [[concepts/Genetic-Testing-in-Cardiomyopathy]]
+- Related to [[sources/genetic-cmp-jcf-2018]]
+- Related to [[sources/genetic-eoaf-ehj-2024]]

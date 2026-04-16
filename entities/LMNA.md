@@ -1,0 +1,80 @@
+---
+dg-publish: true
+title: "LMNA (Lamin A/C)"
+tags: [genetics, arrhythmogenic-cardiomyopathy, ALVC, cardiomyopathy-genetics]
+source_count: 10
+last_updated: 2026-04-16
+---
+
+# LMNA (Lamin A/C)
+
+## Details
+LMNA encodes lamins A and C, nuclear envelope proteins that form the structural scaffold of the cell nucleus and participate in mechanosensing. LMNA variants cause a highly penetrant form of ACM with a distinctive clinical phenotype: conduction disease and atrial fibrillation preceding ventricular arrhythmias and cardiomyopathy by years to decades. LMNA-associated ACM is among the highest-risk inherited cardiomyopathies for malignant ventricular arrhythmias.
+
+## Key Facts
+- **Clinical sequence:** AF and cardiac conduction disease (PR prolongation → AV block) characteristically precede development of ventricular arrhythmias and DCM/ALVC phenotype — sometimes by **decades**. This sequential progression is pathognomonic of LMNA disease. ([[sources/acm-hrs-2019]])
+- **Systemic phenotypes:** LMNA variants produce an array of phenotypes including Emery-Dreifuss muscular dystrophy, generalized lipodystrophy, DCM with HF, progressive conduction disease with late-onset DCM, and ALVC. This phenotypic heterogeneity is not well explained by genotype alone. ([[sources/acm-hrs-2019]])
+- **Risk stratification for malignant VT:** In a European cohort of 269 patients, VT/VF risk was significantly elevated when ≥2 of: NSVT on Holter, LVEF <45%, and male sex were present. In an international registry of 122 patients, independent predictors were: male sex, LVEF <50% at first contact, and nonmissense variants (risk increased exponentially with number of predictors: 9% with 1 → 69% with 4 risk factors). ([[sources/acm-hrs-2019]])
+- **ICD recommendations:**
+  - **COR IIa, LOE B-NR:** ICD reasonable if ≥2 of: NSVT, LVEF <45%, male sex
+  - **COR IIa, LOE C-LD:** If indication for pacing exists, implant ICD with pacing capabilities (AV block is a univariate predictor of VT/VF in some cohorts)
+  - ([[sources/acm-hrs-2019]])
+- **Catheter ablation:** VT ablation in LMNA cardiomyopathy has poor outcomes — high arrhythmia recurrence rate, rapid progression to end-stage HF, and high mortality. Ablation should be considered only as a bridge or adjunct. ([[sources/acm-hrs-2019]])
+- **Gene class (protein type):** Nuclear envelope (NE) protein; truncating and missense variants are both pathogenic.
+- **Association with early-onset AF:** LMNA was the 4th most common gene with P/LP variants in 1293 patients with early-onset AF (WGS cohort): 9 participants (6% of all disease-associated variants); median AF diagnosis age 52 years (IQR 41–52). This aligns with the known LMNA clinical sequence — AF and conduction disease appear first, preceding ventricular involvement by years to decades. ([[sources/eoaf-jama-2021]])
+- **LMNA P/LP variants in AF <40 without overt structural disease:** In a prospective cohort of AF before age 40 specifically excluding structural heart disease and major comorbidities, 2 of 8 P/LP variant carriers harbored LMNA variants. CMR was performed in 49% of the cohort and showed normal ventricular volumes without scar or fibrosis. This confirms that LMNA-related disease can present as isolated AF in young patients before cardiomyopathy becomes structurally detectable — consistent with the known LMNA sequence of AF preceding ventricular disease. ([[sources/eoaf-riskfactor-ehj-2026]], rating: medium)
+
+- **ESC 2023 — DCM/NDLVC context:** LMNA variants are recognized as a high-risk genotype in both DCM and NDLVC. ICD should be considered in LMNA carriers with LVEF >35% if additional risk factors are present (NSVT, syncope, LGE on CMR) — Class IIa, Level C. ([[sources/esc-cmp-2023]])
+- **Gene-specific risk calculator:** The LMNA risk-VTA calculator (https://lmna-risk-vta.fr) is specifically recommended to guide primary prevention ICD decisions in LMNA cardiomyopathy. ESC 2023 recommends this tool while noting the 2022 ESC VA guidelines suggest a 10% threshold — creating an internal ESC inconsistency. ([[sources/esc-cmp-2023]])
+- **Septal mid-wall LGE:** Characteristic CMR pattern for LMNA-related NDLVC/DCM, helping distinguish from DSP/FLNC ring-like LGE or PLN inferolateral patterns. ([[sources/esc-cmp-2023]])
+- **NDLVC classification:** Patients with LMNA variants showing non-dilated LV + fibrosis without meeting DCM dilatation criteria are now classified under NDLVC rather than ACM/ALVC per ESC 2023. ([[sources/esc-cmp-2023]])
+
+- **VA meta-analysis (DCM, n=11,451):** LMNA mutations significantly associated with sustained VA in a prior genotype-phenotype meta-analysis (Kayvanpour 2017, referenced in Sammani 2020); could not be pooled as a standalone HR in the 2020 meta-analysis, but LMNA is among three gene variants (with PLN and FLNC) singled out as important non-pooled predictors. ([[sources/VA-DCM-Sammani-2020]])
+
+- **ESC 2022 explicit sport restriction: Class III** — competitive sports and high-intensity exercise are NOT recommended for individuals with DCM/HNDCM and an LMNA mutation. ([[sources/VA-SCD-ESC-2022]])
+- **ICD Class IIa in ESC 2022:** ICD when LVEF <50% + ≥2 risk factors (LMNA mutation counts as one risk factor; others: syncope, LGE on CMR, inducible SMVT at PES). Distinct from the LMNA-specific VTA calculator threshold (≥10%) endorsed elsewhere — an internal ESC inconsistency. ([[sources/VA-SCD-ESC-2022]])
+- **Genetic testing (Class I in ESC 2022):** LMNA must be included in the DCM/HNDCM genetic panel for patients with AV conduction delay <50 years or family history of SCD <50 years. ([[sources/VA-SCD-ESC-2022]])
+
+- **ESC 2021 HF Guidelines — ICD risk stratification in DCM:** ESC 2021 explicitly identifies 4 risk factors for SCD in LMNA-related DCM to guide primary prevention ICD: (1) NSVT on ambulatory ECG monitoring, (2) LVEF <45% at first evaluation, (3) male sex, (4) non-missense mutations (insertions, deletions, truncations, mutations affecting splicing). Risk increases exponentially with the number of factors: 9% with 1 risk factor → 69% with 4 risk factors. LMNA, RBM20, PLN, and FLN are all identified as genotypes warranting early ICD consideration. ESC 2021 also states the **minimum DCM gene panel must include LMNA** alongside TTN, MYH7, MYPC, TNNT, RBM20, PLN, SCN5a, BAG3, and others. ([[sources/HF-ESC-2021]], rating: very high)
+- **ESC 2021 treatment algorithm:** Standard HF pharmacotherapy (ACEi/ARNI + beta-blocker + MRA + SGLT2i) applies to LMNA-associated DCM without modification; LMNA-specific management is ICD risk stratification. TRED-HF pilot data: in non-ischaemic DCM achieving partial/complete LVEF recovery on therapy, 44% relapsed within 6 months after drug withdrawal — supporting continuation of medical therapy even in apparent recovery, relevant to LMNA patients who may transiently improve. ([[sources/HF-ESC-2021]])
+
+- **AHA 2022 — ICD for genetic variants at higher LVEF (COR 2a):** AHA 2022 explicitly states that identification of pathogenic variants in LMNA/C, desmosomal proteins, phospholamban, and FLNC may trigger consideration of primary prevention ICD even in patients with LVEF >35% or <3 months of GDMT. This aligns with ESC guidelines but formalizes North American consensus. AHA 2022 also notes that most LMNA cardiomyopathy patients progress to transplantation — sometimes precipitated by refractory arrhythmias more than pump failure. ([[sources/HF-AHA-2022]], rating: very high)
+- **AHA 2022 genetic testing (COR 2a):** Referral for genetic counseling and testing is "reasonable" in select patients with nonischemic cardiomyopathy to identify conditions guiding treatment for patients and family members. This applies directly to LMNA cardiomyopathy. ([[sources/HF-AHA-2022]], rating: very high)
+
+- **CJC 2024 Case 3 — Laminopathy presenting as AF with AV block; rate control preferred over rhythm control:** A 52-year-old woman with persistent AF and normal biventricular function had a father who died suddenly at 50 and received a pacemaker at 41. Post-cardioversion ECG revealed marked sinus bradycardia and first-degree AV delay. Genetic testing identified a pathogenic **LMNA splice site variant (c.356+2T>G)**. Management was fundamentally changed by this diagnosis: (1) long-term OAC prescribed regardless of CHA2DS2-VASc score (LMNA cardiomyopathy carries prominent atrial fibrosis and standstill risk); (2) SCD risk stratification initiated; (3) **rate control chosen over rhythm control** — rhythm control is futile in established cardiac laminopathy due to progressive atrial myopathy and high AF recurrence. Key clinical clue: AF with spontaneous AV conduction slowing (slow ventricular rate) + family history of sudden death/pacemaker strongly suggests laminopathy. ([[sources/genetic-af-cjc-2024]], rating: high)
+- **CJC 2024 — LMNA: dismal catheter ablation outcomes for AF:** Patients with pathogenic LMNA variants and associated cardiomyopathy have poor long-term outcomes with catheter ablation for AF — consistent with the progressive atrial myopathy and fibrosis that characterises LMNA disease. Rate control is preferred over rhythm control in patients with established LMNA cardiomyopathy. ([[sources/genetic-af-cjc-2024]], rating: high)
+- **CJC 2024 — OAC regardless of CHA2DS2-VASc in laminopathy:** LMNA cardiomyopathy is associated with prominent atrial fibrosis, markedly impaired atrial mechanical function, and risk of atrial standstill — mechanisms that substantially elevate thromboembolic risk beyond what CHA2DS2-VASc scoring captures. The CJC 2024 white paper recommends considering OAC regardless of the conventional scoring threshold in LMNA-associated AF. ([[sources/genetic-af-cjc-2024]], rating: high)
+
+- **EHJ 2024 — LMNA as sentinel for EOAF genetic testing:** LMNA is one of the most clinically actionable cardiomyopathy genes identified in EOAF cohorts. In EOAF patients found to carry LMNA variants, increased surveillance and early consideration of ICD (before LVEF falls to ≤35%) is warranted even when ventricular findings on initial echocardiography are absent, because AF may precede structural cardiomyopathy by years. CMR is preferred over echocardiography for surveillance in LMNA-positive EOAF patients. Additionally, when LMNA carriers require rhythm control for AF, caution should be taken with sodium channel blockers (caution applies per Brugada-related overlap; most relevant for SCN5A) — LMNA-specific drug caution relates to antiarrhythmic selection in conjunction with the underlying conduction disease phenotype. ([[sources/genetic-eoaf-ehj-2024]], rating: high)
+
+- **Combined cardiomyopathy + arrhythmia panel — LMNA as heightened arrhythmia risk gene:** In a real-world cohort of 4,782 patients (combined 150-gene panel), LMNA is explicitly categorised as one of 10 genes associated with **heightened arrhythmia risk in cardiomyopathy** — alongside ABCC9, DES, DSP, FLNC, PLN, RBM20, RYR2, SCN5A, and TTN. Patients carrying P/LP variants in this gene group (300 patients, 31.4% of all positives) warranted more intensive cardiac monitoring and/or device intervention to address AF, VT, and/or heart block. This confirms that LMNA gene-positive findings should prompt not just DCM management but active arrhythmia surveillance and ICD consideration even before standard LVEF thresholds are reached. ([[sources/genetic-yield-jama-card-2022]] — high)
+
+- **HFSA 2018 Guideline 9 — Early ICD before LVEF <35%:** In LMNA cardiomyopathy and other genes with prominent early arrhythmia risk (DES, SCN5A, FLNC), an ICD may be considered **before the LVEF falls below 35%** (Level C). Because LMNA cardiomyopathy progresses through conduction disease + AF + VA before LV dysfunction becomes advanced, the standard LVEF ≤35% threshold leaves patients unprotected during the highest arrhythmia-risk period. When a pacemaker indication exists in LMNA cardiomyopathy, an ICD with pacing capability should be implanted rather than a pacemaker alone. For patients likely to require chronic ventricular pacing with reduced EF, a CRT-defibrillator should be considered. ([[sources/genetic-cmp-jcf-2018]] — very high)
+
+## Contradictions / Open Questions
+- **ESC VA 2022 vs. ESC CMP 2023 ICD threshold inconsistency:** ESC VA 2022 recommends ICD in DCM/HNDCM + LVEF <50% + ≥2 risk factors (where LMNA mutation counts as one factor). ESC CMP 2023 instead endorses the LMNA risk-VTA calculator (https://lmna-risk-vta.fr) with an implied ≥10% threshold, and explicitly notes this creates an internal ESC inconsistency. Clinicians managing LMNA patients face different thresholds from two current ESC guidelines — the more genotype-inclusive CMP 2023 approach permits ICD even with LVEF >35% for high-risk calculator scores, while VA 2022 requires meeting the multi-factor threshold. ([[sources/VA-SCD-ESC-2022]], [[sources/esc-cmp-2023]])
+- **High arrhythmia risk at relatively preserved LVEF:** LMNA cardiomyopathy carries a disproportionately high risk of malignant VT compared to non-LMNA DCM with the same LVEF — the standard LVEF ≤35% threshold underestimates risk in this population. Multi-factor ICD thresholds are an attempt to address this, but the optimal combination of risk factors remains unvalidated in prospective studies. ([[sources/acm-hrs-2019]], [[sources/VA-SCD-ESC-2022]])
+- **LMNA sport restriction evidence gap:** The Class III recommendation against competitive sports is based on expert consensus (Level C), not prospective outcome data — in contrast to ARVC, where exercise dose-penetrance data exist. ([[sources/VA-SCD-ESC-2022]])
+- **Rate control vs. rhythm control in LMNA-AF — guidance exists but prospective data lacking:** CJC 2024 characterises rhythm control as "futile" in cardiac laminopathy due to progressive atrial myopathy, and recommends rate control. However, no prospective RCT has evaluated rhythm vs. rate control strategy specifically in LMNA-associated AF. The futility statement is based on clinical observation and small series rather than controlled data. ([[sources/genetic-af-cjc-2024]])
+
+- **ESC 2021 vs. ESC 2022 LMNA risk factor list — minor differences:** ESC 2021 HF guidelines list 4 risk factors (NSVT, LVEF <45%, male sex, non-missense mutations). ESC VA 2022 uses a similar multi-factor threshold (LVEF <50% + ≥2 of: NSVT, male sex, LGE, inducible SMVT) but with LVEF <50% as a gate. The specific thresholds for LVEF (<45% in ESC 2021 vs. <50% in ESC 2022) are inconsistent. ([[sources/HF-ESC-2021]], [[sources/VA-SCD-ESC-2022]])
+
+- **AHA 2022 vs. ESC guidelines on LMNA ICD threshold — converging but not identical:** AHA 2022 uses "COR 2a — consideration for ICD even at LVEF >35%," framed as a genetic variant class recommendation. ESC CMP 2023 endorses the LMNA risk-VTA calculator with ≥10% threshold. ESC VA 2022 uses LVEF <50% + ≥2 risk factors. All three agree LVEF ≤35% is an insufficient threshold for LMNA — but specify different frameworks for the expanded threshold. ([[sources/HF-AHA-2022]], [[sources/VA-SCD-ESC-2022]], [[sources/esc-cmp-2023]])
+
+## Connections
+- Related to [[sources/genetic-eoaf-ehj-2024]]
+- Related to [[sources/genetic-af-cjc-2024]]
+- Related to [[entities/ALVC]]
+- Related to [[concepts/Arrhythmogenic-Cardiomyopathy]]
+- Related to [[concepts/Cascade-Family-Screening]]
+- Related to [[concepts/Sudden-Cardiac-Death]]
+- Related to [[concepts/Early-Onset-Atrial-Fibrillation]]
+- Related to [[entities/NDLVC]]
+- Related to [[entities/DCM]]
+- Related to [[concepts/Late-Gadolinium-Enhancement]]
+- Related to [[concepts/VA-Risk-Stratification-DCM]]
+- Related to [[sources/HF-ESC-2021]]
+- Related to [[sources/HF-AHA-2022]]
+- Related to [[concepts/Genetic-Testing-in-Cardiomyopathy]]
+- Related to [[sources/genetic-cmp-jcf-2018]]
+- Related to [[sources/genetic-yield-jama-card-2022]]
