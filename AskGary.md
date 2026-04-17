@@ -6,7 +6,7 @@
 
 ## Operations
 
-### QUERY- `> ask gary [question]`
+### QUERY- `[question]`
 1. Only find answers in `https://github.com/gary2ndmailbox/drgary/`
 2. Read `https://github.com/gary2ndmailbox/drgary/blob/main/wikiindex.md` to find concepts or entities with relevant description
 3. Rank the most relevant concepts or entities and confirm the top 10 with me
