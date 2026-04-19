@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Heart Failure with Preserved Ejection Fraction (HFpEF)"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors]
-source_count: 3
-last_updated: 2026-04-12
+source_count: 4
+last_updated: 2026-04-19
 ---
 
 # Heart Failure with Preserved Ejection Fraction (HFpEF)
@@ -60,6 +60,16 @@ HFpEF is defined by the presence of HF symptoms ± signs, LVEF ≥50%, and objec
 - **ESC 2023:** SGLT2i Class I, Level A — incorporates both EMPEROR-Preserved and DELIVER plus pooled meta-analysis. ([[sources/HF-update-ESC-2023]], rating: very high)
 - Both guidelines agree SGLT2i is beneficial in HFpEF; the difference is classification strength reflecting publication timing, not disagreement on efficacy.
 
+### Titin Stiffness in HFpEF Pathophysiology
+- Increased cardiomyocyte passive stiffness is a hallmark of HFpEF. Titin contributes substantially to this stiffness through multiple mechanisms. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **Isoform shift:** Increased N2BA:N2B ratio has been observed in HFpEF patients in some (but not all) studies → lower titin-based stiffness as an apparent compensatory mechanism. The direction of isoform switch and its functional significance in HFpEF remain inconsistent across studies. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **Phosphorylation:** N2Bus **hypo-phosphorylation** (reduces extensibility) + constitutively expressed PEVK **hyper-phosphorylation** (increases stiffness) → combined increase in cardiomyocyte passive stiffness. Both PKA/PKG-mediated N2Bus phosphorylation and the cGMP-PKG pathway are impaired in HFpEF. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **Acetylation:** Reduced SIRT1 activity in HFpEF → increased titin acetylation → increased stiffness. NAD⁺/NAM treatment restores SIRT1 → deacetylation of titin spring → reduced stiffness in HFpEF animal models. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **Failed clinical trials targeting titin phosphorylation via cGMP-PKG:**
+  - **RELAX** (sildenafil/PDE5A inhibitor): no improvement in diastolic function or VO2 in HFpEF (consistent with AHA 2022 COR 3 No Benefit for PDE5 inhibitors). ([[sources/TTN-CVResearch-2022]], rating: high); ([[sources/HF-AHA-2022]], rating: very high)
+  - **VITALITY** and **SOCRATES** (sGC stimulators): no improvement in HFpEF despite pre-clinical evidence of N2Bus phosphorylation increase and reduced CM stiffness. ([[sources/TTN-CVResearch-2022]], rating: high)
+- See [[concepts/Titin-PTMs]] and [[concepts/Titin-Isoform-Switch]] for full mechanistic detail. ([[sources/TTN-CVResearch-2022]], rating: high)
+
 ## Contradictions / Open Questions
 - **SGLT2i reduces HF hospitalizations but not CV death in HFpEF:** Both EMPEROR-Preserved and DELIVER showed no significant reduction in CV death individually; the pooled meta-analysis also showed a non-significant trend (HR 0.88, P=0.052). The class I, level A recommendation is based on the primary composite endpoint which was driven by hospitalizations. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **Improved EF phenotype (HFrecEF):** DELIVER included patients with LVEF previously ≤40% that had improved to >40%. Dapagliflozin showed consistent benefit in this subgroup — suggesting SGLT2i may benefit "recovered EF" HF, but guideline classification of this subgroup remains undefined. ([[sources/HF-update-ESC-2023]], rating: very high)
@@ -71,3 +81,6 @@ HFpEF is defined by the presence of HF symptoms ± signs, LVEF ≥50%, and objec
 - Related to [[sources/HF-update-ESC-2023]]
 - Related to [[sources/HF-AHA-2022]]
 - Related to [[entities/Atrial-Fibrillation]] — elevated NT-proBNP thresholds differ in AF patients
+- Related to [[concepts/Titin-PTMs]]
+- Related to [[concepts/Titin-Isoform-Switch]]
+- Related to [[sources/TTN-CVResearch-2022]]

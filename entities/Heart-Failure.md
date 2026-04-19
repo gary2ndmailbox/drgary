@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Heart Failure"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors, guideline, acute-heart-failure]
-source_count: 5
-last_updated: 2026-04-14
+source_count: 6
+last_updated: 2026-04-18
 ---
 
 # Heart Failure
@@ -80,6 +80,8 @@ The four foundational drug classes each carry Class I / COR 1A recommendations (
 - **Digoxin:** AHA COR 2b (B-R) — may reduce HF hospitalization; no mortality benefit. ([[sources/HF-AHA-2022]], rating: very high)
 
 **Drugs to AVOID in HFrEF (AHA COR 3 Harm):** non-dihydropyridine CCBs, Class IC antiarrhythmics + dronedarone, thiazolidinediones, saxagliptin/alogliptin, NSAIDs. ([[sources/HF-AHA-2022]], rating: very high)
+- **Antiarrhythmic drugs in HFrEF:** Amiodarone is the only antiarrhythmic considered safe (not harmful) in HFrEF, but SCD-HeFT (n=2521) demonstrated **no mortality benefit** for amiodarone vs placebo in symptomatic patients with LVEF <35% — confirming amiodarone does not substitute for ICD in primary prevention. Class IC agents (flecainide, propafenone) and dronedarone are actively harmful in HFrEF. ([[sources/amiodarone-cvdrug-2020]], rating: high; [[sources/HF-AHA-2022]], rating: very high)
+- See [[entities/Amiodarone]] for full amiodarone pharmacology, dosing, toxicity monitoring, and drug interactions.
 
 ### HFmrEF
 - **SGLT2i (dapagliflozin or empagliflozin):** ESC 2023 **Class I, Level A** — reduces HF hospitalization or CV death *(upgraded from Class IIb in 2021 following DELIVER trial)*. AHA 2022: COR 2a (B-R). ([[sources/HF-update-ESC-2023]], [[sources/HF-AHA-2022]], rating: very high)
@@ -125,6 +127,8 @@ Applies to HFrEF and HFmrEF (most evidence from LVEF ≤45%); IV iron not curren
 ### TEER (Transcatheter Edge-to-Edge Repair) for Secondary MR
 - **Class IIb:** May be considered in carefully selected patients with significant functional MR + LVEF >20% + maximally optimised GDMT who remain symptomatic and have suitable anatomy. ([[sources/HF-ESC-2021]], rating: very high)
 - Benefit driven by COAPT (disproportionate MR); MITRA-FR (proportionate MR) showed no benefit — patient selection is critical. ([[sources/HF-ESC-2021]], rating: very high)
+- **[2025 ESC VHD Upgrade] Class I A (ESC 2025 VHD guidelines):** TEER is now **recommended** (upgraded from IIb) for haemodynamically stable symptomatic patients with LVEF <50%, persistent severe ventricular SMR despite optimised GDMT + CRT, fulfilling specific criteria (NYHA ≥II, LVEF 20–50%, LVESD ≤70 mm, ≥1 HF hospitalisation/year or elevated BNP, SPAP ≤70 mmHg, no severe RV dysfunction, no advanced HF, no revascularisation-requiring CAD). Based on COAPT, RESHAPE-HF2, and meta-analysis. ([[sources/vhd-esc-2025]], rating: very high)
+- **Cardiogenic shock + ventricular SMR post-MI:** M-TEER supported by propensity-matched data showing lower mortality vs surgery or medical therapy — may facilitate weaning from mechanical circulatory support. ([[sources/vhd-esc-2025]], rating: very high)
 
 ---
 
@@ -181,6 +185,9 @@ Applies to HFrEF and HFmrEF (most evidence from LVEF ≤45%); IV iron not curren
 ---
 
 ## Connections
+- Related to [[entities/Amiodarone]]
+- Related to [[concepts/Secondary-Mitral-Regurgitation]]
+- Related to [[concepts/Valvular-Heart-Disease]]
 - Related to [[concepts/HFpEF]]
 - Related to [[entities/DCM]]
 - Related to [[entities/Atrial-Fibrillation]]

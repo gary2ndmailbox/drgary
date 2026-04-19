@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Transthyretin Amyloidosis (ATTR)"
 tags: [cardiomyopathy, amyloidosis, genetics, multimodality-imaging]
-source_count: 1
-last_updated: 2026-04-11
+source_count: 2
+last_updated: 2026-04-18
 ---
 
 # Transthyretin Amyloidosis (ATTR)
@@ -35,9 +35,17 @@ Transthyretin amyloidosis (ATTR) is caused by misfolding and extracellular depos
 - **Bone scintigraphy vs. CMR — complementary but neither definitive alone:** Bone scintigraphy (Grade 2–3 uptake without monoclonal protein) is listed as Class I non-invasive diagnostic standard for ATTR-CA. However, CMR with native T1 and ECV provides unique information (fibrosis burden, prognosis) not available from scintigraphy. The two modalities serve different diagnostic roles, and the choice between them is not standardized. ([[sources/esc-cmp-2023]])
 - **Tafamidis — timing of initiation undefined:** Tafamidis is recommended as disease-modifying therapy for ATTR-CM but the optimal timing of initiation relative to disease stage is not established. It has limited efficacy in advanced disease with irreversible organ damage (parallel to ERT in AFD), yet no validated staging system guides prescribing. Early initiation is advocated but not prospectively validated against late initiation. ([[sources/esc-cmp-2023]])
 
+## Coexistence with Aortic Stenosis
+- ATTR-CA co-exists with AS in elderly patients and the two conditions may causally interrelate — ATTR may contribute to AS progression through calcium-amyloid interaction in the valve leaflets
+- **Screen with bone scintigraphy** (after excluding monoclonal protein by immunofixation + free light chains) if ATTR is suspected in patients with AS: low ECG voltage relative to LV mass, typical CMR pattern, carpal tunnel syndrome history ([[sources/vhd-esc-2025]], rating: very high)
+- **Valve intervention remains indicated** despite co-existing ATTR-CA: patients with concomitant severe AS and ATTR-CA usually benefit from valve intervention, even if long-term prognosis is limited by amyloidosis ([[sources/vhd-esc-2025]], rating: very high)
+- ATTR screening is not yet routine in AS workup — current guidelines recommend it only when clinically suspected ([[sources/vhd-esc-2025]], rating: very high)
+
 ## Connections
 - Related to [[entities/HCM]]
 - Related to [[entities/RCM]]
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
 - Related to [[concepts/Phenotypic-Approach-to-Cardiomyopathy]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
+- Related to [[concepts/Aortic-Stenosis]]
+- Related to [[concepts/Valvular-Heart-Disease]]

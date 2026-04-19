@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Dilated Cardiomyopathy (DCM)"
 tags: [cardiomyopathy, genetics, sudden-cardiac-death, heart-failure]
-source_count: 8
-last_updated: 2026-04-15
+source_count: 9
+last_updated: 2026-04-19
 ---
 
 # Dilated Cardiomyopathy (DCM)
@@ -62,6 +62,15 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - LVEF categorical cutoffs (<30%, <35%) non-significant in pooled analysis; LVEF alone is insufficient for risk stratification. ([[sources/VA-DCM-Sammani-2020]])
 - See [[concepts/VA-Risk-Stratification-DCM]] for full detail.
 
+### TTNtv-DCM — Molecular Pathomechanisms
+- TTNtv are the most common genetic cause of DCM (15–25% of DCM cohorts). Also most common genetic predisposition in peripartum, alcoholic, and anthracycline-induced CMP. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **Location-dependent risk:** A-band TTNtv → **OR 49.8** for DCM (prevalence 10.74% vs. control 0.24%). Central I-band TTNtv in low-PSI exons → OR 1.5 (near-population risk). Risk is proportional to the percentage of cardiac transcripts that include the truncated exon. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **Triple pathomechanism (Fomin et al., Sci Transl Med 2021):**
+  1. **Titin haploinsufficiency** (lifelong): reduced wt-titin protein content → fewer sarcomeres per unit area → chronic contractile deficiency.
+  2. **Truncated protein toxicity** (late-onset): tr-titin proteins stably expressed in adult TTNtv-DCM hearts (up to 50% of total titin pool); sequestered in cytoplasmic aggregates (not incorporated into sarcomeres). Higher tr-titin content correlates with younger age at transplantation.
+  3. **PQC deregulation** (progressive): UPS overwhelmed and downregulated (including reduced MuRF1); increased autophagy as partial compensation. Nonsense-mediated decay of TTNtv mRNA is NOT a prominent feature in adult hearts. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **Therapeutic proof-of-concept:** In TTNtv hiPSC-CMs: UPS inhibition increased wt-titin and improved contractility (despite raised tr-titin). **CRISPR/Cas9 correction** of TTNtv fully normalized wt-titin, eliminated tr-titin, and restored contractility — strongest proof-of-concept for gene correction in TTNtv-DCM. ([[sources/TTN-CVResearch-2022]], rating: high)
+
 ### HFSA 2018 — Genetic Testing Yield and Gene-Specific Guidance
 - Overall genetic yield in DCM: ~10–40% in familial DCM; ~10–25% in isolated (non-familial) DCM ([[sources/genetic-cmp-jcf-2018]] — very high)
 - TTN truncating variants (TTNtv) are the most common genetic finding (10–20% of DCM). Interpretation is challenging: TTNtv frequency in the general population, non-segregating cases, and population-level LV function decrements suggest some TTNtv may function as risk alleles rather than fully penetrant pathogenic variants ([[sources/genetic-cmp-jcf-2018]] — very high)
@@ -114,3 +123,6 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - Related to [[concepts/Genetic-Testing-in-Cardiomyopathy]]
 - Related to [[sources/genetic-cmp-jcf-2018]]
 - Related to [[sources/genetic-eoaf-ehj-2024]]
+- Related to [[sources/TTN-CVResearch-2022]]
+- Related to [[concepts/Titin-Isoform-Switch]]
+- Related to [[concepts/Titin-PTMs]]

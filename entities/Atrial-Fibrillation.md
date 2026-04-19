@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Atrial Fibrillation"
 tags: [cardiac-arrhythmias, acquired-arrhythmias, gene-therapy, atrial-fibrillation, anticoagulation, stroke-prevention]
-source_count: 7
-last_updated: 2026-04-12
+source_count: 10
+last_updated: 2026-04-19
 ---
 
 # Atrial Fibrillation (AF)
@@ -46,6 +46,13 @@ Atrial fibrillation is the most prevalent sustained cardiac arrhythmia, characte
 
 ### Rhythm Control
 - **Early rhythm control:** Implementing rhythm control within 12 months of diagnosis reduces CV death/stroke/HF hospitalisation; Class IIa/B-R (AHA 2023), Class IIa/B (ESC 2024). EAST-AFNET 4 primary result: HR 0.79 (96% CI 0.66–0.94; P=0.005); CV death HR 0.72; stroke HR 0.65; trial stopped early for efficacy at median 5.1 years; benefit independent of symptom status. ([[sources/EAST-AFNET4-NEJM-2020]], rating: very high; [[sources/AF-ESC-2024]]; [[sources/AF-AHA-2023]])
+
+#### Amiodarone for AF Rhythm Control
+- **Acute pharmacologic cardioversion efficacy:** 35–65% (lower than electrical cardioversion 70–90%). Suitable for patients who prefer pharmacologic approach or have concomitant ischaemic heart disease (unlike propafenone or flecainide, which require structurally normal hearts). ([[sources/amiodarone-cvdrug-2020]], rating: high)
+- **Long-term rhythm maintenance:** Pooled AFFIRM + AF-CHF (n=3307) — freedom from AF 84% at 1 year and 45% at 5 years. Meta-analysis (n=673): amiodarone more effective than placebo or β-blockers at achieving sinus rhythm (21.3 vs 9.2 events/100 patient-years) without increasing long-term mortality. ([[sources/amiodarone-cvdrug-2020]])
+- **Catheter ablation vs. amiodarone in AF + HF:** Di Biase 2016 RCT (n=203, persistent AF + HF + implanted device) — 70% catheter ablation vs. 34% amiodarone patients were AF-free at 2 years. Catheter ablation is preferred in this population. ([[sources/amiodarone-cvdrug-2020]])
+- **In HFrEF:** Amiodarone is the **only safe antiarrhythmic** for rhythm control in HFrEF — propafenone, flecainide, and dronedarone are associated with worse outcomes. SCD-HeFT (n=2521): amiodarone showed **no mortality benefit** vs placebo in HFrEF (LVEF <35%) — it does not replace ICD as primary prevention strategy. ([[sources/amiodarone-cvdrug-2020]], [[sources/HF-ESC-2021]])
+- See [[entities/Amiodarone]] for full pharmacology, dosing, toxicity monitoring, and drug interactions.
 - **Catheter ablation:**
   - ESC 2024: Class I/A as first-line for paroxysmal AF; Class I/B for persistent AF after failed AADs; Class I for HFrEF if tachycardia-induced cardiomyopathy likely. Uninterrupted OAC required peri-procedure. ([[sources/AF-ESC-2024]])
   - AHA 2023: Class I/A for younger patients with few comorbidities and paroxysmal AF; Class IIa/B-R for broader paroxysmal/persistent AF population; Class I/A in HFrEF with GDMT. ([[sources/AF-AHA-2023]])
@@ -55,6 +62,10 @@ Atrial fibrillation is the most prevalent sustained cardiac arrhythmia, characte
 
 ### Surgical Options
 - **Surgical LAA closure** during cardiac surgery: Class I/B (ESC 2024) / Class I/A (AHA 2023) as adjunct to OAC; LAAOS III: HR 0.67 for ischaemic stroke/SE. ([[sources/AF-ESC-2024]], [[sources/AF-AHA-2023]])
+- **[2025 ESC VHD] Surgical LAAO during valve surgery (Class I B):** Surgical LAAO is now Class I B in patients with AF undergoing any valve surgery to prevent cardioembolic stroke and systemic thromboembolism (LAAOS III data extended to valve surgery population). ([[sources/vhd-esc-2025]], rating: very high)
+- **[2025 ESC VHD] Surgical AF ablation during valve surgery:** Class I A for MV surgery; Class IIa A for non-MV valve surgery — in patients with AF suitable for rhythm control strategy, performed by an experienced electrophysiologist/arrhythmia surgeon team. ([[sources/vhd-esc-2025]], rating: very high)
+- **[2025 ESC VHD] AF-driven atrial SMR and secondary TR:** AF is the primary driver of atrial secondary MR (annular dilatation without LV dilation) and atrial secondary TR; rhythm control may reduce SMR and TR severity and reverse LA/RA dilatation. See [[concepts/Secondary-Mitral-Regurgitation]], [[concepts/Tricuspid-Regurgitation]]. ([[sources/vhd-esc-2025]], rating: very high)
+- **[2025 ESC VHD] DOACs in VHD+AF:** DOACs preferred for AF with AS, AR, or MR (Class I A); DOACs contraindicated (Class III B) if rheumatic MS with MVA ≤2.0 cm² — VKA mandatory in this group. ([[sources/vhd-esc-2025]], rating: very high)
 
 ## Genetics
 - **Early-onset AF yield:** In a prospective cohort of 1293 patients with AF diagnosed before age 66 undergoing whole-genome sequencing, 10.1% carried a disease-associated (P/LP) variant in a cardiomyopathy or arrhythmia gene — rising to 16.8% in those diagnosed before age 30. Most pathogenic variants were in cardiomyopathy genes (*TTN*, *MYH7*, *MYH6*, *LMNA*), not channelopathy genes. Supports a model where early-onset AF often represents the first manifestation of an underlying inherited cardiomyopathy ("atrial myopathy"). ([[sources/eoaf-jama-2021]], rating: high)
@@ -99,6 +110,26 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 - **Antiplatelet therapy is NOT recommended** for stroke/thromboembolism prevention in cancer + AF (Class III). ([[sources/Cardio-Oncology-ESC-2022]])
 - **BTK inhibitor-associated AF:** Ibrutinib (first-generation) is a major cause of AF in haematological malignancy patients. Acalabrutinib (second-generation, greater BTK selectivity) has lower overall symptomatic CV events but comparable grade ≥3 AF and AF in patients ≥75 or with prior AF history. Opportunistic AF screening (pulse-taking or ECG rhythm strip) is recommended at every clinical visit during BTK inhibitor therapy (Class I/C). TTE in all patients who develop AF during BTK therapy (Class I/C). Ibrutinib should be temporarily interrupted for DAPT and 3–7 days before invasive procedures (bleeding diathesis). ([[sources/Cardio-Oncology-ESC-2022]], rating: very high)
 
+## Drug-Induced Atrial Fibrillation
+- A broad range of medications can cause or exacerbate AF/AFL; this is an underappreciated clinical cause of new-onset AF. ([[sources/drug-arrhythmia-aha-2020]], rating: very high)
+- **Anticancer agents** are a major category: tyrosine kinase inhibitors (cetuximab, sunitinib, sorafenib; ibrutinib 3.3–6.5% — highest risk); anthracyclines (doxorubicin 1.4–13.8%); HER2/Neu receptor blockers (trastuzumab 1.2–19.9%); alkylating agents (cisplatin, cyclophosphamide, up to 15.5%); mechanisms include reactive oxygen species, inflammation, ion channel dysfunction, and thyrotoxicosis (kinase inhibitors). ([[sources/drug-arrhythmia-aha-2020]])
+- **Antipsychotics**: chlorpromazine (OR 1.96), clozapine (OR 2.81), quetiapine (OR 1.55), olanzapine (OR 1.81), risperidone (OR 1.25) — via altered autonomic tone and muscarinic blockade causing atrial conduction abnormalities. ([[sources/drug-arrhythmia-aha-2020]])
+- **Catecholaminergic agents:** dobutamine (0–18%), dopamine, epinephrine — via β-adrenergic stimulation, shortened atrial ERP, and increased pulmonary vein ectopy. ([[sources/drug-arrhythmia-aha-2020]])
+- **Alcohol:** pooled OR/RR 1.51; dose-dependent; mechanisms include shortened atrial ERP, increased sympathetic and vagal activity, and interatrial electromechanical delay. ([[sources/drug-arrhythmia-aha-2020]])
+- **Bronchodilators (β-agonists, theophylline):** β₂-adrenergic and phosphodiesterase-mediated mechanisms; avoid excessive stimulant use and maintain theophylline <20 μg/mL. ([[sources/drug-arrhythmia-aha-2020]])
+- **Class IC antiarrhythmics (flecainide, propafenone):** Can convert AF to AFL with 1:1 AV conduction and wide QRS — AV nodal blocking drug must always be co-prescribed in patients with AFL taking these agents. ([[sources/drug-arrhythmia-aha-2020]])
+- **NSAIDs/COX-2 inhibitors:** Modest but statistically significant AF risk (diclofenac IR 1.2–1.4; etoricoxib HR 1.35) — mechanism involves reduced endogenous antiarrhythmic prostacyclin via COX-2 inhibition. ([[sources/drug-arrhythmia-aha-2020]])
+- **Management:** Discontinue offending agent (many self-convert to sinus rhythm); rate control with AV nodal blocking agents; TOE or ≥3 weeks therapeutic anticoagulation before cardioversion if AF ≥48 h or unknown duration; hemodynamically unstable → urgent cardioversion. ([[sources/drug-arrhythmia-aha-2020]])
+- See [[concepts/Drug-Induced-Arrhythmia]] for full drug catalog by arrhythmia type.
+
+## AF and Obstructive Sleep Apnea
+- OSA is present in **21–74%** of AF patients (vs. 3–49% general population); most AF+OSA patients do not report daytime sleepiness — symptom-based screening is unreliable. ([[sources/osa-af-jama-2018]], rating: high)
+- OSA creates a **unique complex and dynamic arrhythmogenic substrate** through dual mechanisms: acute apnea-associated electrophysiological changes (atrial stretch, shortened refractoriness, sympathovagal activation → premature atrial contractions) and long-term structural remodeling (atrial fibrosis, connexin dysregulation, conduction slowing). See [[concepts/OSA-Arrhythmogenic-Substrate]]. ([[sources/osa-af-jama-2018]])
+- OSA reduces efficacy of all AF treatments: antiarrhythmic drugs (lower response rate in severe OSA), cardioversion (82% recurrence at 12 months without CPAP vs. 53% in non-OSA vs. 42% with CPAP), and catheter ablation (31% greater recurrence after PVI; HR 8.81 for PVI failure with untreated OSA + non-PV triggers). ([[sources/osa-af-jama-2018]])
+- **CPAP** observationally restores AF recurrence rates to near those of non-OSA patients after cardioversion and PVI (no AF-specific RCT evidence as of 2018); benefits strongest in younger, obese, and male patients. ([[sources/osa-af-jama-2018]])
+- **Screening:** Sleep study evaluation is reasonable in AF patients being considered for rhythm control strategy regardless of sleepiness symptoms. Polygraphy is a practical screening modality. AHI may be an inferior metric vs. nocturnal hypoxemic burden for predicting AF risk. ([[sources/osa-af-jama-2018]])
+- **Guidelines:** AHA 2023 — sleep apnoea treatment listed under LRFM (Class I). ESC 2016 — OSA interrogation and CPAP to reduce AF recurrence (Class IIa, Level B). ([[sources/AF-AHA-2023]]; [[sources/osa-af-jama-2018]])
+
 ## Contradictions / Open Questions
 - CABANA trial showed no significant mortality benefit of catheter ablation vs. drug therapy in all-comers; CASTLE-AF showed benefit in HFrEF — patient selection is critical. ([[sources/AF-ESC-2024]], [[sources/AF-AHA-2023]])
 - Optimal duration of device-detected subclinical AF warranting OAC remains undefined; ARTESiA and NOAH trials gave discordant results. ([[sources/AF-ESC-2024]])
@@ -110,6 +141,12 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 - **CHA2DS2-VASc vs. cancer:** This guideline (ESC 2022 Cardio-Oncology) uses CHA2DS2-VASc (the older score) and notes it underestimates thromboembolic risk in cancer. The newer ESC 2024 AF guidelines use CHA2DS2-VA. In cancer patients, both scores should be considered lower-bound estimates. ([[sources/Cardio-Oncology-ESC-2022]], [[sources/AF-ESC-2024]])
 
 ## Connections
+- Related to [[entities/Amiodarone]]
+- Related to [[concepts/Drug-Induced-Arrhythmia]]
+- Related to [[concepts/Secondary-Mitral-Regurgitation]]
+- Related to [[concepts/Tricuspid-Regurgitation]]
+- Related to [[concepts/Mitral-Stenosis]]
+- Related to [[concepts/Valvular-Heart-Disease]]
 - Related to [[concepts/AF-CARE]]
 - Related to [[concepts/AF-Staging]]
 - Related to [[concepts/CHA2DS2-VA]]
@@ -132,3 +169,5 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 - Related to [[concepts/Cardio-Oncology]]
 - Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
+- Related to [[entities/Obstructive-Sleep-Apnea]]
+- Related to [[concepts/OSA-Arrhythmogenic-Substrate]]

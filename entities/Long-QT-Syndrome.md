@@ -6,8 +6,8 @@ tags:
   - inherited-arrhythmias
   - sudden-cardiac-death
   - LQTS
-source_count: 4
-last_updated: 2026-04-13
+source_count: 5
+last_updated: 2026-04-18
 ---
 
 # Long QT Syndrome (LQTS)
@@ -22,7 +22,7 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - **Arrhythmic risk by age:** Highest in childhood; decreases with age; patients >60 years have attenuated risk. ([[sources/channelopathies-jaha-2025]])
 - **Sex-based risk:** Males aged 10–12 have 4× higher arrhythmic risk than females. From ages 18–40, risk reverses: women 11% vs. men 2%. Sex hormones modulate IKr — oestrogen inhibits (↑QT), testosterone potentiates (↓QT). Postpartum period carries elevated risk. ([[sources/channelopathies-jaha-2025]])
 - **Asymptomatic carrier risk:** Family members with a confirmed pathogenic LQTS variant but normal QTc carry a **tenfold increased risk** of cardiac events compared to non-carriers — justifying variant analysis in all first-degree relatives regardless of QTc. ([[sources/arrhythmia-genetics-mgenetik-2025]], rating: high)
-- **Drug-induced QTc prolongation:** Only 10–15% of cases represent unmasked hidden LQTS. ([[sources/arrhythmia-genetics-mgenetik-2025]])
+- **Drug-induced QTc prolongation:** Only 10–15% of cases represent unmasked hidden LQTS. ([[sources/arrhythmia-genetics-mgenetik-2025]]) — *See Contradictions: the AHA 2020 statement cites ~30% carrying latent LQTS variants in drug-induced TdP specifically.* ([[sources/drug-arrhythmia-aha-2020]], rating: very high)
 
 ### Genetic Subtypes
 - **17 subtypes** defined by gene mutations; three major subtypes — LQT1 (KCNQ1, 30–35%), LQT2 (KCNH2, 25–30%), LQT3 (SCN5A, 5–10%) — account for ~75% of genotype-positive cases. ([[sources/channelopathies-jaha-2025]], rating: high)
@@ -64,6 +64,16 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - **LCSD (left cardiac sympathetic denervation): Class I** — when ICD is contraindicated/declined, OR patient on full therapy with ICD still has multiple shocks or syncope from VA. Post-LCSD QTc <500 ms predicts success; QTc >500 ms persistent = consider ICD. ([[sources/VA-SCD-ESC-2022]])
 - See [[concepts/Left-Cardiac-Sympathetic-Denervation]] for LCSD technique detail.
 
+### Pregnancy and Postpartum Management
+- **Risk paradox:** Pregnancy is relatively protective (physiological tachycardia shortens QT), but the 9-month postpartum period carries a 2.7-fold increased cardiac event risk and 4.1-fold life-threatening event risk versus prepregnancy baseline (Seth et al. 2007). Risk reverts to baseline after 9 months postpartum. ([[sources/lqts-pregnancy-medicina-2022]], rating: medium)
+- **LQT2 highest postpartum risk:** Postpartum cardiac events are disproportionately reported in LQT2, attributable to the postpartum fall in progesterone — which has direct antiarrhythmic properties via reduction of polymorphic VT in preclinical models. ([[sources/lqts-pregnancy-medicina-2022]])
+- **Sex hormones:** Estradiol is proarrhythmic (inhibits IKr, prolongs QTc); progesterone is antiarrhythmic (reduces VT triggers). This mechanistic axis explains sex-based and pregnancy-related arrhythmic risk variation. ([[sources/lqts-pregnancy-medicina-2022]])
+- **Beta-blockers: Class I** throughout pregnancy and ≥40 weeks postpartum (ESC 2018; AHA/ACC/HRS 2017). Non-selective agents (propranolol, nadolol) superior to metoprolol. Postpartum event rate reduced from 3.7% → 0.8% with beta-blocker use. ([[sources/lqts-pregnancy-medicina-2022]])
+- **Amiodarone: contraindicated** in pregnancy (QT prolongation, fetal toxicity). Mexiletine and ranolazine can be used as add-on in LQT3. ([[sources/lqts-pregnancy-medicina-2022]])
+- **Delivery risk stratification:** Three-tier system (ESC 2018 / Roston 2020): low risk (QTc ≤470 ms, no events) → Level 1; medium risk (QTc ≥470 ms or remote events) → Level 2, tertiary centre; high risk (recent events on therapy) → Level 3, Caesarean in cardiac theatre. ([[sources/lqts-pregnancy-medicina-2022]])
+- **ICD before pregnancy** preferred in high-risk women; safe to implant during pregnancy if new indication arises (after 8 weeks gestation). ([[sources/lqts-pregnancy-medicina-2022]])
+- See [[concepts/LQTS-Pregnancy-Management]] for full detail.
+
 ### Emerging Therapies
 - **SupRep gene therapy (LQT1):** AAV9-delivered shRNA suppresses mutant KCNQ1 + shRNA-immune replacement cDNA. Validated in transgenic rabbits: normalised QTi/APD90 and restored β-adrenergic response (Bains 2024; Dotzler 2023). ([[sources/gene-therapy-arrhythmia-2025]], rating: high)
 - **SupRep gene therapy (LQT2):** Normalised QTc from 470 → 414 ms, suppressed EADs and TdP inducibility in rabbit model (Bains 2023). ([[sources/gene-therapy-arrhythmia-2025]])
@@ -73,12 +83,14 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 
 ## Contradictions / Open Questions
 - **ClinGen revalidation removed many published LQTS genes:** The 2020 Adler et al. ClinGen reappraisal confirmed only 3 genes as definitively causing isolated LQTS (KCNQ1, KCNH2, SCN5A); KCNE2 was disputed and removed; KCNJ2/KCNE1 reclassified as primarily syndromal. Many previously published "LQTS genes" lack sufficient curated evidence — clinicians using broad gene panels may receive results implicating genes without definitive LQTS causation, risking misclassification. ([[sources/arrhythmia-genetics-mgenetik-2025]], rating: high)
+- **Drug-induced TdP and latent LQTS — discrepant estimates:** The AHA 2020 statement reports ~30% of patients with drug-induced QT prolongation carry pathogenic variants in 1 of the 5 major LQTS genes — supporting drug-induced TdP as frequently unmasking subclinical LQTS. In contrast, the arrhythmia genetics review (2025) cites only 10–15% as representing unmasked hidden LQTS. The discrepancy likely reflects different patient populations, gene panels, and QT prolongation vs. TdP definitions. Neither figure currently supports routine pre-prescription genetic screening. ([[sources/drug-arrhythmia-aha-2020]], [[sources/arrhythmia-genetics-mgenetik-2025]])
 - **QTc threshold inconsistency — diagnosis vs. clinical practice:** ESC 2022 uses QTc ≥480 ms on repeated ECGs as a Class I diagnostic criterion. Many clinical programmes and older guidelines use QTc >450 ms (males) or >470 ms (females). The Schwartz Score uses ≥480 ms for 3 points but overall diagnosis can be made at lower values. This creates real-world variation in who receives a diagnosis and genetic testing referral. ([[sources/VA-SCD-ESC-2022]], [[sources/channelopathies-jaha-2025]])
 - **SupRep balance constraint — no validated human dosing:** SupRep requires precise suppression-to-replacement ratio: excess suppression worsens LQTS; excess replacement risks SQTS. This therapeutic window has been demonstrated in animal models but never established in humans — clinical translation faces dosing uncertainty without a validated safety framework. ([[sources/gene-therapy-arrhythmia-2025]])
 - **Asymptomatic LQTS — ICD threshold undefined:** For asymptomatic patients on full beta-blocker therapy with persistently prolonged QTc, ICD implantation is only Class IIb (1-2-3 LQTS Risk calculator guided). No Class I or IIa threshold exists, leaving clinicians without clear guidance for the largest group of LQTS patients. ([[sources/VA-SCD-ESC-2022]])
 - **LQT3: gene therapy vs. Class I mexiletine — competing strategies:** ESC 2022 upgraded mexiletine to Class I for LQT3 with prolonged QTc (established pharmacology). Simultaneously, SCN5A base editing shows strong preclinical data. Both address the same gain-of-function INaL mechanism but compete as clinical strategies; no comparative efficacy data exist. ([[sources/VA-SCD-ESC-2022]], [[sources/gene-therapy-arrhythmia-2025]])
 
 ## Connections
+- Related to [[concepts/Drug-Induced-Arrhythmia]]
 - Related to [[concepts/Cardiac-Action-Potential]]
 - Related to [[concepts/Torsades-de-Pointes]]
 - Related to [[concepts/Schwartz-Score]]
@@ -95,3 +107,4 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - Related to [[entities/SCN5A]]
 - Related to [[entities/Andersen-Tawil-Syndrome]]
 - Related to [[concepts/Electrical-Storm]]
+- Related to [[concepts/LQTS-Pregnancy-Management]]
