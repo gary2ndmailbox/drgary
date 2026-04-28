@@ -2,7 +2,8 @@
 dg-publish: true
 title: "Obstructive Sleep Apnea"
 tags: [obstructive-sleep-apnea, atrial-fibrillation, CPAP, sleep-medicine, cardiac-arrhythmias]
-source_count: 1
+source_count: 2
+last_updated: 2026-04-20
 ---
 
 # Obstructive Sleep Apnea (OSA)
@@ -78,8 +79,14 @@ Obstructive sleep apnea is characterized by repetitive partial collapse (obstruc
 - **Treatment threshold:** What AHI score (or other metric) should trigger treatment in AF patients is unresolved — the AHI cutoff for AF-relevant OSA has ranged from 5 to 15/h across studies. ([[sources/osa-af-jama-2018]])
 - **Periodic limb movements:** Nocturnal periodic limb movements are associated with prevalent AF, incident AF, and AF progression — whether they should be screened for and treated in AF patients is unresolved. ([[sources/osa-af-jama-2018]])
 
+### OSA and Hypertension (2025 AHA HT Guideline)
+- OSA is the **most common secondary cause of hypertension**, with a prevalence of 25–50% among patients with hypertension. ([[sources/HT-AHA-2025]], rating: very high)
+- OSA should be screened for in all patients with resistant hypertension; STOP-Bang questionnaire is the recommended initial screening tool; polysomnography or home sleep testing for confirmation.
+- Treating OSA with CPAP may improve BP control, particularly in patients with resistant hypertension. See [[entities/Hypertension]] for full secondary hypertension screening framework.
+
 ## Connections
 - Related to [[entities/Atrial-Fibrillation]]
+- Related to [[entities/Hypertension]] (most common secondary HT cause; 25–50% prevalence in hypertension)
 - Related to [[concepts/OSA-Arrhythmogenic-Substrate]]
 - Related to [[concepts/Catheter-Ablation-AF]]
 - Related to [[concepts/AF-CARE]]

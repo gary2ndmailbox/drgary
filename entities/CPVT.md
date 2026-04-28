@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)"
 tags: [channelopathies, inherited-arrhythmias, sudden-cardiac-death, CPVT]
-source_count: 3
-last_updated: 2026-04-12
+source_count: 4
+last_updated: 2026-04-25
 ---
 
 # Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)
@@ -20,6 +20,14 @@ CPVT is a channelopathy characterized by exercise- or emotion-triggered polymorp
 - **ECG:** Normal at rest. During exercise: polymorphic VT or bidirectional VT (180° QRS rotation beat-to-beat). CPVT PVCs are late-coupled; LBBB pattern with inferior axis is most sensitive/specific. ([[sources/channelopathies-jaha-2025]])
 - **Diagnosis:** Exercise stress test (Bruce protocol) is primary tool; provokes VT in ~2/3 of patients. "Burst" exercise protocol for higher sensitivity. Epinephrine infusion for those unable to exercise (VT induction with >10 PVCs/min or new T-wave alternans). 24-hr Holter for stress/emotional triggers. Genetic testing recommended for all clinically suspected cases + first-degree relatives. ([[sources/channelopathies-jaha-2025]])
 - **Management:** Exercise restriction. β-blockers (nonselective preferred) are cornerstone. ~30% require add-on therapy: flecainide (class IC) is first add-on. Alternatives: propafenone, verapamil, ivabradine, dantrolene (all limited evidence). LCSD for refractory pharmacological failure. ICD only as last resort — ICD shocks can provoke catecholamine surge, exacerbating arrhythmia; inappropriate shocks more common in CPVT than other channelopathies. Subcutaneous ICDs associated with higher complications. ([[sources/channelopathies-jaha-2025]])
+
+### AHA/ACC 2025 Sports Statement — CPVT-Specific Guidance
+- **Gene+/phenotype-** (no exercise-induced ectopy on burst exercise stress testing): Competitive sports participation **reasonable**; discuss prophylactic CPVT-directed medical therapy (BB ± flecainide). ([[sources/competitive-sports-aha-2025]], rating: very high)
+- **Asymptomatic CPVT with exercise-induced ectopy:** Competitive sports **can consider** after optimization of therapies (BB + flecainide) and normalization of stress test. Adequate suppression = ideally no ectopy; bigeminal PVCs may be acceptable; couplets or NSVT require continued intensification. ([[sources/competitive-sports-aha-2025]])
+- **Previously symptomatic CPVT:** Requires combination BB + flecainide, possibly LCSD, with normalized stress test before competitive sports. These individuals are higher-risk; closely monitor and reassess with burst exercise testing every 6–12 months. ([[sources/competitive-sports-aha-2025]])
+- Serial burst exercise stress testing **1–2 times/year** is recommended for longitudinal monitoring of all CPVT athletes. ([[sources/competitive-sports-aha-2025]])
+- **ICD should NOT be implanted solely for competitive sports participation** — adrenergic storm triggered by shocks worsens CPVT arrhythmia; ~5%/year inappropriate shock risk. ([[sources/competitive-sports-aha-2025]])
+- This represents a meaningful shift from prior universal exercise restriction toward a stratified, SDM-guided approach based on genotype and stress test response. See [[concepts/Sports-Cardiology-SDM]].
 - **Ca²⁺ Release Deficiency Syndrome (CRDS):** A newly described RYR2 **loss-of-function** phenotypic spectrum distinct from classical CPVT. CRDS patients do not exhibit typical exercise-induced bidirectional VT; instead they present with short-coupled ventricular torsade-de-pointes arrhythmias. RYR2 exon 3 deletion has been associated with LVNC overlap and atypical CPVT. Loss-of-function RYR2 variants reduce Ca²⁺ release (vs. the gain-of-function excess release in CPVT1), producing a clinically distinct arrhythmia syndrome. ([[sources/arrhythmia-genetics-mgenetik-2025]])
 - **Gene therapy:** CASQ2 wild-type reconstitution; CRISPR/Cas9 silencing of mutant RYR2. ([[sources/channelopathies-jaha-2025]])
 - Direct RYR2 replacement is infeasible — gene is ~15,000 nt, far exceeding AAV packaging capacity (~4.7 kb). ([[sources/gene-therapy-arrhythmia-2025]])
@@ -55,3 +63,5 @@ CPVT is a channelopathy characterized by exercise- or emotion-triggered polymorp
 - Related to [[entities/Andersen-Tawil-Syndrome]]
 - Related to [[concepts/Electrical-Storm]]
 - Related to [[concepts/Cardiogenetic-Centers]]
+- Related to [[concepts/Sports-Cardiology-SDM]]
+- Related to [[sources/competitive-sports-aha-2025]]

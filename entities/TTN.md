@@ -2,8 +2,8 @@
 dg-publish: true
 title: "TTN (Titin)"
 tags: [genetics, cardiomyopathy, dilated-cardiomyopathy, atrial-fibrillation, rare-variants]
-source_count: 8
-last_updated: 2026-04-19
+source_count: 9
+last_updated: 2026-04-25
 ---
 
 # TTN (Titin)
@@ -52,6 +52,8 @@ Titin spring stiffness is fine-tuned beat-to-beat through three PTM types. See [
   2. **Truncated protein toxicity (poison-peptide mechanism):** tr-titin proteins stably expressed in adult TTNtv-DCM hearts (up to 50% of total titin pool); not incorporated into sarcomeres — instead sequestered in cytoplasmic aggregates. Higher tr-titin content correlates with younger age at transplantation.
   3. **PQC failure:** UPS becomes overwhelmed and downregulated (including reduced MuRF1 expression) as disease progresses; aggregate formation activates autophagy as a partial compensatory response. Nonsense-mediated decay of TTNtv mRNA is NOT a prominent feature.
 - **Therapeutic proof-of-concept in hiPSC-CMs:** UPS inhibition increases wt-titin and improves contractility. **CRISPR/Cas9 correction** of TTNtv fully restores wt-titin, eliminates tr-titin, and recovers contractility — strongest proof-of-concept for gene correction therapy. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **Less cardiac hypertrophy than other genetic DCM forms:** TTNtv-DCM patients develop less cardiac hypertrophy than patients with other genetic cardiomyopathies (e.g. LMNA, MYH7) when corrected for degree of cardiac function or dilatation — reflecting the metabolic-sarcomere mechanism rather than a hypertrophic remodelling response. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **Metabolic shift in sarcomeric DCM:** Sarcomere insufficiency (TTNtv and other sarcomere gene mutations including MYH7, TPM1, TNNT2) → increased metabolic demand + shift toward glucose utilisation + oxidative and mitochondrial stress. This metabolic signature is shared across sarcomere gene DCM, not specific to TTNtv. ([[sources/DCM-Lancet-2023]], rating: very high)
 - **Atrial myopathy hypothesis:** TTNtv in early-onset AF may drive disease via atrial structural dysfunction rather than primary ion channel dysfunction — consistent with AF as an initial cardiomyopathy manifestation before ventricular involvement. ([[sources/eoaf-jama-2021]], [[sources/genetic-eoaf-ehj-2024]])
 
 ---
@@ -110,3 +112,4 @@ Titin spring stiffness is fine-tuned beat-to-beat through three PTM types. See [
 - Related to [[sources/genetic-yield-jama-card-2022]]
 - Related to [[sources/HF-ESC-2021]]
 - Related to [[sources/esc-cmp-2023]]
+- Related to [[sources/DCM-Lancet-2023]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Dilated Cardiomyopathy (DCM)"
 tags: [cardiomyopathy, genetics, sudden-cardiac-death, heart-failure]
-source_count: 9
-last_updated: 2026-04-19
+source_count: 12
+last_updated: 2026-04-25
 ---
 
 # Dilated Cardiomyopathy (DCM)
@@ -24,12 +24,24 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - Genetic yield: ~30% of DCM patients carry a monogenic cause. ([[sources/esc-cmp-2023]])
 - Most common genes: TTN (truncating variants, ~25% familial / ~18% sporadic), LMNA, RBM20, MYH7, SCN5A, and others.
 - Key genotype–phenotype associations:
-  - LMNA: conduction disease/AF precede cardiomyopathy; highest malignant VA risk; specific ICD risk calculator (lmna-risk-vta.fr).
-  - RBM20: severe phenotype, biventricular involvement.
-  - SCN5A: overlap with channelopathy phenotype.
-  - TTN: most common; peripartum CMP association (10% carry TTNtv). Higher rate of LV reverse remodeling (up to 70%) but also higher risk of atrial and ventricular tachyarrhythmias. ([[sources/esc-cmp-2023]], [[sources/HF-ESC-2021]])
+  - LMNA [[LMNA]]: conduction disease/AF precede cardiomyopathy; highest malignant VA risk; specific ICD risk calculator (lmna-risk-vta.fr).
+  - RBM20 : severe phenotype, biventricular involvement.
+  - SCN5A [[SCN5A]]: overlap with channelopathy phenotype.
+  - TTN [[TTN]]: most common; peripartum CMP association (10% carry TTNtv). Higher rate of LV reverse remodeling (up to 70%) but also higher risk of atrial and ventricular tachyarrhythmias. ([[sources/esc-cmp-2023]], [[sources/HF-ESC-2021]])
 - TTNtv associated with alcoholic CMP (13.5% prevalence) and cancer therapy-induced CMP. ([[sources/esc-cmp-2023]])
 - "Second hit theory": genetic predisposition + environmental trigger (alcohol, pregnancy, chemotherapy) drives phenotypic expression. ([[sources/esc-cmp-2023]])
+
+### Mitochondrial DCM
+- Several nuclear-encoded and mtDNA-encoded mitochondrial gene variants cause DCM; **not included in standard DCM panels** — a negative panel does not exclude a mitochondrial cause. ([[sources/mitochondrial-cv-aha-2025]], rating: very high)
+- Key nuclear-encoded mitochondrial genes causing DCM:
+  - *TAFAZZIN* (Barth syndrome, X-linked): DCM + hypertrabeculation + LQT + WPW; often presents in infancy; may stabilise by age 5–6; mean life expectancy 40 y
+  - *DNAJC19* (DCMA syndrome, AR): DCM + ataxia + LQT; most deaths by 15 months
+  - *TWNK/C10orf2* (mtDNA depletion, AD): DCM, SCD, PVCs
+  - *MGME1* (mtDNA depletion, AR): DCM
+  - OXPHOS complex deficiencies (complex I, III, IV; >30 nuclear genes, AR): DCM in the context of multisystem disease (Leigh syndrome phenotype)
+- DCM may arise secondarily after mitochondrial HCM progresses to systolic dysfunction. ([[sources/mitochondrial-cv-aha-2025]])
+- WGS is recommended as first-line for suspected mitochondrial DCM; clinical clues include maternal inheritance, multisystemic features, elevated serum lactate, hearing loss, or diabetes. ([[sources/mitochondrial-cv-aha-2025]])
+- See [[concepts/Mitochondrial-Cardiomyopathy]] and [[concepts/Heteroplasmy]] for full detail.
 
 ### Management
 - Pharmacological treatment follows **ESC 2021 HF Guidelines**: four-pillar therapy — ACEi/ARNI + beta-blocker + MRA + **SGLT2 inhibitors** (dapagliflozin or empagliflozin; Class I regardless of diabetes status). SGLT2i reduces CV death and worsening HF. ([[sources/esc-cmp-2023]], [[sources/HF-ESC-2021]])
@@ -84,6 +96,41 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - **Diagnostic yield in EOAF (~10%) matches non-familial DCM:** The genetic yield of broad cardiomyopathy/arrhythmia panel testing in EOAF patients is ~10% — comparable to the ~10% yield in non-familial (sporadic) DCM. By contrast, familial DCM yields ~50% and mean DCM yield averages ~19%. This parallel supports a Class IB-equivalent justification for genetic testing in EOAF, yet ESC guidelines currently carry only a Class IIb (ACC/AHA) recommendation for AF <45 years — while DCM carries a Class IB recommendation. ([[sources/genetic-eoaf-ehj-2024]], rating: high)
 - **Cardiomyopathy genes dominate the EOAF P/LP landscape:** In the largest EOAF genetic study (Yoneda et al., n=1293), DCM-associated genes accounted for 7.2% of all EOAF patients, HCM genes 3.3%, and ARVC genes 2.9% of EOAF patients — reinforcing the DCM–EOAF genetic overlap and the rationale for including DCM genes in any EOAF panel. ([[sources/genetic-eoaf-ehj-2024]])
 
+### Lancet 2023 Seminar — Molecular Pathomechanisms and Future Therapy
+
+#### Gene-Specific Molecular Mechanisms
+- **DSP (Desmoplakin):** Truncating LP/P variants disrupt intercalated junctions and Na/Ca channel handling. Plakoglobin is released from the desmosome complex → dislocates to cytosol and nucleus → downregulates canonical Wnt/β-catenin pathway → adipogenesis, fibrogenesis, and myocyte apoptosis. CMR: inferior sub-epicardial LGE pattern. Approximately 30% of DSP-related ACM presents with chest pain, troponin release, and ECG changes mimicking acute myocarditis. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **FLNC (Filamin-C):** Truncating LP/P variants saturate the ubiquitin-proteasome and autophagy pathways → impair Z-disc proteostasis → separation of FLNC from Z-discs → myofibril disintegration. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **PLN (Phospholamban):** PLN LP/P variants impair calcium handling; PLN protein aggregation is an early manifestation preceding cardiac dysfunction and fibrosis (confirmed in R14del zebrafish and mice models). Unfolded protein response is activated in PLN-R14del hiPSC-CMs. PLN-R14del-DCM is prone to treatment-resistant HF and arrhythmias. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **BAG3:** BAG3 protein maintains sarcomere integrity, autophagy, apoptosis, and mitochondrial function. Haploinsufficiency → disrupted Z-discs + enhanced apoptosis sensitivity in cardiac and skeletal myocytes + disrupted HSP70-mediated autophagy + impaired sarcomeric protein turnover → reduced myofilament maximal force-generating capacity. High penetrance in patients >40 years. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **Sarcomere genes generally (MYH7, TPM1, TNNT2):** Sarcomere haploinsufficiency → increased metabolic demand + shift toward glucose utilisation + oxidative and mitochondrial stress → hypertrophic cardiomyocyte growth + eccentric cardiac remodelling. ([[sources/DCM-Lancet-2023]], rating: very high)
+
+#### REALM-DCM — LMNA Pathway Therapy Failure
+- Phase 3, placebo-controlled REALM-DCM trial tested p38α-MAPK inhibitor (PF-07265803/ARRY-371797) in symptomatic LMNA-DCM — showed no benefit. Highlights the complexity of LMNA pathophysiology: LMNA controls nuclear function in cardiomyocytes, fibroblasts, endothelial, and inflammatory cells simultaneously; cardiac transcriptomes show enrichment of both cardiomyocyte survival transcripts and reactive fibrosis transcripts. Single-pathway inhibition is insufficient. ([[sources/DCM-Lancet-2023]], rating: very high)
+
+#### Peripartum Cardiomyopathy
+- Defined as cardiomyopathy in last month of pregnancy or within 5 months of delivery, without another cause. Risk factors: African ancestry, multiparity, pre-eclampsia/hypertensive disorders of pregnancy, advanced maternal age.
+- Pathophysiology: "multiple hits" — insufficient vascular/metabolic cardiac adaptation + rapid hormonal fluctuations (prolactin, oestrogen, progesterone, FGF-21) + genetic predisposition (TTNtv in ~10%) + acquired triggers (pre-eclampsia, autoimmune, myocarditis).
+- Outcomes range from complete recovery to transplantation. Genetic counselling and TTNtv testing recommended. ([[sources/DCM-Lancet-2023]], rating: very high)
+
+#### Sport and Exercise Thresholds
+- Low-to-moderate intensity recreational exercise: integral part of DCM management.
+- Contraindications for high-intensity exercise and competitive sports (shared decision-making required): LVEF <45%; unexplained syncope; extensive cardiac fibrosis at CMR or biopsy; high-risk genotype (LMNA, FLNC); frequent VT on Holter or exercise testing. ([[sources/DCM-Lancet-2023]], rating: very high)
+
+### AHA/ACC 2025 Sports Statement — DCM-Specific Guidance
+- **Genotype+/phenotype-:** Competitive sports participation **reasonable**. ([[sources/competitive-sports-aha-2025]], rating: very high)
+- **Clinical DCM:** Competitive sports participation **reasonable to consider** after comprehensive expert SDM; effect of vigorous exercise on DCM progression and SCA risk is unknown. ([[sources/competitive-sports-aha-2025]])
+- **LMNA variants:** Close surveillance warranted — preliminary evidence suggests higher cumulative lifetime exercise exposure is associated with lower LVEF in LMNA-DCM. Exercise restriction should be individualized for LMNA carriers; competitive sports participation requires particular caution and longitudinal surveillance. ([[sources/competitive-sports-aha-2025]])
+- **EF <40% or symptomatic DCM:** Higher risk — athletes should be explicitly informed of elevated risk before choosing to continue competitive sports. ([[sources/competitive-sports-aha-2025]])
+- ICD should NOT be implanted solely to enable competitive sports participation. ([[sources/competitive-sports-aha-2025]])
+- See [[concepts/Sports-Cardiology-SDM]] for full SDM framework.
+
+#### Gene Therapy Pipeline
+- **AAV9-LAMP2B (Danon disease, NCT03882437):** Phase 1 single-dose IV gene replacement therapy; preliminary results show efficacy without prohibitive toxicity — first proof-of-concept for AAV gene therapy in a monogenic cardiomyopathy. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **PLN antisense oligonucleotides (ASO):** In PLN-R14del mice, PLN-ASO prevented PLN protein aggregation, reduced cardiac dysfunction, and improved survival rate. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **CRISPR-Cas9:** Can overcome frameshift variants and restore gene product functionality. Currently in phase 3 for sickle cell disease ex vivo (NCT05329649); in vivo cardiac application awaits cardiac-specific delivery and minimal off-target effects. ([[sources/DCM-Lancet-2023]], rating: very high)
+- When to initiate gene therapy — balancing benefit vs. risk of adjunctive therapies — remains an open question.
+
 ### AHA 2022 — Genetic Testing and HFimpEF in DCM Context
 - **Genetic testing (COR 2a, LOE B-NR):** Referral for genetic counseling and testing is reasonable in select patients with nonischemic cardiomyopathy to identify conditions guiding treatment for patients and family members. ([[sources/HF-AHA-2022]], rating: very high)
 - **Genetic testing COR 1:** First-degree relatives of patients with genetic/inherited cardiomyopathy should have genetic screening and counseling. ([[sources/HF-AHA-2022]], rating: very high)
@@ -126,3 +173,9 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - Related to [[sources/TTN-CVResearch-2022]]
 - Related to [[concepts/Titin-Isoform-Switch]]
 - Related to [[concepts/Titin-PTMs]]
+- Related to [[sources/DCM-Lancet-2023]]
+- Related to [[concepts/Sports-Cardiology-SDM]]
+- Related to [[sources/competitive-sports-aha-2025]]
+- Related to [[concepts/Mitochondrial-Cardiomyopathy]]
+- Related to [[concepts/Heteroplasmy]]
+- Related to [[sources/mitochondrial-cv-aha-2025]]

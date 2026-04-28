@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Exercise Restriction in ARVC"
 tags: [ARVC, arrhythmogenic-cardiomyopathy, sudden-cardiac-death, lifestyle]
-source_count: 1
-last_updated: 2026-04-11
+source_count: 2
+last_updated: 2026-04-25
 ---
 
 # Exercise Restriction in ARVC
@@ -49,6 +49,14 @@ The evidence-based guideline recommendation limiting competitive and high-intens
 
 Activities ≥6 METs are vigorous-intensity and should be avoided or performed very rarely by ARVC patients.
 
+### AHA/ACC 2025 Sports Statement — Key Update: PKP2 vs. Non-PKP2 ACM
+- The 2025 AHA/ACC statement codifies the PKP2 vs. non-PKP2 distinction for the first time in a major US guideline: ([[sources/competitive-sports-aha-2025]], rating: very high)
+  - **Clinical PKP2 ACM:** Risks of VA, structural disease progression, and SCD with endurance/high-intensity competitive sport **likely outweigh benefits**. Align with prior exercise restriction data.
+  - **Clinical non-PKP2 ACM:** Evidence for increased SCA risk or disease acceleration is not established. Competitive sports **can be considered** with SDM — individualize carefully given uncertainty.
+  - **Genotype+/phenotype- (any genotype):** Competitive sports **reasonable to consider** with SDM; 6–12 month imaging surveillance to detect phenotypic conversion.
+- This marks a shift from the HRS 2019/ESC 2022 approach of treating all definite ACM uniformly, toward genotype-guided nuance. The PKP2 restriction aligns with established exercise-penetrance data; the SDM approach for non-PKP2 reflects absence of equivalent evidence for those genotypes.
+- See [[concepts/Sports-Cardiology-SDM]] for the full SDM framework.
+
 ## Contradictions / Open Questions
 - **PKP2-centric evidence — other genotypes extrapolated:** The dose-dependent exercise-penetrance data are predominantly from PKP2 carriers. Exercise restriction in PLN, LMNA, FLNC, DSP, and non-desmosomal ACMs is based on expert extrapolation rather than direct evidence. PLN R14del carriers have exercise-related arrhythmias but athletic history does not appear to predict penetrance, suggesting exercise restriction may not carry the same benefit across all genotypes. ([[sources/acm-hrs-2019]])
 - **ESC 2022 vs. HRS 2019 on genotype-positive/phenotype-negative individuals:** HRS 2019 (COR I, LOE B-NR) requires clinicians to counsel phenotype-negative individuals that competitive/high-intensity exercise increases likelihood of developing ARVC. ESC 2022 (Class IIb) takes a softer stance — exercise avoidance in phenotype-negative mutation carriers "may be considered." The same underlying evidence supports different recommendation strengths in two major guidelines published within 3 years of each other. ([[sources/acm-hrs-2019]], [[sources/VA-SCD-ESC-2022]])
@@ -59,3 +67,5 @@ Activities ≥6 METs are vigorous-intensity and should be avoided or performed v
 - Related to [[entities/ARVC]]
 - Related to [[entities/PKP2]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
+- Related to [[concepts/Sports-Cardiology-SDM]]
+- Related to [[sources/competitive-sports-aha-2025]]

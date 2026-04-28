@@ -2,8 +2,8 @@
 dg-publish: true
 title: "TAVI (Transcatheter Aortic Valve Implantation)"
 tags: [valvular-heart-disease, TAVI, aortic-stenosis]
-source_count: 1
-last_updated: 2026-04-18
+source_count: 3
+last_updated: 2026-04-22
 ---
 
 # TAVI (Transcatheter Aortic Valve Implantation)
@@ -44,7 +44,7 @@ Heart Team decision integrating:
 - TOE or CMR as alternatives when CCT is difficult (renal failure, arrhythmia)
 - Commissural alignment optimisation important for future coronary access
 
-### Antithrombotic Therapy After TAVI
+### Antithrombotic Therapy After TAVI — ESC 2025
 - **No OAC indication:**
   - ASA 75–100 mg/day for 12 months: Class I A (POPular TAVI cohort A)
   - Long-term ASA after 12 months: Class IIa C
@@ -53,10 +53,21 @@ Heart Team decision integrating:
 - **With OAC indication (AF, etc.):** OAC alone Class I B; OAC + clopidogrel not recommended (excess bleeding, POPular TAVI cohort B)
 - DOAC vs VKA after TAVI with OAC indication: no definitive superiority of either (ATLANTIS, ENVISAGE-TAVI AF) [[sources/vhd-esc-2025]] `very high`
 
+### Antithrombotic Therapy After TAVI — ACC/AHA 2020
+- **No OAC indication:** ASA 75–100 mg daily Class IIa B-R; DAPT (ASA + clopidogrel 75 mg) for 3–6 months Class IIb B-NR; VKA INR 2.5 for ≥3 months Class IIb B-NR
+- **Low-dose rivaroxaban 10 mg + ASA:** Class III:Harm B-R — contraindicated without other OAC indication (GALILEO harm)
+- Note: ESC 2025 upgraded ASA to Class I A and made DAPT Class III; ACC/AHA 2020 had less definitive evidence and rated ASA as Class IIa [[sources/VHD-AHA-2020]] `very high`
+
 ### Post-Procedural Follow-up
 - TTE within 3 months, at 1 year, and annually thereafter
 - Monitor for: structural valve deterioration (SVD), hypo-attenuated leaflet thickening (HALT), paravalvular leak, new conduction abnormalities
 - Right heart catheterisation not routinely needed; CCT/PET if prosthetic valve thrombosis or endocarditis suspected
+
+### NCS Timing After TAVI
+- **NCS early after TAVI (COR 2a):** Noncardiac surgery may proceed even within the first 30 days after a successful TAVI in patients with time-sensitive surgical conditions — in contrast to DES where NCS ≤30 days carries high thrombotic risk. ([[sources/periop-aha-2024]], rating: very high)
+- **Rationale:** Successful TAVI relieves the fixed LVOT obstruction; the predominant perioperative risk shifts back to the non-valvular comorbidities and general surgical risk rather than valve-related haemodynamics. ([[sources/periop-aha-2024]], rating: very high)
+- **Continue aspirin perioperatively:** COR 2a — aspirin should be maintained for antiplatelet coverage following TAVI during perioperative period; withholding risks early valve leaflet thrombosis. ([[sources/periop-aha-2024]], rating: very high)
+- **NCS after MV TEER (transcatheter edge-to-edge repair, e.g., MitraClip):** Proceeding with NCS after successful MV TEER is also reasonable (COR 2a); same principle as post-TAVI — resolution of the primary valvular pathology removes the key haemodynamic obstacle. ([[sources/periop-aha-2024]], rating: very high)
 
 ## Contradictions / Open Questions
 - Long-term durability beyond 8–10 years is the critical unknown — valve-in-valve procedures for TAVI failure are technically feasible but associated with higher residual gradients
@@ -70,3 +81,5 @@ Heart Team decision integrating:
 - Related to [[concepts/Valvular-Heart-Disease]]
 - Related to [[concepts/Structural-Valve-Deterioration]]
 - Related to [[entities/Atrial-Fibrillation]]
+- Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
+- Related to [[sources/periop-aha-2024]]

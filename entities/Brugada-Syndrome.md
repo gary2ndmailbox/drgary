@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Brugada Syndrome"
 tags: [channelopathies, inherited-arrhythmias, sudden-cardiac-death, BrS]
-source_count: 4
-last_updated: 2026-04-19
+source_count: 5
+last_updated: 2026-04-25
 ---
 
 # Brugada Syndrome (BrS)
@@ -93,6 +93,13 @@ Brugada syndrome is an inherited channelopathy characterised by coved ST-segment
 - Many patients with drug-induced type 1 ECG also exhibit spontaneous type 1 pattern on ambulatory monitoring — ambulatory ECG monitoring is required after drug discontinuation to exclude latent BrS. ([[sources/drug-arrhythmia-aha-2020]])
 - **Management:** Discontinue offending agent; screen for latent BrS with ambulatory monitoring; cardioversion/defibrillation or amiodarone for VT/VF; **procainamide is contraindicated** (potentiates INa inhibition); ICD if prior cardiac arrest, sustained VT, or syncope with spontaneous type 1 ECG; asymptomatic drug-induced BrS — observe without intervention other than avoidance of provoking agents. ([[sources/drug-arrhythmia-aha-2020]])
 
+### AHA/ACC 2025 Sports Statement — BrS-Specific Guidance
+- **No data support competitive sports restrictions for BrS.** Competitive sports participation is **reasonable** after expert assessment and management. ([[sources/competitive-sports-aha-2025]], rating: very high)
+- Athletes with BrS should avoid known arrhythmic triggers during sport: heat exhaustion, exercise during febrile illness, significant dehydration. **Hydration during exercise must be prioritized.** ([[sources/competitive-sports-aha-2025]])
+- This aligns with the known BrS arrhythmia physiology — arrhythmias occur predominantly at rest/sleep/after large meals (high vagal tone), not during exercise (high sympathetic tone). Exercise-triggered events are not a characteristic BrS feature.
+- Prompt antipyretic treatment during any illness remains essential. ([[sources/competitive-sports-aha-2025]])
+- See [[concepts/Sports-Cardiology-SDM]] for full SDM framework.
+
 ## ESC 2022 Guideline Recommendations
 - Diagnose BrS with spontaneous type 1 ECG + no structural disease: **Class I**. Diagnose if SCA survivor with VF/PVT + type 1 pattern induced by SCB or fever: **Class I**. ([[sources/VA-SCD-ESC-2022]])
 - SCN5A genetic testing for probands: **Class I**. ([[sources/VA-SCD-ESC-2022]])
@@ -131,3 +138,5 @@ Brugada syndrome is an inherited channelopathy characterised by coved ST-segment
 - Related to [[concepts/Variant-Reclassification]]
 - Related to [[entities/SCN5A]]
 - Related to [[entities/Early-Repolarization-Syndrome]]
+- Related to [[concepts/Sports-Cardiology-SDM]]
+- Related to [[sources/competitive-sports-aha-2025]]

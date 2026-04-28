@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cardio-Oncology"
 tags: [cardio-oncology, cardiovascular-toxicity, cancer, multidisciplinary]
-source_count: 1
-last_updated: 2026-04-12
+source_count: 3
+last_updated: 2026-04-28
 ---
 
 # Cardio-Oncology
@@ -36,15 +36,37 @@ Cardio-oncology is an emerging clinical discipline integrating cardiovascular (C
 - Long-term CV complications of prior cardiotoxic cancer therapy include: cardiomyopathy, coronary artery disease, valvular disease, pericardial disease, arrhythmias.
 - Childhood cancer survivors treated with anthracyclines ≥250 mg/m² doxorubicin-equivalent or mediastinal RT are at highest long-term risk and require protocol-based echocardiographic surveillance. ([[sources/Cardio-Oncology-ESC-2022]])
 
+### Multimodality Cardiovascular Imaging Framework
+- **Major paradigm shift:** The AHA 2023 Scientific Statement establishes that the historical focus on LVEF alone is insufficient for contemporary cancer therapies. Multimodal imaging spanning echocardiography, CMR, CCT, and nuclear imaging is now the standard. ([[sources/imaging-cardio-oncology-aha-2024]], rating: high)
+- **Echocardiography** remains first-line; GLS (absolute <16% or >15% relative decline) is a key marker for subclinical cardiotoxicity even with preserved LVEF.
+- **CMR** is second-line — principally for suspected ICI myocarditis, complex differentials (toxic vs. ischaemic vs. inflammatory), and scar/fibrosis quantification. T1/T2 mapping predicts MACE in ICI-treated patients.
+- **CCT** adds value for ASCVD/CAC risk stratification in cancer survivors and as noninvasive ACS workup for fluoropyrimidine/ICI patients at high bleeding risk.
+- **Nuclear imaging:** MUGA is third-line only; 99mTc-PYP SPECT is the preferred modality for suspected cardiac ATTR amyloidosis in cancer patients.
+- Imaging intensity is modulated by therapy type and clinical presentation — see detailed tables in [[concepts/Cancer-Therapy-Related-CV-Toxicity]].
+- **Disparities:** Black patients and women are underrepresented in cardio-oncology imaging access and have disproportionately higher cardiotoxicity burden; dedicated cardio-oncology referral with serial imaging is protective.
+- ([[sources/imaging-cardio-oncology-aha-2024]])
+
+### AI and Precision Medicine in Cardio-Oncology
+- AI can integrate imaging, multi-omics, EHR data, and ECG signals to individualise cardiotoxicity risk prediction far beyond single-modality approaches. ([[sources/ai-cardiooncology-aha-2025]], rating: high)
+- Key AI-enabled applications include automated LVEF measurement (RCT-validated), ECG-based LV dysfunction detection in anthracycline/trastuzumab patients, and NLP-driven EHR data extraction for high-risk patient identification. ([[sources/ai-cardiooncology-aha-2025]])
+- Multi-omics biomarkers (genomics — TTNtv, RARG; transcriptomics — ICI myocarditis T-cell subsets; proteomics — hemopexin; metabolomics — TCA cycle metabolites) are under active investigation but remain pre-clinical. ([[sources/ai-cardiooncology-aha-2025]])
+- A national cardio-oncology registry is needed to enable representative AI model training — must include community hospitals to avoid selection bias. ([[sources/ai-cardiooncology-aha-2025]])
+- See [[concepts/AI-in-Cardio-Oncology]] for detailed coverage of AI applications.
+
 ## Contradictions / Open Questions
 - Dedicated cardio-oncology services are scarce — most patients are managed in general cardiology clinics; there is limited RCT evidence to define optimal surveillance strategies.
 - HFA-ICOS risk assessment tools require prospective validation; most evidence supporting them is retrospective.
 - Optimal duration of cardioprotective medications (e.g. ACE-I/beta-blockers started during cancer treatment) after therapy completion is undefined. ([[sources/Cardio-Oncology-ESC-2022]])
-- AI-based tools for individualised CTR-CVT risk prediction are a future priority.
+- No AI risk prediction tools have been prospectively validated in clinical trials; cardiotoxicity definitions are inconsistent across studies, complicating AI model development. ([[sources/ai-cardiooncology-aha-2025]])
+- Biomarker-guided cardioprotection (troponin-guided enalapril; hsTnI-guided candesartan/carvedilol) did not outperform universal cardioprotection in RCTs — AI-enhanced biomarker integration awaits clinical testing. ([[sources/ai-cardiooncology-aha-2025]])
 
 ## Connections
 - Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]
+- Related to [[concepts/AI-in-Cardio-Oncology]]
 - Related to [[concepts/HFA-ICOS-Risk-Stratification]]
+- Related to [[concepts/Cardiac-Amyloidosis-Imaging]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
+- Related to [[sources/ai-cardiooncology-aha-2025]]
+- Related to [[sources/imaging-cardio-oncology-aha-2024]]

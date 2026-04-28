@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cascade Family Screening (ACM & HCM)"
 tags: [arrhythmogenic-cardiomyopathy, hypertrophic-cardiomyopathy, genetics, cardiomyopathy-genetics]
-source_count: 6
-last_updated: 2026-04-16
+source_count: 8
+last_updated: 2026-04-28
 ---
 
 # Cascade Family Screening (ACM)
@@ -90,6 +90,23 @@ Cascade family screening refers to the systematic cardiovascular and genetic eva
 - Best executed in interdisciplinary cardiogenetic centres combining electrophysiology, imaging, genetics, and genetic counselling. Access is currently limited to academic centres. ([[sources/arrhythmia-genetics-mgenetik-2025]])
 - Diagnostic scores for inherited arrhythmias (Schwartz score for LQTS, Shanghai score for BrS) already incorporate the presence of a pathogenic variant — making a confirmed genetic result clinically equivalent to full diagnosis in some syndromes. ([[sources/arrhythmia-genetics-mgenetik-2025]])
 
+### Incidental Variant Cascade Testing (AHA 2023)
+- LP/P incidental variants — once confirmed as disease-associated by the Bayesian framework — should trigger cascade genetic testing in first-degree relatives, regardless of whether the proband is phenotypically affected ([[sources/incident-gene-aha-2023]] — high)
+- **Cascade testing must NOT be performed on VUS variants** from incidental contexts, identical to the rule for diagnostic probands ([[sources/incident-gene-aha-2023]] — high)
+- Genotype-positive family members found via incidental variant cascade testing should undergo the same three-step Bayesian evaluation framework (pretest probability → variant pathogenicity re-evaluation → posttest probability)
+- Genotype-positive relatives without phenotypic evidence of disease still require longitudinal follow-up at guideline-directed intervals
+- The Bayesian framework should be conducted at or in close consultation with a specialised multidisciplinary cardiovascular genetics centre ([[sources/incident-gene-aha-2023]] — high)
+- See [[concepts/Incidental-Cardiovascular-Variants]] for the complete Bayesian evaluation framework
+
+### DTC-GT Cascade Testing — Challenges and Gaps
+- Traditional cascade testing adoption in clinical genetics workflows is **<50%**; the specific frequency for DTC-GT-triggered cascade testing is unknown ([[sources/consumer-genetictest-aha-2025]] — high)
+- **DTC companies do NOT actively facilitate cascade testing** — unlike clinical genetics services that provide family letters and contact protocols; patients must self-initiate family communication ([[sources/consumer-genetictest-aha-2025]] — high)
+- **No current professional guidelines address cascade screening specifically after DTC-GT results** — this is a major regulatory and clinical gap given that >33 million DTC-GTs were performed in 2022 ([[sources/consumer-genetictest-aha-2025]] — high)
+- DTC-GT cascade testing risks: misclassified variants (especially from SNP-chip based tests) may generate false-positive results that, if shared with family members, lead to unnecessary stress, procedures, and financial burdens ([[sources/consumer-genetictest-aha-2025]] — high)
+- PRS cascade testing is not strongly indicated given the non-mendelian nature of polygenic risk; however, high concordance between first-degree relatives with high CAD PRS (Reid et al., Circ Genom Precis Med 2021) may justify consideration ([[sources/consumer-genetictest-aha-2025]] — high)
+- **Confirmatory CLIA-certified testing should precede any DTC-GT-triggered cascade testing** — to avoid propagating potentially erroneous results through families ([[sources/consumer-genetictest-aha-2025]] — high)
+- See [[concepts/DTC-Genetic-Testing]] for full clinical approach framework
+
 ## Contradictions / Open Questions
 - **VUS variant handling — testing vs. not testing relatives:** Both HRS 2019 and ESC/AHA guidelines agree that VUS variants should not drive cascade genetic testing of relatives. However, in practice, a significant proportion of HCM and ACM probands carry VUS rather than confirmed P/LP variants — meaning the majority of families with a likely inherited disease still cannot access gene-informed cascade testing. The gap between the recommendation (don't test for VUS) and clinical reality (most probands have VUS) is substantial. ([[sources/acm-hrs-2019]], [[sources/HCM-AHA-2024]])
 - **Serial reclassification responsibility:** AHA 2024 recommends re-evaluating variant pathogenicity every 2–3 years (Class I, Level B-NR). In practice, there is no standardized system for notifying relatives when a variant is downgraded from P/LP to VUS (or upgraded). If a relative was told they are "gene-negative" based on a proband variant later upgraded to P/LP, they may have been incorrectly discharged from follow-up. The clinical infrastructure for systematic reclassification notification does not yet exist in most centers. ([[sources/HCM-AHA-2024]])
@@ -108,3 +125,6 @@ Cascade family screening refers to the systematic cardiovascular and genetic eva
 - Related to [[entities/CPVT]]
 - Related to [[concepts/Genetic-Testing-in-Cardiomyopathy]]
 - Related to [[sources/genetic-cmp-jcf-2018]]
+- Related to [[concepts/DTC-Genetic-Testing]]
+- Related to [[concepts/Incidental-Cardiovascular-Variants]]
+- Related to [[sources/incident-gene-aha-2023]]

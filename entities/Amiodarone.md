@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Amiodarone"
 tags: [amiodarone, antiarrhythmic-drugs, drug-toxicity, ventricular-arrhythmias, atrial-fibrillation]
-source_count: 1
+source_count: 2
 ---
 
 # Amiodarone
@@ -114,6 +114,7 @@ Amiodarone is a benzofuran-derived iodine-rich antiarrhythmic agent classified a
 ---
 
 ## Contradictions / Open Questions
+- **Amiodarone in Anderson–Fabry Disease — contraindicated:** Amiodarone should be avoided in AFD patients because it interferes with lysosomal function, potentially worsening α-Gal A enzymatic deficiency and impairing the efficacy of both ERT and migalastat chaperone therapy. This is distinct from its general safety profile in HFrEF. Antiarrhythmic drug choices in AFD are severely constrained by coexisting LVH, HF, and renal dysfunction. ([[sources/fabry-ehj-2024]], rating: high)
 - **Amiodarone vs. procainamide for stable VT:** PROCAMIO RCT showed procainamide superior in acute termination; however the trial was small (n=62) and procainamide is unavailable as a long-term oral agent in the USA — the practical clinical choice between these two agents is context-dependent. ([[sources/amiodarone-cvdrug-2020]])
 - **Amiodarone in HFrEF — no mortality benefit (SCD-HeFT) but remains only safe AAD:** Amiodarone showed no mortality benefit vs placebo in HFrEF (LVEF <35%) in SCD-HeFT, yet guidelines still designate it the only safe antiarrhythmic for rhythm control in HFrEF. This creates a tension: amiodarone is "safe" in HFrEF in the sense of not worsening mortality, but it does not improve it — it is reserved for arrhythmia suppression as adjunct to ICD/ablation. ([[sources/amiodarone-cvdrug-2020]], [[sources/HF-ESC-2021]])
 - **Amiodarone + sofosbuvir (HCV) interaction:** The FDA black box warning for fatal bradycardia with amiodarone + sofosbuvir-containing regimens represents a growing clinical risk as HCV treatment rates rise in older AF/VT patients. The mechanism (additive sinus/AV nodal depression) is not fully characterized. No prospective management protocol exists. ([[sources/amiodarone-cvdrug-2020]])
@@ -121,6 +122,8 @@ Amiodarone is a benzofuran-derived iodine-rich antiarrhythmic agent classified a
 ---
 
 ## Connections
+- Related to [[entities/Fabry-Disease]] — contraindicated; impairs lysosomal function and ERT/migalastat efficacy
+- Related to [[concepts/Fabry-Cardiomyopathy]]
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Long-QT-Syndrome]]

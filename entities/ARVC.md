@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)"
 tags: [cardiomyopathy, inherited-arrhythmias, gene-therapy, sudden-cardiac-death, arrhythmogenic-cardiomyopathy]
-source_count: 7
-last_updated: 2026-04-15
+source_count: 8
+last_updated: 2026-04-25
 ---
 
 # Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
@@ -49,6 +49,13 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 ### Exercise Restriction
 - **Competitive or frequent high-intensity endurance exercise is contraindicated** in definite ARVC (COR III: Harm, LOE B-NR — HRS 2019; Class I, Level B — ESC 2022). Discontinuation can slow disease progression and reduce VA burden. ([[sources/acm-hrs-2019]] — high; [[sources/VA-SCD-ESC-2022]] — very high)
 - Genotype-positive/phenotype-negative relatives should be counseled to avoid high-intensity exercise (COR I, LOE B-NR — HRS 2019; Class IIb — ESC 2022). ([[sources/acm-hrs-2019]] — high; [[sources/VA-SCD-ESC-2022]] — very high)
+
+### AHA/ACC 2025 Sports Statement — ACM-Specific Guidance
+- **Genotype+/phenotype- (any ACM genotype):** Competitive sports participation **reasonable to consider** after expert SDM; close imaging surveillance every 6–12 months to detect early phenotypic conversion is warranted, especially for PKP2 variants. ([[sources/competitive-sports-aha-2025]], rating: very high)
+- **Clinical PKP2-mediated ACM:** Athletes should be advised that continued endurance or higher-intensity competitive sports **risks likely outweigh benefits** — heightened SCA risk and disease acceleration are well-established for PKP2-mediated ACM with competitive endurance sport. ([[sources/competitive-sports-aha-2025]])
+- **Clinical non-PKP2 ACM (genotype-positive or genotype-negative):** Competitive sports participation **can consider** after comprehensive expert SDM in which benefits and potential risks are discussed. Evidence for increased SCA risk or disease acceleration is not well-established for non-PKP2 genotypes — individualize with SDM given uncertainty. ([[sources/competitive-sports-aha-2025]])
+- This represents a **nuanced update** from prior blanket ARVC restriction — the 2025 statement explicitly separates PKP2 (restriction appropriate) from non-PKP2 ACM (SDM approach). The distinction aligns with existing evidence that exercise-disease acceleration data are PKP2-centric. ([[sources/competitive-sports-aha-2025]])
+- See [[concepts/Exercise-Restriction-in-ARVC]] for detailed exercise physiology and evidence base. See [[concepts/Sports-Cardiology-SDM]] for full SDM framework.
 
 ### Antiarrhythmic Therapy
 - **Beta-blockers** are first-line; may be considered in all patients with definite ARVC (ESC 2022: Class IIb). ([[sources/VA-SCD-ESC-2022]] — very high)
@@ -115,3 +122,5 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 - Related to [[concepts/Genetic-Testing-in-Cardiomyopathy]]
 - Related to [[sources/genetic-cmp-jcf-2018]]
 - Related to [[sources/genetic-eoaf-ehj-2024]]
+- Related to [[concepts/Sports-Cardiology-SDM]]
+- Related to [[sources/competitive-sports-aha-2025]]

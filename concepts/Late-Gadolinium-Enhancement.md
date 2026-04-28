@@ -20,7 +20,7 @@ Late gadolinium enhancement (LGE) is a cardiac MRI technique that detects region
 - **ARVC:** Fat and LGE (transmural RV + subepicardial–mid-mural LV free wall) in desmosomal variants. CMR is the only tool allowing detection of LV involvement in ARVC. ([[sources/esc-cmp-2023]])
 - **RCM:** Partial LV or RV apical obliteration + endocardial LGE suggests endomyocardial fibrosis/hypereosinophilia. ([[sources/esc-cmp-2023]])
 - **Anderson-Fabry disease:** Basal-posterolateral/inferolateral LGE + low native T1 (pathognomonic combination). ([[sources/esc-cmp-2023]])
-- **Cardiac amyloidosis:** Diffuse subendocardial or global LGE; characteristic gadolinium kinetics with similar blood pool and myocardial T1. ([[sources/esc-cmp-2023]])
+- **Cardiac amyloidosis:** Diffuse subendocardial LGE (more prevalent in AL) or transmural LGE (more prevalent in ATTR); biventricular transmural in advanced disease; basal predilection. PSIR technique mandatory — standard mag-IR cannot reliably null the myocardium due to ECV expansion approaching plasma volume. LGE sensitivity 85–90%, specificity ~92% (meta-analysis, 7 studies). Partially protein-bound agents (gadolinium-BOPTA/MultiHance) must not be used. ([[sources/esc-cmp-2023]], [[sources/imaging-amyloidosis-aha-2021]])
 
 ### Prognostic Role
 - In HCM, LGE ≥15% LV mass is associated with 2.32-fold increased risk of SCD/aborted SCD/appropriate ICD discharge (meta-analysis, n≈3000). ([[sources/esc-cmp-2023]])
@@ -34,6 +34,13 @@ Late gadolinium enhancement (LGE) is a cardiac MRI technique that detects region
 - CMR can be safely performed with most cardiac implantable electronic devices using appropriate protocols. ([[sources/esc-cmp-2023]])
 - Gadolinium should be avoided in pregnancy and used with caution in severe renal impairment (eGFR <30 mL/min/1.73m²). ([[sources/esc-cmp-2023]])
 - T1 mapping (native and post-contrast) and ECV quantification provide additional tissue characterization and are particularly useful for Anderson-Fabry disease and amyloidosis. ([[sources/esc-cmp-2023]])
+- **In cardiac amyloidosis specifically:** PSIR (phase-sensitive inversion recovery) technique is mandatory — standard mag-IR cannot reliably null the myocardium (ECV expands to approach plasma volume, nulling both simultaneously). TI scout confirms this: myocardium nulls before blood pool = pathognomonic. Partially protein-bound contrast agents (gadolinium-BOPTA/MultiHance) must not be used as they render ECV and LGE pattern unreliable. ECV >0.40 is highly suggestive of cardiac amyloidosis and is elevated even before LGE is apparent, making it an early disease marker. ([[sources/imaging-amyloidosis-aha-2021]])
+
+### Cardio-Oncology Applications
+- **ICI myocarditis:** LGE and T2-weighted STIR on CMR are diagnostic criteria for ICI-associated myocarditis; native T1 elevation in 136 patients with suspected ICI myocarditis was highly predictive of future MACE. ([[sources/ai-cardiooncology-aha-2025]], rating: high)
+- **T1/T2 mapping in ICI myocarditis:** Native T1 and T2 are used as prognostic biomarkers — not just LGE — in the ICI myocarditis setting, extending their role beyond structural cardiomyopathies. ([[sources/ai-cardiooncology-aha-2025]])
+- **Ibrutinib cardiotoxicity:** Increased native T1/T2 by CMR was highly predictive of future MACE in haematologic malignancy patients on ibrutinib. ([[sources/ai-cardiooncology-aha-2025]])
+- CMR-derived ECV, native T1/T2, and LGE predict survival outcomes and can guide treatment in cardiac amyloidosis. ([[sources/ai-cardiooncology-aha-2025]])
 
 ## Contradictions / Open Questions
 - **LGE quantification method — no consensus standard:** Multiple LGE quantification methods exist (2-SD, 5-SD, full-width half-maximum, visual). Only the 2-SD method has been validated against necropsy in HCM; other methods are widely used in published studies but produce different absolute LGE values. The ≥15% threshold for elevated SCD risk is inconsistently applicable across methods, yet guidelines apply it without specifying quantification technique. ([[sources/esc-cmp-2023]], [[sources/HCM-AHA-2024]])
@@ -52,3 +59,6 @@ Late gadolinium enhancement (LGE) is a cardiac MRI technique that detects region
 - Related to [[concepts/HCM-Risk-SCD]]
 - Related to [[concepts/Phenotypic-Approach-to-Cardiomyopathy]]
 - Related to [[concepts/VA-Risk-Stratification-DCM]]
+- Related to [[concepts/Cardiac-Amyloidosis-Imaging]]
+- Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]
+- Related to [[sources/ai-cardiooncology-aha-2025]]

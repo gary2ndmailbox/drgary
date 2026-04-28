@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Secondary Mitral Regurgitation"
 tags: [valvular-heart-disease, mitral-regurgitation, heart-failure]
-source_count: 1
-last_updated: 2026-04-18
+source_count: 2
+last_updated: 2026-04-19
 ---
 
 # Secondary Mitral Regurgitation
@@ -68,9 +68,16 @@ Secondary mitral regurgitation (SMR) is MR in which the MV apparatus is structur
 - Atrial SMR: yearly clinical + echo follow-up
 - Asymptomatic moderate or dynamic SMR: at least twice-yearly follow-up
 
+### ACC/AHA 2020 — Secondary MR Management
+- At time of ACC/AHA 2020 guideline, TEER for secondary MR was rated **Class IIa B-NR** (subsequently upgraded to Class I A by ESC 2025 based on RESHAPE-HF2)
+- **COAPT selection criteria (ACC/AHA 2020 standard):** LVEF 20–50%; LVESD ≤70 mm; PASP ≤70 mmHg; persistent NYHA II–IV despite optimal GDMT; no CAD requiring revascularisation [[sources/VHD-AHA-2020]] `very high`
+- **Class I B-NR (ACC/AHA 2020):** Severe secondary MR + CAD undergoing CABG → concomitant MV surgery recommended
+- Note: ACC/AHA 2020 does not formally distinguish atrial vs ventricular SMR (that distinction was formalised in ESC 2025) [[sources/VHD-AHA-2020]] `very high`
+
 ## Contradictions / Open Questions
-- **COAPT vs MITRA-FR divergence:** TEER reduced mortality in COAPT but not in MITRA-FR; likely due to MITRA-FR including more severely dilated LV (proportionate MR) and less rigid GDMT optimisation — the concept of "disproportionate SMR" (EROA:LV relationship) helps explain divergence but is not fully validated
-- **Atrial SMR:** No RCT comparing surgery vs TEER vs medical therapy; all recommendations are based on observational data
+- **COAPT vs MITRA-FR divergence:** TEER reduced mortality in COAPT but not in MITRA-FR; likely due to MITRA-FR including more severely dilated LV (proportionate MR) and less rigid GDMT optimisation — the concept of "disproportionate SMR" (EROA:LV relationship) helps explain divergence but is not fully validated [[sources/VHD-AHA-2020]] `very high`
+- **TEER class upgrade:** ACC/AHA 2020 rated TEER for secondary MR as Class IIa; ESC 2025 upgraded to Class I A based on RESHAPE-HF2 — this represents one of the most significant recommendation evolutions between the two guidelines [[sources/VHD-AHA-2020]] `very high` vs [[sources/vhd-esc-2025]] `very high`
+- **Atrial SMR:** No RCT comparing surgery vs TEER vs medical therapy; all recommendations are based on observational data; not formally recognised in ACC/AHA 2020
 - **Optimal timing of intervention:** When to stop GDMT up-titration and proceed to TEER is not precisely defined
 - **MV surgery for ventricular SMR:** Long-term benefit over TEER not proven; MATTERHORN showed non-inferiority of TEER for 1-year composite endpoint
 

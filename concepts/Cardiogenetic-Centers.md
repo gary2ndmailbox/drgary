@@ -6,8 +6,8 @@ tags:
   - arrhythmia
   - channelopathy
   - cardiomyopathy
-source_count: 1
-last_updated: 2026-04-12
+source_count: 2
+last_updated: 2026-04-28
 ---
 
 # Cardiogenetic Centers
@@ -39,6 +39,13 @@ Interdisciplinary cardiogenetic centres are specialist clinical units that integ
 - Targeted panels with dedicated CNV analysis are cost-effective and have good detection rates; recommended as routine approach for most inherited arrhythmia presentations. ([[sources/arrhythmia-genetics-mgenetik-2025]] — high)
 - CNV/SV analysis is becoming routine; deep intronic variants, balanced translocations, inversions require WGS. ([[sources/arrhythmia-genetics-mgenetik-2025]] — high)
 
+### Role in Incidental Variant Evaluation (AHA 2023)
+- Evaluation and clinical follow-up of incidentally identified CVD gene variants is **best done at, or in close consultation with, a multidisciplinary centre specialising in cardiovascular genetics** ([[sources/incident-gene-aha-2023]] — high)
+- Core workflow: re-evaluate the laboratory's pathogenicity assertion using ClinVar, ClinGen, and ACMG guidelines; conduct comprehensive clinical evaluation for the implicated disease; apply the Bayesian framework to arrive at posttest probability; coordinate longitudinal follow-up every 1–3 years
+- Genetic cardiologists, cardiovascular genetic counsellors, and geneticists must take a more active and consistent role in variant review to ensure the most accurate information is applied to patient care over time ([[sources/incident-gene-aha-2023]] — high)
+- Incidental variant evaluation cannot be delegated solely to primary care; specialty centre interface is essential, including telehealth models for scaling ([[sources/incident-gene-aha-2023]] — high)
+- See [[concepts/Incidental-Cardiovascular-Variants]] for the full clinical framework
+
 ### Education and Certification
 - Cardiogenetics has not historically been part of traditional cardiology, pediatric cardiology, or genetics fellowship training.
 - Programs filling the gap include EHRA educational courses, EP fellowships, and ERN Reference Network Guard-Heart webinars. ([[sources/arrhythmia-genetics-mgenetik-2025]] — high)
@@ -55,3 +62,5 @@ Interdisciplinary cardiogenetic centres are specialist clinical units that integ
 - Related to [[entities/CPVT]]
 - Related to [[entities/Short-QT-Syndrome]]
 - Related to [[concepts/iPSC-Derived-Cardiomyocytes]]
+- Related to [[concepts/Incidental-Cardiovascular-Variants]]
+- Related to [[sources/incident-gene-aha-2023]]

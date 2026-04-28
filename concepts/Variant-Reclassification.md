@@ -6,8 +6,8 @@ tags:
   - channelopathy
   - cardiomyopathy
   - genetic-testing
-source_count: 3
-last_updated: 2026-04-15
+source_count: 4
+last_updated: 2026-04-28
 ---
 
 # Genetic Variant Reclassification in Cardiovascular Disease
@@ -21,6 +21,7 @@ Variant reclassification refers to the process of updating the pathogenicity cla
 - Overall reclassification rate in inherited cardiovascular diseases: >36% (Fernandez-Falgueras et al. 2024). Comparable to rates in other rare disease domains: survivors of cardiac arrest (38%), pediatric epilepsy (36%), dilated cardiomyopathy (30%). ([[sources/arrhythmia-genetics-mgenetik-2025]] — high)
 - By disease category: cardiomyopathy variants 28%; cardiac channelopathies 38%. ([[sources/arrhythmia-genetics-mgenetik-2025]] — high)
 - The majority of reclassifications result in **downgrading** of pathogenicity — i.e., class 4/5 variants reclassified to class 3 (VUS) or lower — driven primarily by updates to population databases and reassessment against current ACMG criteria. ([[sources/arrhythmia-genetics-mgenetik-2025]] — high)
+- Per-variant annual reclassification rate: LP/P or likely benign variants reclassify at **1–8%/year**, predominantly toward VUS; VUSs reclassify at even higher rates over time. ([[sources/incident-gene-aha-2023]] — high)
 - HCM-specific data: 11% of HCM variants reclassified over 6 years (AHA 2024). Class I recommendation to re-evaluate every 2–3 years. ([[sources/HCM-AHA-2024]] — high)
 
 ### Drivers of Reclassification
@@ -48,6 +49,11 @@ Variant reclassification refers to the process of updating the pathogenicity cla
 - Reclassification must be communicated to the requesting healthcare professional and to variant carriers/affected family members.
 - Re-evaluation of initial genetic findings at regular intervals (every 2–3 years for HCM per AHA 2024) is a Class I recommendation. ([[sources/HCM-AHA-2024]] — high)
 
+### Incidental Variants — Recommended Follow-Up Cadence
+- For incidentally identified variants in CVD genes, optimal variant re-evaluation interval: **every 1–3 years**, paired with clinical follow-up; timing individualized to variant and patient ([[sources/incident-gene-aha-2023]] — high)
+- Each follow-up should: reinterpret the genetic variant per updated ClinVar/ClinGen/community consensus; repeat disease-specific clinical testing; re-evaluate personal and family history; integrate genetic and clinical findings
+- This ongoing surveillance is needed even in phenotype-negative individuals carrying an LP/P variant — and should be established before broad ES/GS testing is initiated ([[sources/incident-gene-aha-2023]] — high)
+
 ## Contradictions / Open Questions
 - **Downgrading dominates — but no standard notification system exists:** The most common reclassification direction is downgrading from pathogenic to VUS. Yet no standardized clinical pathway ensures that affected families are notified when this occurs, potentially leaving them managed under a now-incorrect genetic diagnosis. The responsibility falls on individual centres without regulatory or IT infrastructure to enforce it. ([[sources/arrhythmia-genetics-mgenetik-2025]], [[sources/HCM-AHA-2024]])
 - **Reclassification vs. clinical inertia:** Even when a variant is downgraded, ICD decisions and management plans already made are difficult to reverse — especially if the patient has experienced an arrhythmic event. The temporal gap between initial classification and reclassification means early management decisions are always made under uncertainty. ([[sources/arrhythmia-genetics-mgenetik-2025]])
@@ -62,3 +68,5 @@ Variant reclassification refers to the process of updating the pathogenicity cla
 - Related to [[entities/DCM]]
 - Related to [[concepts/Genetic-Testing-in-Cardiomyopathy]]
 - Related to [[sources/genetic-cmp-jcf-2018]]
+- Related to [[concepts/Incidental-Cardiovascular-Variants]]
+- Related to [[sources/incident-gene-aha-2023]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Atrial Fibrillation"
 tags: [cardiac-arrhythmias, acquired-arrhythmias, gene-therapy, atrial-fibrillation, anticoagulation, stroke-prevention]
-source_count: 10
-last_updated: 2026-04-19
+source_count: 15
+last_updated: 2026-04-24
 ---
 
 # Atrial Fibrillation (AF)
@@ -60,6 +60,15 @@ Atrial fibrillation is the most prevalent sustained cardiac arrhythmia, characte
   - **Dementia/cognition:** Meta-analysis (15,886 ablated vs 42,684 medically managed AF patients): HR 0.60 for incident dementia (95% CI 0.42–0.88; P<0.05) with catheter ablation. Acute post-ablation MRI cerebral lesions are transient; full cognitive recovery within 12 months. ([[sources/ca-af-ehj-2024]])
   - **QOL:** CABANA trial (n=2204): significant improvement in QOL at 12 months, sustained over time, irrespective of AF recurrence; applies across RF, cryo, and PFA modalities. ([[sources/ca-af-ehj-2024]])
 
+### ACS + Atrial Fibrillation: Antithrombotic Strategy
+- **[2025 ACC/AHA ACS Guideline] Triple therapy → dual therapy:** In patients with ACS who require oral anticoagulation (most commonly due to AF), aspirin should be discontinued 1–4 weeks post-PCI with continued P2Y12 inhibitor (preferably clopidogrel) + OAC — Class I/B-R. ([[sources/ACS-AHA-2025]], rating: very high)
+- RCT evidence (RE-DUAL PCI, AUGUSTUS, ENTRUST-AF PCI, PIONEER AF-PCI): aspirin discontinuation reduces major bleeding without significant increase in all-cause/CV death, stroke, or overall MACE vs triple therapy. ([[sources/ACS-AHA-2025]], rating: very high)
+- ~80% of stent thrombosis events occur within 30 days of PCI. For patients at high stent thrombosis risk, aspirin may be continued up to 30 days before discontinuation. ([[sources/ACS-AHA-2025]], rating: very high)
+- **DOAC preferred** over VKA in most ACS + AF patients (except mechanical valves, rheumatic MS with MVA ≤2.0 cm²). ([[sources/ACS-AHA-2025]], rating: very high)
+- Clopidogrel is preferred as the P2Y12 inhibitor in patients on OAC (prasugrel and ticagrelor trials excluded OAC patients; more potent agents theoretically increase bleeding). ([[sources/ACS-AHA-2025]], rating: very high)
+- P2Y12 inhibitor therapy should be continued for at least 12 months post-PCI after aspirin discontinuation (can be discontinued earlier in patients with multiple bleeding risk factors). ([[sources/ACS-AHA-2025]], rating: very high)
+- See [[concepts/DAPT-Strategies]] for complete DAPT management framework. See [[entities/Acute-Coronary-Syndrome]] for full ACS management. ([[sources/ACS-AHA-2025]], rating: very high)
+
 ### Surgical Options
 - **Surgical LAA closure** during cardiac surgery: Class I/B (ESC 2024) / Class I/A (AHA 2023) as adjunct to OAC; LAAOS III: HR 0.67 for ischaemic stroke/SE. ([[sources/AF-ESC-2024]], [[sources/AF-AHA-2023]])
 - **[2025 ESC VHD] Surgical LAAO during valve surgery (Class I B):** Surgical LAAO is now Class I B in patients with AF undergoing any valve surgery to prevent cardioembolic stroke and systemic thromboembolism (LAAOS III data extended to valve surgery population). ([[sources/vhd-esc-2025]], rating: very high)
@@ -115,12 +124,22 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 - **Anticancer agents** are a major category: tyrosine kinase inhibitors (cetuximab, sunitinib, sorafenib; ibrutinib 3.3–6.5% — highest risk); anthracyclines (doxorubicin 1.4–13.8%); HER2/Neu receptor blockers (trastuzumab 1.2–19.9%); alkylating agents (cisplatin, cyclophosphamide, up to 15.5%); mechanisms include reactive oxygen species, inflammation, ion channel dysfunction, and thyrotoxicosis (kinase inhibitors). ([[sources/drug-arrhythmia-aha-2020]])
 - **Antipsychotics**: chlorpromazine (OR 1.96), clozapine (OR 2.81), quetiapine (OR 1.55), olanzapine (OR 1.81), risperidone (OR 1.25) — via altered autonomic tone and muscarinic blockade causing atrial conduction abnormalities. ([[sources/drug-arrhythmia-aha-2020]])
 - **Catecholaminergic agents:** dobutamine (0–18%), dopamine, epinephrine — via β-adrenergic stimulation, shortened atrial ERP, and increased pulmonary vein ectopy. ([[sources/drug-arrhythmia-aha-2020]])
-- **Alcohol:** pooled OR/RR 1.51; dose-dependent; mechanisms include shortened atrial ERP, increased sympathetic and vagal activity, and interatrial electromechanical delay. ([[sources/drug-arrhythmia-aha-2020]])
+- **Alcohol:** pooled OR/RR 1.51; dose-dependent; mechanisms include shortened atrial ERP, increased sympathetic and vagal activity, and interatrial electromechanical delay. ([[sources/drug-arrhythmia-aha-2020]]). Note: Mendelian randomization studies negate the prior observational protective association of low/moderate alcohol with coronary artery disease; alcohol and BP have a linear relationship from the lowest intake levels — 2025 AHA/ACC HT guideline recommends avoiding alcohol for hypertension prevention [[sources/diet-aha-2026]] (very high)
+- **Fish oil supplements (omega-3 fatty acids):** Fish oil supplementation has not been demonstrated to lower CVD risk in otherwise healthy adults and may be associated with increased AF risk; dietary fish (non-fried seafood) does not carry this risk signal and is associated with lower overall CVD events. Icosapent ethyl (prescription-grade concentrated EPA, 4 g/day) similarly carries an AF risk signal (~1% absolute increase vs. placebo) [[sources/diet-aha-2026]] (very high)
 - **Bronchodilators (β-agonists, theophylline):** β₂-adrenergic and phosphodiesterase-mediated mechanisms; avoid excessive stimulant use and maintain theophylline <20 μg/mL. ([[sources/drug-arrhythmia-aha-2020]])
 - **Class IC antiarrhythmics (flecainide, propafenone):** Can convert AF to AFL with 1:1 AV conduction and wide QRS — AV nodal blocking drug must always be co-prescribed in patients with AFL taking these agents. ([[sources/drug-arrhythmia-aha-2020]])
 - **NSAIDs/COX-2 inhibitors:** Modest but statistically significant AF risk (diclofenac IR 1.2–1.4; etoricoxib HR 1.35) — mechanism involves reduced endogenous antiarrhythmic prostacyclin via COX-2 inhibition. ([[sources/drug-arrhythmia-aha-2020]])
 - **Management:** Discontinue offending agent (many self-convert to sinus rhythm); rate control with AV nodal blocking agents; TOE or ≥3 weeks therapeutic anticoagulation before cardioversion if AF ≥48 h or unknown duration; hemodynamically unstable → urgent cardioversion. ([[sources/drug-arrhythmia-aha-2020]])
 - See [[concepts/Drug-Induced-Arrhythmia]] for full drug catalog by arrhythmia type.
+
+## Hypertension and AF
+- Hypertension has the **highest attributable risk** for AF development of any modifiable risk factor; present in >80% of AF patients and the most common comorbidity regardless of age. ([[sources/HT-AHA-2025]], rating: very high)
+- Both AF and hypertension increase in frequency with age; uncontrolled hypertension is a key component of multiple AF and CVD risk prediction scores. ([[sources/HT-AHA-2025]])
+- **BP control reduces incident AF**, especially in patients with HF; in patients with established AF, optimal BP control reduces MACE including stroke. ([[sources/HT-AHA-2025]])
+- **BP goal in AF:** <130/80 mmHg — general hypertension guidelines apply; no dedicated RCT establishes an AF-specific BP target. ([[sources/HT-AHA-2025]])
+- **ACEi/ARB for AF prevention:** Small studies and meta-analyses suggest reduction in recurrent AF; more definitive evidence is needed. MRAs reduce AF burden in small studies and secondary analyses of RCTs. ([[sources/HT-AHA-2025]])
+- **Lifestyle modifications** that result in lower BP (weight loss, exercise, sodium reduction, alcohol reduction) may decrease AF recurrence — convergent pathways with standard AF risk factor management. ([[sources/HT-AHA-2025]])
+- See [[entities/Hypertension]] for full BP management framework, treatment thresholds, and medication guidance.
 
 ## AF and Obstructive Sleep Apnea
 - OSA is present in **21–74%** of AF patients (vs. 3–49% general population); most AF+OSA patients do not report daytime sleepiness — symptom-based screening is unreliable. ([[sources/osa-af-jama-2018]], rating: high)
@@ -129,6 +148,23 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 - **CPAP** observationally restores AF recurrence rates to near those of non-OSA patients after cardioversion and PVI (no AF-specific RCT evidence as of 2018); benefits strongest in younger, obese, and male patients. ([[sources/osa-af-jama-2018]])
 - **Screening:** Sleep study evaluation is reasonable in AF patients being considered for rhythm control strategy regardless of sleepiness symptoms. Polygraphy is a practical screening modality. AHI may be an inferior metric vs. nocturnal hypoxemic burden for predicting AF risk. ([[sources/osa-af-jama-2018]])
 - **Guidelines:** AHA 2023 — sleep apnoea treatment listed under LRFM (Class I). ESC 2016 — OSA interrogation and CPAP to reduce AF recurrence (Class IIa, Level B). ([[sources/AF-AHA-2023]]; [[sources/osa-af-jama-2018]])
+
+### Perioperative AF (POAF) After Noncardiac Surgery
+- **New-onset POAF:** Incidence 0.4–40% after NCS depending on procedure and patient risk; associated with HR 2.00 for 30-day stroke in the NSQIP registry — comparable to the stroke risk of known preoperative AF. ([[sources/periop-aha-2024]], rating: very high)
+- **39% AF recurrence at 5 years** after new-onset POAF — distinguishing POAF from transient, perioperative-stress-induced arrhythmia vs unmasked paroxysmal AF is clinically important. ([[sources/periop-aha-2024]], rating: very high)
+- **Acute rate/rhythm control:** Follow standard AF management; beta-blockers or calcium channel blockers first-line for rate control; cardioversion for haemodynamic instability. ([[sources/periop-aha-2024]], rating: very high)
+- **Anticoagulation (COR 2a):** Initiate anticoagulation for POAF persisting beyond 24–48 h; decisions must balance postoperative bleeding risk vs stroke risk; individualized using CHA₂DS₂-VASc score. ([[sources/periop-aha-2024]], rating: very high)
+- **Outpatient follow-up (COR 2a):** All patients with new-onset POAF should have structured outpatient cardiology follow-up — Danish registry data showed 48% reduction in thromboembolism with OAC in post-surgical AF. Prolonged ambulatory monitoring may be appropriate if AF recurrence is suspected. ([[sources/periop-aha-2024]], rating: very high)
+
+## Anticoagulation After Acute Ischemic Stroke in AF
+
+### Early OAC Initiation After AF-Related AIS
+- **Early OAC (within 4–14 days) — COR 2a:** ELAN trial (n=2,013, open-label RCT) — early OAC initiation (within 48h for minor, 3–7d for moderate, 6–7d for severe strokes) non-inferior to delayed (≥14 days) for recurrent ischaemic stroke, with no increase in symptomatic ICH at 30 days ([[sources/ais-aha-2026]], rating: very high)
+- **Timing by stroke severity:** Minor/moderate AIS: early initiation reasonable; severe AIS (NIHSS >15) with large infarct: delay ≥14 days to minimise hemorrhagic transformation risk; ELAN underrepresented large infarcts and patients with hemorrhagic transformation
+- **Heparin bridging — COR 3: Harm:** Not recommended while awaiting OAC — no benefit, increases intracranial haemorrhage; hold heparin and start OAC directly when appropriate timing is reached ([[sources/ais-aha-2026]], rating: very high)
+- **DOAC preferred over VKA** for most AF-related stroke (except mechanical valves, rheumatic MS with MVA ≤2.0 cm²); DOAC agents: apixaban, dabigatran, edoxaban, rivaroxaban ([[sources/AF-AHA-2023]], rating: very high)
+- See [[entities/Ischemic-Stroke]] for full AIS acute management, BP targets, and antiplatelet strategies
+- See [[concepts/DAPT-Strategies]] for antiplatelet management in minor AIS/TIA (DAPT ×21d COR 1A)
 
 ## Contradictions / Open Questions
 - CABANA trial showed no significant mortality benefit of catheter ablation vs. drug therapy in all-comers; CASTLE-AF showed benefit in HFrEF — patient selection is critical. ([[sources/AF-ESC-2024]], [[sources/AF-AHA-2023]])
@@ -142,6 +178,7 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 
 ## Connections
 - Related to [[entities/Amiodarone]]
+- Related to [[entities/Hypertension]] (highest attributable risk for AF)
 - Related to [[concepts/Drug-Induced-Arrhythmia]]
 - Related to [[concepts/Secondary-Mitral-Regurgitation]]
 - Related to [[concepts/Tricuspid-Regurgitation]]
@@ -171,3 +208,7 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
 - Related to [[entities/Obstructive-Sleep-Apnea]]
 - Related to [[concepts/OSA-Arrhythmogenic-Substrate]]
+- Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
+- Related to [[sources/periop-aha-2024]]
+- Related to [[concepts/Heart-Healthy-Dietary-Patterns]] — alcohol and fish oil supplement AF risk
+- Related to [[entities/Ischemic-Stroke]] — early OAC after AF-related AIS; ELAN trial

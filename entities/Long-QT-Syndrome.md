@@ -6,8 +6,8 @@ tags:
   - inherited-arrhythmias
   - sudden-cardiac-death
   - LQTS
-source_count: 5
-last_updated: 2026-04-18
+source_count: 6
+last_updated: 2026-04-25
 ---
 
 # Long QT Syndrome (LQTS)
@@ -55,6 +55,14 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - **1-2-3 LQTS Risk Calculator:** Estimates arrhythmic risk before therapy initiation; recommended for use prior to ICD decisions: **Class IIa** (ESC 2022). ([[sources/VA-SCD-ESC-2022]], rating: very high)
 - **ICD in asymptomatic high-risk LQTS** (per 1-2-3 LQTS Risk calculator) in addition to genotype-specific therapies: **Class IIb.** ([[sources/VA-SCD-ESC-2022]])
 - Trigger patterns inform risk: LQT1 events triggered by exercise/swimming; LQT2 by auditory stimuli/emotion/postpartum; LQT3 at rest/during sleep. ([[sources/channelopathies-jaha-2025]])
+
+### AHA/ACC 2025 Sports Statement — LQTS-Specific Guidance
+- **Concealed variant-positive LQTS** (gene+, QTc <460 ms at rest): Competitive sports participation **reasonable**. In the largest LQTS sports cohort (n=494 athletes), zero deaths and 0.3 events/100 patient-years were observed. Avoid QT-prolonging drug exposures; consider prophylactic beta-blocker. ([[sources/competitive-sports-aha-2025]], rating: very high)
+- **Phenotypic LQTS** (QTc ≥460 ms prepuberty / ≥470 ms male / ≥480 ms female; asymptomatic or previously symptomatic): Competitive sports participation **reasonable with SDM** under expert supervision after risk assessment and guideline-directed therapy. Zero deaths reported; 1.16 events/100 athlete-years in largest cohort. Requires non-selective beta-blockers (nadolol/propranolol), EAP with AED access. Escalation to mexiletine (LQT3), LCSD, or ICD for higher-risk cases. ([[sources/competitive-sports-aha-2025]])
+- **LQT1 swimming and diving:** Can **consider** competitive swimming/diving with SDM and appropriate precautions: supervision by CPR-trained individual, preference for pool over open water, AED on site. Prior SCA cases were mostly in undiagnosed/untreated patients. ([[sources/competitive-sports-aha-2025]])
+- **Symptomatic or therapy escalation required:** Clinical stability (no breakthrough arrhythmias) for ≥3 months required before resuming competitive sports. ([[sources/competitive-sports-aha-2025]])
+- **ICD for the sole purpose of competitive sports participation: should NOT be performed** — ~5%/year inappropriate shock risk + ~4%/year ICD-related complications. ([[sources/competitive-sports-aha-2025]])
+- See [[concepts/Sports-Cardiology-SDM]] for full SDM framework.
 
 ### Management
 - **Lifestyle modification:** Avoid QT-prolonging drugs (CredibleMeds list); avoid competitive sport in high-risk subtypes; correct hypokalaemia/hypomagnesaemia. ([[sources/channelopathies-jaha-2025]], rating: high)
@@ -108,3 +116,5 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - Related to [[entities/Andersen-Tawil-Syndrome]]
 - Related to [[concepts/Electrical-Storm]]
 - Related to [[concepts/LQTS-Pregnancy-Management]]
+- Related to [[concepts/Sports-Cardiology-SDM]]
+- Related to [[sources/competitive-sports-aha-2025]]

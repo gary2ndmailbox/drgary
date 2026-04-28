@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Valvular Heart Disease"
 tags: [valvular-heart-disease, guideline]
-source_count: 1
-last_updated: 2026-04-18
+source_count: 2
+last_updated: 2026-04-19
 ---
 
 # Valvular Heart Disease
@@ -42,16 +42,30 @@ Valvular heart disease (VHD) encompasses acquired structural abnormalities of th
 - Women underrepresented in VHD RCTs; outcome differences after TAVI and SAVR documented [[sources/vhd-esc-2025]] `very high`
 
 ### Antithrombotic Principles
-- MHV: lifelong VKA, DOACs contraindicated (Class III A)
-- After TAVI (no OAC indication): lifelong single ASA Class I A; routine OAC not recommended (Class III A)
-- After surgical BHV or MV/TV repair: short-term VKA or ASA for 3 months, then reassess
-- See: [[concepts/TAVI]], [[concepts/Structural-Valve-Deterioration]] [[sources/vhd-esc-2025]] `very high`
+- MHV: lifelong VKA, DOACs contraindicated (Class III A) [[sources/vhd-esc-2025]] `very high`
+- After TAVI (no OAC indication): lifelong single ASA Class I A; routine OAC not recommended (Class III A) [[sources/vhd-esc-2025]] `very high`
+- After surgical BHV or MV/TV repair: short-term VKA or ASA for 3 months, then reassess [[sources/vhd-esc-2025]] `very high`
+- ACC/AHA 2020: mechanical bileaflet AVR + no risk factors → VKA INR target 2.5; mechanical AVR + risk factors (AF, prior thromboembolism, LV dysfunction) or mechanical MVR → INR 3.0; DOACs Class III:Harm for all mechanical valves [[sources/VHD-AHA-2020]] `very high`
+- See: [[concepts/TAVI]], [[concepts/Structural-Valve-Deterioration]]
+
+### AF Anticoagulation in VHD
+- **ACC/AHA 2020:** For most VHD with AF, anticoagulation decision based on **CHA2DS2-VASc** score; either VKA or NOAC acceptable except for rheumatic mitral stenosis or mechanical prosthesis → VKA required [[sources/VHD-AHA-2020]] `very high`
+- **ESC 2024:** Uses **CHA2DS2-VA** (sex removed as a risk factor); otherwise similar VKA requirement for rheumatic MS and MHV [[sources/vhd-esc-2025]] `very high`
+
+### Disease Staging (ACC/AHA Framework)
+- **Stage A:** At risk; normal valve anatomy/function
+- **Stage B:** Progressive mild-moderate VHD; asymptomatic
+- **Stage C1:** Asymptomatic severe; compensated LV/RV
+- **Stage C2:** Asymptomatic severe; LV/RV decompensation
+- **Stage D:** Symptomatic severe VHD
+- This A–D framework was introduced by ACC/AHA 2020 and has been widely adopted [[sources/VHD-AHA-2020]] `very high`
 
 ## Contradictions / Open Questions
 - Lifetime durability of transcatheter valves (TAVI, TMVI) remains unknown beyond 5–8 years — long-term valve-in-valve outcomes are the key unknown for younger patients
 - Atrial SMR: no RCT evidence to guide surgical vs transcatheter intervention; both modalities supported by observational data only
 - Mixed/multiple VHD recommendations largely based on expert consensus and extrapolation from single-valve data
 - Optimal timing and mode of CAD treatment before TAVI remains debated (NOTION-3 vs ACTIVATION divergent results)
+- **ACC/AHA 2020 vs ESC 2024 AF anticoagulation divergence:** ACC/AHA 2020 uses CHA2DS2-VASc (sex included as a risk factor); ESC 2024 uses CHA2DS2-VA (sex removed) — different stroke risk thresholds result [[sources/VHD-AHA-2020]] `very high` vs [[sources/vhd-esc-2025]] `very high`
 
 ## Connections
 - Related to [[concepts/Aortic-Stenosis]]

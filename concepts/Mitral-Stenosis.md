@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Mitral Stenosis"
 tags: [valvular-heart-disease, mitral-stenosis]
-source_count: 1
-last_updated: 2026-04-18
+source_count: 3
+last_updated: 2026-04-22
 ---
 
 # Mitral Stenosis
@@ -50,6 +50,13 @@ Mitral stenosis (MS) is obstruction of diastolic flow from the LA to the LV due 
 - **Indications:** Intervention recommended when symptomatic and not responsive to medical therapy — but both PMC (no commissural fusion) and surgery are high-risk
 - **TMVI (Class IIb C, new 2025):** Transcatheter MV implantation may be considered in symptomatic patients with extensive MAC and severe MV dysfunction at experienced Heart Valve Centres — risk of LVOT obstruction, valve embolisation, stroke, and haemolysis; mortality remains 10–30% at 1 year even after successful treatment [[sources/vhd-esc-2025]] `very high`
 
+### Invasive Hemodynamic Assessment of MS
+- Catheterization is indicated when noninvasive gradient/valve area estimates are inconsistent, or when symptoms or pulmonary hypertension appear disproportionate to echo severity [[sources/hemodynamics-circ-2012]] `high`
+- **PAWP overestimates true transmitral gradient by 30–50%** even with phase-shift correction, due to pressure transmission delay through the pulmonary circulation; confirmed by simultaneous oximetry that the catheter is truly wedged [[sources/hemodynamics-circ-2012]] `high`
+- **Transseptal catheterization** for direct left atrial pressure is mandatory when therapeutic decisions (e.g., PMC candidacy) depend on accurate gradient data [[sources/hemodynamics-circ-2012]] `high`
+- Exercise hemodynamics (supine bicycle in cath lab): transmitral gradient and PAWP may rise dramatically at low workloads, unmasking haemodynamically significant MS that appears mild at rest [[sources/hemodynamics-circ-2012]] `high`
+- Absolute pulmonary pressure measurements at catheterization are important to distinguish pulmonary hypertension secondary to MS, LV diastolic dysfunction, pulmonary veno-occlusive disease, or intrinsic pulmonary vascular disease [[sources/hemodynamics-circ-2012]] `high`
+
 ### Medical Therapy
 - Diuretics, beta-blockers, digoxin, non-DHP calcium channel blockers, or ivabradine for symptomatic relief via heart rate control and volume management
 - Cardioversion unlikely to succeed if severe untreated MS; can be attempted for recent-onset AF after successful PMC or in moderate MS with amiodarone
@@ -58,6 +65,12 @@ Mitral stenosis (MS) is obstruction of diastolic flow from the LA to the LV due 
 - Asymptomatic severe rheumatic MS without intervention: yearly TTE
 - Moderate MS: follow-up every 2–3 years
 - After PMC: post-procedural MVA and mean gradient are key outcome predictors; watch for asymptomatic restenosis; monitor other valve involvement [[sources/vhd-esc-2025]] `very high`
+
+### Perioperative Management of MS and NCS
+- **Evaluate for MV intervention:** Severe symptomatic MS should be evaluated for PMC or MV surgery before elevated-risk elective NCS — if MS is the primary driver of symptoms, correction of the stenosis is preferable to proceeding with NCS under haemodynamic compromise. ([[sources/periop-aha-2024]], rating: very high)
+- **If MV intervention not feasible — invasive haemodynamic monitoring (COR 2a):** Direct LA pressure monitoring or PA catheter may be considered to optimise fluid management, guide vasopressor use, and detect pulmonary oedema perioperatively. ([[sources/periop-aha-2024]], rating: very high)
+- **Heart rate control (COR 2b):** Tachycardia severely worsens transmitral gradient by reducing diastolic filling time — maintain strict heart rate control (target <80 bpm resting, <100 bpm with activity) using beta-blockers or rate-limiting CCBs; avoid atrial pacing and any agent causing tachycardia. ([[sources/periop-aha-2024]], rating: very high)
+- **Haemodynamic goals:** Low-to-normal heart rate; high-normal SVR (to maintain CO via adequate diastolic filling); adequate but not excessive preload (LA pressure dependant on mitral gradient — volume overload causes pulmonary oedema); sinus rhythm strongly preferable. ([[sources/periop-aha-2024]], rating: very high)
 
 ## Contradictions / Open Questions
 - TMVI for degenerative MS/MAC: very limited evidence; complications (LVOT obstruction, embolisation, haemolysis) remain frequent; should be considered only at the most experienced Heart Valve Centres; Heart Team must avoid futility
@@ -69,3 +82,5 @@ Mitral stenosis (MS) is obstruction of diastolic flow from the LA to the LV due 
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/Pulmonary-Hypertension]]
 - Related to [[concepts/Tricuspid-Regurgitation]]
+- Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
+- Related to [[sources/periop-aha-2024]]

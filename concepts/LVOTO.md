@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Left Ventricular Outflow Tract Obstruction (LVOTO)"
 tags: [cardiomyopathy, HCM, diagnostics, pharmacology, cardiac-myosin-inhibitors]
-source_count: 2
-last_updated: 2026-04-11
+source_count: 3
+last_updated: 2026-04-20
 ---
 
 # Left Ventricular Outflow Tract Obstruction (LVOTO)
@@ -38,6 +38,13 @@ Left ventricular outflow tract obstruction (LVOTO) is a dynamic obstruction to L
 - **Vasodilators and digoxin:** discontinuation reasonable in symptomatic obstructive HCM as they can worsen LVOTO (Class IIb). ([[sources/HCM-AHA-2024]])
 - Dynamic nature: gradients vary with heart rate, BP, volume, activity, medications, food, and alcohol intake. Dobutamine provocation not advised (not specific, not physiologic). ([[sources/HCM-AHA-2024]])
 - SRT eligibility criteria (AHA 2024): (a) severe dyspnea/chest pain usually NYHA III–IV, (b) peak LVOT gradient ≥50 mmHg at rest or with physiologic provocation + SAM, (c) sufficient anterior septal thickness for the procedure. ([[sources/HCM-AHA-2024]])
+
+### Invasive Hemodynamic Assessment of LVOTO
+- **Pressure contour analysis:** Dynamic LVOTO → spike-and-dome aortic contour (rapid initial upstroke at AV opening, then late systolic pressure drop as obstruction develops) + late-peaking LV pressure; fixed valvular obstruction → parvus et tardus aortic upstroke from time of AV opening [[sources/hemodynamics-circ-2012]] `high`
+- **Braunwald-Brockenborough sign:** On the post-PVC beat, HCM with dynamic LVOTO shows a *decrease* in aortic pulse pressure (enhanced obstruction from post-extrasystolic potentiation); fixed valvular AS shows an *increase* in pulse pressure — key diagnostic differentiator in the cath lab [[sources/hemodynamics-circ-2012]] `high`
+- **Isoproterenol provocation:** When Valsalva and PVC induction fail to provoke a gradient ≥50 mmHg, isoproterenol infusion (β1+β2 stimulation) simulates exercise and can unmask labile outflow obstruction before septal ablation; also used post-ablation to confirm adequate gradient reduction [[sources/hemodynamics-circ-2012]] `high`
+- **Technical caution in HCM cath lab:** Catheters frequently entrap in hypertrophied hyperdynamic ventricles → erroneous pressure measurements; transseptal approach preferred; if retrograde catheter used, multipurpose/Rodriquez catheter (distal side holes) preferred over long-sidehole pigtail catheters [[sources/hemodynamics-circ-2012]] `high`
+- Note: dobutamine provocation is NOT advised for routine LVOTO assessment by ESC/AHA guidelines (not physiological, poorly tolerated); however, dobutamine is used for the distinct purpose of distinguishing true vs pseudo-aortic stenosis in low-flow/low-gradient states [[sources/esc-cmp-2023]] `very high` [[sources/HCM-AHA-2024]] `very high`
 
 ## Contradictions / Open Questions
 - **Mavacamten positioning — AHA Class I vs. ESC Class IIa:** AHA 2024 elevates mavacamten to a Class I step-3 option equivalent to disopyramide or SRT. ESC 2023 positions mavacamten as Class IIa, step 4 — below disopyramide and only after it has failed or is not tolerated. No head-to-head trial comparing mavacamten directly to disopyramide or SRT exists. The two different tiers reflect committee interpretation of the same EXPLORER and VALOR trial data. ([[sources/HCM-AHA-2024]], [[sources/esc-cmp-2023]])

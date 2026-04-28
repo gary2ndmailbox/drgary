@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cancer Therapy-Related Cardiovascular Toxicity (CTR-CVT)"
 tags: [cardio-oncology, cardiovascular-toxicity, CTRCD, heart-failure, cancer]
-source_count: 1
-last_updated: 2026-04-13
+source_count: 3
+last_updated: 2026-04-28
 ---
 
 # Cancer Therapy-Related Cardiovascular Toxicity (CTR-CVT)
@@ -58,6 +58,70 @@ CTR-CVT encompasses the full spectrum of cardiovascular (CV) complications that 
 
 #### ICI Myocarditis Diagnosis
 - Diagnosed pathohistologically (EMB: multifocal inflammatory infiltrates + cardiomyocyte loss) or clinically (cTn elevation + ≥1 major criterion [CMR diagnostic for myocarditis] or ≥2 minor criteria; after ACS exclusion). ([[sources/Cardio-Oncology-ESC-2022]])
+- **CMR in ICI myocarditis:** LGE and T2-weighted STIR are diagnostic imaging criteria; native T1 elevation is highly predictive of future MACE (n=136); T1/T2 mapping serves as prognostic biomarker beyond diagnostic criteria. ([[sources/ai-cardiooncology-aha-2025]], rating: high)
+- **Serial hsTnI screening:** Prospective longitudinal study demonstrated serial hsTnI can detect ICI myocarditis in both symptomatic and asymptomatic patients; relative elevation in cardiac troponin T prognostic for MACE. ([[sources/ai-cardiooncology-aha-2025]])
+
+#### Multimodality Imaging Framework (AHA 2023)
+
+The AHA 2023 Scientific Statement establishes an evidence-based multimodal imaging framework extending well beyond LVEF, mapped by therapy type and clinical presentation. ([[sources/imaging-cardio-oncology-aha-2024]], rating: high)
+
+**Echocardiography — First-Line**
+- First-line modality for all patients; 3D acquisition preferred for LVEF; RV function should be obtained at baseline.
+- **GLS thresholds:** Absolute GLS <16% or relative decline >15% from baseline (even with LVEF ≥53%) triggers closer surveillance and possible cardioprotection.
+- SUCCOUR trial: strain-guided vs. LVEF-guided therapy did not show advantage for its LVEF endpoint — strain likely most useful when LVEF is low-normal.
+- Routine echocardiography not required for ICI; indicated if HF symptoms or myocarditis suspected. LVEF usually decreased when echo performed during CAR-T–related HF episodes.
+- ([[sources/imaging-cardio-oncology-aha-2024]])
+
+**CMR — Second-Line**
+- Reserved for: difficult sonographic windows; borderline/abnormal LVEF; complex differentials (toxic vs. ischaemic vs. inflammatory cardiomyopathy); suspected myocarditis; ventricular arrhythmias; scar burden assessment.
+- **T1/T2 mapping:** diagnostic and prognostic in ICI myocarditis (T1/T2 elevation predicts MACE; n=136); native T1 and ECV capture fibrotic change with various anticancer agents.
+- CMR provides pericardial assessment via hemodynamic data, pericardial thickness, edema, and fibrosis imaging.
+- Machine learning integration anticipated to reduce cost and enable rapid CMR protocols in cardio-oncology.
+- ([[sources/imaging-cardio-oncology-aha-2024]])
+
+**CCT — Specific Indications**
+- Coronary artery calcium (CAC) scoring: re-stratifies ASCVD risk in cancer survivors; statin underused when CAC incidentally identified on staging CT.
+- ACS mimickers (fluoropyrimidines, ICI): CCTA has extremely high negative predictive value; preferred over invasive angiography in patients with high bleeding risk or haematologic derangements.
+- Valvular disease pre-planning (TAVR/TMVR) before high-risk cancer treatment.
+- LVEF assessment with ECG-triggered acquisition when echo and CMR are unavailable.
+- ([[sources/imaging-cardio-oncology-aha-2024]])
+
+**Nuclear Imaging**
+- **MUGA scan:** Third-line only — reserve when CMR, CCTA, and quality echocardiography unavailable.
+- **99mTc-PYP SPECT:** Strong evidence (+++) for suspected cardiac transthyretin amyloidosis in cancer patients (see [[concepts/Cardiac-Amyloidosis-Imaging]]).
+- **FDG-PET:** Did not differentiate ICI myocarditis outcomes; useful for tumour burden correlation with CAR-T CRS toxicity.
+- **Novel PET tracers:** ⁶⁸Ga-DOTATOC and ⁶⁸Ga-FAPI show promise in ICI myocarditis (uptake associated with histological disease; small series).
+- ([[sources/imaging-cardio-oncology-aha-2024]])
+
+**Imaging by Therapy Type (Table 1 Summary)**
+| Therapy | Echo | CMR | CCT | Nuclear | Key Guidance |
+|---|---|---|---|---|---|
+| Anthracyclines | +++ | ++ | − | − | Baseline if ≥1 risk factor; repeat during Rx; post-Rx surveillance every 2–5 years |
+| HER2-targeted | +++ | ++ | − | − | As anthracyclines |
+| ICI | +++ | +++ | ++ | ++ | Baseline if ≥1 risk factor; repeat if suspected cardiotoxicity |
+| CAR-T | +++ | ++ | + | − | Baseline if ≥1 risk factor; echo/CMR within 12 months post-Rx |
+| BTK inhibitors | +++ | ++ | − | − | Baseline if ≥1 risk factor; post-Rx if suspected toxicity |
+| VEGF inhibitors | ++ | + | + | + | Baseline if ≥1 risk factor; post-Rx if suspected toxicity |
+| Fluoropyrimidines | ++ | + | ++ | + | CCT/nuclear/CMR/PET if suspected ACS |
+| Radiation | +++ | + | ++ | ++ | Baseline; CCT/nuclear/CMR if suspected ACS post-Rx |
+
+**Imaging by Clinical Presentation (Table 2 Summary)**
+| Presentation | Echo | CMR | CCT | SPECT | PET |
+|---|---|---|---|---|---|
+| Heart failure | +++ | ++ | + | ++ | + |
+| ACS | +++ | ++ | +++ | +++ | +++ |
+| Ventricular arrhythmia | +++ | +++ | + | − | − |
+| Myocarditis | +++ | +++ | + | − | + |
+| Cardiac amyloidosis | +++ | +++ | − | +++ | − |
+| Pericarditis | +++ | ++ | + | − | − |
+| Atrial fibrillation/SVT | +++ | + | + | − | − |
+
+**Disparities in Cardio-Oncology Imaging**
+- Black patients with breast cancer: 4.61× higher cardiotoxicity causing incomplete HER2 therapy vs. White patients.
+- Black individuals and women: 3-fold increase in ICI-related cardiac events; RR 1.68 for cardiotoxicity in childhood cancer survivors.
+- Medicare data: transthoracic echocardiography use significantly lower in Black women (RR 0.92).
+- Dedicated cardio-oncology referral with meticulous serial imaging may mitigate disparities — demonstrated in a safety-net hospital cohort.
+- ([[sources/imaging-cardio-oncology-aha-2024]])
 
 ### Prevention
 
@@ -188,6 +252,25 @@ CTR-CVT encompasses the full spectrum of cardiovascular (CV) complications that 
 - **Toxicities:** Aromatase inhibitors: dyslipidaemia, atherosclerotic CVD, HF (letrozole > tamoxifen in BIG 1-98 trial). Tamoxifen: VTE risk, not recommended with thrombotic risk factors; toremifene/high-dose tamoxifen: QTc prolongation. ([[sources/Cardio-Oncology-ESC-2022]])
 - **Monitoring:** Serial lipid profile; baseline CV risk assessment. ([[sources/Cardio-Oncology-ESC-2022]])
 
+### Multi-Omics Biomarkers in Cardiotoxicity
+- **Genomics:** TTNtv (anthracycline cardiomyopathy overlap with DCM) and RARG variants identified in anthracycline cardiotoxicity; insufficient for routine clinical use. ([[sources/ai-cardiooncology-aha-2025]], rating: high)
+- **Transcriptomics:** scRNA-seq identified pathogenic α-myosin–specific T-cell populations in ICI myocarditis tissue. ([[sources/ai-cardiooncology-aha-2025]])
+- **Proteomics:** Hemopexin identified as biomarker in anthracycline cardiotoxicity; CSK kinase in ibrutinib-associated AF. ([[sources/ai-cardiooncology-aha-2025]])
+- **Metabolomics:** Early TCA cycle metabolite changes differentiated subsequent anthracycline cardiotoxicity before LVEF change; purine/pyrimidine metabolism alterations in cardiotoxic patients. ([[sources/ai-cardiooncology-aha-2025]])
+- All multi-omics biomarkers remain at pilot/research stage; large prospective cohorts with serial sampling are lacking. ([[sources/ai-cardiooncology-aha-2025]])
+
+### AI-Based Risk Prediction and ECG Algorithms
+- Integrative models combining cancer + CV risk factors + troponin + BNP achieved risk discrimination in the **90% range** for multiple cohorts. ([[sources/ai-cardiooncology-aha-2025]])
+- AI-ECG detected LV systolic dysfunction/HF risk in anthracycline/trastuzumab patients in studies of 3,364 and 889 patients. ([[sources/ai-cardiooncology-aha-2025]])
+- AI-ECG predicted life-threatening arrhythmias and mortality in ICI myocarditis (125 cases, 49 institutions, 11 countries). ([[sources/ai-cardiooncology-aha-2025]])
+- See [[concepts/AI-in-Cardio-Oncology]] for full detail.
+
+### Paediatric Imaging Considerations
+- >50% of children with cancer receive cardiotoxic therapies; cardiotoxicity is a key long-term outcome limitation.
+- Paediatric echo should include a segmental approach including extracardiac anatomical relationships.
+- Emphasise minimisation of radiation and contrast exposure in CCT and PET.
+- CMR: prospective data show CMR-biomarker correlation after anthracycline administration in children. ([[sources/imaging-cardio-oncology-aha-2024]], rating: high)
+
 ## Contradictions / Open Questions
 - Most recommendations are Level of Evidence C due to the lack of dedicated cardio-oncology RCTs — the evidence base is largely derived from small trials, subgroup analyses, and registry data. ([[sources/Cardio-Oncology-ESC-2022]], rating: very high)
 - Optimal timing and duration of cardioprotective medications (ACE-I, beta-blockers) initiated for CTR-CVT is not established by RCT evidence. ([[sources/Cardio-Oncology-ESC-2022]])
@@ -197,11 +280,22 @@ CTR-CVT encompasses the full spectrum of cardiovascular (CV) complications that 
 - **PRECISE-DAPT bleeding risk score** performs poorly in cancer patients for predicting bleeding; no validated cancer-specific bleeding score exists. ([[sources/Cardio-Oncology-ESC-2022]])
 - **GnRH antagonist vs. agonist CV benefit:** HERO trial suggests lower CV events with antagonists; PRONOUNCE trial showed no MACE difference (stopped early, optimal CVRF management). ([[sources/Cardio-Oncology-ESC-2022]])
 - HFA-ICOS tools are based on retrospective data and have not been prospectively validated in large RCTs; applicability across different cancer types requires caution. ([[sources/Cardio-Oncology-ESC-2022]])
+- **Biomarker-guided cardioprotection not proven superior:** Troponin-guided enalapril initiation showed no benefit over universal enalapril (n=276 RCT); hsTnI-guided candesartan/carvedilol did not prevent LV dysfunction in a multicenter RCT — both limited by small size and low cardiotoxicity event rates. ([[sources/ai-cardiooncology-aha-2025]])
+- No AI cardiotoxicity prediction models have been prospectively validated; inconsistent cardiotoxicity definitions across studies hinder algorithm development and comparison. ([[sources/ai-cardiooncology-aha-2025]])
+- **SUCCOUR trial limitation:** Strain-guided cardioprotection did not improve the 2D LVEF endpoint vs. LVEF-guided therapy — but the endpoint itself (2D LVEF) may be insensitive; clinical HF event data are lacking. GLS remains the most useful marker in low-normal LVEF patients. ([[sources/imaging-cardio-oncology-aha-2024]], rating: high)
+- **LVEF insufficiency for ICI and targeted therapy toxicities:** LVEF does not detect ICI-associated myocarditis (LVEF normal in up to 50% of cases) or targeted therapy–associated arrhythmias. T1/T2 mapping and GLS add sensitivity, but prospective validation with clinical endpoints is lacking. ([[sources/imaging-cardio-oncology-aha-2024]])
+- **Novel PET tracers for ICI myocarditis (⁶⁸Ga-DOTATOC/FAPI):** Promising histological correlation in small series, but FDG-PET did not differentiate myocarditis outcomes — the role of PET in routine cardiotoxic management remains undefined. ([[sources/imaging-cardio-oncology-aha-2024]])
 
 ## Connections
 - Related to [[concepts/Cardio-Oncology]]
+- Related to [[concepts/AI-in-Cardio-Oncology]]
 - Related to [[concepts/HFA-ICOS-Risk-Stratification]]
+- Related to [[concepts/Cardiac-Amyloidosis-Imaging]]
+- Related to [[concepts/Late-Gadolinium-Enhancement]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/DCM]]
+- Related to [[entities/ATTR-Amyloidosis]]
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
+- Related to [[sources/ai-cardiooncology-aha-2025]]
+- Related to [[sources/imaging-cardio-oncology-aha-2024]]

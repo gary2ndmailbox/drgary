@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Genetic Testing in Cardiomyopathy"
 tags: [genetics, cardiomyopathy, genetic-testing, guideline]
-source_count: 6
-last_updated: 2026-04-16
+source_count: 8
+last_updated: 2026-04-25
 ---
 
 # Genetic Testing in Cardiomyopathy
@@ -138,6 +138,21 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - Metabolic screening (acylcarnitine profile, amino acids, urine organic acids, serum lactate) is first-line in infants before genetic sequencing
 - Genetic testing in minors for adult-onset cardiomyopathy: controversial; generally deferred until clinical features become likely; requires multidisciplinary team input
 
+### Mitochondrial Disease — Special Considerations
+- **Standard cardiomyopathy and arrhythmia gene panels do NOT include mitochondrial genes** — neither mtDNA-encoded nor nuclear-encoded mitochondrial genes are part of current cardiomyopathy panel offerings. A negative panel does not exclude a mitochondrial aetiology. ([[sources/mitochondrial-cv-aha-2025]], rating: very high)
+- **WGS (or WES) is recommended as first-line** for suspected mitochondrial disease, rather than targeted gene panels. ([[sources/mitochondrial-cv-aha-2025]])
+- Suspect mitochondrial disease when cardiomyopathy is accompanied by: maternal inheritance pattern; multisystemic involvement (neurological, ophthalmological, auditory, endocrine, renal); elevated serum lactate; antenatal or early-infantile presentation; diabetes + deafness; or no P/LP variant found on standard cardiomyopathy panels.
+- Mitochondrial genetics has unique non-Mendelian features ([[concepts/Heteroplasmy]]) — heteroplasmy, biochemical thresholds, maternal inheritance with variable segregation, and dynamic variant levels — that require specialist genetic counselling beyond standard Mendelian disease counselling. ([[sources/mitochondrial-cv-aha-2025]])
+- HCM is the dominant cardiomyopathy phenotype in mitochondrial disease; DCM, RCM, and hypertrabeculation also occur. CVD is the leading cause of death in adults with mitochondrial disorders. ([[sources/mitochondrial-cv-aha-2025]])
+- See [[concepts/Mitochondrial-Cardiomyopathy]] for syndrome-specific clinical features and cardiac screening recommendations.
+
+### DTC-GT vs. Clinical Genetic Testing in Cardiomyopathy
+- DTC-GT panels include key cardiomyopathy genes (DCM: LMNA, TTN, MYH7, SCN5A, PLN, FLNC, RBM20, DSP, BAG3; HCM: MYBPC3, MYH7, TNNT2, TNNI3; ARVC: PKP2, DSP, DSC2, TMEM43, DSG2, JUP; storage diseases: TTR, GLA, GAA) — Table 1 of the AHA 2025 DTC-GT statement provides a comprehensive list cross-referenced against ClinGen evidence tiers ([[sources/consumer-genetictest-aha-2025]] — high)
+- **DTC-GT uses SNP-chip genotyping in most cases**, not full sequencing — this creates a substantially higher false-negative rate for rare pathogenic variants than clinical-grade multigene panels; a negative DTC result does NOT exclude a genetic cardiomyopathy ([[sources/consumer-genetictest-aha-2025]] — high)
+- **Confirmatory CLIA-certified testing is mandatory** for any actionable monogenic DTC-GT result before clinical management changes; consumers should not alter therapy based on DTC results alone ([[sources/consumer-genetictest-aha-2025]] — high)
+- VUS burden is high in DTC-GT; third-party re-interpretation services for raw DTC genetic data are unregulated and should not guide clinical decisions ([[sources/consumer-genetictest-aha-2025]] — high)
+- For comprehensive framework on DTC-GT in cardiovascular medicine, see [[concepts/DTC-Genetic-Testing]]
+
 ### Secondary and Incidental Findings
 - ACMG 2016 lists 59 medically actionable genes; 30 have cardiovascular phenotypes, 16 include cardiomyopathy genes
 - When P/LP variants in ACMG-listed cardiomyopathy genes are found incidentally (exome/genome sequencing for non-cardiac indication): focused cardiovascular phenotyping is recommended ([[sources/genetic-cmp-jcf-2018]] — very high)
@@ -150,6 +165,7 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - **Diagnostic yield gap — negative result ≠ non-genetic:** Genetic testing yields <100% for every phenotype. A negative result in the proband does not exclude a genetic cause; it merely means the current panel could not identify one. However, this uninformative result cannot be used for cascade testing — families are left in a state where phenotypic surveillance is required indefinitely with no genetic clarity. ([[sources/genetic-cmp-jcf-2018]] — very high)
 - **Variant reclassification notification gap:** Downgrading a P/LP variant to VUS has immediate clinical implications — relatives who were told they are "gene-negative" may now be at undetermined risk. No standardised infrastructure exists for systematic notification. See [[concepts/Variant-Reclassification]]. ([[sources/arrhythmia-genetics-mgenetik-2025]] — high; [[sources/HCM-AHA-2024]] — high)
 - **Non-European population underrepresentation:** Most pathogenic variant repositories are derived from white/northern European cohorts. Variant interpretation in other ethnicities is substantially more difficult and more likely to yield VUS, creating health equity disparities in genetic medicine. ([[sources/genetic-cmp-jcf-2018]] — very high)
+- **Mitochondrial causes missed by standard panels:** All major guidelines recommend multigene panel testing as the standard of care for cardiomyopathy. However, these panels do not test mitochondrial genes. A patient with mitochondrial cardiomyopathy (e.g., MELAS-related HCM, Barth syndrome DCM) will receive a "negative" result and potentially be misclassified as gene-elusive, delaying correct diagnosis and inappropriate family counselling. No guidelines formally specify at what point a panel-negative result should prompt escalation to WGS with mitochondrial analysis. ([[sources/mitochondrial-cv-aha-2025]] — very high)
 - **Gene-specific ICD thresholds vs. standard LVEF cutoff:** The standard LVEF ≤35% threshold underestimates risk in high-risk genotypes (LMNA, PLN, FLNC, RBM20). Guidelines agree on the principle of gene-specific expanded thresholds, but the exact thresholds differ between ESC 2021, ESC 2022, and ESC CMP 2023, creating clinical uncertainty. ([[sources/genetic-cmp-jcf-2018]] — very high; [[sources/VA-SCD-ESC-2022]] — very high; [[sources/esc-cmp-2023]] — very high)
 
 ## Connections
@@ -169,3 +185,7 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - Related to [[entities/ATTR-Amyloidosis]]
 - Related to [[entities/Anderson-Fabry-Disease]]
 - Related to [[concepts/Genetic-Testing-in-AF]]
+- Related to [[concepts/DTC-Genetic-Testing]]
+- Related to [[concepts/Mitochondrial-Cardiomyopathy]]
+- Related to [[concepts/Heteroplasmy]]
+- Related to [[sources/mitochondrial-cv-aha-2025]]

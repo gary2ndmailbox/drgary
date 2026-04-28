@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Structural Valve Deterioration"
 tags: [valvular-heart-disease, prosthetic-valves]
-source_count: 1
-last_updated: 2026-04-18
+source_count: 2
+last_updated: 2026-04-19
 ---
 
 # Structural Valve Deterioration
@@ -20,11 +20,18 @@ Structural valve deterioration (SVD) refers to intrinsic permanent change in a p
 
 **Mitral prostheses:** Parallel definitions using transmitral mean gradient thresholds [[sources/vhd-esc-2025]] `very high`
 
-### Follow-up Protocol for Prosthetic Valves
+### Follow-up Protocol for Prosthetic Valves — ESC 2025
 - **BHV:** TTE within 3 months of implantation, at 1 year, then annually — or sooner if new symptoms
 - **MHV:** Cinefluoroscopy and/or CCT if valve thrombus or pannus is suspected; TOE for any suspected dysfunction or endocarditis
 - GLS and strain imaging can detect early LV dysfunction in prosthetic valve patients before thresholds are met
 - All patients with prosthetic valves require lifelong clinical and echo follow-up [[sources/vhd-esc-2025]] `very high`
+
+### Follow-up Protocol for Prosthetic Valves — ACC/AHA 2020
+- **Surgical BHV (Class IIa C-LD):** TTE at 5 and 10 years after implantation, then **annually**, even without symptoms — ~30% develop haemodynamic dysfunction by 10 years
+- **Bioprosthetic TAVI (Class IIa C-LD):** Annual TTE is reasonable given emerging durability data
+- **Mechanical valves:** Routine annual TTE not needed if baseline study is normal and no clinical change
+- Risk factors for accelerated SVD (<5 years): age <60 years at implantation, smoking, diabetes mellitus, CKD, initial mean gradient ≥15 mmHg
+- Up to 13% of patients with surgical aortic BHV develop haemodynamic dysfunction at a median 6.7–9.9 years [[sources/VHD-AHA-2020]] `very high`
 
 ### Hypo-Attenuated Leaflet Thickening (HALT)
 - Detected by CCT as thickening of transcatheter valve leaflets; represents subclinical valve thrombosis

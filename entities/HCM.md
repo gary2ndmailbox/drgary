@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Hypertrophic Cardiomyopathy (HCM)"
 tags: [cardiomyopathy, sudden-cardiac-death, genetics, multimodality-imaging, guideline]
-source_count: 4
-last_updated: 2026-04-11
+source_count: 8
+last_updated: 2026-04-25
 ---
 
 # Hypertrophic Cardiomyopathy (HCM)
@@ -23,6 +23,13 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - ~40–60% of HCM patients have a causal sarcomeric variant identified on genetic testing; likelihood highest in young patients with familial disease. ([[sources/esc-cmp-2023]])
 - Primary sarcomeric genes: MYBPC3 (most common), MYH7, TNNT2, TNNI3, MYL2, MYL3, ACTC1, TPM1.
 - Genocopies (clinically resemble HCM but different management): Anderson-Fabry disease (GLA), ATTR amyloidosis (TTR), glycogen storage disorders (LAMP2-Danon, GAA-Pompe, PRKAG2), RASopathies (PTPN11, RAF1), Friedreich ataxia (FXN). These account for <5% of adults but up to 25% of children. ([[sources/esc-cmp-2023]])
+
+### Mitochondrial HCM (Phenocopies)
+- **HCM is the most common cardiomyopathy phenotype in mitochondrial diseases**; obstructive HCM is rare; may present antenatally; may progress to DCM with systolic dysfunction. ([[sources/mitochondrial-cv-aha-2025]], rating: very high)
+- Key mitochondrial syndromes presenting as HCM: MELAS (m.3243A>G), MIDD (m.3243A>G at lower VAF), MERRF (m.8344A>G), LHON, Leigh syndrome, Pearson syndrome. See [[concepts/Mitochondrial-Cardiomyopathy]]. ([[sources/mitochondrial-cv-aha-2025]])
+- **Standard cardiomyopathy and arrhythmia gene panels do NOT include mitochondrial genes** (neither mtDNA nor nuclear-encoded mitochondrial genes); mitochondrial HCM will yield a "gene-elusive" result on standard panels. ([[sources/mitochondrial-cv-aha-2025]])
+- Suspect mitochondrial disease when HCM presents with: maternal inheritance, multisystemic features (neurological, ophthalmological, hearing loss, diabetes), elevated serum lactate, or no sarcomeric variant identified on standard panels. ([[sources/mitochondrial-cv-aha-2025]])
+- WGS (not a targeted panel) is recommended as first-line for suspected mitochondrial HCM; involves non-Mendelian inheritance counselling (heteroplasmy, variable penetrance). ([[sources/mitochondrial-cv-aha-2025]])
 
 ### LVOTO Management
 - LVOTO ≥30 mmHg on Doppler; treatment threshold is ≥50 mmHg.
@@ -62,6 +69,13 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - Patients should have individualized exercise risk assessment. High-intensity exercise and competitive sports should be discouraged in high-risk patients. Genotype-positive/phenotype-negative patients with no symptoms or risk factors may participate in competitive sports. ([[sources/esc-cmp-2023]])
 - **AHA 2024 paradigm shift:** Universal restriction from vigorous physical activity or competitive sports is **not indicated** for most patients (Class III: No Benefit). Vigorous recreational activity is reasonable after annual expert evaluation (Class IIa); competitive sports may be considered by HCM-experienced providers (Class IIb). See [[concepts/Exercise-in-HCM]]. ([[sources/HCM-AHA-2024]])
 
+### AHA/ACC 2025 Sports Statement — HCM-Specific Guidance
+- **Genotype+/phenotype-:** Can participate in competitive sports — low arrhythmic risk is well-established. ([[sources/competitive-sports-aha-2025]], rating: very high)
+- **Clinical HCM:** Competitive sports participation **reasonable to consider** after comprehensive expert assessment with SDM in which risks (including SCD) and benefits are explicitly discussed. This is supported by LIVE-HCM (no increased malignant VA in HCM with vigorous exercise compared with less active patients) and multicenter SDM registry data showing low breakthrough event rates. ([[sources/competitive-sports-aha-2025]])
+- **ICD should NOT be implanted solely to enable competitive sports participation** in HCM athletes — ~5%/year inappropriate shock risk and ~4%/year ICD-related complications. ([[sources/competitive-sports-aha-2025]])
+- Athletes who discontinue competitive sports should be counselled that recreational physical activity remains important for health and longevity. ([[sources/competitive-sports-aha-2025]])
+- See [[concepts/Sports-Cardiology-SDM]] for the full SDM framework and preparticipation evaluation approach.
+
 ### Pregnancy
 - **Mavacamten is absolutely contraindicated in pregnancy** due to potential teratogenic effects (Class III: Harm — AHA 2024 new recommendation). ([[sources/HCM-AHA-2024]])
 - Pregnant women with HCM should be managed at comprehensive HCM centers with appropriate expertise. ([[sources/HCM-AHA-2024]])
@@ -75,8 +89,22 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - Rhythm control preferred over rate control given poor AF tolerance in HCM. ([[sources/HCM-AHA-2024]])
 - **AF ablation in genotype-positive HCM (MYBPC3/MYH7):** A 2024 single-center retrospective study (n=27; 12 gene-positive, 15 controls) found that MYBPC3/MYH7 variant–positive patients had appreciably more LA fibrosis by electroanatomical mapping (12.3% abnormal voltage vs. 5.7% in gene-negative HCM controls), despite similar LA pressures. Freedom from AF at 12 months was similar (~75% vs. 73%), but gene-positive patients required significantly more ablation procedures (mean 1.67 vs. 1.20; P=0.03) and all remained on AADs post-ablation. Progressive atrial fibrosis was observed in redo procedures, suggesting ongoing atrial myopathy. See [[concepts/Atrial-Myopathy-in-HCM]]. ([[sources/MYBPC3-MYH7-JACCEP-2024]], rating: medium)
 
+### Invasive Hemodynamic Assessment in HCM
+- Cardiac catheterization is required when noninvasive data are inconclusive to document a resting or provoked LVOT gradient ≥50 mmHg before septal reduction therapy [[sources/hemodynamics-circ-2012]] `high`
+- **Catheter entrapment is a major hazard** in the small, hypertrophied, hyperdynamic HCM ventricle — results in erroneous pressure tracings; must be identified by continuous pressure contour analysis and small hand injections of contrast [[sources/hemodynamics-circ-2012]] `high`
+- **Transseptal catheterization preferred** for LV inflow pressure measurement — avoids entrapment; allows accurate assessment of true LV diastolic pressure without retrograde catheter interference [[sources/hemodynamics-circ-2012]] `high`
+- If retrograde approach is used: multipurpose or Rodriquez catheter (side holes at the distal end) preferred; pigtail catheters with long side-hole sections should be avoided as they may straddle the LVOT and artificially fuse LV and Ao pressures [[sources/hemodynamics-circ-2012]] `high`
+- **Provocative maneuvers** if resting gradient <50 mmHg: (1) Valsalva maneuver, (2) PVC induction; if still insufficient, (3) isoproterenol infusion (β1+β2 stimulation) to simulate exercise — most sensitive in uncovering labile obstruction [[sources/hemodynamics-circ-2012]] `high`
+- Post-septal ablation assessment must include both resting AND provoked gradients; residual provokable gradient ≥50 mmHg indicates incomplete procedural result [[sources/hemodynamics-circ-2012]] `high`
+
 ### Cardiometabolic Risk
 - Cardiometabolic risk factors (obesity, hypertension, diabetes, obstructive sleep apnea) are highly prevalent in HCM and worsen prognosis; intensive modification is a core management component. ([[sources/HCM-AHA-2024]])
+
+### Perioperative Management of HCM
+- **LVOT aggravating factors (COR 3: Harm):** Inotropic agents (dobutamine, milrinone), tachycardia, excessive preload reduction, and peripheral vasodilation all worsen LVOT obstruction and must be avoided in obstructive HCM patients undergoing NCS. ([[sources/periop-aha-2024]], rating: very high)
+- **Vasopressors preferred over inotropes:** For perioperative hypotension in HCM, phenylephrine or norepinephrine (vasopressors) are recommended to restore SVR; inotropes worsen dynamic LVOT obstruction and are contraindicated. ([[sources/periop-aha-2024]], rating: very high)
+- **Intraoperative TEE (COR 2a):** Indicated for haemodynamically unstable HCM patients and for monitoring unexplained haemodynamic deterioration; allows real-time assessment of LVOT obstruction severity and volume status. ([[sources/periop-aha-2024]], rating: very high)
+- **Maintain adequate preload and afterload:** IV fluid administration and vasopressors to maintain intravascular volume; avoid spinal/epidural anaesthesia that causes abrupt sympatholytic vasodilation in patients with obstructive physiology. ([[sources/periop-aha-2024]], rating: very high)
 
 ## Contradictions / Open Questions
 - **AHA 2024 vs. ESC 2023 — LV apical aneurysm as ICD indication:** AHA 2024 lists apical aneurysm with transmural scar/LGE as a major SCD risk factor warranting ICD (Class IIa). ESC 2023 explicitly does NOT recommend apical aneurysm as a sole ICD indication due to insufficient evidence. A patient with apical aneurysm as their only risk factor would receive an ICD in the US but not in Europe. ([[sources/HCM-AHA-2024]], [[sources/esc-cmp-2023]])
@@ -102,3 +130,9 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - Related to [[entities/MYH7]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[concepts/Cascade-Family-Screening]]
+- Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
+- Related to [[sources/periop-aha-2024]]
+- Related to [[concepts/Sports-Cardiology-SDM]]
+- Related to [[sources/competitive-sports-aha-2025]]
+- Related to [[concepts/Mitochondrial-Cardiomyopathy]]
+- Related to [[concepts/Heteroplasmy]]

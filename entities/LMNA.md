@@ -2,8 +2,8 @@
 dg-publish: true
 title: "LMNA (Lamin A/C)"
 tags: [genetics, arrhythmogenic-cardiomyopathy, ALVC, cardiomyopathy-genetics]
-source_count: 10
-last_updated: 2026-04-16
+source_count: 11
+last_updated: 2026-04-25
 ---
 
 # LMNA (Lamin A/C)
@@ -23,6 +23,10 @@ LMNA encodes lamins A and C, nuclear envelope proteins that form the structural 
 - **Gene class (protein type):** Nuclear envelope (NE) protein; truncating and missense variants are both pathogenic.
 - **Association with early-onset AF:** LMNA was the 4th most common gene with P/LP variants in 1293 patients with early-onset AF (WGS cohort): 9 participants (6% of all disease-associated variants); median AF diagnosis age 52 years (IQR 41–52). This aligns with the known LMNA clinical sequence — AF and conduction disease appear first, preceding ventricular involvement by years to decades. ([[sources/eoaf-jama-2021]])
 - **LMNA P/LP variants in AF <40 without overt structural disease:** In a prospective cohort of AF before age 40 specifically excluding structural heart disease and major comorbidities, 2 of 8 P/LP variant carriers harbored LMNA variants. CMR was performed in 49% of the cohort and showed normal ventricular volumes without scar or fibrosis. This confirms that LMNA-related disease can present as isolated AF in young patients before cardiomyopathy becomes structurally detectable — consistent with the known LMNA sequence of AF preceding ventricular disease. ([[sources/eoaf-riskfactor-ehj-2026]], rating: medium)
+
+- **REALM-DCM Phase 3 failure — LMNA pathobiology complexity:** The REALM-DCM trial (phase 3, placebo-controlled) tested a p38α-MAPK inhibitor (PF-07265803/ARRY-371797) specifically in symptomatic LMNA-related DCM — and showed no benefit. LMNA controls nuclear function not only in cardiomyocytes but also in fibroblasts, endothelial cells, and inflammatory cells simultaneously; cardiac transcriptomes show enrichment of both cardiomyocyte survival transcripts and reactive fibrosis transcripts. This failure demonstrates that single-pathway targeting is insufficient for LMNA-DCM and that the pathophysiology is highly complex. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **5× thromboembolic risk in LMNA-DCM with AF:** LMNA-related DCM carries thromboembolic risk up to five times higher than other DCM subtypes with atrial arrhythmias — oral anticoagulation is strongly recommended in LMNA-DCM with AF, beyond standard CHA2DS2-VA threshold considerations. Aligns with CJC 2024 recommendation for OAC regardless of conventional scoring. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **Cardiac transcriptomic profile:** Cardiomyocyte survival and reactive fibrosis transcripts are enriched in laminopathies. At end-stage, the molecular profile of LMNA-DCM is distinct from TTNtv-DCM, with a larger pro-fibrotic and inflammatory signature — partly explaining the resistance to conventional HF therapies. ([[sources/DCM-Lancet-2023]], rating: very high)
 
 - **ESC 2023 — DCM/NDLVC context:** LMNA variants are recognized as a high-risk genotype in both DCM and NDLVC. ICD should be considered in LMNA carriers with LVEF >35% if additional risk factors are present (NSVT, syncope, LGE on CMR) — Class IIa, Level C. ([[sources/esc-cmp-2023]])
 - **Gene-specific risk calculator:** The LMNA risk-VTA calculator (https://lmna-risk-vta.fr) is specifically recommended to guide primary prevention ICD decisions in LMNA cardiomyopathy. ESC 2023 recommends this tool while noting the 2022 ESC VA guidelines suggest a 10% threshold — creating an internal ESC inconsistency. ([[sources/esc-cmp-2023]])
@@ -78,3 +82,4 @@ LMNA encodes lamins A and C, nuclear envelope proteins that form the structural 
 - Related to [[concepts/Genetic-Testing-in-Cardiomyopathy]]
 - Related to [[sources/genetic-cmp-jcf-2018]]
 - Related to [[sources/genetic-yield-jama-card-2022]]
+- Related to [[sources/DCM-Lancet-2023]]

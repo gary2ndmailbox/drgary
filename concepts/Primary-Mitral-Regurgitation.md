@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Primary Mitral Regurgitation"
 tags: [valvular-heart-disease, mitral-regurgitation]
-source_count: 1
-last_updated: 2026-04-18
+source_count: 2
+last_updated: 2026-04-19
 ---
 
 # Primary Mitral Regurgitation
@@ -49,8 +49,17 @@ Primary mitral regurgitation (PMR) is MR caused by intrinsic structural abnormal
 - After surgical repair: echo at 3 months, 1 year, then every 2–3 years if no LV dysfunction/arrhythmia
 - After TEER: yearly follow-up (higher residual MR rate than surgery)
 
+### ACC/AHA 2020 — Intervention Criteria
+- **Class I B-NR:** Symptomatic severe PMR (Stage D) → MV intervention regardless of LVEF
+- **Class I B-NR:** Asymptomatic severe PMR with LVEF ≤60% or LVESD ≥40 mm (Stage C2) → MV surgery
+- **Class I B-NR:** Repair preferred over replacement when degenerative aetiology and durable repair is feasible
+- **Class IIa B-NR:** Asymptomatic Stage C1 (LVEF ≥60%, LVESD ≤40 mm) → repair reasonable when likelihood >95% successful durable repair AND expected mortality <1% at a Primary or Comprehensive Valve Center
+- **Class IIa B-NR:** Severely symptomatic (NYHA III/IV) + high/prohibitive surgical risk → TEER reasonable if anatomy favourable and life expectancy ≥1 year
+- Note: ESC 2025 introduced the 3-of-4 additional criteria for asymptomatic PMR surgery (AF, SPAP >50, LA dilatation, concomitant secondary TR); ACC/AHA 2020 used a simpler LVEF/LVESD threshold [[sources/VHD-AHA-2020]] `very high`
+- Vasodilator therapy: NOT indicated in asymptomatic PMR with normal LV and normotension (ACC/AHA 2020 Class III:No Benefit) — may worsen MR by reducing LV size and mitral closing force [[sources/VHD-AHA-2020]] `very high`
+
 ## Contradictions / Open Questions
-- The new "3-of-4 criteria" for asymptomatic PMR surgery is based on observational data and expert consensus — no RCT compares early surgery vs watchful waiting using these criteria specifically
+- The new "3-of-4 criteria" (ESC 2025) for asymptomatic PMR surgery is based on observational data and expert consensus — no RCT compares early surgery vs watchful waiting using these criteria specifically; ACC/AHA 2020 does not use this approach [[sources/vhd-esc-2025]] `very high` vs [[sources/VHD-AHA-2020]] `very high`
 - Minimally invasive MV surgery outcomes are centre-dependent; insufficient evidence for broad adoption outside high-volume centres
 - Optimal timing of intervention in asymptomatic patients with progressive LA dilatation but no overt symptoms remains debated
 

@@ -5,8 +5,8 @@ tags:
   - pulmonary-hypertension
   - right-heart-failure
   - pulmonary-arterial-hypertension
-source_count: 1
-last_updated: 2026-04-13
+source_count: 5
+last_updated: 2026-04-22
 ---
 
 # Pulmonary Hypertension
@@ -24,6 +24,12 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 - **Exercise PH (reintroduced 2022):** mPAP/CO slope >3 mmHg/L/min between rest and exercise. Associated with impaired prognosis. Not physiological in subjects <60 years. ([[sources/PHT-ESC-2022]], rating: very high)
 - **Unclassified PH:** mPAP >20 mmHg + PVR ≤2 WU + PAWP ≤15 mmHg — often from elevated pulmonary blood flow (CHD, liver disease, hyperthyroidism). ([[sources/PHT-ESC-2022]], rating: very high)
 - **Drug threshold caveat:** All approved PAH drugs studied only in patients with mPAP ≥25 mmHg and PVR >3 WU; no efficacy data for the lower-threshold zone (mPAP 21–24 mmHg, PVR 2–3 WU). ([[sources/PHT-ESC-2022]], rating: very high)
+
+**PAWP normal range and zone of uncertainty**
+- True physiological upper limit of normal PAWP: **13 mmHg** (meta-analysis, n=940 healthy subjects; independent of BMI and age; women slightly higher than men). ([[sources/rhc-hf-ehj-2025]], rating: high)
+- ESC PH guideline post-capillary PH threshold: PAWP >15 mmHg — this creates a diagnostic grey zone (13–15 mmHg) where early LHD may be under-recognised.
+- **Zone of uncertainty (12–18 mmHg):** PAWP in this range should be contextualised to individual clinical probability of left heart disease; provocative testing (exercise RHC, fluid challenge, passive leg raise) may be required. ([[sources/rhc-hf-ehj-2025]], rating: high)
+- See [[concepts/Right-Heart-Catheterization]] for full PAWP methodology and pitfalls.
 
 ### Clinical Classification — 5 Groups
 - **Group 1 — PAH:** Includes IPAH, HPAH, drug/toxin-associated PAH, PAH associated with CTD/HIV/portal hypertension/CHD/schistosomiasis, PVOD/PCH, and PPHN. Rare; prevalence 48–55/million adults. ([[sources/PHT-ESC-2022]], rating: very high)
@@ -57,7 +63,9 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 - **Pregnancy: strongly discouraged** — maternal mortality 11–25%; ERAs and riociguat contraindicated (Class III/B); CCBs/PDE5i/prostacyclins considered safe. ([[sources/PHT-ESC-2022]], rating: very high)
 
 ### PAH Drug Therapy
-- **Calcium channel blockers:** Class I/C — only for vasoreactive patients with IPAH/HPAH/DPAH (<10% qualify). Adequate response: WHO-FC I/II + mPAP <30 mmHg + PVR <4 WU at 3–6 months. Class III in non-responders. ([[sources/PHT-ESC-2022]], rating: very high)
+- **Acute vasoreactivity testing (AVT) — updated positive response definition:** mPAP decrease ≥10 mmHg to absolute value ≤40 mmHg with maintained or increased CO (replaces older 20% PVR reduction criterion); ~10% of PAH patients respond; predictive/prognostic value only in idiopathic/heritable/drug-induced PAH. ([[sources/hemodynamic-hf-pht-aha-2026]], rating: very high)
+- **Preferred AVT agents:** iNO and inhaled iloprost (Class I ESC 2022); IV epoprostenol (Class I ESC 2022); **adenosine no longer recommended (ESC 2022)** due to frequent adverse effects (AV block, bronchospasm, hypotension). ([[sources/hemodynamic-hf-pht-aha-2026]], rating: very high)
+- **Calcium channel blockers:** Class I/C — only for vasoreactive patients with IPAH/HPAH/DPAH (<10% qualify). Adequate response: WHO-FC I/II + mPAP <30 mmHg + PVR <4 WU at 3–6 months. Class III in non-responders. Long-term CCB responders now assigned their own WSPH PH subclassification. ([[sources/PHT-ESC-2022]], rating: very high) ([[sources/hemodynamic-hf-pht-aha-2026]], rating: very high)
 - **Initial combination ERA + PDE5i: Class I/B** for low-to-intermediate-risk IPAH/HPAH/DPAH. Ambrisentan + tadalafil (AMBITION): Class I. Macitentan + tadalafil: Class I (new in 2022). Other ERA + PDE5i: Class IIa. ([[sources/PHT-ESC-2022]], rating: very high)
 - **Bosentan + sildenafil: Class III** (downgraded from IIb — no longer recommended). ([[sources/PHT-ESC-2022]], rating: very high)
 - **Escalation for intermediate-high/high risk:** Parenteral prostacyclin addition or lung transplantation evaluation. ([[sources/PHT-ESC-2022]], rating: very high)
@@ -75,14 +83,49 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 - **Ambrisentan: Class III** — not recommended in PH-IPF. ([[sources/PHT-ESC-2022]], rating: very high)
 - **Riociguat: Class III** — not recommended in PH-IIP. ([[sources/PHT-ESC-2022]], rating: very high)
 
+### RV Failure in PH — Mechanisms and Assessment
+- **RV–PA uncoupling** is the haemodynamic hallmark of right heart failure in PH: Ees/Ea <≈0.7 = uncoupling threshold; optimal coupling 1.5–2.0. See [[concepts/RV-PA-Coupling]]. ([[sources/rv-failure-aha-2026]], rating: very high)
+- Progression: chronic pressure overload → RV hypertrophy (adaptive) → RV dilation, fibrosis, diastolic stiffness → RV–PA uncoupling (maladaptive) → right heart failure — primary cause of death in advanced PH. ([[sources/rv-failure-aha-2026]], rating: very high)
+- RV afterload is multifactorial: PVR + PA compliance + pulsatile load — PVR alone insufficient to characterise haemodynamic burden. ([[sources/rv-failure-aha-2026]], rating: very high)
+- Key drivers of maladaptive remodeling: inflammation (TNF-α/IL-6/IL-1β/NLRP3 inflammasome), metabolic reprogramming (Warburg effect, FAO → glycolysis), ECM fibrosis (TGF-β/MMP/integrin pathways). ([[sources/rv-failure-aha-2026]], rating: very high)
+- **Noninvasive RV–PA coupling surrogates:** TAPSE/sPAP (widely used; prognostic); RV free wall strain/sPAP (superior for PAH outcomes prediction); RVEF change with therapy. ([[sources/rv-failure-aha-2026]], rating: very high)
+- **CMR:** Gold standard for RV volumes/function; LGE and T1/T2 mapping detect fibrosis in maladaptive remodeling; 4D flow predicts PH vs RHC. ([[sources/rv-failure-aha-2026]], rating: very high)
+- **BMPR2 mutation carriers:** More severe RV dysfunction independent of afterload; higher mortality/transplantation risk vs non-carriers. ([[sources/rv-failure-aha-2026]], rating: very high)
+
+### Sotatercept — RV-Targeted PAH Therapy
+- **Sotatercept** (activin ligand trap / TGF-β superfamily signalling inhibitor): FDA-approved for advanced PAH. ([[sources/rv-failure-aha-2026]], rating: very high)
+- **STELLAR trial** (Phase 3): Improved PA pressures, PA compliance, PA–RV coupling, and RV function in PAH patients. ([[sources/rv-failure-aha-2026]], rating: very high)
+- **SPECTRA trial** (Phase 2b): Decreased RV mass; increased haemoglobin and peak VO₂ without changes in resting cardiac output; potential direct cardioprotective effect on cardiomyocytes. ([[sources/rv-failure-aha-2026]], rating: very high)
+- Long-term consequences of sotatercept's direct myocardial effects remain unclear and require further study. ([[sources/rv-failure-aha-2026]], rating: very high)
+
+### Perioperative Management of PH
+- **Continue all PAH-targeted therapy perioperatively (COR 1):** Abrupt discontinuation of ERA, PDE5i, or prostacyclins causes acute haemodynamic decompensation and death — these must be maintained without interruption including on the day of surgery. ([[sources/periop-aha-2024]], rating: very high)
+- **Specialist centre referral (COR 2a):** Severe PH patients undergoing elevated-risk NCS should be managed at centres with expertise in PAH — multidisciplinary team including PH cardiologist, anaesthesiologist, and intensivist. ([[sources/periop-aha-2024]], rating: very high)
+- **Perioperative risk:** PH confers 43% increased odds of postoperative death, MI, or stroke. Group 1 PAH patients specifically: 2.5× increased MACE risk and 5× increased cardiogenic shock risk vs patients without PH. ([[sources/periop-aha-2024]], rating: very high)
+- **Invasive haemodynamic monitoring (COR 2a):** Recommended for PH patients undergoing elevated-risk NCS to guide fluid management and vasopressor use; avoid fluid overload and avoid agents that increase RV afterload. ([[sources/periop-aha-2024]], rating: very high)
+- **Inhaled pulmonary vasodilators (COR 2a):** Inhaled NO or epoprostenol should be available for intraoperative or postoperative pulmonary hypertensive crises; vasopressors (norepinephrine, vasopressin) preferred over inotropes to manage hypotension and maintain RV perfusion pressure. ([[sources/periop-aha-2024]], rating: very high)
+
 ## Contradictions / Open Questions
 - **Lower haemodynamic threshold not yet backed by drug trial evidence:** The 2022 definition extends PH diagnosis to mPAP 21–24 mmHg + PVR 2–3 WU, but all approved PAH drugs were studied only in patients with mPAP ≥25 mmHg and PVR >3 WU. No efficacy data exist for this lower-threshold zone — clinicians may face diagnostic labelling without actionable treatment options. ([[sources/PHT-ESC-2022]], rating: very high)
 - **Exercise PH thresholds require further validation:** mPAP/CO slope >3 mmHg/L/min is age-dependent; reproducibility across centres and prognostic implications in clinical practice require prospective validation before routine clinical use. ([[sources/PHT-ESC-2022]], rating: very high)
 - **Anticoagulation in IPAH remains unresolved:** Downgraded to Class IIb despite meta-analyses suggesting survival benefit; no RCT data; registry evidence conflicting; recommendation driven largely by expert opinion and concern about harm in SSc-PAH. ([[sources/PHT-ESC-2022]], rating: very high)
+
+## Contradictions / Open Questions (updated)
+- **Normal PAWP vs PH classification threshold:** True physiological PAWP upper limit is 13 mmHg (meta-analysis), but ESC guidelines use 15 mmHg as the post-capillary PH diagnostic threshold. The grey zone (13–15 mmHg) may lead to under-recognition of early LHD-related PH. ([[sources/rhc-hf-ehj-2025]], rating: high)
+
+## Contradictions / Open Questions (updated)
+- **RV–PA uncoupling transition point remains elusive:** The adaptive-to-maladaptive remodeling transition cannot be reliably identified prospectively; delayed diagnosis means most patients are already maladaptive at presentation; no validated serial monitoring algorithm integrates Ees/Ea surrogates into clinical practice. ([[sources/rv-failure-aha-2026]], rating: very high)
+- **ESC/ERS guidelines lack comprehensive ongoing risk assessment incorporating advanced RV imaging:** Current guidelines use imaging metrics for initial diagnosis only; no validated multiparametric model for serial RV monitoring in PH — identified as a major gap. ([[sources/rv-failure-aha-2026]], rating: very high)
 
 ## Connections
 - Related to [[entities/CTEPH]]
 - Related to [[concepts/PAH-Risk-Stratification]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[concepts/HFpEF]]
+- Related to [[concepts/Right-Heart-Catheterization]]
+- Related to [[concepts/RV-PA-Coupling]]
 - Related to [[sources/PHT-ESC-2022]]
+- Related to [[sources/rhc-hf-ehj-2025]]
+- Related to [[sources/rv-failure-aha-2026]]
+- Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
+- Related to [[sources/periop-aha-2024]]
