@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cascade Family Screening (ACM & HCM)"
 tags: [arrhythmogenic-cardiomyopathy, hypertrophic-cardiomyopathy, genetics, cardiomyopathy-genetics]
-source_count: 8
-last_updated: 2026-04-28
+source_count: 9
+last_updated: 2026-04-29
 ---
 
 # Cascade Family Screening (ACM)
@@ -107,6 +107,14 @@ Cascade family screening refers to the systematic cardiovascular and genetic eva
 - **Confirmatory CLIA-certified testing should precede any DTC-GT-triggered cascade testing** — to avoid propagating potentially erroneous results through families ([[sources/consumer-genetictest-aha-2025]] — high)
 - See [[concepts/DTC-Genetic-Testing]] for full clinical approach framework
 
+### AHA 2020 — Legal and Institutional Context for Cascade Testing
+- HIPAA (US) restricts providers from directly contacting at-risk relatives without patient authorization; providers should supply patients with a standardized family letter accurately summarizing the genetic finding and directing relatives toward cascade evaluation ([[sources/genetic-test-aha-2020]] — high)
+- Genetic Information Nondiscrimination Act (GINA 2008): prohibits genetic discrimination in health insurance and employment; does NOT cover life insurance, disability insurance, or long-term care insurance; does not apply to employers with <15 employees — patients must be counselled about these limitations before undergoing testing ([[sources/genetic-test-aha-2020]] — high)
+- When cascade extends beyond the immediate family: for any family member found to have the disease phenotype or a positive genetic result, their own first-degree relatives should in turn be offered testing — the cascade continues outward until all at-risk relatives have been offered clinical screening and genetic testing ([[sources/genetic-test-aha-2020]] — high)
+- Family members who test negative for the familial P/LP variant: exonerated from further structured surveillance (risk reverts to general population level); exception if clinical phenotype is atypical for the identified variant, oligogenic contribution is suspected, or penetrance uncertainty remains ([[sources/genetic-test-aha-2020]] — high)
+- Family members who decline genetic testing: uncertain genetic status — clinical surveillance recommended at the same intervals as genotype-positive individuals ([[sources/genetic-test-aha-2020]] — high)
+- Prenatal genetic testing and preimplantation genetic diagnosis (PGD): a confirmed familial P/LP variant enables prospective parents to consider these reproductive management options ([[sources/genetic-test-aha-2020]] — high)
+
 ## Contradictions / Open Questions
 - **VUS variant handling — testing vs. not testing relatives:** Both HRS 2019 and ESC/AHA guidelines agree that VUS variants should not drive cascade genetic testing of relatives. However, in practice, a significant proportion of HCM and ACM probands carry VUS rather than confirmed P/LP variants — meaning the majority of families with a likely inherited disease still cannot access gene-informed cascade testing. The gap between the recommendation (don't test for VUS) and clinical reality (most probands have VUS) is substantial. ([[sources/acm-hrs-2019]], [[sources/HCM-AHA-2024]])
 - **Serial reclassification responsibility:** AHA 2024 recommends re-evaluating variant pathogenicity every 2–3 years (Class I, Level B-NR). In practice, there is no standardized system for notifying relatives when a variant is downgraded from P/LP to VUS (or upgraded). If a relative was told they are "gene-negative" based on a proband variant later upgraded to P/LP, they may have been incorrectly discharged from follow-up. The clinical infrastructure for systematic reclassification notification does not yet exist in most centers. ([[sources/HCM-AHA-2024]])
@@ -128,3 +136,4 @@ Cascade family screening refers to the systematic cardiovascular and genetic eva
 - Related to [[concepts/DTC-Genetic-Testing]]
 - Related to [[concepts/Incidental-Cardiovascular-Variants]]
 - Related to [[sources/incident-gene-aha-2023]]
+- Related to [[sources/genetic-test-aha-2020]]

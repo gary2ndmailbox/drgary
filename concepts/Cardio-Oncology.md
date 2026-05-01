@@ -1,9 +1,9 @@
 ---
 dg-publish: true
 title: "Cardio-Oncology"
-tags: [cardio-oncology, cardiovascular-toxicity, cancer, multidisciplinary]
-source_count: 3
-last_updated: 2026-04-28
+tags: [cardio-oncology, cardiovascular-toxicity, cancer, multidisciplinary, clonal-hematopoiesis]
+source_count: 6
+last_updated: 2026-04-30
 ---
 
 # Cardio-Oncology
@@ -46,12 +46,53 @@ Cardio-oncology is an emerging clinical discipline integrating cardiovascular (C
 - **Disparities:** Black patients and women are underrepresented in cardio-oncology imaging access and have disproportionately higher cardiotoxicity burden; dedicated cardio-oncology referral with serial imaging is protective.
 - ([[sources/imaging-cardio-oncology-aha-2024]])
 
+### Hormonal Therapy Cardiovascular Risk
+- Hormonal therapies (endocrine therapy for breast cancer; ADT for prostate cancer) are an underappreciated source of CVD morbidity — they improve cancer survival but increase CV events. ([[sources/Hormonal-Rx-AHA-2021]], rating: high)
+- **Aromatase inhibitors** carry higher arterial CVD risk than tamoxifen (pooled RR 1.19); tamoxifen markedly increases VTE but is itself cardioprotective for arterial events vs. placebo.
+- **CDK4/6 inhibitors combined with endocrine therapy** add QT prolongation (ribociclib) and hypertension (palbociclib); ribociclib + tamoxifen combination (>5% QTc >480 ms) should be avoided.
+- **GnRH antagonists** (relugolix, degarelix) are preferred over GnRH agonists in men with pre-existing symptomatic CAD — HERO trial: major CV events 2.9% vs. 6.2% (HR 0.46).
+- The **ABCDE algorithm** (Awareness/Aspirin, Blood pressure, Cholesterol/Cigarettes, Diet/Diabetes, Exercise/ECG/Echo) structures cardioprotection during hormonal therapy.
+- See [[concepts/Hormonal-Therapy-CV-Risk]] for comprehensive drug-by-drug detail.
+- ([[sources/Hormonal-Rx-AHA-2021]])
+
+### Arrhythmias and Autonomic Dysfunction
+- Arrhythmias are an increasingly identified complication of cancer therapy with unique management challenges. AF is the most common (2–16% during active treatment), but QT prolongation, ventricular arrhythmias, and bradyarrhythmias also occur across all major drug classes. See [[concepts/Cancer-Associated-Arrhythmia]] for the full drug-by-drug framework. ([[sources/arrhythmia-cardio-oncology-aha-2021]], rating: very high)
+- **Key drug–arrhythmia associations:** Ibrutinib (BTK inhibitor) has the highest AF incidence (RR 4.69); arsenic trioxide causes QT prolongation in 26–93%; ICI-associated high-degree AV block may be the first sign of myocarditis. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **Anticoagulation in cancer-AF** is complex: standard CHA₂DS₂-VASc underestimates stroke risk; HAS-BLED does not capture thrombocytopenia or brain metastases; apixaban was superior to warfarin in ARISTOTLE cancer subgroup (n=1,236). ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **Autonomic dysfunction** (decreased HRV, orthostatic hypotension, IST/POTS) is prevalent in cancer survivors and is associated with increased fatigue, reduced exercise capacity, and mortality. Structured aerobic exercise reverses AD; ivabradine is a candidate for IST. See [[concepts/Autonomic-Dysfunction-in-Cancer]]. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+
 ### AI and Precision Medicine in Cardio-Oncology
 - AI can integrate imaging, multi-omics, EHR data, and ECG signals to individualise cardiotoxicity risk prediction far beyond single-modality approaches. ([[sources/ai-cardiooncology-aha-2025]], rating: high)
 - Key AI-enabled applications include automated LVEF measurement (RCT-validated), ECG-based LV dysfunction detection in anthracycline/trastuzumab patients, and NLP-driven EHR data extraction for high-risk patient identification. ([[sources/ai-cardiooncology-aha-2025]])
 - Multi-omics biomarkers (genomics — TTNtv, RARG; transcriptomics — ICI myocarditis T-cell subsets; proteomics — hemopexin; metabolomics — TCA cycle metabolites) are under active investigation but remain pre-clinical. ([[sources/ai-cardiooncology-aha-2025]])
 - A national cardio-oncology registry is needed to enable representative AI model training — must include community hospitals to avoid selection bias. ([[sources/ai-cardiooncology-aha-2025]])
 - See [[concepts/AI-in-Cardio-Oncology]] for detailed coverage of AI applications.
+
+### Shared Cancer-CVD Risk Factors and CHIP
+
+Cancer and CVD share common modifiable and genetic risk factors — a paradigm with major public health implications for the >16 million cancer survivors. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]], rating: very high)
+
+- **Lifestyle/metabolic risk factors:** ARIC study — adherence to all 7 AHA 2020 cardiovascular health metrics is inversely associated with both CVD AND cancer (breast, colorectal, lung most strongly). Tobacco is an established shared risk. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- **Cholesterol and breast cancer:** Dietary cholesterol top quartile → 48% ↑ breast cancer risk; 27-hydroxycholesterol (cholesterol metabolite) acts as direct estrogen receptor agonist in breast cancer cells → shared biological mechanism. Statins therefore may have dual benefit. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- **Inflammation (IL-1β):** CANTOS trial — canakinumab reduced both cardiac events and lung cancer incidence/mortality, implicating a shared inflammatory pathway. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- **Clonal Hematopoiesis of Indeterminate Potential (CHIP):** Expanded somatic blood cell clone (DNMT3A, ASXL1, TET2 driver mutations) without haematological abnormality; associated with both hematologic malignancy risk AND increased MI, stroke, and all-cause mortality; each gene individually associated with coronary heart disease; likely mechanism involves clonal macrophage infiltration of atherosclerotic plaque. See [[concepts/Clonal-Hematopoiesis]]. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+
+### Cancer-Associated VTE
+
+VTE is the **most common cardiovascular complication** of malignancy — more common than CTRCD — and is both a management challenge and a prognostic marker. See [[concepts/Cancer-Associated-VTE]] for full detail. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]], rating: very high)
+
+- Cancer increases VTE risk 7–8×; cancer-VTE increases mortality 5–6× vs. non-cancer VTE. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- Ottawa Score predicts recurrence (score ≤0 = <4.5% risk; ≥1 = ~19% risk). ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- LMWH preferred over VKA (dalteparin, enoxaparin superiority demonstrated); DOACs are emerging as non-inferior or superior alternatives. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+
+### Vascular Perspectives — Cancer as a Vascular Disease
+
+The elevated cardiovascular risk in cancer patients extends well beyond cardiomyopathy and arrhythmias into vascular disease: ([[sources/cardio-oncology-vascular-metabolic-aha-2019]], rating: very high)
+
+- **Radiation vasculopathy:** Premature CAD (Hodgkin lymphoma, breast cancer survivors); carotid disease after neck RT; autonomic dysfunction (4× higher resting HR; 5× higher abnormal HRR; 4-fold all-cause mortality increase in Hodgkin survivors post-mediastinal RT). Surveillance: stress testing 5–10 years post-mediastinal RT; carotid ultrasound post-neck RT. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- **VEGF inhibitor hypertension:** ≥25% incidence (class effect; >50% with newer agents); mechanism is ↓ NO + ↑ endothelin-1 + capillary rarefaction + renal sodium retention; avoid diltiazem/verapamil; preferred agents ACE-I + amlodipine. See [[concepts/Cancer-Therapy-Related-CV-Toxicity]]. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- **Fluoropyrimidine coronary vasospasm:** Up to 5.4% with continuous infusion; predominantly within 72h of first cycle; rechallenge only with CCB + nitrate prophylaxis in monitored setting. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- **ABL inhibitor vascular divergence:** Imatinib has vascular-protective profile; nilotinib causes atherosclerosis/PAD; ponatinib causes arterial/venous occlusions in ≥27%; dasatinib causes PAH — all off-target effects dissociable from ABL1 inhibition. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
 
 ## Contradictions / Open Questions
 - Dedicated cardio-oncology services are scarce — most patients are managed in general cardiology clinics; there is limited RCT evidence to define optimal surveillance strategies.
@@ -70,3 +111,11 @@ Cardio-oncology is an emerging clinical discipline integrating cardiovascular (C
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
 - Related to [[sources/ai-cardiooncology-aha-2025]]
 - Related to [[sources/imaging-cardio-oncology-aha-2024]]
+- Related to [[concepts/Cancer-Associated-Arrhythmia]]
+- Related to [[concepts/Autonomic-Dysfunction-in-Cancer]]
+- Related to [[sources/arrhythmia-cardio-oncology-aha-2021]]
+- Related to [[concepts/Hormonal-Therapy-CV-Risk]]
+- Related to [[sources/Hormonal-Rx-AHA-2021]]
+- Related to [[concepts/Cancer-Associated-VTE]]
+- Related to [[concepts/Clonal-Hematopoiesis]]
+- Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]

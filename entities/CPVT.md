@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)"
 tags: [channelopathies, inherited-arrhythmias, sudden-cardiac-death, CPVT]
-source_count: 4
-last_updated: 2026-04-25
+source_count: 6
+last_updated: 2026-04-30
 ---
 
 # Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)
@@ -15,10 +15,11 @@ CPVT is a channelopathy characterized by exercise- or emotion-triggered polymorp
 - Prevalence: ~1:10,000. Average age of symptom onset: 7–12 years; ~60% have first syncope by age 20. Up to 50% mortality by age 35 if unrecognized. ([[sources/channelopathies-jaha-2025]])
 - Frequently misdiagnosed as epilepsy (seizure-like syncope) or vasovagal syncope. ([[sources/channelopathies-jaha-2025]])
 - **Genetics:** RYR2 gain-of-function mutations (CPVT1) account for ~50–60%; autosomal dominant. CASQ2 loss-of-function is second most common (~5%); autosomal recessive with more severe, earlier phenotype and greater beta-blocker resistance. **ClinGen definitive CPVT genes:** RYR2, CASQ2, TECRL, TRDN. Moderate evidence: CALM1, CALM2, CALM3. Disputed (not causative): KCNJ2, PKP2, SCN5A. ANK2 is refused as causative. ([[sources/channelopathies-jaha-2025]], [[sources/arrhythmia-genetics-mgenetik-2025]])
-- **Mechanism (RYR2):** Gain-of-function → excessive Ca²⁺ accumulation in sarcoplasmic reticulum → spontaneous Ca²⁺ release during diastole → delayed afterdepolarizations → triggered arrhythmias under adrenergic stimulation. ([[sources/channelopathies-jaha-2025]])
-- **Mechanism (CASQ2):** Disrupted calsequestrin-2 polymerization impairs Ca²⁺ buffering and RYR2 modulation, destabilizing the calcium release unit (RYR2 + calsequestrin-2 + juntin + triadin). ([[sources/channelopathies-jaha-2025]])
+- **Mechanism (RYR2) — detailed DAD pathway:** RYR2 GOF → SR Ca²⁺ overload during adrenergic stimulation → spontaneous diastolic Ca²⁺ sparks coalesce into intracellular Ca²⁺ waves → NCX1 (Na⁺/Ca²⁺ exchanger) forward mode activated (extrudes 1Ca²⁺, imports 3Na⁺ = net inward depolarizing current) → delayed afterdepolarization (DAD) → if DAD amplitude exceeds INa activation threshold → triggered action potential → salvos of triggered APs produce bidirectional VT. Bidirectional VT morphology reflects alternating bundle-branch exit blocks from Purkinje system triggered activity, not epicardial origin. ([[sources/channelopathies-jaha-2025]], [[sources/membrane-potential-physrev-2021]])
+- **Mechanism (CASQ2) — calcium release unit:** Calsequestrin-2 functions within a quaternary calcium release unit (RYR2 + CASQ2 + triadin + junctin) anchored in the junctional SR. CASQ2 normally buffers luminal SR Ca²⁺ and inhibits RYR2 in the closed state by signalling through triadin and junctin. CASQ2 LOF (misfolding, impaired polymerization, or protein absence) disrupts this inhibitory signalling → RYR2 loses Ca²⁺-dependent gate control → spontaneous release even at lower SR Ca²⁺ loads → same NCX-DAD-triggered AP sequence as CPVT1, but without calsequestrin Ca²⁺ buffering, leading to earlier onset and greater severity. ([[sources/channelopathies-jaha-2025]], [[sources/membrane-potential-physrev-2021]])
 - **ECG:** Normal at rest. During exercise: polymorphic VT or bidirectional VT (180° QRS rotation beat-to-beat). CPVT PVCs are late-coupled; LBBB pattern with inferior axis is most sensitive/specific. ([[sources/channelopathies-jaha-2025]])
 - **Diagnosis:** Exercise stress test (Bruce protocol) is primary tool; provokes VT in ~2/3 of patients. "Burst" exercise protocol for higher sensitivity. Epinephrine infusion for those unable to exercise (VT induction with >10 PVCs/min or new T-wave alternans). 24-hr Holter for stress/emotional triggers. Genetic testing recommended for all clinically suspected cases + first-degree relatives. ([[sources/channelopathies-jaha-2025]])
+- **Epinephrine challenge (2025 EHRA consensus):** Appropriate **only when exercise test is not feasible** — exercise test has superior sensitivity. In 81 CPVT patients (31% RYR2 variant), epinephrine missed up to 70% of RYR2 patients who did not achieve sufficient heart rate vs. exercise (Marjamaa et al.). **Positive criteria:** >10 PVCs/min, 3 consecutive PVCs, recurrent couplets, bigeminal rhythm, or bidirectional VT; bidirectional VT is most specific for RYR2 P/LP variant. Epinephrine is NOT a substitute for exercise testing in CPVT. ([[sources/pharmacological-provocation-europace-2025]] — high)
 - **Management:** Exercise restriction. β-blockers (nonselective preferred) are cornerstone. ~30% require add-on therapy: flecainide (class IC) is first add-on. Alternatives: propafenone, verapamil, ivabradine, dantrolene (all limited evidence). LCSD for refractory pharmacological failure. ICD only as last resort — ICD shocks can provoke catecholamine surge, exacerbating arrhythmia; inappropriate shocks more common in CPVT than other channelopathies. Subcutaneous ICDs associated with higher complications. ([[sources/channelopathies-jaha-2025]])
 
 ### AHA/ACC 2025 Sports Statement — CPVT-Specific Guidance
@@ -52,6 +53,9 @@ CPVT is a channelopathy characterized by exercise- or emotion-triggered polymorp
 - **LCSD upgrade from IIb to IIa:** The upgrade of LCSD for refractory CPVT is based on expanding observational data but still lacks RCT support — the threshold for recommending a surgical procedure remains unvalidated prospectively. ([[sources/VA-SCD-ESC-2022]])
 
 ## Connections
+- Related to [[concepts/Electrical-Remodeling]]
+- Related to [[sources/membrane-potential-physrev-2021]]
+- Related to [[concepts/Pharmacological-Provocation-Testing]]
 - Related to [[concepts/Bidirectional-Ventricular-Tachycardia]]
 - Related to [[concepts/Left-Cardiac-Sympathetic-Denervation]]
 - Related to [[concepts/CRISPR-Cas9-in-Channelopathies]]

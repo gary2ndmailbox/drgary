@@ -45,7 +45,7 @@ Factors that increase risk beyond PREVENT estimate, especially relevant at borde
 - Family history of premature ASCVD (men <55 y, women <65 y)
 - Higher-risk ancestry (South Asian, Filipino)
 - Chronic inflammatory diseases (SLE, RA, advanced psoriasis)
-- Lp(a) ≥125 nmol/L (50 mg/dL) — see [[concepts/Lipoprotein-a]]
+- Lp(a) ≥125 nmol/L (50 mg/dL) — see [[concepts/Lipoprotein-a]]; the 2021 AHA Lp(a) statement provides a PCE-era formula for adjusting risk: `Updated 10-y risk = PCE risk × 1.11^(Lp(a) nmol/L ÷ 50)` [[sources/lpa-aha-2021]] (very high) — derived before PREVENT, not validated with PREVENT equations
 - hsCRP ≥2 mg/L on >1 occasion; if ≥2 mg/L × 2 without identifiable cause → high-intensity statin useful even at borderline risk (JUPITER trial: 44% RRR in MACE)
 - TG persistently ≥175 mg/dL (nonfasting) or ≥150 mg/dL (fasting)
 - CKM syndrome (metabolic dysfunction, CKD, obesity, diabetes)

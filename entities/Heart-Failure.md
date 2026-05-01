@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Heart Failure"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors, guideline, acute-heart-failure]
-source_count: 15
-last_updated: 2026-04-25
+source_count: 19
+last_updated: 2026-04-30
 ---
 
 # Heart Failure
@@ -73,6 +73,7 @@ See [[concepts/Right-Heart-Catheterization]] for full methodology, pitfalls, and
 **Ischaemic Cardiomyopathy: Revascularisation Strategy** ([[sources/CCS-AHA-2023]], rating: very high)
 - **CABG for LVEF ≤35% (COR 1/B-R):** STICH trial (n=1,212, LVEF ≤35%, CAD amenable to CABG): CABG + optimal medical therapy vs medical therapy alone — CV death lower (28% vs 33%; P=0.05); all-cause death lower at 10-year follow-up. Patient selection: multi-vessel disease with viable myocardium, acceptable surgical risk.
 - **PCI for LVEF ≤35% — no survival benefit:** REVIVED-BCIS2 (n=700, LVEF ≤35%, extensive CAD with viable myocardium): PCI + GDMT vs GDMT alone — no difference in all-cause death or HF hospitalisation at median 3.4 years (38.0% vs 37.2%). ICA can still diagnose cause of HF and direct lipid/medical therapy.
+- **Viability imaging in ischemic cardiomyopathy:** Multiple modalities (LGE-CMR, PET-FDG, SPECT, dobutamine echo) predict segmental contractile recovery after revascularization, but no trial has demonstrated that viability-guided revascularization improves survival vs GDMT alone. STICH viability substudy (SPECT/dobutamine echo, n=618): patients with viable myocardium had lower 5-year mortality but viability status did NOT discriminate who benefited from CABG. See [[concepts/Myocardial-Viability]] for full imaging performance data and clinical algorithms. ([[sources/imaging-viability-aha-2020]], rating: very high)
 - **SGLT2 inhibitors for HFrEF (LVEF ≤40%) — COR 1/A regardless of diabetes status:** Reduces CV death and HF hospitalisation; improves QOL (DAPA-HF, EMPEROR-Reduced). Effect independent of aetiology (ischaemic ~50% of trials). See [[entities/Chronic-Coronary-Disease]] for CCD + HF overlap.
 - **SGLT2 inhibitors for HFpEF (LVEF >40%) — COR 2a/B-R regardless of diabetes status:** Reduces HF hospitalisation and improves QOL (EMPEROR-PRESERVED, DELIVER, PRESERVED-HF). CV mortality reduction not statistically significant; economic value uncertain at current US prices.
 - **Contradiction with prior MCS evidence:** REVIVED-BCIS2 conflicts with prior observational data suggesting PCI improves outcomes in ischaemic cardiomyopathy. The 2023 CCD guideline reflects the shift: CABG retains survival benefit for LVEF ≤35%; PCI does not.
@@ -187,14 +188,25 @@ Applies to HFrEF and HFmrEF (most evidence from LVEF ≤45%); IV iron not curren
 
 ## Device Therapy
 
+### Ventricular Electrical Remodeling in HF
+- HF causes comprehensive ventricular electrical remodeling that increases arrhythmic susceptibility independently of LVEF. ([[sources/membrane-potential-physrev-2021]], rating: very high)
+- **↑INaLate (central mechanism, CaMKII-driven):** CaMKII is hyperactivated in HF via neurohormonal signalling (norepinephrine, angiotensin II), oxidative stress, and mechanical stretch. CaMKII phosphorylates Nav1.5 → shift from peak to late Na⁺ current → APD prolongation + Na⁺ overload → Ca²⁺ overload via NCX reverse mode → further CaMKII activation (feed-forward loop). This underpins the arrhythmogenic substrate in HF. ([[sources/membrane-potential-physrev-2021]])
+- **↑If in ventricles (HCN4 upregulation):** Pacemaker channels, normally restricted to the SAN, are upregulated in HF ventricular myocytes → spontaneous phase 4 depolarizations → abnormal automaticity and triggered activity. ([[sources/membrane-potential-physrev-2021]])
+- **↑NCX (Na⁺/Ca²⁺ exchanger NCX1):** Upregulated NCX1 drives forward mode (Ca²⁺ extrusion = 3Na⁺ in) during diastolic Ca²⁺ elevation → net inward depolarizing current → DADs. ([[sources/membrane-potential-physrev-2021]])
+- **↓IKr (KCNH2) and ↓IKs (KCNQ1):** Reduced rapid and slow delayed rectifier currents deplete repolarization reserve → APD prolongation → EAD generation; increases susceptibility to drug-induced TdP (reduced reserve makes HF patients more sensitive to QT-prolonging drugs). ([[sources/membrane-potential-physrev-2021]])
+- **↓Ito and ↓IK1:** Loss of transient outward K⁺ and inward rectifier K⁺ → blunted Phase 1, increased automaticity, and further APD prolongation. ([[sources/membrane-potential-physrev-2021]])
+- **Clinical implication:** This electrical remodeling profile explains why HF patients have elevated TdP risk on QT-prolonging drugs, why CaMKII inhibition is a target of interest, and why amiodarone (the only antiarrhythmic with no evidence of harm in HFrEF per SCD-HeFT) does not worsen these ionic changes. See [[concepts/Electrical-Remodeling]] for full disease-by-disease summary. ([[sources/membrane-potential-physrev-2021]])
+
 ### ICD
 - **Primary prevention, ischaemic DCM:** Class I — LVEF ≤35% after ≥3 months OMT. ([[sources/HF-ESC-2021]], rating: very high)
 - **Primary prevention, non-ischaemic DCM:** Class IIa — LVEF ≤35% after ≥3 months OMT. ([[sources/HF-ESC-2021]], rating: very high)
 - ICD consideration even with LVEF >35% for LMNA/C, desmosomal proteins, phospholamban, FLNC — due to arrhythmia risk disproportionate to EF. ([[sources/HF-AHA-2022]], rating: very high)
+- **ICD in CKD:** Meta-analysis (MADIT I/II, SCD-HeFT): ICD survival benefit in GFR >60 (HR 0.49) but NOT in GFR <60 (HR 0.80); Cleveland Clinic CKD Registry shows benefit in eGFR 30–59 but not eGFR <30. DANISH: no ICD benefit in non-ischaemic HFrEF including CKD. Higher complication rates in CKD (infections, bleeding, venous stenosis). S-ICD is a reasonable alternative — comparable efficacy, no lead complications; CKD is an independent predictor of appropriate therapy for polymorphic VT/VF (HR 2.10). ([[sources/cardiorenal-aha-2019]], rating: very high)
 
 ### CRT
 - **Class I:** QRS ≥150 ms with LBBB + LVEF ≤35%. ([[sources/HF-ESC-2021]], rating: very high)
 - **Class IIa:** QRS 130–149 ms with LBBB. ([[sources/HF-ESC-2021]], rating: very high)
+- **CRT in CKD:** MIRACLE post hoc: improvements in NYHA class, EF, and MR across eGFR 30–59; eGFR improvement noted in the CKD3 subgroup. Meta-analysis (Bazoukis, 13/16 studies): higher all-cause mortality with baseline CKD post-CRT (HR 1.66 for eGFR <60 vs ≥60). Benefits for HF hospitalisation reduction and QoL should be weighed against higher mortality in advanced CKD — multidisciplinary cardionephrology approach recommended. ([[sources/cardiorenal-aha-2019]], rating: very high)
 
 ### TEER (Transcatheter Edge-to-Edge Repair) for Secondary MR
 - **Class IIb:** May be considered in carefully selected patients with significant functional MR + LVEF >20% + maximally optimised GDMT who remain symptomatic and have suitable anatomy. ([[sources/HF-ESC-2021]], rating: very high)
@@ -243,6 +255,17 @@ Over two-thirds of patients with advanced HF have kidney dysfunction. See [[conc
 - Post-HTx kidney failure requiring dialysis: 13.4% within 90 days; CNI-delaying induction protocols and nephrotoxin avoidance are key strategies
 - Safety net policy: priority deceased donor kidney access for HTx recipients meeting KTx criteria at 60–365 days post-HTx
 
+### HF in Kidney Transplant Recipients
+([[sources/cardiorenal-aha-2019]], rating: very high)
+- HF prevalence in ESKD dialysis patients 12–36× the general population; 83% 3-year mortality after HF hospitalisation in ESKD
+- 70% of HFrEF patients (LVEF <40% pre-transplant) had LVEF >50% by 1 year post-KT; longer pre-KT dialysis duration independently predicted failure to improve LVEF
+- De novo HF after KT: 10.2% at 12 months, 18.3% at 36 months; predicts death (HR 2.6) and graft failure (HR 2.7)
+- De novo HF after KT is as common as de novo ischaemic heart disease (1.26 vs 1.22 events/100 patient-years) and carries similar prognosis
+- Preexisting LVEF <45%: independent predictor of cardiac death (HR 4.8), overall mortality, and cardiac hospitalisation post-KT; associated with delayed graft function and longer renal recovery time
+- **RAAS inhibition in KT:** Conflicting evidence; Paoletti et al. (lisinopril, n=70): significant CV benefit; Knoll et al. (ramipril, n=213): no benefit; meta-analysis (n=8 trials): no survival benefit, higher hyperkalemia (RR 2.44)
+- Pre-KT pulmonary hypertension (sPAP >50 mmHg): nearly 4× post-KT mortality; lower graft survival at 5 years (54.6% vs 76.0%); multidisciplinary PH work-up required before listing
+- See [[concepts/Cardiorenal-Syndrome]] for full CRS classification and management framework
+
 ---
 
 ## Special Populations
@@ -280,6 +303,15 @@ Over two-thirds of patients with advanced HF have kidney dysfunction. See [[conc
 - **COR 2a, LOE B-NR:** Genetic counseling and testing in select patients with nonischemic cardiomyopathy. ([[sources/HF-AHA-2022]], rating: very high)
 - ICD consideration even with LVEF >35% for high-risk pathogenic variants (LMNA/C, desmosomal proteins, phospholamban, FLNC). ([[sources/HF-AHA-2022]], rating: very high)
 
+### Precision Medicine / Multi-Omics in HF
+An AHA 2019 Scientific Statement (Cresci et al.) summarises six omics domains relevant to HF precision medicine: ([[sources/HF-Precision-Medicine-AHA-2019]], rating: high)
+- **Genomics:** Pathogenic variant detection yields vary by cardiomyopathy type (HCM 60–70%, DCM 30–40%, ARVC 50–60%). Key genes with precision management implications: LMNA (high arrhythmia risk, early ICD consideration) and TTN (metabolic stress vulnerability; triggers include pregnancy and alcohol).
+- **Pharmacogenomics:** ADRB1, GRK5, and GNB3 variants influence beta-blocker and H-ISDN response; GRK5 Leu41 allele frequency is 10-fold higher in Black patients, partly explaining observed racial differences in beta-blocker efficacy. CYP2D6 poor metabolisers of metoprolol have 4-fold higher bradycardia risk. See [[concepts/Pharmacogenomics-in-HF]].
+- **Epigenomics:** DNA methylation, histone modifications, and non-coding RNAs (miRNAs, lncRNAs) are implicated in HF pathophysiology and as potential biomarkers (miR-423-5p, lncRNA LIPCAR).
+- **Proteomics:** NT-proBNP-guided therapy tested in GUIDE-IT (multicenter RCT) was stopped early for futility; sST2 tracks therapy response and is unaffected by age/renal function/BMI.
+- **Metabolomics:** Advanced HF shifts from fatty acid oxidation to glucose utilisation; acylcarnitine and ketone body profiles distinguish HFrEF from HFpEF and predict outcomes.
+- **Microbiomics:** Gut dysbiosis in HF → TMAO elevation (independent 5-year mortality predictor); Mediterranean diet reduces incident HF by 21%. See [[concepts/Gut-Microbiome-in-HF]].
+
 ---
 
 ### Perioperative Management of HF
@@ -291,11 +323,43 @@ Over two-thirds of patients with advanced HF have kidney dysfunction. See [[conc
 - **BNP/NT-proBNP (COR 2a):** Preoperative natriuretic peptide measurement recommended in patients with HF or HF symptoms undergoing elevated-risk NCS. Abnormal: BNP >92 ng/L; NT-proBNP ≥300 ng/L — markedly elevated values should prompt HF optimisation before elective surgery. ([[sources/periop-aha-2024]], rating: very high)
 - **Postoperative surveillance:** cTn at 24 h and 48 h post-NCS (COR 2b) in known CVD or symptomatic patients undergoing elevated-risk surgery — elevated postop cTn without ischaemic features still confers 3× 30-day mortality hazard. ([[sources/periop-aha-2024]], rating: very high)
 
+### Obesity and Heart Failure
+- HF incidence increases 5% (men) and 7% (women) per 1-unit BMI increase after adjustment for other risk factors (Framingham Heart Study, n=5,881). ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **HFpEF is more strongly associated with obesity than HFrEF:** Overweight → 38% higher HFpEF risk; class 1 obesity → 56% higher HFpEF risk, independently of other CVD risk factors (Pandey et al., pooled analysis of 3 longitudinal studies). ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **Obesity-HFpEF phenotype:** Compared with non-obese HFpEF, obesity + HFpEF is characterized by greater concentric LV remodeling, RV dilatation and dysfunction, pericardial restraint, ventricular interdependence (driven by greater epicardial fat thickness/volume), and significantly lower exercise capacity — a distinct pathophysiological phenotype. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **Obesity paradox in HF:** Patients with overweight or class 1 obesity and HF have better clinical outcomes than normal-weight HF patients; documented in HFrEF, HFpEF, and acutely decompensated HF. See [[concepts/Obesity-Paradox]]. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **BNP lower in obesity including in HF:** Normal BNP does not exclude HFpEF in obese patients. Weight loss after bariatric surgery increases NT-proBNP concomitantly with improved LVDD. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **Low fitness explains ~50% of HF risk attributable to BMI:** Physical activity and improved cardiorespiratory fitness are highly encouraged in obese patients with HF. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **Treatment in obesity:** SGLT2 inhibitors (dapagliflozin) reduce risk of worsening HF or CV death in overweight/obese HFrEF regardless of diabetes. GLP-1 agonists show promise for combined obesity–HF management. Weight loss improves candidacy for LVAD and heart transplantation. Class 3 obesity is a relative contraindication for heart transplantation (higher acute rejection and 5-year mortality). ([[sources/obesity-cv-aha-2021]], rating: very high)
+- See [[entities/Obesity]], [[concepts/Visceral-Adiposity]], [[concepts/HFpEF]], and [[concepts/Obesity-Paradox]].
+
+---
+
 ## Contradictions / Open Questions
 - **AHA 2022 (COR 2a) vs. ESC 2023 (Class I) for SGLT2i in HFpEF/HFmrEF:** AHA 2022 assigned COR 2a because only EMPEROR-Preserved data were available at the time. The 2023 ESC update incorporated the DELIVER trial (dapagliflozin, n=6263) and upgraded to Class I, Level A. The underlying trial data are the same; the different recommendation strength reflects only the timing of publication — not a clinical disagreement. ([[sources/HF-AHA-2022]], [[sources/HF-update-ESC-2023]], rating: very high)
 - **SGLT2i reduces HF hospitalizations but not CV death in HFpEF/HFmrEF:** Both EMPEROR-Preserved and DELIVER showed no significant individual reduction in CV death; pooled meta-analysis also non-significant for CV death (HR 0.88, P=0.052). The Class I, Level A recommendations are based on composite primary endpoints driven by hospitalization reduction. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **STRONG-HF limitations:** Enrolled only patients not already on full doses of evidence-based HF therapy; SGLT2 inhibitors not included in protocol; may not reflect current optimally-treated contemporary HF populations. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **IV iron IRONMAN primary endpoint not met:** Recommendation upgrade to Class I is based on meta-analysis data, including a COVID-adjusted sensitivity analysis of IRONMAN, not a single pivotal trial. ([[sources/HF-update-ESC-2023]], rating: very high)
+
+---
+
+## Complementary and Alternative Medicine (CAM) in HF
+
+See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
+
+### Key Evidence-Based Points
+- **Omega-3 PUFA (AHA 2022 Class 2b, LOE B-R):** Only CAM agent with a guideline recommendation in HF — adjunctive therapy for NYHA II–IV to reduce mortality and CV hospitalizations; avoid doses ≥4 g/day due to AF risk ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+- **Yoga and Tai Chi:** Safe, well-tolerated adjunctive therapies; demonstrated improvements in VO2, quality of life, 6MWD, and inflammatory markers in HF RCTs; suitable for HFrEF and HFpEF ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+- **CoQ10:** Q-SYMBIO trial (n=420) showed 50% MACE reduction (HR 0.50) and NYHA class improvement, but no change in 6MWD or NT-proBNP; larger RCTs needed before recommendation ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+- **Thiamine:** Supplement only if deficient (loop diuretics deplete thiamine); no benefit in ambulatory HFrEF without deficiency ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+
+### CAM to Avoid in HF
+- **Licorice:** Mineralocorticoid excess → hypokalemia, cardiac arrest; potentiated by MRA co-prescription ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+- **Vitamin E ≥400 IU/day:** 13% increased HF incidence and 21% increased HF hospitalisation (HOPE trial) ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+- **Grapefruit juice:** CYP3A4 inhibition increases bioavailability of amiodarone, carvedilol; reduces efficacy of losartan, clopidogrel; additive QT prolongation with dofetilide/sotalol ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+- **Hawthorn in LVEF ≤35%:** Subanalysis data suggest potential HF progression; large trial (SPICE) failed primary endpoint ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+- **L-Arginine after acute MI:** Associated with increased mortality in older patients in RCT data — **avoid post-MI** ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
+- **High-dose alcohol (>10 drinks/week):** New-onset AF risk; cardiomyopathy at 6–7 drinks/day. See [[concepts/Alcoholic-Cardiomyopathy]] ([[sources/alt-medicine-hf-aha-2023]], rating: very high)
 
 ---
 
@@ -327,3 +391,13 @@ Over two-thirds of patients with advanced HF have kidney dysfunction. See [[conc
 - Related to [[concepts/Cardiac-Rehabilitation]] — stable HF (LVEF ≤35%, NYHA II–IV) is a qualifying CR indication; CR reduces mortality and improves QoL
 - Related to [[concepts/Cardiorenal-Syndrome]] — kidney dysfunction in >2/3 of advanced HF; Heart-Kidney Profiles guide LVAD/HTx candidacy
 - Related to [[sources/AKI-HF-AHA-2024]]
+- Related to [[entities/Obesity]] — obesity as major HF risk factor and HFpEF driver
+- Related to [[concepts/Visceral-Adiposity]] — epicardial fat and obesity-HFpEF phenotype
+- Related to [[concepts/Obesity-Paradox]] — paradox documented across HFrEF, HFpEF, and acute HF
+- Related to [[sources/obesity-cv-aha-2021]]
+- Related to [[concepts/Myocardial-Viability]]
+- Related to [[sources/imaging-viability-aha-2020]]
+- Related to [[concepts/CAM-in-Heart-Failure]] — omega-3 PUFA, yoga/tai chi, CoQ10, drug-interaction catalog
+- Related to [[sources/alt-medicine-hf-aha-2023]]
+- Related to [[concepts/Electrical-Remodeling]] — HF ventricular electrical remodeling: ↑INaLate, ↑If, ↑NCX, ↓IKr/IKs/Ito/IK1; CaMKII as central arrhythmogenic hub
+- Related to [[sources/membrane-potential-physrev-2021]]

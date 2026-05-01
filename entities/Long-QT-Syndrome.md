@@ -6,8 +6,8 @@ tags:
   - inherited-arrhythmias
   - sudden-cardiac-death
   - LQTS
-source_count: 6
-last_updated: 2026-04-25
+source_count: 10
+last_updated: 2026-05-01
 ---
 
 # Long QT Syndrome (LQTS)
@@ -36,9 +36,17 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 
 ### Pathophysiology
 - **LQT1 and LQT2:** Loss-of-function in KCNQ1 (IKs) and KCNH2 (IKr) respectively reduces repolarizing K⁺ currents → delayed repolarization → prolonged QT. ([[sources/channelopathies-jaha-2025]], rating: high)
-- **LQT3:** Gain-of-function in SCN5A → persistent (late) Na⁺ influx during the plateau phase → delayed repolarization → prolonged QT. Arrhythmias occur at rest/bradycardia (not exercise). ([[sources/channelopathies-jaha-2025]])
-- **Final common pathway:** Both K⁺ loss-of-function and Na⁺ gain-of-function converge on prolonged action potential duration → early afterdepolarizations (EADs) → triggered activity → TdP. ([[sources/channelopathies-jaha-2025]])
-- **Calmodulinopathy LQTS:** CALM1/2/3 mutations impair Ca²⁺-dependent inactivation of multiple ion channels; associated with neonatal onset and extremely high mortality. ([[sources/arrhythmia-genetics-mgenetik-2025]])
+- **LQT3:** Gain-of-function in SCN5A → persistent (late) Na⁺ influx (INaLate) during the plateau phase → delayed repolarization → prolonged QT. Arrhythmias occur at rest/bradycardia (not exercise). ([[sources/channelopathies-jaha-2025]])
+- **LQT4 (ANKB):** ANK2 (ankyrin-B) loss-of-function disrupts subcellular targeting of NCX1, Na⁺/K⁺-ATPase, and IP3 receptor → NCX1 mislocalised away from t-tubular Ca²⁺ release sites → altered Ca²⁺ handling → APD prolongation. ANK2 is one of the few non-channel proteins causing LQTS. ([[sources/membrane-potential-physrev-2021]], rating: very high)
+- **LQT5 (KCNE1) and LQT6 (KCNE2):** KCNE1 (minK) and KCNE2 (MiRPl) are β-subunits that respectively co-assemble with KCNQ1 (IKs) and KCNH2 (IKr). LOF in either reduces the associated current → QT prolongation; KCNE2 disputed by ClinGen 2020 reappraisal. ([[sources/membrane-potential-physrev-2021]])
+- **LQT8 (Timothy syndrome, CACNA1C):** GOF in Cav1.2 → increased INward ICa,L → prolonged plateau → prolonged QT; also causes impaired inactivation → Ca²⁺ overload → severe multisystem phenotype (autism, bradycardia, webbed digits). ([[sources/channelopathies-jaha-2025]])
+- **LQT9 (CAV3), LQT12 (SNTA1):** Mutations in caveolin-3 or α1-syntrophin → indirect INaLate augmentation via disrupted Nav1.5 macromolecular complex → same functional consequence as LQT3 GOF. ([[sources/membrane-potential-physrev-2021]])
+- **Final common pathway:** Both K⁺ loss-of-function and Na⁺/Ca²⁺ gain-of-function converge on prolonged action potential duration (APD) → M-cell APD prolongation disproportionate to subepicardium → transmural dispersion of repolarization (TDR) → EAD in mid-myocardial layer → triggered beat on T-wave → re-entry into dispersed substrate → TdP. ([[sources/channelopathies-jaha-2025]], [[sources/membrane-potential-physrev-2021]])
+- **LQT2 and circadian APD amplification:** Kcnh2 is a robustly circadian-regulated gene (BMAL1/CLOCK direct transactivation); wild-type Kv11.1 protein has a half-life (t½) of ~12 h, which blunts protein oscillation amplitude under normal conditions. KCNH2 nonsense/missense mutations linked to LQT2 can shorten Kv11.1 t½ to <6 h — producing two simultaneous consequences: (1) lower steady-state Kv11.1 protein → less IKr → longer baseline APD; and (2) larger time-of-day protein amplitude oscillation → larger circadian APD swing → potential clustering of arrhythmic events at specific times of day. This may explain why some LQT2 patients experience arrhythmias at predictable circadian windows. ([[sources/circadian-scd-jmcc-2025]], rating: high)
+- **Calmodulinopathy LQTS:** CALM1/2/3 mutations impair Ca²⁺-dependent inactivation of KCNQ1/IKs and KCNH2/IKr and of the L-type Ca²⁺ channel; associated with neonatal onset and extremely high mortality. ([[sources/arrhythmia-genetics-mgenetik-2025]])
+- **Sex hormone ionic mechanisms:** Oestradiol inhibits IKr and potentiates ICa,L → net APD prolongation → female QT is ~10–12 ms longer than male baseline and risk is higher at ages 18–40. Testosterone upregulates IKr and IKs → shorter APD in males; pubescent males experience a QTc shortening absent in females, explaining the cross-over in arrhythmic risk around puberty. Progesterone upregulates IKs and has antiarrhythmic properties — its postpartum fall explains the heightened LQT2 arrhythmic risk in the 9-month postpartum period. ([[sources/membrane-potential-physrev-2021]], [[sources/lqts-pregnancy-medicina-2022]], rating: medium)
+- **Genotype-specific T-wave morphology and heart-rate dependence:** Regional differences in ion channel expression explain subtype-specific ECG patterns. IKs (KCNQ1) is higher in subepicardium and RV; at resting heart rates IKs is nearly absent — LQT1 shows minimal QT prolongation at rest but unmasks with exercise. IKr (KCNH2) is prominent at low heart rates — LQT2 shows QT prolongation at baseline; IKr reduction causes greater APD prolongation in LV than RV (where IKs compensates), generating the characteristic **bifid T-wave**. SCN5A gain-of-function prolongs phase 2 (plateau) → **delayed T-wave onset with long ST-segment** in LQT3 regardless of heart rate. ([[sources/repolarisation-jaccep-2023]], rating: high)
+- **Repolarization reserve:** Normal repolarization depends on multiple redundant ion currents (IKr, IKs, IK1, INa-L). When one mechanism is already perturbed by a latent LQTS variant or low-frequency modifier, the addition of an IKr-blocking drug depletes repolarization reserve and unmasks QT prolongation and TdP risk — explaining why ~10–20% of drug-induced TdP patients carry LQTS gene variants. ([[sources/repolarisation-jaccep-2023]])
 
 ### Diagnosis
 - **ESC 2022 Class I diagnostic criteria (any one of):**
@@ -49,6 +57,7 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - **Clinical QTc context:** In a cohort of 1,710 LQTS cases, mean QTc was 471±45 ms; 47% of LQT1, 36% of LQT2, and 35% of LQT3 patients had QTc <460 ms — confirming that QTc alone is insufficient for exclusion. ([[sources/arrhythmia-genetics-mgenetik-2025]])
 - **Diagnostic workup:** 12-lead ECG, Schwartz Score, exercise treadmill test (QTc paradoxically shortens in LQT1 on exercise; fails to shorten in LQT2), 24-hr ambulatory ECG; genetic testing for high clinical suspicion with negative workup. ([[sources/channelopathies-jaha-2025]])
 - **Genetic testing: Class I** per EHRA/HRS/APHRS/LAHRS consensus; a pathogenic genetic result is part of the diagnostic score. ([[sources/arrhythmia-genetics-mgenetik-2025]])
+- **AHA 2020 specific testing thresholds:** genetic testing recommended for strong clinical index of suspicion for LQTS; also indicated for idiopathic QT prolongation with QTc >480 ms (prepuberty) or >500 ms (adults), even when asymptomatic. ([[sources/genetic-test-aha-2020]] — high)
 - **Epinephrine challenge: NOT recommended (Class III)** for routine diagnosis. **EPS: NOT recommended (Class III).** ([[sources/VA-SCD-ESC-2022]])
 
 ### Risk Stratification
@@ -82,6 +91,18 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - **ICD before pregnancy** preferred in high-risk women; safe to implant during pregnancy if new indication arises (after 8 weeks gestation). ([[sources/lqts-pregnancy-medicina-2022]])
 - See [[concepts/LQTS-Pregnancy-Management]] for full detail.
 
+### Polygenic Risk Scores and Common Genetic Variants
+- Common SNPs account for **~15% of variance in LQTS susceptibility** (Lahrouchi et al. 2020, n=1,656 LQTS vs 9,890 controls). Genome-wide genetic correlation between QTc in the general population and LQTS susceptibility confirms shared biology. ([[sources/repolarisation-jaccep-2023]], rating: high)
+- **Genotype-negative LQTS patients have a higher PRS than genotype-positive patients** — suggesting a non-Mendelian, polygenic genetic architecture in patients without identifiable rare variants. ([[sources/repolarisation-jaccep-2023]])
+- PRS modulates QTc and possibly arrhythmic risk in known LQTS mutation carriers: higher PRS quartile associated with higher QTc in LQT2 and higher proportion of QTc ≥480 ms across LQT1/2/3 probands. ([[sources/repolarisation-jaccep-2023]])
+- The low-frequency KCNE1 p.Asp85Asn variant (MAF ~1%) exerts a 7.42 ms/allele QTc effect and modulates severity in LQT1 families — exemplifying how intermediate-effect variants contribute beyond the causal Mendelian variant. ([[sources/repolarisation-jaccep-2023]])
+- See [[concepts/Polygenic-Risk-Score]] for full PRS methodology and limitations.
+
+### AI in ECG Diagnosis
+- Up to **40% of LQTS patients have QTc <450 ms** at baseline — many are undetectable by QTc alone. ([[sources/repolarisation-jaccep-2023]])
+- Deep learning models have achieved **AUC 0.741** for identifying concealed LQTS (normal QTc) from the 12-lead ECG. The same network discriminates LQT1 from LQT2. Input occlusion has revealed mechanistic T-wave footprints corresponding to predicted IKr inhibition effects. ([[sources/repolarisation-jaccep-2023]])
+- See [[concepts/AI-in-Cardio-Oncology]] and broader AI-ECG literature for parallel applications.
+
 ### Emerging Therapies
 - **SupRep gene therapy (LQT1):** AAV9-delivered shRNA suppresses mutant KCNQ1 + shRNA-immune replacement cDNA. Validated in transgenic rabbits: normalised QTi/APD90 and restored β-adrenergic response (Bains 2024; Dotzler 2023). ([[sources/gene-therapy-arrhythmia-2025]], rating: high)
 - **SupRep gene therapy (LQT2):** Normalised QTc from 470 → 414 ms, suppressed EADs and TdP inducibility in rabbit model (Bains 2023). ([[sources/gene-therapy-arrhythmia-2025]])
@@ -98,6 +119,8 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - **LQT3: gene therapy vs. Class I mexiletine — competing strategies:** ESC 2022 upgraded mexiletine to Class I for LQT3 with prolonged QTc (established pharmacology). Simultaneously, SCN5A base editing shows strong preclinical data. Both address the same gain-of-function INaL mechanism but compete as clinical strategies; no comparative efficacy data exist. ([[sources/VA-SCD-ESC-2022]], [[sources/gene-therapy-arrhythmia-2025]])
 
 ## Connections
+- Related to [[concepts/Electrical-Remodeling]]
+- Related to [[sources/membrane-potential-physrev-2021]]
 - Related to [[concepts/Drug-Induced-Arrhythmia]]
 - Related to [[concepts/Cardiac-Action-Potential]]
 - Related to [[concepts/Torsades-de-Pointes]]
@@ -105,6 +128,8 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - Related to [[concepts/Left-Cardiac-Sympathetic-Denervation]]
 - Related to [[concepts/iPSC-Derived-Cardiomyocytes]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
+- Related to [[concepts/Circadian-Rhythm-Cardiac-Electrophysiology]] — Kv11.1 half-life and time-of-day APD amplification in LQT2
+- Related to [[sources/circadian-scd-jmcc-2025]]
 - Related to [[concepts/SupRep-Therapy]]
 - Related to [[concepts/AAV-Gene-Delivery]]
 - Related to [[concepts/CRISPR-Cas9-in-Channelopathies]]
@@ -118,3 +143,7 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - Related to [[concepts/LQTS-Pregnancy-Management]]
 - Related to [[concepts/Sports-Cardiology-SDM]]
 - Related to [[sources/competitive-sports-aha-2025]]
+- Related to [[sources/genetic-test-aha-2020]]
+- Related to [[concepts/Cardiac-Repolarization]]
+- Related to [[concepts/Polygenic-Risk-Score]]
+- Related to [[sources/repolarisation-jaccep-2023]]

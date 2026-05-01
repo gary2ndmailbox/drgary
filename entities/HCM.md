@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Hypertrophic Cardiomyopathy (HCM)"
 tags: [cardiomyopathy, sudden-cardiac-death, genetics, multimodality-imaging, guideline]
-source_count: 8
-last_updated: 2026-04-25
+source_count: 9
+last_updated: 2026-04-30
 ---
 
 # Hypertrophic Cardiomyopathy (HCM)
@@ -44,6 +44,8 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - SCD risk decreases with age; rare in patients >60 years. ([[sources/HCM-VA-FCVMed-2022]])
 - Prophylactic ICD has reduced HCM disease-related mortality >10-fold; HCM-related 5-year and 10-year survival rates are 98% and 94%, comparable to the general US population. ([[sources/HCM-VA-FCVMed-2022]])
 - Three interlocking cellular arrhythmogenic mechanisms: (1) ion channel remodeling (↑INaL, ↑ILTCC, ↓K⁺ currents), (2) enhanced myofilament Ca²⁺ sensitivity, and (3) SR Ca²⁺ overload → EADs/DADs. See [[concepts/Ion-Channel-Remodeling-in-HCM]] and [[concepts/Calcium-Homeostasis-in-HCM]]. ([[sources/HCM-VA-FCVMed-2022]])
+- **INaLate upregulation in HCM — mechanistic detail:** Coppini et al. (2013) demonstrated ↑INaLate in explanted HCM hearts (both MYBPC3 and MYH7 mutation carriers); INaLate causes Na⁺ overload → Ca²⁺ overload via NCX reverse mode → APD prolongation and EAD generation. Critically, INaLate elevation is detectable in preclinical HCM mutation carriers **before hypertrophy is present**, confirming electrical remodeling as an early pathological event rather than a consequence of structural disease. **Ranolazine** (selective INaLate blocker) and **mexiletine** (INaLate blocker) normalize APD, reduce Ca²⁺ overload, and reverse electromechanical dysfunction in HCM myocyte and animal models — providing a pharmacological rationale for their use in HCM arrhythmia management (off-label, observational evidence only). ([[sources/membrane-potential-physrev-2021]], rating: very high)
+- **↓Ito and asynchronous CICR:** Loss of Ito (transient outward K⁺ current) in HCM reduces the Phase 1 "notch" → the AP plateau begins at a more depolarized voltage → L-type Ca²⁺ channel activation is less synchronised across the subendocardial–subepicardial axis → asynchronous calcium-induced calcium release (CICR) from SR → spatial Ca²⁺ gradient within the cell → incomplete systolic relaxation zones → local diastolic Ca²⁺ elevation → DADs under adrenergic stimulation → triggered VT. ([[sources/membrane-potential-physrev-2021]])
 - Ion channel changes **precede** structural remodeling in early-stage HCM; supports concept of prophylactic pharmacotherapy in high-risk gene mutation carriers before phenotypic manifestation. ([[sources/HCM-VA-FCVMed-2022]])
 
 ### SCD Risk Stratification and Prevention
@@ -114,6 +116,8 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - **Early-stage HCM risk stratification gap:** Current risk tools (HCM Risk-SCD, Risk-Kids) have limited accuracy for patients with early-stage or mild structural disease. Ion channel remodeling (↑INaL, ↑ILTCC) precedes structural changes — young asymptomatic patients can suffer SCD without the traditional risk markers. No validated tool captures pre-structural arrhythmic vulnerability. ([[sources/HCM-VA-FCVMed-2022]])
 
 ## Connections
+- Related to [[concepts/Electrical-Remodeling]]
+- Related to [[sources/membrane-potential-physrev-2021]]
 - Related to [[concepts/Atrial-Myopathy-in-HCM]]
 - Related to [[concepts/Exercise-in-HCM]]
 - Related to [[concepts/Ion-Channel-Remodeling-in-HCM]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Brugada Syndrome"
 tags: [channelopathies, inherited-arrhythmias, sudden-cardiac-death, BrS]
-source_count: 5
-last_updated: 2026-04-25
+source_count: 8
+last_updated: 2026-04-30
 ---
 
 # Brugada Syndrome (BrS)
@@ -25,7 +25,8 @@ Brugada syndrome is an inherited channelopathy characterised by coved ST-segment
 - **Polygenic mechanism:** GWAS data suggest that multiple common SNPs — not a single gene variant — likely account for the majority of BrS cases. This explains familial clustering without an identifiable pathogenic variant; penetrance in SCN5A-positive families is only ~50%. ([[sources/brs-jaccep-2022]])
 - **Three competing pathophysiological hypotheses** (non-mutually exclusive):
   - *Depolarization:* Fibrosis, inflammatory infiltrates, and reduced connexin-43 in the epicardial RVOT → conduction delay and heterogeneity of depolarization → arrhythmogenic substrate. Supported by histopathology and electroanatomic mapping showing low voltage and fractionated electrograms in the RVOT. ([[sources/brs-jaccep-2022]])
-  - *Repolarization:* Increased outward Ito during phase 1 of the action potential → transmural action potential dispersion (epicardial–endocardial gradient) → phase 2 re-entry. Ito prominence in the atria also contributes to atrial arrhythmias. ([[sources/brs-jaccep-2022]])
+  - *Repolarization:* Increased outward Ito (carried by Kv4.3, encoded by KCND3 + modulated by KChIP2) during phase 1 of the action potential shortens the AP dome selectively in the RVOT subepicardium (where Ito density is highest) → "all-or-none" loss of AP dome in subepicardium → voltage gradient between epicardium (repolarized) and endocardium (still in plateau) → current of injury (the BrS ECG pattern) → phase 2 re-entry: dome restoration in adjacent epicardial cell provides the trigger for VF. Ito prominence in the atria also contributes to atrial arrhythmias in BrS. ([[sources/brs-jaccep-2022]], [[sources/membrane-potential-physrev-2021]])
+  - **KChIP2 and male predominance:** KChIP2 (K⁺ channel-interacting protein 2) is a β-subunit that enhances Kv4.3 trafficking and increases Ito amplitude. KChIP2 expression is significantly higher in males, driven by androgen receptor signalling. This explains why the same SCN5A LOF variant causes manifest BrS predominantly in males — they have higher baseline Ito to begin with, making phase 1 shortening and AP dome loss more likely at any given level of INa reduction. Oestrogen suppresses KChIP2 expression and reduces Ito, partially explaining why premenopausal females are protected. ([[sources/membrane-potential-physrev-2021]])
   - *Neural crest:* Abnormal cardiac neural crest cell migration → impaired connexin-43 expression → electrical uncoupling in the outflow tract. ([[sources/channelopathies-jaha-2025]])
 - A confluence of factors producing a common ECG phenotype is most likely — no single hypothesis is fully reconciled. ([[sources/brs-jaccep-2022]])
 
@@ -39,6 +40,7 @@ Brugada syndrome is an inherited channelopathy characterised by coved ST-segment
 - **SCB provocation:** Indicated for type 2/3 ECG or clinical/family history suspicion. Agents: ajmaline (most potent; mainly Europe), flecainide/pilsicainide (Europe/Japan), procainamide (least potent; North America). False-positive rate with high-dose ajmaline: ~8% in BrS families (Tadros et al.); ~27% of AVNRT patients and 4.5% of healthy controls (Hasdemir et al.) — standardisation of protocols needed. Drug-induced type 1 alone is insufficient for definitive diagnosis; no current consensus. ([[sources/brs-jaccep-2022]])
 - **Echocardiogram** in all patients to exclude structural heart disease; cardiac MRI in complex cases for RVOT delineation. ([[sources/brs-jaccep-2022]])
 - **Genetic testing:** Recommended (Class I per EHRA/HRS) when spontaneous type 1 ECG present — enables family screening. Only SCN5A testing is routinely performed. Testing for other genes only in consultation with a genetics expert when ≥2 family members are phenotypically affected and SCN5A is negative. SCN5A variant finding may contribute to future risk stratification alongside PRS from GWAS loci. ([[sources/arrhythmia-genetics-mgenetik-2025]], [[sources/brs-jaccep-2022]])
+- **Genetic testing is NOT indicated for isolated type 2 or type 3 Brugada ECG patterns alone** — these patterns are not diagnostic for BrS and do not constitute an independent indication for genetic testing. Testing should be triggered by confirmed type 1 ECG or a clinical index of suspicion meeting diagnostic criteria. ([[sources/genetic-test-aha-2020]] — high)
 - **Family screening:** All first-degree relatives of BrS patients or unexplained SCD cases. Adults: standard + high-lead ECG ± SCB provocation; one-time screening is adequate if SCB-negative. Children: ECG at age 3, then every 3 years until age 15 (age-related phenotypic expression); avoid routine SCB before age 15 (higher adverse event risk in paediatrics). ([[sources/brs-jaccep-2022]])
 
 ## Risk Stratification
@@ -126,9 +128,37 @@ Brugada syndrome is an inherited channelopathy characterised by coved ST-segment
 - **ICD overuse in asymptomatic BrS:** Annual SCD rate in asymptomatic BrS without ICD (~0.19%) is lower than the combined annual ICD complication rate (inappropriate shocks 3.3% + other complications 4.5%), raising concern that primary prevention ICD in asymptomatic patients without additional high-risk features may cause net harm. ([[sources/brs-jaccep-2022]])
 - **QUIDAM trial gap:** The only RCT for hydroquinidine in BrS was underpowered and did not demonstrate benefit over placebo. Quinidine/hydroquinidine remains the standard pharmacologic recommendation driven entirely by observational and mechanistic data. ([[sources/brs-jaccep-2022]])
 
+## SCB Provocation Testing — 2025 EHRA Consensus Guidance
+
+### Indications (>90% consensus)
+- Unexplained VF/polymorphic VT after comprehensive workup (ECG, echo, coronary assessment, cardiac MRI)
+- Asymptomatic first-degree relative of definite **SCN5A-negative** BrS patient
+- Type 2/3 Brugada ECG pattern + cardiac/suspected cardiac syncope without significant structural disease
+- First-degree relative of SADS decedent when death circumstances are suggestive of BrS (sleep/fever/suspicious ECG)
+- SCN5A variant of uncertain significance + symptoms/family history (segregation analysis)
+- Substrate ablation procedure for symptomatic BrS — to enable substrate mapping; only circumstance where SCB is used with documented type 1 pattern ([[sources/pharmacological-provocation-europace-2025]] — high)
+
+### Contraindications (>90% consensus)
+- Documented type 1 Brugada pattern already present (except phenocopy or ablation)
+- Asymptomatic incidental type 2/3 ECG with no additional supporting features
+- Patients with **SCN5A P/LP variants** — increased ventricular arrhythmia risk during SCB testing; test only in expert centre for specific indications (VUS assessment, complex overlap)
+- Active fever ([[sources/pharmacological-provocation-europace-2025]] — high)
+
+### Preferred Agent and Protocol
+- **Ajmaline preferred** when available: class 1A, t½ ~5 min, max 1 mg/kg or 100 mg over 5–10 min
+- High precordial lead positions (V1/V2 at ICS 2–4) required; continuous or at minimum every 30–60 s ECG
+- Isoproterenol must be available for ventricular arrhythmia management
+- Higher-risk patients (pre-existing AV conduction disturbances, SCN5A variants): test in cardiac catheter laboratory with temporary pacing ([[sources/pharmacological-provocation-europace-2025]] — high)
+
+### Key Contextual Point — Polygenic Basis
+- Common polygenic variants (PRS from GWAS loci) independently predict positive ajmaline response; family members without SCN5A variants may test positive due to polygenic susceptibility
+- Drug-induced type 1 pattern without other supportive evidence may represent polygenic heritability, not monogenic BrS — clinical implications for the family are uncertain ([[sources/pharmacological-provocation-europace-2025]] — high)
+
 ## Connections
 - Related to [[concepts/Drug-Induced-Arrhythmia]]
 - Related to [[concepts/Cardiac-Action-Potential]]
+- Related to [[concepts/Electrical-Remodeling]]
+- Related to [[sources/membrane-potential-physrev-2021]]
 - Related to [[concepts/Ion-Channel-Mutations]]
 - Related to [[concepts/Shanghai-Score-System]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
@@ -136,7 +166,10 @@ Brugada syndrome is an inherited channelopathy characterised by coved ST-segment
 - Related to [[concepts/iPSC-Derived-Cardiomyocytes]]
 - Related to [[concepts/Cardiogenetic-Centers]]
 - Related to [[concepts/Variant-Reclassification]]
+- Related to [[concepts/Pharmacological-Provocation-Testing]]
 - Related to [[entities/SCN5A]]
 - Related to [[entities/Early-Repolarization-Syndrome]]
 - Related to [[concepts/Sports-Cardiology-SDM]]
 - Related to [[sources/competitive-sports-aha-2025]]
+- Related to [[sources/genetic-test-aha-2020]]
+- Related to [[sources/pharmacological-provocation-europace-2025]]

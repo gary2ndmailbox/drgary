@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Short QT Syndrome"
 tags: [channelopathies, inherited-arrhythmias, sudden-cardiac-death, SQTS]
-source_count: 3
-last_updated: 2026-04-12
+source_count: 4
+last_updated: 2026-04-30
 ---
 
 # Short QT Syndrome (SQTS)
@@ -19,6 +19,8 @@ Short QT syndrome is a rare autosomal dominant channelopathy characterized by a 
 - **Phenocopies and exogenous causes to exclude:** congenital lactase deficiency, primary carnitine deficiency (SLC22A5 gene), primary hyperparathyroidism, Klinefelter syndrome (47,XXY), acidosis, digitalis intoxication, hyperthermia, hyperkalemia, hypercalcemia, congenital adrenal hyperplasia, hyperthyroidism, vitamin A intoxication, milk-alkali syndrome, rufinamide (anti-convulsant), ATP potassium channel openers (pinacidil, levcromakalim). ([[sources/arrhythmia-genetics-mgenetik-2025]])
 - **Variant detection rate:** ~20–25% in index patients. An indicative pathogenic variant (ACMG class 4/5) scores 2 points in the Gollob score and is an important diagnostic feature. ([[sources/arrhythmia-genetics-mgenetik-2025]])
 - Belongs to the spectrum of early repolarization syndrome. ([[sources/channelopathies-jaha-2025]])
+- **ECG features:** Short or absent ST segments; **asymmetrical T-waves with high amplitude** and prolonged **Tpeak-to-T-end** interval. Symptomatic patients who have suffered life-threatening arrhythmias tend to show **shorter J-point-to-Tpeak intervals** and a higher **Tpeak-to-T-end/QTc ratio** compared to asymptomatic patients. Severity of QTc shortening does NOT correlate with arrhythmia risk in SQTS (unlike LQTS). ([[sources/repolarisation-jaccep-2023]], rating: high)
+- **Acquired SQTS:** Main causes are acidosis, hypercalcemia, hyperkalemia, hypothermia, and cardioversion. Drug-induced SQTS is rare; rufinamide (antiepileptic) causes QTc shortening in patients; carnitine deficiency is associated with short QTc. No clear guidelines exist for drug-induced SQTS beyond discontinuing the offending agent. ([[sources/repolarisation-jaccep-2023]])
 - **Diagnosis:** QTc shortening plus ≥1 of: survived VF/VT without structural disease; confirmed pathogenic mutation; family history of SQTS. QTc ≤320 ms alone is sufficient; QTc 320–360 ms requires additional arrhythmic syncope history. Schwartz Score used for probability stratification. ([[sources/channelopathies-jaha-2025]])
 - **Management:** ICD is primary therapy for symptomatic patients at SCD risk with life expectancy >30 years. Quinidine is first-line pharmacotherapy; hydroquinidine can prolong QT via IKr blockade. Amiodarone and sotalol are ineffective in SQTS1 despite being IKr blockers — likely due to mutation-altered drug-channel interactions. ([[sources/channelopathies-jaha-2025]])
 - Pharmacological data is limited, primarily focused on SQTS1; genotype-targeted drug research is needed. ([[sources/channelopathies-jaha-2025]])
@@ -51,3 +53,6 @@ Short QT syndrome is a rare autosomal dominant channelopathy characterized by a 
 - Related to [[concepts/Electrical-Storm]]
 - Related to [[concepts/SupRep-Therapy]]
 - Related to [[concepts/Cardiogenetic-Centers]]
+- Related to [[concepts/Cardiac-Repolarization]]
+- Related to [[concepts/Polygenic-Risk-Score]]
+- Related to [[sources/repolarisation-jaccep-2023]]

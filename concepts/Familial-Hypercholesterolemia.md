@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Familial Hypercholesterolemia"
 tags: [dyslipidemia, ldl-c, genetics, primary-prevention, ASCVD, guidelines]
-source_count: 3
-last_updated: 2026-04-25
+source_count: 4
+last_updated: 2026-04-29
 ---
 
 # Familial Hypercholesterolemia (FH)
@@ -23,6 +23,10 @@ Familial hypercholesterolemia (FH) is a common autosomal codominant genetic diso
 - FH phenotype: LDL-C ≥190 mg/dL (4.9 mmol/L) in adults (may be lower in children)
 - Clinical diagnosis supported by Dutch Lipid Clinic Network (DLCN) or Simon Broome criteria (family history, physical signs such as tendon xanthomas/corneal arcus)
 - Genetic panel testing for FH (LDLR, APOB, PCSK9, LDLRAP1 pathogenic/likely pathogenic variants): COR 2a in adults with LDL-C ≥190 mg/dL without secondary cause; COR 2a in children/adolescents with clinical FH presentation [[sources/lipid-aha-2026]] (very high)
+- **AHA 2020 FH genetic testing criteria (Table 4):** ([[sources/genetic-test-aha-2020]] — high)
+  - *Testing should be offered:* (1) Children with persistent LDL-C ≥160 mg/dL or adults with LDL-C ≥190 mg/dL (no secondary cause) plus ≥1 first-degree relative with similar LDL-C or premature CAD, or when family history is unavailable; (2) Children with LDL-C ≥190 mg/dL or adults with LDL-C ≥250 mg/dL (no secondary cause), even without a positive family history
+  - *Testing may be considered:* (1) Children with LDL-C ≥160 mg/dL + parent LDL-C ≥190 mg/dL or family history of hypercholesterolemia + premature CAD; (2) Adults without pre-treatment LDL-C data but with personal premature CAD and family history of both hypercholesterolemia and premature CAD; (3) Adults with LDL-C ≥160 mg/dL + family history of hypercholesterolemia and premature CAD (personal or family history)
+  - Premature CAD thresholds: males ≤55 years, females ≤65 years
 - Genetic confirmation identifies higher-risk individuals within the LDL-C ≥190 mg/dL group
 - Lipid screening from age ≥2 y if family history of FH (cascade screening): identifies FH early for lifestyle and pharmacotherapy [[sources/lipid-aha-2026]] (very high)
 
@@ -84,3 +88,4 @@ Familial hypercholesterolemia (FH) is a common autosomal codominant genetic diso
 - Related to [[concepts/ASCVD-Risk-Assessment]] — PREVENT equations specifically contraindicated in FH
 - Related to [[concepts/Lipoprotein-a]] — elevated Lp(a) common in FH; multiplicative risk if both present
 - Related to [[concepts/DTC-Genetic-Testing]] — LDLR/APOB/PCSK9 in DTC panels; gene-first FH screening cost-effectiveness
+- Related to [[sources/genetic-test-aha-2020]] — FH genetic testing criteria Table 4; cascade screening recommendations

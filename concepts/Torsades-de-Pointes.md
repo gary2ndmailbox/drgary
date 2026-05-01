@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Torsades de Pointes"
 tags: [arrhythmia, channelopathies, LQTS, cardiac-electrophysiology, drug-induced-arrhythmias]
-source_count: 4
-last_updated: 2026-04-19
+source_count: 7
+last_updated: 2026-04-30
 ---
 
 # Torsades de Pointes
@@ -19,12 +19,24 @@ Torsades de pointes (TdP) is a polymorphic ventricular tachycardia (VT) characte
 - **Monitoring:** In hospitalised patients on antiarrhythmic drugs with known TdP risk, QTc should be monitored daily; target QTc <500 ms (without QRS prolongation). Patients on long-term QT-prolonging therapy: 12-lead ECG every 3–6 months. For methadone: ECG at admission to opioid treatment program, within 30 days if risk factors present, annually or when dose exceeds 120 mg/day. ([[sources/drug-arrhythmia-aha-2020]])
 - **Management of drug-induced TdP:** Discontinue offending drug; correct hypokalaemia, hypomagnesaemia, hypocalcaemia; IV magnesium 1–2 g (terminates haemodynamically stable TdP regardless of serum Mg level — mechanism: Ca²⁺ channel inhibition suppresses EADs); for recurrent TdP with bradycardia refractory to Mg: overdrive pacing or isoproterenol (shortens QT by increasing HR); defibrillation for haemodynamically unstable TdP (synchronisation may be impossible in polymorphic VT); oral mexiletine 200–450 mg/day for refractory TdP; pretreatment with high-dose magnesium sulfate 5 g over 1 h reduces TdP risk with ibutilide. ([[sources/drug-arrhythmia-aha-2020]])
 - In LQTS, loss-of-function mutations in KCNQ1 or KCNH2 reduce repolarizing K⁺ currents; gain-of-function mutations in SCN5A increase late Na⁺ current — both mechanisms prolong the QT interval and predispose to TdP. ([[sources/channelopathies-jaha-2025]])
+- **TdP initiation and perpetuation:** TdP begins with **focal beats originating in the area of long repolarization** (long-APD zone). Multiple premature focal beats in this zone shorten APD locally **more** than in surrounding myocardium, reversing the normal repolarization gradient. This reversal provides the functional substrate for unidirectional block and re-entry — transitioning TdP from a focal to a re-entrant mechanism. Heterogeneity in repolarization is thus a crucial substrate for both TdP initiation and perpetuation. ([[sources/repolarisation-jaccep-2023]], rating: high)
+- **Critical repolarization gradients:** It is not simply prolonged APD per se but the spatial **gradient between long and short repolarization regions** that generates the re-entry substrate. Large regions of uniformly long repolarization do not predispose to EADs — rather, they produce membrane instability at borders with shorter-repolarization regions (R-from-T phenomenon). ([[sources/repolarisation-jaccep-2023]])
 - TdP that does not self-terminate degenerates into VF and causes SCD. ([[sources/channelopathies-jaha-2025]])
 - Sex hormones modulate TdP risk: estrogen inhibits IKr (prolonging QT), while testosterone and progesterone shorten QT, explaining the higher TdP risk in postpubertal females vs. males aged 18–40. ([[sources/channelopathies-jaha-2025]])
 - Progesterone is specifically antiarrhythmic in LQT2: preclinical LQT2 rabbit models show progesterone eliminates polymorphic VT and prevents SCD; estradiol promotes it. The postpartum fall in progesterone is the primary mechanistic driver of the elevated 9-month postpartum TdP/SCD risk in LQT2 patients. ([[sources/lqts-pregnancy-medicina-2022]], rating: medium)
 - Pregnancy is relatively protective against TdP (physiological tachycardia shortens QT); the 9-month postpartum period carries a 2.7-fold increased cardiac event risk and 4.1-fold life-threatening event risk. ([[sources/lqts-pregnancy-medicina-2022]])
 - TdP is listed as a diagnostic criterion (+1 point) in the Schwartz Score for LQTS. ([[sources/channelopathies-jaha-2025]])
 - First-line prevention: nonselective β-blockers (especially nadolol); LCSD and mexiletine for refractory cases; ICD for high-risk or refractory patients. ([[sources/channelopathies-jaha-2025]])
+
+## Cancer Therapy and QT Prolongation
+- QT prolongation occurs in up to **22%** of cancer patients across drug classes; **arsenic trioxide** (used in acute promyelocytic leukaemia) causes QT prolongation in 26–93% — the highest incidence of any cancer drug. ([[sources/arrhythmia-cardio-oncology-aha-2021]], rating: very high)
+- Mechanisms in cancer therapy: direct K⁺ channel blockade (same as non-cancer drugs); PI3K pathway inhibition (many TKIs) → ventricular repolarization delay independent of direct channel block. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **Fridericia formula (QTcF = QT/RR^(1/3))** is preferred over Bazett (QTcB) in cancer patients because it is more accurate at heart rate extremes common in this population (tachycardia from deconditioning/pain/dehydration or bradycardia from cancer drugs). ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- Despite high QT prolongation incidence, life-threatening arrhythmias (TdP, VF) occur in **<1%** of patients receiving QT-prolonging cancer therapies — decisions to withhold cancer therapy require oncology/cardiology/patient collaboration. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **Ribociclib (CDK4/6 inhibitor) + tamoxifen combination** carries the highest QT risk in breast cancer: >5% of patients developed QTc >480 ms in MONALEESA-7 — this combination is specifically contraindicated; ribociclib + AI or fulvestrant causes QTc >480 ms in 3.3–5.6% (MONALEESA-2/3). Palbociclib causes hypertension rather than QT prolongation; abemaciclib has no significant CV effects. ([[sources/Hormonal-Rx-AHA-2021]], rating: high)
+- **Mexiletine:** Emerging evidence specifically for arsenic trioxide–induced QT prolongation and recurrent TdP; also effective for acquired long QT refractory to conventional measures (JACC 2015; n=12 patients). Further RCTs needed to confirm for broader cancer drug use. ([[sources/arrhythmia-cardio-oncology-aha-2021]], [[sources/drug-arrhythmia-aha-2020]])
+- No standardised QT monitoring protocol exists for cancer therapy — each drug label carries different instructions; standardised protocols are urgently needed. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- See [[concepts/Cancer-Associated-Arrhythmia]] for the full cancer QT management framework.
 
 ## Contradictions / Open Questions
 - **TdP as LQTS-specific vs. acquired QT prolongation:** TdP is the hallmark arrhythmia of inherited LQTS, but acquired QT prolongation from drugs (sotalol, haloperidol, macrolides) or electrolyte disturbances also causes TdP in structurally normal hearts. The management differs — acquired TdP requires trigger removal + magnesium/pacing; inherited LQTS requires beta-blockers ± ICD. The same ECG morphology in different clinical contexts demands different management, and the two entities are easily confused when clinical history is incomplete. ([[sources/channelopathies-jaha-2025]], [[sources/VA-SCD-ESC-2022]])
@@ -43,3 +55,8 @@ Torsades de pointes (TdP) is a polymorphic ventricular tachycardia (VT) characte
 - Related to [[entities/SCN5A]]
 - Related to [[concepts/LQTS-Pregnancy-Management]]
 - Related to [[entities/Amiodarone]]
+- Related to [[concepts/Cancer-Associated-Arrhythmia]]
+- Related to [[concepts/Hormonal-Therapy-CV-Risk]]
+- Related to [[sources/Hormonal-Rx-AHA-2021]]
+- Related to [[concepts/Cardiac-Repolarization]]
+- Related to [[sources/repolarisation-jaccep-2023]]

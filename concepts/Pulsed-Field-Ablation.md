@@ -1,9 +1,9 @@
 ---
 dg-publish: true
 title: "Pulsed-Field Ablation"
-tags: [atrial-fibrillation, catheter-ablation, ablation-technology]
-source_count: 1
-last_updated: 2026-04-12
+tags: [atrial-fibrillation, catheter-ablation, ablation-technology, ventricular-arrhythmias]
+source_count: 2
+last_updated: 2026-05-01
 ---
 
 # Pulsed-Field Ablation (PFA)
@@ -37,6 +37,11 @@ Pulsed-field ablation (PFA) is a non-thermal catheter-based energy modality that
 - Longer-term safety data are still absent ([[sources/ca-af-ehj-2024]])
 - Optimal role of adjunctive ablation beyond PVI in persistent AF with PFA requires dedicated RCTs ([[sources/ca-af-ehj-2024]])
 - Applicability in all-comer AF populations and full characterisation of rare side effects (AKI, coronary vasospasm) require large-scale trials ([[sources/ca-af-ehj-2024]])
+
+### Ventricular PFA (Emerging)
+- PFA has been used for ventricular arrhythmias (PVCs and VT) but experience remains limited; no large published series ([[sources/PVC-ablation-jaccep-2024]], rating: high)
+- Tissue selectivity (cardiomyocyte-specific) and minimal heat generation are theoretically advantageous for ventricular use: reduced risk of steam pops, char formation, and thromboembolism compared with RF ([[sources/PVC-ablation-jaccep-2024]])
+- No specific ventricular PFA outcome data available at time of 2024 review; characterised as "emerging" ([[sources/PVC-ablation-jaccep-2024]])
 
 ## Contradictions / Open Questions
 - MANIFEST-PF found no benefit of adjunctive LAPWI with PFA at 12 months, in contrast to RF/cryo-based meta-analyses showing benefit; methodological limitations of MANIFEST-PF make the negative result uncertain ([[sources/ca-af-ehj-2024]])

@@ -131,6 +131,7 @@ Cardiovascular disease, maternal mortality, obstetrics, pregnancy, cardio-obstet
 - [[concepts/Preeclampsia]] — fullPIERS model; cerebrovascular complications (RCVS/PRES/ICH/CVT)
 - [[concepts/Adverse-Pregnancy-Outcomes]] — APOs as 2018 cholesterol guideline CVD risk-enhancing conditions; fourth-trimester follow-up
 - [[concepts/LQTS-Pregnancy-Management]] — LQTS risk and β-blockade throughout pregnancy
+- [[concepts/MINOCA]] — SCAD and MINOCA highlighted as prevalent causes of MI in pregnancy alongside atherosclerosis; account for >50% of ischemic events in pregnancy
 
 ## Key Entities Mentioned
 - [[entities/Peripartum-Cardiomyopathy]] — definition, IPAC study, bromocriptine, prognosis by EF

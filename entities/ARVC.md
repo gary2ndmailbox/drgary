@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)"
 tags: [cardiomyopathy, inherited-arrhythmias, gene-therapy, sudden-cardiac-death, arrhythmogenic-cardiomyopathy]
-source_count: 8
-last_updated: 2026-04-25
+source_count: 10
+last_updated: 2026-05-01
 ---
 
 # Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
@@ -20,6 +20,7 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 - ARVC is a **"desmosomopathy"** — mutations in desmosomal proteins disrupt intercellular adhesion at the intercalated disc, triggering apoptosis, fibrofatty replacement, and conduction slowing. ([[sources/acm-hrs-2019]] — high)
 - PKP2 mutations reduce **Nav1.5 surface expression** (interplay with SCN5A) and **Cx43** at intercalated discs, contributing to conduction slowing and arrhythmia vulnerability. ([[sources/gene-therapy-arrhythmia-2025]] — high)
 - Exercise acts as a **disease accelerant** — dose-dependent relationship with structural penetrance, arrhythmic events, and disease progression, particularly in PKP2 carriers. ([[sources/acm-hrs-2019]] — high)
+- **ARVC desmosomal genes are robust circadian REGs:** Pkp2, Dsg2, and Dsc2 — the three most commonly mutated genes in ARVC — are among the most consistently rhythmically expressed genes (REGs) in the heart across four independent databases (CircaDB D:D/L:D, CircaAge, CircaMET, GEO GSE262714). Pkp2 circadian expression is BMAL1-dependent (abolished in cardiomyocyte-specific Bmal1 KO). This implies time-of-day variation in desmosomal protein levels, potentially creating a circadian window of reduced intercalated disc integrity and increased arrhythmia susceptibility in ARVC. This mechanistic link is unexplored clinically. ([[sources/circadian-scd-jmcc-2025]], rating: high)
 
 ## Genetics
 - **Autosomal dominant** inheritance predominates. Pathogenic variants in desmosomal genes are found in the majority of familial cases: **PKP2** (most common), DSP, DSG2, DSC2, JUP. Most non-desmosomal ARVC genes encode desmosomal binding partners or disrupt desmosomal function indirectly (TMEM43, CDH2, CTNNA3). ([[sources/acm-hrs-2019]] — high)
@@ -29,6 +30,11 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 - Exercise plays a well-established role in the pathogenesis of desmosomal cardiomyopathies; identifying a desmosome gene mutation can help determine optimal exercise recommendations ([[sources/genetic-cmp-jcf-2018]] — very high)
 
 ## Diagnosis
+
+### SCB Provocation False-Positive in ARVC
+- **Ajmaline induces a type 1 Brugada pattern in 16% of ARVC patients** (Peters et al., n=55) — one of the highest false-positive rates for SCB testing across any disease group
+- This rate is critical context when interpreting SCB provocation results: a positive ajmaline test in a patient with possible ARVC should not be attributed to Brugada syndrome without systematic exclusion of ARVC ([[sources/pharmacological-provocation-europace-2025]] — high)
+- Isoproterenol infusion (45 µg/min × 3 min) has been proposed to improve early ARVC identification; **positive** = polymorphic PVCs (>3 morphologies) + couplets, or LBBB-pattern VT not typical for RVOT-VT; 89% ARVC patients vs 8% healthy controls had polymorphic VT (Denis series). Uncertain whether test adds substantially beyond 2010 Task Force Criteria ([[sources/pharmacological-provocation-europace-2025]] — high)
 
 ### 2010 Task Force Criteria
 - Five domains: structural, tissue characterization, ECG repolarization, ECG depolarization/conduction, arrhythmias, and family history.
@@ -101,6 +107,7 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 - **2010 Task Force Criteria vs. Padua Criteria:** The 2010 TFC were developed for RV-dominant ARVC and have no criteria for LV involvement. The Padua criteria (2020) incorporate LV structural and functional abnormalities, better capturing biventricular and LV-dominant forms. ESC 2023 acknowledges Padua criteria but notes they lack external validation; the 2010 TFC remain the recommended standard. This creates diagnostic gaps for a clinically important patient group. ([[sources/esc-cmp-2023]], [[sources/acm-hrs-2019]])
 
 ## Connections
+- Related to [[concepts/Pharmacological-Provocation-Testing]]
 - Related to [[concepts/Arrhythmogenic-Cardiomyopathy]]
 - Related to [[concepts/ARVC-Task-Force-Criteria]]
 - Related to [[concepts/Desmosome]]
@@ -120,6 +127,8 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 - Related to [[concepts/Gene-Silencing-Therapy]]
 - Related to [[concepts/SupRep-Therapy]]
 - Related to [[concepts/Genetic-Testing-in-Cardiomyopathy]]
+- Related to [[concepts/Circadian-Rhythm-Cardiac-Electrophysiology]] — Pkp2/Dsg2/Dsc2 as robust BMAL1-dependent circadian REGs; time-of-day desmosomal integrity variation
+- Related to [[sources/circadian-scd-jmcc-2025]]
 - Related to [[sources/genetic-cmp-jcf-2018]]
 - Related to [[sources/genetic-eoaf-ehj-2024]]
 - Related to [[concepts/Sports-Cardiology-SDM]]

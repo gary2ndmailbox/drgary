@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Genetic Testing in Cardiomyopathy"
 tags: [genetics, cardiomyopathy, genetic-testing, guideline]
-source_count: 8
-last_updated: 2026-04-25
+source_count: 9
+last_updated: 2026-04-29
 ---
 
 # Genetic Testing in Cardiomyopathy
@@ -159,6 +159,24 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - Most incidental cardiomyopathy variants will remain VUS — limiting actionability
 - Cascade clinical phenotyping of at-risk relatives may be considered even if the incidental proband is phenotype-negative (age-dependent penetrance)
 
+### Genetic Testing for Arrhythmic Disorders — AHA 2020 Recommendations
+- Disease-specific gene panels for arrhythmic disorders (per HRS/EHRA 2011 + ClinGen 2019–2020 curations): ([[sources/genetic-test-aha-2020]] — high)
+  - Long-QT syndrome: KCNQ1, KCNH2, SCN5A (3 definitively causal for typical LQTS per ClinGen 2020); additionally CALM1, CALM2, CALM3, TRDN for atypical LQTS
+  - Short-QT syndrome: KCNH2, KCNQ1, KCNJ2
+  - Brugada syndrome: SCN5A only (ClinGen 2019 evaluated 21 candidate genes; only SCN5A has definitive evidence; results for other genes should NOT inform clinical management)
+  - CPVT: RYR2, CASQ2
+- Genetic testing NOT indicated for isolated type 2 or type 3 Brugada ECG patterns (these are not diagnostic for Brugada syndrome and do not constitute an independent indication for testing)
+- Genetic testing NOT routinely recommended for atrial fibrillation per HRS/EHRA 2011; evolving evidence may support testing in early-onset AF or AF with cardiomyopathy gene variants
+- Out-of-hospital cardiac arrest survivors: genetic testing only when specific clinical suspicion for cardiomyopathy or channelopathy; not indicated as routine workup for all survivors
+- Postmortem genetic testing: collect tissue samples; select panels guided by autopsy findings and surviving family members' clinical results; cascade testing recommended if a causal variant is identified ([[sources/genetic-test-aha-2020]] — high)
+
+### Genetic Testing for HTAD — AHA 2020 Recommendations
+- ClinGen 2018 (Renard et al.): 11 genes with definitive/strong evidence for heritable thoracic aortic aneurysm and dissection (HTAD): ACTA2, COL3A1, FBN1, MYH11, SMAD3, TGFB2, TGFBR1, TGFBR2, MYLK, LOX, PRKG1 ([[sources/genetic-test-aha-2020]] — high)
+- 8 additional potentially diagnostic genes included in most commercial aortopathy panels: EFEMP2, ELN, FBN2, FLNA, NOTCH1, SLC2A10, SMAD4, SKI
+- Gene identification provides actionable information: guides surgical timing thresholds, determines scope of vascular surveillance, and identifies risk of additional systemic vascular diseases
+- ACTA2 pathogenic variants → elevated risk for early-onset stroke/MI from vascular occlusive lesions and moyamoya disease, beyond aortic disease alone
+- 70% of HTAD families without systemic features (Marfan/Loeys-Dietz phenotype) test negative on current panels — additional undiscovered genes suspected; refer panel-negative HTAD families to research studies
+
 ## Contradictions / Open Questions
 - **VUS dilemma in practice:** Both HFSA 2018 and all subsequent guidelines agree VUS should not drive cascade genetic testing. Yet a substantial proportion of probands receive a VUS rather than P/LP classification — particularly in DCM, where most genes contribute a small fraction and novel variants are common. This leaves the majority of families with likely inherited disease unable to access gene-informed cascade testing. ([[sources/genetic-cmp-jcf-2018]] — very high; [[sources/HCM-AHA-2024]] — high)
 - **TTNtv pathogenicity uncertainty:** TTNtv is found in 10–20% of DCM but also in ~1% of the general population and in athletes with physiological remodelling. Non-segregating TTNtv cases have been documented. Many commercial labs classify all TTNtv as P/LP — yet the variant may function as a risk allele requiring a "second hit" rather than a fully penetrant pathogenic variant. The clinical actionability of a TTNtv in an asymptomatic relative is not well-established. ([[sources/genetic-cmp-jcf-2018]] — very high; [[sources/esc-cmp-2023]] — very high)
@@ -189,3 +207,4 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - Related to [[concepts/Mitochondrial-Cardiomyopathy]]
 - Related to [[concepts/Heteroplasmy]]
 - Related to [[sources/mitochondrial-cv-aha-2025]]
+- Related to [[sources/genetic-test-aha-2020]]

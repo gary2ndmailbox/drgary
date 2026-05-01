@@ -5,8 +5,8 @@ tags:
   - pulmonary-hypertension
   - right-heart-failure
   - pulmonary-arterial-hypertension
-source_count: 5
-last_updated: 2026-04-22
+source_count: 6
+last_updated: 2026-04-30
 ---
 
 # Pulmonary Hypertension
@@ -33,6 +33,7 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 
 ### Clinical Classification — 5 Groups
 - **Group 1 — PAH:** Includes IPAH, HPAH, drug/toxin-associated PAH, PAH associated with CTD/HIV/portal hypertension/CHD/schistosomiasis, PVOD/PCH, and PPHN. Rare; prevalence 48–55/million adults. ([[sources/PHT-ESC-2022]], rating: very high)
+  - **Cancer therapy-associated PAH (drug/toxin Group 1):** Bleomycin (used in lymphomas and testicular cancer) causes PAH via endothelial apoptosis and ↓ EC proliferation; cyclophosphamide also associated with PAH; dasatinib (BCR-ABL TKI) causes PAH in 5% vs. 0.4% with imatinib. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]], rating: very high; [[sources/Cardio-Oncology-ESC-2022]], rating: very high)
 - **Group 2 — PH-LHD:** Most common globally; caused by HFrEF, HFmrEF, HFpEF, or valvular disease. Affects ≥50% of HFpEF patients. ([[sources/PHT-ESC-2022]], rating: very high)
 - **Group 3 — PH-lung disease/hypoxia:** Associated with COPD, ILD, hypoventilation syndromes; 1–5% of advanced COPD have mPAP >35–40 mmHg. ([[sources/PHT-ESC-2022]], rating: very high)
 - **Group 4 — PH-PA obstructions:** Primarily CTEPH; prevalence 26–38/million adults. CTEPD (without PH) newly formalised as a related entity. ([[sources/PHT-ESC-2022]], rating: very high)
@@ -129,3 +130,5 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 - Related to [[sources/rv-failure-aha-2026]]
 - Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
 - Related to [[sources/periop-aha-2024]]
+- Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+- Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]

@@ -1,9 +1,9 @@
 ---
 dg-publish: true
 title: "Cancer Therapy-Related Cardiovascular Toxicity (CTR-CVT)"
-tags: [cardio-oncology, cardiovascular-toxicity, CTRCD, heart-failure, cancer]
-source_count: 3
-last_updated: 2026-04-28
+tags: [cardio-oncology, cardiovascular-toxicity, CTRCD, heart-failure, cancer, vascular-toxicity]
+source_count: 6
+last_updated: 2026-04-30
 ---
 
 # Cancer Therapy-Related Cardiovascular Toxicity (CTR-CVT)
@@ -183,6 +183,45 @@ The AHA 2023 Scientific Statement establishes an evidence-based multimodal imagi
 - All 5 PH groups can occur in cancer patients. ([[sources/Cardio-Oncology-ESC-2022]], rating: very high)
 - **Dasatinib-induced PAH:** 5% vs. 0.4% with imatinib (DASISION trial). Peak TRV >3.4 m/s → RHC + dasatinib discontinuation (Class I/C). TRV 2.9–3.4 m/s → dose reduction + TTE every 4 weeks (Class IIa/C). Switch to alternative BCR-ABL TKI after TRV recovery. ([[sources/Cardio-Oncology-ESC-2022]])
 
+### Vascular Mechanisms of Traditional Chemotherapy
+
+Detailed mechanisms sourced from the 2019 AHA Vascular Cardio-Oncology Statement. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]], rating: very high)
+
+| Agent | Vascular Mechanism | Key Vascular Toxicities |
+|---|---|---|
+| Fluoropyrimidines (5-FU, capecitabine) | Endothelial injury; ↑ endothelin-1; vasospasm | Coronary vasospasm (up to 5.4% with continuous 5-FU); Raynaud |
+| Taxanes | Cytoskeletal disruption of endothelial/smooth muscle cells | Capillary leak/fluid retention; peripheral neuropathy (vasa nervorum); myocardial ischaemia |
+| Vinca alkaloids (vincristine, vinblastine) | Caspase-mediated apoptosis; ↓ EC proliferation | Chest pain, MI, hypertension, Raynaud, thromboembolism |
+| Platinum compounds (cisplatin) | Direct endothelial toxicity; ↑ platelet aggregation; ↓ NO | Raynaud, HTN, MI, stroke, arterial thrombosis, acute limb ischaemia, DVT/PE |
+| Cyclophosphamide | Similar to platinums; ↓ ACE activity | HTN, MI, cerebrovascular events, hepatic veno-occlusive disease, PAH, Raynaud |
+| Anthracyclines | ROS, DNA DSBs, mitochondrial dysfunction; endothelial injury | Endothelial dysfunction (persists months–years); under-studied clinically |
+| Bleomycin | ↓ EC proliferation/migration; EC apoptosis | Raynaud (3× risk in testicular cancer, dose-related); MI; PAH |
+
+### VEGF Inhibitor Hypertension — Mechanism and Management
+
+Detailed from 2019 AHA Vascular Cardio-Oncology Statement. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]], rating: very high)
+
+- **Mechanisms of VEGF inhibitor-induced hypertension:**
+  - ↓ eNOS activity → ↓ NO bioavailability (NO is the pivotal vasodilator + antithrombotic + anti-inflammatory molecule)
+  - ↑ Endothelin-1 (potent vasoconstrictor)
+  - Capillary rarefaction → ↑ microcirculatory resistance
+  - Rightward shift of renal pressure-natriuresis curve → impaired sodium excretion + fluid retention → salt-dependent hypertension
+- **Incidence:** ≥25% (class effect); newer agents >50% (pazopanib 57% in treatment-naïve mRCC)
+- **Drug-drug interactions:** Avoid **diltiazem and verapamil** (non-DHP CCBs act as CYP3A4 inhibitors → ↑ VEGF inhibitor plasma levels)
+- **Preferred antihypertensives:** ACE-I (small studies suggest superior oncological outcomes in renal cell carcinoma) + **amlodipine** (DHP CCB — no CYP3A4 interaction)
+- **VEGF inhibitor cardiomyopathy mechanism:** Capillary rarefaction → myocardial hypoxia → HIF stabilisation → reversible cardiomyopathy (consistent with myocardial hibernation, not necrosis)
+- **Preeclampsia parallel:** sFlt-1 (soluble VEGF decoy receptor secreted by placenta) may mediate preeclampsia via identical mechanism (HTN + proteinuria + thrombotic angiopathy); on-target effects of VEGF inhibition
+
+### Metabolic Complications of Cancer Therapy
+
+From 2019 AHA Vascular Cardio-Oncology Statement. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]], rating: very high)
+
+- **ADT (GnRH agonism):** Increases incident DM +44%, CAD +16%, MI +11%, sudden cardiac death +16% (population-based study); mechanisms: ↑ LDL-C/triglycerides, ↑ visceral fat, ↑ insulin resistance; endothelial function paradoxically **preserved** with ADT; metabolic changes **return to baseline on cessation**; randomised oncology trial data show ADT increases mortality only in men with pre-existing CAD or HF
+- **PI3K inhibitors (copanlisib, alpelisib):** Hyperglycemia (GLUT4 upregulation requires insulin-mediated PI3K activation); copanlisib: commonly associated; alpelisib + fulvestrant: grade 3 hyperglycemia in 36.6% vs. 0.7% (SOLAR-1)
+- **VEGF/PDGF TKIs (sunitinib, sorafenib):** **Improve glycemia** — counter-intuitive given cardiometabolic effects
+- **CML glycemic divergence:** Imatinib **improves** glycemia; nilotinib **worsens** glycemia — opposite effects within the same drug class; highlights complexity of off-target kinase effects on metabolism
+- **mTOR inhibitors (everolimus + exemestane):** Metabolic syndrome in >30% — class effect (BOLERO-2)
+
 ### Drug-Specific Profiles
 
 #### Anthracyclines
@@ -245,12 +284,20 @@ The AHA 2023 Scientific Statement establishes an evidence-based multimodal imagi
 - **Monitoring:** Baseline TTE (I/C) + NP (IIa/C) + CV risk assessment; serial TTE at 3 and 12 months in high-risk recipients. ([[sources/Cardio-Oncology-ESC-2022]])
 
 #### Androgen Deprivation Therapy (ADT)
-- **Toxicities:** Hypertension, diabetes, IHD, CTRCD; QTc prolongation (uncommon). GnRH antagonists may have lower CV risk vs. agonists. ([[sources/Cardio-Oncology-ESC-2022]])
-- **Monitoring:** SCORE2/SCORE2-OP at baseline; GnRH antagonist should be considered in pre-existing symptomatic CAD (Class IIa/B). ([[sources/Cardio-Oncology-ESC-2022]])
+- **Toxicities:** Hypertension, diabetes, IHD, CTRCD; QTc prolongation (uncommon). GnRH antagonists have significantly lower CV event rates vs. agonists. ([[sources/Cardio-Oncology-ESC-2022]])
+- **GnRH agonist cardiometabolic effects:** ↑ LDL-C and triglycerides, ↑ visceral fat, ↓ lean mass, ↑ insulin resistance — metabolic syndrome-like; population studies show stroke HR 1.2, MI HR 1.20 vs. no ADT. ([[sources/Hormonal-Rx-AHA-2021]], rating: high)
+- **GnRH antagonists preferred in men with pre-existing symptomatic CAD (ESC Class IIa/B):** HERO trial — major CV events 2.9% vs. 6.2% leuprolide (HR 0.46); pooled analysis 6 RCTs HR 0.44 for CV events with antagonists. ([[sources/Hormonal-Rx-AHA-2021]])
+- **Newer AR-directed therapies (abiraterone, enzalutamide):** Meta-analysis RR 1.36 (95% CI 1.13–1.64) for adverse CV events; patients with ≥3 CV comorbidities have 1.56× higher all-cause mortality. ([[sources/Hormonal-Rx-AHA-2021]])
+- **Monitoring:** SCORE2/SCORE2-OP at baseline; serial lipid profile, BMI, waist-to-hip ratio, HbA1c, blood pressure; AHA secondary prevention guidelines for men with pre-existing CVD. ([[sources/Cardio-Oncology-ESC-2022]], [[sources/Hormonal-Rx-AHA-2021]])
 
-#### Endocrine Therapies (Aromatase Inhibitors, Tamoxifen)
-- **Toxicities:** Aromatase inhibitors: dyslipidaemia, atherosclerotic CVD, HF (letrozole > tamoxifen in BIG 1-98 trial). Tamoxifen: VTE risk, not recommended with thrombotic risk factors; toremifene/high-dose tamoxifen: QTc prolongation. ([[sources/Cardio-Oncology-ESC-2022]])
-- **Monitoring:** Serial lipid profile; baseline CV risk assessment. ([[sources/Cardio-Oncology-ESC-2022]])
+#### Endocrine Therapies (Aromatase Inhibitors, Tamoxifen, CDK4/6 Inhibitor Combinations)
+- **Aromatase inhibitors:** Dyslipidaemia, accelerated atherosclerosis, HF; pooled RR 1.19 vs. tamoxifen for overall CVD; 30% higher MI risk; OR 1.18 for CV events when extended beyond 5 years. ([[sources/Cardio-Oncology-ESC-2022]], [[sources/Hormonal-Rx-AHA-2021]])
+- **Tamoxifen:** VTE risk significantly elevated (41% higher vs. AIs); net cardioprotective for arterial CVD vs. placebo (pooled RR 0.67); not recommended with pre-existing thrombotic risk factors; toremifene/high-dose tamoxifen: QTc prolongation. ([[sources/Cardio-Oncology-ESC-2022]], [[sources/Hormonal-Rx-AHA-2021]])
+- **CDK4/6 inhibitor combinations:** Ribociclib + AI or fulvestrant → QTc >480 ms in 3.3–5.6%; **ribociclib + tamoxifen → QTc >480 ms in >5% (MONALEESA-7) — this combination should be avoided**; palbociclib + AI → hypertension 6%; abemaciclib — no significant CV effects. ([[sources/Hormonal-Rx-AHA-2021]])
+- **mTOR inhibitors (everolimus + exemestane):** Metabolic syndrome in >30% — class effect; especially high risk with type 2 diabetes (BOLERO-2). ([[sources/Hormonal-Rx-AHA-2021]])
+- **PI3K inhibitors (alpelisib + fulvestrant):** Grade 3 hyperglycemia in 36.6% vs. 0.7% placebo (SOLAR-1). ([[sources/Hormonal-Rx-AHA-2021]])
+- **Monitoring:** Serial lipid profile; baseline CV risk assessment; baseline ECG before CDK4/6 inhibitor initiation; QTc monitoring with ribociclib (day 14, day 28); GLS on echocardiography during AI therapy. ([[sources/Cardio-Oncology-ESC-2022]], [[sources/Hormonal-Rx-AHA-2021]])
+- See [[concepts/Hormonal-Therapy-CV-Risk]] for comprehensive detail.
 
 ### Multi-Omics Biomarkers in Cardiotoxicity
 - **Genomics:** TTNtv (anthracycline cardiomyopathy overlap with DCM) and RARG variants identified in anthracycline cardiotoxicity; insufficient for routine clinical use. ([[sources/ai-cardiooncology-aha-2025]], rating: high)
@@ -270,6 +317,25 @@ The AHA 2023 Scientific Statement establishes an evidence-based multimodal imagi
 - Paediatric echo should include a segmental approach including extracardiac anatomical relationships.
 - Emphasise minimisation of radiation and contrast exposure in CCT and PET.
 - CMR: prospective data show CMR-biomarker correlation after anthracycline administration in children. ([[sources/imaging-cardio-oncology-aha-2024]], rating: high)
+
+### Arrhythmias — Dedicated Framework
+
+For the complete drug-by-drug arrhythmia framework, see [[concepts/Cancer-Associated-Arrhythmia]].
+
+#### Arrhythmia Types and Scope
+- **AF** is the most common arrhythmia (2–16% during active treatment); QT prolongation in up to 22% (arsenic trioxide 26–93%); ventricular arrhythmias and bradyarrhythmias are less common but potentially fatal. ([[sources/arrhythmia-cardio-oncology-aha-2021]], rating: very high)
+- **Ibrutinib** carries the highest AF burden of any targeted agent: RR 4.69 (meta-analysis 8 RCTs, n=2,580). Newer BTKi (acalabrutinib 4.1%, zanubrutinib 2%) are safer alternatives for patients at high AF risk. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **ICI-associated AV block** may be the first manifestation of ICI myocarditis (overall fatality ~50%); conduction disorders carry 80% cardiovascular mortality in ICI cardiotoxicity cohorts. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **MADIT-CHIC trial:** CRT is effective in chemotherapy-induced cardiomyopathy + LVEF ≤35% + LBBB — significant LVEF improvement and LV volume reduction at 6 months. CRT-pacemaker appropriate even if life expectancy <1 year for symptom palliation. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+
+#### Anticoagulation Complexity in Cancer-AF
+- **CHA₂DS₂-VASc** underestimates thromboembolic risk in cancer; **HAS-BLED** is unreliable (does not capture thrombocytopenia or intracranial metastases). Cancer-specific validated risk algorithms are urgently needed. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **DOACs preferred** — ARISTOTLE cancer subgroup (n=1,236): apixaban superior to warfarin for stroke/SE; ENGAGE AF-TIMI 48 similar result for edoxaban. All DOACs interact with P-glycoprotein; rivaroxaban/apixaban also CYP 3A4 substrates — ibrutinib interaction requires care. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **Aspirin not recommended** for cancer-AF stroke prevention — excess bleeding risk from thrombocytopenia and ibrutinib platelet dysfunction. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+
+### Autonomic Dysfunction
+- AD (decreased HRV, orthostatic hypotension, IST, POTS) is prevalent in cancer survivors, particularly those with haematological malignancies; it is associated with mortality in Hodgkin lymphoma survivors and bone marrow transplant recipients. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- Structured aerobic exercise reverses AD; ivabradine is an emerging option for IST. See [[concepts/Autonomic-Dysfunction-in-Cancer]] for full detail. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
 
 ## Contradictions / Open Questions
 - Most recommendations are Level of Evidence C due to the lack of dedicated cardio-oncology RCTs — the evidence base is largely derived from small trials, subgroup analyses, and registry data. ([[sources/Cardio-Oncology-ESC-2022]], rating: very high)
@@ -299,3 +365,11 @@ The AHA 2023 Scientific Statement establishes an evidence-based multimodal imagi
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
 - Related to [[sources/ai-cardiooncology-aha-2025]]
 - Related to [[sources/imaging-cardio-oncology-aha-2024]]
+- Related to [[concepts/Cancer-Associated-Arrhythmia]]
+- Related to [[concepts/Autonomic-Dysfunction-in-Cancer]]
+- Related to [[sources/arrhythmia-cardio-oncology-aha-2021]]
+- Related to [[concepts/Hormonal-Therapy-CV-Risk]]
+- Related to [[sources/Hormonal-Rx-AHA-2021]]
+- Related to [[concepts/Cancer-Associated-VTE]]
+- Related to [[concepts/Clonal-Hematopoiesis]]
+- Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]

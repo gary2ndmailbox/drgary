@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Lipoprotein(a)"
 tags: [dyslipidemia, ASCVD, lipoprotein-a, primary-prevention, risk-stratification]
-source_count: 3
-last_updated: 2026-04-25
+source_count: 4
+last_updated: 2026-04-30
 ---
 
 # Lipoprotein(a) [Lp(a)]
@@ -13,11 +13,21 @@ Lipoprotein(a) is an LDL-like particle with a single apolipoprotein(a) [apo(a)] 
 
 ## Key Concepts
 
+### Structure and Assembly
+- Lp(a) = LDL-like lipid core + apoB100 + apolipoprotein(a) [apo(a)] linked via a single disulfide bond [[sources/lpa-aha-2021]] (very high)
+- Apo(a) contains 10 kringle IV (KIV) subtypes; KIV type 2 is present in variable copy numbers → highly variable molecular mass (300–800 kDa); carries covalently bound oxidised phospholipids (OxPLs) on KIV type 10
+- Assembly: 2-step process — (1) noncovalent lysine-dependent interaction between apo(a) KIV and the N-terminal domain of apoB, followed by (2) extracellular covalent disulfide bond formation [[sources/lpa-aha-2021]] (very high)
+- *LPA* gene evolved by duplication of the plasminogen (*PLG*) gene — explains structural homology and proposed antifibrinolytic properties; species distribution limited to humans, Old World monkeys, apes, and hedgehogs (limits animal model research) [[sources/lpa-aha-2021]] (very high)
+- Liver is the primary site of Lp(a) catabolism; clearance receptors not definitively identified (LDL-R, SR-B1, LRP1, LRP8 implicated) [[sources/lpa-aha-2021]] (very high)
+
 ### Epidemiology and Genetics
 - Population distribution is highly skewed, highest levels in individuals of African or South Asian ancestry [[sources/lipid-aha-2026]] (very high)
 - Mean/median Lp(a) approximately 7–20 mg/dL (20 nmol/L) in general population; ~20% of population has levels ≥50 mg/dL (125 nmol/L) = "elevated"
 - Inherited with autosomal codominant transmission; genetic testing for LPA not advised for clinical purposes — measured Lp(a) concentration is sufficient
 - Lp(a) concentration determined by number of kringle IV-type 2 (KIV-2) repeats in apo(a); inverse relationship — more repeats → smaller isoform → lower Lp(a) in most assays (mass-based)
+- KIV2 copy number variant accounts for 19–69% of interindividual heterogeneity; additional *LPA* SNPs explain further variation [[sources/lpa-aha-2021]] (very high)
+- *APOE* ε2 allele associated with lower Lp(a) levels (~0.5% of variation); *APOH* (β2-glycoprotein 1, which binds apo(a) KIV2) also implicated [[sources/lpa-aha-2021]] (very high)
+- Intraindividual biological variability up to **20%** — consider averaging 2 measurements for borderline-risk individuals before making treatment decisions [[sources/lpa-aha-2021]] (very high)
 
 ### Risk Quantification
 - Prospective studies show robust associations with nonfatal ASCVD, aortic valve disease, CVD, and all-cause mortality [[sources/lipid-aha-2026]] (very high)
@@ -33,10 +43,19 @@ Lipoprotein(a) is an LDL-like particle with a single apolipoprotein(a) [apo(a)] 
 | 350 nmol/L (150 mg/dL) | ~3× |
 | 430 nmol/L (180 mg/dL) — ~99th percentile | ~4× (equivalent to HeFH) |
 
-- Risk derived from UK Biobank; ~2× risk may be seen at 200 nmol/L in some populations
+- Risk derived from UK Biobank (Patel et al, n=460,000); HR **1.11 per 50 nmol/L increment** (95% CI 1.10–1.12), log-linear above median, similar across ancestry groups [[sources/lpa-aha-2021]] (very high)
+- Practical risk-adjustment formula (validated with PCE framework, predates PREVENT):  
+  `Updated 10-y risk = PCE risk × 1.11^(Lp(a) nmol/L ÷ 50)`  
+  *Example: PCE 10% + Lp(a) 250 nmol/L → 10% × 1.11^5 = 16.9%* [[sources/lpa-aha-2021]] (very high)
+- **Stroke**: causal role for Lp(a) weaker than for CHD/CAVD; Mendelian randomization data show ~13% lower stroke risk per 1 SD lower genetically determined Lp(a) vs ~30–40% lower risk for CHD/PAD/CAVD [[sources/lpa-aha-2021]] (very high)
+- **Venous thromboembolism**: genetic data do not support a meaningful VTE–Lp(a) association except at very high levels; apo(a) antifibrinolytic properties in vitro likely masked when covalently bound to apoB in the Lp(a) particle [[sources/lpa-aha-2021]] (very high)
 - Relative risk from Lp(a) is **multiplicative** with other cardiovascular risk factors — elevated Lp(a) + additional risk factors = compounded risk
 
-### Measurement
+### Measurement and Assay Standardisation
+- **Historical dual-unit problem**: Lp(a) has long been measured in two incompatible units — **mg/dL** (total Lp(a) mass, assumes constant component proportions — scientifically invalid given apo(a) size variability) and **nmol/L** (molar concentration of apo(a) particles — preferred, isoform-insensitive) [[sources/lpa-aha-2021]] (very high)
+- Gold-standard assay: isoform-insensitive ELISA calibrated in nmol/L, traceable to **WHO/IFCC Reference Material SRM-2B**; multiple guidelines now mandate nmol/L reporting [[sources/lpa-aha-2021]] (very high)
+- **No unbiased conversion factor** from mg/dL to nmol/L — do not convert between units; results from differently calibrated assays are not directly comparable
+- A mass spectrometry candidate reference method has been validated with high concordance to the gold-standard ELISA [[sources/lpa-aha-2021]] (very high)
 - **COR 1**: Measure at least once in all adults for ASCVD risk assessment [[sources/lipid-aha-2026]] (very high)
 - **COR 1**: Cascade testing of first-degree family members if FH, premature ASCVD, or high Lp(a)
 - **COR 1**: Use assays insensitive to apo(a) isoform size and traceable to official reference standard materials

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Shanghai Score System"
 tags: [diagnostics, channelopathies, Brugada-syndrome, early-repolarization-syndrome]
-source_count: 2
-last_updated: 2026-04-19
+source_count: 3
+last_updated: 2026-04-30
 ---
 
 # Shanghai Score System
@@ -23,6 +23,8 @@ The Shanghai Score System is a point-based diagnostic framework used to assess t
 - At least one ECG finding is required for clinical and family history points to count in both BrS and ERS scoring. ([[sources/channelopathies-jaha-2025]])
 - The Shanghai Score was introduced because BrS diagnosis requires more nuanced integration of evidence than the ECG alone, given the variability of spontaneous vs. drug-induced type 1 patterns. ([[sources/channelopathies-jaha-2025]])
 - **SCB provocation in the context of the Shanghai Score:** A positive drug-provoked type 1 ECG scores only 2 points (possible BrS), requiring additional clinical/family history points to reach probable/definite (≥3.5). In practice, a type 1 pattern without an obvious trigger is clearly diagnostic; whether drug-induced type 1 is diagnostic in isolation remains a point of no current consensus — it has direct implications for ICD decisions. ([[sources/brs-jaccep-2022]])
+- **2025 EHRA consensus reinforcement:** The 2025 EHRA multi-society statement explicitly reaffirms that the Shanghai consensus downgrade of drug-induced type 1 from diagnostic to non-diagnostic is correct practice. A drug-induced type 1 Brugada pattern requires **additional relevant symptoms, genetic results, and/or family history** to achieve a definite BrS diagnosis. The 2022 ESC VA SCD guidelines state BrS "may be considered" with drug-induced type 1 alone, but confidence increases only when clinical/family features are also present. Isolated drug-induced type 1 (without other features) in an asymptomatic individual with no family history should prompt counselling and lifestyle precautions — but not necessarily ICD implantation. ([[sources/pharmacological-provocation-europace-2025]] — high)
+- **Polygenic basis of positive SCB response:** Positive response to ajmaline or other SCB agents may reflect polygenic susceptibility (common SNP burden), not monogenic BrS — genotype-negative relatives in SCN5A families may have positive tests due to higher polygenic risk scores. This complicates interpretation when a drug-induced type 1 appears in an asymptomatic person with no family history, as it may not represent monogenic BrS requiring intensive management. ([[sources/pharmacological-provocation-europace-2025]] — high)
 - **High precordial lead positions** (V1/V2 at ICS 2–4) increase diagnostic sensitivity ~1.5× compared with standard positions, and ECG testing at both standard and high leads is required for scoring to be valid. ([[sources/brs-jaccep-2022]])
 - **SCB agents and false-positive risk:** Ajmaline is the most potent SCB for provocation; procainamide is least potent. A ~8% false-positive rate for ajmaline was reported in high-risk families (Tadros et al.); ~27% of AVNRT patients and 4.5% of healthy controls showed type 1 ECG changes with ajmaline (Hasdemir et al.) — improved standardization of SCB provocation is needed. ([[sources/brs-jaccep-2022]])
 
@@ -35,3 +37,4 @@ The Shanghai Score System is a point-based diagnostic framework used to assess t
 - Related to [[concepts/Schwartz-Score]]
 - Related to [[entities/Brugada-Syndrome]]
 - Related to [[entities/Early-Repolarization-Syndrome]]
+- Related to [[concepts/Pharmacological-Provocation-Testing]]

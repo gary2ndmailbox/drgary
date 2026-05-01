@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Heart Failure with Preserved Ejection Fraction (HFpEF)"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors, echocardiography, diastolic-function]
-source_count: 7
-last_updated: 2026-04-19
+source_count: 9
+last_updated: 2026-05-01
 ---
 
 # Heart Failure with Preserved Ejection Fraction (HFpEF)
@@ -14,12 +14,20 @@ HFpEF is defined by the presence of HF symptoms ± signs, LVEF ≥50%, and objec
 ## Epidemiology
 - HFpEF accounts for ~16% of outpatient HF in ESC Long-Term Registry; prevalence increases with age. ([[sources/HF-ESC-2021]], rating: very high)
 - Comorbidities (hypertension, obesity, T2DM, CKD, AF) are highly prevalent in HFpEF and drive pathophysiology. ([[sources/HF-ESC-2021]], rating: very high)
+- **Obesity and HFpEF:** HFpEF is more strongly associated with obesity than HFrEF. Overweight → 38% higher HFpEF risk; class 1 obesity → 56% higher HFpEF risk, independently of other CVD risk factors (Pandey et al., pooled analysis of 3 longitudinal studies). ([[sources/obesity-cv-aha-2021]], rating: very high)
+- Normal natriuretic peptide levels do not exclude HFpEF in obese patients — adipose tissue clears BNP, reducing measured levels even in the presence of elevated filling pressures. ([[sources/obesity-cv-aha-2021]], rating: very high)
 
 ## Pathophysiology
 
 ### Comorbidity-Driven Mechanisms
 - Systemic comorbidities (hypertension, obesity, T2DM, CKD, AF) promote coronary microvascular inflammation, cardiomyocyte hypertrophy, and interstitial fibrosis — the dominant pathophysiological substrate in HFpEF. ([[sources/HF-ESC-2021]], rating: very high)
 - Increased cardiomyocyte passive stiffness is a hallmark of HFpEF, arising from both extracellular matrix changes and intrinsic sarcomeric protein modifications.
+
+### Obesity-HFpEF Phenotype
+- Obesity produces a **distinct HFpEF phenotype** compared with non-obese HFpEF: greater concentric LV remodeling, RV dilatation and dysfunction, pericardial restraint, ventricular interdependence, and significantly lower exercise capacity. These features are driven by greater epicardial fat thickness and volume — the first study to formally characterize this as a distinct obesity-HFpEF pathophysiology. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- Visceral adiposity → higher blood volume and cardiac output → LVH and LV diastolic dysfunction → HFpEF. Obesity also causes myocardial fat accumulation and fibrosis through epicardial adipose tissue paracrine signaling. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- The H2FPEF score includes **Obesity (BMI >30)** as the highest-weighted component (2 of 9 points), reflecting the dominant role of obesity in HFpEF clinical probability. ([[sources/HF-AHA-2022]], rating: very high)
+- See [[entities/Obesity]] and [[concepts/Visceral-Adiposity]] for full mechanistic detail.
 
 ### Titin Stiffness Mechanisms
 - Titin contributes substantially to cardiomyocyte passive stiffness through multiple post-translational mechanisms. ([[sources/TTN-CVResearch-2022]], rating: high)
@@ -131,7 +139,20 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - **ESC 2023:** SGLT2i Class I, Level A — incorporates both EMPEROR-Preserved and DELIVER plus pooled meta-analysis. ([[sources/HF-update-ESC-2023]], rating: very high)
 - Both guidelines agree SGLT2i is beneficial in HFpEF; the difference in classification strength reflects publication timing, not disagreement on efficacy.
 
+## Atrial Dysfunction in HFpEF
+
+### Mechanical Atrial Dysfunction as an Independent Predictor
+- In HFpEF, **mechanical atrial dysfunction** (impaired LASr, elevated LAVi) is an **independent and better predictor** than AF for adverse clinical outcomes including morbidity (HF) and cardiovascular mortality. AF alone is insufficient to capture the full atrial risk in this population. ([[sources/atrial-cmp-esc-2025]], rating: high)
+- LASr correlates with histological atrial fibrosis in advanced HF patients, making echocardiographic LASr a surrogate measure of atrial fibrosis — relevant for both diagnosis and prognostication in HFpEF. ([[sources/atrial-cmp-esc-2025]], rating: high)
+- The obesity-HFpEF phenotype features more atrial epicardial adipose tissue when AF co-occurs, contributing to atrial remodelling via paracrine fibrotic/inflammatory signaling. ([[sources/atrial-cmp-esc-2025]], rating: high)
+
+### Disproportionate LA Myopathy
+- A subset of HFpEF is characterized by 'disproportionate LA myopathy' — LA dysfunction more pronounced than expected from LV dysfunction alone. Right heart dysfunction, enhanced left-to-right atrial interaction, and pericardial constraint may contribute. ([[sources/atrial-cmp-esc-2025]], rating: high)
+- This may represent a distinct HFpEF phenotype or an early-stage manifestation of atrial failure — the distinction requires further study.
+- See [[concepts/Atrial-Cardiomyopathy]] and [[concepts/Atrial-Failure]] for the full AtCM diagnostic framework.
+
 ## Contradictions / Open Questions
+- **Mechanical atrial dysfunction vs. AF in HFpEF:** ESC/HFA 2025 AtCM consensus shows mechanical atrial dysfunction is a better predictor than AF in HFpEF — yet HFpEF management frameworks (AHA/ESC) continue to rely heavily on AF detection as a primary driver of management decisions (NT-proBNP thresholds, OAC, rate/rhythm control). This tension suggests atrial structural markers may need formal incorporation into HFpEF diagnostic and management algorithms. ([[sources/atrial-cmp-esc-2025]], rating: high; [[sources/echo-hfpef-ase-2025]], rating: very high)
 - **SGLT2i reduces HF hospitalizations but not CV death in HFpEF:** Both EMPEROR-Preserved and DELIVER showed no significant reduction in CV death individually; the pooled meta-analysis also showed a non-significant trend (HR 0.88, P=0.052). The Class I, Level A recommendation rests on the composite endpoint driven by hospitalizations. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **Improved EF phenotype (HFrecEF):** DELIVER included patients with LVEF previously ≤40% that had improved to >40%. Dapagliflozin showed consistent benefit in this subgroup — suggesting SGLT2i may benefit "recovered EF" HF, but guideline classification of this subgroup remains undefined. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **NT-proBNP thresholds not mandated in recommendation:** Trial entry required elevated natriuretic peptides; the 2023 task force chose not to specify thresholds in the recommendation text, creating uncertainty about treating HFpEF with low natriuretic peptides. ([[sources/HF-update-ESC-2023]], rating: very high)
@@ -139,6 +160,8 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - **cGMP-PKG pathway as therapeutic target has failed in clinical trials:** Despite strong pre-clinical mechanistic rationale (RELAX, VITALITY, SOCRATES all negative), suggesting the titin phosphorylation model may be insufficient or not translatable in humans. ([[sources/TTN-CVResearch-2022]], rating: high)
 
 ## Connections
+- Related to [[concepts/Atrial-Cardiomyopathy]] — mechanical atrial dysfunction independent predictor in HFpEF; disproportionate LA myopathy phenotype
+- Related to [[concepts/Atrial-Failure]] — atrial failure and HFpEF phenotypes overlap
 - Related to [[entities/Heart-Failure]]
 - Related to [[concepts/LV-Diastolic-Function]] — echo-based HFpEF diagnosis algorithm
 - Related to [[entities/Atrial-Fibrillation]] — elevated NT-proBNP thresholds differ in AF patients
@@ -153,3 +176,7 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - Related to [[sources/echo-hfpef-ase-2025]]
 - Related to [[sources/TTN-CVResearch-2022]]
 - Related to [[sources/fabry-ehj-2024]]
+- Related to [[entities/Obesity]] — obesity-HFpEF distinct phenotype
+- Related to [[concepts/Visceral-Adiposity]] — epicardial fat and pericardial restraint in obesity-HFpEF
+- Related to [[concepts/Obesity-Paradox]] — less consistent in HFpEF than HFrEF
+- Related to [[sources/obesity-cv-aha-2021]]

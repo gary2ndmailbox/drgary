@@ -1,9 +1,9 @@
 ---
 dg-publish: true
 title: "Sudden Cardiac Death"
-tags: [sudden-cardiac-death, channelopathies, epidemiology, cardiology]
-source_count: 5
-last_updated: 2026-04-12
+tags: [sudden-cardiac-death, channelopathies, epidemiology, cardiology, circadian-rhythm]
+source_count: 6
+last_updated: 2026-05-01
 ---
 
 # Sudden Cardiac Death
@@ -36,6 +36,16 @@ Sudden cardiac death (SCD) is an unexpected death due to a cardiovascular event 
   - **SADS (Sudden Arrhythmic Death Syndrome):** Unexplained SD >1 year old with negative pathological and toxicological assessment; synonymous with "autopsy-negative sudden unexplained death." ([[sources/VA-SCD-ESC-2022]])
   - Systematic evaluation of relatives after SADS uncovers an inheritable cardiac disease in a significant proportion of families — structured screening flowchart provided in ESC 2022. ([[sources/VA-SCD-ESC-2022]])
   - **Bystander CPR + AED:** Prompt bystander CPR and public AED access are Class I recommendations; mobile app alerting of BLS-trained volunteers is Class IIa (new 2022). ([[sources/VA-SCD-ESC-2022]])
+
+### Circadian and Day-Night Patterns in SCA
+- **Historical morning SCA peak:** For decades, studies identified a morning peak in SCA incidence in both ischemic and non-ischemic heart disease — attributed to morning surges in sympathetic signaling, catecholamines, heart rate, platelet aggregation, and afterload. ([[sources/circadian-scd-jmcc-2025]], rating: high)
+- **Loss of morning peak in contemporary populations:** Recent registries (Oregon SUDS, SCD-HeFT) no longer confirm a distinct morning SCA peak. Proposed explanations include widespread beta-blocker use blunting morning sympathetic surges, modern lifestyle changes (shift work, irregular sleep-wake cycles), and improved CVD risk factor management. ([[sources/circadian-scd-jmcc-2025]], rating: high)
+- **Overall daytime SCA incidence persists:** Higher SCA rates during daytime hours remain regardless of age, sex, and CAD status — reflecting the persistent daytime elevation of arrhythmogenic triggers even without a discrete morning peak. ([[sources/circadian-scd-jmcc-2025]], rating: high)
+- **Trigger-substrate framework:** SCA risk arises from the interaction between arrhythmogenic triggers (sympathetic signaling, catecholamines, elevated HR/afterload, platelet aggregation) and the protective properties of the myocardial substrate (conduction velocity, refractory periods, repolarization homogeneity, coupling efficiency). A compromised substrate enables triggers to initiate sustained lethal arrhythmias. ([[sources/circadian-scd-jmcc-2025]], rating: high)
+- **Intrinsic cardiac clock and substrate protection:** Isolated heart studies (at constant temperature, after autonomic washout) demonstrate time-of-day differences in APD, ERP, Ca²⁺ transient duration, and adrenergic responsiveness — with a peak in arrhythmia resistance at the start of the dark (active) cycle. Cardiomyocyte-specific Bmal1 knockout abolishes this time-of-day protection. ([[sources/circadian-scd-jmcc-2025]], rating: high)
+- **Aging reduces circadian substrate protection:** Aged mice (18–20 months) lose the time-of-day arrhythmia resistance peak seen in young mice, suggesting that aging diminishes circadian modulation of myocardial substrate protection. ([[sources/circadian-scd-jmcc-2025]], rating: high)
+- **LQT2 and time-of-day arrhythmia risk:** KCNH2 mutations shortening Kv11.1 protein t½ to <6 h amplify circadian APD swings — providing a mechanistic link between inherited channelopathy, circadian rhythm, and time-of-day arrhythmia clustering. See [[entities/Long-QT-Syndrome]] and [[concepts/Circadian-Rhythm-Cardiac-Electrophysiology]]. ([[sources/circadian-scd-jmcc-2025]], rating: high)
+- **Obesity as the most common non-ischaemic SCA cause:** Every 5-unit BMI increment confers 16% higher SCD risk; mechanisms include LVH, QT prolongation, premature ventricular complexes, autonomic imbalance, and epicardial fat infiltration. See [[entities/Obesity]] and [[concepts/Epicardial-Adipose-Tissue-Arrhythmogenesis]]. ([[sources/obesity-cv-aha-2021]], rating: very high)
 
 ## Contradictions / Open Questions
 - **HCM SCD rate — all-cause cardiovascular mortality vs. SCD-specific rate:** HCM-VA-FCVMed-2022 reports SCD incidence 0.5–1%/year and childhood HCM 5-year SCD rate ~8–10%. ESC CMP 2023 reports annual cardiovascular mortality of 1–2%, which includes non-SCD cardiovascular deaths. Using these figures interchangeably conflates overall cardiovascular mortality with arrhythmic SCD, which may overestimate SCD risk and influence ICD implantation decisions. ([[sources/HCM-VA-FCVMed-2022]], [[sources/esc-cmp-2023]])
@@ -75,3 +85,7 @@ Sudden cardiac death (SCD) is an unexpected death due to a cardiovascular event 
 - Related to [[concepts/Electrical-Storm]]
 - Related to [[entities/Andersen-Tawil-Syndrome]]
 - Related to [[concepts/VA-Risk-Stratification-DCM]]
+- Related to [[concepts/Circadian-Rhythm-Cardiac-Electrophysiology]] — circadian modulation of trigger-substrate SCA risk; loss of morning peak; aging effects
+- Related to [[entities/Obesity]] — most common non-ischaemic SCA cause; epicardial fat mechanisms
+- Related to [[concepts/Epicardial-Adipose-Tissue-Arrhythmogenesis]] — EAT → fibro-fatty infiltration → VT/SCD substrate
+- Related to [[sources/circadian-scd-jmcc-2025]]
