@@ -1,5 +1,5 @@
 
-# AskGary.md — Dr Gary Cardiology Wiki Schema
+# AskGary.md — Cardiology Wiki by Dr. Gary
 #
 
 ---
