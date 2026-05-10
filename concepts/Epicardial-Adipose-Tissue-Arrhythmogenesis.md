@@ -97,3 +97,7 @@ Epicardial adipose tissue (EAT) is the visceral fat depot located between the my
 - Related to [[concepts/Atrial-Cardiomyopathy]] — EAT listed as a therapeutic target in 2025 ESC AtCM consensus
 - Related to [[sources/epi-adipose-arrhythmia-jacc-2021]]
 - Related to [[sources/obesity-cv-aha-2021]]
+
+## Sources
+- [[sources/epi-adipose-arrhythmia-jacc-2021]]
+- [[sources/obesity-cv-aha-2021]]

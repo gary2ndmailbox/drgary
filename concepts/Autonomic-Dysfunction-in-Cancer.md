@@ -54,3 +54,6 @@ Autonomic dysfunction (AD) in cancer patients and survivors refers to dysregulat
 - Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]
 - Related to [[concepts/Cardiac-Rehabilitation]]
 - Related to [[sources/arrhythmia-cardio-oncology-aha-2021]]
+
+## Sources
+- [[sources/arrhythmia-cardio-oncology-aha-2021]]

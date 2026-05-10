@@ -41,3 +41,8 @@ Mavacamten is a first-in-class cardiac myosin adenosine triphosphatase (ATPase) 
 - Related to [[concepts/LVOTO]]
 - Related to [[concepts/Septal-Reduction-Therapy]]
 - Related to [[concepts/Calcium-Homeostasis-in-HCM]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/HCM-VA-FCVMed-2022]]
+- [[sources/esc-cmp-2023]]

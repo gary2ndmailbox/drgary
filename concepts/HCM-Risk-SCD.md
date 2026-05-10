@@ -78,3 +78,8 @@ HCM Risk-SCD is a validated, quantitative risk-prediction calculator that provid
 - Related to [[concepts/Ion-Channel-Remodeling-in-HCM]]
 - Related to [[entities/MYBPC3]]
 - Related to [[entities/MYH7]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/HCM-VA-FCVMed-2022]]
+- [[sources/esc-cmp-2023]]

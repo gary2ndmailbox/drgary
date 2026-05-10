@@ -51,3 +51,6 @@ AF-CARE is the structured management framework introduced in the 2024 ESC Guidel
 - Related to [[concepts/CHA2DS2-VA]]
 - Related to [[concepts/Catheter-Ablation-AF]]
 - Related to [[entities/Atrial-Flutter]]
+
+## Sources
+- [[sources/AF-ESC-2024]]

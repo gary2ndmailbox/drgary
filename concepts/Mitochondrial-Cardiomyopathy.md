@@ -80,3 +80,6 @@ Cardiomyopathy arising from pathogenic variants in mitochondrial genes encoded b
 - Related to [[entities/Long-QT-Syndrome]] — LQT is present in multiple mitochondrial syndromes
 - Related to [[entities/Atrial-Fibrillation]] — m.3243A>G (MIDD) causes AF; haplogroup associations
 - Related to [[entities/Heart-Failure]] — leading cause of death in mitochondrial disease
+
+## Sources
+- [[sources/mitochondrial-cv-aha-2025]]

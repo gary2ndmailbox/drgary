@@ -63,3 +63,7 @@ Pharmacogenomics in HF evaluates how inherited genetic variation influences drug
 - Related to [[concepts/Gut-Microbiome-in-HF]]
 - Related to [[sources/HF-Precision-Medicine-AHA-2019]]
 - Related to [[sources/consumer-genetictest-aha-2025]]
+
+## Sources
+- [[sources/HF-Precision-Medicine-AHA-2019]]
+- [[sources/consumer-genetictest-aha-2025]]

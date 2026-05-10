@@ -89,3 +89,9 @@ Familial hypercholesterolemia (FH) is a common autosomal codominant genetic diso
 - Related to [[concepts/Lipoprotein-a]] — elevated Lp(a) common in FH; multiplicative risk if both present
 - Related to [[concepts/DTC-Genetic-Testing]] — LDLR/APOB/PCSK9 in DTC panels; gene-first FH screening cost-effectiveness
 - Related to [[sources/genetic-test-aha-2020]] — FH genetic testing criteria Table 4; cascade screening recommendations
+
+## Sources
+- [[sources/consumer-genetictest-aha-2025]]
+- [[sources/genetic-test-aha-2020]]
+- [[sources/lipid-aha-2026]]
+- [[sources/lipid-esc-2025]]

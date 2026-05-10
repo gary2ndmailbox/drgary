@@ -82,3 +82,7 @@ Visceral adiposity refers to excess intra-abdominal fat (visceral adipose tissue
 - Related to [[entities/Heart-Failure]] — VAT-driven hemodynamic changes and myocardial effects
 - Related to [[concepts/OSA-Arrhythmogenic-Substrate]] — EAT and sleep apnoea interaction
 - Related to [[entities/Obstructive-Sleep-Apnea]] — EAT and sleep apnoea severity independent of BMI
+
+## Sources
+- [[sources/epi-adipose-arrhythmia-jacc-2021]]
+- [[sources/obesity-cv-aha-2021]]

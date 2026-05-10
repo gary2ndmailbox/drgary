@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cancer Therapy-Related Cardiovascular Toxicity (CTR-CVT)"
 tags: [cardio-oncology, cardiovascular-toxicity, CTRCD, heart-failure, cancer, vascular-toxicity]
-source_count: 6
-last_updated: 2026-04-30
+source_count: 7
+last_updated: 2026-05-02
 ---
 
 # Cancer Therapy-Related Cardiovascular Toxicity (CTR-CVT)
@@ -299,6 +299,15 @@ From 2019 AHA Vascular Cardio-Oncology Statement. ([[sources/cardio-oncology-vas
 - **Monitoring:** Serial lipid profile; baseline CV risk assessment; baseline ECG before CDK4/6 inhibitor initiation; QTc monitoring with ribociclib (day 14, day 28); GLS on echocardiography during AI therapy. ([[sources/Cardio-Oncology-ESC-2022]], [[sources/Hormonal-Rx-AHA-2021]])
 - See [[concepts/Hormonal-Therapy-CV-Risk]] for comprehensive detail.
 
+### Therapy-Related Clonal Hematopoiesis (t-CH)
+- Cytotoxic chemotherapy selects for **DNA damage response (DDR) pathway variants** — TP53, PPM1D, CHEK2, ATM — via a fitness advantage under genotoxic stress. t-CH prevalence up to **30%** in relatively young cancer survivors. ([[sources/ch-aha-2026]], rating: very high)
+- Radiation → **2–4× increased CH risk**, dependent on modality and intensity. ([[sources/ch-aha-2026]])
+- **TP53-CH:** Amplified by doxorubicin (promotes Tp53-variant HSC expansion) → worse **anthracycline-induced cardiomyopathy** in mouse models. ([[sources/ch-aha-2026]])
+- **PPM1D-CH:** → increased IL-1β + **myocardial fibrosis** after angiotensin II infusion in mice; effects reversed by NLRP3 inhibitor — mechanistic overlap with canonical TET2-CH. ([[sources/ch-aha-2026]])
+- All t-CH variants tested (TP53, PPM1D, CHEK2, ATM) amplify IL-1β expression — a shared mechanism with canonical CH genes, suggesting IL-1β/NLRP3 as a potential therapeutic axis. ([[sources/ch-aha-2026]])
+- **ATM/CHEK2 variants:** Associated with increased CVD risk in t-CH context; mechanistic data less developed. ([[sources/ch-aha-2026]])
+- t-CH is not routinely screened in clinical cardio-oncology practice; its contribution to late cardiotoxicity in cancer survivors is an active area of investigation. See [[concepts/Clonal-Hematopoiesis]] for full detail. ([[sources/ch-aha-2026]])
+
 ### Multi-Omics Biomarkers in Cardiotoxicity
 - **Genomics:** TTNtv (anthracycline cardiomyopathy overlap with DCM) and RARG variants identified in anthracycline cardiotoxicity; insufficient for routine clinical use. ([[sources/ai-cardiooncology-aha-2025]], rating: high)
 - **Transcriptomics:** scRNA-seq identified pathogenic α-myosin–specific T-cell populations in ICI myocarditis tissue. ([[sources/ai-cardiooncology-aha-2025]])
@@ -371,5 +380,15 @@ For the complete drug-by-drug arrhythmia framework, see [[concepts/Cancer-Associ
 - Related to [[concepts/Hormonal-Therapy-CV-Risk]]
 - Related to [[sources/Hormonal-Rx-AHA-2021]]
 - Related to [[concepts/Cancer-Associated-VTE]]
-- Related to [[concepts/Clonal-Hematopoiesis]]
+- Related to [[concepts/Clonal-Hematopoiesis]] — t-CH (TP53/PPM1D/CHEK2/ATM) selected by chemotherapy/radiation; amplifies anthracycline cardiomyopathy and myocardial fibrosis via NLRP3/IL-1β
 - Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+- Related to [[sources/ch-aha-2026]]
+
+## Sources
+- [[sources/Cardio-Oncology-ESC-2022]]
+- [[sources/Hormonal-Rx-AHA-2021]]
+- [[sources/ai-cardiooncology-aha-2025]]
+- [[sources/arrhythmia-cardio-oncology-aha-2021]]
+- [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+- [[sources/ch-aha-2026]]
+- [[sources/imaging-cardio-oncology-aha-2024]]

@@ -74,3 +74,6 @@ The Duke criteria (1994) → Modified Duke (2000) → 2023 Duke-ISCVID (most cur
 - Related to [[entities/ATTR-Amyloidosis]] — amyloid infiltration can mimic IE vegetations on imaging
 - Related to [[concepts/Valvular-Heart-Disease]] — IE may develop on diseased native or prosthetic valves
 - Related to [[concepts/Cardiac-Amyloidosis-Imaging]] — differential for abnormal valve echogenicity
+
+## Sources
+- [[sources/BCNE-AHA-2025]]

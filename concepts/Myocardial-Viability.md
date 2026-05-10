@@ -91,3 +91,7 @@ All modalities predict a similar degree of global LVEF improvement after revascu
 - Related to [[entities/DCM]]
 - Related to [[concepts/HFpEF]]
 - Related to [[sources/imaging-viability-aha-2020]]
+
+## Sources
+- [[sources/CCS-AHA-2023]]
+- [[sources/imaging-viability-aha-2020]]

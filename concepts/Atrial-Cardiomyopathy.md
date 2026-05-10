@@ -111,4 +111,6 @@ The 'common soil hypothesis' proposes that shared stressors — ageing, cardio-m
 - Related to [[concepts/AF-Staging]] — AtCM framework predates AF staging
 - Related to [[concepts/Atrial-Myopathy-in-HCM]] — specific genetic subset of AtCM
 - Related to [[concepts/Subclinical-AF]] — pre-AF stage, early detection
-- Related to [[sources/atrial-cmp-esc-2025]]
+
+## Sources
+- [[sources/atrial-cmp-esc-2025]]

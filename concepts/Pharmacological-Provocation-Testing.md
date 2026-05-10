@@ -120,3 +120,6 @@ Any of: (1) maximum dose reached; (2) type 1 Brugada pattern achieved; (3) QRS w
 - Related to [[concepts/Coronary-Vasospasm]] — acetylcholine/ergonovine protocol and COVADIS criteria
 - Related to [[entities/SCN5A]] — carriers generally not tested with SCB
 - Related to [[concepts/Sudden-Cardiac-Death]] — provocation testing for SCA survivors
+
+## Sources
+- [[sources/pharmacological-provocation-europace-2025]]

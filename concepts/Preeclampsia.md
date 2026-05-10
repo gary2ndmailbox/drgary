@@ -135,3 +135,8 @@ Preeclampsia survivors carry markedly elevated lifetime CVD risk independently o
 - Related to [[concepts/LQTS-Pregnancy-Management]] — overlapping maternal CVH and arrhythmia risk context
 - Related to [[concepts/Cardio-Obstetrics]] — immediate cardio-obstetrics team involvement required for severe preeclampsia; fullPIERS for admission risk stratification
 - Related to [[entities/Peripartum-Cardiomyopathy]] — preeclampsia aOR 3.3 for PPCM; shared placental vascular dysfunction pathway
+
+## Sources
+- [[sources/cv-pregnancy-aha-2020]]
+- [[sources/ht-pregnancy-aha-2022]]
+- [[sources/prepregnancy-aha-2023]]

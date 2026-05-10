@@ -71,3 +71,9 @@ The evidence-based framework governing physical activity and competitive sports 
 - Related to [[concepts/Cardiac-Rehabilitation]] — CR FITT framework applies to post-procedure HCM rehabilitation; exercise intensity ceiling criteria overlap with HCM arrhythmia thresholds
 - Related to [[concepts/Sports-Cardiology-SDM]]
 - Related to [[sources/competitive-sports-aha-2025]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/cardiac-rehab-aha-2024]]
+- [[sources/competitive-sports-aha-2025]]
+- [[sources/esc-cmp-2023]]

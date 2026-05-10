@@ -2,8 +2,8 @@
 dg-publish: true
 title: "DSP (Desmoplakin)"
 tags: [genetics, arrhythmogenic-cardiomyopathy, ARVC, desmosome]
-source_count: 2
-last_updated: 2026-04-11
+source_count: 3
+last_updated: 2026-05-05
 ---
 
 # DSP (Desmoplakin)
@@ -24,6 +24,13 @@ DSP encodes desmoplakin, the most abundant protein of the cardiac desmosome and 
 - **ICD in NDLVC:** DSP is a high-risk NDLVC genotype; ICD should be considered even with LVEF >35% if additional risk factors are present (Class IIa, Level C). ([[sources/esc-cmp-2023]])
 - **18F-FDG-PET:** Patients with DSP variants may show myocardial FDG uptake, potentially mimicking cardiac sarcoidosis — this diagnostic pitfall should be recognized. ([[sources/esc-cmp-2023]])
 
+- **Muller 2025 — DSP-cardiomyopathy (genotype-specific review):** LP/P DSP variants are typically associated with biventricular or left-dominant cardiomyopathy. Rare right precordial TWI; left precordial (V4–V6) TWI with LV disease. "Ring-like" LGE on CMR; reduced LVEF in late stage. VAs frequently RBBB morphology (may also have LBBB). ([[sources/ACM-Genotype-Mx-JCE-2024]], rating: high)
+- **"Hot phases":** Acute episodes of myocardial injury with myocarditis-like symptoms (chest pain, elevated troponin, no CAD) — thought to be immune-mediated. Associated with increased VA risk. No consensus on treatment (conservative/symptomatic vs immunosuppression). ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **Female sex risk factor:** Unlike PKP2-ARVC where male sex is a risk factor, **female sex** is associated with penetrant DSP-cardiomyopathy. Impact of exercise on penetrance is uncertain. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **Inadequacy of 2010 TFC for DSP:** 2010 TFC perform poorly in DSP-cardiomyopathy — patients can present with VAs without fulfilling current diagnostic criteria. Padua criteria (2020) yield better diagnostic potential for DSP carriers. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **DSP risk calculator (Carrick 2024):** Gene-specific VA risk calculator usable in DSP variant carriers irrespective of clinical phenotype status. ARVC risk calculator (2019) performs poorly in DSP-ARVC. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **Exercise in DSP:** The impact of exercise on DSP penetrance is uncertain — in contrast to the established exercise-penetrance relationship in PKP2. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+
 ## Contradictions / Open Questions
 - **FDG-PET mimicking sarcoidosis — diagnostic pitfall with management consequences:** DSP variants can cause recurrent myocarditis-like inflammatory episodes with FDG-PET myocardial uptake, indistinguishable from cardiac sarcoidosis on imaging. The management implications differ significantly — sarcoidosis is treated with corticosteroids, which are not indicated in DSP cardiomyopathy. A misdiagnosis of sarcoidosis in a DSP patient could lead to inappropriate immunosuppression while the true arrhythmogenic risk goes unaddressed with ICD/genotype-guided therapy. ([[sources/esc-cmp-2023]])
 - **ARVC Task Force Criteria not designed for DSP-ALVC:** The 2010 ARVC Task Force Criteria are optimized for right-dominant ARVC and have poor sensitivity for left-dominant DSP disease, which lacks the epsilon waves, RVOT findings, and RV structural criteria that drive scoring. Many DSP patients with significant LV arrhythmia risk will be missed by ARVC TFC and require NDLVC-based diagnostic reasoning instead. ([[sources/acm-hrs-2019]], [[sources/esc-cmp-2023]])
@@ -37,3 +44,9 @@ DSP encodes desmoplakin, the most abundant protein of the cardiac desmosome and 
 - Related to [[entities/PKP2]]
 - Related to [[entities/NDLVC]]
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
+- Related to [[sources/ACM-Genotype-Mx-JCE-2024]]
+
+## Sources
+- [[sources/ACM-Genotype-Mx-JCE-2024]]
+- [[sources/acm-hrs-2019]]
+- [[sources/esc-cmp-2023]]

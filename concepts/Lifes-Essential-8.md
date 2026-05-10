@@ -61,3 +61,6 @@ Life's Essential 8 (LE8) is the American Heart Association's updated construct f
 - Related to [[concepts/Dyslipidemia-Management]] — non-HDL cholesterol metric; LDL-C/non-HDL-C goals
 - Related to [[concepts/Heart-Healthy-Dietary-Patterns]] — diet metric underpinned by 2026 AHA dietary framework
 - Related to [[entities/Maternal-Health-Disparities]] — racial disparities manifest across all LE8 metrics
+
+## Sources
+- [[sources/prepregnancy-aha-2023]]

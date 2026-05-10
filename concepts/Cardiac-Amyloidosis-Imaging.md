@@ -177,3 +177,9 @@ Evidence-based appropriateness ratings across 32 clinical scenarios (modified De
 - Related to [[concepts/Aortic-Stenosis]] — ATTR-CA co-existing with AS; AUC for low-flow low-gradient AS
 - Related to [[entities/Atrial-Fibrillation]] — LAA thrombus risk in sinus rhythm; unexplained arrhythmia as red flag
 - Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]] — 99mTc-PYP SPECT rated +++ in Table 2 for cardiac amyloidosis in cardio-oncology context ([[sources/imaging-cardio-oncology-aha-2024]])
+
+## Sources
+- [[sources/esc-cmp-2023]]
+- [[sources/imaging-amyloidosis-2nd-aha-2021]]
+- [[sources/imaging-amyloidosis-aha-2021]]
+- [[sources/imaging-cardio-oncology-aha-2024]]

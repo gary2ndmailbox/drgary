@@ -63,3 +63,6 @@ Heteroplasmy is the coexistence of multiple, genetically distinct mitochondrial 
 - Related to [[entities/HCM]] — mitochondrial HCM; heteroplasmy as a disease modifier
 - Related to [[entities/DCM]] — mitochondrial DCM from high heteroplasmy
 - Related to [[entities/Atrial-Fibrillation]] — m.3243A>G and haplogroup associations with AF
+
+## Sources
+- [[sources/mitochondrial-cv-aha-2025]]

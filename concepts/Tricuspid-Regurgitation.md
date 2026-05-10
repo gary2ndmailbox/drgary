@@ -153,3 +153,8 @@ Tricuspid regurgitation (TR) is retrograde systolic flow from the RV into the RA
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Pulmonary-Hypertension]]
+
+## Sources
+- [[sources/TV-Mx-AHA-2024]]
+- [[sources/VHD-AHA-2020]]
+- [[sources/vhd-esc-2025]]

@@ -40,3 +40,6 @@ Andersen-Tawil syndrome (ATS) is a rare autosomal dominant multisystem channelop
 - Related to [[entities/CPVT]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[entities/KCNJ2]] 
+
+## Sources
+- [[sources/VA-SCD-ESC-2022]]

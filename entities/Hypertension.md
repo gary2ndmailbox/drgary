@@ -149,3 +149,10 @@ Hypertension is the most prevalent and modifiable cardiovascular risk factor, af
 - Related to [[concepts/Renal-Denervation]] (catheter-based adjunctive treatment for resistant/uncontrolled HT)
 - Related to [[concepts/Hypertensive-Disorders-of-Pregnancy]] (BP thresholds and targets in pregnancy)
 - Related to [[concepts/Preeclampsia]] (preeclampsia as strongest independent predictor of future hypertension, OR 11.6)
+
+## Sources
+- [[sources/HT-AHA-2025]]
+- [[sources/ais-aha-2026]]
+- [[sources/cuffless-bp-aha-2026]]
+- [[sources/ht-pregnancy-aha-2022]]
+- [[sources/rnd-aha-2024]]

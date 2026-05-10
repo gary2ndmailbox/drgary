@@ -76,3 +76,7 @@ Stratified propensity analysis, n=9,138, mean follow-up 4.1 years [[sources/mino
 - Related to [[concepts/Late-Gadolinium-Enhancement]] — CMR LGE used to confirm necrosis and exclude myocarditis/cardiomyopathy in MINOCA workup
 - Related to [[concepts/Myocardial-Viability]] — wall motion abnormality pattern on imaging is part of MINOCA AMI diagnostic criteria
 - Related to [[entities/SCAD]] — SCAD is a key nonatherosclerotic MINOCA cause; especially in women <50 and in pregnancy
+
+## Sources
+- [[sources/cv-pregnancy-aha-2020]]
+- [[sources/minoca-aha-2019]]

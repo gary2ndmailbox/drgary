@@ -55,3 +55,6 @@ Procedures ideally concentrated at the most experienced Heart Valve Centres:
 - Related to [[concepts/TAVI]]
 - Related to [[concepts/Primary-Mitral-Regurgitation]]
 - Related to [[concepts/Tricuspid-Regurgitation]]
+
+## Sources
+- [[sources/vhd-esc-2025]]

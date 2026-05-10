@@ -38,3 +38,7 @@ Atrial flutter is one of the most common atrial tachyarrhythmias, typically aris
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[concepts/AF-CARE]]
 - Related to [[concepts/CHA2DS2-VA]]
+
+## Sources
+- [[sources/AF-AHA-2023]]
+- [[sources/AF-ESC-2024]]

@@ -59,3 +59,6 @@ Ion channel remodeling in hypertrophic cardiomyopathy (HCM) refers to disease-sp
 - Related to [[entities/MYH7]]
 - Related to [[concepts/HCM-Risk-SCD]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
+
+## Sources
+- [[sources/HCM-VA-FCVMed-2022]]

@@ -132,3 +132,8 @@ Clinicians confronted with patient-brought DTC-GT results should use a systemati
 - Related to [[entities/Anderson-Fabry-Disease]] — GLA DTC panels; X-linked; actionable
 - Related to [[concepts/Incidental-Cardiovascular-Variants]] — Bayesian framework for DTC-identified CVD variants
 - Related to [[sources/incident-gene-aha-2023]]
+
+## Sources
+- [[sources/consumer-genetictest-aha-2025]]
+- [[sources/incident-gene-aha-2023]]
+- [[sources/lipid-aha-2026]]

@@ -91,3 +91,13 @@ Late gadolinium enhancement (LGE) is a cardiac MRI technique that detects region
 - Related to [[sources/ai-cardiooncology-aha-2025]]
 - Related to [[concepts/Q-Wave-Remodeling]]
 - Related to [[sources/qwave-mri-jacc-imaging-2012]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/VA-DCM-Sammani-2020]]
+- [[sources/ai-cardiooncology-aha-2025]]
+- [[sources/atrial-cmp-esc-2025]]
+- [[sources/esc-cmp-2023]]
+- [[sources/imaging-amyloidosis-aha-2021]]
+- [[sources/imaging-viability-aha-2020]]
+- [[sources/qwave-mri-jacc-imaging-2012]]

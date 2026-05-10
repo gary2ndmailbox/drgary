@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Genetic Testing in Cardiomyopathy"
 tags: [genetics, cardiomyopathy, genetic-testing, guideline]
-source_count: 9
-last_updated: 2026-04-29
+source_count: 12
+last_updated: 2026-05-02
 ---
 
 # Genetic Testing in Cardiomyopathy
@@ -11,7 +11,7 @@ last_updated: 2026-04-29
 ## Definition
 Genetic testing in cardiomyopathy refers to the systematic application of DNA sequencing — primarily multigene panel testing — to identify disease-causing variants in patients with HCM, DCM, ARVC, RCM, or LVNC phenotypes. Its goals are to establish a molecular aetiology, inform prognosis, guide gene-specific management, and enable cascade testing of at-risk family members.
 
-## Key Concepts
+## Indications and Testing Strategy
 
 ### Rationale for Genetic Testing
 - Cardiomyopathies are medically actionable genetic conditions: established treatments can improve survival, reduce morbidity, and enhance quality of life once disease is detected — making identification of genetic risk compelling ([[sources/genetic-cmp-jcf-2018]] — very high)
@@ -38,6 +38,8 @@ Genetic testing in cardiomyopathy refers to the systematic application of DNA se
 - Larger panels increase the probability of identifying a molecular aetiology but also increase VUS burden in proportion to the number of genes tested
 - Copy number variants (structural variants) account for <1% of cardiomyopathy cases and may require dedicated analysis beyond standard NGS ([[sources/genetic-cmp-jcf-2018]] — very high)
 - ESC 2021 HF guidelines specify a minimum DCM gene panel as a Class I recommendation: TTN, LMNA, MYH7, TNNT2, TNNI3, MYBPC3, RBM20, PLN, SCN5A, BAG3, ACTC1, nexilin, TPM1, VCL ([[sources/HF-ESC-2021]] — very high)
+
+## Diagnostic Yield
 
 ### Diagnostic Yields by Cardiomyopathy Phenotype
 
@@ -80,6 +82,8 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - Combined testing was statistically superior to disease-specific testing for total cohort (P=.02)
 - The study also found that **5% of DCM patients harbour variants in both ion channel and cardiomyopathy genes** (Li et al.), and **10% of early-onset AF patients harbour variants in cardiomyopathy genes** (Yoneda et al.) — providing independent support for combined panels
 
+## Clinical Implications of Results
+
 ### Clinical Management Implications of Genetic Diagnoses
 - **66% of positive results (630/954) in the combined panel cohort had direct clinical management implications** ([[sources/genetic-yield-jama-card-2022]] — high):
   - Sarcomeric HCM genes (ACTC1, MYL2, MYBPC3, MYH7, MYL3, TNNI3, TNNT2, TPM1): 279 patients (29.2% of positives) — earlier monitoring for AF, VT, HF vs. non-sarcomeric HCM
@@ -87,12 +91,6 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
   - Heightened arrhythmia risk genes (ABCC9, DES, DSP, FLNC, LMNA, PLN, RBM20, RYR2, SCN5A, TTN): 300 patients (31.4%) — more intensive cardiac monitoring and/or device intervention
   - Targeted therapy genes (GAA, GLA, TTR): 57 patients (6.0%) — enzyme replacement therapy (GAA/GLA) or TTR stabilisers/inhibitors
 - Among **all patients tested** (not just positives): 1 in 8 (13.2%) had a result informing prognosis or management
-
-### Postmortem (Molecular Autopsy) Genetic Testing
-- 190 postmortem cases (4.0% of the combined panel cohort); median age at death 26 years ([[sources/genetic-yield-jama-card-2022]] — high)
-- Positive rate in postmortem: 9.5% (lower than living cohort); 54.7% uncertain; 35.8% negative/carrier
-- Cascade testing was performed in **61.1% of postmortem-positive cases** vs. 32.1% of living-positive cases — underscoring the urgency of family testing after sudden death
-- 40.9% of family members of postmortem-positive patients were themselves positive on cascade testing
 
 ### Specific Gene Highlights
 
@@ -111,6 +109,9 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - GLA (Fabry disease): HCM phenocopy; cardiac variant presents ≥40 yr; low native T1 on CMR; ERT is disease-modifying especially for males
 - PRKAG2: non-lysosomal glycogen accumulation + WPW + heart block
 - GAA (Pompe disease): infantile HCM; enzyme assay mandatory in any infant with HCM; ERT time-critical
+- See [[entities/Fabry-Disease]], [[concepts/Fabry-Cardiomyopathy]], and [[entities/ATTR-Amyloidosis]] for full detail.
+
+## Cascade and Postmortem Testing
 
 ### Cascade Genetic Testing After Proband Identification
 - Once a P/LP variant is identified in a proband, cascade genetic testing is recommended for all at-risk 1st-degree relatives ([[sources/genetic-cmp-jcf-2018]] — very high)
@@ -118,6 +119,15 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - **Genotype-positive, phenotype-negative relative**: counsel on penetrance and expressivity; serial phenotypic surveillance at intervals (see Guideline 2 of HFSA 2018)
 - VUS identified in proband: do NOT use for cascade genetic testing of relatives; phenotypic family evaluation instead ([[sources/genetic-cmp-jcf-2018]] — very high; [[sources/HCM-AHA-2024]] — high)
 - Pre- and post-test genetic counselling is mandatory for cascade testing
+
+### Postmortem (Molecular Autopsy) Genetic Testing
+- 190 postmortem cases (4.0% of the combined panel cohort); median age at death 26 years ([[sources/genetic-yield-jama-card-2022]] — high)
+- Positive rate in postmortem: 9.5% (lower than living cohort); 54.7% uncertain; 35.8% negative/carrier
+- Cascade testing was performed in **61.1% of postmortem-positive cases** vs. 32.1% of living-positive cases — underscoring the urgency of family testing after sudden death
+- 40.9% of family members of postmortem-positive patients were themselves positive on cascade testing
+- Collect tissue samples at autopsy; select panels guided by autopsy findings and surviving family members' clinical results ([[sources/genetic-test-aha-2020]] — high)
+
+## Variant Interpretation
 
 ### Variant Interpretation and Classification
 - ACMG/AMP 2015 classification: Pathogenic (P), Likely Pathogenic (LP), VUS, Likely Benign, Benign — now the universal standard for clinical reporting ([[sources/genetic-cmp-jcf-2018]] — very high)
@@ -128,6 +138,21 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - Variant calls can change over time: downgrading from P/LP to VUS requires re-contacting relatives who tested negative (they may now be at risk) and those who tested positive (management rationale changes) ([[sources/genetic-cmp-jcf-2018]] — very high)
 - Interpretation in non-European populations is particularly challenging due to underrepresentation in reference databases ([[sources/genetic-cmp-jcf-2018]] — very high)
 - See [[concepts/Variant-Reclassification]] for reclassification rates and clinical implications
+
+### Secondary and Incidental Findings
+- ACMG 2016 lists 59 medically actionable genes; 30 have cardiovascular phenotypes, 16 include cardiomyopathy genes
+- When P/LP variants in ACMG-listed cardiomyopathy genes are found incidentally (exome/genome sequencing for non-cardiac indication): focused cardiovascular phenotyping is recommended ([[sources/genetic-cmp-jcf-2018]] — very high)
+- Most incidental cardiomyopathy variants will remain VUS — limiting actionability
+- Cascade clinical phenotyping of at-risk relatives may be considered even if the incidental proband is phenotype-negative (age-dependent penetrance)
+
+### DTC-GT vs. Clinical Genetic Testing in Cardiomyopathy
+- DTC-GT panels include key cardiomyopathy genes (DCM: LMNA, TTN, MYH7, SCN5A, PLN, FLNC, RBM20, DSP, BAG3; HCM: MYBPC3, MYH7, TNNT2, TNNI3; ARVC: PKP2, DSP, DSC2, TMEM43, DSG2, JUP; storage diseases: TTR, GLA, GAA) — Table 1 of the AHA 2025 DTC-GT statement provides a comprehensive list cross-referenced against ClinGen evidence tiers ([[sources/consumer-genetictest-aha-2025]] — high)
+- **DTC-GT uses SNP-chip genotyping in most cases**, not full sequencing — this creates a substantially higher false-negative rate for rare pathogenic variants than clinical-grade multigene panels; a negative DTC result does NOT exclude a genetic cardiomyopathy ([[sources/consumer-genetictest-aha-2025]] — high)
+- **Confirmatory CLIA-certified testing is mandatory** for any actionable monogenic DTC-GT result before clinical management changes; consumers should not alter therapy based on DTC results alone ([[sources/consumer-genetictest-aha-2025]] — high)
+- VUS burden is high in DTC-GT; third-party re-interpretation services for raw DTC genetic data are unregulated and should not guide clinical decisions ([[sources/consumer-genetictest-aha-2025]] — high)
+- For comprehensive framework on DTC-GT in cardiovascular medicine, see [[concepts/DTC-Genetic-Testing]]
+
+## Special Contexts
 
 ### Paediatric Considerations
 - Children require specialist evaluation: syndromic and metabolic causes represent a substantially higher proportion than in adults
@@ -146,18 +171,7 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - HCM is the dominant cardiomyopathy phenotype in mitochondrial disease; DCM, RCM, and hypertrabeculation also occur. CVD is the leading cause of death in adults with mitochondrial disorders. ([[sources/mitochondrial-cv-aha-2025]])
 - See [[concepts/Mitochondrial-Cardiomyopathy]] for syndrome-specific clinical features and cardiac screening recommendations.
 
-### DTC-GT vs. Clinical Genetic Testing in Cardiomyopathy
-- DTC-GT panels include key cardiomyopathy genes (DCM: LMNA, TTN, MYH7, SCN5A, PLN, FLNC, RBM20, DSP, BAG3; HCM: MYBPC3, MYH7, TNNT2, TNNI3; ARVC: PKP2, DSP, DSC2, TMEM43, DSG2, JUP; storage diseases: TTR, GLA, GAA) — Table 1 of the AHA 2025 DTC-GT statement provides a comprehensive list cross-referenced against ClinGen evidence tiers ([[sources/consumer-genetictest-aha-2025]] — high)
-- **DTC-GT uses SNP-chip genotyping in most cases**, not full sequencing — this creates a substantially higher false-negative rate for rare pathogenic variants than clinical-grade multigene panels; a negative DTC result does NOT exclude a genetic cardiomyopathy ([[sources/consumer-genetictest-aha-2025]] — high)
-- **Confirmatory CLIA-certified testing is mandatory** for any actionable monogenic DTC-GT result before clinical management changes; consumers should not alter therapy based on DTC results alone ([[sources/consumer-genetictest-aha-2025]] — high)
-- VUS burden is high in DTC-GT; third-party re-interpretation services for raw DTC genetic data are unregulated and should not guide clinical decisions ([[sources/consumer-genetictest-aha-2025]] — high)
-- For comprehensive framework on DTC-GT in cardiovascular medicine, see [[concepts/DTC-Genetic-Testing]]
-
-### Secondary and Incidental Findings
-- ACMG 2016 lists 59 medically actionable genes; 30 have cardiovascular phenotypes, 16 include cardiomyopathy genes
-- When P/LP variants in ACMG-listed cardiomyopathy genes are found incidentally (exome/genome sequencing for non-cardiac indication): focused cardiovascular phenotyping is recommended ([[sources/genetic-cmp-jcf-2018]] — very high)
-- Most incidental cardiomyopathy variants will remain VUS — limiting actionability
-- Cascade clinical phenotyping of at-risk relatives may be considered even if the incidental proband is phenotype-negative (age-dependent penetrance)
+## Extended Indications
 
 ### Genetic Testing for Arrhythmic Disorders — AHA 2020 Recommendations
 - Disease-specific gene panels for arrhythmic disorders (per HRS/EHRA 2011 + ClinGen 2019–2020 curations): ([[sources/genetic-test-aha-2020]] — high)
@@ -201,10 +215,35 @@ A large real-world cohort study (n=4,782) using a no-charge sponsored combined p
 - Related to [[entities/MYH7]]
 - Related to [[entities/PKP2]]
 - Related to [[entities/ATTR-Amyloidosis]]
-- Related to [[entities/Anderson-Fabry-Disease]]
+- Related to [[entities/Fabry-Disease]]
+- Related to [[concepts/Fabry-Cardiomyopathy]]
 - Related to [[concepts/Genetic-Testing-in-AF]]
 - Related to [[concepts/DTC-Genetic-Testing]]
 - Related to [[concepts/Mitochondrial-Cardiomyopathy]]
 - Related to [[concepts/Heteroplasmy]]
+- Related to [[sources/genetic-cmp-jcf-2018]]
+- Related to [[sources/esc-cmp-2023]]
+- Related to [[sources/HF-AHA-2022]]
+- Related to [[sources/HF-ESC-2021]]
+- Related to [[sources/eoaf-jama-2021]]
+- Related to [[sources/genetic-yield-jama-card-2022]]
+- Related to [[sources/HCM-AHA-2024]]
 - Related to [[sources/mitochondrial-cv-aha-2025]]
+- Related to [[sources/consumer-genetictest-aha-2025]]
 - Related to [[sources/genetic-test-aha-2020]]
+- Related to [[sources/arrhythmia-genetics-mgenetik-2025]]
+- Related to [[sources/VA-SCD-ESC-2022]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/HF-AHA-2022]]
+- [[sources/HF-ESC-2021]]
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/arrhythmia-genetics-mgenetik-2025]]
+- [[sources/consumer-genetictest-aha-2025]]
+- [[sources/eoaf-jama-2021]]
+- [[sources/esc-cmp-2023]]
+- [[sources/genetic-cmp-jcf-2018]]
+- [[sources/genetic-test-aha-2020]]
+- [[sources/genetic-yield-jama-card-2022]]
+- [[sources/mitochondrial-cv-aha-2025]]

@@ -37,3 +37,8 @@ FLNC encodes filamin-C (γ-filamin), a striated muscle-specific actin crosslinki
 - Related to [[concepts/Early-Onset-Atrial-Fibrillation]]
 - Related to [[concepts/VA-Risk-Stratification-DCM]]
 - Related to [[entities/DCM]]
+
+## Sources
+- [[sources/VA-DCM-Sammani-2020]]
+- [[sources/acm-hrs-2019]]
+- [[sources/eoaf-jama-2021]]

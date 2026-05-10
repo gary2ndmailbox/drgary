@@ -75,3 +75,6 @@ Standardised reporting allows within-patient and between-facility comparison. CO
 - Related to [[entities/Peripheral-Artery-Disease]]
 - Related to [[concepts/CLTI]]
 - Related to [[concepts/Acute-Limb-Ischemia]]
+
+## Sources
+- [[sources/PVD-AHA-2024]]

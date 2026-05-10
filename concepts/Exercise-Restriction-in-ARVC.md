@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Exercise Restriction in ARVC"
 tags: [ARVC, arrhythmogenic-cardiomyopathy, sudden-cardiac-death, lifestyle]
-source_count: 2
-last_updated: 2026-04-25
+source_count: 3
+last_updated: 2026-05-05
 ---
 
 # Exercise Restriction in ARVC
@@ -29,7 +29,15 @@ The evidence-based guideline recommendation limiting competitive and high-intens
 - Reducing exercise after presentation is associated with better arrhythmic outcomes — patients who continued competitive exercise had significantly worse arrhythmic course (North American ARVC Registry, n=108 probands).
 - Among 129 ARVC patients with ICDs, the largest reduction in exercise dose (MET-hours/year) predicted best survival from ICD therapy (Wang et al.).
 
-### Key Clinical Distinctions
+### Gene-Specific Exercise Effects (Muller 2025)
+- The evidence that exercise is a modifiable penetrance/VA risk factor is **gene-specific** — not uniform across all ACM genotypes. ([[sources/ACM-Genotype-Mx-JCE-2024]], rating: high)
+- **PKP2-ARVC:** Strongest evidence base — exercise is clearly associated with penetrance and VA. Exercise restriction warranted. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **TMEM43-ARVC:** Exercise associated with worse outcomes — restriction warranted. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **Gene-elusive ARVC:** Exercise associated with VAs — restriction warranted. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **PLN-p.Arg14del:** Exercise does **NOT** influence development of penetrant disease, VA, or HF events — restriction may not be necessary in carriers without known VA risk factors. This is a gene-specific departure from standard ACM exercise guidance. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **DSP:** Impact of exercise on penetrance is uncertain — insufficient data. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **Other genotypes:** For genotypes with no available exercise data, err on the side of caution and advise restriction. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- 2024 HRS athlete consensus recommends gene-specific shared decision-making for exercise recommendations. ([[sources/ACM-Genotype-Mx-JCE-2024]])
 - **Gene-elusive, athletic ARVC:** A subset of patients with very high athletic exposure, no identifiable pathogenic desmosomal variant, and no family history may have a largely exercise-induced form. Unaffected relatives have low risk; exercise restriction is not yet strongly evidence-based for these patients.
 - **Incidental genetic findings:** Penetrance of ARVC-associated variants identified through population sequencing (not familial cascade testing) may be lower; the benefit of exercise restriction is uncertain and requires further study.
 - **Other ACMs (PLN, LMNA, FLNC):** Exercise-related arrhythmias occur in PLN R14del carriers; however, athletic history does not appear to predict penetrance in this group. Exercise restriction data for non-ARVC ACMs are insufficient.
@@ -69,3 +77,10 @@ Activities ≥6 METs are vigorous-intensity and should be avoided or performed v
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[concepts/Sports-Cardiology-SDM]]
 - Related to [[sources/competitive-sports-aha-2025]]
+- Related to [[sources/ACM-Genotype-Mx-JCE-2024]]
+
+## Sources
+- [[sources/ACM-Genotype-Mx-JCE-2024]]
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/acm-hrs-2019]]
+- [[sources/competitive-sports-aha-2025]]

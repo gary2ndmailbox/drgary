@@ -81,3 +81,7 @@ Valvular heart disease (VHD) encompasses acquired structural abnormalities of th
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Pulmonary-Hypertension]]
 - Related to [[entities/ATTR-Amyloidosis]]
+
+## Sources
+- [[sources/VHD-AHA-2020]]
+- [[sources/vhd-esc-2025]]

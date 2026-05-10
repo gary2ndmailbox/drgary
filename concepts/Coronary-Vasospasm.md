@@ -65,3 +65,7 @@ Coronary vasospasm (epicardial coronary vasospasm) is intense vasoconstriction o
 - Related to [[concepts/Coronary-Microvascular-Dysfunction]] — microvascular spasm is a distinct entity (ECG changes + symptoms on acetylcholine without epicardial spasm); both assessed with acetylcholine testing
 - Related to [[concepts/Drug-Induced-Arrhythmia]] — cocaine and fluorouracil are recognized drug triggers for coronary vasospasm-mediated MINOCA
 - Related to [[concepts/Pharmacological-Provocation-Testing]] — acetylcholine/ergonovine protocol, COVADIS criteria, safety data
+
+## Sources
+- [[sources/minoca-aha-2019]]
+- [[sources/pharmacological-provocation-europace-2025]]

@@ -83,3 +83,8 @@ Heart Team decision integrating:
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
 - Related to [[sources/periop-aha-2024]]
+
+## Sources
+- [[sources/VHD-AHA-2020]]
+- [[sources/periop-aha-2024]]
+- [[sources/vhd-esc-2025]]

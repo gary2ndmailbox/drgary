@@ -60,3 +60,7 @@ Bicuspid aortic valve is the most common congenital valve malformation (prevalen
 - Related to [[concepts/CAVD-Mechanisms]] — BAV accelerates the CAVD molecular cascade via abnormal shear stress
 - Related to [[concepts/Valvular-Heart-Disease]] — VHD clinical overview
 - Related to [[sources/vhd-mechanism-aha-2024]]
+
+## Sources
+- [[sources/vhd-esc-2025]]
+- [[sources/vhd-mechanism-aha-2024]]

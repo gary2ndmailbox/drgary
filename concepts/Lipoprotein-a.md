@@ -118,3 +118,9 @@ Lipoprotein(a) is an LDL-like particle with a single apolipoprotein(a) [apo(a)] 
 - Related to [[concepts/ASCVD-Risk-Assessment]] — Lp(a) ≥125 nmol/L is a key risk enhancer in CPR Framework
 - Related to [[concepts/Familial-Hypercholesterolemia]] — elevated Lp(a) is common in FH (ascertainment bias); doubles risk on top of FH
 - Related to [[concepts/CAVD-Mechanisms]] — Lp(a) as causal driver of CAVD initiation via oxidised phospholipids and autotaxin
+
+## Sources
+- [[sources/lipid-aha-2026]]
+- [[sources/lipid-esc-2025]]
+- [[sources/lpa-aha-2021]]
+- [[sources/vhd-mechanism-aha-2024]]

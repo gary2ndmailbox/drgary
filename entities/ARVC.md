@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)"
 tags: [cardiomyopathy, inherited-arrhythmias, gene-therapy, sudden-cardiac-death, arrhythmogenic-cardiomyopathy]
-source_count: 10
-last_updated: 2026-05-01
+source_count: 12
+last_updated: 2026-05-09
 ---
 
 # Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
@@ -24,6 +24,7 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 
 ## Genetics
 - **Autosomal dominant** inheritance predominates. Pathogenic variants in desmosomal genes are found in the majority of familial cases: **PKP2** (most common), DSP, DSG2, DSC2, JUP. Most non-desmosomal ARVC genes encode desmosomal binding partners or disrupt desmosomal function indirectly (TMEM43, CDH2, CTNNA3). ([[sources/acm-hrs-2019]] — high)
+- **ClinGen Gene-Disease Validity for ARVC (2026-05-09):** Definitive: PKP2, DSG2, DSC2, TMEM43; DSP (definitive for ACM with wooly hair and keratoderma, 05/30/2025). Moderate: PLN (12/17/2020), DES (09/11/2018). Limited: CDH2, CTNNA3, SCN5A, MYBPC3, MYH7, LMNA. **Refuting: RYR2** (refuting 07/19/2019) — a gene frequently included in older ARVC panels. **Disputing: TTN** (disputing 10/28/2025). **No known disease relationship: TNNC1, TNNI3, TNNT2, TPM1** — these sarcomeric genes have no established role in ARVC pathogenesis and should be removed from ARVC-specific panels. See [[concepts/ClinGen-Gene-Disease-Validity]] and [[sources/clingen-summary-2026-05-09]]. ([[sources/clingen-summary-2026-05-09]], rating: high)
 - The most prevalent form results from **loss-of-function mutations in PKP2** (plakophilin-2) — compromising intercellular adhesion, promoting fibrosis, and impairing gap junction (Cx43) expression. ([[sources/gene-therapy-arrhythmia-2025]] — high)
 - **Genetic testing yield (HFSA 2018):** 10–50% overall; 63% yield when genetic testing includes PKP2, DSP, DSG2, DSC2, JUP, TMEM43, and PLN in patients who meet Task Force criteria for ARVC. Digenic inheritance and compound heterozygosity are frequent features of ARVC — present in up to 20% of cases — and combined with reduced penetrance can significantly complicate genetic counselling ([[sources/genetic-cmp-jcf-2018]] — very high)
 - ARVC overlaps with arrhythmogenic LV cardiomyopathy; desmosomal gene mutations have been identified in patients clinically diagnosed with DCM. Genetic testing with a larger cardiomyopathy panel may identify non-desmosomal pathogenic variants ([[sources/genetic-cmp-jcf-2018]] — very high)
@@ -83,6 +84,24 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 - **AAV9-PKP2 gene replacement:** In PKP2-IVS10-1G>C knock-in mice, early delivery fully prevented ARVC phenotype; late-stage delivery also improved cardiac function, reduced fibrosis, eliminated PVCs, and achieved 100% survival (Bradford 2023). ([[sources/gene-therapy-arrhythmia-2025]] — high)
 - PKP2a delivery in PKP2-deficient mice restored intercalated disc proteins, prevented RV dilation, reduced arrhythmias, improved conduction velocity and survival even with late-stage therapy (van Opbergen 2024). ([[sources/gene-therapy-arrhythmia-2025]] — high)
 - **Clinical-stage candidates:** LX2020 (Lexeo), RP-A601 (Rocket Pharmaceuticals), TN-401 (Tenaya) — all PKP2-targeted, early-phase trials. ([[sources/gene-therapy-arrhythmia-2025]] — high)
+- **Muller 2025 review:** Effective AAV-PKP2 dose estimated at high 10^13 to low 10^14 vg/kg — at threshold of immunogenic risk/hepatotoxicity. MyoAAV4A variant has higher cardiac transduction with lower liver uptake → potential for lower effective doses. Local delivery methods (antegrade intracoronary, retrograde coronary vein) achieve global cardiac gene transfer at lower doses. ([[sources/ACM-Genotype-Mx-JCE-2024]], rating: high)
+
+### Risk Stratification by Genotype (Muller 2025)
+- **ARVC risk calculator (2019, acm-risk.com):** Performs **adequately** in PKP2-ARVC, **overpredicts** VA risk in gene-elusive ARVC, performs **poorly** in DSP-ARVC. Only applicable to patients with definite ARVC (2010 TFC). ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **DSP risk calculator (Carrick 2024):** Gene-specific; usable in genotype-positive individuals irrespective of phenotype. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **PLN-p.Arg14del risk calculator (Verstraelen 2021):** Gene-specific; usable pre-diagnosis. Long-term reliability confirmed. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- All calculators predict only VA, not HF events — important gap for DSP and PLN where HF is a cardinal manifestation. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+
+### Gene-Specific Exercise Effects
+- **PKP2, TMEM43, gene-elusive ARVC:** Exercise associated with penetrance and VAs — restriction warranted. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **PLN-p.Arg14del:** Exercise does NOT influence penetrance, VA, or HF — restriction may not be necessary in carriers without known VA risk factors. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **DSP:** Exercise effect on penetrance is uncertain. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+
+### Flecainide in PKP2-ARVC
+- In PKP2cKO mice, flecainide eliminated VA occurrence via combined RyR2 blockade + Na⁺ channel blockade. RCT in PKP2-ARVC patients pending (NCT03685149). Only beta-blockers currently recommended for VA reduction in ARVC (evidence limited, no proven SCD prevention in ACM). ([[sources/ACM-Genotype-Mx-JCE-2024]])
+
+### Family Screening (Muller 2025)
+- Yield of baseline cardiac evaluation in at-risk relatives: ~33%. Additional ~33% yield at 4-year serial follow-up. Electrical abnormalities precede structural. New algorithm refines follow-up based on additional minor TFC, symptoms, and age 20–30 years. ([[sources/ACM-Genotype-Mx-JCE-2024]])
 
 ## Guideline Notes
 
@@ -105,6 +124,7 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 - **Exercise restriction data limited to PKP2:** The dose-dependent exercise-penetrance relationship is best established for PKP2 carriers. Data for DSP, PLN, LMNA, FLNC, and other NDLVC/ALVC genes are insufficient — exercise restriction recommendations for non-PKP2 genotypes rest on extrapolation, not direct evidence. ([[sources/acm-hrs-2019]], [[sources/esc-cmp-2023]])
 - **Epsilon wave status — major criterion vs. unreliable finding:** The 2010 Task Force Criteria treat the epsilon wave as a major criterion. ESC 2023 warns that epsilon waves and SAECG have poor sensitivity/specificity and high interobserver variability, and typically only appear in severe structural disease. The 2010 TFC have not been updated to reflect this; using epsilon waves as major criteria may lead to over- or misdiagnosis. ([[sources/esc-cmp-2023]], [[sources/acm-hrs-2019]])
 - **2010 Task Force Criteria vs. Padua Criteria:** The 2010 TFC were developed for RV-dominant ARVC and have no criteria for LV involvement. The Padua criteria (2020) incorporate LV structural and functional abnormalities, better capturing biventricular and LV-dominant forms. ESC 2023 acknowledges Padua criteria but notes they lack external validation; the 2010 TFC remain the recommended standard. This creates diagnostic gaps for a clinically important patient group. ([[sources/esc-cmp-2023]], [[sources/acm-hrs-2019]])
+- **ClinGen refutes sarcomeric genes in ARVC (2026):** TNNC1, TNNI3, TNNT2, and TPM1 — all well-established HCM genes — have "no known disease relationship" with ARVC by ClinGen expert curation (2019). RYR2, frequently cited in older ARVC literature, has **refuting** evidence for ARVC causation (07/19/2019). TTN was reclassified from neutral to "disputing" (10/28/2025). These findings directly challenge the use of broad "cardiomyopathy panels" for ARVC diagnosis, as positive sarcomeric gene results should not be attributed to ARVC. ([[sources/clingen-summary-2026-05-09]], rating: high)
 
 ## Connections
 - Related to [[concepts/Pharmacological-Provocation-Testing]]
@@ -133,3 +153,20 @@ Arrhythmogenic right ventricular cardiomyopathy (ARVC) is the best-characterized
 - Related to [[sources/genetic-eoaf-ehj-2024]]
 - Related to [[concepts/Sports-Cardiology-SDM]]
 - Related to [[sources/competitive-sports-aha-2025]]
+- Related to [[sources/ACM-Genotype-Mx-JCE-2024]]
+- Related to [[concepts/ClinGen-Gene-Disease-Validity]]
+- Related to [[sources/clingen-summary-2026-05-09]]
+
+## Sources
+- [[sources/ACM-Genotype-Mx-JCE-2024]]
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/acm-hrs-2019]]
+- [[sources/circadian-scd-jmcc-2025]]
+- [[sources/clingen-summary-2026-05-09]]
+- [[sources/competitive-sports-aha-2025]]
+- [[sources/eoaf-jama-2021]]
+- [[sources/esc-cmp-2023]]
+- [[sources/gene-therapy-arrhythmia-2025]]
+- [[sources/genetic-cmp-jcf-2018]]
+- [[sources/genetic-eoaf-ehj-2024]]
+- [[sources/pharmacological-provocation-europace-2025]]

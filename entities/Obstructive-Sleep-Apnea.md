@@ -137,3 +137,9 @@ Obstructive sleep apnea is characterized by repetitive partial collapse (obstruc
 - Related to [[concepts/Catheter-Ablation-AF]]
 - Related to [[concepts/AF-CARE]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
+
+## Sources
+- [[sources/AF-AHA-2023]]
+- [[sources/HT-AHA-2025]]
+- [[sources/osa-af-jama-2018]]
+- [[sources/sdb-arrhythmia-aha-2022]]

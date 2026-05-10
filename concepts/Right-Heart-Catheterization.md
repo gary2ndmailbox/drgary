@@ -375,5 +375,11 @@ Preferred: iNO and inhaled prostacyclin analogs (similar response rates; better 
 - Related to [[concepts/Tricuspid-Regurgitation]]
 - Related to [[concepts/Mitral-Stenosis]]
 - Related to [[concepts/RV-PA-Coupling]]
+- Related to [[concepts/Constrictive-vs-Restrictive]] — haemodynamic differentiation of constrictive pericarditis vs RCM
 - Related to [[sources/rhc-hf-ehj-2025]]
 - Related to [[sources/hemodynamic-hf-pht-aha-2026]]
+
+## Sources
+- [[sources/hemodynamic-hf-pht-aha-2026]]
+- [[sources/hemodynamics-circ-2012]]
+- [[sources/rhc-hf-ehj-2025]]

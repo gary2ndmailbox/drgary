@@ -61,3 +61,6 @@ An intracardiac shunt is hemodynamically significant if: evidence of **chamber e
 - Related to [[concepts/Fontan-Circulation]]
 - Related to [[concepts/Eisenmenger-Syndrome]]
 - Related to [[entities/Pulmonary-Hypertension]] — PAH staging within AP class
+
+## Sources
+- [[sources/ACHD-AHA-2025]]

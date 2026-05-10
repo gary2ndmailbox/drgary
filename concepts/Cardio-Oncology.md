@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cardio-Oncology"
 tags: [cardio-oncology, cardiovascular-toxicity, cancer, multidisciplinary, clonal-hematopoiesis]
-source_count: 6
-last_updated: 2026-04-30
+source_count: 7
+last_updated: 2026-05-02
 ---
 
 # Cardio-Oncology
@@ -75,7 +75,7 @@ Cancer and CVD share common modifiable and genetic risk factors — a paradigm w
 - **Lifestyle/metabolic risk factors:** ARIC study — adherence to all 7 AHA 2020 cardiovascular health metrics is inversely associated with both CVD AND cancer (breast, colorectal, lung most strongly). Tobacco is an established shared risk. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
 - **Cholesterol and breast cancer:** Dietary cholesterol top quartile → 48% ↑ breast cancer risk; 27-hydroxycholesterol (cholesterol metabolite) acts as direct estrogen receptor agonist in breast cancer cells → shared biological mechanism. Statins therefore may have dual benefit. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
 - **Inflammation (IL-1β):** CANTOS trial — canakinumab reduced both cardiac events and lung cancer incidence/mortality, implicating a shared inflammatory pathway. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
-- **Clonal Hematopoiesis of Indeterminate Potential (CHIP):** Expanded somatic blood cell clone (DNMT3A, ASXL1, TET2 driver mutations) without haematological abnormality; associated with both hematologic malignancy risk AND increased MI, stroke, and all-cause mortality; each gene individually associated with coronary heart disease; likely mechanism involves clonal macrophage infiltration of atherosclerotic plaque. See [[concepts/Clonal-Hematopoiesis]]. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- **Clonal Hematopoiesis (CH/CHIP):** Expanded somatic blood cell clone driven by DNMT3A, TET2, ASXL1, JAK2 V617F (and DDR pathway variants in therapy-related CH) without haematological abnormality; associated with both hematologic malignancy risk AND CVD. A 2026 AHA Scientific Statement provides a comprehensive update: DNMT3A/TET2/ASXL1 CH → **1.7–2× higher ASCVD risk**; **25% higher HF risk** (meta-analysis n=56,597); TET2 2.4× enriched in HFpEF; JAK2 V617F → arterial and venous thrombosis. Therapy-related CH (t-CH) — selected by cytotoxic chemotherapy and radiation — amplifies late cardiotoxicity: TP53-CH worsens anthracycline cardiomyopathy; PPM1D-CH drives myocardial fibrosis via NLRP3/IL-1β. Gene-specific mechanisms: TET2 LOF → NLRP3 inflammasome/IL-1β (CANTOS post-hoc shows canakinumab benefit specifically in TET2-CH carriers); DNMT3A LOF → impaired efferocytosis + HB-EGF-driven cardiac fibrosis. **CHIP clinics** at tertiary centres provide multidisciplinary haematologic + CV risk surveillance. Current CVD risk models (PREVENT, SCORE2) do not incorporate CH — guideline-concordant prevention is recommended until CH-specific CVD therapies are proven. See [[concepts/Clonal-Hematopoiesis]]. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]], [[sources/ch-aha-2026]], rating: very high)
 
 ### Cancer-Associated VTE
 
@@ -117,5 +117,15 @@ The elevated cardiovascular risk in cancer patients extends well beyond cardiomy
 - Related to [[concepts/Hormonal-Therapy-CV-Risk]]
 - Related to [[sources/Hormonal-Rx-AHA-2021]]
 - Related to [[concepts/Cancer-Associated-VTE]]
-- Related to [[concepts/Clonal-Hematopoiesis]]
+- Related to [[concepts/Clonal-Hematopoiesis]] — CH as emerging cancer-CVD shared risk factor; CHIP clinics; t-CH amplifies late cardiotoxicity from chemotherapy/radiation
 - Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+- Related to [[sources/ch-aha-2026]]
+
+## Sources
+- [[sources/Cardio-Oncology-ESC-2022]]
+- [[sources/Hormonal-Rx-AHA-2021]]
+- [[sources/ai-cardiooncology-aha-2025]]
+- [[sources/arrhythmia-cardio-oncology-aha-2021]]
+- [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+- [[sources/ch-aha-2026]]
+- [[sources/imaging-cardio-oncology-aha-2024]]

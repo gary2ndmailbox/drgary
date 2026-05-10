@@ -86,3 +86,6 @@ Rheumatic heart disease is a long-term consequence of acute rheumatic fever, whi
 - Related to [[entities/Mitral-Valve-Prolapse]] — alternative cause of primary mitral valve disease
 - Related to [[concepts/CAVD-Mechanisms]] — comparison: CAVD is mechanistically driven by lipid/calcific vs RHD by immune-mediated mechanisms
 - Related to [[sources/vhd-mechanism-aha-2024]]
+
+## Sources
+- [[sources/vhd-mechanism-aha-2024]]

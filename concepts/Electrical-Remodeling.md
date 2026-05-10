@@ -80,3 +80,7 @@ Electrical remodeling refers to disease-driven, adaptive or maladaptive changes 
 - Related to [[concepts/Calcium-Homeostasis-in-HCM]]
 - Related to [[concepts/Cardiac-Repolarization]]
 - Related to [[sources/membrane-potential-physrev-2021]]
+
+## Sources
+- [[sources/membrane-potential-physrev-2021]]
+- [[sources/repolarisation-jaccep-2023]]

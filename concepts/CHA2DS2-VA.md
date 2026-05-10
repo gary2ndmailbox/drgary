@@ -51,3 +51,8 @@ CHA2DS2-VA is the updated thromboembolic risk stratification score for atrial fi
 - Related to [[concepts/AF-CARE]]
 - Related to [[concepts/AF-Staging]]
 - Related to [[entities/Atrial-Fibrillation]]
+
+## Sources
+- [[sources/AF-AHA-2023]]
+- [[sources/AF-ESC-2024]]
+- [[sources/eoaf-riskfactor-ehj-2026]]

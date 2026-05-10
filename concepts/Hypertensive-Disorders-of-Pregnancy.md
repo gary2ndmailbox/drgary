@@ -121,3 +121,7 @@ Sources: [[sources/ht-pregnancy-aha-2022]] (rating: high)
 - Related to [[entities/Hypertension]] — BP management principles; thresholds in pregnancy context
 - Related to [[entities/Heart-Failure]] — peripartum cardiomyopathy; long-term HF risk post-HDP
 - Related to [[concepts/LQTS-Pregnancy-Management]] — overlapping maternal CVH risk context
+
+## Sources
+- [[sources/ht-pregnancy-aha-2022]]
+- [[sources/prepregnancy-aha-2023]]

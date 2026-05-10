@@ -123,3 +123,6 @@ No consensus; significant US vs European variation due to antibiotic availabilit
 - Related to [[entities/ATTR-Amyloidosis]] — infiltrative cardiomyopathy can mimic valvular vegetations
 - Related to [[concepts/Cardiac-Amyloidosis-Imaging]] — differential diagnosis for valvular echogenic masses
 - Related to [[entities/Atrial-Fibrillation]] — new-onset AF can be a complication of endocarditis
+
+## Sources
+- [[sources/BCNE-AHA-2025]]

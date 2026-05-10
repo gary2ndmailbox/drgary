@@ -77,3 +77,6 @@ Mitral valve prolapse is characterised by redundant and thickened valve leaflets
 - Related to [[concepts/CAVD-Mechanisms]] — parallel VHD molecular mechanisms
 - Related to [[entities/Rheumatic-Heart-Disease]] — alternative cause of mitral disease in low-income countries
 - Related to [[sources/vhd-mechanism-aha-2024]]
+
+## Sources
+- [[sources/vhd-mechanism-aha-2024]]

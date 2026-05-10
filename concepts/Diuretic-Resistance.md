@@ -51,3 +51,6 @@ Diuretic resistance is defined as the attenuation of the maximal diuretic effect
 - Related to [[concepts/Cardiorenal-Syndrome]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[concepts/HFpEF]]
+
+## Sources
+- [[sources/cardiorenal-aha-2019]]

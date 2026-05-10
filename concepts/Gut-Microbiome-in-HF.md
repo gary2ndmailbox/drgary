@@ -77,3 +77,6 @@ The gut microbiome in HF refers to how intestinal microbial composition and func
 - Related to [[concepts/Pharmacogenomics-in-HF]]
 - Related to [[sources/HF-Precision-Medicine-AHA-2019]]
 - Related to [[concepts/HFpEF]]
+
+## Sources
+- [[sources/HF-Precision-Medicine-AHA-2019]]

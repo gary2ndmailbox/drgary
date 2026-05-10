@@ -89,3 +89,12 @@ Sudden cardiac death (SCD) is an unexpected death due to a cardiovascular event 
 - Related to [[entities/Obesity]] — most common non-ischaemic SCA cause; epicardial fat mechanisms
 - Related to [[concepts/Epicardial-Adipose-Tissue-Arrhythmogenesis]] — EAT → fibro-fatty infiltration → VT/SCD substrate
 - Related to [[sources/circadian-scd-jmcc-2025]]
+
+## Sources
+- [[sources/HCM-VA-FCVMed-2022]]
+- [[sources/VA-DCM-Sammani-2020]]
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/channelopathies-jaha-2025]]
+- [[sources/circadian-scd-jmcc-2025]]
+- [[sources/esc-cmp-2023]]
+- [[sources/obesity-cv-aha-2021]]

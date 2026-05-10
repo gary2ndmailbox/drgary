@@ -55,3 +55,8 @@ Left ventricular outflow tract obstruction (LVOTO) is a dynamic obstruction to L
 - Related to [[entities/Mavacamten]]
 - Related to [[concepts/Septal-Reduction-Therapy]]
 - Related to [[concepts/HCM-Risk-SCD]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/esc-cmp-2023]]
+- [[sources/hemodynamics-circ-2012]]

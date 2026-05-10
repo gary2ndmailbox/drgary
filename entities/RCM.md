@@ -40,3 +40,7 @@ Restrictive cardiomyopathy (RCM) is a rare cardiomyopathy phenotype defined by r
 - Related to [[entities/Anderson-Fabry-Disease]]
 - Related to [[concepts/Phenotypic-Approach-to-Cardiomyopathy]]
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
+- Related to [[concepts/Constrictive-vs-Restrictive]] — haemodynamic differentiation from constrictive pericarditis
+
+## Sources
+- [[sources/esc-cmp-2023]]

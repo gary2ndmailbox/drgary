@@ -96,3 +96,6 @@ Structured multidisciplinary framework for managing cardiac implantable electron
 - Related to [[entities/Heart-Failure]] — CRT device management; ICD indications in HF
 - Related to [[entities/DCM]] — ICD/CRT as common implantation indication
 - Related to [[entities/HCM]] — ICD as common implantation indication
+
+## Sources
+- [[sources/periop-cied-aha-2024]]

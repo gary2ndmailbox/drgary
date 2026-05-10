@@ -107,4 +107,6 @@ The AHA/ACC Acute PE Clinical Categories is a five-category (A–E) classificati
 ## Connections
 - Related to [[entities/Pulmonary-Embolism]]
 - Related to [[entities/CTEPH]]
-- Related to [[sources/acute-pe-aha-2026]]
+
+## Sources
+- [[sources/acute-pe-aha-2026]]

@@ -69,3 +69,7 @@ Primary mitral regurgitation (PMR) is MR caused by intrinsic structural abnormal
 - Related to [[concepts/Tricuspid-Regurgitation]]
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/Heart-Failure]]
+
+## Sources
+- [[sources/VHD-AHA-2020]]
+- [[sources/vhd-esc-2025]]

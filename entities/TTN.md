@@ -114,3 +114,16 @@ Titin spring stiffness is fine-tuned beat-to-beat through three PTM types. See [
 - Related to [[sources/HF-ESC-2021]]
 - Related to [[sources/esc-cmp-2023]]
 - Related to [[sources/DCM-Lancet-2023]]
+
+## Sources
+- [[sources/Biobank-AF-JAMA-2024]]
+- [[sources/DCM-Lancet-2023]]
+- [[sources/HF-ESC-2021]]
+- [[sources/HF-Precision-Medicine-AHA-2019]]
+- [[sources/TTN-CVResearch-2022]]
+- [[sources/eoaf-jama-2021]]
+- [[sources/eoaf-riskfactor-ehj-2026]]
+- [[sources/esc-cmp-2023]]
+- [[sources/genetic-af-dxmx-jce-2022]]
+- [[sources/genetic-eoaf-ehj-2024]]
+- [[sources/genetic-yield-jama-card-2022]]

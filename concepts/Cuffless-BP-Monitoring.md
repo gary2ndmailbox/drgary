@@ -66,3 +66,7 @@ Cuffless BP monitoring encompasses devices that estimate blood pressure without 
 - Related to [[concepts/Perioperative-Cardiovascular-Assessment]] (inpatient continuous BP monitoring context)
 - Related to [[entities/Obstructive-Sleep-Apnea]] (nocturnal hypertension phenotyping; ABPM disruption)
 - Related to [[concepts/LV-Diastolic-Function]] (BP as driver of diastolic dysfunction; monitoring implications)
+
+## Sources
+- [[sources/HT-AHA-2025]]
+- [[sources/cuffless-bp-aha-2026]]

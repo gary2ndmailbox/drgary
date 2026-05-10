@@ -27,3 +27,7 @@ Bidirectional ventricular tachycardia (BVT) is a subtype of polymorphic VT chara
 - Related to [[concepts/Cardiac-Action-Potential]]
 - Related to [[entities/CPVT]]
 - Related to [[entities/RYR2]]
+
+## Sources
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/channelopathies-jaha-2025]]

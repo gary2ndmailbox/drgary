@@ -50,3 +50,7 @@ Early repolarization syndrome is a channelopathy defined by the presence of earl
 - Related to [[entities/Short-QT-Syndrome]]
 - Related to [[entities/Idiopathic-Ventricular-Fibrillation]]
 - Related to [[concepts/Electrical-Storm]]
+
+## Sources
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/channelopathies-jaha-2025]]

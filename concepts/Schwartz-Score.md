@@ -31,3 +31,7 @@ The Schwartz Score is a point-based clinical diagnostic tool used to assess the 
 - Related to [[entities/Long-QT-Syndrome]]
 - Related to [[entities/Short-QT-Syndrome]]
 - Related to [[concepts/Torsades-de-Pointes]]
+
+## Sources
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/channelopathies-jaha-2025]]

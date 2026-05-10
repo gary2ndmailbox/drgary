@@ -105,3 +105,7 @@ Disease level on NS-iPA governs treatment selection:
 - Related to [[concepts/Acute-PE-Clinical-Categories]]
 - Related to [[sources/BPA-AHA-2024]]
 - Related to [[sources/PHT-ESC-2022]]
+
+## Sources
+- [[sources/BPA-AHA-2024]]
+- [[sources/PHT-ESC-2022]]

@@ -1,9 +1,9 @@
 ---
 dg-publish: true
 title: "CRISPR-Cas9 in Channelopathies"
-tags: [gene-therapy, channelopathies, precision-medicine, genetics]
-source_count: 1
-last_updated: 2026-04-11
+tags: [gene-therapy, channelopathies, precision-medicine, genetics, gene-editing]
+source_count: 2
+last_updated: 2026-05-07
 ---
 
 # CRISPR-Cas9 in Channelopathies
@@ -19,6 +19,14 @@ CRISPR/Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and assoc
 - **First in-vivo CRISPR RYR2 repair (Pan 2023):** AAV9-SaCas9 targeting RYR2-R4496C achieved ~41% editing efficiency in cardiomyocytes; 0/7 treated vs. 7/8 untreated mice had arrhythmias during caffeine/epinephrine challenge; no off-target edits detected. ([[sources/gene-therapy-arrhythmia-2025]])
 - **Base editing for LQT3 (Qi 2024):** Adenine base editor ABE8e-SpRY split across dual AAV9 corrected SCN5A-M1875T in mice; 54% efficiency; QTc and APD90 normalized; late INa reduced 66%; ~20% editing sufficient to prevent arrhythmias (source-sink electrotonic coupling buffers arrhythmia propagation). ([[sources/gene-therapy-arrhythmia-2025]])
 - Allele-specific gene editing faces the same limitation as allele-specific silencing for highly heterogeneous genes (RYR2, KCNQ1, KCNH2) — each variant requires a distinct therapeutic construct. ([[sources/gene-therapy-arrhythmia-2025]])
+- **Prime editing:** A third-generation approach enabling precise sequence changes without DNA double-strand breaks and without being restricted to specific base conversions (unlike base editing). Promising for correcting point mutations causing inherited cardiac conditions; requires optimised delivery systems. ([[sources/gene-editing-cv-tcm-2025]] — medium)
+- **Disease applications beyond channelopathies — gene editing in cardiomyopathies:**
+  - *HCM (MYBPC3):* Ma et al. 2017 — CRISPR-Cas9 corrected heterozygous MYBPC3 4 bp deletion in human preimplantation embryos at high efficiency; preferential HDR repair using wild-type oocyte allele as template; requires further reproducibility before clinical use. ([[sources/gene-editing-cv-tcm-2025]])
+  - *Calmodulinopathy-LQTS (CALM2):* Limpitikul et al. 2017 — CRISPRi selectively suppresses mutant CALM2 gene sparing wild-type; normalised APD and Ca²⁺/CaM-dependent L-type Ca²⁺ channel inactivation in iPSC-derived CMs; potential mutation-agnostic approach. ([[sources/gene-editing-cv-tcm-2025]])
+  - *DMD cardiomyopathy (Dystrophin):* Refaey et al. 2017 — AAV-SaCas9 excises mutant exon 23; 40% dystrophin restoration in cardiac muscle; improved fibre architecture and contractility. ([[sources/gene-editing-cv-tcm-2025]])
+  - *PRKAG2 cardiac syndrome:* AAV9-CRISPR/Cas9-sgRNA single postnatal injection restored cardiac function in mice; CRISPR correction in iPSC-CMs normalised arrhythmic behaviour — paradigm case for gene editing over standard ablation. ([[sources/gene-editing-cv-tcm-2025]]; see [[entities/PRKAG2-Cardiac-Syndrome]])
+- **Mosaicism threshold:** In in vivo cardiac gene editing, >70% phenotypic correction is required to achieve restoration of cardiac function in mouse models. Heterogeneous editing (regions of corrected and uncorrected myocardium) carries risks of arrhythmia from electrophysiological heterogeneity, compensatory fibrosis, and neoantigen immunogenicity. ([[sources/gene-editing-cv-tcm-2025]])
+- **Risk-benefit framework:** Gene editing is clinically appropriate when existing standard therapy is insufficient for the disease burden (e.g., PRKAG2 syndrome, HoFH, TTR amyloidosis, CPVT) and inappropriate when effective alternatives exist (e.g., isolated WPW — ablation 90–95% success). See [[concepts/Gene-Editing-Risk-Benefit-Framework]]. ([[sources/gene-editing-cv-tcm-2025]])
 
 ## Contradictions / Open Questions
 - **Allele-specific targeting vs. mutation heterogeneity:** CRISPR/Cas9-based correction requires a guide RNA designed for a specific mutation. In diseases with extreme mutational heterogeneity (RYR2: >150 variants; KCNQ1/KCNH2: hundreds of variants), individual correction constructs must be redesigned for each patient — clinically impractical. SupRep's mutation-agnostic approach was developed precisely to overcome this; CRISPR remains allele-specific unless targeting conserved non-coding regulatory elements or shared pathway nodes. ([[sources/gene-therapy-arrhythmia-2025]])
@@ -28,6 +36,15 @@ CRISPR/Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and assoc
 ## Connections
 - Related to [[concepts/iPSC-Derived-Cardiomyocytes]]
 - Related to [[concepts/Ion-Channel-Mutations]]
+- Related to [[concepts/Gene-Editing-Risk-Benefit-Framework]]
+- Related to [[concepts/AAV-Gene-Delivery]]
 - Related to [[entities/CPVT]]
 - Related to [[entities/Long-QT-Syndrome]]
 - Related to [[entities/RYR2]]
+- Related to [[entities/PRKAG2-Cardiac-Syndrome]]
+- Related to [[entities/HCM]]
+
+## Sources
+- [[sources/channelopathies-jaha-2025]]
+- [[sources/gene-editing-cv-tcm-2025]]
+- [[sources/gene-therapy-arrhythmia-2025]]

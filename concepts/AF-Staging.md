@@ -52,3 +52,8 @@ Clinical AF documented in one of four subcategories ([[sources/AF-AHA-2023]], ra
 - Related to [[concepts/Catheter-Ablation-AF]]
 - Related to [[concepts/Early-Onset-Atrial-Fibrillation]]
 - Related to [[concepts/Genetic-Testing-in-AF]]
+
+## Sources
+- [[sources/AF-AHA-2023]]
+- [[sources/AF-ESC-2024]]
+- [[sources/EAST-AFNET4-NEJM-2020]]

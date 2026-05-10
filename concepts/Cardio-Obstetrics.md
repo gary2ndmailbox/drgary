@@ -73,3 +73,6 @@ Cardio-obstetrics (also called the "pregnancy heart team") is a multidisciplinar
 - Related to [[concepts/LQTS-Pregnancy-Management]] — LQTS-specific arrhythmia risk in pregnancy and postpartum
 - Related to [[entities/Maternal-Health-Disparities]] — racial/ethnic mortality disparities in maternal CVD
 - Related to [[entities/Hypertension]] — antihypertensive management in pregnancy and postpartum
+
+## Sources
+- [[sources/cv-pregnancy-aha-2020]]

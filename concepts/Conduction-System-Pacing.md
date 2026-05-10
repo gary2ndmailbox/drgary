@@ -100,3 +100,8 @@ Seven small RCTs (29–167 patients, 6–18 months follow-up) [[sources/csp-jacc
 - Related to [[concepts/Periprocedural-CIED-Management]] — HBP threshold/dislodgement risk perioperatively; LBBP preferred profile
 - Related to [[entities/Heart-Failure]] (CSP-CRT, HOT-CRT, LOT-CRT configurations)
 - Related to [[entities/Atrial-Fibrillation]] (AVJ ablation: LBBAP preferred over HBP)
+
+## Sources
+- [[sources/csp-ehra-2023]]
+- [[sources/csp-jaccep-2023]]
+- [[sources/periop-cied-aha-2024]]

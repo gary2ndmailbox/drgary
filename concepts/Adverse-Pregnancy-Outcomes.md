@@ -91,3 +91,8 @@ Adverse pregnancy outcomes (APOs) is a composite term encompassing four major pr
 - Related to [[concepts/LQTS-Pregnancy-Management]] — specific maternal CVH context in inherited channelopathies
 - Related to [[concepts/Cardio-Obstetrics]] — fourth-trimester follow-up for APO patients is a core cardio-obstetrics responsibility
 - Related to [[entities/Peripartum-Cardiomyopathy]] — PPCM as an adverse cardiovascular event of pregnancy; preeclampsia aOR 3.3 for PPCM
+
+## Sources
+- [[sources/cv-pregnancy-aha-2020]]
+- [[sources/ht-pregnancy-aha-2022]]
+- [[sources/prepregnancy-aha-2023]]

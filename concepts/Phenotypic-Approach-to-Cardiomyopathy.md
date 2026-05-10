@@ -51,3 +51,6 @@ The phenotypic approach to cardiomyopathy — introduced as the core diagnostic 
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
 - Related to [[concepts/Cascade-Family-Screening]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
+
+## Sources
+- [[sources/esc-cmp-2023]]

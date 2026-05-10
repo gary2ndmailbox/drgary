@@ -50,3 +50,6 @@ The titin isoform switch refers to changes in the relative proportion of the two
 - Related to [[concepts/HFpEF]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/DCM]]
+
+## Sources
+- [[sources/TTN-CVResearch-2022]]

@@ -146,3 +146,7 @@ All data from the MELOS registry (n=2533) [[sources/csp-ehra-2023]] :
 - Related to [[concepts/His-Bundle-Pacing]]
 - Related to [[entities/Heart-Failure]] (LOT-CRT, CSP-CRT)
 - Related to [[entities/Atrial-Fibrillation]] (LBBAP preferred when AVJ ablation planned)
+
+## Sources
+- [[sources/csp-ehra-2023]]
+- [[sources/csp-jaccep-2023]]

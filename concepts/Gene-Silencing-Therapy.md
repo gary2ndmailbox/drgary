@@ -39,3 +39,7 @@ Gene silencing therapy (GST) is a class of gene therapy that attenuates expressi
 - Related to [[entities/ATTR-Amyloidosis]]
 - Related to [[entities/RYR2]]
 - Related to [[entities/KCNH2]]
+
+## Sources
+- [[sources/gene-therapy-arrhythmia-2025]]
+- [[sources/noncoding-rna-aha-2020]]

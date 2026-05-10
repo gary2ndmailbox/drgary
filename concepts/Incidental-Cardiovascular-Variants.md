@@ -101,3 +101,7 @@ The framework integrates the likelihood that a variant is truly disease-associat
 - Related to [[entities/CPVT]] — RYR2/CASQ2/TRDN; cascade testing rules
 - Related to [[entities/ATTR-Amyloidosis]] — TTR as ACMG-78 gene
 - Related to [[entities/Anderson-Fabry-Disease]] — GLA as ACMG-78 gene
+
+## Sources
+- [[sources/genetic-cmp-jcf-2018]]
+- [[sources/incident-gene-aha-2023]]

@@ -85,3 +85,6 @@ Cancer-associated venous thromboembolism (VTE) — encompassing DVT, pulmonary e
 - Related to [[concepts/Cardio-Oncology]]
 - Related to [[entities/Pulmonary-Hypertension]]
 - Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+
+## Sources
+- [[sources/cardio-oncology-vascular-metabolic-aha-2019]]

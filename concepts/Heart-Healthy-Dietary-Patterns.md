@@ -92,3 +92,7 @@ Heart-healthy dietary patterns are overall patterns of food and beverage intake 
 - Related to [[entities/Atrial-Fibrillation]] — alcohol dose-dependent AF risk; fish oil supplement → increased AF risk
 - Related to [[entities/Hypertension]] — sodium, potassium, and alcohol guidance aligned with 2025 AHA HT guideline
 - Related to [[entities/Chronic-Coronary-Disease]] — dietary modification as secondary prevention strategy
+
+## Sources
+- [[sources/alt-medicine-hf-aha-2023]]
+- [[sources/diet-aha-2026]]

@@ -33,3 +33,6 @@ Genetic variants in genes encoding cardiac ion channels (or associated proteins)
 - Related to [[entities/Long-QT-Syndrome]]
 - Related to [[entities/Brugada-Syndrome]]
 - Related to [[entities/CPVT]]
+
+## Sources
+- [[sources/channelopathies-jaha-2025]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Hypertrophic Cardiomyopathy (HCM)"
 tags: [cardiomyopathy, sudden-cardiac-death, genetics, multimodality-imaging, guideline]
-source_count: 9
-last_updated: 2026-04-30
+source_count: 12
+last_updated: 2026-05-09
 ---
 
 # Hypertrophic Cardiomyopathy (HCM)
@@ -22,7 +22,16 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 ### Genetics
 - ~40–60% of HCM patients have a causal sarcomeric variant identified on genetic testing; likelihood highest in young patients with familial disease. ([[sources/esc-cmp-2023]])
 - Primary sarcomeric genes: MYBPC3 (most common), MYH7, TNNT2, TNNI3, MYL2, MYL3, ACTC1, TPM1.
+- **ClinGen Gene-Disease Validity (2026-05-09):** Definitive HCM genes: MYBPC3, MYH7, TNNI3, TNNC1, TPM1, FHOD3, CSRP3 (semidominant), ACTC1, and ALPK3 (AR definitive/AD strong). PLN has definitive evidence for "intrinsic cardiomyopathy" (includes HCM/DCM spectrum). **Disputed — these genes should NOT be clinically reported as pathogenic for HCM:** CALR3 (disputing 01/11/2023), MYH6 (disputing 07/12/2023), CASQ2 (disputing 05/10/2022), DSP (disputing for HCM 06/22/2022), VCL (disputing 05/10/2023), KCNQ1 (disputing 05/09/2022), ANKRD1 (disputing 02/08/2023). RYR2 has only limited evidence for HCM (12/14/2022). See [[concepts/ClinGen-Gene-Disease-Validity]] and [[sources/clingen-summary-2026-05-09]]. ([[sources/clingen-summary-2026-05-09]], rating: high)
+- **MYBPC3 mutation burden:** >350 individual MYBPC3 mutations identified; >60% are truncating. Most heterozygous mutations have late onset and often benign progression; however, **bi-allelic truncating MYBPC3 mutations** (homozygotes or compound heterozygotes) produce fatal neonatal cardiomyopathy with heart failure and death within the first year — cardiac transplantation is the only curative option. Gene-dosage effect: 14% of childhood-onset HCM is caused by compound genetic variants. ([[sources/mybpc3-gene-2015]], rating: medium)
+- **South Asian founder variant:** A 25-bp MYBPC3 intron 32 deletion is present in **4% of the South Asian population** and confers a **6.99-fold increased risk of heart failure** — important for pre-test probability in South Asian patients presenting with unexplained cardiomyopathy or HF. ([[sources/mybpc3-gene-2015]])
+- **Founder MYBPC3 mutations:** High-frequency founder truncating mutations exist in several populations — Iceland (58% of HCM), Veneto Italy (19.5%), Netherlands/Finland/Japan (~16-17% each), Tuscany (14%), and Center-East France (8.4%); high founder prevalence in these regions elevates the risk of compound heterozygosity. ([[sources/mybpc3-gene-2015]])
 - Genocopies (clinically resemble HCM but different management): Anderson-Fabry disease (GLA), ATTR amyloidosis (TTR), glycogen storage disorders (LAMP2-Danon, GAA-Pompe, PRKAG2), RASopathies (PTPN11, RAF1), Friedreich ataxia (FXN). These account for <5% of adults but up to 25% of children. ([[sources/esc-cmp-2023]])
+
+### GWAS and Polygenic Risk
+- **Novel GWAS loci beyond sarcomere genes:** HCM GWAS has identified disease-associated common variant loci at genes outside the classical sarcomere: **FHOD3** (formin homology domain-containing protein 3; regulates actin filament formation in cardiomyocytes), **ALPK3** (alpha-kinase 3; myocardial transcription regulation), **PLN** (phospholamban; SR calcium handling), **ACTN2** (alpha-actinin-2; Z-disc sarcomere anchor), and **CSRP3** (cardiac muscle LIM protein; myofibril assembly). These loci implicate calcium handling and actin cytoskeleton organisation as polygenic contributors to HCM beyond myosin/actin gene variants. ([[sources/gwas-arrhythmias-cmp-genes-2025]], rating: high)
+- **HCM PRS — OR 2.34/SD (Zheng 2025):** A multi-ancestry HCM GWAS PRS yields **OR 2.34 per SD increase** for HCM case status. HCM PRS is independent of sarcomeric variant carrier status — individuals lacking an identifiable pathogenic rare variant can still carry a high PRS that substantially elevates risk. HCM PRS also predicts adverse outcomes including death and clinical progression. ([[sources/gwas-arrhythmias-cmp-genes-2025]])
+- **Inverse HCM-DCM risk loci:** Several GWAS loci (at MYBPC3, ALPK3, FHOD3) show opposing effect directions for HCM vs. DCM — the same SNP allele elevating HCM risk lowers DCM risk. This is a molecular confirmation that HCM (excess sarcomere stiffness/contractility) and DCM (sarcomere insufficiency) lie at opposing ends of the same genetic contractility axis. The parallel therapeutic implication: mavacamten targets this axis from the HCM (high-contractility) side. See [[concepts/GWAS-Cardiac-Genetics]] and [[entities/DCM]]. ([[sources/gwas-arrhythmias-cmp-genes-2025]])
 
 ### Mitochondrial HCM (Phenocopies)
 - **HCM is the most common cardiomyopathy phenotype in mitochondrial diseases**; obstructive HCM is rare; may present antenatally; may progress to DCM with systolic dysfunction. ([[sources/mitochondrial-cv-aha-2025]], rating: very high)
@@ -114,6 +123,7 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - **AHA 2024 vs. ESC 2023 — exercise restriction:** AHA 2024 explicitly states universal exercise restriction is NOT indicated for most HCM patients (Class III: No Benefit), while ESC 2023 retains the recommendation to discourage high-intensity and competitive sport in high-risk patients. ESC 2023 is more conservative, but neither approach is backed by prospective RCT data. ([[sources/HCM-AHA-2024]], [[sources/esc-cmp-2023]])
 - **AHA 2024 vs. ESC 2023 — SCD risk tool as threshold vs. decision aid:** ESC 2023 mandates the HCM Risk-SCD calculator with a 6% threshold (Class I); AHA 2024 treats it as one element of shared decision-making (Class IIa), explicitly stating prespecified thresholds should NOT be the sole arbiter. This reflects fundamentally different philosophies on quantitative vs. qualitative risk assessment. ([[sources/HCM-AHA-2024]], [[sources/esc-cmp-2023]])
 - **Early-stage HCM risk stratification gap:** Current risk tools (HCM Risk-SCD, Risk-Kids) have limited accuracy for patients with early-stage or mild structural disease. Ion channel remodeling (↑INaL, ↑ILTCC) precedes structural changes — young asymptomatic patients can suffer SCD without the traditional risk markers. No validated tool captures pre-structural arrhythmic vulnerability. ([[sources/HCM-VA-FCVMed-2022]])
+- **ClinGen disputes multiple published "HCM genes" (2026):** The following genes previously attributed to HCM in publications or on older panels have been reclassified as "Disputing" by ClinGen expert curation (2026-05-09 report): CALR3 (01/2023), MYH6 (07/2023), CASQ2 (05/2022), DSP for HCM specifically (06/2022), VCL (05/2023), KCNQ1 (05/2022), ANKRD1 (02/2023). Clinicians using broad legacy panels may receive false-positive results for these genes. Note that DSP has **definitive** evidence for ACM/arrhythmogenic cardiomyopathy (with wooly hair/keratoderma phenotype) — the dispute applies specifically to isolated HCM without the skin phenotype. ([[sources/clingen-summary-2026-05-09]], rating: high)
 
 ## Connections
 - Related to [[concepts/Electrical-Remodeling]]
@@ -140,3 +150,24 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - Related to [[sources/competitive-sports-aha-2025]]
 - Related to [[concepts/Mitochondrial-Cardiomyopathy]]
 - Related to [[concepts/Heteroplasmy]]
+- Related to [[sources/mybpc3-gene-2015]]
+- Related to [[concepts/GWAS-Cardiac-Genetics]]
+- Related to [[concepts/Polygenic-Risk-Score]]
+- Related to [[sources/gwas-arrhythmias-cmp-genes-2025]]
+- Related to [[concepts/ClinGen-Gene-Disease-Validity]]
+- Related to [[sources/clingen-summary-2026-05-09]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/HCM-VA-FCVMed-2022]]
+- [[sources/MYBPC3-MYH7-JACCEP-2024]]
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/clingen-summary-2026-05-09]]
+- [[sources/competitive-sports-aha-2025]]
+- [[sources/esc-cmp-2023]]
+- [[sources/gwas-arrhythmias-cmp-genes-2025]]
+- [[sources/hemodynamics-circ-2012]]
+- [[sources/membrane-potential-physrev-2021]]
+- [[sources/mitochondrial-cv-aha-2025]]
+- [[sources/mybpc3-gene-2015]]
+- [[sources/periop-aha-2024]]

@@ -153,3 +153,7 @@ Fabry cardiomyopathy is the cardiac manifestation of Anderson–Fabry disease (A
 - Related to [[entities/Amiodarone]] — contraindicated
 - Related to [[sources/fabry-ehj-2024]]
 - Related to [[sources/fabry-pcvd-2025]]
+
+## Sources
+- [[sources/fabry-ehj-2024]]
+- [[sources/fabry-pcvd-2025]]

@@ -114,3 +114,6 @@ Acute ischemic stroke (AIS) results from sudden focal brain ischemia due to thro
 - Related to [[entities/Atrial-Fibrillation]] — early OAC timing after AF-related AIS (ELAN trial)
 - Related to [[concepts/DAPT-Strategies]] — DAPT for minor AIS/TIA (COR 1A, 21-day regimen)
 - Related to [[concepts/ASCVD-Risk-Assessment]] — secondary stroke prevention
+
+## Sources
+- [[sources/ais-aha-2026]]

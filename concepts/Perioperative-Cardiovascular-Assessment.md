@@ -161,3 +161,7 @@ A structured, stepwise framework for evaluating and managing cardiovascular risk
 - Related to [[concepts/TAVI]] — NCS timing after TAVI
 - Related to [[concepts/DAPT-Strategies]] — PCI timing and perioperative antiplatelet management
 - Related to [[entities/Chronic-Coronary-Disease]] — preoperative revascularisation thresholds
+
+## Sources
+- [[sources/periop-aha-2024]]
+- [[sources/periop-cied-aha-2024]]

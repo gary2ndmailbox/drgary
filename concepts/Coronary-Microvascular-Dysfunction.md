@@ -63,3 +63,6 @@ Three criteria for impaired coronary flow [[sources/minoca-aha-2019]] (high):
 - Related to [[concepts/MINOCA]] — MVD is one of six mechanistic causes; distinguished from INOCA by presence of infarction biomarkers
 - Related to [[concepts/Coronary-Vasospasm]] — microvascular spasm (subtype of MVD) vs epicardial spasm: differentiated by acetylcholine provocation response; microvascular spasm = symptoms + ECG changes but no >90% epicardial constriction
 - Related to [[concepts/Late-Gadolinium-Enhancement]] — CMR LGE/stress perfusion used to identify myocardial scarring and inducible ischemia in microvascular disease workup
+
+## Sources
+- [[sources/minoca-aha-2019]]

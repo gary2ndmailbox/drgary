@@ -67,3 +67,6 @@ Prevention of atrial failure from AtCM is the primary therapeutic goal: ([[sourc
 - Related to [[concepts/Secondary-Mitral-Regurgitation]] — atrial-type SMR as consequence of atrial dilatation
 - Related to [[concepts/Tricuspid-Regurgitation]] — secondary TR in atrial failure
 - Related to [[sources/atrial-cmp-esc-2025]]
+
+## Sources
+- [[sources/atrial-cmp-esc-2025]]

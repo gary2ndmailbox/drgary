@@ -87,3 +87,7 @@ Secondary mitral regurgitation (SMR) is MR in which the MV apparatus is structur
 - Related to [[concepts/Tricuspid-Regurgitation]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Atrial-Fibrillation]]
+
+## Sources
+- [[sources/VHD-AHA-2020]]
+- [[sources/vhd-esc-2025]]

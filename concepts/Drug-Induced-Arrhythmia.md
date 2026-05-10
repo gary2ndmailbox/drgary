@@ -71,3 +71,9 @@ Drug-induced arrhythmia refers to any cardiac arrhythmia caused or exacerbated b
 - Related to [[concepts/Shanghai-Score-System]]
 - Related to [[entities/KCNH2]]
 - Related to [[entities/SCN5A]]
+
+## Sources
+- [[sources/amiodarone-cvdrug-2020]]
+- [[sources/arrhythmia-genetics-mgenetik-2025]]
+- [[sources/brs-jaccep-2022]]
+- [[sources/drug-arrhythmia-aha-2020]]

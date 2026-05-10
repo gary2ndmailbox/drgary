@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Dilated Cardiomyopathy (DCM)"
 tags: [cardiomyopathy, genetics, sudden-cardiac-death, heart-failure]
-source_count: 12
-last_updated: 2026-04-25
+source_count: 15
+last_updated: 2026-05-09
 ---
 
 # Dilated Cardiomyopathy (DCM)
@@ -23,13 +23,20 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 ### Genetics
 - Genetic yield: ~30% of DCM patients carry a monogenic cause. ([[sources/esc-cmp-2023]])
 - Most common genes: TTN (truncating variants, ~25% familial / ~18% sporadic), LMNA, RBM20, MYH7, SCN5A, and others.
+- **ClinGen Gene-Disease Validity for DCM (2026-05-09):** Definitive DCM genes: TTN, LMNA, MYH7, SCN5A, DES, FLNC, BAG3, RBM20, TNNC1, TNNT2. Strong DCM genes: TNNI3 (both AD and AR), VCL, CAMK2D. Moderate: TPM1, BAG5 (AR). Limited: CSRP3, DSG2, SGCD, CDH2, MYH6, ANKRD1. **Disputed: PKP2** (disputing 05/30/2025) — a major ARVC gene that does NOT have confirmed DCM causation by ClinGen. MYBPC3 has only limited DCM evidence (03/04/2026) despite being the #1 HCM gene. See [[concepts/ClinGen-Gene-Disease-Validity]] and [[sources/clingen-summary-2026-05-09]]. ([[sources/clingen-summary-2026-05-09]], rating: high)
 - Key genotype–phenotype associations:
   - LMNA [[LMNA]]: conduction disease/AF precede cardiomyopathy; highest malignant VA risk; specific ICD risk calculator (lmna-risk-vta.fr).
   - RBM20 : severe phenotype, biventricular involvement.
-  - SCN5A [[SCN5A]]: overlap with channelopathy phenotype.
+  - SCN5A [[SCN5A]]: overlap with channelopathy phenotype. First linked to DCM in 2004 (D1275N mutation). >20 SCN5A mutations now associated; >90% missense. Age-dependent penetrance. **Conduction defects (AV block, bundle branch block) precede DCM onset by 15–20 years** — a key diagnostic clue in unexplained IDCM. Arrhythmias in >90% of cases (AF, SSS, PVCs, VT). Three pathomechanisms proposed: (1) direct structural disruption of intercalated disc/cytoskeletal interactions or cation-leak-induced Ca²⁺ overload; (2) conduction-defect-mediated dyssynchrony → DCM; (3) long-lasting arrhythmia → tachycardia-induced CMP (reversible in MEPPC/R222Q). Standard HF therapy + avoid sodium channel blockers; paradoxical Na-channel blocker use (hydroquinidine/flecainide) in selected patients with high PVC burden, no significant conduction defects, and no CMR fibrosis. ([[sources/scn5a-jaccep-2018]], rating: high)
+  - MYBPC3: **second highest frequency** of disease-causing mutations in European multi-centre DCM cohort (38/294, 13%; Haas et al. 2014). Both missense and truncating mutations; phenotypic overlap with HCM and LVNC. The South Asian 25-bp intron 32 deletion (4% population prevalence, 6.99x HF risk) also produces DCM and restrictive CMP in addition to HCM. ([[sources/mybpc3-gene-2015]], rating: medium)
   - TTN [[TTN]]: most common; peripartum CMP association (10% carry TTNtv). Higher rate of LV reverse remodeling (up to 70%) but also higher risk of atrial and ventricular tachyarrhythmias. ([[sources/esc-cmp-2023]], [[sources/HF-ESC-2021]])
 - TTNtv associated with alcoholic CMP (13.5% prevalence) and cancer therapy-induced CMP. ([[sources/esc-cmp-2023]])
 - "Second hit theory": genetic predisposition + environmental trigger (alcohol, pregnancy, chemotherapy) drives phenotypic expression. ([[sources/esc-cmp-2023]])
+
+### GWAS and Polygenic Risk
+- **Inverse HCM-DCM risk loci (Tadros et al.):** Several GWAS loci at MYBPC3, ALPK3, and FHOD3 show opposing effect directions for HCM vs. DCM — the same SNP allele that increases HCM susceptibility has the opposite allele increasing DCM susceptibility. This biologically confirms that HCM (sarcomere stiffness/hypercontractility) and DCM (sarcomere insufficiency/hypocontractility) represent opposite poles of a shared contractility-gene axis. **Therapeutic implication:** mavacamten (reduces myosin cross-bridge engagement; approved for HCM) and omecamtiv mecarbil (increases myosin cross-bridge formation; in development for DCM) pharmacologically target opposing ends of this same axis. See [[entities/HCM]] and [[concepts/GWAS-Cardiac-Genetics]]. ([[sources/gwas-arrhythmias-cmp-genes-2025]], rating: high)
+- **Jurgens 2024 DCM PRS — multi-ancestry validation:** Multi-ancestry GWAS + MTAG-derived PRS validated in three populations: **OR 1.73 (European)**, **1.61 (African)**, and **1.34 (Admixed-American)** per SD increase in PRS for DCM case status. This is the most ancestry-diverse cardiac PRS validation for any cardiomyopathy to date and demonstrates that DCM polygenic risk architecture generalises across ancestries better than most cardiac GWAS. ([[sources/gwas-arrhythmias-cmp-genes-2025]])
+- **BAG3 p.C151R common variant modifier:** A common low-frequency BAG3 variant (p.C151R) is associated with DCM risk with an effect size larger than typical GWAS SNPs — occupying the intermediate spectrum between common and rare variants. Operates as a modifier in addition to, and independent of, rare TTN/LMNA pathogenic variants. ([[sources/gwas-arrhythmias-cmp-genes-2025]])
 
 ### Mitochondrial DCM
 - Several nuclear-encoded and mtDNA-encoded mitochondrial gene variants cause DCM; **not included in standard DCM panels** — a negative panel does not exclude a mitochondrial cause. ([[sources/mitochondrial-cv-aha-2025]], rating: very high)
@@ -152,6 +159,8 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - **Dual Class IIa ICD thresholds within ESC 2022 itself:** Two simultaneous Class IIa indications with meaningfully different LVEF cutoffs — the standard threshold (LVEF ≤35%, NYHA II–III, ≥3 months OMT) and the multi-risk-factor threshold (LVEF <50% + ≥2 risk factors including high-risk genotype). A patient with LVEF 40% and an LMNA mutation could be a Class IIa candidate under either threshold with no guidance on which applies. ([[sources/VA-SCD-ESC-2022]])
 - **ESC 2022 vs. ESC CMP 2023 on ICD threshold for high-risk genotypes:** ESC CMP 2023 recommends ICD for LMNA, FLNC, RBM20, DES, TMEM43 carriers with LVEF >35% and additional risk factors (broadly), citing the genotype-specific risk calculators. ESC VA 2022 uses the multi-risk-factor LVEF <50% + ≥2 factors framework specifically. The two guidelines overlap but do not use identical criteria for the same patient population. ([[sources/VA-SCD-ESC-2022]], [[sources/esc-cmp-2023]])
 - **Standard DCM ICD threshold downgraded from Class I to Class IIa** between 2015 and 2022 ESC guidelines, reflecting uncertainty from the DANISH trial showing no all-cause mortality benefit of ICD in DCM — yet Class I for CAD + same LVEF/NYHA criteria was maintained. The distinction remains controversial. ([[sources/VA-SCD-ESC-2022]])
+- **PKP2 disputed for DCM by ClinGen (05/30/2025):** PKP2 is definitively established as the primary ARVC gene but ClinGen's GCEP disputes its role in causing isolated DCM (disputing classification 05/30/2025). Clinicians receiving "PKP2-positive, DCM" reports should consider whether the underlying phenotype is actually ARVC/ALVC rather than true DCM. MYBPC3, despite being the most common HCM gene, has only "limited" evidence for DCM — caution warranted when interpreting MYBPC3 variants in DCM patients. ([[sources/clingen-summary-2026-05-09]], rating: high)
+- **New DCM-definitive genes (ClinGen 2026):** DES, FLNC, TNNC1, TNNT2, and CAMK2D (strong) have been upgraded to definitive or strong DCM evidence in recent ClinGen curations (2025–2026), expanding the actionable DCM gene list beyond the traditional TTN/LMNA/RBM20/MYH7/SCN5A core. Importantly, TNNI3 now has strong evidence for both autosomal dominant AND autosomal recessive DCM. ([[sources/clingen-summary-2026-05-09]], rating: high)
 
 ## Connections
 - Related to [[entities/Heart-Failure]]
@@ -177,5 +186,32 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - Related to [[concepts/Sports-Cardiology-SDM]]
 - Related to [[sources/competitive-sports-aha-2025]]
 - Related to [[concepts/Mitochondrial-Cardiomyopathy]]
+- Related to [[entities/MYBPC3]]
+- Related to [[sources/mybpc3-gene-2015]]
 - Related to [[concepts/Heteroplasmy]]
 - Related to [[sources/mitochondrial-cv-aha-2025]]
+- Related to [[sources/scn5a-jaccep-2018]]
+- Related to [[concepts/MEPPC]]
+- Related to [[concepts/GWAS-Cardiac-Genetics]]
+- Related to [[concepts/Polygenic-Risk-Score]]
+- Related to [[sources/gwas-arrhythmias-cmp-genes-2025]]
+- Related to [[concepts/ClinGen-Gene-Disease-Validity]]
+- Related to [[sources/clingen-summary-2026-05-09]]
+
+## Sources
+- [[sources/DCM-Lancet-2023]]
+- [[sources/HF-AHA-2022]]
+- [[sources/HF-ESC-2021]]
+- [[sources/HF-update-ESC-2023]]
+- [[sources/TTN-CVResearch-2022]]
+- [[sources/VA-DCM-Sammani-2020]]
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/clingen-summary-2026-05-09]]
+- [[sources/competitive-sports-aha-2025]]
+- [[sources/esc-cmp-2023]]
+- [[sources/genetic-cmp-jcf-2018]]
+- [[sources/genetic-eoaf-ehj-2024]]
+- [[sources/gwas-arrhythmias-cmp-genes-2025]]
+- [[sources/mitochondrial-cv-aha-2025]]
+- [[sources/mybpc3-gene-2015]]
+- [[sources/scn5a-jaccep-2018]]

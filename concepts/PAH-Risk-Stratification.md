@@ -54,3 +54,6 @@ PAH risk stratification is the systematic, multiparameter assessment of prognosi
 - Related to [[entities/Pulmonary-Hypertension]]
 - Related to [[entities/CTEPH]]
 - Related to [[sources/PHT-ESC-2022]]
+
+## Sources
+- [[sources/PHT-ESC-2022]]

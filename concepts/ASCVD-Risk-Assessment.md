@@ -2,7 +2,7 @@
 dg-publish: true
 title: "ASCVD Risk Assessment"
 tags: [ASCVD, primary-prevention, risk-stratification, dyslipidemia, guidelines]
-source_count: 3
+source_count: 4
 last_updated: 2026-04-25
 ---
 
@@ -114,8 +114,16 @@ Coronary artery calcium (CAC) scoring by non-contrast cardiac CT is the primary 
 - **CAC as risk modifier** (new ESC 2025 COR IIa B): subclinical coronary atherosclerosis by imaging or elevated CAC score should be considered as risk modifier at moderate risk or around treatment thresholds [[sources/lipid-esc-2025]] (very high)
 - SCORE2/SCORE2-OP should NOT be used in patients with existing ASCVD or those on lipid-lowering therapy
 
+### Clonal Hematopoiesis as Emerging ASCVD Risk Factor
+- **DNMT3A/TET2/ASXL1 CH confers 1.7–2× higher ASCVD risk** vs. non-carriers; CH carriers have higher CAC scores; CH is enriched **4-fold in early-onset MI**. ([[sources/ch-aha-2026]], rating: very high)
+- Larger clones (VAF ≥10%) and TET2/JAK2 variants carry the greatest ASCVD risk; association with recurrent events in established disease is inconsistent across datasets. ([[sources/ch-aha-2026]])
+- CH is **not yet incorporated in PREVENT-ASCVD or ESC SCORE2/SCORE2-OP** — it functions as an emerging risk enhancer analogous to hsCRP, but without a validated risk adjustment formula. Current guidance: apply guideline-concordant primary and secondary prevention until CH-specific CVD therapies are proven. ([[sources/ch-aha-2026]])
+- **CHIP clinics** at tertiary centres provide multidisciplinary haematologic malignancy + CV risk surveillance; ASCVD risk in CH carriers is evaluated by cardio-oncology. ([[sources/ch-aha-2026]])
+- See [[concepts/Clonal-Hematopoiesis]] for gene-specific mechanisms and emerging therapeutic strategies.
+
 ## Contradictions / Open Questions
 - Whether PREVENT-ASCVD equations will be validated in all major non-US ethnic populations before widespread global adoption — race not in the model but ancestry-specific calibration may still be needed
+- **CH as emerging ASCVD risk factor not yet in risk models:** CH (DNMT3A/TET2/ASXL1) confers 1.7–2× higher ASCVD risk but is excluded from PREVENT and SCORE2 equations. Whether CH is causally upstream of ASCVD (favoured by longitudinal data) or a shared marker of biological aging, and how to incorporate it into clinical risk prediction, are active areas of investigation. ([[sources/ch-aha-2026]], rating: very high)
 - Optimal integration of PRS into clinical workflows: methodological heterogeneity across PRS scores; a "low PRS" from one score does not guarantee low genetic risk
 - Serial CAC testing as a surrogate for treatment response — not yet validated as ASCVD outcome surrogate
 - **ESC SCORE2 vs ACC/AHA PREVENT — different risk category thresholds:** ESC defines high risk at SCORE2 ≥10% (fatal+non-fatal 10-year); ACC/AHA defines high risk at PREVENT ≥10% (hard ASCVD 10-year including HF). Thresholds appear similar but equations are not interchangeable: populations, endpoints, and calibration differ. Applying one in a population calibrated for the other may misclassify risk [[sources/lipid-aha-2026]] [[sources/lipid-esc-2025]] (both very high)
@@ -128,3 +136,13 @@ Coronary artery calcium (CAC) scoring by non-contrast cardiac CT is the primary 
 - Related to [[concepts/Familial-Hypercholesterolemia]] — PREVENT equations explicitly contraindicated in HeFH; SCORE2/SCORE2-OP similarly not validated in FH
 - Related to [[entities/Hypertension]] — 2025 AHA HT guideline adopts PREVENT at ≥7.5% threshold for medication initiation at SBP ≥130 mmHg
 - Related to [[concepts/DTC-Genetic-Testing]] — DTC PRS products have no FDA clearance; population-ancestry bias; not interchangeable with physician-ordered clinical PRS
+- Related to [[concepts/Clonal-Hematopoiesis]] — CH as emerging ASCVD risk factor (1.7–2× risk with DNMT3A/TET2/ASXL1) not yet incorporated in PREVENT or SCORE2 equations
+- Related to [[sources/ch-aha-2026]]
+
+## Sources
+- [[sources/HT-AHA-2025]]
+- [[sources/ch-aha-2026]]
+- [[sources/consumer-genetictest-aha-2025]]
+- [[sources/lipid-aha-2026]]
+- [[sources/lipid-esc-2025]]
+- [[sources/lpa-aha-2021]]

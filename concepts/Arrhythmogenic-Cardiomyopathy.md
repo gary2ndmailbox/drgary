@@ -6,8 +6,8 @@ tags:
   - cardiomyopathy-genetics
   - sudden-cardiac-death
   - inherited-arrhythmias
-source_count: 2
-last_updated: 2026-04-11
+source_count: 3
+last_updated: 2026-05-05
 ---
 
 # Arrhythmogenic Cardiomyopathy (ACM)
@@ -61,3 +61,18 @@ Arrhythmogenic cardiomyopathy (ACM) is an arrhythmogenic heart muscle disorder n
 - Related to [[concepts/Cascade-Family-Screening]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[concepts/Ion-Channel-Mutations]]
+- Related to [[entities/PKP2]]
+- Related to [[entities/DSP]]
+- Related to [[entities/PLN]]
+- Related to [[entities/DSG2]]
+- Related to [[entities/DSC2]]
+- Related to [[entities/JUP]]
+- Related to [[entities/TMEM43]]
+- Related to [[entities/DES]]
+- Related to [[concepts/Exercise-Restriction-in-ARVC]]
+- Related to [[sources/ACM-Genotype-Mx-JCE-2024]]
+
+## Sources
+- [[sources/ACM-Genotype-Mx-JCE-2024]]
+- [[sources/acm-hrs-2019]]
+- [[sources/esc-cmp-2023]]

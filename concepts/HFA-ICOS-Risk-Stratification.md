@@ -52,3 +52,6 @@ The HFA-ICOS (Heart Failure Association–International Cardio-Oncology Society)
 - Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
+
+## Sources
+- [[sources/Cardio-Oncology-ESC-2022]]

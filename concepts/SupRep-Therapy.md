@@ -34,3 +34,6 @@ Suppression-and-replacement (SupRep) therapy is a hybrid gene therapy strategy t
 - Related to [[entities/Short-QT-Syndrome]]
 - Related to [[entities/KCNQ1]]
 - Related to [[entities/KCNH2]]
+
+## Sources
+- [[sources/gene-therapy-arrhythmia-2025]]

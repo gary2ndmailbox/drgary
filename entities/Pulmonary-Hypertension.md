@@ -5,8 +5,8 @@ tags:
   - pulmonary-hypertension
   - right-heart-failure
   - pulmonary-arterial-hypertension
-source_count: 6
-last_updated: 2026-04-30
+source_count: 7
+last_updated: 2026-05-09
 ---
 
 # Pulmonary Hypertension
@@ -55,6 +55,14 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 - **SSc:** Annual PAH risk evaluation recommended (Class I/B); DETECT algorithm when disease duration >3 years + FVC ≥40% + DLCO <60% (Class I/B). Prevalence of PAH in SSc: 5–19%. ([[sources/PHT-ESC-2022]], rating: very high)
 - **BMPR2 carriers:** Annual multimodal screening (ECG + NT-proBNP + DLCO + echo + CPET). Echocardiography alone insufficient. Lifetime PAH risk ~20%. ([[sources/PHT-ESC-2022]], rating: very high)
 - **Post-PE:** Evaluate for CTEPH/CTEPD in persistent/new dyspnoea after PE (Class I/C); refer to PH/CTEPH centre for mismatched perfusion defects persisting beyond 3 months (Class I/C). ([[sources/PHT-ESC-2022]], rating: very high)
+
+### Genetics — Heritable PAH (HPAH)
+- **BMPR2 (AD):** Definitive — the major genetic cause of HPAH; accounts for ~75–80% of familial PAH and ~20% of apparently idiopathic PAH. Lifetime penetrance ~20% (lower in women). ([[sources/clingen-summary-2026-05-09]], rating: high; ClinGen classification date: 12/07/2020)
+- **CAV1 (AD):** Definitive — caveolin-1; established genetic cause of HPAH. ([[sources/clingen-summary-2026-05-09]], rating: high; ClinGen classification date: 07/30/2025)
+- **ATP13A3 (AD):** Definitive — ATPase 13A3; established genetic cause of HPAH. ([[sources/clingen-summary-2026-05-09]], rating: high; ClinGen classification date: 11/09/2021)
+- **EIF2AK4 (AR):** Definitive — eukaryotic initiation factor 2 alpha kinase 4; established cause of pulmonary veno-occlusive disease (PVOD)/pulmonary capillary hemangiomatosis (PCH), a rare PAH subtype with poor prognosis and distinct pathology. Biallelic loss-of-function variants diagnostic. ([[sources/clingen-summary-2026-05-09]], rating: high; ClinGen classification date: 12/02/2022)
+- **BMPR1A, BMPR1B (AD):** Disputing — initial reports of these BMP receptor genes in HPAH have not been confirmed with sufficient evidence; ClinGen classification indicates evidence is insufficient to establish causality; variants in these genes should not be classified as P/LP for HPAH without functional evidence. ([[sources/clingen-summary-2026-05-09]], rating: high)
+- **Genetic testing in PAH:** 2022 ESC guidelines recommend genetic counselling and testing for BMPR2 and other HPAH genes in all PAH patients (Class I/C). ClinGen now validates which genes have sufficient evidence — BMPR2, CAV1, ATP13A3, and EIF2AK4 (for PVOD/PCH) are the four with definitive evidence. ([[sources/PHT-ESC-2022]], rating: very high; [[sources/clingen-summary-2026-05-09]], rating: high)
 
 ### PAH General Measures
 - **Supervised exercise training: Class I/A** (upgraded from IIa) — large multicentre RCT showed +34.1 m 6MWD improvement in PAH/CTEPH on PAH drugs. ([[sources/PHT-ESC-2022]], rating: very high)
@@ -118,6 +126,8 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 - **RV–PA uncoupling transition point remains elusive:** The adaptive-to-maladaptive remodeling transition cannot be reliably identified prospectively; delayed diagnosis means most patients are already maladaptive at presentation; no validated serial monitoring algorithm integrates Ees/Ea surrogates into clinical practice. ([[sources/rv-failure-aha-2026]], rating: very high)
 - **ESC/ERS guidelines lack comprehensive ongoing risk assessment incorporating advanced RV imaging:** Current guidelines use imaging metrics for initial diagnosis only; no validated multiparametric model for serial RV monitoring in PH — identified as a major gap. ([[sources/rv-failure-aha-2026]], rating: very high)
 
+- **ClinGen disputes BMPR1A and BMPR1B in HPAH (2026):** These two BMP receptor subtype genes have been reported in PAH literature but ClinGen classification is "Disputing" — insufficient or contradicted evidence to establish gene-disease causality. Variants in BMPR1A and BMPR1B found on panel testing should not be labelled pathogenic/likely-pathogenic for HPAH without strong functional validation. This highlights the gap between published genetic associations and rigorously curated causal evidence. ([[sources/clingen-summary-2026-05-09]], rating: high)
+
 ## Connections
 - Related to [[entities/CTEPH]]
 - Related to [[concepts/PAH-Risk-Stratification]]
@@ -132,3 +142,15 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 - Related to [[sources/periop-aha-2024]]
 - Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
 - Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]
+- Related to [[concepts/ClinGen-Gene-Disease-Validity]]
+- Related to [[sources/clingen-summary-2026-05-09]]
+
+## Sources
+- [[sources/Cardio-Oncology-ESC-2022]]
+- [[sources/PHT-ESC-2022]]
+- [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+- [[sources/clingen-summary-2026-05-09]]
+- [[sources/hemodynamic-hf-pht-aha-2026]]
+- [[sources/periop-aha-2024]]
+- [[sources/rhc-hf-ehj-2025]]
+- [[sources/rv-failure-aha-2026]]

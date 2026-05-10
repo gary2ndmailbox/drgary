@@ -37,3 +37,7 @@ Human induced pluripotent stem cell-derived cardiomyocytes (iPSC-CMs) are heart 
 - Related to [[entities/HCM]]
 - Related to [[concepts/Calcium-Homeostasis-in-HCM]]
 - Related to [[concepts/Ion-Channel-Remodeling-in-HCM]]
+
+## Sources
+- [[sources/HCM-VA-FCVMed-2022]]
+- [[sources/channelopathies-jaha-2025]]

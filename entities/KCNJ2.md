@@ -30,3 +30,8 @@ KCNJ2 encodes the Kir2.1 inward rectifier potassium channel, which carries the I
 - Related to [[concepts/Cardiac-Action-Potential]]
 - Related to [[concepts/Bidirectional-Ventricular-Tachycardia]]
 - Related to [[concepts/Biological-Pacemaker]]
+
+## Sources
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/channelopathies-jaha-2025]]
+- [[sources/gene-therapy-arrhythmia-2025]]

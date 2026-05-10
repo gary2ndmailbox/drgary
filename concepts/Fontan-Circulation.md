@@ -113,3 +113,6 @@ Before cardioversion (any duration of arrhythmia): TOE to exclude thrombus — m
 - Related to [[entities/Heart-Failure]] — Fontan circulatory failure management; MCS and transplantation
 - Related to [[entities/Atrial-Fibrillation]] — AF/AFL in Fontan; antithrombotic therapy; rhythm control preferred
 - Related to [[concepts/Conduction-System-Pacing]] — pacing strategy in Fontan (minimise ventricular pacing; apical preferred if high burden)
+
+## Sources
+- [[sources/ACHD-AHA-2025]]

@@ -84,3 +84,7 @@ His bundle pacing (HBP) is a form of conduction system pacing that captures the 
 - Related to [[concepts/Left-Bundle-Branch-Area-Pacing]]
 - Related to [[entities/Heart-Failure]] (HOT-CRT)
 - Related to [[entities/Atrial-Fibrillation]] (AVJ ablation planning)
+
+## Sources
+- [[sources/csp-ehra-2023]]
+- [[sources/csp-jaccep-2023]]

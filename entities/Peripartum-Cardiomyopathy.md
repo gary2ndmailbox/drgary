@@ -62,3 +62,6 @@ Peripartum cardiomyopathy (PPCM) is a form of dilated cardiomyopathy defined as 
 - Related to [[entities/Maternal-Health-Disparities]] — Black women have increased arrhythmia frequency during pregnancy; racial mortality disparities in maternal CVD extend to cardiomyopathy
 - Related to [[concepts/Adverse-Pregnancy-Outcomes]] — PPCM is an adverse cardiovascular event of pregnancy; preeclampsia aOR 3.3 for PPCM
 - Related to [[concepts/Preeclampsia]] — preeclampsia is a risk factor for PPCM (aOR 3.3)
+
+## Sources
+- [[sources/cv-pregnancy-aha-2020]]

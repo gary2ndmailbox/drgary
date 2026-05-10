@@ -100,3 +100,6 @@ Chronic coronary disease (CCD) is an umbrella term for stable outpatient present
 - Related to [[entities/Atrial-Fibrillation]] — anticoagulation in CCD + AF; AFIRE trial
 - Related to [[concepts/ASCVD-Risk-Assessment]] — PREVENT model; risk-guided therapy
 - Related to [[concepts/Right-Heart-Catheterization]] — haemodynamic assessment in INOCA and ischaemic HF
+
+## Sources
+- [[sources/CCS-AHA-2023]]

@@ -122,3 +122,7 @@ Three main RDN systems have been studied ([[sources/rnd-aha-2024]], rating: high
 - Related to [[concepts/ASCVD-Risk-Assessment]] (resistant hypertension as high CVD risk state)
 - Related to [[concepts/Cuffless-BP-Monitoring]] (BP monitoring approach in RDN candidates)
 - Related to [[sources/HT-AHA-2025]] (2025 AHA hypertension guideline: RDN COR 2b)
+
+## Sources
+- [[sources/HT-AHA-2025]]
+- [[sources/rnd-aha-2024]]

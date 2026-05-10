@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Atrial Fibrillation"
 tags: [cardiac-arrhythmias, acquired-arrhythmias, gene-therapy, atrial-fibrillation, anticoagulation, stroke-prevention]
-source_count: 20
+source_count: 22
 last_updated: 2026-05-01
 ---
 
@@ -57,6 +57,25 @@ Atrial fibrillation is the most prevalent sustained cardiac arrhythmia, characte
 - **Catheter ablation vs. amiodarone in AF + HF:** Di Biase 2016 RCT (n=203, persistent AF + HF + implanted device) — 70% catheter ablation vs. 34% amiodarone patients were AF-free at 2 years. Catheter ablation is preferred in this population. ([[sources/amiodarone-cvdrug-2020]])
 - **In HFrEF:** Amiodarone is the **only safe antiarrhythmic** for rhythm control in HFrEF — propafenone, flecainide, and dronedarone are associated with worse outcomes. SCD-HeFT (n=2521): amiodarone showed **no mortality benefit** vs placebo in HFrEF (LVEF <35%) — it does not replace ICD as primary prevention strategy. ([[sources/amiodarone-cvdrug-2020]], [[sources/HF-ESC-2021]])
 - See [[entities/Amiodarone]] for full pharmacology, dosing, toxicity monitoring, and drug interactions.
+
+#### Dronedarone for AF Rhythm and Rate Control
+- **Dronedarone** is a non-iodinated amiodarone derivative approved for rhythm and rate control in paroxysmal or persistent AF/flutter. It retains amiodarone's multichannel electrophysiological profile without thyroid, pulmonary, or neurological toxicity, at the cost of lower sustained efficacy. ([[sources/dronedarone-circ-2009]], rating: medium)
+- **EURIDIS/ADONIS (rhythm control):** n=1237 in sinus rhythm; dronedarone 400 mg BID vs placebo for 12 months. Median time to first AF recurrence 116 vs 53 days; AF recurrence rate 64.1% vs 75.2%; 27% post hoc RRR in hospitalisation and death. ([[sources/dronedarone-circ-2009]])
+- **ERATO (rate control):** In permanent AF on background rate-control therapy, dronedarone reduced resting ventricular rate by 11.7 bpm and exercise rate by 24.5 bpm. ([[sources/dronedarone-circ-2009]])
+- **ATHENA (morbidity/mortality):** n=4,628 high-risk AF patients; 24.2% RRR in composite CV hospitalisation or all-cause death (HR 0.76); stroke 34% RRR; arrhythmic death HR 0.55. All-cause mortality HR 0.84 (non-significant). ([[sources/dronedarone-circ-2009]])
+- **ANDROMEDA (TERMINATED):** Dronedarone was terminated early in NYHA III/IV CHF + LVEF <=35% due to excess mortality (HR 2.13). **Dronedarone is absolutely contraindicated in severe systolic heart failure.** In HFrEF, amiodarone remains the only safe antiarrhythmic. ([[sources/dronedarone-circ-2009]])
+- **Permanent AF:** Dronedarone should NOT be used for permanent AF (PALLAS trial, 2011 -- outside this source -- showed doubled CV events in permanent AF + CV risk factors; label now restricted to paroxysmal/persistent only).
+- See [[entities/Dronedarone]] for full pharmacology, drug interactions, and trial details.
+
+#### Flecainide for AF Rhythm Control
+- **Flecainide** (class 1C) is first-line for pharmacological cardioversion and SR maintenance in patients with **structurally normal hearts** (no CAD, no LV dysfunction, no cardiomyopathy, no Brugada syndrome). Its key mechanism is post-repolarization refractoriness (PRR) via slow Na+ channel unbinding, producing marked tachycardia-dependent atrial ERP prolongation during AF. ([[sources/flecainide-af-europace-2011]], rating: medium)
+- **IV cardioversion:** SR restoration in up to 95% within 1h; head-to-head RCT: flecainide 90% > propafenone 72% > amiodarone 64% (P=0.008). ([[sources/flecainide-af-europace-2011]])
+- **Pill-in-the-pocket (oral loading):** 75-85% conversion at 6-8h. Criteria: AF <48h, normal QRS, preserved LV function, no SA/AV node dysfunction, no BBB, no structural cardiomyopathy, no Brugada syndrome. First dose must be in a monitored hospital setting. ([[sources/flecainide-af-europace-2011]])
+- **SR maintenance meta-analysis (60 studies):** 65% responsive short-term; 49% long-term. Significant reduction in palpitations, tachycardia, and chest pain vs placebo. ([[sources/flecainide-af-europace-2011]])
+- **Class 1C flutter safety rule:** Flecainide can convert AF to atrial flutter with 1:1 AV conduction and fast wide-QRS ventricular response. **An AV nodal blocking drug must always be co-prescribed.** Isthmus ablation eliminates this risk and reliably controls AF symptoms while flecainide is continued. ([[sources/flecainide-af-europace-2011]])
+- **CAST context and current patient selection:** CAST (1991) showed increased mortality in post-MI patients; this excess mortality is attributed to proarrhythmia in structural heart disease, not a class-wide effect. Danish registry (n=151,500): no increased AF mortality with flecainide in appropriately selected patients (annualized mortality 2.54/100 person-years vs amiodarone 7.42). Absolute contraindications: CAD, prior MI, LVEF <35%, structural cardiomyopathy, Brugada syndrome. ([[sources/flecainide-af-europace-2011]])
+- See [[entities/Flecainide]] for full pharmacology, dosing, proarrhythmia management, and CPVT use.
+
 - **Catheter ablation:**
   - ESC 2024: Class I/A as first-line for paroxysmal AF; Class I/B for persistent AF after failed AADs; Class I for HFrEF if tachycardia-induced cardiomyopathy likely. Uninterrupted OAC required peri-procedure. ([[sources/AF-ESC-2024]])
   - AHA 2023: Class I/A for younger patients with few comorbidities and paroxysmal AF; Class IIa/B-R for broader paroxysmal/persistent AF population; Class I/A in HFrEF with GDMT. ([[sources/AF-AHA-2023]])
@@ -219,10 +238,12 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 - **CHA2DS2-VASc vs. cancer:** This guideline (ESC 2022 Cardio-Oncology) uses CHA2DS2-VASc (the older score) and notes it underestimates thromboembolic risk in cancer. The newer ESC 2024 AF guidelines use CHA2DS2-VA. In cancer patients, both scores should be considered lower-bound estimates. ([[sources/Cardio-Oncology-ESC-2022]], [[sources/AF-ESC-2024]])
 
 ## Connections
-- Related to [[concepts/Atrial-Cardiomyopathy]] — AF as manifestation/consequence of underlying atrial disease; AtCM reframes AF-first paradigm
-- Related to [[concepts/Atrial-Failure]] — persistent AF = end-stage AtCM
+- Related to [[concepts/Atrial-Cardiomyopathy]] 
+- Related to [[concepts/Atrial-Failure]] 
 - Related to [[entities/Amiodarone]]
-- Related to [[entities/Hypertension]] (highest attributable risk for AF)
+- Related to [[entities/Dronedarone]]
+- Related to [[entities/Flecainide]]
+- Related to [[entities/Hypertension]] 
 - Related to [[concepts/Drug-Induced-Arrhythmia]]
 - Related to [[concepts/Secondary-Mitral-Regurgitation]]
 - Related to [[concepts/Tricuspid-Regurgitation]]
@@ -258,9 +279,43 @@ All studies below are preclinical (porcine or canine models); no human AF gene t
 - Related to [[concepts/OSA-Arrhythmogenic-Substrate]]
 - Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
 - Related to [[sources/periop-aha-2024]]
-- Related to [[concepts/Heart-Healthy-Dietary-Patterns]] — alcohol and fish oil supplement AF risk
-- Related to [[entities/Ischemic-Stroke]] — early OAC after AF-related AIS; ELAN trial
-- Related to [[concepts/Subclinical-AF]] — device-detected SCAF; stroke risk, progression, anticoagulation thresholds
-- Related to [[sources/subclinical-af-aha-2019]] — AHA 2019 foundational statement on SCAF
-- Related to [[concepts/Epicardial-Adipose-Tissue-Arrhythmogenesis]] — structural, electrotonic, and paracrine EAT arrhythmogenesis mechanisms
-- Related to [[sources/epi-adipose-arrhythmia-jacc-2021]] — JACC 2021 state-of-the-art EAT review
+- Related to [[concepts/Heart-Healthy-Dietary-Patterns]] 
+- Related to [[entities/Ischemic-Stroke]] 
+- Related to [[concepts/Subclinical-AF]] 
+- Related to [[concepts/Epicardial-Adipose-Tissue-Arrhythmogenesis]]
+- Related to [[sources/epi-adipose-arrhythmia-jacc-2021]]
+
+## Connections
+- Related to [[sources/dronedarone-circ-2009]]
+- Related to [[sources/flecainide-af-europace-2011]]
+- Related to [[sources/subclinical-af-aha-2019]] 
+
+## Sources
+- [[sources/ACS-AHA-2025]]
+- [[sources/AF-AHA-2023]]
+- [[sources/AF-ESC-2024]]
+- [[sources/Cardio-Oncology-ESC-2022]]
+- [[sources/EAST-AFNET4-NEJM-2020]]
+- [[sources/HF-ESC-2021]]
+- [[sources/HT-AHA-2025]]
+- [[sources/MYBPC3-MYH7-JACCEP-2024]]
+- [[sources/ais-aha-2026]]
+- [[sources/amiodarone-cvdrug-2020]]
+- [[sources/arrhythmia-cardio-oncology-aha-2021]]
+- [[sources/atrial-cmp-esc-2025]]
+- [[sources/ca-af-ehj-2024]]
+- [[sources/diet-aha-2026]]
+- [[sources/dronedarone-circ-2009]]
+- [[sources/drug-arrhythmia-aha-2020]]
+- [[sources/eoaf-jama-2021]]
+- [[sources/eoaf-riskfactor-ehj-2026]]
+- [[sources/epi-adipose-arrhythmia-jacc-2021]]
+- [[sources/flecainide-af-europace-2011]]
+- [[sources/gene-therapy-arrhythmia-2025]]
+- [[sources/membrane-potential-physrev-2021]]
+- [[sources/obesity-cv-aha-2021]]
+- [[sources/osa-af-jama-2018]]
+- [[sources/periop-aha-2024]]
+- [[sources/sdb-arrhythmia-aha-2022]]
+- [[sources/subclinical-af-aha-2019]]
+- [[sources/vhd-esc-2025]]

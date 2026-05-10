@@ -137,3 +137,14 @@ Cascade family screening refers to the systematic cardiovascular and genetic eva
 - Related to [[concepts/Incidental-Cardiovascular-Variants]]
 - Related to [[sources/incident-gene-aha-2023]]
 - Related to [[sources/genetic-test-aha-2020]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/acm-hrs-2019]]
+- [[sources/arrhythmia-genetics-mgenetik-2025]]
+- [[sources/consumer-genetictest-aha-2025]]
+- [[sources/esc-cmp-2023]]
+- [[sources/genetic-cmp-jcf-2018]]
+- [[sources/genetic-test-aha-2020]]
+- [[sources/genetic-yield-jama-card-2022]]
+- [[sources/incident-gene-aha-2023]]

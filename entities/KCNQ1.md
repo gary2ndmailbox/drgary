@@ -2,8 +2,8 @@
 dg-publish: true
 title: "KCNQ1"
 tags: [genetics, ion-channels, channelopathies, potassium-channel]
-source_count: 2
-last_updated: 2026-04-11
+source_count: 3
+last_updated: 2026-05-05
 ---
 
 # KCNQ1
@@ -22,6 +22,13 @@ KCNQ1 is the gene encoding the Kv7.1 α-subunit of the slow delayed rectifier po
 
 - **Association with early-onset AF:** KCNQ1 was the 5th most common gene harboring P/LP variants in 1293 patients with early-onset AF (diagnosed <66 years): 8 participants (6% of all disease-associated variants); median AF diagnosis age 43 years (IQR 29–57). KCNQ1 causes LQT1 (type 1 LQTS), and its presence in early-onset AF reflects the genetic overlap between LQTS and AF. ([[sources/eoaf-jama-2021]])
 
+### Modifier Genes and Founder Populations
+- **KCNQ1-A341V South African founder population:** A large LQT1 founder cohort (~500 members, ~200 KCNQ1-A341V mutation carriers; ancestor emigrated Netherlands to South Africa in 1690 AD) demonstrates high clinical penetrance but substantial phenotypic heterogeneity, enabling modifier gene discovery against a controlled single-mutation background. ([[sources/modifier-genes-scd-ehj-2018]], rating: high)
+- **AKAP9 as modifier:** Variants in AKAP9 (encoding yotiao, a PKA anchoring protein regulating IKs via cAMP-dependent adrenergic signalling) were associated with longer QTc and greater cardiac event risk in KCNQ1-A341V carriers. Mechanism likely involves dysregulation of adrenergic IKs upregulation. ([[sources/modifier-genes-scd-ehj-2018]])
+- **Adrenergic receptor modifiers in LQT1:** Variants ADRA2C-Del322-325 and ADRB1-R389, associated with exaggerated adrenergic responses, were linked to faster resting heart rates and a trend toward more cardiac events in the South African LQT1 cohort — suggesting genetically heightened catecholamine release amplifies arrhythmic risk. ([[sources/modifier-genes-scd-ehj-2018]])
+- **KCNQ1 3'-UTR variants:** Three common variants in the KCNQ1 3'-UTR affect mRNA stability; in LQT1 carriers, variants in trans with the wild-type allele reduce the WT:mutant protein ratio, leading to longer QTc and more events. Effect is mutation-context-specific and absent in the general population. Replication in three LQT1 founder populations failed; findings remain uncertain. ([[sources/modifier-genes-scd-ehj-2018]])
+- **KCNQ1-rs2074238 (protective intronic variant):** Minor T allele of intronic KCNQ1 variant rs2074238 was associated with lower arrhythmic risk and shorter QTc in 112 discordant symptomatic/asymptomatic LQTS duo pairs; validated in 336 LQT1 subjects from South African and Finnish cohorts. Represents the clearest evidence for a protective modifier in LQTS; effect in LQT2 cohort is shorter QTc nominally but no significant association with cardiac events. ([[sources/modifier-genes-scd-ehj-2018]])
+
 ## Contradictions / Open Questions
 - **KCNQ1 in early-onset AF — causal vs. coincidental overlap:** KCNQ1 was identified in 8 of 1293 early-onset AF patients (6% of disease-associated variants) and is classified as an LQTS gene. It is unclear whether these patients have subclinical LQT1 driving AF, or whether IKs reduction promotes atrial remodeling independently. The management implication differs: if LQT1 is driving AF, beta-blockers and QT monitoring are required; if it is a primary atrial mechanism, anticoagulation and rhythm control take precedence. No guidelines currently address KCNQ1-AF management specifically. ([[sources/eoaf-jama-2021]])
 - **KCNQ1 bidirectional phenotype — loss-of-function vs. gain-of-function mutation confusion:** KCNQ1 loss-of-function causes LQT1 (most common LQTS subtype), while gain-of-function causes SQTS2. These opposite effects require opposite management strategies. A newly identified KCNQ1 variant of uncertain significance requires functional studies to distinguish direction of effect before treatment decisions can be made; this gap is particularly relevant in SQTS, a rare and undercharacterized syndrome. ([[sources/channelopathies-jaha-2025]])
@@ -33,3 +40,12 @@ KCNQ1 is the gene encoding the Kv7.1 α-subunit of the slow delayed rectifier po
 - Related to [[entities/Long-QT-Syndrome]]
 - Related to [[entities/Short-QT-Syndrome]]
 - Related to [[concepts/Early-Onset-Atrial-Fibrillation]]
+- Related to [[concepts/Modifier-Genes]]
+- Related to [[entities/NOS1AP]]
+- Related to [[sources/modifier-genes-scd-ehj-2018]]
+
+## Sources
+- [[sources/channelopathies-jaha-2025]]
+- [[sources/eoaf-jama-2021]]
+- [[sources/gene-therapy-arrhythmia-2025]]
+- [[sources/modifier-genes-scd-ehj-2018]]

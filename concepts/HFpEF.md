@@ -3,7 +3,7 @@ dg-publish: true
 title: "Heart Failure with Preserved Ejection Fraction (HFpEF)"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors, echocardiography, diastolic-function]
 source_count: 9
-last_updated: 2026-05-01
+last_updated: 2026-05-02
 ---
 
 # Heart Failure with Preserved Ejection Fraction (HFpEF)
@@ -43,6 +43,20 @@ HFpEF is defined by the presence of HF symptoms ± signs, LVEF ≥50%, and objec
 - **Anderson–Fabry Disease (AFD):** 40% of AFD patients meet ESC HF criteria; 91% of those have HFpEF (rather than HFrEF). Subclinical diastolic dysfunction may precede LVH — symptoms can appear before significant wall thickening. ([[sources/fabry-ehj-2024]], rating: high)
 - **ATTR cardiac amyloidosis (ATTR-CA):** Prevalence in HFpEF estimated at 5–13% (limited autopsy/nuclear screening data); one prospective biopsy study found 14% of HFpEF had cardiac amyloidosis, majority TTR type. ([[sources/echo-hfpef-ase-2025]], rating: very high)
 - See [[entities/Fabry-Disease]], [[concepts/Fabry-Cardiomyopathy]], and [[entities/ATTR-Amyloidosis]] for full detail.
+
+### Atrial Myopathy in HFpEF
+- In HFpEF, **mechanical atrial dysfunction** (impaired LASr, elevated LAVi) is an **independent and better predictor** than AF for adverse clinical outcomes including morbidity (HF) and cardiovascular mortality. AF alone is insufficient to capture the full atrial risk in this population. ([[sources/atrial-cmp-esc-2025]], rating: high)
+- LASr correlates with histological atrial fibrosis in advanced HF patients, making echocardiographic LASr a surrogate measure of atrial fibrosis — relevant for both diagnosis and prognostication in HFpEF. ([[sources/atrial-cmp-esc-2025]], rating: high)
+- A subset of HFpEF is characterized by **'disproportionate LA myopathy'** — LA dysfunction more pronounced than expected from LV dysfunction alone. Right heart dysfunction, enhanced left-to-right atrial interaction, and pericardial constraint may contribute. ([[sources/atrial-cmp-esc-2025]], rating: high)
+- The obesity-HFpEF phenotype features more atrial epicardial adipose tissue when AF co-occurs, contributing to atrial remodelling via paracrine fibrotic/inflammatory signalling. ([[sources/atrial-cmp-esc-2025]], rating: high)
+- This disproportionate LA myopathy may represent a distinct HFpEF phenotype or an early-stage manifestation of atrial failure — the distinction requires further study.
+- See [[concepts/Atrial-Cardiomyopathy]] and [[concepts/Atrial-Failure]] for the full AtCM diagnostic framework.
+
+### Clonal Hematopoiesis (TET2)
+- **TET2-CH is 2.4-fold enriched in HFpEF** — a gene-specific association not seen with the overall HFrEF/HFpEF classification, identifying CH as a potential contributor to HFpEF pathophysiology specifically. ([[sources/ch-aha-2026]], rating: very high)
+- Mechanism: TET2 loss-of-function → NLRP3 inflammasome overactivation → increased IL-1β secretion; elevated circulating IL-1β is unique to TET2-CH among all CH variants and is the likely mediator of the cardiac inflammatory phenotype. ([[sources/ch-aha-2026]])
+- CANTOS post-hoc: canakinumab (anti-IL-1β) reduced ischemic events far more in TET2-CH carriers — mechanistic relevance for HFpEF inflammatory phenotype under investigation. ([[sources/ch-aha-2026]])
+- See [[concepts/Clonal-Hematopoiesis]] for full gene-specific mechanisms, emerging therapeutic strategies, and the broader CH–HF risk association (25% overall HF risk increase in CH carriers).
 
 ## Diagnosis
 
@@ -90,6 +104,8 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 | E/A ratio | ≤0.8 (age-adjusted) OR ≥2 |
 | LAVi | >34 mL/m² |
 
+![](/raw/assets/Echo-HFpEF-ASE-2025.pdf-0017-02.png)
+
 **Diagnostic rule:**
 - **Diastolic dysfunction present if:** reduced e' + ≥1 Step 2 marker, **OR** normal e' + ≥2 Step 2 markers
 - **Additional supportive finding:** LV mass index >115 g/m² (men) or >95 g/m² (women), excluding athletes
@@ -119,7 +135,7 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - **2023 Recommendation:** SGLT2 inhibitor (dapagliflozin or empagliflozin) **Class I, Level A** to reduce risk of HF hospitalization or CV death. Benefit independent of T2DM status. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **ESC 2023 Algorithm — Class I:** Diuretics for fluid retention; SGLT2 inhibitor; treatment of aetiology, CV and non-CV comorbidities. Management remains heavily comorbidity-directed (AF, hypertension, diabetes, obesity, CKD, sleep apnoea). ([[sources/HF-update-ESC-2023]], rating: very high)
 
-### HFmrEF — Parallel SGLT2i Upgrade
+### SGLT2 Inhibitors in HFmrEF
 - HFmrEF (LVEF 41–49%): SGLT2 inhibitors upgraded to **Class I, Level A** (from Class IIb/no recommendation in 2021). Evidence base is the same two trials (EMPEROR-Preserved and DELIVER enrolled LVEF >40%). ([[sources/HF-update-ESC-2023]], rating: very high)
 - In HFmrEF, other agents (ACE-I/ARNI/ARB, beta-blocker, MRA) remain Class IIb based on subgroup analyses; diuretics remain Class I for fluid retention. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **SGLT2 inhibitors should be considered** in AFD-related HFpEF per ESC Class I recommendation; they may also confer additional renal benefit in AFD nephropathy. ([[sources/fabry-ehj-2024]], rating: high)
@@ -138,18 +154,6 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - **AHA 2022:** SGLT2i COR 2a — based solely on EMPEROR-Preserved. Published May 2022, before DELIVER (August 2022). ([[sources/HF-AHA-2022]], rating: very high)
 - **ESC 2023:** SGLT2i Class I, Level A — incorporates both EMPEROR-Preserved and DELIVER plus pooled meta-analysis. ([[sources/HF-update-ESC-2023]], rating: very high)
 - Both guidelines agree SGLT2i is beneficial in HFpEF; the difference in classification strength reflects publication timing, not disagreement on efficacy.
-
-## Atrial Dysfunction in HFpEF
-
-### Mechanical Atrial Dysfunction as an Independent Predictor
-- In HFpEF, **mechanical atrial dysfunction** (impaired LASr, elevated LAVi) is an **independent and better predictor** than AF for adverse clinical outcomes including morbidity (HF) and cardiovascular mortality. AF alone is insufficient to capture the full atrial risk in this population. ([[sources/atrial-cmp-esc-2025]], rating: high)
-- LASr correlates with histological atrial fibrosis in advanced HF patients, making echocardiographic LASr a surrogate measure of atrial fibrosis — relevant for both diagnosis and prognostication in HFpEF. ([[sources/atrial-cmp-esc-2025]], rating: high)
-- The obesity-HFpEF phenotype features more atrial epicardial adipose tissue when AF co-occurs, contributing to atrial remodelling via paracrine fibrotic/inflammatory signaling. ([[sources/atrial-cmp-esc-2025]], rating: high)
-
-### Disproportionate LA Myopathy
-- A subset of HFpEF is characterized by 'disproportionate LA myopathy' — LA dysfunction more pronounced than expected from LV dysfunction alone. Right heart dysfunction, enhanced left-to-right atrial interaction, and pericardial constraint may contribute. ([[sources/atrial-cmp-esc-2025]], rating: high)
-- This may represent a distinct HFpEF phenotype or an early-stage manifestation of atrial failure — the distinction requires further study.
-- See [[concepts/Atrial-Cardiomyopathy]] and [[concepts/Atrial-Failure]] for the full AtCM diagnostic framework.
 
 ## Contradictions / Open Questions
 - **Mechanical atrial dysfunction vs. AF in HFpEF:** ESC/HFA 2025 AtCM consensus shows mechanical atrial dysfunction is a better predictor than AF in HFpEF — yet HFpEF management frameworks (AHA/ESC) continue to rely heavily on AF detection as a primary driver of management decisions (NT-proBNP thresholds, OAC, rate/rhythm control). This tension suggests atrial structural markers may need formal incorporation into HFpEF diagnostic and management algorithms. ([[sources/atrial-cmp-esc-2025]], rating: high; [[sources/echo-hfpef-ase-2025]], rating: very high)
@@ -180,3 +184,17 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - Related to [[concepts/Visceral-Adiposity]] — epicardial fat and pericardial restraint in obesity-HFpEF
 - Related to [[concepts/Obesity-Paradox]] — less consistent in HFpEF than HFrEF
 - Related to [[sources/obesity-cv-aha-2021]]
+- Related to [[sources/atrial-cmp-esc-2025]]
+- Related to [[sources/ch-aha-2026]]
+- Related to [[concepts/Clonal-Hematopoiesis]] — TET2-CH 2.4× enriched in HFpEF; NLRP3/IL-1β mechanism
+
+## Sources
+- [[sources/HF-AHA-2022]]
+- [[sources/HF-ESC-2021]]
+- [[sources/HF-update-ESC-2023]]
+- [[sources/TTN-CVResearch-2022]]
+- [[sources/atrial-cmp-esc-2025]]
+- [[sources/ch-aha-2026]]
+- [[sources/echo-hfpef-ase-2025]]
+- [[sources/fabry-ehj-2024]]
+- [[sources/obesity-cv-aha-2021]]

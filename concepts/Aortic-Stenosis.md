@@ -123,3 +123,10 @@ Aortic stenosis (AS) is progressive obstruction of LV outflow due to calcificati
 - Related to [[entities/Heart-Failure]]
 - Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
 - Related to [[sources/periop-aha-2024]]
+
+## Sources
+- [[sources/VHD-AHA-2020]]
+- [[sources/hemodynamics-circ-2012]]
+- [[sources/periop-aha-2024]]
+- [[sources/vhd-esc-2025]]
+- [[sources/vhd-mechanism-aha-2024]]

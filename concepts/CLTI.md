@@ -93,3 +93,6 @@ The multispecialty care team for CLTI must include expertise in:
 - Related to [[concepts/Ankle-Brachial-Index]]
 - Related to [[entities/Heart-Failure]] (CLTI patients often have polyvascular disease and HF)
 - Related to [[entities/Chronic-Coronary-Disease]] (polyvascular disease)
+
+## Sources
+- [[sources/PVD-AHA-2024]]

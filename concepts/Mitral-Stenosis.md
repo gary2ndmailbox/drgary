@@ -84,3 +84,8 @@ Mitral stenosis (MS) is obstruction of diastolic flow from the LA to the LV due 
 - Related to [[concepts/Tricuspid-Regurgitation]]
 - Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
 - Related to [[sources/periop-aha-2024]]
+
+## Sources
+- [[sources/hemodynamics-circ-2012]]
+- [[sources/periop-aha-2024]]
+- [[sources/vhd-esc-2025]]

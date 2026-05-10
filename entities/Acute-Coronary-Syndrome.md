@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Acute Coronary Syndrome"
 tags: [acute-coronary-syndrome, STEMI, NSTE-ACS, coronary-artery-disease, antiplatelet-therapy, revascularization, guidelines]
-source_count: 1
-last_updated: 2026-04-21
+source_count: 2
+last_updated: 2026-05-02
 ---
 
 # Acute Coronary Syndrome (ACS)
@@ -19,6 +19,14 @@ Acute coronary syndromes (ACS) encompass a clinical spectrum of myocardial ische
 - Three related clinical conditions along a continuum of severity: (1) Unstable angina — transient ischemia without significant myonecrosis (troponin normal); (2) NSTEMI — subendocardial ischemia, partially occluded artery, elevated troponin; (3) STEMI — transmural ischemia, usually completely occluded artery, ST-elevation on ECG with elevated troponin. ([[sources/ACS-AHA-2025]], rating: very high)
 - **Universal MI Definition Types:** Type 1 (atherothrombotic, plaque disruption) — focus of this guideline; Type 2 (supply/demand imbalance); Types 3–5 (procedure-related or cardiac death). ([[sources/ACS-AHA-2025]], rating: very high)
 - STEMI ECG criteria: ST-elevation ≥1 mm in ≥2 anatomically contiguous leads (J-point); ≥2 mm in men ≥40 y, ≥2.5 mm in men <40 y, ≥1.5 mm in women in V2–V3. ([[sources/ACS-AHA-2025]], rating: very high)
+
+### OMI/NOMI Paradigm — Challenging the STEMI/NSTEMI Model
+- An emerging paradigm proposes replacing STEMI/NSTEMI with **Occlusion MI (OMI) vs Non-Occlusion MI (NOMI)**, stratifying by underlying pathophysiology (persistent complete occlusion = OMI) rather than ECG morphology (STE present/absent). ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
+- STEMI criteria have only **43% sensitivity** for acute coronary occlusion by meta-analysis; **38% of total LAD occlusions (TIMI-0 flow)** never meet STEMI criteria on any serial pre-angiography ECG. ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
+- Among NSTEMI patients, **25–34% have TIMI-0/1 flow** at angiography; this subgroup has nearly twice the mortality of NSTEMI with TIMI ≥2. ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
+- OMI ECG features beyond STE that identify occlusion (in decreasing prevalence in subtle LAD OMI): subtle STE <1mm (85%), hyperacute T-waves (85%), pathologic Q-waves (70%), reciprocal STD (50%), terminal QRS distortion (20%). See [[concepts/OMI-NOMI-Paradigm]] and [[concepts/Hyperacute-T-waves]].
+- Expert ECG interpretation and the PMCardio Queen of Hearts AI model both achieved **100% sensitivity on the first ECG** for all total LAD occlusions, compared to 62% for STEMI criteria (P<0.0001). ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
+- Patients with LAD occlusion not meeting STEMI criteria had **median door-to-balloon time 97 vs 40 min** (P<0.001) with equivalent infarct size, demonstrating that STEMI criteria failure translates directly into treatment delays without reducing infarct burden. ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
 
 ### Epidemiology and Disparities
 - Incidence of MI higher in Black males vs non-Hispanic White males — multifactorial (higher CAD risk factors, less guideline-directed medications, socioeconomic factors). ([[sources/ACS-AHA-2025]], rating: very high)
@@ -83,6 +91,8 @@ Acute coronary syndromes (ACS) encompass a clinical spectrum of myocardial ische
 ---
 
 ## Contradictions / Open Questions
+- **STEMI criteria vs OMI — the paradigm gap:** Standard STEMI STE criteria miss 38% of total LAD occlusions on all serial ECGs, yet remain the primary gatekeeper for emergent cath lab activation. NSTEMI patients with TIMI-0/1 flow (occluded artery) have nearly twice the mortality of NSTEMI with open arteries — a patient group currently denied immediate reperfusion under the STEMI model. Expert ECG interpretation and AI (PMCardio Queen of Hearts) both achieve 100% sensitivity where STEMI criteria fail, but widespread implementation requires validated quantitative criteria and prospective outcome data for OMI-based activation strategies. ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
+- **Discharge diagnosis paradox:** In patients with confirmed LAD occlusion not meeting STEMI criteria, the discharge diagnosis of STEMI vs NSTEMI correlated with door-to-balloon time rather than actual ECG findings — those treated quickly were labelled STEMI, those treated late were labelled NSTEMI. This suggests diagnostic labels may sometimes be retrospectively influenced by quality metric considerations rather than clinical reality. ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
 - **Ticagrelor monotherapy vs aspirin monotherapy:** Prasugrel monotherapy safety not established post-ACS; aspirin monotherapy after P2Y12 discontinuation carries excess thrombotic risk in STEMI subgroup. Optimal single antiplatelet after DAPT phase in ACS remains debated. ([[sources/ACS-AHA-2025]], rating: very high)
 - **Routine pre-loading of P2Y12 inhibitors in NSTE-ACS:** No RCT benefit for ticagrelor pre-loading before early (<24 h) invasive strategy; prasugrel pre-loading increases bleeding without ischemic benefit. Yet pharmacodynamic delay in STEMI context supports earlier loading — evidence gap for optimal timing. ([[sources/ACS-AHA-2025]], rating: very high)
 - **Colchicine noncardiovascular death signal:** COPS trial showed 8 vs 1 noncardiovascular deaths in colchicine vs placebo arm. COLCOT (larger, longer) did not confirm this. No definitive mechanistic explanation. Ongoing trials (post-MI specific) are needed before routine use can be unconditionally recommended. ([[sources/ACS-AHA-2025]], rating: very high)
@@ -107,3 +117,12 @@ Acute coronary syndromes (ACS) encompass a clinical spectrum of myocardial ische
 - Related to [[concepts/Dyslipidemia-Management]] — LDL-C targets and statin/nonstatin use in ACS
 - Related to [[concepts/ASCVD-Risk-Assessment]] — secondary prevention context
 - Related to [[concepts/Right-Heart-Catheterization]] — cardiogenic shock hemodynamic assessment
+- Related to [[concepts/OMI-NOMI-Paradigm]] — paradigm shift challenging STEMI/NSTEMI classification
+- Related to [[concepts/Hyperacute-T-waves]] — most common OMI ECG finding missed by STEMI criteria
+- Related to [[concepts/ST-T-Changes]] — mechanism and measurement of ischemia-related ECG changes
+- Related to [[entities/PMCardio-Queen-of-Hearts]] — AI ECG model achieving 100% sensitivity for LAD OMI
+
+## Sources
+- [[sources/ACS-AHA-2025]]
+- [[sources/CCS-AHA-2023]]
+- [[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]]

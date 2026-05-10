@@ -37,3 +37,8 @@ MYH7 encodes the β-myosin heavy chain, the predominant myosin isoform in adult 
 - Related to [[concepts/HCM-Risk-SCD]]
 - Related to [[concepts/Atrial-Myopathy-in-HCM]]
 - Related to [[concepts/Catheter-Ablation-AF]]
+
+## Sources
+- [[sources/HCM-VA-FCVMed-2022]]
+- [[sources/MYBPC3-MYH7-JACCEP-2024]]
+- [[sources/eoaf-jama-2021]]

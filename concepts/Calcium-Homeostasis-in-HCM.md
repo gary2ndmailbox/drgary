@@ -59,3 +59,6 @@ Calcium homeostasis dysregulation in HCM refers to three interrelated disturbanc
 - Related to [[entities/RYR2]]
 - Related to [[entities/Mavacamten]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
+
+## Sources
+- [[sources/HCM-VA-FCVMed-2022]]

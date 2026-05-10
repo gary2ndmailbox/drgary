@@ -52,3 +52,7 @@ Pulsed-field ablation (PFA) is a non-thermal catheter-based energy modality that
 - Related to [[concepts/Catheter-Ablation-AF]]
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[sources/ca-af-ehj-2024]]
+
+## Sources
+- [[sources/PVC-ablation-jaccep-2024]]
+- [[sources/ca-af-ehj-2024]]

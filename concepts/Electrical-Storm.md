@@ -77,3 +77,6 @@ Electrical storm (ES) is defined as ventricular arrhythmia (VA) that occurs **3 
 - Optimal pharmacological sequencing in SHD-associated ES not established by RCTs.
 - Role of stellate ganglion blockade vs. LCSD in refractory non-operative setting is unresolved.
 - Timing and selection criteria for emergency catheter ablation in haemodynamically unstable ES remain expert opinion (Level C evidence).
+
+## Sources
+- [[sources/VA-SCD-ESC-2022]]

@@ -38,3 +38,8 @@ The Shanghai Score System is a point-based diagnostic framework used to assess t
 - Related to [[entities/Brugada-Syndrome]]
 - Related to [[entities/Early-Repolarization-Syndrome]]
 - Related to [[concepts/Pharmacological-Provocation-Testing]]
+
+## Sources
+- [[sources/brs-jaccep-2022]]
+- [[sources/channelopathies-jaha-2025]]
+- [[sources/pharmacological-provocation-europace-2025]]

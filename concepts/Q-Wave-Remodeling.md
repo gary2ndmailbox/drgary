@@ -55,3 +55,6 @@ Post-infarction Q-wave remodeling refers to the progressive regression (loss) of
 - Related to [[concepts/Myocardial-Viability]] — transmural LGE extent, scar persistence, viability thresholds
 - Related to [[entities/Acute-Coronary-Syndrome]] — STEMI, primary PCI reperfusion context
 - Related to [[sources/qwave-mri-jacc-imaging-2012]]
+
+## Sources
+- [[sources/qwave-mri-jacc-imaging-2012]]

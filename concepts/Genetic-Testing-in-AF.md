@@ -123,11 +123,15 @@ Standard CHA2DS2-VASc/CHADS-65 frameworks may underestimate stroke risk in certa
 - Related to [[entities/PKP2]]
 - Related to [[entities/SCN5A]]
 - Related to [[concepts/Arrhythmogenic-Cardiomyopathy]]
-- Related to [[sources/eoaf-jama-2021]]
-- Related to [[sources/eoaf-riskfactor-ehj-2026]]
-- Related to [[sources/genetic-eoaf-ehj-2024]]
-- Related to [[sources/genetic-af-dxmx-jce-2022]]
-- Related to [[sources/genetic-af-cjc-2024]]
-- Related to [[sources/HF-ESC-2021]]
-- Related to [[sources/Biobank-AF-JAMA-2024]]
-- Related to [[sources/genetic-yield-jama-card-2022]]
+
+
+## Sources
+- [[sources/AF-AHA-2023]]
+- [[sources/Biobank-AF-JAMA-2024]]
+- [[sources/HF-ESC-2021]]
+- [[sources/eoaf-jama-2021]]
+- [[sources/eoaf-riskfactor-ehj-2026]]
+- [[sources/genetic-af-cjc-2024]]
+- [[sources/genetic-af-dxmx-jce-2022]]
+- [[sources/genetic-eoaf-ehj-2024]]
+- [[sources/genetic-yield-jama-card-2022]]

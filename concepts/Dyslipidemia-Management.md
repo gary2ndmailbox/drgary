@@ -134,3 +134,10 @@ Dyslipidemias are disorders of blood lipid levels encompassing elevated LDL-C (a
 - Related to [[concepts/Heart-Healthy-Dietary-Patterns]] — the 9-feature AHA dietary framework for CVD risk reduction; dietary fat quality and LDL-C evidence
 - Related to [[entities/Heart-Failure]] — statins considered in HFrEF; HF is a high-risk feature in secondary prevention
 - Related to [[entities/Atrial-Fibrillation]] — IPE and fish oil supplements both associated with AF risk
+
+## Sources
+- [[sources/ACS-AHA-2025]]
+- [[sources/CCS-AHA-2023]]
+- [[sources/diet-aha-2026]]
+- [[sources/lipid-aha-2026]]
+- [[sources/lipid-esc-2025]]

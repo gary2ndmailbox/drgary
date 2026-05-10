@@ -65,3 +65,8 @@ Key pooled hazard ratios from the largest VA-specific DCM meta-analysis (Sammani
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[concepts/HCM-Risk-SCD]]
 - Related to [[concepts/Cascade-Family-Screening]]
+
+## Sources
+- [[sources/VA-DCM-Sammani-2020]]
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/esc-cmp-2023]]

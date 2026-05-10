@@ -89,3 +89,6 @@ Among symptomatic PAD patients: previous lower extremity revascularisation, atri
 - Related to [[concepts/CLTI]]
 - Related to [[entities/Atrial-Fibrillation]] (major embolic source for ALI)
 - Related to [[concepts/Ankle-Brachial-Index]]
+
+## Sources
+- [[sources/PVD-AHA-2024]]

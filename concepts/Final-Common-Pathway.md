@@ -49,3 +49,6 @@ The "final common pathway" hypothesis states that hereditary cardiovascular dise
 - Related to [[entities/PKP2]]
 - Related to [[entities/SCN5A]]
 - Related to [[concepts/Ion-Channel-Mutations]]
+
+## Sources
+- [[sources/acm-hrs-2019]]

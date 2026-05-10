@@ -108,3 +108,7 @@ Obesity is a chronic, multifactorial disease with complex biological, psychosoci
 - Related to [[entities/Hypertension]] — obesity-related RAAS/SNS activation
 - Related to [[concepts/Epicardial-Adipose-Tissue-Arrhythmogenesis]] — EAT arrhythmogenic mechanisms (structural, electrotonic, paracrine)
 - Related to [[sources/epi-adipose-arrhythmia-jacc-2021]] — JACC 2021 EAT state-of-the-art review
+
+## Sources
+- [[sources/epi-adipose-arrhythmia-jacc-2021]]
+- [[sources/obesity-cv-aha-2021]]

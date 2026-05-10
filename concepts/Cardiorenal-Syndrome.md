@@ -135,3 +135,7 @@ Cardiorenal syndrome (CRS) refers to the bidirectional pathophysiological intera
 - Related to [[concepts/Diuretic-Resistance]] — mechanisms and management of diuretic resistance in CRS
 - Related to [[sources/AKI-HF-AHA-2024]]
 - Related to [[sources/cardiorenal-aha-2019]]
+
+## Sources
+- [[sources/AKI-HF-AHA-2024]]
+- [[sources/cardiorenal-aha-2019]]

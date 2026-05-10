@@ -108,3 +108,6 @@ Genes are ranked by consistency across four databases (CircaDB D:D/L:D; CircaAge
 - Related to [[concepts/Electrical-Remodeling]] — clock-driven transcriptional remodeling of ion channel expression
 - Related to [[concepts/OSA-Arrhythmogenic-Substrate]] — circadian clock disruption by OSA; shared pathway with SCA risk
 - Related to [[sources/circadian-scd-jmcc-2025]]
+
+## Sources
+- [[sources/circadian-scd-jmcc-2025]]

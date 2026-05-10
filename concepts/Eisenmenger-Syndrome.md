@@ -100,3 +100,6 @@ Eisenmenger syndrome is the consequence of large, unrepaired intra- or extracard
 - Related to [[entities/Atrial-Fibrillation]] — rhythm control critically important in Eisenmenger
 - Related to [[concepts/Right-Heart-Catheterization]] — essential for diagnosis; quantifies PVR and shunt
 - Related to [[concepts/PAH-Risk-Stratification]] — 4-strata risk model adapted for Eisenmenger
+
+## Sources
+- [[sources/ACHD-AHA-2025]]

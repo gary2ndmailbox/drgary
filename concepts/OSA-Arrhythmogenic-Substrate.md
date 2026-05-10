@@ -107,3 +107,7 @@ The SDB arrhythmogenic substrate describes the complex, dynamic, and multilayere
 - Related to [[concepts/AF-Staging]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[entities/Heart-Failure]]
+
+## Sources
+- [[sources/osa-af-jama-2018]]
+- [[sources/sdb-arrhythmia-aha-2022]]

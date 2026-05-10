@@ -65,3 +65,8 @@ Non-dilated left ventricular cardiomyopathy (NDLVC) is a newly defined phenotypi
 - Related to [[concepts/Arrhythmogenic-Cardiomyopathy]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[concepts/Cascade-Family-Screening]]
+
+## Sources
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/acm-hrs-2019]]
+- [[sources/esc-cmp-2023]]

@@ -64,3 +64,6 @@ Prepregnancy cardiovascular health (CVH) refers to the cardiovascular risk facto
 - Related to [[entities/Maternal-Health-Disparities]] — non-Hispanic Black women disproportionately carry poor prepregnancy CVH
 - Related to [[concepts/ASCVD-Risk-Assessment]] — life-course and primordial prevention framework
 - Related to [[concepts/LQTS-Pregnancy-Management]] — pregnancy management in inherited arrhythmia; overlapping maternal CVH context
+
+## Sources
+- [[sources/prepregnancy-aha-2023]]

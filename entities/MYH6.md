@@ -27,3 +27,6 @@ MYH6 encodes the α-myosin heavy chain, a myosin isoform expressed predominantly
 - Related to [[concepts/Genetic-Testing-in-AF]]
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/MYH7]]
+
+## Sources
+- [[sources/eoaf-jama-2021]]

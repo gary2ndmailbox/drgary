@@ -55,3 +55,7 @@ Maternal health disparities refer to the systematic, avoidable differences in ma
 - Related to [[concepts/Preeclampsia]] — Black race aHR 1.6 for preeclampsia; higher severity and mortality in Black women
 - Related to [[concepts/Lifes-Essential-8]] — racial/ethnic disparities visible across all LE8 metrics
 - Related to [[concepts/ASCVD-Risk-Assessment]] — PREVENT equations intended to improve equity (replaced Pooled Cohort Equations)
+
+## Sources
+- [[sources/ht-pregnancy-aha-2022]]
+- [[sources/prepregnancy-aha-2023]]

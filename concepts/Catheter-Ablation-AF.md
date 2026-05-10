@@ -159,3 +159,12 @@ Catheter ablation for AF (primarily pulmonary vein isolation, PVI) is a percutan
 - Related to [[entities/HCM]]
 - Related to [[entities/MYBPC3]]
 - Related to [[entities/MYH7]]
+
+## Sources
+- [[sources/AF-AHA-2023]]
+- [[sources/AF-ESC-2024]]
+- [[sources/EAST-AFNET4-NEJM-2020]]
+- [[sources/MYBPC3-MYH7-JACCEP-2024]]
+- [[sources/ca-af-ehj-2024]]
+- [[sources/genetic-af-cjc-2024]]
+- [[sources/genetic-af-dxmx-jce-2022]]

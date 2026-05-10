@@ -80,3 +80,7 @@ The key discriminating finding is whether ventricular filling is **discordant** 
 - Related to [[entities/ATTR-Amyloidosis]]
 - Related to [[entities/Anderson-Fabry-Disease]]
 - Related to [[entities/Pulmonary-Hypertension]]
+
+## Sources
+- [[sources/hemodynamics-circ-2012]]
+- [[sources/rhc-hf-ehj-2025]]

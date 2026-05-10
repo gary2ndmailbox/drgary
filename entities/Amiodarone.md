@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Amiodarone"
 tags: [amiodarone, antiarrhythmic-drugs, drug-toxicity, ventricular-arrhythmias, atrial-fibrillation]
-source_count: 2
+source_count: 6
 ---
 
 # Amiodarone
@@ -58,6 +58,13 @@ Amiodarone is a benzofuran-derived iodine-rich antiarrhythmic agent classified a
 
 ---
 
+### Dronedarone vs Amiodarone
+- **Structural differences:** Dronedarone is a non-iodinated benzofuran derivative of amiodarone -- iodine atoms removed (eliminating thyroid/pulmonary toxicity), methanesulfonyl group added (reduces lipophilicity), resulting in a half-life of ~24 hours vs amiodarone's 40-55 days. ([[sources/dronedarone-circ-2009]], rating: medium)
+- **Relative potency differences:** Dronedarone is 10x more potent as an INa blocker and 100x more potent as an IK-Ach blocker than amiodarone at equal concentrations. Amiodarone has greater IKr blockade and longer duration of action. The superior INa blockade of dronedarone likely accounts for its better ventricular arrhythmia suppression in ischaemia models -- but also for its contractility hazard in severe HF (ANDROMEDA). ([[sources/dronedarone-circ-2009]])
+- **DIONYSOS head-to-head:** Amiodarone is significantly more effective than dronedarone for maintaining sinus rhythm in persistent AF (primary composite endpoint: 55.3% amiodarone vs 73.9% dronedarone); amiodarone has more cardiac adverse events (bradycardia, QT prolongation), dronedarone has more GI effects. When extracardiac toxicity or thyroid comorbidity limits amiodarone use, dronedarone is the preferred alternative -- provided the patient does not have NYHA III/IV HF with LVEF <=35%. ([[sources/dronedarone-circ-2009]])
+
+---
+
 ## Drug Interactions
 - **Warfarin:** Inhibits CYP2C9/3A4 + S-warfarin → reduce warfarin dose by 30–50%; monitor INR closely. ([[sources/amiodarone-cvdrug-2020]])
 - **Simvastatin / atorvastatin:** CYP3A4 inhibition → increased statin levels → myopathy/rhabdomyolysis risk. Max simvastatin 20 mg with amiodarone. Consider pravastatin (unaffected). ([[sources/amiodarone-cvdrug-2020]])
@@ -78,22 +85,46 @@ Amiodarone is a benzofuran-derived iodine-rich antiarrhythmic agent classified a
 
 | Organ | Toxicity | Relative Risk vs Placebo | Monitoring |
 |-------|----------|--------------------------|------------|
-| Thyroid | Hyper/hypothyroid | RR 4.4 | TSH + free T4 every 6 months |
-| Lung | Interstitial lung disease, hypersensitivity syndrome (1–2%; fatal 10%) | RR 1.77 | Baseline PFTs + DLCO; annual CXR; repeat PFTs if symptomatic |
+| Thyroid | Hyper/hypothyroid | RR 4.4 | TSH + free T4 every 3 months during therapy; continue ≥1 year post-discontinuation |
+| Lung | Interstitial lung disease (1–15%); 6 patterns incl. fibrosis (0.1%) and ARDS (post-surgery); hospitalisation mortality 21–33% | RR 1.77 | Baseline CXR + PFTs + DLCO; high-risk patients every 3–6 months; isolated DLCO decrease alone does NOT warrant stopping |
 | Liver | Transaminitis (0.5–1%); rare fatal hepatic failure | RR 2.3 | LFTs every 6 months; reduce/stop if AST/ALT >2× ULN |
 | Heart | Bradycardia (2–5%); QTc prolongation | RR 1.9 | ECG at baseline and annually |
 | Eye | Corneal microdeposits (up to 90%); optic neuropathy (rare) | — | Baseline + annual slit-lamp exam |
 | Skin | Photosensitivity (25–75%); hyperpigmentation (4–9%) | RR 1.99 | Annual physical exam; sunscreen use |
 
 ### Thyroid Management
-- **Hypothyroidism (AIH):** Wolff-Chaikoff effect; treat with levothyroxine; continue amiodarone if treating VT; stop for AF if alternatives exist. Expect resolution 2–4 months after stopping. ([[sources/amiodarone-cvdrug-2020]])
-- **Type I AIT** (excess iodine synthesis in abnormal thyroid): methimazole 40–80 mg/day or PTU 400–800 mg/day; stop amiodarone; start alternative. ([[sources/amiodarone-cvdrug-2020]])
-- **Type II AIT** (destructive thyroiditis in normal thyroid): prednisone 40–60 mg/day; may continue amiodarone initially; if no improvement in 1–2 months, stop amiodarone. Frequently progresses to hypothyroidism. ([[sources/amiodarone-cvdrug-2020]])
-- Refer to endocrinologist for all thyroid toxicities. ([[sources/amiodarone-cvdrug-2020]])
+See dedicated concept page: [[concepts/Amiodarone-Induced-Thyroid-Disorders]]
+
+- **Incidence:** 2–24% overall; thyroid toxicity is **NOT dose-dependent** — similar risk on low and high doses ([[sources/amiodarone-thyroid-jcem-2021]], rating: high)
+- **Mechanism — iodine-related:** each 200 mg tablet releases ~7 mg free iodine (23–47× daily requirement); triggers Wolff-Chaikoff effect (→ AIH) or Jod-Basedow phenomenon (→ Type 1 AIT in autonomous glands) ([[sources/amiodarone-thyroid-jcem-2021]])
+- **Mechanism — non-iodine:** inhibits deiodinases (↓ T3, ↑ rT3), blocks T3 nuclear receptor, directly cytotoxic to follicular cells (→ Type 2 AIT destructive thyroiditis); euthyroid patients show transient ↑ TSH/FT4/rT3 in first month, normalising by 3–6 months; T3 remains persistently low ([[sources/amiodarone-thyroid-jcem-2021]])
+- **Hypothyroidism (AIH):** Wolff-Chaikoff failure ± Hashimoto thyroiditis; treat with levothyroxine (increase gradually — rapid escalation risks arrhythmias); 60% transient (resolves 2–4 months after amiodarone cessation); continue amiodarone if needed for life-threatening arrhythmia ([[sources/amiodarone-cvdrug-2020]], [[sources/amiodarone-thyroid-jcem-2021]])
+- **Type 1 AIT** (iodine-driven autonomous overproduction in abnormal thyroid — goiter, Graves'): methimazole 40–60 mg/day preferred (up to 120 mg/day); PTU if methimazole contraindicated; suspect mixed type if no response at 3–4 weeks ([[sources/amiodarone-thyroid-jcem-2021]])
+- **Type 2 AIT** (destructive thyroiditis in previously normal gland; often onset >2 years or post-discontinuation): prednisone 30–40 mg/day for 2–4 weeks then taper; FT3 normalisation expected ~8 days; 16% permanently hypothyroid after treatment; amiodarone continuation often feasible (self-limited process) ([[sources/amiodarone-thyroid-jcem-2021]])
+- **Mixed Type 1/2 AIT:** treat with both methimazole 40 mg/day + prednisone 40 mg/day simultaneously; taper thionamide if FT3/TT3 declines >50%; no response → thyroidectomy ([[sources/amiodarone-thyroid-jcem-2021]])
+- **Thyroidectomy:** for refractory AIT, reduced LVEF with deteriorating cardiac function, or malignant arrhythmias unresponsive to medical therapy; 5-and-10-year mortality benefit confirmed in moderate-to-severe LVEF impairment subgroup (Capellani n=207); multidisciplinary team decision ([[sources/amiodarone-thyroid-jcem-2021]])
+- **AIT + anticoagulation:** thyrotoxicosis enhances warfarin effect; amiodarone inhibits CYP2C9/3A4 (warfarin) and P-gp/CYP3A4 (rivaroxaban, apixaban) — triple interaction in AIT patients on OAC requires careful monitoring and dose adjustment ([[sources/amiodarone-thyroid-jcem-2021]])
+- **Late-onset/post-discontinuation AIT:** 7% develop Type 2 AIT up to 7–16 months after stopping amiodarone — monitor thyroid for ≥1 year post-cessation; 75% risk re-AIT if restarted ([[sources/amiodarone-thyroid-jcem-2021]])
+- AIT ICU mortality: **23%** when complicated by thyroid storm ([[sources/amiodarone-thyroid-jcem-2021]])
+- Refer to endocrinologist for all thyroid toxicities ([[sources/amiodarone-cvdrug-2020]])
 
 ### Pulmonary Management
-- Stop amiodarone promptly; refer to pulmonologist; start prednisone 40–60 mg/day. ([[sources/amiodarone-cvdrug-2020]])
-- Higher risk in pre-existing lung disease (asthma, COPD) or O₂-dependent patients. ([[sources/amiodarone-cvdrug-2020]])
+See dedicated concept page: [[concepts/Amiodarone-Pulmonary-Toxicity]]
+
+- **Mechanism:** amiodarone and desethylamiodarone concentrate 100–500× in lung tissue; drug persists up to 1 year post-cessation; foamy macrophages = exposure marker (not diagnostic of toxicity) ([[sources/amiodarone-pulmonary-clin-chest-2004]], rating: medium)
+- **6 clinical patterns:** subacute infiltrative pneumonitis (most common), organising pneumonia, pulmonary fibrosis (~0.1%; irreversible), pulmonary nodules/masses (6–12%), ARDS (post-thoracic surgery; ~50% fatality), subclinical APT (reversible) ([[sources/amiodarone-pulmonary-clin-chest-2004]])
+- **Key imaging feature:** high-attenuation CT changes (iodine content); asymmetric involvement; right upper lobe predilection; subpleural distribution ([[sources/amiodarone-pulmonary-clin-chest-2004]])
+- **DLCO — key monitoring tool:** earliest functional marker; DLCO ≥15% decrease = sensitivity threshold; ≥30% = specificity threshold; **isolated DLCO decrease without clinical/imaging evidence does NOT warrant stopping amiodarone** ([[sources/amiodarone-pulmonary-clin-chest-2004]])
+- **ARDS trigger:** high-concentration oxygen + amiodarone during cardiac or pulmonary surgery; also reported with iodinated contrast media (2 fatal cases — use caution) ([[sources/amiodarone-pulmonary-clin-chest-2004]])
+- **Treatment:** stop amiodarone (under cardiological supervision) + prednisolone 0.75–1 mg/kg/day; maintain until definite clinical + radiographic response; taper slowly over minimum 6 months (often 1 year); early withdrawal → recurrence (potentially fatal) ([[sources/amiodarone-pulmonary-clin-chest-2004]])
+- **"Amiodarone effect" vs "amiodarone toxicity":** All chronically treated patients develop ubiquitous lipoid pneumonia (foamy macrophages, asymptomatic DLCO decline) — this is NOT a reason to stop; "amiodarone toxicity" refers to distinct inflammatory patterns requiring intervention ([[sources/amiodarone-pulmonary-drugsafety-2010]], rating: medium)
+- **Full clinical taxonomy (9 patterns):** CEP, COP, AFOP, amiodaronoma (PET-positive mass, right upper lobe, mimic malignancy), NSIP-like, IPF-like, DIP, ALI/ARDS, DAH ([[sources/amiodarone-pulmonary-drugsafety-2010]])
+- **ACE inhibitors/ARBs potentially protective:** Angiotensin II (elevated in HF) enhances amiodarone-induced AEC apoptosis; two retrospective studies show lower APT rates in patients on ACE-I/ARBs ([[sources/amiodarone-pulmonary-drugsafety-2010]])
+- **KL-6 biomarker:** NPV 92% at >500 U/mL (useful to rule out APT); sensitivity only 25% ([[sources/amiodarone-pulmonary-drugsafety-2010]])
+- **CT density >70 HU:** suggestive of APT but absent in 27–55% of confirmed cases — not a reliable rule-out criterion ([[sources/amiodarone-pulmonary-drugsafety-2010]])
+- **Corticosteroid taper:** ≤5 mg/day reduction; relapse risk persists up to 8 months after complete cessation ([[sources/amiodarone-pulmonary-drugsafety-2010]])
+- **If amiodarone cannot be stopped:** dose reduction + corticosteroids can achieve adequate control of both APT and arrhythmia in selected patients ([[sources/amiodarone-pulmonary-clin-chest-2004]], [[sources/amiodarone-pulmonary-drugsafety-2010]])
+- Higher risk in pre-existing lung disease (COPD, emphysema), prior pneumonectomy, or O₂-dependent patients; AFFIRM data: pre-existing lung disease does NOT increase pulmonary death or all-cause mortality ([[sources/amiodarone-cvdrug-2020]], [[sources/amiodarone-pulmonary-clin-chest-2004]], [[sources/amiodarone-pulmonary-drugsafety-2010]])
 
 ### Cardiac Monitoring
 - HR >40 bpm asymptomatic: maintain dose. HR <40 bpm: reduce by 50%. Symptomatic bradycardia: reduce 50% or stop. ([[sources/amiodarone-cvdrug-2020]])
@@ -118,10 +149,13 @@ Amiodarone is a benzofuran-derived iodine-rich antiarrhythmic agent classified a
 - **Amiodarone vs. procainamide for stable VT:** PROCAMIO RCT showed procainamide superior in acute termination; however the trial was small (n=62) and procainamide is unavailable as a long-term oral agent in the USA — the practical clinical choice between these two agents is context-dependent. ([[sources/amiodarone-cvdrug-2020]])
 - **Amiodarone in HFrEF — no mortality benefit (SCD-HeFT) but remains only safe AAD:** Amiodarone showed no mortality benefit vs placebo in HFrEF (LVEF <35%) in SCD-HeFT, yet guidelines still designate it the only safe antiarrhythmic for rhythm control in HFrEF. This creates a tension: amiodarone is "safe" in HFrEF in the sense of not worsening mortality, but it does not improve it — it is reserved for arrhythmia suppression as adjunct to ICD/ablation. ([[sources/amiodarone-cvdrug-2020]], [[sources/HF-ESC-2021]])
 - **Amiodarone + sofosbuvir (HCV) interaction:** The FDA black box warning for fatal bradycardia with amiodarone + sofosbuvir-containing regimens represents a growing clinical risk as HCV treatment rates rise in older AF/VT patients. The mechanism (additive sinus/AV nodal depression) is not fully characterized. No prospective management protocol exists. ([[sources/amiodarone-cvdrug-2020]])
+- **AIT management — amiodarone continuation vs withdrawal:** ETA 2018 recommends continuing amiodarone for life-threatening arrhythmias in AIT. However, continuation prolongs iodine overload in Type 1 AIT and may delay Type 2 resolution. 75% of patients restarting amiodarone experience another AIT episode. The decision requires joint cardiologist-endocrinologist risk stratification with no high-quality trial to guide it. ([[sources/amiodarone-thyroid-jcem-2021]])
+- **APT and high-concentration oxygen:** Amiodarone-treated patients undergoing cardiac or pulmonary surgery face an ARDS risk with high FiO₂ — estimated 50% fatality; also reported with iodinated contrast media (2 fatal cases). No prospective protocol exists for managing amiodarone-treated patients perioperatively regarding oxygen concentration. Clinicians may not recognise this specific drug-oxygen interaction. ([[sources/amiodarone-pulmonary-clin-chest-2004]])
 
 ---
 
 ## Connections
+- Related to [[entities/Dronedarone]] — non-iodinated structural derivative; DIONYSOS head-to-head comparison
 - Related to [[entities/Fabry-Disease]] — contraindicated; impairs lysosomal function and ERT/migalastat efficacy
 - Related to [[concepts/Fabry-Cardiomyopathy]]
 - Related to [[entities/Atrial-Fibrillation]]
@@ -134,3 +168,12 @@ Amiodarone is a benzofuran-derived iodine-rich antiarrhythmic agent classified a
 - Related to [[concepts/Cardiac-Action-Potential]]
 - Related to [[concepts/Electrical-Storm]]
 - Related to [[concepts/LQTS-Pregnancy-Management]]
+- Related to [[concepts/Amiodarone-Induced-Thyroid-Disorders]] — full Type 1/2/AIH/mixed diagnosis and management framework
+- Related to [[concepts/Amiodarone-Pulmonary-Toxicity]] — 6 clinical patterns, DLCO monitoring, corticosteroid regimen, oxygen/surgery triggers
+
+
+## Sources
+- Related to [[sources/dronedarone-circ-2009]]
+- Related to [[sources/amiodarone-thyroid-jcem-2021]]
+- Related to [[sources/amiodarone-pulmonary-clin-chest-2004]]
+- Related to [[sources/amiodarone-pulmonary-drugsafety-2010]]

@@ -80,3 +80,6 @@ LQTS during pregnancy presents a paradoxical risk profile: pregnancy is relative
 - Related to [[entities/KCNQ1]] — LQT1
 - Related to [[entities/SCN5A]] — LQT3; mexiletine/ranolazine add-on
 - Related to [[concepts/Sudden-Cardiac-Death]]
+
+## Sources
+- [[sources/lqts-pregnancy-medicina-2022]]

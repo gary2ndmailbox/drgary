@@ -61,3 +61,7 @@ A multi-domain scoring system to standardize the clinical diagnosis of ARVC. No 
 - Related to [[entities/ARVC]]
 - Related to [[entities/ALVC]]
 - Related to [[concepts/Desmosome]]
+
+## Sources
+- [[sources/acm-hrs-2019]]
+- [[sources/esc-cmp-2023]]

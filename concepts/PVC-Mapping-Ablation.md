@@ -129,3 +129,6 @@ Catheter-based localisation and ablation of premature ventricular complexes (PVC
 - Related to [[concepts/Electrical-Storm]] — PVC-triggered VF management
 - Related to [[entities/Idiopathic-Ventricular-Fibrillation]] — short-coupled PVC triggers
 - Related to [[sources/PVC-ablation-jaccep-2024]]
+
+## Sources
+- [[sources/PVC-ablation-jaccep-2024]]

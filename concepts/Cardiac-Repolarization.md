@@ -73,3 +73,7 @@ Cardiac repolarization is the restoration of the resting membrane potential in c
 - Related to [[entities/Long-QT-Syndrome]]
 - Related to [[entities/Short-QT-Syndrome]]
 - Related to [[entities/Brugada-Syndrome]]
+
+## Sources
+- [[sources/STT-mechanism-ACA-2026]]
+- [[sources/repolarisation-jaccep-2023]]

@@ -58,3 +58,7 @@ Septal reduction therapy (SRT) encompasses invasive procedures to reduce the int
 - Related to [[entities/Mavacamten]]
 - Related to [[concepts/LVOTO]]
 - Related to [[concepts/HCM-Risk-SCD]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/esc-cmp-2023]]

@@ -84,3 +84,6 @@ Cardiac rehabilitation (CR) is a medically supervised, multidisciplinary seconda
 - Related to [[entities/Atrial-Fibrillation]] — AF is a criterion for exercise intensity ceiling adjustment during CR
 - Related to [[concepts/Heart-Healthy-Dietary-Patterns]] — CR nutritional counseling goals align with AHA 2026 heart-healthy dietary patterns
 - Related to [[sources/cardiac-rehab-aha-2024]]
+
+## Sources
+- [[sources/cardiac-rehab-aha-2024]]

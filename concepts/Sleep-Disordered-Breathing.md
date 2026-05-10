@@ -140,3 +140,7 @@ Sleep-disordered breathing (SDB) is an umbrella term for breathing abnormalities
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[concepts/Catheter-Ablation-AF]]
 - Related to [[concepts/AF-CARE]]
+
+## Sources
+- [[sources/osa-af-jama-2018]]
+- [[sources/sdb-arrhythmia-aha-2022]]

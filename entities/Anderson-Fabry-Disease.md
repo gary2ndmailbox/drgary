@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Anderson-Fabry Disease (AFD)"
 tags: [fabry-disease, lysosomal-storage-disorders, cardiomyopathy, hypertrophic-cardiomyopathy, genetics]
-source_count: 3
-last_updated: 2026-04-19
+source_count: 4
+last_updated: 2026-05-02
 ---
 
 # Anderson-Fabry Disease (AFD)
@@ -62,6 +62,13 @@ Anderson–Fabry disease (AFD) is a rare X-linked lysosomal storage disorder cau
 - Arrhythmias: VT, AF, sinus bradycardia, AV conduction disturbances
 - CMR staging: Stage 1 (reduced T1 only) → Stage 2 (LVH + T2/LGE) → Stage 3 (extensive LGE + thinning) → Stage 4 (systolic dysfunction)
 - ([[sources/fabry-ehj-2024]], rating: high)
+
+### Conduction Disorders in Fabry Disease
+- **Short PR interval is an early conduction finding** in AFD, reflecting glycosphingolipid deposition in the AV node region and accessory pathways; this precedes progressive AVB.
+- Conduction tissue fibrosis and infiltration → more advanced AVB in later disease stages.
+- **6% of young patients with Anderson–Fabry disease require bradyarrhythmia devices** — making AFD a clinically relevant cause of conduction disease in young adults evaluated for unexplained CCD. ([[sources/conduction-disorders-jaha-2025]], rating: high)
+- **Device selection for symptomatic bradycardia with LVEF ≤35%:** ICD or CRT-D preferred over pacemaker alone in AFD (and Danon disease), given SCD risk from the underlying cardiomyopathy. ([[sources/conduction-disorders-jaha-2025]], rating: high)
+- **CMR ECG-gating in Fabry disease:** The presence of LBBB can cause artifacts in T1 mapping due to mechanical dyssynchrony; manual correction of endocardial/epicardial contours required to maintain T1 mapping accuracy. ([[sources/conduction-disorders-jaha-2025]], rating: high)
 
 ### Disease-Specific Treatment
 
@@ -130,6 +137,8 @@ Anderson–Fabry disease (AFD) is a rare X-linked lysosomal storage disorder cau
 ---
 
 ## Connections
+- Related to [[sources/conduction-disorders-jaha-2025]]
+- Related to [[concepts/Conduction-Disorders-in-Young-Adults]]
 - Related to [[concepts/Fabry-Cardiomyopathy]]
 - Related to [[concepts/HFpEF]] — AFD as genetic cause of HFpEF
 - Related to [[concepts/Phenotypic-Approach-to-Cardiomyopathy]] — AFD is a key HCM genocopy
@@ -143,3 +152,9 @@ Anderson–Fabry disease (AFD) is a rare X-linked lysosomal storage disorder cau
 - Related to [[sources/fabry-ehj-2024]]
 - Related to [[sources/fabry-pcvd-2025]]
 - Related to [[sources/esc-cmp-2023]]
+
+## Sources
+- [[sources/conduction-disorders-jaha-2025]]
+- [[sources/esc-cmp-2023]]
+- [[sources/fabry-ehj-2024]]
+- [[sources/fabry-pcvd-2025]]

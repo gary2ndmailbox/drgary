@@ -129,3 +129,7 @@ Complementary and alternative medicine (CAM) encompasses medical practices, prod
 - Related to [[concepts/Drug-Induced-Arrhythmia]] — grapefruit juice CYP3A4 interactions with QT-prolonging agents
 - Related to [[concepts/HFpEF]] — tai chi in HFpEF; omega-3 PUFA across HF phenotypes
 - Related to [[sources/alt-medicine-hf-aha-2023]]
+
+## Sources
+- [[sources/alt-medicine-hf-aha-2023]]
+- [[sources/diet-aha-2026]]

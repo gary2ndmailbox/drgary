@@ -83,3 +83,6 @@ Calcific aortic valve disease (CAVD) is the pathological fibrocalcific remodelin
 - Related to [[concepts/Lipoprotein-a]] — Lp(a) as key causal driver of CAVD initiation
 - Related to [[concepts/Valvular-Heart-Disease]] — VHD overview
 - Related to [[sources/vhd-mechanism-aha-2024]]
+
+## Sources
+- [[sources/vhd-mechanism-aha-2024]]

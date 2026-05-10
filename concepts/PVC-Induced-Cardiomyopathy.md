@@ -63,3 +63,6 @@ A reversible form of left ventricular (LV) systolic dysfunction caused or aggrav
 - Related to [[entities/Heart-Failure]] — heart failure as consequence of untreated PVC-induced CMP
 - Related to [[concepts/Late-Gadolinium-Enhancement]] — CMR screens for concealed structural disease
 - Related to [[sources/PVC-ablation-jaccep-2024]]
+
+## Sources
+- [[sources/PVC-ablation-jaccep-2024]]

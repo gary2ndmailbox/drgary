@@ -70,3 +70,9 @@ Variant reclassification refers to the process of updating the pathogenicity cla
 - Related to [[sources/genetic-cmp-jcf-2018]]
 - Related to [[concepts/Incidental-Cardiovascular-Variants]]
 - Related to [[sources/incident-gene-aha-2023]]
+
+## Sources
+- [[sources/HCM-AHA-2024]]
+- [[sources/arrhythmia-genetics-mgenetik-2025]]
+- [[sources/genetic-cmp-jcf-2018]]
+- [[sources/incident-gene-aha-2023]]

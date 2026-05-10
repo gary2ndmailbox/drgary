@@ -67,3 +67,8 @@ Subclinical atrial fibrillation (SCAF) refers to asymptomatic episodes of AF det
 - Related to [[concepts/AF-CARE]] — comorbidity and stroke prevention pillars apply to SCAF
 - Related to [[concepts/Catheter-Ablation-AF]] — SCAF detection may trigger ablation evaluation
 - Related to [[entities/Heart-Failure]] — bidirectional SCAF-HF association
+
+## Sources
+- [[sources/AF-AHA-2023]]
+- [[sources/AF-ESC-2024]]
+- [[sources/subclinical-af-aha-2019]]

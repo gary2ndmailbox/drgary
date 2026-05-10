@@ -41,7 +41,7 @@ Cardiac arrhythmias in patients with cancer or cancer survivors arising from the
 - **Newer-generation BTKi** (acalabrutinib, zanubrutinib) have significantly lower AF rates due to higher BTK selectivity; choice between agents should factor in individual AF risk. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
 
 ### AF Management in Cancer — Key Principles
-- Follow general population algorithms with attention to **drug-drug interactions** (CYP 3A4, CYP 2D6, P-glycoprotein systems). ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- Follow general population algorithms with attention to **drug-drug interactions** (CYP 3A4, CYP 2D6, P-glycoprotein systems). ([[sources/arrhythmia-cardio-oncology-aha-2021]], [[sources/cardio-oncology-drug-aha-2022]])
 - **β-blockers:** preferred rate control agent.
 - **Diltiazem/verapamil:** use with caution — CYP 3A4 inhibition increases cancer drug concentrations.
 - **Digoxin:** use with caution — ibrutinib and other P-glycoprotein inhibitors increase digoxin toxicity.
@@ -116,4 +116,11 @@ Cardiac arrhythmias in patients with cancer or cancer survivors arising from the
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[sources/arrhythmia-cardio-oncology-aha-2021]]
+- Related to [[sources/cardio-oncology-drug-aha-2022]] — PK/PD drug interaction tables for antiarrhythmics with cancer drugs
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
+
+## Sources
+- [[sources/Cardio-Oncology-ESC-2022]]
+- [[sources/arrhythmia-cardio-oncology-aha-2021]]
+- [[sources/cardio-oncology-drug-aha-2022]]
+- [[sources/sdb-arrhythmia-aha-2022]]

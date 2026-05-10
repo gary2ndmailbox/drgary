@@ -64,3 +64,7 @@ Structural valve deterioration (SVD) refers to intrinsic permanent change in a p
 - Related to [[concepts/TAVI]]
 - Related to [[concepts/Aortic-Stenosis]]
 - Related to [[concepts/Primary-Mitral-Regurgitation]]
+
+## Sources
+- [[sources/VHD-AHA-2020]]
+- [[sources/vhd-esc-2025]]

@@ -71,3 +71,6 @@ For a valid lncRNA ceRNA claim, evidence required: (1) coprecipitation of lncRNA
 - Related to [[entities/Heart-Failure]] — Mhrt, Chast, Chaer in cardiac remodeling
 - Related to [[entities/Atrial-Fibrillation]] — ANRIL 9p21 locus
 - Related to [[concepts/Lipoprotein-a]] — CHROME, LeXis, MeXis in cholesterol regulation
+
+## Sources
+- [[sources/noncoding-rna-aha-2020]]

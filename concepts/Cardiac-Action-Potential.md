@@ -52,3 +52,9 @@ The cardiac action potential (AP) is the sequence of voltage changes across the 
 - Related to [[concepts/Cardiac-Repolarization]]
 - Related to [[sources/repolarisation-jaccep-2023]]
 - Related to [[sources/membrane-potential-physrev-2021]]
+
+## Sources
+- [[sources/STT-mechanism-ACA-2026]]
+- [[sources/channelopathies-jaha-2025]]
+- [[sources/membrane-potential-physrev-2021]]
+- [[sources/repolarisation-jaccep-2023]]

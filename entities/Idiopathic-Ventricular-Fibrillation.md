@@ -40,3 +40,7 @@ Idiopathic ventricular fibrillation is a diagnosis of exclusion, made after a pa
 - Related to [[entities/Brugada-Syndrome]]
 - Related to [[entities/Long-QT-Syndrome]]
 - Related to [[concepts/Electrical-Storm]]
+
+## Sources
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/channelopathies-jaha-2025]]

@@ -137,3 +137,9 @@ Dual antiplatelet therapy (DAPT) refers to the combination of aspirin and an ora
 - Related to [[concepts/Perioperative-Cardiovascular-Assessment]] — perioperative antiplatelet management and PCI timing before NCS
 - Related to [[sources/periop-aha-2024]]
 - Related to [[entities/Ischemic-Stroke]] — DAPT for minor AIS/TIA (CHANCE, POINT); ticagrelor+aspirin for LAA etiology (THALES)
+
+## Sources
+- [[sources/ACS-AHA-2025]]
+- [[sources/CCS-AHA-2023]]
+- [[sources/ais-aha-2026]]
+- [[sources/periop-aha-2024]]

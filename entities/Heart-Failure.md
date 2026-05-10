@@ -2,14 +2,14 @@
 dg-publish: true
 title: "Heart Failure"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors, guideline, acute-heart-failure]
-source_count: 19
-last_updated: 2026-04-30
+source_count: 20
+last_updated: 2026-05-02
 ---
 
 # Heart Failure
 
 ## Details of the concept
-Heart failure (HF) is a clinical syndrome of symptoms (dyspnoea, ankle swelling, fatigue) ± signs (elevated JVP, pulmonary crackles, peripheral oedema) due to a cardiac structural or functional abnormality causing elevated intracardiac pressures and/or inadequate cardiac output. Three phenotypes are defined by LVEF: HFrEF (≤40%), HFmrEF (41–49%), and HFpEF (≥50%). HF affects ~1–2% of adults in developed countries and is the leading indication for cardiac transplantation in adults.
+Heart failure (HF) is a clinical syndrome of symptoms (dyspnoea, ankle swelling, fatigue) ± signs (elevated JVP, pulmonary crackles, peripheral oedema) due to a cardiac structural or functional abnormality causing elevated intracardiac pressures and/or inadequate cardiac output at rest or on effort. Three phenotypes are defined by LVEF: HFrEF (≤40%), HFmrEF (41–49%), and HFpEF (≥50%); a fourth — HFimpEF — describes patients with previously reduced LVEF who recover to >40% on GDMT but retain structural abnormality and relapse risk. The ACC/AHA staging framework (A–D) stratifies from "at risk" (Stage A: risk factors only) through structural disease without symptoms (Stage B: pre-HF) to established symptomatic HF (Stage C) and advanced refractory disease (Stage D), enabling preventive as well as therapeutic intervention. HF affects ~1–2% of adults in developed countries, rising to >10% in those aged >70 years; 5-year mortality is 53–67%, and HF is the leading indication for cardiac transplantation in adults. In HFrEF, the four-pillar GDMT regimen (ARNi/ACEi/ARB, beta-blocker, MRA, SGLT2i) reduces estimated all-cause mortality by ~73%.
 
 ---
 
@@ -40,6 +40,16 @@ Heart failure (HF) is a clinical syndrome of symptoms (dyspnoea, ankle swelling,
 
 ---
 
+## Pathophysiology
+
+- **Neurohormonal activation:** Reduced cardiac output triggers compensatory RAAS (angiotensin II, aldosterone) and sympathetic nervous system (norepinephrine, epinephrine) activation. Initially adaptive, chronic neurohormonal excess drives maladaptive ventricular remodeling — myocyte hypertrophy, apoptosis, interstitial fibrosis, and progressive chamber dilatation or stiffening. Natriuretic peptides (ANP, BNP/NT-proBNP) are released proportional to wall stress and serve as haemodynamic load markers and therapeutic targets. ([[sources/HF-ESC-2021]], rating: very high)
+- **Haemodynamic consequences:** Forward failure (↓CO → fatigue, exertional intolerance) and backward failure (↑filling pressures → pulmonary congestion in LV failure; peripheral oedema/↑JVP in RV or biventricular failure). HFrEF is primarily driven by reduced contractility and ↓CO; HFpEF by impaired relaxation and increased chamber stiffness causing ↑LVEDP at normal or near-normal volumes. ([[sources/HF-ESC-2021]], rating: very high)
+- **Ventricular remodeling:** HFrEF → eccentric LV dilatation (volume overload pattern); HFpEF/HFmrEF → concentric hypertrophy (pressure/metabolic load pattern). GDMT reverses eccentric remodeling in HFrEF — the HFimpEF phenotype — but structural risk persists despite LVEF normalisation. ([[sources/HF-AHA-2022]], rating: very high)
+- **Cardiorenal interactions:** Venous congestion (↑CVP → ↑renal venous pressure) and ↓renal perfusion pressure both impair kidney function in HF; over two-thirds of advanced HF patients have kidney dysfunction. A creatinine rise during aggressive decongestion does not equal tubular injury — do not reduce diuretics for eGFR decline alone. See [[concepts/Cardiorenal-Syndrome]]. ([[sources/AKI-HF-AHA-2024]], rating: very high)
+- **Arrhythmogenic substrate:** HF causes comprehensive ventricular electrical remodeling — ↑INaLate (CaMKII-driven), ↑If (HCN4 upregulation), ↑NCX1, ↓IKr/IKs/Ito/IK1 — increasing arrhythmic susceptibility and SCD risk independently of LVEF. This ionic profile explains why HF patients have elevated TdP risk on QT-prolonging drugs and reduced repolarization reserve. See Device Therapy below and [[concepts/Electrical-Remodeling]]. ([[sources/membrane-potential-physrev-2021]], rating: very high)
+
+---
+
 ## Diagnosis
 
 ### Natriuretic Peptides and Structural Criteria
@@ -62,21 +72,6 @@ See [[concepts/Right-Heart-Catheterization]] for full methodology, pitfalls, and
 - Mixed venous O₂ saturation decreased in Stages C–E; maintained (≥65%) in Stages A+B
 - Cardiogenic ("cold and wet"): low CI, high PAWP, high SVRI; vasodilatory ("warm and dry"): high CI, normal PAWP, low SVRI
 - Early RHC (within 2 days): lower AKI (OR 0.69), higher MCS use (OR 1.67), shorter stay (observational, n=46,963)
-
-**Mechanical Circulatory Support in ACS-Related Cardiogenic Shock** ([[sources/ACS-AHA-2025]], rating: very high)
-- **Emergency culprit vessel revascularization** (PCI or CABG) is the foundational therapy for ACS with cardiogenic shock, regardless of time from onset — Class I/B-R
-- **Microaxial flow pump (Impella):** Class IIa/B-R for selected STEMI + severe/refractory cardiogenic shock — DanGer-SHOCK trial (n=360, 14 European specialised centres): 26% reduction in all-cause mortality at 180 days (HR 0.74; 95% CI 0.55–0.99; absolute risk reduction 12.7%; NNT=8). Selection: SCAI Stage C/D/E, noncomatose (GCS ≥8), LVEF <45%, lactate ≥2.5 mmol/L, adequate peripheral vasculature for large-bore access. Increased limb ischemia, bleeding, and renal replacement therapy vs standard care.
-- **IABP:** Routine use NOT recommended — Class III: No Benefit/B-R. IABP-SHOCK II (n=600): no difference in 30-day or long-term all-cause death. IABP may still be used as bridge for mechanical complications (VSR, acute MR).
-- **VA-ECMO:** Routine use NOT recommended — Class III: No Benefit/B-R. ECLS-SHOCK: no difference in 30-day mortality; higher moderate/severe bleeding and peripheral vascular complications. ECMO-CS: no benefit in primary endpoint; higher adverse events.
-- **Contradiction with earlier practice:** Prior observational data and small trials suggested MCS benefit broadly; three 2023–2024 RCTs consistently show no benefit for IABP and VA-ECMO. The microaxial flow pump is the only device with RCT mortality benefit in this setting, but only in the specific DanGer-SHOCK population.
-
-**Ischaemic Cardiomyopathy: Revascularisation Strategy** ([[sources/CCS-AHA-2023]], rating: very high)
-- **CABG for LVEF ≤35% (COR 1/B-R):** STICH trial (n=1,212, LVEF ≤35%, CAD amenable to CABG): CABG + optimal medical therapy vs medical therapy alone — CV death lower (28% vs 33%; P=0.05); all-cause death lower at 10-year follow-up. Patient selection: multi-vessel disease with viable myocardium, acceptable surgical risk.
-- **PCI for LVEF ≤35% — no survival benefit:** REVIVED-BCIS2 (n=700, LVEF ≤35%, extensive CAD with viable myocardium): PCI + GDMT vs GDMT alone — no difference in all-cause death or HF hospitalisation at median 3.4 years (38.0% vs 37.2%). ICA can still diagnose cause of HF and direct lipid/medical therapy.
-- **Viability imaging in ischemic cardiomyopathy:** Multiple modalities (LGE-CMR, PET-FDG, SPECT, dobutamine echo) predict segmental contractile recovery after revascularization, but no trial has demonstrated that viability-guided revascularization improves survival vs GDMT alone. STICH viability substudy (SPECT/dobutamine echo, n=618): patients with viable myocardium had lower 5-year mortality but viability status did NOT discriminate who benefited from CABG. See [[concepts/Myocardial-Viability]] for full imaging performance data and clinical algorithms. ([[sources/imaging-viability-aha-2020]], rating: very high)
-- **SGLT2 inhibitors for HFrEF (LVEF ≤40%) — COR 1/A regardless of diabetes status:** Reduces CV death and HF hospitalisation; improves QOL (DAPA-HF, EMPEROR-Reduced). Effect independent of aetiology (ischaemic ~50% of trials). See [[entities/Chronic-Coronary-Disease]] for CCD + HF overlap.
-- **SGLT2 inhibitors for HFpEF (LVEF >40%) — COR 2a/B-R regardless of diabetes status:** Reduces HF hospitalisation and improves QOL (EMPEROR-PRESERVED, DELIVER, PRESERVED-HF). CV mortality reduction not statistically significant; economic value uncertain at current US prices.
-- **Contradiction with prior MCS evidence:** REVIVED-BCIS2 conflicts with prior observational data suggesting PCI improves outcomes in ischaemic cardiomyopathy. The 2023 CCD guideline reflects the shift: CABG retains survival benefit for LVEF ≤35%; PCI does not.
 
 **Advanced HF: LVAD candidacy RHC criteria** ([[sources/rhc-hf-ehj-2025]], rating: high)
 - LVAD candidacy indicator: PAWP ≥20 mmHg + systolic BP ≤90 mmHg, or CI ≤2.0 L/min/m² (among other criteria)
@@ -175,6 +170,23 @@ The four foundational drug classes each carry Class I / COR 1A recommendations (
 - **STRONG-HF — rapid up-titration strategy (Class I, Level B):** Intensive oral HF therapy initiation pre-discharge + close follow-up in first 6 weeks → HF readmission or all-cause death at 180 days: 15.2% vs. 23.3% (aRR 0.66; P=0.0021). Readmissions reduced (aRR 0.56); all-cause death alone not significantly reduced. ([[sources/HF-update-ESC-2023]], rating: very high)
 - Close follow-up visits should monitor: congestion signs, BP, HR, NT-proBNP, potassium, eGFR. ([[sources/HF-update-ESC-2023]], rating: very high)
 
+**Mechanical Circulatory Support in ACS-Related Cardiogenic Shock** ([[sources/ACS-AHA-2025]], rating: very high)
+- **Emergency culprit vessel revascularization** (PCI or CABG) is the foundational therapy for ACS with cardiogenic shock, regardless of time from onset — Class I/B-R
+- **Microaxial flow pump (Impella):** Class IIa/B-R for selected STEMI + severe/refractory cardiogenic shock — DanGer-SHOCK trial (n=360, 14 European specialised centres): 26% reduction in all-cause mortality at 180 days (HR 0.74; 95% CI 0.55–0.99; absolute risk reduction 12.7%; NNT=8). Selection: SCAI Stage C/D/E, noncomatose (GCS ≥8), LVEF <45%, lactate ≥2.5 mmol/L, adequate peripheral vasculature for large-bore access. Increased limb ischemia, bleeding, and renal replacement therapy vs standard care.
+- **IABP:** Routine use NOT recommended — Class III: No Benefit/B-R. IABP-SHOCK II (n=600): no difference in 30-day or long-term all-cause death. IABP may still be used as bridge for mechanical complications (VSR, acute MR).
+- **VA-ECMO:** Routine use NOT recommended — Class III: No Benefit/B-R. ECLS-SHOCK: no difference in 30-day mortality; higher moderate/severe bleeding and peripheral vascular complications. ECMO-CS: no benefit in primary endpoint; higher adverse events.
+- **Contradiction with earlier practice:** Prior observational data and small trials suggested MCS benefit broadly; three 2023–2024 RCTs consistently show no benefit for IABP and VA-ECMO. The microaxial flow pump is the only device with RCT mortality benefit in this setting, but only in the specific DanGer-SHOCK population.
+
+### Ischaemic Cardiomyopathy
+
+**Revascularisation Strategy** ([[sources/CCS-AHA-2023]], rating: very high)
+- **CABG for LVEF ≤35% (COR 1/B-R):** STICH trial (n=1,212, LVEF ≤35%, CAD amenable to CABG): CABG + optimal medical therapy vs medical therapy alone — CV death lower (28% vs 33%; P=0.05); all-cause death lower at 10-year follow-up. Patient selection: multi-vessel disease with viable myocardium, acceptable surgical risk.
+- **PCI for LVEF ≤35% — no survival benefit:** REVIVED-BCIS2 (n=700, LVEF ≤35%, extensive CAD with viable myocardium): PCI + GDMT vs GDMT alone — no difference in all-cause death or HF hospitalisation at median 3.4 years (38.0% vs 37.2%). ICA can still diagnose cause of HF and direct lipid/medical therapy.
+- **Viability imaging:** Multiple modalities (LGE-CMR, PET-FDG, SPECT, dobutamine echo) predict segmental contractile recovery after revascularization, but no trial has demonstrated that viability-guided revascularization improves survival vs GDMT alone. STICH viability substudy (SPECT/dobutamine echo, n=618): patients with viable myocardium had lower 5-year mortality but viability status did NOT discriminate who benefited from CABG. See [[concepts/Myocardial-Viability]] for full imaging performance data and clinical algorithms. ([[sources/imaging-viability-aha-2020]], rating: very high)
+- **SGLT2 inhibitors for HFrEF (LVEF ≤40%) — COR 1/A regardless of diabetes status:** Reduces CV death and HF hospitalisation; improves QOL (DAPA-HF, EMPEROR-Reduced). Effect independent of aetiology (ischaemic ~50% of trials). See [[entities/Chronic-Coronary-Disease]] for CCD + HF overlap.
+- **SGLT2 inhibitors for HFpEF (LVEF >40%) — COR 2a/B-R regardless of diabetes status:** Reduces HF hospitalisation and improves QOL (EMPEROR-PRESERVED, DELIVER, PRESERVED-HF). CV mortality reduction not statistically significant; economic value uncertain at current US prices.
+- **Contradiction with prior revascularisation evidence:** REVIVED-BCIS2 conflicts with prior observational data suggesting PCI improves outcomes in ischaemic cardiomyopathy. The 2023 CCD guideline reflects the shift: CABG retains survival benefit for LVEF ≤35%; PCI does not.
+
 ### Iron Deficiency in HF
 Applies to HFrEF and HFmrEF (most evidence from LVEF ≤45%); IV iron not currently recommended in HFpEF.
 - **To improve symptoms and QoL:** IV iron (ferric carboxymaltose or ferric derisomaltose) **Class I, Level A** *(upgraded from Class IIa in 2021)*. ([[sources/HF-update-ESC-2023]], rating: very high)
@@ -269,6 +281,16 @@ Over two-thirds of patients with advanced HF have kidney dysfunction. See [[conc
 ---
 
 ## Special Populations
+
+### Clonal Hematopoiesis and Heart Failure
+- Meta-analysis of 56,597 individuals without baseline HF → **25% higher HF risk** in CH carriers, independent of traditional risk factors and CAD. ([[sources/ch-aha-2026]], rating: very high)
+- CH not significantly associated with overall HFrEF/HFpEF phenotype, but gene-specific: **TET2 variants 2.4-fold enriched in HFpEF**; **ASXL1 CH associated with modestly reduced EF** in HF cohort studies. ([[sources/ch-aha-2026]])
+- CH in patients with established HF → higher all-cause mortality and higher HF-related hospitalisations. ([[sources/ch-aha-2026]])
+- CH worsens outcomes after MI and after cardiogenic shock (independent of HF phenotype). ([[sources/ch-aha-2026]])
+- **Mechanism (TET2):** LOF → NLRP3 inflammasome overactivation → increased IL-1β secretion; elevated circulating IL-1β is unique to TET2-CH. CANTOS post-hoc data: canakinumab (anti-IL-1β) reduced ischemic events far more in TET2-CH carriers — mechanistic implication for HF-inflammatory phenotype. ([[sources/ch-aha-2026]])
+- **Mechanism (DNMT3A):** LOF → impaired efferocytosis; increased secretion of HB-EGF (heparin-binding EGF-like growth factor) → **cardiac fibrosis**. ([[sources/ch-aha-2026]])
+- **Mechanism (PPM1D, therapy-related CH):** PPM1D-CH → increased IL-1β + myocardial fibrosis after angiotensin II infusion in mice; effects reversed by NLRP3 inhibitor — possible relevance for HF in cancer survivors. ([[sources/ch-aha-2026]])
+- No CH-targeted HF therapy proven in a prospective trial. See [[concepts/Clonal-Hematopoiesis]] for full gene-specific mechanisms and emerging strategies (vitamin C, metformin, colchicine, canakinumab).
 
 ### Cancer Therapy-Related HF (CTRCD)
 - **CTRCD definition:** Graded by severity of LVEF decline, GLS change, and cardiac biomarker rise. Asymptomatic mild = LVEF ≥50% + new GLS decline >15% and/or new biomarker rise. Moderate = LVEF 40–49% with ≥10 pp decline. Severe = LVEF <40%. ([[sources/Cardio-Oncology-ESC-2022]], rating: very high)
@@ -365,39 +387,53 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 
 ## Connections
 - Related to [[entities/Amiodarone]]
-- Related to [[entities/Hypertension]] (antecedent in 71% HF; BP management critical in HFrEF and HFpEF)
-- Related to [[concepts/HFpEF]]
-- Related to [[concepts/Secondary-Mitral-Regurgitation]]
-- Related to [[concepts/Valvular-Heart-Disease]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/Hypertension]] — antecedent in 71% HF; BP management critical in HFrEF and HFpEF
 - Related to [[entities/DCM]]
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/LMNA]]
 - Related to [[entities/TTN]]
 - Related to [[entities/ATTR-Amyloidosis]]
 - Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[entities/Obesity]] — obesity as major HF risk factor and HFpEF driver
+- Related to [[concepts/HFpEF]]
+- Related to [[concepts/Secondary-Mitral-Regurgitation]]
+- Related to [[concepts/Valvular-Heart-Disease]]
 - Related to [[concepts/Cardio-Oncology]]
 - Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]
-- Related to [[sources/HF-ESC-2021]]
-- Related to [[sources/HF-update-ESC-2023]]
-- Related to [[sources/HF-AHA-2022]]
-- Related to [[sources/Cardio-Oncology-ESC-2022]]
-- Related to [[sources/PHT-ESC-2022]]
 - Related to [[concepts/Right-Heart-Catheterization]]
-- Related to [[sources/rhc-hf-ehj-2025]]
 - Related to [[concepts/Perioperative-Cardiovascular-Assessment]]
-- Related to [[sources/periop-aha-2024]]
 - Related to [[concepts/Heart-Healthy-Dietary-Patterns]] — sodium/potassium dietary management in HFpEF
 - Related to [[concepts/Cardiac-Rehabilitation]] — stable HF (LVEF ≤35%, NYHA II–IV) is a qualifying CR indication; CR reduces mortality and improves QoL
 - Related to [[concepts/Cardiorenal-Syndrome]] — kidney dysfunction in >2/3 of advanced HF; Heart-Kidney Profiles guide LVAD/HTx candidacy
-- Related to [[sources/AKI-HF-AHA-2024]]
-- Related to [[entities/Obesity]] — obesity as major HF risk factor and HFpEF driver
 - Related to [[concepts/Visceral-Adiposity]] — epicardial fat and obesity-HFpEF phenotype
 - Related to [[concepts/Obesity-Paradox]] — paradox documented across HFrEF, HFpEF, and acute HF
-- Related to [[sources/obesity-cv-aha-2021]]
 - Related to [[concepts/Myocardial-Viability]]
-- Related to [[sources/imaging-viability-aha-2020]]
 - Related to [[concepts/CAM-in-Heart-Failure]] — omega-3 PUFA, yoga/tai chi, CoQ10, drug-interaction catalog
-- Related to [[sources/alt-medicine-hf-aha-2023]]
 - Related to [[concepts/Electrical-Remodeling]] — HF ventricular electrical remodeling: ↑INaLate, ↑If, ↑NCX, ↓IKr/IKs/Ito/IK1; CaMKII as central arrhythmogenic hub
-- Related to [[sources/membrane-potential-physrev-2021]]
+- Related to [[concepts/Clonal-Hematopoiesis]] — 25% higher HF risk; TET2 2.4× enriched in HFpEF; ASXL1 → reduced EF; CH worsens HF mortality and hospitalisations; PPM1D-CH drives myocardial fibrosis via NLRP3/IL-1β
+- Related to [[sources/ch-aha-2026]]
+
+## Sources
+- [[sources/ACS-AHA-2025]]
+- [[sources/AKI-HF-AHA-2024]]
+- [[sources/CCS-AHA-2023]]
+- [[sources/Cardio-Oncology-ESC-2022]]
+- [[sources/HF-AHA-2022]]
+- [[sources/HF-ESC-2021]]
+- [[sources/HF-Precision-Medicine-AHA-2019]]
+- [[sources/HF-update-ESC-2023]]
+- [[sources/HT-AHA-2025]]
+- [[sources/PHT-ESC-2022]]
+- [[sources/alt-medicine-hf-aha-2023]]
+- [[sources/amiodarone-cvdrug-2020]]
+- [[sources/cardiac-rehab-aha-2024]]
+- [[sources/cardiorenal-aha-2019]]
+- [[sources/ch-aha-2026]]
+- [[sources/diet-aha-2026]]
+- [[sources/hemodynamic-hf-pht-aha-2026]]
+- [[sources/imaging-viability-aha-2020]]
+- [[sources/membrane-potential-physrev-2021]]
+- [[sources/obesity-cv-aha-2021]]
+- [[sources/periop-aha-2024]]
+- [[sources/rhc-hf-ehj-2025]]
+- [[sources/vhd-esc-2025]]

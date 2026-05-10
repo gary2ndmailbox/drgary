@@ -70,3 +70,6 @@ Aortic regurgitation (AR) is retrograde blood flow from the aorta into the LV du
 - Related to [[concepts/TAVI]]
 - Related to [[concepts/Aortic-Stenosis]]
 - Related to [[entities/Atrial-Fibrillation]]
+
+## Sources
+- [[sources/vhd-esc-2025]]

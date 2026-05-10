@@ -64,3 +64,7 @@ Interdisciplinary cardiogenetic centres are specialist clinical units that integ
 - Related to [[concepts/iPSC-Derived-Cardiomyocytes]]
 - Related to [[concepts/Incidental-Cardiovascular-Variants]]
 - Related to [[sources/incident-gene-aha-2023]]
+
+## Sources
+- [[sources/arrhythmia-genetics-mgenetik-2025]]
+- [[sources/incident-gene-aha-2023]]

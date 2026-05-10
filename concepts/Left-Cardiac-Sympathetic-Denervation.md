@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Left Cardiac Sympathetic Denervation"
 tags: [surgery, channelopathies, LQTS, CPVT, arrhythmia-management]
-source_count: 2
-last_updated: 2026-04-11
+source_count: 3
+last_updated: 2026-05-09
 ---
 
 # Left Cardiac Sympathetic Denervation
@@ -22,6 +22,10 @@ Left cardiac sympathetic denervation (LCSD) is a surgical procedure involving th
 - **ESC 2022 — Class IIa in CPVT (upgraded from IIb):** LCSD should be considered when the combination of beta-blockers and flecainide at therapeutic dosage are either not effective, not tolerated, or contraindicated. ([[sources/VA-SCD-ESC-2022]])
 - LCSD is also a **Class IIa** option in ES management when pharmacological therapy fails, particularly in CPVT or refractory SHD ES. ([[sources/VA-SCD-ESC-2022]])
 
+- **LCSD monotherapy — Mayo Clinic 20-year real-world data (n=60):** 42 LQT1 (70%) and 18 LQT2 (30%); mean resting QTc 465±28 ms; mean age 30±14 years. Primary motivation was BB intolerance in 54 patients (90%). Only 3 patients (5%) experienced a non-lethal BCE post-LCSD; **zero lethal events** over follow-up. ([[sources/precision-lqts-tcm-2024]], rating: high)
+- This confirms LCSD monotherapy as a safe and effective alternative when beta-blockers are intolerable, for select low-risk patients — an option not fully captured by international guidelines. Patients who desire to exercise without BB-related limitations are a key target group. ([[sources/precision-lqts-tcm-2024]])
+- **RCSD (right cardiac sympathetic denervation) in LQT3:** Used in 5 LQT3 patients refractory to multiple therapies including LCSD + ICD. RCSD is always an incremental escalation step after LCSD failure, never as bilateral primary denervation or RCSD-first. ([[sources/precision-lqts-tcm-2024]])
+
 ## Contradictions / Open Questions
 - **LCSD as Class I in LQTS vs. Class IIa in CPVT — evidence parity questioned:** ESC 2022 upgraded LCSD to Class I in LQTS and Class IIa in CPVT. The LQTS Class I upgrade is based on observational data from specialized centers without an RCT. The asymmetry in recommendation class between LQTS and CPVT reflects the relative sizes of available case series, not a qualitatively different evidence standard. ([[sources/VA-SCD-ESC-2022]])
 - **RCSD addition in refractory CPVT — limited data:** Right cardiac sympathetic denervation can be added to LCSD when bilateral complete denervation is needed in CPVT refractory to LCSD alone. The data supporting this escalation are limited to small case series; the rate of Horner syndrome, neuropathic pain, and other complications with bilateral sympathectomy is higher than LCSD alone. No comparative data versus LCSD alone exist. ([[sources/channelopathies-jaha-2025]])
@@ -32,3 +36,8 @@ Left cardiac sympathetic denervation (LCSD) is a surgical procedure involving th
 - Related to [[entities/Long-QT-Syndrome]]
 - Related to [[entities/CPVT]]
 - Related to [[concepts/Electrical-Storm]]
+
+## Sources
+- [[sources/channelopathies-jaha-2025]]
+- [[sources/VA-SCD-ESC-2022]]
+- [[sources/precision-lqts-tcm-2024]]

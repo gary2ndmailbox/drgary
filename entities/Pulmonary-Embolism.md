@@ -111,3 +111,6 @@ See detailed framework in [[concepts/Acute-PE-Clinical-Categories]].
 - Related to [[entities/CTEPH]]
 - Related to [[entities/Pulmonary-Hypertension]]
 - Related to [[sources/acute-pe-aha-2026]]
+
+## Sources
+- [[sources/acute-pe-aha-2026]]

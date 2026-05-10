@@ -90,3 +90,6 @@ The application of artificial intelligence (AI) and machine learning (ML) algori
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/DCM]]
 - Related to [[sources/ai-cardiooncology-aha-2025]]
+
+## Sources
+- [[sources/ai-cardiooncology-aha-2025]]

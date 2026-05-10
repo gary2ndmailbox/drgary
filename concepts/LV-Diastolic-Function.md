@@ -154,3 +154,6 @@ Additional finding: LV mass index >115 g/m² (men) or >95 g/m² (women) after ex
 - Related to [[entities/Pulmonary-Hypertension]]
 - Related to [[concepts/Valvular-Heart-Disease]]
 - Related to [[sources/echo-hfpef-ase-2025]]
+
+## Sources
+- [[sources/echo-hfpef-ase-2025]]

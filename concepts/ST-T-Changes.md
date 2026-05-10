@@ -2,8 +2,8 @@
 dg-publish: true
 title: "ST-T Changes"
 tags: [electrocardiography, ST-T-changes, myocardial-ischemia, cardiac-electrophysiology, electrolyte-disturbances]
-source_count: 2
-last_updated: 2026-05-01
+source_count: 3
+last_updated: 2026-05-02
 ---
 
 # ST-T Changes
@@ -65,6 +65,25 @@ LV depolarized by RV-to-LV cell-to-cell spread (bypassing Purkinje) → slower s
 #### LVH Mechanism
 Reversal of the normal endocardial/epicardial APD gradient (APD75 reversal); interstitial fibrosis disrupts conduction → repolarization heterogeneity → T-wave inversion. Mechanism not fully established. ([[sources/STT-mechanism-ACA-2026]])
 
+### OMI ECG Patterns Beyond STEMI Criteria
+Standard STEMI ECG criteria (≥1–2.5 mm STE at J-point in ≥2 contiguous leads) have only **43% sensitivity** for acute coronary occlusion by meta-analysis and miss **38% of total LAD occlusions** (TIMI-0 flow) on all serial ECGs. The following OMI ECG findings, when identified by expert or AI interpretation, achieve 100% sensitivity for LAD OMI where STEMI criteria fail: ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
+
+| OMI ECG Finding | Prevalence in Subtle LAD OMI |
+|---|---|
+| Subtle STE (<1 mm, not meeting criteria) | 85% |
+| Hyperacute T-waves (incl. de Winter pattern) | 85% |
+| Pathologic Q-waves (associated with subtle STE) | 70% |
+| Reciprocal STD and/or T-wave inversion | 50% |
+| Terminal QRS distortion | 20% |
+| Inferior STE + aVL STD/T-wave inversion | 20% |
+
+- **Hyperacute T-waves** are not defined by amplitude alone: the T/R amplitude ratio is the key discriminator from benign early repolarization; excessive symmetry and increased T-wave "bulk" are additional features. See [[concepts/Hyperacute-T-waves]].
+- **Terminal QRS distortion:** absence of both J-wave and S-wave in a lead where an S-wave would be expected, preceding any subtle STE.
+- **de Winter pattern:** upsloping STD in V1–V6 with peaked T-waves ± STE in aVR; signifies proximal LAD occlusion; subset of the hyperacute T-wave category.
+- **Modified Sgarbossa criteria** (concordant STE ≥1 mm, concordant STD ≥1 mm in V1–V3, discordant STE:S ratio ≥0.25): apply when LBBB or ventricular paced rhythm are present.
+- Critically, **serial ECGs do not reliably evolve from subtle patterns to STEMI criteria** in total LAD occlusion: in 16/16 patients with serial ECGs, hyperacute T-waves never progressed to diagnostic STE. ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
+- For the full OMI/NOMI framework see [[concepts/OMI-NOMI-Paradigm]].
+
 ### Q-Wave Formation and Regression in Myocardial Infarction
 - Pathological Q waves (ESC/ACCF/AHA/WHF criteria: ≥0.02 s in V2–V3; ≥0.03 s and ≥0.1 mV in I, aVL, V4–V6, II, III, aVF) develop within hours of STEMI onset and represent transmural myocardial loss large enough to generate depolarization vectors directed away from the recording electrode.
 - **Presence of Q waves is determined primarily by infarct size (endocardial extent), not transmurality:** in reperfused STEMI patients, 23% have non-diagnostic ECGs at 1 week despite confirmed LGE-CMR infarction; 44% are non-diagnostic by 5 years due to infarct shrinkage post-PCI. ([[sources/qwave-mri-jacc-imaging-2012]], rating: high)
@@ -76,6 +95,8 @@ Reversal of the normal endocardial/epicardial APD gradient (APD75 reversal); int
 - **LVH strain pattern vs. ischemia overlap:** The strain pattern (ST depression + T inversion in lateral leads) in LVH is mechanistically secondary, but clinically it can coexist with or mask underlying subendocardial ischemia in hypertensive or HCM patients — no validated ECG criteria reliably differentiate the two. ([[sources/STT-mechanism-ACA-2026]])
 - **LBBB + suspected MI (Sgarbossa criteria):** When LBBB is present, classic ST elevation criteria for ACS lose sensitivity and specificity. The Sgarbossa criteria (concordant ST elevation ≥1 mm, concordant ST depression ≥1 mm in V1-V3, discordant ST elevation ≥5 mm) attempt to address this but have moderate accuracy — an ongoing clinical challenge not addressed by this review. ([[sources/STT-mechanism-ACA-2026]])
 - **Injury current theory completeness:** The injury current / diastolic current model of ST changes (TP/PQ baseline shift) is the dominant teaching model, but its quantitative accuracy in human ischemia has been questioned; alternative models exist. ([[sources/STT-mechanism-ACA-2026]])
+- **STEMI criteria inadequacy for occlusion MI:** Standard STEMI STE criteria have only 43% sensitivity for acute coronary occlusion by meta-analysis and miss 38% of total LAD TIMI-0 occlusions on all serial ECGs. Serial ECGs do not reliably evolve to STEMI criteria in subtle OMI. Expert interpretation and AI (PMCardio Queen of Hearts) both achieved 100% sensitivity on the first ECG for all LAD TIMI-0 cases, highlighting that STEMI criteria alone are insufficient gatekeepers for reperfusion. See [[concepts/OMI-NOMI-Paradigm]]. ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
+- **Hyperacute T-wave definition:** No validated quantitative threshold exists for hyperacute T-waves — the most prevalent OMI ECG finding in subtle cases (85%). The T/R ratio approach has empirical support but no guideline-endorsed cutoff. ([[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]], rating: high)
 
 ## Connections
 - Related to [[concepts/Cardiac-Action-Potential]]
@@ -84,6 +105,15 @@ Reversal of the normal endocardial/epicardial APD gradient (APD75 reversal); int
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/HCM]]
 - Related to [[entities/Long-QT-Syndrome]]
+- Related to [[concepts/OMI-NOMI-Paradigm]] — OMI ECG findings beyond STEMI criteria; paradigm shift
+- Related to [[concepts/Hyperacute-T-waves]] — most common OMI ECG finding in subtle cases
+- Related to [[entities/Acute-Coronary-Syndrome]] — clinical context for ischemia-related ST-T changes
 - Related to [[sources/STT-mechanism-ACA-2026]]
 - Related to [[concepts/Q-Wave-Remodeling]]
 - Related to [[sources/qwave-mri-jacc-imaging-2012]]
+- Related to [[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]]
+
+## Sources
+- [[sources/STT-mechanism-ACA-2026]]
+- [[sources/failure-stemi-criteria-lad-omi-ehjacc-2025]]
+- [[sources/qwave-mri-jacc-imaging-2012]]

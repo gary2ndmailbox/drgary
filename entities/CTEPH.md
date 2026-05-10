@@ -88,6 +88,8 @@ CTEPH is Group 4 pulmonary hypertension, defined by persistent organised thrombo
 - Related to [[concepts/Acute-PE-Clinical-Categories]]
 - Related to [[concepts/PAH-Risk-Stratification]]
 - Related to [[concepts/Balloon-Pulmonary-Angioplasty]]
-- Related to [[sources/PHT-ESC-2022]]
-- Related to [[sources/acute-pe-aha-2026]]
-- Related to [[sources/BPA-AHA-2024]]
+
+## Sources
+- [[sources/BPA-AHA-2024]]
+- [[sources/PHT-ESC-2022]]
+- [[sources/acute-pe-aha-2026]]

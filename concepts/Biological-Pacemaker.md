@@ -34,3 +34,6 @@ A biological pacemaker is a gene therapy-derived construct that restores intrins
 - Related to [[concepts/AAV-Gene-Delivery]]
 - Related to [[concepts/iPSC-Derived-Cardiomyocytes]]
 - Related to [[concepts/Ion-Channel-Mutations]]
+
+## Sources
+- [[sources/gene-therapy-arrhythmia-2025]]

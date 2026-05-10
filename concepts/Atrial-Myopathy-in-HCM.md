@@ -50,3 +50,7 @@ Atrial myopathy in hypertrophic cardiomyopathy refers to intrinsic disease of th
 - Related to [[concepts/Catheter-Ablation-AF]]
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
 - Related to [[concepts/Early-Onset-Atrial-Fibrillation]]
+
+## Sources
+- [[sources/MYBPC3-MYH7-JACCEP-2024]]
+- [[sources/eoaf-jama-2021]]

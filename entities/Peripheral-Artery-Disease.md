@@ -103,3 +103,6 @@ Lower extremity peripheral artery disease (PAD) is atherosclerotic and thromboti
 - Related to [[entities/Heart-Failure]] (cilostazol contraindicated in HF)
 - Related to [[concepts/Dyslipidemia-Management]]
 - Related to [[concepts/ASCVD-Risk-Assessment]]
+
+## Sources
+- [[sources/PVD-AHA-2024]]

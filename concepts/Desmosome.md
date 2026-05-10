@@ -57,3 +57,6 @@ Desmosomes are intercellular junctional complexes at the intercalated disc (ID) 
 - Related to [[entities/PKP2]]
 - Related to [[entities/DSP]]
 - Related to [[entities/SCN5A]]
+
+## Sources
+- [[sources/acm-hrs-2019]]

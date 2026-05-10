@@ -78,3 +78,6 @@ The contemporary clinical framework governing competitive sports participation d
 - Related to [[concepts/Exercise-Restriction-in-ARVC]]
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
+
+## Sources
+- [[sources/competitive-sports-aha-2025]]
