@@ -2,7 +2,7 @@
 dg-publish: true
 title: "RYR2"
 tags: [genetics, calcium-handling, channelopathies, CPVT, RYR2, ryanodine-receptor, variant-interpretation, sudden-cardiac-death]
-source_count: 7
+source_count: 8
 last_updated: 2026-05-09
 ---
 
@@ -60,6 +60,11 @@ RYR2 encodes ryanodine receptor 2 (RyR2), the primary sarcoplasmic reticulum Ca�
 - **Left cardiac sympathetic denervation (LCSD):** Option for patients with breakthrough events on medical therapy or who decline ICD. ([[sources/channelopathies-jaha-2025]])
 - See [[entities/CPVT]] for full management algorithm including epinephrine provocation testing and exercise stress testing protocol.
 
+### CaM–RyR2 Regulatory Interaction and Calmodulinopathy CPVT
+CaM binds RyR2 with nanomolar affinity in both the apo and holo (Ca²⁺-loaded) forms, resulting in a large pre-bound CaM pool at RyR2. The key physiological function of pre-bound apo-CaM at RyR2 is Ca²⁺-independent: it allosterically reinforces the "zipping" interaction between the N-terminal and central cytosolic RyR2 domains, stabilising the closed state. This is distinct from CaM's role at Cav1.2, where C-lobe Ca²⁺ sensing drives Ca²⁺-dependent inactivation (CDI). CaMKII (activated by holo-CaM) phosphorylates RyR2 at Ser2814, increasing opening probability — an indirect Ca²⁺-dependent pathway. ([[sources/CALM-FCVM-2018]], rating: high)
+
+**Calmodulinopathy CPVT subtype (CALM1/2/3 mutations):** Specific mutations (CALM1-p.N98S, CALM1-p.N54I, CALM3-p.A103V) alter the 3D CaM–RyR2 binding interface and disrupt apo-CaM–dependent stabilisation of RyR2 → destabilise RyR2 closed state → spontaneous Ca²⁺ waves → NCX-mediated depolarising current (ITI) → DADs → bidirectional VT. These calmodulinopathy-CPVT mutations differ from RYR2 GOF mutations: the RyR2 gene is normal; the dysfunction arises from an abnormal regulatory partner. ClinGen classifies CALM1/2/3 as Moderate evidence for CPVT. See [[concepts/Calmodulinopathy]] for full detail. ([[sources/CALM-FCVM-2018]])
+
 ### RYR2 Beyond CPVT
 - **HCM arrhythmogenesis:** RyR2 hyperphosphorylation at CaMKII-sensitive sites (secondary to Ca²⁺ overload from sarcomere mutations) → increased RyR2 opening probability → spontaneous SR Ca²⁺ release → EADs/DADs → ventricular arrhythmia. Confirmed in human HCM specimens and mouse models. ([[sources/HCM-VA-FCVMed-2022]], rating: high)
 - **MYBPC3–RyR2 interaction:** RyR2 may interact directly with MYBPC3; sarcomere mutation or conformational change disrupts this interaction → altered intracellular Ca²⁺ homeostasis. ([[sources/HCM-VA-FCVMed-2022]])
@@ -92,6 +97,7 @@ RYR2 encodes ryanodine receptor 2 (RyR2), the primary sarcoplasmic reticulum Ca�
 
 ## Connections
 - Related to [[entities/CPVT]]
+- Related to [[entities/CASQ2]]
 - Related to [[concepts/Ion-Channel-Mutations]]
 - Related to [[concepts/Bidirectional-Ventricular-Tachycardia]]
 - Related to [[concepts/CRISPR-Cas9-in-Channelopathies]]
@@ -110,6 +116,7 @@ RYR2 encodes ryanodine receptor 2 (RyR2), the primary sarcoplasmic reticulum Ca�
 - Related to [[sources/flecainide-af-europace-2011]]
 - Related to [[concepts/ClinGen-Gene-Disease-Validity]]
 - Related to [[sources/clingen-summary-2026-05-09]]
+- Related to [[concepts/Calmodulinopathy]]
 
 ## Sources
 - [[sources/HCM-VA-FCVMed-2022]]
@@ -120,3 +127,4 @@ RYR2 encodes ryanodine receptor 2 (RyR2), the primary sarcoplasmic reticulum Ca�
 - [[sources/eoaf-jama-2021]]
 - [[sources/flecainide-af-europace-2011]]
 - [[sources/gene-therapy-arrhythmia-2025]]
+- [[sources/CALM-FCVM-2018]]

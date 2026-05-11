@@ -2,8 +2,8 @@
 dg-publish: true
 title: "KCNH2 (hERG)"
 tags: [genetics, ion-channels, channelopathies, potassium-channel, long-qt-syndrome, short-qt-syndrome, KCNH2, hERG]
-source_count: 3
-last_updated: 2026-05-07
+source_count: 4
+last_updated: 2026-05-10
 ---
 
 # KCNH2 (hERG)
@@ -14,8 +14,9 @@ KCNH2 (human ether-à-go-go-related gene; also known as hERG) encodes the Kv11.1
 ## Key Facts
 
 ### LQT2 (Loss-of-Function)
-- **Epidemiology:** LQT2 accounts for 25-30% of all LQTS — the second most common subtype after LQT1. Autosomal dominant inheritance; loss-of-function reduces IKr during phase 3, delaying repolarization and prolonging QT. ([[sources/channelopathies-jaha-2025]], rating: high)
-- **Variant risk stratification:** Variants affecting the transmembrane pore of KCNH2 carry the greatest relative risk of cardiac events compared with non-pore transmembrane domain variants — a clinically actionable genotype-risk finding. ([[sources/channelopathies-jaha-2025]])
+- **Epidemiology:** LQT2 accounts for 25-30% of all LQTS per some sources; Krahn 2022 reports ~40% of genotype-positive cases — the second most common subtype after LQT1. Autosomal dominant inheritance; loss-of-function reduces IKr during phase 3, delaying repolarization and prolonging QT. ([[sources/channelopathies-jaha-2025]], [[sources/lqts-jaccep-2022]], rating: high)
+- **LQT2 annual event rates (up to age 40):** SAE 0.3–0.7%/year; CE 0.8–1.8%/year. Age-specific peak mortality: ages 30–39. ([[sources/lqts-jaccep-2022]], rating: high)
+- **Variant risk stratification:** Variants affecting the transmembrane pore of KCNH2 carry the greatest relative risk of cardiac events compared with non-pore transmembrane domain variants. This hierarchy — pore > other transmembrane > N/C terminus — is consistent across evidence and is clinically actionable for risk stratification. ([[sources/channelopathies-jaha-2025]], [[sources/lqts-jaccep-2022]])
 - **Trigger specificity:** LQT2 cardiac events are predominantly triggered by sudden auditory stimuli (alarm clocks, ringing phones, doorbells) and sudden emotional arousal — distinct from LQT1 (exercise/sympathetic activation) and LQT3 (rest/sleep). This trigger pattern informs activity counselling and alarm management in affected patients. ([[sources/channelopathies-jaha-2025]])
 - **Sex and hormonal modulation:** IKr is inhibited by estrogen, the primary mechanism explaining higher LQT2/TdP risk in women of reproductive age compared with men and prepubertal females. The postpartum fall in progesterone further elevates risk in the 9-month postpartum window. ([[sources/channelopathies-jaha-2025]])
 
@@ -71,3 +72,4 @@ KCNH2 (human ether-à-go-go-related gene; also known as hERG) encodes the Kv11.1
 - [[sources/channelopathies-jaha-2025]]
 - [[sources/gene-therapy-arrhythmia-2025]]
 - [[sources/modifier-genes-scd-ehj-2018]]
+- [[sources/lqts-jaccep-2022]]

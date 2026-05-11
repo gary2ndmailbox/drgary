@@ -6,8 +6,8 @@ tags:
   - pregnancy
   - arrhythmia-management
   - channelopathies
-source_count: 1
-last_updated: 2026-04-18
+source_count: 2
+last_updated: 2026-05-10
 ---
 
 # LQTS Pregnancy Management
@@ -83,3 +83,4 @@ LQTS during pregnancy presents a paradoxical risk profile: pregnancy is relative
 
 ## Sources
 - [[sources/lqts-pregnancy-medicina-2022]]
+- [[sources/cv-pregnancy-esc-2018]]

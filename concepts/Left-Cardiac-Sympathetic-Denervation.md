@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Left Cardiac Sympathetic Denervation"
 tags: [surgery, channelopathies, LQTS, CPVT, arrhythmia-management]
-source_count: 3
+source_count: 4
 last_updated: 2026-05-09
 ---
 
@@ -14,8 +14,11 @@ Left cardiac sympathetic denervation (LCSD) is a surgical procedure involving th
 ## Key Concepts
 - **Indication in LQTS:** Recommended as an additional treatment when β-blockers are insufficient or intolerable. Post-LCSD QTc <500 ms predicts procedural effectiveness; persistent QTc >500 ms post-LCSD indicates elevated SCD risk and ICD candidacy. ([[sources/channelopathies-jaha-2025]])
 - **Indication in CPVT:** Effective antiarrhythmic intervention in patients refractory to pharmacological treatment; reduces proarrhythmogenic sympathetic stimulation. ([[sources/channelopathies-jaha-2025]])
-- LCSD is not always curative in CPVT; in cases of recurrence, right cardiac sympathetic denervation (RCSD) can be added to form complete bilateral sympathetic denervation. ([[sources/channelopathies-jaha-2025]])
-- **Complications:** Ptosis, Horner syndrome, pneumothorax, neuropathic pain, emotional excitement, harlequin flushing after aerobic exercise. Despite these risks, LCSD has demonstrated improved quality of life in CPVT patients. ([[sources/channelopathies-jaha-2025]])
+- **CPVT multicenter outcome data (n=63):** Major cardiac events declined from 86% (54/63) to 21% (13/63; p<0.001) over median 37-month follow-up; mean annual event rate fell from 3.4 to 0.5/year (**92% reduction**). In the subgroup persistently symptomatic on optimal medical therapy pre-LCSD, one-third experienced recurrent events post-LCSD. Study suggests LCSD is preferable to ICD for persistent syncope on optimal medical therapy and may complement ICD in patients with recurrent shocks. ([[sources/cpvt-jcm-2024]])
+- **Triple therapy:** Expert consensus now advocates nadolol + flecainide + LCSD as first-line approach in CPVT patients presenting with a sentinel SCA — LCSD provides an additional protection layer against the consequence of a single missed medication dose. ([[sources/cpvt-jcm-2024]])
+- **Bilateral CSD (LCSD + RCSD):** RCSD added when LCSD alone is insufficient for arrhythmia control, and as an interim step before ICD implantation when patients continue to experience appropriate ICD shocks post-LCSD. ([[sources/cpvt-jcm-2024]])
+- LCSD is not always curative in CPVT; one-third of patients still experience arrhythmia recurrence; not recommended as standalone therapy. ([[sources/channelopathies-jaha-2025]], [[sources/cpvt-jcm-2024]])
+- **Complications:** Ptosis, Horner syndrome, pneumothorax, neuropathic pain, emotional excitement, harlequin flushing after aerobic exercise — infrequent and usually transient. LCSD has demonstrated improved quality of life in LQTS/CPVT patients who have an ICD. ([[sources/channelopathies-jaha-2025]], [[sources/cpvt-jcm-2024]])
 - LCSD addresses the sympathetic trigger for arrhythmias but does not correct the underlying ion channel or calcium-handling defect. ([[sources/channelopathies-jaha-2025]])
 
 - **ESC 2022 — Class I indication in LQTS (new):** LCSD is indicated in symptomatic LQTS patients when: (a) ICD therapy is contraindicated or declined; OR (b) patient is on beta-blockers + genotype-specific therapies with an ICD AND still experiences multiple shocks or syncope due to VA. ([[sources/VA-SCD-ESC-2022]])
@@ -41,3 +44,4 @@ Left cardiac sympathetic denervation (LCSD) is a surgical procedure involving th
 - [[sources/channelopathies-jaha-2025]]
 - [[sources/VA-SCD-ESC-2022]]
 - [[sources/precision-lqts-tcm-2024]]
+- [[sources/cpvt-jcm-2024]]

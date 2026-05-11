@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Dilated Cardiomyopathy (DCM)"
 tags: [cardiomyopathy, genetics, sudden-cardiac-death, heart-failure]
-source_count: 15
-last_updated: 2026-05-09
+source_count: 16
+last_updated: 2026-05-10
 ---
 
 # Dilated Cardiomyopathy (DCM)
@@ -19,6 +19,7 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - Non-genetic causes include: viral myocarditis, autoimmune, toxic (alcohol, anthracyclines, trastuzumab), metabolic, peripartum, and tachycardia-induced CMP. ([[sources/esc-cmp-2023]])
 - CMR is recommended at baseline; key CMR findings — lateral wall epicardial LGE suggests dystrophinopathy; subepicardial/midwall LGE at basal septum ± inferolateral extension suggests sarcoidosis; apical transmural LGE suggests Chagas disease. ([[sources/esc-cmp-2023]])
 - NT-proBNP/BNP and high-sensitivity troponin T carry diagnostic, prognostic, and therapeutic monitoring value. ([[sources/esc-cmp-2023]])
+- **Pinto 2016 diagnostic criteria for at-risk relatives:** First-degree relatives require ECG + echocardiogram from childhood; annually through adolescence; every 2–3 years in adults. **Major criteria:** LVEF 45–50% OR LVEDD >2 SD above normal + ≥5 mm below classic DCM threshold. **Minor criteria (≥2 = Probable):** LBBB or AV conduction block; VAs >100/24h or NSVT ≥120 bpm; regional wall motion abnormality; LGE on CMR; EMB abnormalities; positive cardiac autoantibodies. **Categories:** Definite (LVEF <45% + LVEDD >2SD+5mm); Probable (LVEF 45–50% alone OR ≥2 minor criteria); Possible (1 major OR 1 minor — warrants closer follow-up). ([[sources/dcm-precision-hfreview-2022]], rating: high)
 
 ### Genetics
 - Genetic yield: ~30% of DCM patients carry a monogenic cause. ([[sources/esc-cmp-2023]])
@@ -54,6 +55,8 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - Pharmacological treatment follows **ESC 2021 HF Guidelines**: four-pillar therapy — ACEi/ARNI + beta-blocker + MRA + **SGLT2 inhibitors** (dapagliflozin or empagliflozin; Class I regardless of diabetes status). SGLT2i reduces CV death and worsening HF. ([[sources/esc-cmp-2023]], [[sources/HF-ESC-2021]])
 - **ESC 2021 minimum genetic panel for DCM/HNDC (Class I for all patients):** TTN, LMNA, MYH7 (MHC), TNNT, troponin-C, MYPC, RBM20, PLN, SCN5a, BAG3, actin alpha cardiac muscle, nexilin, tropomyosin-1, vinculin. Additional large panels may be considered for clear familial history or structural phenotype, by preference combined with family segregation analysis. ([[sources/HF-ESC-2021]])
 - **TRED-HF:** Withdrawal of medical therapy in non-ischaemic DCM achieving partial/complete LVEF recovery (>40%) led to relapse in 44% within 6 months, with early LV remodelling changes even in non-relapsers — supports long-term continuation of medical therapy even after EF normalisation. ([[sources/HF-ESC-2021]])
+- **Genotype-specific LVRR:** ~40% of DCM patients achieve significant LVRR with OMT + device therapy; process requires 6 months–2 years. **TTN** pathogenic variants associated with **higher likelihood of LVRR** (Verdonshot et al.; confirmed by dal Ferro et al.). **LMNA, FLNC, DES, DMD**, and other cytoskeletal/Z-disk gene variants associated with **lower LVRR rates** (dal Ferro et al.). ([[sources/dcm-precision-hfreview-2022]], rating: high)
+- **"Apparent healing phenomenon":** ~15% of DCM patients normalise LV size and function under OMT and maintain normal function at 10-year follow-up. However, **5% deteriorate again by 15 years** (progressive HF, transplantation, or ICD requirement). Lifelong therapy and follow-up required even after apparent LV normalisation. ([[sources/dcm-precision-hfreview-2022]], rating: high)
 - Anticoagulation and rate/rhythm control for AF as per standard guidelines.
 - ICD primary prevention: LVEF ≤35% after ≥3 months of OMT (as per HF guidelines, Class I/IIa, Level A).
 - **Genotype-guided ICD thresholds:** ICD should be considered in LMNA, PLN, FLNC, RBM20, DES, TMEM43 variants even with LVEF >35% in the presence of additional risk factors (NSVT, syncope, LGE, male sex). ([[sources/esc-cmp-2023]])
@@ -123,6 +126,8 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 #### Sport and Exercise Thresholds
 - Low-to-moderate intensity recreational exercise: integral part of DCM management.
 - Contraindications for high-intensity exercise and competitive sports (shared decision-making required): LVEF <45%; unexplained syncope; extensive cardiac fibrosis at CMR or biopsy; high-risk genotype (LMNA, FLNC); frequent VT on Holter or exercise testing. ([[sources/DCM-Lancet-2023]], rating: very high)
+- **Exercise echocardiography for DCM vs athletic heart differentiation:** Inability to increase LVEF >11% OR peak LVEF >63% has **>80% sensitivity and >90% specificity for DCM** in athletes — superior to combined ECG + BNP + 24h-Holter + CMR (which fails to detect >30% of mild DCM in athletes with endurance training). ([[sources/dcm-precision-hfreview-2022]], rating: high)
+- **2020 ESC Sports Cardiology — criteria for high-intensity/competitive sports eligibility in DCM:** May be considered in asymptomatic individuals IF ALL of: LVEF 45–50%; no frequent or complex VAs on Holter or exercise testing; absence of LGE on CMR; ability to increase LVEF 10–15% during exercise; no high-risk genotype (LMNA or FLNC). **LMNA or FLNC carriers: high-intensity exercise prohibited even in phenotype-negative (gene+/phenotype−) individuals** — stronger than the general DCM restriction. ([[sources/dcm-precision-hfreview-2022]], rating: high)
 
 ### AHA/ACC 2025 Sports Statement — DCM-Specific Guidance
 - **Genotype+/phenotype-:** Competitive sports participation **reasonable**. ([[sources/competitive-sports-aha-2025]], rating: very high)
@@ -197,6 +202,7 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - Related to [[sources/gwas-arrhythmias-cmp-genes-2025]]
 - Related to [[concepts/ClinGen-Gene-Disease-Validity]]
 - Related to [[sources/clingen-summary-2026-05-09]]
+- Related to [[sources/dcm-precision-hfreview-2022]]
 
 ## Sources
 - [[sources/DCM-Lancet-2023]]
@@ -215,3 +221,4 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 - [[sources/mitochondrial-cv-aha-2025]]
 - [[sources/mybpc3-gene-2015]]
 - [[sources/scn5a-jaccep-2018]]
+- [[sources/dcm-precision-hfreview-2022]]

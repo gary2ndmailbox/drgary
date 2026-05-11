@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Conduction System Pacing"
 tags: [conduction-system-pacing, cardiac-pacing, his-bundle-pacing, left-bundle-area-pacing, cardiac-resynchronization-therapy]
-source_count: 3
-last_updated: 2026-04-25
+source_count: 4
+last_updated: 2026-05-11
 ---
 
 # Conduction System Pacing
@@ -71,6 +71,13 @@ CSP encompasses several distinct entities arranged by anatomical level [[sources
 - Ongoing trial: CSPOT (NCT04905290)
 - Both HOT-CRT and LOT-CRT remain investigational
 
+### AUC 2025 Appropriateness Ratings for CSP
+The ACC/AHA/HRS 2025 AUC formally evaluated CSP scenarios ([[sources/icd-crt-auc-2025]], rating: high):
+- **HBP or LBBAP as alternative to RV pacing** (anticipated pacing burden >40%, normal LVEF): **A(7)** — physiological activation preferred over chronic RVP
+- **CSP-CRT (HBP/LBBAP replacing LV coronary sinus lead in a CRT-indication patient):** **M(5–6)** — insufficient RCT hard-outcome data to reach A despite haemodynamic superiority in observational data
+- **LBBAP preferred over HBP** at most centres: better electrical parameters, larger anatomical target, lower pacing threshold instability ([[sources/icd-crt-auc-2025]], rating: high)
+- Rating upgrade expected once PROTECT-HF (n=2,600; CSP vs RVP) and Left vs Left (n=2,136; HBP/LBBAP vs BVP) report hard outcomes ([[sources/icd-crt-auc-2025]], rating: high)
+
 ### Published RCTs (as of 2023)
 Seven small RCTs (29–167 patients, 6–18 months follow-up) [[sources/csp-jaccep-2023]] :
 - **LBBP RESYNC** (n=40): LBBP superior to BVP in LVEF, LVESV, NT-proBNP
@@ -105,3 +112,4 @@ Seven small RCTs (29–167 patients, 6–18 months follow-up) [[sources/csp-jacc
 - [[sources/csp-ehra-2023]]
 - [[sources/csp-jaccep-2023]]
 - [[sources/periop-cied-aha-2024]]
+- [[sources/icd-crt-auc-2025]] — AUC 2025 appropriateness ratings for CSP vs RVP (A7) and CSP-CRT (M5–6)

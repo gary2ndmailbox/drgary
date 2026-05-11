@@ -40,30 +40,30 @@ See [[concepts/ClinGen-Gene-Disease-Validity]].
 ### Hereditary Cardiovascular Disease — Summary Evidence Map (as of 2026-05-09)
 
 #### Hypertrophic Cardiomyopathy (HCM)
-| Gene | Inheritance | ClinGen Classification | Date |
-|------|-------------|----------------------|------|
-| MYBPC3 | AD | **Definitive** | 10/07/2021 |
-| MYH7 | AD | **Definitive** | 07/12/2023 |
-| TNNC1 | AD | **Definitive** | 09/13/2023 |
-| TPM1 | AD | **Definitive** | 12/18/2023 |
-| FHOD3 | AD | **Definitive** | 09/29/2023 |
-| CSRP3 | Semidominant | **Definitive** | 08/09/2023 |
-| ALPK3 | AR | **Definitive** | 02/09/2022 |
-| ALPK3 | AD | **Strong** | 01/16/2025 |
-| ACTC1 | AD | **Definitive** | 06/23/2021 |
-| TNNI3 | AD | **Definitive** | 09/05/2017 |
-| PLN | AD | **Definitive** (intrinsic CMP) | 02/12/2021 |
-| LAMP2 | X-linked | **Definitive** (Danon) | 10/11/2017 |
-| TTR | AD | **Definitive** (ATTR amyloidosis) | 12/11/2017 |
-| CALR3 | AD | **Disputing** | 01/11/2023 |
-| MYH6 | AD | **Disputing** | 07/12/2023 |
-| CASQ2 | AD | **Disputing** | 05/10/2022 |
-| DSP | AD | **Disputing** (HCM) | 06/22/2022 |
-| VCL | AD | **Disputing** | 05/10/2023 |
-| KCNQ1 | AD | **Disputing** | 05/09/2022 |
-| ANKRD1 | AD | **Disputing** | 02/08/2023 |
-| RYR2 | AD | Limited | 12/14/2022 |
-| MYBPC3 | AD/AR | Limited (DCM) | 03/04/2026 / 05/16/2025 |
+| Gene   | Inheritance  | ClinGen Classification            | Date                    |
+| ------ | ------------ | --------------------------------- | ----------------------- |
+| MYBPC3 | AD           | **Definitive**                    | 10/07/2021              |
+| MYH7   | AD           | **Definitive**                    | 07/12/2023              |
+| TNNC1  | AD           | **Definitive**                    | 09/13/2023              |
+| TPM1   | AD           | **Definitive**                    | 12/18/2023              |
+| FHOD3  | AD           | **Definitive**                    | 09/29/2023              |
+| CSRP3  | Semidominant | **Definitive**                    | 08/09/2023              |
+| ALPK3  | AR           | **Definitive**                    | 02/09/2022              |
+| ALPK3  | AD           | **Strong**                        | 01/16/2025              |
+| ACTC1  | AD           | **Definitive**                    | 06/23/2021              |
+| TNNI3  | AD           | **Definitive**                    | 09/05/2017              |
+| PLN    | AD           | **Definitive** (intrinsic CMP)    | 02/12/2021              |
+| LAMP2  | X-linked     | **Definitive** (Danon)            | 10/11/2017              |
+| TTR    | AD           | **Definitive** (ATTR amyloidosis) | 12/11/2017              |
+| CALR3  | AD           | **Disputing**                     | 01/11/2023              |
+| MYH6   | AD           | **Disputing**                     | 07/12/2023              |
+| CASQ2  | AD           | **Disputing**                     | 05/10/2022              |
+| DSP    | AD           | **Disputing** (HCM)               | 06/22/2022              |
+| VCL    | AD           | **Disputing**                     | 05/10/2023              |
+| KCNQ1  | AD           | **Disputing**                     | 05/09/2022              |
+| ANKRD1 | AD           | **Disputing**                     | 02/08/2023              |
+| RYR2   | AD           | Limited                           | 12/14/2022              |
+| MYBPC3 | AD/AR        | Limited (DCM)                     | 03/04/2026 / 05/16/2025 |
 
 #### Dilated Cardiomyopathy (DCM)
 | Gene | Inheritance | ClinGen Classification | Date |
@@ -117,7 +117,7 @@ See [[concepts/ClinGen-Gene-Disease-Validity]].
 | TNNT2 | AD | No known disease relationship | 07/16/2019 |
 | TPM1 | AD | No known disease relationship | 09/13/2019 |
 
-#### Long QT Syndrome
+#### Long/Short QT Syndrome
 | Gene | Inheritance | ClinGen Classification | Date |
 |------|-------------|----------------------|------|
 | KCNQ1 | AD | **Definitive** (LQT1) | 09/25/2018 |

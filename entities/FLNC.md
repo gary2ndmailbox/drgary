@@ -2,8 +2,8 @@
 dg-publish: true
 title: "FLNC (Filamin-C)"
 tags: [genetics, arrhythmogenic-cardiomyopathy, ALVC, cardiomyopathy-genetics]
-source_count: 3
-last_updated: 2026-04-12
+source_count: 4
+last_updated: 2026-05-10
 ---
 
 # FLNC (Filamin-C)
@@ -15,7 +15,9 @@ FLNC encodes filamin-C (γ-filamin), a striated muscle-specific actin crosslinki
 - **Protein role:** Filamin-C links the costamere to the Z-disc via interactions with sarcolemmal proteins (γ/δ-sarcoglycans of the dystrophin glycoprotein complex, β1A-integrin) and Z-disc proteins (myotilin, FATZ). It is a major structural element of the extramyofibrillar cytoskeleton. ([[sources/acm-hrs-2019]])
 - **Disease-causing variant type:** Predominantly truncating variants (no odds ratio data available; recognized by cohort studies). An autosomal dominant nonsense variant (p.Trp2710*) in the last exon causes filamin-C aggregation within skeletal muscle → myofibrillar myopathy. ([[sources/acm-hrs-2019]])
 - **Clinical phenotype:** FLNC ACM presents as ALVC or biventricular cardiomyopathy; SCD and ICD-treated arrhythmias are frequent. In 12 patients with SCD in a Spanish cohort (54 FLNC variant carriers identified from 28 unrelated index patients), the mean LVEF was 39.6±12%. ([[sources/acm-hrs-2019]])
-- **ECG in FLNC disease:** Minor repolarization changes only (not an early marker of disease — in contrast to ARVC/desmosomal variants where ECG changes appear early). ([[sources/acm-hrs-2019]])
+- **ECG in FLNC disease:** Minor repolarization changes only (not an early marker of disease — in contrast to ARVC/desmosomal variants where ECG changes appear early). **Low QRS voltage on surface ECG** is a characteristic feature of FLNC-DCM, shared with PLN and DSP. ([[sources/acm-hrs-2019]], [[sources/dcm-precision-hfreview-2022]])
+- **Penetrance:** 97% penetrance by age 40 years in FLNC truncating variant carriers; disease manifests as left-dominant arrhythmogenic cardiomyopathy + DCM overlap. VAs frequently occur **before** overt LV dysfunction — an important early diagnostic clue. ([[sources/dcm-precision-hfreview-2022]], rating: high)
+- **Sports restriction in gene+/phenotype− carriers:** High-intensity exercise is prohibited per 2020 ESC Sports Cardiology Guidelines even in FLNC carriers who are phenotype-negative — one of only two DCM genes (with LMNA) where this restriction extends to presymptomatic carriers. ([[sources/dcm-precision-hfreview-2022]], rating: high)
 - **ICD recommendation:**
   - **COR IIa, LOE C-LD:** ICD is reasonable in FLNC ACM with LVEF <45%. ([[sources/acm-hrs-2019]])
 - **Extracardiac features:** Also causes myofibrillar myopathy (skeletal muscle involvement); must be considered in any patient presenting with cardiomyopathy + myopathy.
@@ -42,3 +44,4 @@ FLNC encodes filamin-C (γ-filamin), a striated muscle-specific actin crosslinki
 - [[sources/VA-DCM-Sammani-2020]]
 - [[sources/acm-hrs-2019]]
 - [[sources/eoaf-jama-2021]]
+- [[sources/dcm-precision-hfreview-2022]]

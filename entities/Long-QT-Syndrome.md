@@ -6,8 +6,8 @@ tags:
   - inherited-arrhythmias
   - sudden-cardiac-death
   - LQTS
-source_count: 16
-last_updated: 2026-05-09
+source_count: 18
+last_updated: 2026-05-11
 ---
 
 # Long QT Syndrome (LQTS)
@@ -46,8 +46,14 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - See [[concepts/ClinGen-Gene-Disease-Validity]] for full framework.
 
 #### Calmodulinopathy LQTS
-- CALM1/2/3 mutations impair Ca²⁺-dependent inactivation of KCNQ1/IKs, KCNH2/IKr, and the L-type Ca²⁺ channel → extreme QTc prolongation with neonatal onset and very high mortality. ([[sources/arrhythmia-genetics-mgenetik-2025]])
-- Neonatal LQTS with QTc >600 ms and no identifiable cause should prompt calmodulin gene sequencing. ([[sources/clingen-summary-2026-05-09]])
+- CALM1/2/3 mutations (all encoding identical calmodulin protein) cause LQTS primarily by impairing Ca²⁺-dependent inactivation (CDI) of Cav1.2 (ICaL) — not by directly affecting IKs or IKr. Calmodulin is constitutively pre-bound (as apo-CaM) at the Cav1.2 C-terminus; when the channel opens, the C-lobe must bind local Ca²⁺ to trigger CDI. Mutations reducing C-lobe Ca²⁺ affinity (EF III/IV residues) prevent this step → ICaL gain of function → APD prolongation → QT prolongation → EADs → TdP/VF. ([[sources/CALM-FCVM-2018]], rating: high)
+- **Key LQTS mutations:** CALM1-p.D130G (also CALM3), CALM2-p.D96V, CALM1-p.F142L, CALM2-p.D130V, CALM1-p.E141G, CALM2-p.D132H, CALM1-p.D132V. ([[sources/CALM-FCVM-2018]])
+- **hiPSC-CM validation (CALM1-p.F142L):** CDI severely impaired → APD prolonged, rate-adaptive APD shortening absent; Ca²⁺ transient amplitude increased but SR Ca²⁺ content normal; no spontaneous Ca²⁺ release events — confirms CDI loss as the sole arrhythmogenic mechanism (not SR instability). ([[sources/CALM-FCVM-2018]])
+- Despite heterozygosity (1 mutant allele per 6), penetrance is near-complete because mutant CaMs compete equally for the pre-bound pool at Cav1.2 — a 1:7 mutant:WT ratio is sufficient to impair CDI. ([[sources/CALM-FCVM-2018]])
+- Extreme QTc (often >600 ms) with neonatal or early-childhood onset and high SCD risk. Predominantly de novo mutations; negative family history does not exclude diagnosis. ([[sources/arrhythmia-genetics-mgenetik-2025]])
+- Neonatal LQTS with QTc >600 ms and no identifiable SCN5A/KCNQ1/KCNH2 cause → CALM1/2/3 sequencing mandatory. ([[sources/clingen-summary-2026-05-09]])
+- **Verapamil** (ICaL blockade) reverses QT prolongation in CALM1-p.F142L hiPSC-CMs; selective sustained ICaL blocker proposed as ideal therapeutic target. ([[sources/CALM-FCVM-2018]])
+- See [[concepts/Calmodulinopathy]] for full mechanism and mutation catalogue.
 
 #### Modifier Genes and Polygenic Risk
 - **Incomplete penetrance and variable expressivity** in LQTS — including between family members sharing an identical mutation — is partially explained by modifier genes. ([[sources/modifier-genes-scd-ehj-2018]], rating: high)
@@ -87,6 +93,8 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
   - Schwartz Score ≥3.5 points
   - Pathogenic variant in an LQTS gene, irrespective of QTc duration
 - ([[sources/VA-SCD-ESC-2022]], rating: very high)
+- **HRS/EHRA/APHRS consensus diagnostic criteria (any one of):** Schwartz score ≥3.5; pathogenic variant; repeated QTc ≥500 ms in absence of QT-prolonging drugs. Schwartz score ≥3.5 has **99% specificity, 19–36% sensitivity.** ([[sources/lqts-jaccep-2022]], rating: high)
+- **Apparent acquired LQTS may be congenital:** ~25% of patients with apparent drug-induced LQTS harboured a pathogenic LQTS gene variant in an international cohort. All patients with drug-induced QT prolongation should be re-evaluated after drug cessation. ([[sources/lqts-jaccep-2022]])
 - **Clinical QTc context:** In 1,710 LQTS cases, mean QTc was 471±45 ms; 47% of LQT1, 36% of LQT2, and 35% of LQT3 patients had QTc <460 ms — confirming QTc alone is insufficient for exclusion. ([[sources/arrhythmia-genetics-mgenetik-2025]])
 - **Diagnostic workup:** 12-lead ECG, Schwartz Score, exercise treadmill test (QTc paradoxically shortens in LQT1 on exercise; fails to shorten in LQT2), 24-hr ambulatory ECG; genetic testing for high clinical suspicion with negative workup. ([[sources/channelopathies-jaha-2025]])
 - **Genetic testing: Class I** per EHRA/HRS/APHRS/LAHRS consensus; a pathogenic genetic result is part of the diagnostic score. ([[sources/arrhythmia-genetics-mgenetik-2025]])
@@ -94,17 +102,72 @@ Long QT syndrome is the most prevalent cardiac channelopathy, characterised by p
 - **Epinephrine challenge: NOT recommended (Class III)** for routine diagnosis. **EPS: NOT recommended (Class III).** ([[sources/VA-SCD-ESC-2022]])
 - **AI-ECG:** Up to 40% of LQTS patients have QTc <450 ms at baseline. Deep learning models have achieved AUC 0.741 for identifying concealed LQTS from the 12-lead ECG and can discriminate LQT1 from LQT2. Input occlusion reveals mechanistic T-wave footprints corresponding to predicted IKr inhibition effects. ([[sources/repolarisation-jaccep-2023]])
 
+#### ECG Patterns by Subtype (LQT1–3)
+The three major subtypes produce distinct T-wave signatures reflecting the regional distribution of IKs, IKr, and INaLate across the ventricular wall. These patterns support genotype prediction before genetic results are available. ([[sources/repolarisation-jaccep-2023]], [[sources/lqts-jaccep-2022]], rating: high)
+
+**LQT1 (KCNQ1 — IKs loss-of-function)**
+- **T-wave:** Broad-based, symmetrically prolonged, smooth upslope; normal to mildly increased amplitude
+- **Baseline QT:** Minimal prolongation at rest — IKs is nearly absent at resting heart rates, so KCNQ1 mutations cause little baseline change; QT prolongation unmasks dramatically with sympathetic activation when IKs becomes the dominant repolarising current
+- **Dynamic behaviour:** QTc **increases during exercise**, shortens gradually during recovery (opposite of normal physiology) — exercise paradoxically prolongs QT and is the primary arrhythmic trigger
+- **Trigger:** Exercise, swimming (catecholamine surge)
+
+**LQT2 (KCNH2 — IKr loss-of-function)**
+- **T-wave:** Low-amplitude, **bifid or notched** (two distinct peaks, or a prominent notch on the descent); most characteristic pattern across all three subtypes
+- **Baseline QT:** Prolonged at rest — IKr is the dominant repolarising current at slow heart rates; mutations cause resting QT prolongation without adrenergic challenge
+- **Mechanism of bifid T-wave:** IKr reduction prolongs APD more in the LV than in the RV (where IKs partially compensates) → interventricular and transmural repolarisation disparity → two-phase T-wave morphology ([[sources/repolarisation-jaccep-2023]])
+- **Dynamic behaviour:** QTc **shortens during exercise**, then gradually re-lengthens during recovery — characteristically opposite to LQT1
+- **Trigger:** Sudden auditory stimuli (startling), emotion, postpartum period
+
+**LQT3 (SCN5A — INaLate gain-of-function)**
+- **T-wave:** **Late-onset peaked or asymmetric biphasic** T-wave, preceded by a long isoelectric or flat ST-segment; abrupt upslope with relatively narrow peak
+- **ECG hallmark:** Prolonged ST-segment (extended plateau) → **delayed T-wave onset** — the isoelectric gap between QRS and T-wave is visually distinct from LQT1/LQT2
+- **Dynamic behaviour:** QTc **worsens at slow heart rates** (longer diastolic interval allows greater INaLate accumulation); does NOT shorten appropriately with faster rates; ambulatory ECGs often reveal more pronounced QTc prolongation during sleep than on a resting daytime ECG
+- **Trigger:** Rest, sleep (bradycardia-dependent)
+
+**Shared features and caveats**
+- **Giant T-U waves** in any subtype herald impending TdP — a widened, prominent terminal deflection (T-U fusion) immediately precedes short-coupled VPBs that trigger the arrhythmia. ([[sources/lqts-jaccep-2022]], rating: high)
+- Pattern overlap is common; T-wave morphology is insufficient alone for genotype assignment. 36% of LQT2 and 35% of LQT3 patients have QTc <460 ms on a resting ECG — normal T-wave morphology does not exclude LQTS. ([[sources/arrhythmia-genetics-mgenetik-2025]], rating: high)
+- A single resting ECG captures one heart rate snapshot; serial ECGs at different rates (including 4-minute post-exercise recovery) improve both sensitivity and genotype differentiation. ([[sources/lqts-jaccep-2022]])
+
+#### Provocation Testing Thresholds
+- **Exercise testing (QTc at 4-minute recovery):** QTc ≥445 ms = **90% sensitivity and 90% specificity** for LQTS; QTc ≥480 ms = 36% sensitivity and **100% specificity** (incorporated into updated Schwartz score). Validated for LQT1 and LQT2 in adults. ([[sources/lqts-jaccep-2022]], rating: high)
+- **Genotype differentiation by exercise:** LQT1 → QTc increases during exercise, gradually shortens during recovery. LQT2 → QTc shortens during exercise, gradually lengthens during recovery. Differences at peak exercise or 1-min recovery can differentiate subtypes. ([[sources/lqts-jaccep-2022]])
+- **Stand-up (orthostatic) test:** QTc stretch ≥490 ms (maximal QT stretch = T-wave end approaches next P-wave during RR shortening) → **92% sensitivity, 79% specificity.** Not validated in paediatric patients — healthy children may increase QTc by up to 80 ms on standing. ([[sources/lqts-jaccep-2022]])
+- **Paediatric exercise recovery:** Optimal threshold QTc >460 ms at 7-minute recovery (rather than 4-min) in children with LQTS. ([[sources/lqts-jaccep-2022]])
+
 ### Risk Stratification
 - **1-2-3 LQTS Risk Calculator:** Estimates arrhythmic risk before therapy initiation; recommended prior to ICD decisions: **Class IIa** (ESC 2022). ([[sources/VA-SCD-ESC-2022]], rating: very high)
 - **ICD in asymptomatic high-risk LQTS** (per 1-2-3 LQTS Risk calculator) in addition to genotype-specific therapies: **Class IIb.** ([[sources/VA-SCD-ESC-2022]])
 - Trigger patterns inform risk stratification: LQT1 events triggered by exercise/swimming; LQT2 by auditory stimuli/emotion/postpartum; LQT3 at rest/during sleep. ([[sources/channelopathies-jaha-2025]])
 
+#### Quantitative Annual Event Rates
+- **By QTc stratum (ages 18–40, n=812 genotype-positive patients):**
+  - QTc ≤439 ms: CE 3%/22 yr, SAE 0%
+  - QTc 440–469 ms: CE 23%/22 yr, SAE 2%
+  - QTc 470–499 ms: CE 31%/22 yr, SAE 4%
+  - QTc 500–549 ms: CE 41%/22 yr, SAE 12%
+  - QTc ≥550 ms: CE 46%/22 yr, SAE 19%
+- **QTc ≥500 ms:** 1.9–2.1%/year CE; 0.5–1.3%/year SAE; 2–3× higher risk vs QTc <500 ms even on β-blockers. ([[sources/lqts-jaccep-2022]], rating: high)
+- **QTc <500 ms:** 0.2–0.4%/year SAE. **QTc <460 ms:** <0.1%/year SAE — very low risk. ([[sources/lqts-jaccep-2022]])
+- **By genotype (annual SAE rate, up to age 40):** LQT1 0.2–0.5%; LQT2 0.3–0.7%; LQT3 0.3–1.1%. ([[sources/lqts-jaccep-2022]])
+- **By genotype (annual CE rate, up to age 40):** LQT1 0.8–1.1%; LQT2 0.8–1.8%; LQT3 0.5–1.5%. ([[sources/lqts-jaccep-2022]])
+- **Age-specific peak mortality period:** LQT1 = ages 1–19; LQT2 = ages 30–39; LQT3 = ages 15–19. ([[sources/lqts-jaccep-2022]])
+- **JLN syndrome:** 35% SCD risk by age 40 despite β-blocker therapy. ([[sources/lqts-jaccep-2022]])
+
+#### Variant-Level Risk
+- **LQT1 variant-specific:** KCNQ1-A341V → 80% CE risk by age 40 (vs 30% for non-A341V LQT1); KCNQ1-Y111C founder variant → very low risk (0.05%/year SAE over 25 years, n=80). ([[sources/lqts-jaccep-2022]])
+- **LQT3 variant-specific:** ΔKPQ → higher risk; E1784K and D1790G → significantly less CE. ([[sources/lqts-jaccep-2022]])
+- **Variant location hierarchy (consistent evidence):** Transmembrane pore variants > other transmembrane domain variants > N/C terminus variants (greatest → lowest relative risk). Dominant-negative effect variants carry greater risk than haploinsufficiency variants. ([[sources/lqts-jaccep-2022]])
+
 ### Management
 - **Lifestyle modification:** Avoid QT-prolonging drugs (CredibleMeds list); avoid competitive sport in high-risk subtypes; correct hypokalaemia/hypomagnesaemia. ([[sources/channelopathies-jaha-2025]], rating: high)
 - **Beta-blockers (non-selective): Class I** — nadolol preferred (long-acting, once-daily, superior compliance evidence); propranolol as alternative. Metoprolol is inferior due to shorter duration of action. ([[sources/VA-SCD-ESC-2022]])
-- **Mexiletine (Na⁺ channel blocker) in LQT3 with prolonged QTc: Class I** (upgraded from IIa in ESC 2022). Long-term mexiletine registry (n=34 LQT3, median 36 months): significant reduction in all arrhythmic events. Flecainide and ranolazine also shorten QTc in short-term studies. ([[sources/VA-SCD-ESC-2022]], [[sources/scn5a-jaccep-2018]])
+- **Beta-blocker dosing and monitoring:** Nadolol target dose **1 mg/kg/day** (evening or divided doses). Monitoring endpoint: **15–20% heart rate blunting during maximal exercise** (not QTc reduction). >50% of LQTS patients prescribed β-blockers have suboptimal adherence — actual relative risk reduction of optimal therapy is likely considerably greater than trial-reported estimates. ([[sources/lqts-jaccep-2022]], rating: high)
+- **Mexiletine (Na⁺ channel blocker) in LQT3 with prolonged QTc: Class I** (upgraded from IIa in ESC 2022). Mexiletine 8 mg/kg/day → **60 ms QTc reduction** in LQT3 while reducing CE; significant QTc reduction also reported in LQT2. Long-term mexiletine registry (n=34 LQT3, median 36 months): significant reduction in all arrhythmic events. Flecainide and ranolazine also shorten QTc in short-term studies. ([[sources/VA-SCD-ESC-2022]], [[sources/lqts-jaccep-2022]], [[sources/scn5a-jaccep-2018]])
 - **ICD + beta-blockers after cardiac arrest: Class I.** ICD if symptomatic on beta-blockers + genotype-specific therapies: **Class I.** ([[sources/VA-SCD-ESC-2022]])
-- **LCSD (left cardiac sympathetic denervation): Class I** — when ICD is contraindicated/declined, OR patient on full therapy with ICD still has multiple shocks or syncope from VA. Post-LCSD QTc <500 ms predicts success; QTc >500 ms persistent = consider ICD. See [[concepts/Left-Cardiac-Sympathetic-Denervation]]. ([[sources/VA-SCD-ESC-2022]])
+- **ICD complication rates (meta-analysis, n=462 LQTS patients with ICD):** 2.8%/year inappropriate shocks; 7.0%/year total complications (lead malfunction, device infection, psychological). Dual-chamber transvenous ICD preferred over S-ICD in LQTS — enables atrial overdrive pacing. S-ICD experience limited (EFFORTLESS registry). ([[sources/lqts-jaccep-2022]])
+- **Primary prevention ICD thresholds:** Independent predictors of appropriate shock: QTc ≥500 ms; cardiogenic syncope despite β-blockers. JLN/compound heterozygotes <40 years: shared decision-making re primary prevention ICD or LCSD. ([[sources/lqts-jaccep-2022]])
+- **LCSD (left cardiac sympathetic denervation): Class I** — when ICD is contraindicated/declined, OR patient on full therapy with ICD still has multiple shocks or syncope from VA. Post-LCSD QTc <500 ms predicts success; QTc >500 ms persistent = consider ICD. In certain high-risk LQT1 patients, may be preferred over primary prevention ICD. See [[concepts/Left-Cardiac-Sympathetic-Denervation]]. ([[sources/VA-SCD-ESC-2022]], [[sources/lqts-jaccep-2022]])
 
 #### Precision Therapy in Practice (Mayo Clinic 20-Year Cohort, n=1,304)
 Real-world expert LQTS management requires far more than 3 standard modalities — up to 18 distinct configurations were used for LQT3 alone. Phenotypic expression ultimately outweighs genotype in guiding treatment; regimens can differ even within the same family. ([[sources/precision-lqts-tcm-2024]], rating: high)
@@ -159,6 +222,7 @@ Real-world expert LQTS management requires far more than 3 standard modalities �
 - **Drug-induced TdP and latent LQTS — discrepant estimates:** The AHA 2020 statement reports ~30% of patients with drug-induced QT prolongation carry pathogenic variants in 1 of the 5 major LQTS genes — supporting drug-induced TdP as frequently unmasking subclinical LQTS. In contrast, the arrhythmia genetics review (2025) cites only 10–15%. The discrepancy likely reflects different patient populations, gene panels, and QT prolongation vs. TdP definitions. Neither figure currently supports routine pre-prescription genetic screening. ([[sources/drug-arrhythmia-aha-2020]], [[sources/arrhythmia-genetics-mgenetik-2025]])
 - **QTc threshold inconsistency — diagnosis vs. clinical practice:** ESC 2022 uses QTc ≥480 ms on repeated ECGs as a Class I diagnostic criterion. Many programmes and older guidelines use QTc >450 ms (males) or >470 ms (females). The Schwartz Score uses ≥480 ms for 3 points but overall diagnosis can be made at lower values. This creates real-world variation in who receives a diagnosis and genetic testing referral. ([[sources/VA-SCD-ESC-2022]], [[sources/channelopathies-jaha-2025]])
 - **Asymptomatic LQTS — ICD threshold undefined:** For asymptomatic patients on full beta-blocker therapy with persistently prolonged QTc, ICD implantation is only Class IIb (1-2-3 LQTS Risk calculator guided). No Class I or IIa threshold exists, leaving clinicians without clear guidance for the largest group of LQTS patients. ([[sources/VA-SCD-ESC-2022]])
+- **LQT1 and LQT2 genotype frequency discrepancy across sources:** Krahn 2022 reports KCNQ1 (LQT1) at 40–45% and KCNH2 (LQT2) at ~40% of genotype-positive cases. The channelopathies-jaha-2025 review reports LQT1 at 30–35% and LQT2 at 25–30%. These differences likely reflect selection bias in reported cohorts, with older registry data (International LQTS Registry) enriched for symptomatic and severe phenotypes, while more recent genetic screening cohorts capture a broader spectrum. The practical implication is that LQT1 and LQT2 together account for 70–85% of genotype-positive LQTS regardless of source. ([[sources/lqts-jaccep-2022]], [[sources/channelopathies-jaha-2025]])
 - **LQT3: gene therapy vs. Class I mexiletine — competing strategies:** ESC 2022 upgraded mexiletine to Class I for LQT3 with prolonged QTc (established pharmacology; long-term registry n=34). Simultaneously, SCN5A base editing shows strong preclinical data. Both address the same INaL mechanism but compete as clinical strategies; no comparative efficacy data exist. ([[sources/VA-SCD-ESC-2022]], [[sources/gene-therapy-arrhythmia-2025]], [[sources/scn5a-jaccep-2018]])
 - **SupRep balance constraint — no validated human dosing:** SupRep requires a precise suppression-to-replacement ratio: excess suppression worsens LQTS; excess replacement risks SQTS. This therapeutic window has been demonstrated in animal models but has never been established in humans. ([[sources/gene-therapy-arrhythmia-2025]])
 - **NOS1AP biology paradox — partially resolved:** NOS1AP risk alleles (associated with longer QT and higher arrhythmic risk in humans) correlate with higher NOS1AP expression in human ventricular myocardium. However, NOS1AP overexpression in guinea pig and rat ventricular myocytes *shortens* APD — opposite to humans. Dababneh 2025 confirmed NOS1AP modulates repolarisation via NOS1 activity in hiPSC-CMs, establishing a mechanistic pathway, but the directional discrepancy between standard animal models and human data remains unreconciled. ([[sources/modifier-genes-scd-ehj-2018]], [[sources/gwas-arrhythmias-cmp-genes-2025]])
@@ -195,6 +259,8 @@ Real-world expert LQTS management requires far more than 3 standard modalities �
 - Related to [[concepts/Variant-Reclassification]]
 - Related to [[concepts/Electrical-Storm]]
 - Related to [[concepts/Epigenetics-Cardiac-Arrhythmia]]
+- Related to [[concepts/Calmodulinopathy]]
+- Related to [[sources/lqts-jaccep-2022]]
 
 ## Sources
 - [[sources/channelopathies-jaha-2025]]
@@ -214,4 +280,5 @@ Real-world expert LQTS management requires far more than 3 standard modalities �
 - [[sources/competitive-sports-aha-2025]]
 - [[sources/genetic-test-aha-2020]]
 - [[sources/clingen-summary-2026-05-09]]
-- [[sources/precision-lqts-tcm-2024]]
+- [[sources/CALM-FCVM-2018]]
+- [[sources/lqts-jaccep-2022]]

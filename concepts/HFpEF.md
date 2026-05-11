@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Heart Failure with Preserved Ejection Fraction (HFpEF)"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors, echocardiography, diastolic-function]
-source_count: 9
-last_updated: 2026-05-02
+source_count: 10
+last_updated: 2026-05-11
 ---
 
 # Heart Failure with Preserved Ejection Fraction (HFpEF)
@@ -128,6 +128,16 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - As of 2021 ESC guidelines: **no pharmacotherapy** shown to reduce mortality in HFpEF. ACE-I, ARB, MRA, ARNI all failed to meet primary endpoints. ([[sources/HF-ESC-2021]], rating: very high)
 - Treatment focused on managing aetiologies and comorbidities, and symptom relief with diuretics. ([[sources/HF-ESC-2021]], rating: very high)
 
+### ARNI (Sacubitril–Valsartan) — PARAGON-HF
+- **PARAGON-HF** (Solomon et al., 2019, NEJM; n=4,796; LVEF ≥45%; sacubitril–valsartan vs. valsartan; median 35 months): The primary composite of total HF hospitalisations + CV death did not reach statistical significance (RR 0.87, 95% CI 0.75–1.01; **P=0.06**). ([[sources/arni-paragon-hf-nejm-2019]], rating: very high)
+- HF hospitalisations (RR 0.85, 95% CI 0.72–1.00) and CV death (HR 0.95, 95% CI 0.79–1.16) were both non-significant individually. ([[sources/arni-paragon-hf-nejm-2019]], rating: very high)
+- **Meaningful secondary signals (exploratory after primary not met):**
+  - NYHA class improvement at 8 months: 15.0% vs. 12.6% (OR 1.45, 95% CI 1.13–1.86)
+  - Worsening renal function halved: 1.4% vs. 2.7% (HR 0.50, 95% CI 0.33–0.77)
+  - KCCQ clinical summary score: +1.0 point improvement (95% CI 0.0–2.1) ([[sources/arni-paragon-hf-nejm-2019]], rating: very high)
+- **Subgroup signals:** Pre-specified analysis suggested possible differential benefit in patients with LVEF 45–57% (lower EF boundary, overlapping HFmrEF) and in **women**. These are hypothesis-generating only. ([[sources/arni-paragon-hf-nejm-2019]], rating: very high)
+- **Guideline position:** AHA 2022 COR 2b, LOE B-R — "particularly in those with lower LVEF"; ESC 2023 does not formally recommend ARNI in HFpEF (SGLT2i received Class I, Level A instead). ([[sources/HF-AHA-2022]], rating: very high)
+
 ### ESC 2023 — SGLT2 Inhibitors (Class I, Level A)
 - **EMPEROR-Preserved (empagliflozin, n=5988, LVEF >40%, median follow-up 26.2 months):** Composite of CV death or HF hospitalization reduced (HR 0.79, 95% CI 0.69–0.90; P<0.001). Effect driven by reduced HF hospitalizations; **no significant reduction in CV death**. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **DELIVER (dapagliflozin, n=6263, LVEF >40%, including improved LVEF):** Primary endpoint of CV death or worsening HF reduced (HR 0.82, 95% CI 0.73–0.92; P<0.001). Benefit from worsening HF component; **no reduction in CV death**. Consistent benefit across full LVEF range and in the improved-LVEF subgroup. ([[sources/HF-update-ESC-2023]], rating: very high)
@@ -156,6 +166,8 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - Both guidelines agree SGLT2i is beneficial in HFpEF; the difference in classification strength reflects publication timing, not disagreement on efficacy.
 
 ## Contradictions / Open Questions
+- **PARAGON-HF: near-miss or true negative?** The primary endpoint P=0.06 (alpha 0.048) raises the question of whether a different trial design — placebo comparator (valsartan has ARB activity), different LVEF threshold, or larger sample — would have reached significance. The effect size (RR 0.87) mirrors other near-miss HFpEF trials. The active comparator (valsartan) may have attenuated the true ARNI vs placebo difference, given CHARM-Preserved ARB signal. ([[sources/arni-paragon-hf-nejm-2019]], rating: very high)
+- **ARNI subgroup signal (LVEF 45–57%) vs. SGLT2i across full EF range:** PARAGON-HF suggests possible ARNI benefit at the lower EF boundary of HFpEF. EMPEROR-Preserved and DELIVER show SGLT2i benefit across the full LVEF spectrum (>40%). This creates a tension: is ARNI complementary to SGLT2i in lower-EF HFpEF, or does the SGLT2i Class I recommendation make ARNI COR 2b practically irrelevant? No head-to-head or combination trial data exist. ([[sources/arni-paragon-hf-nejm-2019]], rating: very high; [[sources/HF-update-ESC-2023]], rating: very high)
 - **Mechanical atrial dysfunction vs. AF in HFpEF:** ESC/HFA 2025 AtCM consensus shows mechanical atrial dysfunction is a better predictor than AF in HFpEF — yet HFpEF management frameworks (AHA/ESC) continue to rely heavily on AF detection as a primary driver of management decisions (NT-proBNP thresholds, OAC, rate/rhythm control). This tension suggests atrial structural markers may need formal incorporation into HFpEF diagnostic and management algorithms. ([[sources/atrial-cmp-esc-2025]], rating: high; [[sources/echo-hfpef-ase-2025]], rating: very high)
 - **SGLT2i reduces HF hospitalizations but not CV death in HFpEF:** Both EMPEROR-Preserved and DELIVER showed no significant reduction in CV death individually; the pooled meta-analysis also showed a non-significant trend (HR 0.88, P=0.052). The Class I, Level A recommendation rests on the composite endpoint driven by hospitalizations. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **Improved EF phenotype (HFrecEF):** DELIVER included patients with LVEF previously ≤40% that had improved to >40%. Dapagliflozin showed consistent benefit in this subgroup — suggesting SGLT2i may benefit "recovered EF" HF, but guideline classification of this subgroup remains undefined. ([[sources/HF-update-ESC-2023]], rating: very high)
@@ -187,6 +199,7 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - Related to [[sources/atrial-cmp-esc-2025]]
 - Related to [[sources/ch-aha-2026]]
 - Related to [[concepts/Clonal-Hematopoiesis]] — TET2-CH 2.4× enriched in HFpEF; NLRP3/IL-1β mechanism
+- Related to [[entities/Sacubitril-Valsartan]] — ARNI; PARAGON-HF trial primary evidence; COR 2b in AHA 2022
 
 ## Sources
 - [[sources/HF-AHA-2022]]
@@ -198,3 +211,4 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - [[sources/echo-hfpef-ase-2025]]
 - [[sources/fabry-ehj-2024]]
 - [[sources/obesity-cv-aha-2021]]
+- [[sources/arni-paragon-hf-nejm-2019]]

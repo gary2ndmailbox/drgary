@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Flecainide"
 tags: [flecainide, antiarrhythmic-drugs, atrial-fibrillation, proarrhythmia, sodium-channel-blockade, CPVT]
-source_count: 1
+source_count: 2
 last_updated: 2026-05-07
 ---
 
@@ -57,7 +57,10 @@ Flecainide is a class 1C antiarrhythmic agent that blocks the fast inward Na+ cu
 - **Monitoring:** QRS interval regularly during treatment; exercise stress test at initiation to assess use-dependent QRS widening; regular ECG; pacemaker threshold check if pacemaker-dependent.
 
 ### Use in CPVT
-- Flecainide is first add-on therapy after beta-blockers in CPVT (~30% of patients require add-on therapy). ESC 2022 upgraded it to Class I (ICD + beta-blockers + flecainide) after aborted cardiac arrest. ([[sources/channelopathies-jaha-2025]], rating: high; [[sources/VA-SCD-ESC-2022]], rating: very high)
+- Flecainide is first add-on therapy after beta-blockers in CPVT (~30% of patients require add-on therapy despite optimal BB). ESC 2022 upgraded it to Class I (ICD + beta-blockers + flecainide) after aborted cardiac arrest. ESC dosing: **2–3 mg/kg/day**; conventional total daily dose 100–300 mg. ([[sources/channelopathies-jaha-2025]], rating: high; [[sources/VA-SCD-ESC-2022]], rating: very high; [[sources/cpvt-jcm-2024]])
+- **Only randomized trial:** 14-patient crossover study (protocol-modified to exercise-induced VA as secondary endpoint due to enrolment challenges); demonstrated superiority of BB + flecainide over maximally tolerated BB alone — no participants had couplets or NSVT during exercise in the flecainide group. Absence of VT or appropriate ICD therapy as primary endpoint limits interpretation. ([[sources/cpvt-jcm-2024]])
+- **Multinational retrospective cohort (n=247):** Adjunctive flecainide + BB demonstrated significant reduction in arrhythmic events (SCD, SCA, appropriate ICD shocks, arrhythmic syncope); effect consistent across full cohort, symptomatic patients, and breakthrough-on-BB subgroup. ([[sources/cpvt-jcm-2024]])
+- Flecainide monotherapy has been documented in select cases and small observational studies with moderately positive outcomes; generally less robust than combination therapy; non-adherence to CPVT medications is independently associated with flecainide monotherapy concerns. ([[sources/cpvt-jcm-2024]])
 - Variant-specific response: p.R420W, p.S2246L, p.C2277R respond well; p.G357S and p.G2337V appear non-responsive in registry data (Chang 2025). ([[sources/RYR2-CPVT-CircEP-2025]], rating: very high)
 - See [[entities/CPVT]] and [[entities/RYR2]] for full variant-specific data and mechanism debate.
 
@@ -80,4 +83,5 @@ Flecainide is a class 1C antiarrhythmic agent that blocks the fast inward Na+ cu
 - Related to [[concepts/Pharmacological-Provocation-Testing]] -- sodium channel blocker provocation for Brugada
 
 ## Sources
-- Related to [[sources/flecainide-af-europace-2011]]
+- [[sources/flecainide-af-europace-2011]]
+- [[sources/cpvt-jcm-2024]]

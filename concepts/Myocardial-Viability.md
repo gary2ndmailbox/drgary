@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Myocardial Viability"
 tags: [myocardial-viability, ischemic-cardiomyopathy, cardiac-imaging, coronary-revascularization, late-gadolinium-enhancement]
-source_count: 1
-last_updated: 2026-04-29
+source_count: 2
+last_updated: 2026-05-11
 ---
 
 # Myocardial Viability
@@ -70,7 +70,7 @@ All modalities predict a similar degree of global LVEF improvement after revascu
 - **STICH trial (NEJM 2011/2019; n=1212, LVEF ≤35%):** CABG + GDMT reduced 10-year all-cause and CV mortality vs GDMT alone — confirming CABG benefit in ischemic cardiomyopathy. ([[sources/imaging-viability-aha-2020]], [[sources/CCS-AHA-2023]], rating: very high)
 - **STICH viability substudy (n=618; SPECT or dobutamine echo):** Patients with viable myocardium had lower 5-year mortality (33% vs 50%) but **viability status did NOT discriminate who benefited from CABG vs GDMT alone** — no significant treatment-by-viability interaction for mortality. LVEF improved similarly in GDMT-only and CABG patients with viable myocardium; 10-year survival was not related to whether LVEF increased. ([[sources/imaging-viability-aha-2020]], rating: very high)
 - **PARR-2 trial (PET-guided management):** PET viability imaging did not improve survival vs standard care. Post-hoc analysis suggested benefit only when PET guidance was strictly adhered to. ([[sources/imaging-viability-aha-2020]], rating: very high)
-- **REVIVED-BCIS2 (n=700, LVEF ≤35%, viable by imaging):** PCI + GDMT vs GDMT alone — no difference in all-cause death or HF hospitalisation at median 3.4 years. ([[sources/CCS-AHA-2023]], rating: very high)
+- **REVIVED-BCIS2 (n=700, LVEF ≤35%, viable by imaging):** PCI + GDMT vs GDMT alone — no difference in all-cause death or HF hospitalisation at median 3.4 years (HR 0.99; P=0.96). LVEF did not improve incrementally at 6 months (−1.6 pp; NS) or 12 months (+0.9 pp; NS). Early KCCQ benefit at 6 months (+6.5 points, above MCID) eroded to non-significance by 24 months as the OMT group improved. Trend toward less ICD appropriate therapy in PCI group (5.9% vs 14.0%; RR 0.42; NS). Year-1 major bleeding was significantly higher in PCI (RR 4.95). ([[sources/pci-hf-revived-bcis2-nejm-2022]], [[sources/CCS-AHA-2023]], rating: very high)
 - **Interpretation:** Modern GDMT (particularly beta-blockers) has advanced substantially since earlier observational studies showing viability-guided revascularization benefit. The incremental survival benefit of revascularization over GDMT alone may have diminished to the point where imaging-based viability assessment cannot separate responders from non-responders.
 
 ### Clinical Decision Algorithms
@@ -83,6 +83,7 @@ All modalities predict a similar degree of global LVEF improvement after revascu
 - **Viability predicts contractile recovery but not survival:** The STICH substudy demonstrated that improved LVEF after CABG did not translate to improved survival — functional recovery is an insufficient surrogate for patient benefit. Benefits may extend to diastolic relaxation, arrhythmia burden, symptom relief, and QoL, none of which were tested. ([[sources/imaging-viability-aha-2020]], rating: very high)
 - **Single dichotomized viability test insufficient:** No single imaging modality expressed in a binary fashion (viable vs not) captures the physiological continuum of ischemic myocardium; quantitative, multi-modal approaches may be needed but have not been validated in RCTs. ([[sources/imaging-viability-aha-2020]], rating: very high)
 - **Extensive LV remodeling negates viability benefit:** LV end-systolic volume >130 mL predicts 38% higher cardiac events after revascularization despite metabolic viability — the LV remodeling threshold attenuates functional benefit; imaging-guided viability assessment does not account for this modifier. ([[sources/imaging-viability-aha-2020]], rating: very high)
+- **CABG vs PCI divergence in ischaemic cardiomyopathy:** STICH demonstrated a 10-year survival benefit for CABG over GDMT alone (LVEF ≤35%), while REVIVED-BCIS2 showed no benefit for PCI over GDMT alone in a viability-enriched population (HR 0.99; P=0.96). Whether the discrepancy reflects superior completeness of surgical revascularisation, the open-label design of REVIVED, or a true biological difference between CABG and PCI in this setting is unresolved. The 2023 AHA/ACC CCD guideline preserves CABG as COR 1 and does not endorse PCI for survival benefit in LVEF ≤35%. ([[sources/pci-hf-revived-bcis2-nejm-2022]], [[sources/CCS-AHA-2023]], rating: very high)
 
 ## Connections
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
@@ -93,5 +94,6 @@ All modalities predict a similar degree of global LVEF improvement after revascu
 - Related to [[sources/imaging-viability-aha-2020]]
 
 ## Sources
+- [[sources/pci-hf-revived-bcis2-nejm-2022]]
 - [[sources/CCS-AHA-2023]]
 - [[sources/imaging-viability-aha-2020]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cardio-Obstetrics"
 tags: [cardio-obstetrics, cardiovascular-disease-in-pregnancy, maternal-health, multidisciplinary-team, peripartum-cardiomyopathy]
-source_count: 1
-last_updated: 2026-04-28
+source_count: 2
+last_updated: 2026-05-10
 ---
 
 # Cardio-Obstetrics
@@ -24,14 +24,20 @@ Cardio-obstetrics (also called the "pregnancy heart team") is a multidisciplinar
 - Early identification of prohibitive-risk conditions allows informed shared decision-making
 
 ### Maternal Risk Stratification — Modified WHO Classification
-- The **modified WHO classification** is the only prospectively validated method for estimating individual maternal cardiovascular risk in women with CVD contemplating pregnancy [[sources/cv-pregnancy-aha-2020]] (rating: high)
+- The **modified WHO classification** is the only prospectively validated method for estimating individual maternal cardiovascular risk in women with CVD contemplating pregnancy [[sources/cv-pregnancy-aha-2020]] (rating: high); [[sources/cv-pregnancy-esc-2018]] (rating: very high)
 - Other risk models have been developed but none are prospectively validated
 - All validated models include: prior CVD event, history of arrhythmia, prior heart failure, poor functional class, resting cyanosis, anticoagulant use, mechanical valve
-- **Prohibitive/highest-risk conditions (WHO Class IV — pregnancy often discouraged):**
-  - Pulmonary arterial hypertension (PAH)
-  - Severe ventricular dysfunction
-  - Severe left-sided heart obstruction (aortic stenosis, mitral stenosis)
-  - Significant aortic dilatation with underlying connective tissue disease (Marfan syndrome, Loeys-Dietz)
+- NT-proBNP >128 pg/mL at 20 weeks gestation is an independent predictor of later cardiac events [[sources/cv-pregnancy-esc-2018]]
+- **Prohibitive/highest-risk conditions (mWHO Class IV — pregnancy contraindicated, 40–100% event rate):**
+  - Pulmonary arterial hypertension (PAH) of any cause
+  - Severe systemic ventricular dysfunction (LVEF <30% or NYHA III–IV)
+  - **Prior PPCM with any residual LV impairment** (even mild dysfunction)
+  - Severe mitral stenosis (valve area <1.0 cm²) or severe symptomatic aortic stenosis
+  - Systemic right ventricle with moderate/severe dysfunction (Mustard/Senning TGA or congenitally corrected TGA)
+  - Severe aortic dilatation (>45 mm Marfan/Loeys-Dietz; >50 mm BAV)
+  - Vascular Ehlers-Danlos syndrome; severe re-coarctation
+  - Fontan circulation with any complication (SaO₂ <85%, depressed ventricular function, moderate-severe AV regurgitation, refractory arrhythmia, protein-losing enteropathy)
+- See [[concepts/mWHO-Classification]] for full class definitions and event rates
 
 ### Antepartum Monitoring
 - Frequency of monitoring and team composition determined by modified WHO risk class [[sources/cv-pregnancy-aha-2020]] (rating: high)
@@ -76,3 +82,4 @@ Cardio-obstetrics (also called the "pregnancy heart team") is a multidisciplinar
 
 ## Sources
 - [[sources/cv-pregnancy-aha-2020]]
+- [[sources/cv-pregnancy-esc-2018]]

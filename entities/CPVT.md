@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)"
 tags: [channelopathies, inherited-arrhythmias, sudden-cardiac-death, CPVT]
-source_count: 9
+source_count: 12
 last_updated: 2026-05-10
 ---
 
@@ -40,13 +40,44 @@ Calsequestrin-2 functions within a quaternary calcium release unit (RYR2 + CASQ2
 ### TECRL (CPVT3) — Mixed CPVT/LQTS Phenotype
 TECRL encodes an oxidoreductase enzyme localised to the endoplasmic reticulum. Autosomal recessive. Homozygous TECRL pathogenic variants reduce RYR2 and CASQ2 protein levels → reduced SR calcium storage and aberrant calcium handling. The clinical phenotype is a distinctive overlap of CPVT and LQTS features — adrenergically triggered bidirectional VT coexisting with QT prolongation — making TECRL disease phenotypically distinct from CPVT1 and CPVT2. ([[sources/genetics-va-fcvm-2022]], rating: medium)
 
+### CALM1/2/3 — Calmodulinopathy CPVT Subtype
+Mutations in CALM1, CALM2, or CALM3 (all encoding identical calmodulin protein) can produce a CPVT phenotype via a mechanism distinct from RYR2 GOF. Calmodulin (CaM) is constitutively pre-bound to RyR2 in the apo form; this apo-CaM stabilises the RyR2 closed state by allosterically reinforcing the "zipping" interaction between N-terminal and central RyR2 domains — a Ca²⁺-independent mechanism. Specific CPVT-associated mutations (CALM1-p.N98S, CALM1-p.N54I, CALM3-p.A103V) alter the 3D CaM–RyR2 binding interface and disrupt this stabilisation → spontaneous Ca²⁺ waves → NCX-mediated transient inward current (ITI) → DADs → bidirectional VT. These mutations differ from LQTS calmodulin mutations in producing only a small reduction in C-lobe Ca²⁺ affinity (CDI is relatively preserved). ClinGen classifies CALM1/2/3 as Moderate evidence for CPVT. Neonatal-onset bidirectional VT or unexplained CPVT-like arrhythmia — especially de novo — should prompt CALM1/2/3 sequencing. See [[concepts/Calmodulinopathy]] for full mechanism detail. ([[sources/CALM-FCVM-2018]], rating: high; [[sources/clingen-summary-2026-05-09]], rating: high)
+
 ## ECG and Diagnosis
 - **Resting ECG:** Normal. No QT prolongation, no structural findings. ([[sources/channelopathies-jaha-2025]])
 - **Exercise ECG:** Polymorphic VT or bidirectional VT (180° QRS rotation beat-to-beat) provoked by sympathetic activation. CPVT PVCs are late-coupled; LBBB pattern with inferior axis is most sensitive/specific for the diagnosis. ([[sources/channelopathies-jaha-2025]])
+- **PVC features distinguishing CPVT from controls:** larger PVC burden; first appearance at higher workload; LBBB pattern + inferior axis (most sensitive/specific — suggests RVOT origin in paediatric CPVT); bigeminy/trigeminy at peak stress; QRS >120 ms; coupling interval >400 ms; disappearance in first minute of recovery. ([[sources/cpvt-jcm-2024]])
 - **Exercise stress test:** Bruce protocol is the primary diagnostic tool; provokes VT in ~2/3 of patients. "Burst" exercise protocol increases sensitivity further. ([[sources/channelopathies-jaha-2025]])
-- **Epinephrine challenge:** Only when exercise testing is not feasible (Class IIb, ESC 2022). In 81 CPVT patients (31% RYR2 variant), epinephrine missed up to 70% of RYR2 patients who did not achieve sufficient heart rate. Positive criteria: >10 PVCs/min, 3 consecutive PVCs, recurrent couplets, bigeminal rhythm, or bidirectional VT (most specific for RYR2 P/LP). Epinephrine is NOT a substitute for exercise testing. ([[sources/pharmacological-provocation-europace-2025]], rating: high)
-- **24-hr Holter:** Captures stress/emotional triggers and ambient PVC burden. ([[sources/channelopathies-jaha-2025]])
+- **CPET finding:** Ventilatory anaerobic threshold (VAT) consistently precedes onset of ventricular ectopy at higher heart rates — suggests the metabolic shift to anaerobic metabolism may contribute to arrhythmogenesis in CPVT. ([[sources/cpvt-jcm-2024]])
+- **Epinephrine challenge:** Only when exercise testing is not feasible (Class IIb, ESC 2022). In 81 CPVT patients (31% RYR2 variant), epinephrine missed up to 70% of RYR2 patients who did not achieve sufficient heart rate. Positive criteria: >10 PVCs/min, 3 consecutive PVCs, recurrent couplets, bigeminal rhythm, or bidirectional VT (most specific for RYR2 P/LP). Sensitivity 28%, specificity 98%. Epinephrine is NOT a substitute for exercise testing. ([[sources/pharmacological-provocation-europace-2025]], rating: high; [[sources/cpvt-jcm-2024]])
+- **24-hr Holter:** Captures stress/emotional triggers and ambient PVC burden; generally less sensitive than exercise testing. ([[sources/channelopathies-jaha-2025]])
 - **Genetic testing:** Recommended for all clinically suspected CPVT cases and first-degree relatives. ([[sources/channelopathies-jaha-2025]])
+
+### Giudicessi Diagnostic Scorecard
+Pre-test probability scoring tool for CPVT1 (RyR2-mediated). Requires ≥1 exercise stress test or ambulatory Holter finding. Key utility: integrating clinical phenotype into RYR2 VUS adjudication reduces the VUS rate from 48% to 7%. ([[sources/cpvt-jcm-2024]])
+
+| Category | Finding | Points |
+|---|---|---|
+| Symptoms | Exercise/activity-associated ACA/SCA | +2 |
+| | Exercise/activity-associated syncope or seizures | +1 |
+| Exercise/Holter | Bidirectional VT at HR >100 bpm | +4 |
+| | PVCs in bigeminy + bidirectional couplets at HR >100 bpm | +2 |
+| | PVCs at HR >100 bpm | +1 |
+| QTc | ≤420 ms | +0.5 |
+| | 421–459 ms | 0 |
+| | ≥460 ms | −0.5 |
+| Genetic test | Pathogenic variant | +4 |
+| | Likely pathogenic variant | +2 |
+| | VUS | 0 |
+| | Negative (RYR2/CASQ2/TRDN/CALM1-3) | −1 |
+| Holter | Ambulatory ectopy >2% of beats | −1 |
+| Imaging | Ischemic/structural disease | −2 |
+| Age | ≥50 at sentinel event | −1 |
+| Family Hx | 1st-degree relative with definite CPVT | +1.5 |
+| | Suspicious autopsy-negative SCD (exertional/drowning) in 1st/2nd-degree relative ≤45 | +1 |
+| | Unexplained autopsy-negative SCD in 1st/2nd-degree relative ≤45 | +0.5 |
+
+**Interpretation:** ≥3.5 pts = definite/probable CPVT (≥90% likelihood); 2–3 pts = possible CPVT (~50%); 0.5–1.5 = nondiagnostic; ≤0 = no CPVT evidence.
 
 ## Risk Stratification — Variant-Specific Outcomes
 
@@ -91,6 +122,9 @@ Systematic review of 221 publications (through Oct 2020): 964 CPVT patients with
 
 ### Beta-Blockers (First Line)
 Non-selective beta-blockers (nadolol or propranolol) are Class I for all patients with a clinical CPVT diagnosis (ESC 2022). Non-selective agents preferred over selective BB — complete beta-1 and beta-2 blockade is required to suppress adrenergic-driven SR calcium overload. ~30% of patients require therapy beyond beta-blockers; variant-specific response data (see Risk Stratification) should guide early escalation decisions rather than waiting for breakthrough events. ([[sources/VA-SCD-ESC-2022]], [[sources/RYR2-CPVT-CircEP-2025]])
+- **Nadolol dose:** 1–2 mg/kg/day preferred. **HR 2.04 (p=0.002)** for beta-1-selective BB vs nadolol in symptomatic children (Ishibashi et al.); **HR 5.8 (p=0.001)** for beta-1-selective BB vs nadolol in a multinational 216-patient RYR2-variant cohort; no significant difference between nadolol and propranolol. ([[sources/cpvt-jcm-2024]])
+- **Non-adherence:** 15% of international CPVT cohort non-adherent; female sex, concerns about medication side effects, and flecainide monotherapy concerns are independently associated with non-adherence; 60% of evening-hour cardiac events attributed to medication non-adherence. Strict adherence counselling is essential. ([[sources/cpvt-jcm-2024]])
+- **BB-free strategy:** 10% of patients in international CPVT registry require a BB-free strategy due to intolerable side effects. Viable for asymptomatic patients with absent or negligible stress test phenotype (no bigeminy, couplets, or complex ectopy) following careful risk assessment — not for routine use. ([[sources/cpvt-jcm-2024]])
 
 ### Flecainide (First Add-On)
 Flecainide added to beta-blockers is the standard escalation for inadequate CPVT control. ESC 2022: ICD + flecainide + BB after aborted cardiac arrest is Class I (upgraded from IIa in 2022). Variant-specific flecainide use rates from Chang 2025 demonstrate that p.R420W, p.C2277R, and p.S2246L require flecainide combination in the majority of cases, while p.G357S and p.G2337V rarely need it. ([[sources/VA-SCD-ESC-2022]], [[sources/RYR2-CPVT-CircEP-2025]])
@@ -100,11 +134,19 @@ Three competing mechanistic lines: (1) antiarrhythmic via Na⁺ channel blockade
 
 ### LCSD — Surgical Escalation
 Left cardiac sympathetic denervation (Class IIa, ESC 2022 — upgraded from IIb) when flecainide + beta-blockers are ineffective, not tolerated, or contraindicated. Surgical removal of the left stellate ganglion and lower thoracic sympathetic chain reduces noradrenaline release at the myocardium, directly attenuating the adrenergic trigger for diastolic calcium release. Particularly important in CPVT where ICD carries unique proarrhythmia risk. ([[sources/VA-SCD-ESC-2022]])
+- **Largest multicenter series (n=63):** Major cardiac events 86%→21% (p<0.001) over median 37-month follow-up; mean annual event rate 3.4→0.5/year (**92% reduction**). In persistently symptomatic patients pre-LCSD, one-third still experienced recurrent events post-LCSD. ([[sources/cpvt-jcm-2024]])
+- **Triple therapy:** Expert consensus advocates nadolol + flecainide + LCSD as first-line approach for patients presenting with sentinel SCA — LCSD adds a layer of protection against the consequence of a single missed medication dose. ([[sources/cpvt-jcm-2024]])
+- **Bilateral CSD:** RCSD added to LCSD when LCSD alone is insufficient; also considered as an interim step before ICD when patients continue to experience appropriate ICD shocks post-LCSD. ([[sources/cpvt-jcm-2024]])
+- Not curative: one-third of patients still experience arrhythmia recurrence; should not be used as standalone therapy. ([[sources/cpvt-jcm-2024]])
 
-Other pharmacological alternatives with limited evidence: propafenone, verapamil, ivabradine, dantrolene. ([[sources/channelopathies-jaha-2025]])
+### Other Pharmacological Options (Limited Evidence)
+- **Propafenone (class IC):** Evidence limited to case reports only; not a primary investigative target in CPVT. ([[sources/cpvt-jcm-2024]])
+- **Verapamil:** Preliminary small-scale studies expressed cautious optimism; extended follow-up data demonstrated no significant benefit — rarely used in clinical practice. ([[sources/cpvt-jcm-2024]])
+- **Ivabradine (HCN blocker):** Sporadically tested in combination with nadolol or flecainide; animal models showed no reduction in DADs or delayed VAs. **Should not be considered a CPVT treatment.** ([[sources/cpvt-jcm-2024]])
+- **Dantrolene (RYR1/RYR2 blocker):** Attenuates abnormal Ca²⁺ handling in animal models; no human studies conducted. ([[sources/cpvt-jcm-2024]])
 
 ### ICD — Last Resort with Unique Proarrhythmia Risk
-ICD shocks cause catecholamine surges that directly exacerbate CPVT arrhythmia — adrenergic storm triggered by the shock drives further RYR2 Ca²⁺ release → more DADs → more VT → more shocks. This ICD-proarrhythmia risk is unique to CPVT and does not apply to most other arrhythmia indications.
+ICD shocks cause catecholamine surges that directly exacerbate CPVT arrhythmia — adrenergic storm triggered by the shock drives further RYR2 Ca²⁺ release → more DADs → more VT → more shocks. This ICD-proarrhythmia risk is unique to CPVT and does not apply to most other arrhythmia indications. Polymorphic VT and bidirectional VT shocks fail in 99% of cases; VF shocks succeed in 94%. ([[sources/cpvt-jcm-2024]])
 
 **ESC 2022 indications:**
 - ICD + BB + flecainide after aborted cardiac arrest: **Class I** (upgraded 2022)
@@ -112,6 +154,20 @@ ICD shocks cause catecholamine surges that directly exacerbate CPVT arrhythmia �
 - PES for SCD risk stratification: **NOT recommended (Class III)**
 - Subcutaneous ICD: associated with higher complications in CPVT; transvenous preferred when ICD is indicated
 - ([[sources/VA-SCD-ESC-2022]])
+
+**Contemporary outcome data — paradigm shift toward last resort:**
+- **Meta-analysis (53 studies, n=1429 patients; 35% with ICD):** 40% ≥1 appropriate shock; 21% ≥1 inappropriate shock; 20% electrical storm; 60% of 7 deaths attributed to ICD-associated incessant VT. ([[sources/cpvt-jcm-2024]])
+- **International CPVT registry (n=136 sentinel SCA patients):** Adverse outcome (SCD/SCA/syncope/appropriate shock) 47% with ICD vs 15.8% without ICD over median 4.8-year follow-up. Confounded: no-ICD group received higher proportions of nadolol/propranolol and more guideline-directed therapy. ([[sources/cpvt-jcm-2024]])
+- **Inappropriate shocks:** 20–30% of CPVT patients; nearly half attributable to AF/NSVT that self-terminates before ICD discharge. ([[sources/cpvt-jcm-2024]])
+- **ICD programming:** Single VF zone at 230–300 bpm (avoid VT zone) to reduce inappropriate shocks for PVCs and transient bidirectional/polymorphic VT; single-chamber transvenous ICD generally adequate. ([[sources/cpvt-jcm-2024]])
+- **S-ICD:** EFFORTLESS-SICD registry (199 channelopathy patients, 5.5% CPVT): similar efficacy to transvenous ICD; reduced inappropriate shocks vs structural heart disease patients; overall inappropriate shock incidence remains high. ([[sources/cpvt-jcm-2024]])
+- Expert opinion: ICD should not be implanted without prior LCSD in CPVT; PACES guidelines offer Class IIa for pharmacologic therapy or CSD without ICD even when aborted SCA is the initial presentation.
+
+### Catheter Ablation
+Adjunctive therapy for patients who cannot receive flecainide or have refractory arrhythmias; not curative — arrhythmogenic substrate is not fully eliminated. ([[sources/cpvt-jcm-2024]])
+- **Largest series (n=14, Japan):** LV basal anterior wall and LV septal area identified as predominant triggering PVC sources (contrast to prior data suggesting RVOT predominance); ~1/3 had biventricular triggering beats; >90% non-inducibility of VT/VF acutely; ~60% syncope-free at follow-up; syncope recurrences predominantly >1 year post-ablation.
+- **Prior 5-patient case series (avg follow-up 71 months):** 80% experienced recurrent VAs requiring ICD/external defibrillator; average 4 years from ablation to recurrence.
+- Beta-blockers remain mandatory post-ablation; post-ablation induction of non-triggering PVCs predicts high risk of syncope recurrence → early LCSD or ICD warranted.
 
 ## Sports and Exercise (AHA/ACC 2025)
 A major paradigm shift from prior universal exercise restriction toward stratified shared-decision-making (SDM) based on genotype and stress test response. ([[sources/competitive-sports-aha-2025]], rating: very high)
@@ -150,12 +206,21 @@ A newly described RYR2 **loss-of-function** phenotypic spectrum distinct from cl
 - **CRISPR-SaCas9 targeting RYR2-R4496C:** ~41% editing efficiency; 0/7 treated vs. 7/8 controls had arrhythmias — first in-vivo CRISPR RYR2 repair (Pan 2023). ([[sources/gene-therapy-arrhythmia-2025]])
 - **Gene editing candidacy:** CPVT is identified as a strong candidate for gene editing — pharmacological suppression (BB + flecainide) is effective but not curative; direct RYR2 or pathway correction targets the root genetic defect. ([[sources/gene-editing-cv-tcm-2025]], rating: medium; see [[concepts/Gene-Editing-Risk-Benefit-Framework]])
 
+## CPVT in Pregnancy
+- **Non-selective beta-blockers (propranolol/nadolol) are Class I (IC) throughout pregnancy and postpartum** in CPVT patients; this continues for **at least 40 weeks after delivery** [[sources/cv-pregnancy-esc-2018]] (rating: very high)
+- Selective beta-blockers may be chosen only in patients without prior syncope or confirmed CPVT events (exceptional cases)
+- **Delivery surveillance:** CPVT patients at medium risk (Level 2) for arrhythmia during delivery; management requires tertiary centre, IV line, IV beta-blocker prepared, external defibrillator on site [[sources/cv-pregnancy-esc-2018]]
+- New-onset VT during pregnancy/postpartum warrants exclusion of structural disease and PPCM; if CPVT confirmed, standard management applies
+- ICD implantation recommended if indication emerges during pregnancy; single-chamber preferred; echocardiographic guidance or electroanatomical mapping used [[sources/cv-pregnancy-esc-2018]]
+
 ## Contradictions / Open Questions
 - **Reshuffled ICD hierarchy 2015 → 2022:** In 2015, ICD was Class I for arrhythmic syncope and/or documented bidirectional/PVT on maximum BB + flecainide. In 2022, downgraded to Class IIa while ICD + flecainide + BB after aborted CA was simultaneously upgraded to Class I. Creates ambiguity for the large group of symptomatic patients who have not yet arrested. ([[sources/VA-SCD-ESC-2022]])
 - **ICD-triggered adrenergic cascade:** ICD shocks cause catecholamine surges that can exacerbate CPVT arrhythmia — potentially worsening the very condition they treat. This proarrhythmia risk is unique to CPVT and makes ICD a last resort, yet Class I status after aborted CA leaves conflicting imperatives. ([[sources/channelopathies-jaha-2025]], [[sources/VA-SCD-ESC-2022]])
 - **LCSD upgrade from IIb to IIa:** Based on expanding observational data but still lacks RCT support — the threshold for recommending a surgical procedure remains unvalidated prospectively. ([[sources/VA-SCD-ESC-2022]])
 - **Variant-specific treatment — biological signal vs. sample size:** Chang 2025 demonstrates statistically significant differences in BB efficacy, flecainide use, and ICD rates between specific RYR2 variants. However, per-variant sample sizes range from 3 to 91 patients from heterogeneous publications. The biological signal is strong (different residues at the same amino acid → different outcomes), but individual variant sample sizes are insufficient to drive guideline-level recommendations. ([[sources/RYR2-CPVT-CircEP-2025]])
 - **Flecainide mechanism in CPVT — unresolved:** Three competing findings (Na⁺ channel blockade only; direct RYR2 open-state blockade; no direct RYR2 effect). Clinical efficacy is well-established; mechanism is not. ([[sources/RYR2-CPVT-CircEP-2025]])
+- **ICD registry data confounding:** The international CPVT registry showing 47% adverse outcomes with ICD vs 15.8% without is heavily confounded — the no-ICD group received nadolol/propranolol and guideline-directed therapy at substantially higher rates. The comparison does not support forgoing ICD on its own, but rather underscores that optimal pharmacological therapy (triple therapy) may provide sufficient protection and that ICD without optimal medication is inadequate. ([[sources/cpvt-jcm-2024]])
+- **Catheter ablation — LV vs RVOT origin conflict:** Prior case series identified RVOT as the predominant triggering PVC source in CPVT; the largest Japanese series (n=14) found LV basal anterior wall and LV septal area to be dominant, with ~1/3 biventricular. The discrepancy may reflect patient selection, mapping protocol differences, or true anatomical heterogeneity. No prospective mapping study has established CPVT ablation targets systematically. ([[sources/cpvt-jcm-2024]])
 - **RYR2 variant penetrance heterogeneity:** p.M3978I — every carrier symptomatic; p.G155R — nearly all asymptomatic except one 16-year-old sports-related sudden death. The molecular basis for this penetrance variability within the same gene is unknown. ([[sources/RYR2-CPVT-CircEP-2025]])
 - **ClinGen disputes PKP2 and KCNJ2 in CPVT (01/2021):** Both frequently attributed to CPVT in older literature. CASQ2 has dual classification: definitive for AR CPVT2, only moderate for AD CASQ2-CPVT. TRDN and TECRL are definitively established as AR CPVT genes — important additions to diagnostic panels. ([[sources/clingen-summary-2026-05-09]], rating: high)
 
@@ -171,6 +236,7 @@ A newly described RYR2 **loss-of-function** phenotypic spectrum distinct from cl
 - Related to [[concepts/AAV-Gene-Delivery]]
 - Related to [[concepts/Gene-Silencing-Therapy]]
 - Related to [[entities/RYR2]]
+- Related to [[entities/CASQ2]]
 - Related to [[entities/Andersen-Tawil-Syndrome]]
 - Related to [[concepts/Electrical-Storm]]
 - Related to [[concepts/Cardiogenetic-Centers]]
@@ -179,8 +245,11 @@ A newly described RYR2 **loss-of-function** phenotypic spectrum distinct from cl
 - Related to [[entities/Flecainide]]
 - Related to [[concepts/ClinGen-Gene-Disease-Validity]]
 - Related to [[concepts/Precision-Medicine-LQTS]]
+- Related to [[concepts/Calmodulinopathy]]
 
 ## Sources
+- [[sources/cpvt-jcm-2024]]
+- [[sources/cv-pregnancy-esc-2018]]
 - [[sources/channelopathies-jaha-2025]]
 - [[sources/arrhythmia-genetics-mgenetik-2025]]
 - [[sources/VA-SCD-ESC-2022]]
@@ -193,3 +262,4 @@ A newly described RYR2 **loss-of-function** phenotypic spectrum distinct from cl
 - [[sources/pharmacological-provocation-europace-2025]]
 - [[sources/flecainide-af-europace-2011]]
 - [[sources/clingen-summary-2026-05-09]]
+- [[sources/CALM-FCVM-2018]]

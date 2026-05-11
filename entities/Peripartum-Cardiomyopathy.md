@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Peripartum Cardiomyopathy"
 tags: [peripartum-cardiomyopathy, heart-failure, cardiomyopathy, pregnancy, maternal-health]
-source_count: 1
-last_updated: 2026-04-28
+source_count: 2
+last_updated: 2026-05-10
 ---
 
 # Peripartum Cardiomyopathy
@@ -29,13 +29,33 @@ Peripartum cardiomyopathy (PPCM) is a form of dilated cardiomyopathy defined as 
 - PPCM and DCM share pathophysiological features; some cases may represent a spectrum of the same underlying condition
 - Bromocriptine (dopamine agonist) suppresses prolactin production and has been associated with improved LV function in studies
 
-### Treatment
-**Heart failure management during pregnancy and postpartum:**
-- Diuretics for volume control
-- Nitrates and/or hydralazine for afterload reduction
-- β-blockers and/or digoxin for rate/rhythm control
-- Anticoagulation if indicated (EF very low, intracardiac thrombus)
-- **Bromocriptine:** adjunctive treatment per the **2018 ESC guidelines for management of CVD during pregnancy** (COR 2a in ESC); may be considered alongside standard HF therapy [[sources/cv-pregnancy-aha-2020]] (rating: high)
+### Treatment — BOARD Framework (ESC 2018)
+The 2018 ESC guidelines formalise acute PPCM management under the **BOARD** label: [[sources/cv-pregnancy-esc-2018]] (rating: very high)
+- **B**romocriptine — dopamine agonist suppressing prolactin; adjunct to standard HF therapy
+  - 2.5 mg once daily for ≥1 week in uncomplicated cases (IIbB)
+  - 2.5 mg twice daily ×2 weeks → 2.5 mg once daily ×6 weeks if EF <25% or cardiogenic shock (IIbB)
+  - Must always be accompanied by anticoagulation (LMWH or UFH at minimum prophylactic doses)
+- **O**ral HF therapies — ACEi/ARBs/ARNIs/MRAs/ivabradine contraindicated in pregnancy and during breastfeeding; hydralazine + nitrates as substitutes during pregnancy in the setting of hypertension or severe LV dysfunction
+- **A**nticoagulants — standard indications apply; prophylactic anticoagulation should be considered for very low EF even without thrombus (IIaC); LMWH drug of choice
+- **R**elaxing agents — hydralazine/nitrates as vasodilators; use only in context of hypertension/severe LV dysfunction/congestion
+- **D**iuretics — loop diuretics for pulmonary congestion; avoid in absence of congestion (reduces placental blood flow)
+
+**Additional management specifics:**
+- Diuretics for volume control; β-blockers continued/initiated cautiously; digoxin for rate/rhythm control [[sources/cv-pregnancy-aha-2020]] (rating: high)
+- Levosimendan preferred inotrope if needed (beta-adrenergic agonists avoided in PPCM due to sensitivity to toxic effects) [[sources/cv-pregnancy-esc-2018]]
+
+### Device Therapy
+- **WCD (wearable cardioverter-defibrillator):** may be considered for first 3–6 months in PPCM with EF <35%; protects during recovery window; avoids premature permanent ICD; limited data; not tested specifically in pregnant patients [[sources/cv-pregnancy-esc-2018]] (rating: very high)
+- **Early ICD implantation in newly diagnosed PPCM is NOT appropriate** given high spontaneous LV recovery rate (up to ~50%); ICD implantation follows standard guidelines only after 6–12 months of optimal therapy without recovery [[sources/cv-pregnancy-esc-2018]]
+- CRT indicated after 6–12 months if LBBB + QRS >130 ms despite optimal therapy
+
+### Breastfeeding
+- In severe HFrEF (NYHA III/IV), breastfeeding is discouraged; stopping lactation reduces metabolic demand and enables early optimal HF treatment (IIbB) [[sources/cv-pregnancy-esc-2018]]
+- Bromocriptine as lactation inhibitor (and PPCM adjunct) preferred over cabergoline in PPCM context; always with anticoagulation
+
+### mWHO Risk Classification
+- **mWHO IV:** prior PPCM with *any* residual LV impairment — pregnancy not recommended [[sources/cv-pregnancy-esc-2018]]
+- Even with normalised EF, counselling required due to potential recurrence; subsequent pregnancy should be explicitly discouraged if LVEF does not normalise (IIIC)
 
 ### Contraception and Future Pregnancy Counseling
 - Contraception must be discussed early and before discharge from the peripartum admission [[sources/cv-pregnancy-aha-2020]] (rating: high)
@@ -65,3 +85,4 @@ Peripartum cardiomyopathy (PPCM) is a form of dilated cardiomyopathy defined as 
 
 ## Sources
 - [[sources/cv-pregnancy-aha-2020]]
+- [[sources/cv-pregnancy-esc-2018]]

@@ -80,9 +80,6 @@ Torsades de pointes (TdP) is a polymorphic ventricular tachycardia characterised
 - Related to [[entities/SCN5A]]
 - Related to [[entities/Amiodarone]]
 - Related to [[entities/Flecainide]]
-- Related to [[sources/repolarisation-jaccep-2023]]
-- Related to [[sources/Hormonal-Rx-AHA-2021]]
-- Related to [[sources/flecainide-af-europace-2011]]
 
 ## Sources
 - [[sources/Hormonal-Rx-AHA-2021]]

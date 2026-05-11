@@ -2,8 +2,8 @@
 dg-publish: true
 title: "TMEM43"
 tags: [genetics, arrhythmogenic-cardiomyopathy, ARVC, sudden-cardiac-death]
-source_count: 1
-last_updated: 2026-05-05
+source_count: 2
+last_updated: 2026-05-10
 ---
 
 # TMEM43
@@ -17,6 +17,8 @@ TMEM43 encodes transmembrane protein 43 and was the first non-desmosomal gene id
 - **ECG:** Poor R-wave progression is more common than precordial T-wave inversions (distinctive feature vs other ACM forms). LV dilatation. ([[sources/ACM-Genotype-Mx-JCE-2024]])
 - **Exercise:** Associated with worse clinical outcomes — exercise restriction warranted. ([[sources/ACM-Genotype-Mx-JCE-2024]])
 - **Management:** Early ICD implantation indicated for at-risk male TMEM43 variant carriers. Should be regarded as a highly malignant disease. ([[sources/ACM-Genotype-Mx-JCE-2024]])
+- **ICD survival benefit demonstrated:** A study of p.S358L-TMEM43 carriers showed significantly better survival in those treated with ICD vs conventional non-ICD management — providing direct evidence for early ICD in this genotype. ([[sources/dcm-precision-hfreview-2022]], rating: high)
+- **Sex-specific prognosis:** Affected males were hospitalised **4× more often** than affected females and died at younger ages. ([[sources/dcm-precision-hfreview-2022]], rating: high)
 - **Prevalence:** Great geographical differences — high in Newfoundland (founder effect); low elsewhere. ([[sources/ACM-Genotype-Mx-JCE-2024]])
 - Young men are at particularly high risk for severe arrhythmias. ([[sources/ACM-Genotype-Mx-JCE-2024]])
 
@@ -37,3 +39,4 @@ TMEM43 encodes transmembrane protein 43 and was the first non-desmosomal gene id
 
 ## Sources
 - [[sources/ACM-Genotype-Mx-JCE-2024]]
+- [[sources/dcm-precision-hfreview-2022]]

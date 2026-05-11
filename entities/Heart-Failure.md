@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Heart Failure"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors, guideline, acute-heart-failure]
-source_count: 20
-last_updated: 2026-05-02
+source_count: 24
+last_updated: 2026-05-10
 ---
 
 # Heart Failure
@@ -121,7 +121,7 @@ See [[concepts/Right-Heart-Catheterization]] for full methodology, pitfalls, and
 ### HFrEF
 The four foundational drug classes each carry Class I / COR 1A recommendations (ESC 2021 and AHA 2022). Estimated 73% reduction in all-cause mortality with use of all four classes vs. no treatment. ([[sources/HF-AHA-2022]], rating: very high)
 
-- **ARNi (sacubitril-valsartan):** AHA COR 1A — preferred over ACEi for NYHA II–III; 20% RRR in CV death or HF hospitalization (PARADIGM-HF). ESC Class I. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
+- **ARNi (sacubitril-valsartan):** AHA COR 1A — preferred over ACEi for NYHA II–III; 20% RRR in CV death or HF hospitalization vs enalapril (PARADIGM-HF: HR 0.80, P<0.001; NNT 21; all-cause death HR 0.84; n=8,399; median 27 months; stopped early for overwhelming benefit). ESC Class I. ([[sources/arni-paradigm-hf-nejm-2014]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
 - **ACEi:** AHA COR 1A — if ARNi not feasible. ESC Class I. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
 - **ARB:** AHA COR 1A — if intolerant to ACEi (cough/angioedema) and ARNi not feasible. ([[sources/HF-AHA-2022]], rating: very high)
 - **Beta-blocker (bisoprolol, carvedilol, or metoprolol succinate):** AHA COR 1A, ESC Class I — reduces mortality and HF hospitalizations. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
@@ -130,7 +130,7 @@ The four foundational drug classes each carry Class I / COR 1A recommendations (
 - **Loop diuretics:** ESC Class I — for fluid retention (symptom relief). ([[sources/HF-ESC-2021]], rating: very high)
 - **H-ISDN (hydralazine + isosorbide dinitrate):** AHA COR 1A for self-identified Black patients with NYHA III–IV already on optimized GDMT (A-HeFT); AHA COR 2a / ESC Class IIa if intolerant to all RAAS therapies. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
 - **Ivabradine:** AHA COR 2a (B-R), ESC Class IIa — stable symptomatic HFrEF (LVEF ≤35%) + sinus rhythm + resting HR ≥70 bpm on maximally tolerated beta-blocker; reduces HF hospitalization (SHIFT). ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **Vericiguat** (soluble guanylate cyclase stimulator): AHA COR 2b (B-R), ESC Class IIb — NYHA II–IV HFrEF with recent worsening HF event despite GDMT; reduces composite of CV death or HF hospitalization (VICTORIA; HR 0.90, 95% CI 0.82–0.98). ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
+- **Vericiguat** (soluble guanylate cyclase stimulator): AHA COR 2b (B-R), ESC Class IIb — NYHA II–IV HFrEF with recent worsening HF event despite GDMT. **VICTORIA trial** (n=5,050; median NT-proBNP 2816 pg/mL; 41% NYHA III/IV; median follow-up 10.8 months): primary composite CV death or first HF hospitalization HR 0.90 (95% CI 0.82–0.98), P=0.02; ARR ~4.2 events/100 pt-years; **NNT ~24 for 1 year**. Total HF hospitalizations (first + recurrent) HR 0.91 (0.84–0.99), P=0.02. No all-cause mortality benefit (HR 0.95, P=0.38). Benefit consistent including in sacubitril-valsartan subgroup; attenuated in very elevated NT-proBNP subgroup. Anemia more common (7.6% vs 5.7% — class effect). **No SGLT2i co-administration data** (trial enrolled 2016–2018). Contraindicated with long-acting nitrates and PDE5 inhibitors (pharmacodynamic overlap on cGMP axis). See [[entities/Vericiguat]] for full trial data and mechanism. ([[sources/vericiguat-victoria-nejm-2020]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
 - **Digoxin:** AHA COR 2b (B-R) — may reduce HF hospitalization; no mortality benefit. ([[sources/HF-AHA-2022]], rating: very high)
 
 **Drugs to AVOID in HFrEF (AHA COR 3 Harm):** non-dihydropyridine CCBs, Class IC antiarrhythmics + dronedarone, thiazolidinediones, saxagliptin/alogliptin, NSAIDs. ([[sources/HF-AHA-2022]], rating: very high)
@@ -177,11 +177,20 @@ The four foundational drug classes each carry Class I / COR 1A recommendations (
 - **VA-ECMO:** Routine use NOT recommended — Class III: No Benefit/B-R. ECLS-SHOCK: no difference in 30-day mortality; higher moderate/severe bleeding and peripheral vascular complications. ECMO-CS: no benefit in primary endpoint; higher adverse events.
 - **Contradiction with earlier practice:** Prior observational data and small trials suggested MCS benefit broadly; three 2023–2024 RCTs consistently show no benefit for IABP and VA-ECMO. The microaxial flow pump is the only device with RCT mortality benefit in this setting, but only in the specific DanGer-SHOCK population.
 
+### Takotsubo Cardiomyopathy (TTS)
+TTS presents as an acute HF syndrome — the International Takotsubo Registry authors explicitly categorise it as such, not as a benign, self-limiting condition. See [[entities/Takotsubo]] for full clinical data. Key points relevant to HF management: ([[sources/takotsubo-nejm-2015]], rating: high)
+- n=1,750; 89.8% women; mean age 66.8 years; LVEF 40.7±11.2% on admission
+- Serious in-hospital complications **21.8% — equal to ACS rate** (P=0.93); VT 3.0%, LV thrombus 1.3%
+- Long-term: death **5.6%/year**; MACCE 9.9%/year; recurrence 1.8%/year
+- **ACEi/ARB improved 1-year survival** (P=0.001 after propensity matching) — only pharmacotherapy class with a survival signal
+- **Beta-blockers: NO survival benefit** (P=0.72 after propensity matching) despite widespread empirical use; 32.5% of patients on BBs when TTS occurred; 29/57 recurrences while on BBs
+- Brain–heart axis: neuropsychiatric comorbidity 55.8% vs 25.7% ACS (P<0.001) — see [[concepts/Brain-Heart-Axis]]
+
 ### Ischaemic Cardiomyopathy
 
 **Revascularisation Strategy** ([[sources/CCS-AHA-2023]], rating: very high)
 - **CABG for LVEF ≤35% (COR 1/B-R):** STICH trial (n=1,212, LVEF ≤35%, CAD amenable to CABG): CABG + optimal medical therapy vs medical therapy alone — CV death lower (28% vs 33%; P=0.05); all-cause death lower at 10-year follow-up. Patient selection: multi-vessel disease with viable myocardium, acceptable surgical risk.
-- **PCI for LVEF ≤35% — no survival benefit:** REVIVED-BCIS2 (n=700, LVEF ≤35%, extensive CAD with viable myocardium): PCI + GDMT vs GDMT alone — no difference in all-cause death or HF hospitalisation at median 3.4 years (38.0% vs 37.2%). ICA can still diagnose cause of HF and direct lipid/medical therapy.
+- **PCI for LVEF ≤35% — no survival benefit:** REVIVED-BCIS2 (n=700, LVEF ≤35%, extensive CAD with viable myocardium): PCI + GDMT vs GDMT alone — no difference in all-cause death or HF hospitalisation at median 3.4 years (HR 0.99; P=0.96; 37.2% vs 38.0%). LVEF did not differ at 6 or 12 months. Early KCCQ benefit (+6.5 pts at 6m) eroded to non-significance by 24 months. ICA can still diagnose cause of HF and direct lipid/medical therapy. ([[sources/pci-hf-revived-bcis2-nejm-2022]], rating: very high)
 - **Viability imaging:** Multiple modalities (LGE-CMR, PET-FDG, SPECT, dobutamine echo) predict segmental contractile recovery after revascularization, but no trial has demonstrated that viability-guided revascularization improves survival vs GDMT alone. STICH viability substudy (SPECT/dobutamine echo, n=618): patients with viable myocardium had lower 5-year mortality but viability status did NOT discriminate who benefited from CABG. See [[concepts/Myocardial-Viability]] for full imaging performance data and clinical algorithms. ([[sources/imaging-viability-aha-2020]], rating: very high)
 - **SGLT2 inhibitors for HFrEF (LVEF ≤40%) — COR 1/A regardless of diabetes status:** Reduces CV death and HF hospitalisation; improves QOL (DAPA-HF, EMPEROR-Reduced). Effect independent of aetiology (ischaemic ~50% of trials). See [[entities/Chronic-Coronary-Disease]] for CCD + HF overlap.
 - **SGLT2 inhibitors for HFpEF (LVEF >40%) — COR 2a/B-R regardless of diabetes status:** Reduces HF hospitalisation and improves QOL (EMPEROR-PRESERVED, DELIVER, PRESERVED-HF). CV mortality reduction not statistically significant; economic value uncertain at current US prices.
@@ -412,8 +421,14 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 - Related to [[concepts/Electrical-Remodeling]] — HF ventricular electrical remodeling: ↑INaLate, ↑If, ↑NCX, ↓IKr/IKs/Ito/IK1; CaMKII as central arrhythmogenic hub
 - Related to [[concepts/Clonal-Hematopoiesis]] — 25% higher HF risk; TET2 2.4× enriched in HFpEF; ASXL1 → reduced EF; CH worsens HF mortality and hospitalisations; PPM1D-CH drives myocardial fibrosis via NLRP3/IL-1β
 - Related to [[sources/ch-aha-2026]]
+- Related to [[entities/Vericiguat]]
+- Related to [[sources/vericiguat-victoria-nejm-2020]]
+- Related to [[entities/Takotsubo]] — TTS as acute HF syndrome; in-hospital complications = ACS; ACEi/ARB survival benefit; beta-blockers no benefit
+- Related to [[concepts/Brain-Heart-Axis]] — neuropsychiatric comorbidity in TTS; catecholamine-excess hypothesis
 
 ## Sources
+- [[sources/pci-hf-revived-bcis2-nejm-2022]]
+- [[sources/arni-paradigm-hf-nejm-2014]]
 - [[sources/ACS-AHA-2025]]
 - [[sources/AKI-HF-AHA-2024]]
 - [[sources/CCS-AHA-2023]]
@@ -437,3 +452,5 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 - [[sources/periop-aha-2024]]
 - [[sources/rhc-hf-ehj-2025]]
 - [[sources/vhd-esc-2025]]
+- [[sources/takotsubo-nejm-2015]]
+- [[sources/vericiguat-victoria-nejm-2020]]

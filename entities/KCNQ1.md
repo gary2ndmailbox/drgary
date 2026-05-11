@@ -2,8 +2,8 @@
 dg-publish: true
 title: "KCNQ1"
 tags: [genetics, ion-channels, channelopathies, potassium-channel]
-source_count: 3
-last_updated: 2026-05-05
+source_count: 4
+last_updated: 2026-05-10
 ---
 
 # KCNQ1
@@ -12,7 +12,10 @@ last_updated: 2026-05-05
 KCNQ1 is the gene encoding the Kv7.1 α-subunit of the slow delayed rectifier potassium channel (IKs). Located on chromosome 11p15.5, it is one of the three primary channelopathy genes and produces distinct syndromes depending on the type and zygosity of mutation.
 
 ## Key Facts
-- **LQT1 (loss-of-function, autosomal dominant):** Reduced IKs during phase 3 slows repolarization → prolonged QT interval. Accounts for 30–35% of LQTS — the most common subtype. ([[sources/channelopathies-jaha-2025]])
+- **LQT1 (loss-of-function, autosomal dominant):** Reduced IKs during phase 3 slows repolarization → prolonged QT interval. Accounts for 30–35% of LQTS per some sources; Krahn 2022 reports 40–45% of genotype-positive cases — the most common subtype. ([[sources/channelopathies-jaha-2025]], [[sources/lqts-jaccep-2022]])
+- **LQT1 annual event rates (up to age 40):** SAE 0.2–0.5%/year; CE 0.8–1.1%/year. Age-specific peak mortality: ages 1–19. ([[sources/lqts-jaccep-2022]], rating: high)
+- **Variant-specific LQT1 risk:** A341V variant → 80% CE risk by age 40 vs 30% for non-A341V LQT1 (n=438, Crotti cohort). Y111C founder variant (Swedish) → extremely low risk (0.05%/year SAE over 25 years, n=80, Winbo cohort). ([[sources/lqts-jaccep-2022]])
+- **Variant location hierarchy:** Transmembrane pore variants > other transmembrane domain variants > N/C terminus variants (greatest → lowest relative risk). Dominant-negative effect > haploinsufficiency. ([[sources/lqts-jaccep-2022]])
 - **Jervell and Lange-Nielsen syndrome (loss-of-function, autosomal recessive):** Homozygous or compound heterozygous KCNQ1 mutations → marked QTc prolongation + congenital sensorineural hearing loss. ([[sources/channelopathies-jaha-2025]])
 - **SQTS2 (gain-of-function):** Accelerated repolarization → shortened QT interval. ([[sources/channelopathies-jaha-2025]])
 - LQT1 patients have a characteristic trigger: arrhythmic events tend to occur during exercise or sudden auditory stimuli (due to adrenergic activation shortening the rate-adapted QT benefit from IKs). ([[sources/channelopathies-jaha-2025]])
@@ -49,3 +52,4 @@ KCNQ1 is the gene encoding the Kv7.1 α-subunit of the slow delayed rectifier po
 - [[sources/eoaf-jama-2021]]
 - [[sources/gene-therapy-arrhythmia-2025]]
 - [[sources/modifier-genes-scd-ehj-2018]]
+- [[sources/lqts-jaccep-2022]]
