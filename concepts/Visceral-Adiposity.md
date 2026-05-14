@@ -77,7 +77,7 @@ Visceral adiposity refers to excess intra-abdominal fat (visceral adipose tissue
 - Related to [[entities/Obesity]] — visceral adiposity as the key mechanistic link to CVD risk
 - Related to [[entities/Atrial-Fibrillation]] — EAT as the primary adiposity-AF substrate
 - Related to [[concepts/Epicardial-Adipose-Tissue-Arrhythmogenesis]] — detailed mechanistic pathways by which EAT causes arrhythmias
-- Related to [[concepts/HFpEF]] — EAT contributes to obesity-HFpEF phenotype
+- Related to [[entities/HFpEF]] — EAT contributes to obesity-HFpEF phenotype
 - Related to [[concepts/Sudden-Cardiac-Death]] — EAT → fibrosis → VT/VF substrate
 - Related to [[entities/Heart-Failure]] — VAT-driven hemodynamic changes and myocardial effects
 - Related to [[concepts/OSA-Arrhythmogenic-Substrate]] — EAT and sleep apnoea interaction

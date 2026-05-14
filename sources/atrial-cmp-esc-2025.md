@@ -114,7 +114,7 @@ Atrial cardiomyopathy • Atrial fibrosis • Heart failure • Atrial fibrillat
 - [[concepts/Inter-Atrial-Block]] — key ECG marker for electrical atrial dysfunction; P-wave scoring
 - [[concepts/Left-Atrial-Strain]] — LASr <23% threshold; primary imaging marker for AtCM
 - [[concepts/Late-Gadolinium-Enhancement]] — atrial fibrosis detection via CMR-LGE; limited by resolution
-- [[concepts/HFpEF]] — AtCM/atrial failure predicts outcomes independently of AF in HFpEF
+- [[entities/HFpEF]] — AtCM/atrial failure predicts outcomes independently of AF in HFpEF
 - [[concepts/Atrial-Myopathy-in-HCM]] — primary atrial myopathy as subset of AtCM
 - [[concepts/AF-CARE]] — referenced for comorbidity management parallels
 - [[concepts/AF-Staging]] — AtCM framework extends beyond current AF staging
@@ -127,7 +127,7 @@ Atrial cardiomyopathy • Atrial fibrosis • Heart failure • Atrial fibrillat
 - Created: wiki/concepts/Atrial-Cardiomyopathy.md
 - Created: wiki/concepts/Atrial-Failure.md
 - Updated: wiki/entities/Atrial-Fibrillation.md
-- Updated: wiki/concepts/HFpEF.md
+- Updated: wiki/entities/HFpEF.md
 - Updated: wiki/concepts/Late-Gadolinium-Enhancement.md
 - Updated: wiki/sourceindex.md
 - Updated: wiki/wikiindex.md

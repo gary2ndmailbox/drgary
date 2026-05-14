@@ -61,7 +61,7 @@ Sacubitril–valsartan (brand name: Entresto; formerly LCZ696) is an angiotensin
 - **ATTR amyloidosis:** At higher EF (>57%), ATTR amyloid cardiomyopathy may account for reduced ARNI responsiveness — a confounding population not systematically excluded.
 
 ## Connections
-- Related to [[concepts/HFpEF]] — primary evidence source; COR 2b basis
+- Related to [[entities/HFpEF]] — primary evidence source; COR 2b basis
 - Related to [[entities/Heart-Failure]] — approved pillar therapy in HFrEF; investigational in HFpEF
 - Related to [[concepts/Pulmonary-Hypertension-Classification]] — HFmrEF EF boundary relevant to PARAGON-HF subgroup
 - Related to [[sources/HF-AHA-2022]] — COR 2b recommendation context

@@ -55,7 +55,7 @@ All CCM scenarios rated **May Be Appropriate (M 4–5)** — no scenario reaches
 - Related to [[entities/ICD]] — CCM and ICD are often implanted concurrently in LVEF ≤35% patients; different devices and mechanisms
 - Related to [[entities/CRT]] — CCM is the device option for patients NOT eligible for CRT (narrow QRS); explicitly complementary populations
 - Related to [[entities/Heart-Failure]] — CCM fills a gap for symptomatic HFrEF with narrow QRS not amenable to CRT
-- Related to [[concepts/HFpEF]] — LVEF 25–45% overlaps lower HFmrEF range; CCM studies excluded preserved EF
+- Related to [[entities/HFpEF]] — LVEF 25–45% overlaps lower HFmrEF range; CCM studies excluded preserved EF
 - Related to [[concepts/Pharmacogenomics-in-HF]] — beta-adrenergic receptor signalling as CCM mechanism
 
 ## Sources

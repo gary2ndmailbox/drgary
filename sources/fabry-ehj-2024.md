@@ -117,7 +117,7 @@ Anderson–Fabry disease, Hypertrophic cardiomyopathy, Artificial intelligence, 
 
 ## Key Concepts Mentioned
 - [[concepts/Fabry-Cardiomyopathy]] — central subject; pathophysiology, staging, cardiac management
-- [[concepts/HFpEF]] — 40% of AFD patients have HFpEF by ESC criteria; SGLT2i applicable
+- [[entities/HFpEF]] — 40% of AFD patients have HFpEF by ESC criteria; SGLT2i applicable
 - [[concepts/Phenotypic-Approach-to-Cardiomyopathy]] — AFD is a key HCM genocopy requiring phenotype-based aetiological diagnosis
 - [[concepts/Late-Gadolinium-Enhancement]] — inferolateral midwall LGE pattern in AFD
 - [[concepts/LVOTO]] — uncommon in AFD; myosin inhibitors contraindicated
@@ -133,7 +133,7 @@ Anderson–Fabry disease, Hypertrophic cardiomyopathy, Artificial intelligence, 
 - `wiki/sources/fabry-ehj-2024.md` — created (this file)
 - `wiki/entities/Anderson-Fabry-Disease.md` — updated (comprehensive content from this source merged with esc-cmp-2023)
 - `wiki/concepts/Fabry-Cardiomyopathy.md` — created
-- `wiki/concepts/HFpEF.md` — updated (AFD as genetic HFpEF cause)
+- `wiki/entities/HFpEF.md` — updated (AFD as genetic HFpEF cause)
 - `wiki/entities/Amiodarone.md` — updated (AFD-specific contraindication)
 - `wiki/wikiindex.md` — updated
 - `wiki/sourceindex.md` — updated

@@ -79,7 +79,7 @@ Phase 3, randomized, double-blind, placebo-controlled (n=5,050; 42 countries; me
 ## Connections
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/DCM]]
-- Related to [[concepts/HFpEF]] — contrast: cGMP-targeting drugs failed in HFpEF
+- Related to [[entities/HFpEF]] — contrast: cGMP-targeting drugs failed in HFpEF
 - Related to [[concepts/Titin-PTMs]] — cGMP-PKG axis and its HFpEF failures contextualise VICTORIA's HFrEF-specific benefit
 
 ## Sources

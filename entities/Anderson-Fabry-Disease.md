@@ -140,7 +140,7 @@ Anderson–Fabry disease (AFD) is a rare X-linked lysosomal storage disorder cau
 - Related to [[sources/conduction-disorders-jaha-2025]]
 - Related to [[concepts/Conduction-Disorders-in-Young-Adults]]
 - Related to [[concepts/Fabry-Cardiomyopathy]]
-- Related to [[concepts/HFpEF]] — AFD as genetic cause of HFpEF
+- Related to [[entities/HFpEF]] — AFD as genetic cause of HFpEF
 - Related to [[concepts/Phenotypic-Approach-to-Cardiomyopathy]] — AFD is a key HCM genocopy
 - Related to [[concepts/Late-Gadolinium-Enhancement]] — inferolateral LGE pattern; low native T1
 - Related to [[concepts/LVOTO]] — uncommon; myosin inhibitors contraindicated

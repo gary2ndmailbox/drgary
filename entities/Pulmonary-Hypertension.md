@@ -132,7 +132,7 @@ Pulmonary hypertension (PH) is a haemodynamic state defined by a mean pulmonary 
 - Related to [[entities/CTEPH]]
 - Related to [[concepts/PAH-Risk-Stratification]]
 - Related to [[entities/Heart-Failure]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 - Related to [[concepts/Right-Heart-Catheterization]]
 - Related to [[concepts/RV-PA-Coupling]]
 - Related to [[sources/PHT-ESC-2022]]

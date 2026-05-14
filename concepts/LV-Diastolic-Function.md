@@ -2,8 +2,8 @@
 dg-publish: true
 title: "LV Diastolic Function"
 tags: [echocardiography, diastolic-function, heart-failure, HFpEF]
-source_count: 1
-last_updated: 2026-04-19
+source_count: 2
+last_updated: 2026-05-14
 ---
 
 # LV Diastolic Function
@@ -139,21 +139,35 @@ Additional finding: LV mass index >115 g/m² (men) or >95 g/m² (women) after ex
 - Electrocardiographic AI models showed good accuracy for diastolic dysfunction grades with similar prognostic value to echo (n~100,000 paired ECG/echo)
 - All current AI models trained on 2016 guidelines — validation against invasive hemodynamics and outcomes needed ([[sources/echo-hfpef-ase-2025]], rating: very high)
 
+### Diastolic Dysfunction and Arrhythmic Death Risk
+- Grade III diastolic dysfunction (restrictive pattern) is independently associated with a **3.52-fold increased risk** for arrhythmic death (AD) or resuscitated cardiac arrest (RCA) in ischaemic and dilated cardiomyopathy (HR 3.52; 95% CI 2.00–6.22; P<0.001), adjusted for ICD implantation, QRS duration, hypertension, and diuretics. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- This association is **independent of LVEF**: persists in both LVEF ≤35% (P=0.001) and LVEF >35% (P=0.014) subgroups — suggesting diastolic grading adds incremental arrhythmic risk information beyond the standard ICD threshold. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- 8-year cumulative AD/RCA risk by diastolic grade: 58% (grade III) vs 37% (grade II) vs 22% (grade I) vs 5% (normal). No patient with normal diastolic function died of arrhythmic death. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- Grade I dysfunction was protective for arrhythmic events (HR 0.41; 95% CI 0.23–0.71; P=0.002); grade II was neutral (HR 1.03; P=0.93). ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- In the LVEF >35% subgroup, grade III patients had 41% cumulative AD/RCA risk at 8 years — comparable to patients meeting LVEF ≤35% ICD criteria — suggesting a high-risk group currently missed by standard thresholds. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- Proposed mechanism: grade III dysfunction reflects advanced myocardial fibrosis and ventricular stiffness, which create anatomical reentry substrate for ventricular tachyarrhythmia.
+- Note: pilot study (n=210, single centre); diastolic grading used pre-2016 ASE criteria. Not yet incorporated into ICD guidelines. See [[concepts/VA-Risk-Stratification-DCM]] and [[entities/ICD]] for the broader arrhythmic risk framework.
+
 ## Contradictions / Open Questions
 - **LAVi as a primary vs supplemental variable:** The 2016 ASE guidelines included LAVi as a primary parameter. The 2025 update demoted it to secondary/supplemental due to its weak and indirect correlation with acute LAP changes and multiple non-diastolic causes of LA enlargement. However, LAVi retains prognostic value (independent predictor of death, HF, AF, stroke) creating a tension between its prognostic and diagnostic roles. ([[sources/echo-hfpef-ase-2025]], rating: very high)
 - **LARS age-dependence and EF-dependence:** LARS has highest LAP estimation accuracy in patients with reduced LVEF; in normal EF patients it can be normal despite elevated LAP (especially if GLS >18%). This means LARS is most useful precisely in the patients where clinical diagnosis of HFpEF is already clearest, and least useful in the more ambiguous preserved EF group. ([[sources/echo-hfpef-ase-2025]], rating: very high)
 - **E/e' grey zone (8–14) remains unresolved:** Despite replacing the 2016 4-variable algorithm, a substantial grey zone persists for E/e' ratio between 8–14 where LAP is indeterminate. The 2025 update adds LARS and supplemental parameters to resolve this but accuracy in the grey zone remains moderate. ([[sources/echo-hfpef-ase-2025]], rating: very high)
 - **Age-specific prognostic thresholds only validated for >65 years:** The ARIC study data providing prognostically relevant diastolic measurements covers only adults >65 years. For younger patients, the 2025 guidelines use normal range cutoffs rather than outcomes-based thresholds, creating potential misclassification in younger individuals. ([[sources/echo-hfpef-ase-2025]], rating: very high)
+- **Diastolic grade III as an arrhythmic risk marker vs. current LVEF-centric ICD guidelines:** Pezawas et al. (2020, n=210, 7-year follow-up) found grade III diastolic dysfunction independently predicted arrhythmic death regardless of LVEF (HR 3.52), with the LVEF >35% subgroup facing 41% cumulative AD/RCA risk at 8 years — comparable to ICD-eligible LVEF ≤35% patients. Current ICD guidelines do not incorporate diastolic grading. Whether grade III dysfunction should complement LVEF thresholds for primary prevention ICD decisions requires large prospective validation. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
 
 ## Connections
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/HCM]]
 - Related to [[entities/ATTR-Amyloidosis]]
 - Related to [[entities/Atrial-Fibrillation]]
 - Related to [[entities/Pulmonary-Hypertension]]
 - Related to [[concepts/Valvular-Heart-Disease]]
+- Related to [[concepts/VA-Risk-Stratification-DCM]] — diastolic grade III as LVEF-independent arrhythmic risk predictor
+- Related to [[entities/ICD]] — diastolic grading as candidate additional primary prevention criterion
 - Related to [[sources/echo-hfpef-ase-2025]]
+- Related to [[sources/arrhythmia-diastolic-circep-2020]]
 
 ## Sources
 - [[sources/echo-hfpef-ase-2025]]
+- [[sources/arrhythmia-diastolic-circep-2020]]

@@ -130,7 +130,7 @@ Cardiorenal syndrome (CRS) refers to the bidirectional pathophysiological intera
 
 ## Connections
 - Related to [[entities/Heart-Failure]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 - Related to [[concepts/Right-Heart-Catheterization]] — hemodynamic assessment is central to reversibility evaluation
 - Related to [[concepts/Diuretic-Resistance]] — mechanisms and management of diuretic resistance in CRS
 

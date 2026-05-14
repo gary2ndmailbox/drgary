@@ -105,7 +105,7 @@ The 'common soil hypothesis' proposes that shared stressors — ageing, cardio-m
 - Related to [[concepts/Atrial-Failure]] — end-stage AtCM
 - Related to [[entities/Atrial-Fibrillation]] — AF is a late manifestation and consequence of AtCM
 - Related to [[entities/Heart-Failure]] — bidirectional; HFpEF especially
-- Related to [[concepts/HFpEF]] — mechanical atrial dysfunction better predictor than AF in HFpEF
+- Related to [[entities/HFpEF]] — mechanical atrial dysfunction better predictor than AF in HFpEF
 - Related to [[concepts/Late-Gadolinium-Enhancement]] — atrial fibrosis detection
 - Related to [[concepts/AF-CARE]] — comorbidity management parallels
 - Related to [[concepts/AF-Staging]] — AtCM framework predates AF staging

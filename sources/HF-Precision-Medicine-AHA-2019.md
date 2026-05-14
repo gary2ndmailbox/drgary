@@ -179,7 +179,7 @@ Heart failure, precision medicine, genomics, pharmacogenomics, epigenomics, prot
 - [[concepts/Titin-Isoform-Switch]] — RBM20 as master TTN isoform switch; abnormal splicing in RBM20-DCM
 - [[concepts/Titin-PTMs]] — mTORC1 activation in TTNtv rat models; metabolic shift to glycolysis
 - [[concepts/Gene-Silencing-Therapy]] — ncRNA therapeutic strategies (antagomirs, GapmeRs, miRNA mimics)
-- [[concepts/HFpEF]] — metabolomic and proteomic profiles; acylcarnitine and ketone body distinctions from HFrEF
+- [[entities/HFpEF]] — metabolomic and proteomic profiles; acylcarnitine and ketone body distinctions from HFrEF
 - [[concepts/Pharmacogenomics-in-HF]] — ADRB1/GRK5/GNB3 beta-blocker genetics; CYP2D6/CYP3A5 metabolism
 - [[concepts/Gut-Microbiome-in-HF]] — gut dysbiosis mechanism; TMAO biomarker; uremic toxins; dietary/probiotic interventions
 

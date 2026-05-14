@@ -116,7 +116,7 @@ AHA Scientific Statements, atrial fibrillation, cardiovascular diseases, coronar
 ## Key Concepts Mentioned
 - [[concepts/Visceral-Adiposity]] — central CVD risk marker beyond BMI; VAT, epicardial and pericardial fat
 - [[concepts/Obesity-Paradox]] — improved short-term CVD outcomes in overweight/mild obesity
-- [[concepts/HFpEF]] — obesity as dominant HFpEF risk factor; distinct obesity-HFpEF phenotype
+- [[entities/HFpEF]] — obesity as dominant HFpEF risk factor; distinct obesity-HFpEF phenotype
 - [[concepts/Sudden-Cardiac-Death]] — obesity as most common nonischaemic SCD cause
 - [[concepts/LVOTO]] — LV diastolic dysfunction in obesity
 
@@ -132,6 +132,6 @@ AHA Scientific Statements, atrial fibrillation, cardiovascular diseases, coronar
 - Created: wiki/concepts/Visceral-Adiposity.md
 - Updated: wiki/entities/Atrial-Fibrillation.md (added Obesity as AF Risk Factor section)
 - Updated: wiki/entities/Heart-Failure.md (added Obesity and Heart Failure section)
-- Updated: wiki/concepts/HFpEF.md (added obesity-HFpEF phenotype to Epidemiology and Pathophysiology)
+- Updated: wiki/entities/HFpEF.md (added obesity-HFpEF phenotype to Epidemiology and Pathophysiology)
 - Updated: wiki/wikiindex.md
 - Updated: wiki/sourceindex.md

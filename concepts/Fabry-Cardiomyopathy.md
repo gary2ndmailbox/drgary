@@ -87,7 +87,7 @@ Fabry cardiomyopathy is the cardiac manifestation of Anderson–Fabry disease (A
 #### Heart Failure
 - HFpEF is the dominant phenotype — 40% of AFD patients meet ESC HF criteria; 91% of these are HFpEF.
 - Subclinical diastolic dysfunction may precede LVH.
-- SGLT2 inhibitors (dapagliflozin/empagliflozin) should be considered — Class I evidence for HFpEF; potential additional renal benefit in AFD nephropathy. ([[sources/fabry-ehj-2024]], rating: high; [[concepts/HFpEF]])
+- SGLT2 inhibitors (dapagliflozin/empagliflozin) should be considered — Class I evidence for HFpEF; potential additional renal benefit in AFD nephropathy. ([[sources/fabry-ehj-2024]], rating: high; [[entities/HFpEF]])
 
 #### Coronary Microvascular Disease and MINOCA
 - Structural/functional changes of intramural vessels → myocardial ischaemia despite normal epicardial coronaries.
@@ -144,7 +144,7 @@ Fabry cardiomyopathy is the cardiac manifestation of Anderson–Fabry disease (A
 
 ## Connections
 - Related to [[entities/Anderson-Fabry-Disease]]
-- Related to [[concepts/HFpEF]] — HFpEF dominant phenotype in AFD
+- Related to [[entities/HFpEF]] — HFpEF dominant phenotype in AFD
 - Related to [[concepts/Late-Gadolinium-Enhancement]] — inferolateral midwall/epicardial LGE
 - Related to [[concepts/Phenotypic-Approach-to-Cardiomyopathy]] — AFD as HCM genocopy
 - Related to [[concepts/LVOTO]] — uncommon; myosin inhibitors contraindicated

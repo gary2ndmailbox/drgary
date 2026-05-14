@@ -127,7 +127,7 @@ Complementary and alternative medicine (CAM) encompasses medical practices, prod
 - Related to [[concepts/Heart-Healthy-Dietary-Patterns]] — fish oil supplements vs. dietary fish; alcohol population-level guidance
 - Related to [[concepts/Alcoholic-Cardiomyopathy]] — high-dose alcohol as HF cause
 - Related to [[concepts/Drug-Induced-Arrhythmia]] — grapefruit juice CYP3A4 interactions with QT-prolonging agents
-- Related to [[concepts/HFpEF]] — tai chi in HFpEF; omega-3 PUFA across HF phenotypes
+- Related to [[entities/HFpEF]] — tai chi in HFpEF; omega-3 PUFA across HF phenotypes
 - Related to [[sources/alt-medicine-hf-aha-2023]]
 
 ## Sources

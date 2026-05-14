@@ -52,7 +52,7 @@ Obesity is a chronic, multifactorial disease with complex biological, psychosoci
 - HFpEF is more strongly associated with obesity than HFrEF: overweight → 38% higher HFpEF risk; class 1 obesity → 56% higher HFpEF risk (independently of CVD risk factors). ([[sources/obesity-cv-aha-2021]], rating: very high)
 - Obesity-HFpEF: distinct phenotype with greater concentric LV remodeling, RV dilatation, pericardial restraint, ventricular interdependence, and lower exercise capacity vs non-obese HFpEF. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - BNP is lower in obesity (including in HF); normal BNP does not exclude HFpEF in obese patients. ([[sources/obesity-cv-aha-2021]], rating: very high)
-- See [[entities/Heart-Failure]] and [[concepts/HFpEF]].
+- See [[entities/Heart-Failure]] and [[entities/HFpEF]].
 
 ### Sudden Cardiac Death
 - Every 5-unit BMI increment confers a 16% higher SCD risk. Obesity is the most common nonischaemic cause of SCD. ([[sources/obesity-cv-aha-2021]], rating: very high)
@@ -100,7 +100,7 @@ Obesity is a chronic, multifactorial disease with complex biological, psychosoci
 ## Connections
 - Related to [[concepts/Visceral-Adiposity]] — VAT and ectopic fat as CVD risk mechanisms
 - Related to [[concepts/Obesity-Paradox]] — improved short-term CVD outcomes in overweight/mild obesity
-- Related to [[concepts/HFpEF]] — obesity as dominant HFpEF phenotype driver
+- Related to [[entities/HFpEF]] — obesity as dominant HFpEF phenotype driver
 - Related to [[entities/Heart-Failure]] — obesity as major HF risk factor
 - Related to [[entities/Atrial-Fibrillation]] — obesity-AF epidemiology and epicardial fat mechanism
 - Related to [[concepts/Sudden-Cardiac-Death]] — obesity as most common nonischaemic SCD cause

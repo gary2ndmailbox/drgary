@@ -2,8 +2,8 @@
 dg-publish: true
 title: "VA Risk Stratification in Dilated Cardiomyopathy"
 tags: [dilated-cardiomyopathy, ventricular-arrhythmias, ICD, sudden-cardiac-death, risk-stratification]
-source_count: 4
-last_updated: 2026-04-12
+source_count: 6
+last_updated: 2026-05-14
 ---
 
 # VA Risk Stratification in Dilated Cardiomyopathy
@@ -34,8 +34,15 @@ Key pooled hazard ratios from the largest VA-specific DCM meta-analysis (Sammani
 ### Non-Significant Predictors
 - Male sex (trend only), NYHA class, family history of DCM, AF, LBBB, QRS duration, LVEF <30% or <35% as categorical thresholds, signal-averaged ECG, standard biomarkers (BNP, ANP, eGFR). ([[sources/VA-DCM-Sammani-2020]], high)
 
+### Diastolic Dysfunction as LVEF-Independent Arrhythmic Risk Predictor
+- Grade III diastolic dysfunction (restrictive pattern) confers **HR 3.52 (95% CI 2.00–6.22; P<0.001)** for arrhythmic death or RCA in ischaemic and dilated cardiomyopathy, independent of LVEF. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- This association persists in both LVEF ≤35% (P=0.001) and LVEF >35% (P=0.014) subgroups, with 41% cumulative AD/RCA risk at 8 years in grade III patients with LVEF >35% — identifying a high-risk group missed by standard primary prevention ICD criteria. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- Cardiomyopathy aetiology (ischaemic vs. dilated) was not a significant confounder — the grade III effect was aetiology-independent. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- Grade I dysfunction was independently protective (HR 0.41; P=0.002); grade II was neutral. No patient with normal diastolic function died of arrhythmic death over 8 years. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
+- **Caveat:** Pilot study (n=210, single centre); diastolic grading used pre-2016 ASE criteria. Not included in current ESC/AHA VA risk stratification frameworks. See [[concepts/LV-Diastolic-Function]] for grading methodology.
+
 ### LVEF Limitations
-- The standard ICD threshold of LVEF ≤35% is derived from ischaemic disease populations. The DANISH trial showed no all-cause mortality benefit in non-ischaemic DCM. ([[sources/VA-SCD-ESC-2022]], ([[sources/VA-DCM-Sammani-2020]], high)
+- The standard ICD threshold of LVEF ≤35% is derived from ischaemic disease populations. The DANISH trial (n=1,116; LVEF ≤35%; median 67.6 months) showed no all-cause mortality benefit in non-ischaemic DCM (HR 0.87; P=0.28), despite halving SCD (HR 0.50; P=0.005); benefit was age-dependent (HR 0.64 in age <68 subgroup, P=0.01). ([[sources/icd-nicm-danish-nejm-2016]], [[sources/VA-SCD-ESC-2022]], [[sources/VA-DCM-Sammani-2020]], high)
 - LVEF as a continuous echocardiographic variable predicts VA (HR 1.45 per 10%), but categorical cutoffs (LVEF <30% or <35%) are non-significant in pooled analysis, suggesting LVEF should not be the sole criterion. ([[sources/VA-DCM-Sammani-2020]], high)
 - Genotype-specific ICD criteria now extended to LVEF 35–50% range for high-risk genotypes (PLN, LMNA, FLNC, RBM20) with additional risk factors. ([[sources/VA-SCD-ESC-2022]])
 
@@ -54,6 +61,7 @@ Key pooled hazard ratios from the largest VA-specific DCM meta-analysis (Sammani
 - **ESC 2022 dual ICD thresholds:** Two Class IIa criteria (standard LVEF ≤35% and multi-factor LVEF <50%) coexist without guidance on which applies when a patient qualifies under both. ([[sources/VA-SCD-ESC-2022]])
 - **Quality of evidence is moderate:** Crude (unadjusted) HRs are pooled; confounder adjustment was limited in most primary studies. The true independent contribution of each risk factor remains uncertain. ([[sources/VA-DCM-Sammani-2020]], high)
 - **Competing risks not modelled:** DCM patients face both arrhythmic death and HF-related death/transplantation. Competing risks modelling may change individual risk estimates substantially. ([[sources/VA-DCM-Sammani-2020]], high)
+- **Diastolic grade III as an additional ICD selection criterion (LVEF >35%):** Current multi-parameter frameworks (LGE, genotype, LVEF, NSVT, syncope) do not incorporate diastolic grading. The Pezawas pilot study (n=210) found 41% cumulative AD/RCA risk in LVEF >35% patients with grade III dysfunction — comparable to conventional high-risk cohorts. The data are insufficient for guideline incorporation, and the pre-2016 diastolic grading criteria limit direct translation. Prospective validation in large cohorts using contemporary ASE diastolic grading is needed. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
 
 ## Connections
 - Related to [[entities/DCM]]
@@ -65,8 +73,11 @@ Key pooled hazard ratios from the largest VA-specific DCM meta-analysis (Sammani
 - Related to [[concepts/Sudden-Cardiac-Death]]
 - Related to [[concepts/HCM-Risk-SCD]]
 - Related to [[concepts/Cascade-Family-Screening]]
+- Related to [[concepts/LV-Diastolic-Function]] — grade III diastolic dysfunction as LVEF-independent arrhythmic predictor
 
 ## Sources
 - [[sources/VA-DCM-Sammani-2020]]
 - [[sources/VA-SCD-ESC-2022]]
 - [[sources/esc-cmp-2023]]
+- [[sources/arrhythmia-diastolic-circep-2020]]
+- [[sources/icd-nicm-danish-nejm-2016]]

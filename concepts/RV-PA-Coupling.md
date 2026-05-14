@@ -65,7 +65,7 @@ RV–PA coupling describes the mechanical match between right ventricular contra
 - Related to [[concepts/PAH-Risk-Stratification]]
 - Related to [[concepts/Right-Heart-Catheterization]]
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 
 ## Sources
 - [[sources/rv-failure-aha-2026]]

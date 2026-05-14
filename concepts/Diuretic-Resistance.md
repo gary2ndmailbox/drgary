@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Diuretic Resistance"
 tags: [diuretic-resistance, heart-failure, kidney-dysfunction, cardiorenal-syndrome]
-source_count: 1
-last_updated: 2026-04-30
+source_count: 2
+last_updated: 2026-05-14
 ---
 
 # Diuretic Resistance
@@ -35,6 +35,15 @@ Diuretic resistance is defined as the attenuation of the maximal diuretic effect
 - **Torsemide preference:** Longer half-life, more predictable oral bioavailability; may be more effective than furosemide per several small studies and meta-analysis
 - **Goal-directed stepwise algorithm** (pooled DOSE-AHF/CARRESS-HF/ROSE-AHF, n=198 Type 1 CRS): Target 24h urine output 3–4 L with furosemide ± metolazone → greater weight loss (−1.5 vs −0.4 kg, P<0.001) and improved renal function vs standard therapy
 
+### Acetazolamide (Proximal Tubular Blockade) — ADVOR Trial
+- **Mechanism:** Acetazolamide inhibits carbonic anhydrase at the proximal tubule, blocking the apical NHE3 sodium-hydrogen exchanger responsible for **~60% of proximal tubular Na⁺ reabsorption** (vs SGLT2i which mediate only ~5%). This proximal blockade increases Na⁺ delivery to the thick ascending limb, where loop diuretics act — the mechanistic basis of sequential nephron blockade. ([[sources/acetazolamide-acutehf-nejm-2022]], rating: high)
+- **ADVOR trial (Mullens et al., NEJM 2022; n=519; multicentre Belgium; ADHF + volume overload):** IV acetazolamide 500mg OD + standardised IV loop diuretics (2× oral maintenance dose) vs placebo + loop diuretics. Primary endpoint — successful decongestion within 3 days (no signs of volume overload, no escalation trigger): **42.2% vs 30.5% (RR 1.46; 95% CI 1.17–1.82; P<0.001)**. ([[sources/acetazolamide-acutehf-nejm-2022]], rating: high)
+- Higher cumulative natriuresis (468 vs 369 mmol) and urine output (4.6 vs 4.1L) by day 2. Shorter hospital stay (geometric mean 8.8 vs 9.9 days). Decongestion rate at discharge higher by 16.3 percentage points (78.8% vs 62.5%). Total loop diuretic dose was similar between groups — benefit attributable to acetazolamide, not diuretic escalation. ([[sources/acetazolamide-acutehf-nejm-2022]], rating: high)
+- **Safety:** No severe metabolic acidosis (bicarbonate <12 mmol/L) in either group. Rates of AKI, hypokalemia, and hypotension were similar to placebo. ([[sources/acetazolamide-acutehf-nejm-2022]], rating: high)
+- **Subgroup signal:** Less benefit in patients on higher oral loop diuretic maintenance doses, possibly reflecting more established diuretic resistance requiring broader intervention.
+- **Key exclusion:** SGLT2 inhibitors were excluded (both act proximally; no combination data exist). Results apply to patients with established chronic loop diuretic therapy — not de novo HF.
+- First large RCT to demonstrate that proximal tubular blockade enhances decongestion in ADHF. Supports natriuresis (not just urine output) as a clinically meaningful diuretic response metric.
+
 ### RAAS Activation and Diuretics ([[sources/cardiorenal-aha-2019]], rating: very high)
 - Follow-up analysis of DOSE-AHF and CARRESS-HF: high-dose loop diuretic therapy did NOT result in greater RAAS activation than low-dose therapy
 - Ultrafiltration, paradoxically, caused greater plasma renin activity increase than stepwise pharmacological care
@@ -46,11 +55,15 @@ Diuretic resistance is defined as the attenuation of the maximal diuretic effect
 - Optimal biomarker to guide diuretic dosing (diuretic efficiency metric) not yet validated in prospective trials
 - Whether diuretics promote renal injury in severe baseline CKD (stage 4–5) remains uncertain ([[sources/cardiorenal-aha-2019]], rating: very high)
 - Hypochloremia as a therapeutic target in diuretic resistance has not been prospectively validated
+- **Acetazolamide improves decongestion but not hard outcomes:** ADVOR demonstrated a significant improvement in decongestion (RR 1.46) and shorter hospital stay, but the composite of death or HF rehospitalization at 3 months was not significantly reduced (HR 1.07; 29.7% vs 27.8%). The trial was likely underpowered for hard outcomes (n=519; 3-month follow-up). Whether faster/more complete decongestion translates into mortality or readmission benefit requires a larger, longer trial. This creates a tension: decongestion is a Class I goal in guidelines, and residual congestion predicts poor outcomes — but it remains unproven that pharmacologically accelerating decongestion via acetazolamide improves hard outcomes beyond what standard loop diuretics achieve. ([[sources/acetazolamide-acutehf-nejm-2022]], rating: high)
+- **Acetazolamide + SGLT2i combination is untested:** SGLT2i were excluded from ADVOR. Both agents act on the proximal tubule but via different mechanisms (NHE3 vs SGLT2; 60% vs 5% of proximal Na⁺ load). Whether combining them provides additive decongestion benefit or excess risk (metabolic acidosis, volume depletion) is unknown. This is clinically relevant given SGLT2i are now Class I for HFrEF/HFpEF. ([[sources/acetazolamide-acutehf-nejm-2022]], rating: high)
 
 ## Connections
 - Related to [[concepts/Cardiorenal-Syndrome]]
 - Related to [[entities/Heart-Failure]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
+- Related to [[sources/acetazolamide-acutehf-nejm-2022]] — ADVOR RCT; first large trial of proximal tubular blockade in ADHF
 
 ## Sources
 - [[sources/cardiorenal-aha-2019]]
+- [[sources/acetazolamide-acutehf-nejm-2022]]

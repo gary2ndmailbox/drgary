@@ -84,7 +84,7 @@ LCZ696, sacubitril, valsartan, ARNI, neprilysin inhibitor, angiotensin receptor 
 - **BP confound:** LCZ696 caused 3.2 mmHg greater SBP reduction. Although BP was modeled as non-significant in covariate analysis, modest BP difference may contribute to outcome difference via mechanism independent of RAAS/neprilysin inhibition
 
 ## Key Concepts Mentioned
-- [[concepts/HFpEF]] — LCZ696 also had earlier Phase 2 data in HFpEF (PARAMOUNT, Lancet 2012), which motivated PARAGON-HF
+- [[entities/HFpEF]] — LCZ696 also had earlier Phase 2 data in HFpEF (PARAMOUNT, Lancet 2012), which motivated PARAGON-HF
 
 ## Key Entities Mentioned
 - [[entities/Sacubitril-Valsartan]] — primary entity; PARADIGM-HF is the foundational HFrEF evidence

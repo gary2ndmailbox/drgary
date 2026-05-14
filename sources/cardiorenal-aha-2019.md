@@ -204,7 +204,7 @@ AHA Scientific Statements; acute kidney injury; biomarkers; cardio-renal syndrom
 ## Key Concepts Mentioned
 - [[concepts/Cardiorenal-Syndrome]] — primary topic; CRS 5-type classification, pathophysiology, management
 - [[concepts/Diuretic-Resistance]] — comprehensive mechanisms and management strategies
-- [[concepts/HFpEF]] — CRS in preserved EF; tolvaptan, ARNI in HFpEF
+- [[entities/HFpEF]] — CRS in preserved EF; tolvaptan, ARNI in HFpEF
 - [[concepts/Late-Gadolinium-Enhancement]] — uremic cardiomyopathy, non-gadolinium CMR in CKD
 
 ## Key Entities Mentioned

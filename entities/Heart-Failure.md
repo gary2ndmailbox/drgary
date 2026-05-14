@@ -1,15 +1,15 @@
 ---
 dg-publish: true
 title: "Heart Failure"
-tags: [heart-failure, HFpEF, SGLT2-inhibitors, guideline, acute-heart-failure]
+tags: [heart-failure, HFrEF, HFpEF, SGLT2-inhibitors, guideline, acute-heart-failure]
 source_count: 24
-last_updated: 2026-05-10
+last_updated: 2026-05-12
 ---
 
 # Heart Failure
 
 ## Details of the concept
-Heart failure (HF) is a clinical syndrome of symptoms (dyspnoea, ankle swelling, fatigue) ± signs (elevated JVP, pulmonary crackles, peripheral oedema) due to a cardiac structural or functional abnormality causing elevated intracardiac pressures and/or inadequate cardiac output at rest or on effort. Three phenotypes are defined by LVEF: HFrEF (≤40%), HFmrEF (41–49%), and HFpEF (≥50%); a fourth — HFimpEF — describes patients with previously reduced LVEF who recover to >40% on GDMT but retain structural abnormality and relapse risk. The ACC/AHA staging framework (A–D) stratifies from "at risk" (Stage A: risk factors only) through structural disease without symptoms (Stage B: pre-HF) to established symptomatic HF (Stage C) and advanced refractory disease (Stage D), enabling preventive as well as therapeutic intervention. HF affects ~1–2% of adults in developed countries, rising to >10% in those aged >70 years; 5-year mortality is 53–67%, and HF is the leading indication for cardiac transplantation in adults. In HFrEF, the four-pillar GDMT regimen (ARNi/ACEi/ARB, beta-blocker, MRA, SGLT2i) reduces estimated all-cause mortality by ~73%.
+Heart failure (HF) is a clinical syndrome of symptoms (dyspnoea, ankle swelling, fatigue) ± signs (elevated JVP, pulmonary crackles, peripheral oedema) due to a cardiac structural or functional abnormality causing elevated intracardiac pressures and/or inadequate cardiac output at rest or on effort. Three phenotypes are defined by LVEF: HFrEF (≤40%), HFmrEF (41–49%), and HFpEF (≥50%); a fourth — HFimpEF — describes patients with previously reduced LVEF who recover to >40% on GDMT but retain structural abnormality and relapse risk. The ACC/AHA staging framework (A–D) stratifies from "at risk" (Stage A: risk factors only) through structural disease without symptoms (Stage B: pre-HF) to established symptomatic HF (Stage C) and advanced refractory disease (Stage D), enabling preventive as well as therapeutic intervention. HF affects ~1–2% of adults in developed countries, rising to >10% in those aged >70 years; 5-year mortality is 53–67%, and HF is the leading indication for cardiac transplantation in adults. In HFrEF, the four-pillar GDMT regimen (ARNi/ACEi/ARB, beta-blocker, MRA, SGLT2i) reduces estimated all-cause mortality by ~73%. For HFrEF-specific management — full GDMT evidence, ischaemic cardiomyopathy revascularisation strategy, ICD/CRT thresholds, HFimpEF, and antiarrhythmic drug guidance — see [[entities/HFrEF]].
 
 ---
 
@@ -119,41 +119,26 @@ See [[concepts/Right-Heart-Catheterization]] for full methodology, pitfalls, and
 ## Pharmacological Management
 
 ### HFrEF
-The four foundational drug classes each carry Class I / COR 1A recommendations (ESC 2021 and AHA 2022). Estimated 73% reduction in all-cause mortality with use of all four classes vs. no treatment. ([[sources/HF-AHA-2022]], rating: very high)
+The four foundational drug classes each carry Class I / COR 1A recommendations (ESC 2021 and AHA 2022). Estimated 73% reduction in all-cause mortality with all four classes vs no treatment. ([[sources/HF-AHA-2022]], rating: very high)
 
-- **ARNi (sacubitril-valsartan):** AHA COR 1A — preferred over ACEi for NYHA II–III; 20% RRR in CV death or HF hospitalization vs enalapril (PARADIGM-HF: HR 0.80, P<0.001; NNT 21; all-cause death HR 0.84; n=8,399; median 27 months; stopped early for overwhelming benefit). ESC Class I. ([[sources/arni-paradigm-hf-nejm-2014]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **ACEi:** AHA COR 1A — if ARNi not feasible. ESC Class I. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **ARB:** AHA COR 1A — if intolerant to ACEi (cough/angioedema) and ARNi not feasible. ([[sources/HF-AHA-2022]], rating: very high)
-- **Beta-blocker (bisoprolol, carvedilol, or metoprolol succinate):** AHA COR 1A, ESC Class I — reduces mortality and HF hospitalizations. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **MRA (spironolactone or eplerenone):** AHA COR 1A, ESC Class I — reduces mortality and HF hospitalization. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **SGLT2i (dapagliflozin or empagliflozin):** AHA COR 1A (17% RRR all-cause mortality), ESC Class I — reduces CV death and worsening HF regardless of diabetes status. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **Loop diuretics:** ESC Class I — for fluid retention (symptom relief). ([[sources/HF-ESC-2021]], rating: very high)
-- **H-ISDN (hydralazine + isosorbide dinitrate):** AHA COR 1A for self-identified Black patients with NYHA III–IV already on optimized GDMT (A-HeFT); AHA COR 2a / ESC Class IIa if intolerant to all RAAS therapies. ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **Ivabradine:** AHA COR 2a (B-R), ESC Class IIa — stable symptomatic HFrEF (LVEF ≤35%) + sinus rhythm + resting HR ≥70 bpm on maximally tolerated beta-blocker; reduces HF hospitalization (SHIFT). ([[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **Vericiguat** (soluble guanylate cyclase stimulator): AHA COR 2b (B-R), ESC Class IIb — NYHA II–IV HFrEF with recent worsening HF event despite GDMT. **VICTORIA trial** (n=5,050; median NT-proBNP 2816 pg/mL; 41% NYHA III/IV; median follow-up 10.8 months): primary composite CV death or first HF hospitalization HR 0.90 (95% CI 0.82–0.98), P=0.02; ARR ~4.2 events/100 pt-years; **NNT ~24 for 1 year**. Total HF hospitalizations (first + recurrent) HR 0.91 (0.84–0.99), P=0.02. No all-cause mortality benefit (HR 0.95, P=0.38). Benefit consistent including in sacubitril-valsartan subgroup; attenuated in very elevated NT-proBNP subgroup. Anemia more common (7.6% vs 5.7% — class effect). **No SGLT2i co-administration data** (trial enrolled 2016–2018). Contraindicated with long-acting nitrates and PDE5 inhibitors (pharmacodynamic overlap on cGMP axis). See [[entities/Vericiguat]] for full trial data and mechanism. ([[sources/vericiguat-victoria-nejm-2020]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **Digoxin:** AHA COR 2b (B-R) — may reduce HF hospitalization; no mortality benefit. ([[sources/HF-AHA-2022]], rating: very high)
+- **ARNi (sacubitril-valsartan):** COR 1A; preferred over ACEi for NYHA II–III; 20% RRR CV death/HF hospitalisation vs enalapril (PARADIGM-HF: HR 0.80; NNT 21; all-cause death HR 0.84; n=8,399; stopped early). ([[sources/arni-paradigm-hf-nejm-2014]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
+- **Beta-blocker / MRA / SGLT2i:** All COR 1A/Class I; SGLT2i reduces CV death and worsening HF regardless of diabetes status. **DAPA-HF** (McMurray, NEJM 2019; n=4,744; 55% no T2DM): primary composite HR 0.74 (NNT=21); all-cause death HR 0.83; renal AEs lower. **EMPEROR-Reduced** (Packer, NEJM 2020; n=3,730; 73% LVEF ≤30%; enriched severe disease): primary composite HR 0.75 (NNT=19); eGFR decline 4× slower (−0.55 vs −2.28 mL/min/yr; P<0.001); composite renal outcome HR 0.50; renal benefit persists post-discontinuation. ([[sources/dapagliflozin-hfref-nejm-2019]], [[sources/empagliflozin-hfref-nejm-2020]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
+- **Additional agents:** Loop diuretics (Class I, symptom relief); H-ISDN (COR 1A in self-identified Black patients with NYHA III–IV on GDMT); ivabradine (COR 2a); vericiguat (COR 2b); **digoxin/digitoxin (COR 2b):** DIGIT-HF (n=1,212; ARNi 39.5%, SGLT2i 19.3%; digitoxin 0.07 mg OD; median 36 months): primary composite HR 0.82 (P=0.03; NNT=22); all-cause death noninferiority confirmed; individual components NS; underpowered (1,212 vs planned 2,190); digitoxin ≠ digoxin. ([[sources/digitoxin-hfref-digithf-nejm-2025]], rating: high)
+- **Drugs to AVOID (COR 3 Harm):** Non-dihydropyridine CCBs, Class IC antiarrhythmics, dronedarone, thiazolidinediones, NSAIDs.
 
-**Drugs to AVOID in HFrEF (AHA COR 3 Harm):** non-dihydropyridine CCBs, Class IC antiarrhythmics + dronedarone, thiazolidinediones, saxagliptin/alogliptin, NSAIDs. ([[sources/HF-AHA-2022]], rating: very high)
-
-**Hypertension management in HFrEF (2025 AHA HT Guideline):** ([[sources/HT-AHA-2025]], rating: very high)
-- Uptitrate GDMT (ARNi/ACEi/ARB + BB + MRA + SGLT2i) to maximally tolerated doses as first-line strategy for BP control — serves dual purpose of HF benefit and BP reduction
-- Add dihydropyridine CCB (e.g., amlodipine) only if BP remains elevated despite optimised GDMT
-- **Non-dihydropyridine CCBs are contraindicated** in HFrEF — negative inotropic effects (Class III Harm, consistent across HT and HF guidelines)
-- Goal SBP <130 mmHg; SPRINT demonstrated HF incidence reduced by 38% (HR 0.62) with SBP <120 mmHg target
-- **Antiarrhythmic drugs in HFrEF:** Amiodarone is the only antiarrhythmic considered safe (not harmful) in HFrEF, but SCD-HeFT (n=2521) demonstrated **no mortality benefit** for amiodarone vs placebo in symptomatic patients with LVEF <35% — confirming amiodarone does not substitute for ICD in primary prevention. Class IC agents (flecainide, propafenone) and dronedarone are actively harmful in HFrEF. ([[sources/amiodarone-cvdrug-2020]], rating: high; [[sources/HF-AHA-2022]], rating: very high)
-- See [[entities/Amiodarone]] for full amiodarone pharmacology, dosing, toxicity monitoring, and drug interactions.
+See [[entities/HFrEF]] for full GDMT trial data, dosing, antiarrhythmic drug guidance, hypertension management in HFrEF, iron deficiency, and HFimpEF.
 
 ### HFmrEF
-- **SGLT2i (dapagliflozin or empagliflozin):** ESC 2023 **Class I, Level A** — reduces HF hospitalization or CV death *(upgraded from Class IIb in 2021 following DELIVER trial)*. AHA 2022: COR 2a (B-R). ([[sources/HF-update-ESC-2023]], [[sources/HF-AHA-2022]], rating: very high)
+- **SGLT2i (dapagliflozin or empagliflozin):** ESC 2023 **Class I, Level A** — reduces HF hospitalization or CV death *(upgraded from Class IIb in 2021; DELIVER: HR 0.82, P<0.001)*. AHA 2022: COR 2a (B-R). ([[sources/dapagliflozin-deliver-nejm-2022]], [[sources/HF-update-ESC-2023]], [[sources/HF-AHA-2022]], rating: very high)
 - **ACEi/ARNi/ARB, beta-blocker, MRA:** ESC Class IIb (based on HFrEF trial subgroup analyses); AHA COR 2b — may be considered especially at lower LVEF. ([[sources/HF-ESC-2021]], [[sources/HF-AHA-2022]], rating: very high)
 - **Diuretics for fluid retention:** Class I. ([[sources/HF-ESC-2021]], rating: very high)
 
 ### HFpEF
-- **SGLT2i (dapagliflozin or empagliflozin):** ESC 2023 **Class I, Level A** *(new; no pharmacotherapy recommendation existed in ESC 2021)*. AHA 2022: COR 2a (B-R). Benefit driven primarily by reduction in HF hospitalizations; no significant reduction in CV death. See [[concepts/HFpEF]] for full SGLT2i evidence. ([[sources/HF-update-ESC-2023]], [[sources/HF-AHA-2022]], rating: very high)
+- **SGLT2i (dapagliflozin or empagliflozin):** ESC 2023 **Class I, Level A** *(first pharmacotherapy with Class I evidence in HFpEF)*. AHA 2022: COR 2a (B-R). **EMPEROR-Preserved** (Anker/Packer, NEJM 2021; n=5,988; LVEF >40%; median 26.2 months): primary composite HR 0.79 (NNT=31); HF hospitalisation HR 0.71; CV death HR 0.91 (NS); all-cause death HR 1.00; eGFR decline slower. **DELIVER** (Solomon, NEJM 2022; n=6,263; LVEF >40%): primary composite HR 0.82 (P<0.001); worsening HF HR 0.79; CV death HR 0.88 (NS). Benefit consistent across full LVEF spectrum and diabetes-independent in both trials. CV death not significantly reduced in either. See [[entities/HFpEF]] for full evidence synthesis. ([[sources/empagliflozin-hfpef-nejm-2021]], [[sources/dapagliflozin-deliver-nejm-2022]], [[sources/HF-update-ESC-2023]], [[sources/HF-AHA-2022]], rating: very high)
 - **BP control:** AHA COR 1 (C-LD). ([[sources/HF-AHA-2022]], rating: very high)
 - **Sodium restriction and potassium intake:** Sodium reduction lowers BP and blunts age-related BP rise; combined ↓sodium + ↑potassium (from fruits and vegetables or potassium-enriched salt substitutes) is the most effective dietary strategy for BP management in HFpEF. Caution with potassium-enriched salt substitutes in those with impaired urinary potassium excretion. [[sources/diet-aha-2026]] (very high)
 - **AF management:** AHA COR 2a. ([[sources/HF-AHA-2022]], rating: very high)
-- **MRA:** AHA COR 2b. ARB: AHA COR 2b. ARNi: AHA COR 2b. ([[sources/HF-AHA-2022]], rating: very high)
+- **MRA:** AHA COR 2b; ESC Class IIb. TOPCAT (n=3,445; LVEF ≥45%; mean 3.3 years): primary composite HR 0.89 (NS); HF hospitalisation HR 0.83 (P=0.04); BNP-stratum HR 0.65 (P=0.003); Americas-only HR ~0.82; Russia/Georgia data integrity confounds primary result. **Hyperkalemia doubled (18.7% vs 9.1%) — monitor K/creatinine closely.** ARB: AHA COR 2b. ARNi: AHA COR 2b. ([[sources/spironolactone-hfpef-topcat-nejm-2014]], [[sources/HF-AHA-2022]], rating: high)
 
 **Hypertension management in HFpEF (2025 AHA HT Guideline):** ([[sources/HT-AHA-2025]], rating: very high)
 - RAASi preferred (ARNi > ARB > ACEi); MRA added for BP and HFpEF benefit
@@ -169,6 +154,7 @@ The four foundational drug classes each carry Class I / COR 1A recommendations (
 - **Early empagliflozin in hospitalized acute HF (EMPULSE):** Clinical benefit (death, HF events, KCCQ score) superior with empagliflozin vs. placebo (win ratio 1.36, 95% CI 1.09–1.68; P=0.0054). Benefit independent of LVEF and diabetes status. ([[sources/HF-update-ESC-2023]], rating: very high)
 - **STRONG-HF — rapid up-titration strategy (Class I, Level B):** Intensive oral HF therapy initiation pre-discharge + close follow-up in first 6 weeks → HF readmission or all-cause death at 180 days: 15.2% vs. 23.3% (aRR 0.66; P=0.0021). Readmissions reduced (aRR 0.56); all-cause death alone not significantly reduced. ([[sources/HF-update-ESC-2023]], rating: very high)
 - Close follow-up visits should monitor: congestion signs, BP, HR, NT-proBNP, potassium, eGFR. ([[sources/HF-update-ESC-2023]], rating: very high)
+- **ADVOR — acetazolamide for faster decongestion (Mullens et al., NEJM 2022; n=519):** IV acetazolamide 500mg OD (proximal tubular carbonic anhydrase inhibitor, blocks ~60% of proximal Na⁺ reabsorption via NHE3) added to standardised IV loop diuretics (2× oral maintenance dose) → successful decongestion within 3 days: **42.2% vs 30.5% (RR 1.46; 95% CI 1.17–1.82; P<0.001)**. Higher natriuresis (468 vs 369 mmol), higher urine output, shorter hospital stay (8.8 vs 9.9 days), and higher decongestion rate at discharge (+16.3pp). However, death or HF rehospitalization at 3 months was not significantly reduced (HR 1.07; NS). Safety comparable — no metabolic acidosis, similar AKI/hypokalemia/hypotension. SGLT2i excluded by design. See [[concepts/Diuretic-Resistance]] for full mechanistic context. ([[sources/acetazolamide-acutehf-nejm-2022]], rating: high)
 
 **Mechanical Circulatory Support in ACS-Related Cardiogenic Shock** ([[sources/ACS-AHA-2025]], rating: very high)
 - **Emergency culprit vessel revascularization** (PCI or CABG) is the foundational therapy for ACS with cardiogenic shock, regardless of time from onset — Class I/B-R
@@ -187,14 +173,11 @@ TTS presents as an acute HF syndrome — the International Takotsubo Registry au
 - Brain–heart axis: neuropsychiatric comorbidity 55.8% vs 25.7% ACS (P<0.001) — see [[concepts/Brain-Heart-Axis]]
 
 ### Ischaemic Cardiomyopathy
+- **CABG for LVEF ≤35% (COR 1/B-R):** STICH trial — CABG + OMT vs OMT alone; CV death lower (28% vs 33%) and all-cause death lower at 10-year follow-up. ([[sources/CCS-AHA-2023]], rating: very high)
+- **PCI for LVEF ≤35% — no survival benefit:** REVIVED-BCIS2 (n=700; viability-enriched): PCI + GDMT vs GDMT alone — HR 0.99 (P=0.96). Early KCCQ benefit eroded by 24 months. CABG retains COR 1; PCI does not. ([[sources/pci-hf-revived-bcis2-nejm-2022]], [[sources/CCS-AHA-2023]], rating: very high)
+- **SGLT2i for ischaemic HFrEF:** Effect on CV death and worsening HF is independent of aetiology (ischaemic ~50% of DAPA-HF and EMPEROR-Reduced). See [[entities/Chronic-Coronary-Disease]] for CCD + HF overlap.
 
-**Revascularisation Strategy** ([[sources/CCS-AHA-2023]], rating: very high)
-- **CABG for LVEF ≤35% (COR 1/B-R):** STICH trial (n=1,212, LVEF ≤35%, CAD amenable to CABG): CABG + optimal medical therapy vs medical therapy alone — CV death lower (28% vs 33%; P=0.05); all-cause death lower at 10-year follow-up. Patient selection: multi-vessel disease with viable myocardium, acceptable surgical risk.
-- **PCI for LVEF ≤35% — no survival benefit:** REVIVED-BCIS2 (n=700, LVEF ≤35%, extensive CAD with viable myocardium): PCI + GDMT vs GDMT alone — no difference in all-cause death or HF hospitalisation at median 3.4 years (HR 0.99; P=0.96; 37.2% vs 38.0%). LVEF did not differ at 6 or 12 months. Early KCCQ benefit (+6.5 pts at 6m) eroded to non-significance by 24 months. ICA can still diagnose cause of HF and direct lipid/medical therapy. ([[sources/pci-hf-revived-bcis2-nejm-2022]], rating: very high)
-- **Viability imaging:** Multiple modalities (LGE-CMR, PET-FDG, SPECT, dobutamine echo) predict segmental contractile recovery after revascularization, but no trial has demonstrated that viability-guided revascularization improves survival vs GDMT alone. STICH viability substudy (SPECT/dobutamine echo, n=618): patients with viable myocardium had lower 5-year mortality but viability status did NOT discriminate who benefited from CABG. See [[concepts/Myocardial-Viability]] for full imaging performance data and clinical algorithms. ([[sources/imaging-viability-aha-2020]], rating: very high)
-- **SGLT2 inhibitors for HFrEF (LVEF ≤40%) — COR 1/A regardless of diabetes status:** Reduces CV death and HF hospitalisation; improves QOL (DAPA-HF, EMPEROR-Reduced). Effect independent of aetiology (ischaemic ~50% of trials). See [[entities/Chronic-Coronary-Disease]] for CCD + HF overlap.
-- **SGLT2 inhibitors for HFpEF (LVEF >40%) — COR 2a/B-R regardless of diabetes status:** Reduces HF hospitalisation and improves QOL (EMPEROR-PRESERVED, DELIVER, PRESERVED-HF). CV mortality reduction not statistically significant; economic value uncertain at current US prices.
-- **Contradiction with prior revascularisation evidence:** REVIVED-BCIS2 conflicts with prior observational data suggesting PCI improves outcomes in ischaemic cardiomyopathy. The 2023 CCD guideline reflects the shift: CABG retains survival benefit for LVEF ≤35%; PCI does not.
+See [[entities/HFrEF]] for full revascularisation strategy, viability imaging evidence, and REVIVED-BCIS2 trial detail. See [[concepts/Myocardial-Viability]] for imaging performance data.
 
 ### Iron Deficiency in HF
 Applies to HFrEF and HFmrEF (most evidence from LVEF ≤45%); IV iron not currently recommended in HFpEF.
@@ -218,16 +201,11 @@ Applies to HFrEF and HFmrEF (most evidence from LVEF ≤45%); IV iron not curren
 - **↓Ito and ↓IK1:** Loss of transient outward K⁺ and inward rectifier K⁺ → blunted Phase 1, increased automaticity, and further APD prolongation. ([[sources/membrane-potential-physrev-2021]])
 - **Clinical implication:** This electrical remodeling profile explains why HF patients have elevated TdP risk on QT-prolonging drugs, why CaMKII inhibition is a target of interest, and why amiodarone (the only antiarrhythmic with no evidence of harm in HFrEF per SCD-HeFT) does not worsen these ionic changes. See [[concepts/Electrical-Remodeling]] for full disease-by-disease summary. ([[sources/membrane-potential-physrev-2021]])
 
-### ICD
-- **Primary prevention, ischaemic DCM:** Class I — LVEF ≤35% after ≥3 months OMT. ([[sources/HF-ESC-2021]], rating: very high)
-- **Primary prevention, non-ischaemic DCM:** Class IIa — LVEF ≤35% after ≥3 months OMT. ([[sources/HF-ESC-2021]], rating: very high)
-- ICD consideration even with LVEF >35% for LMNA/C, desmosomal proteins, phospholamban, FLNC — due to arrhythmia risk disproportionate to EF. ([[sources/HF-AHA-2022]], rating: very high)
-- **ICD in CKD:** Meta-analysis (MADIT I/II, SCD-HeFT): ICD survival benefit in GFR >60 (HR 0.49) but NOT in GFR <60 (HR 0.80); Cleveland Clinic CKD Registry shows benefit in eGFR 30–59 but not eGFR <30. DANISH: no ICD benefit in non-ischaemic HFrEF including CKD. Higher complication rates in CKD (infections, bleeding, venous stenosis). S-ICD is a reasonable alternative — comparable efficacy, no lead complications; CKD is an independent predictor of appropriate therapy for polymorphic VT/VF (HR 2.10). ([[sources/cardiorenal-aha-2019]], rating: very high)
+### ICD and CRT
+- **ICD — ischaemic DCM:** ESC Class I; LVEF ≤35% after ≥3 months OMT; >40 days post-MI. Non-ischaemic DCM: ESC Class IIa. High-risk pathogenic variants (LMNA/C, FLNC, desmosomal proteins): consider ICD with LVEF >35%. ([[sources/HF-ESC-2021]], [[sources/HF-AHA-2022]], rating: very high)
+- **CRT:** Class I for LVEF ≤35% + LBBB + QRS ≥150 ms + NYHA II–IV; Class IIa for LBBB + QRS 120–149 ms; narrow QRS Class III (no benefit, possible harm). ([[sources/HF-ESC-2021]], rating: very high)
 
-### CRT
-- **Class I:** QRS ≥150 ms with LBBB + LVEF ≤35%. ([[sources/HF-ESC-2021]], rating: very high)
-- **Class IIa:** QRS 130–149 ms with LBBB. ([[sources/HF-ESC-2021]], rating: very high)
-- **CRT in CKD:** MIRACLE post hoc: improvements in NYHA class, EF, and MR across eGFR 30–59; eGFR improvement noted in the CKD3 subgroup. Meta-analysis (Bazoukis, 13/16 studies): higher all-cause mortality with baseline CKD post-CRT (HR 1.66 for eGFR <60 vs ≥60). Benefits for HF hospitalisation reduction and QoL should be weighed against higher mortality in advanced CKD — multidisciplinary cardionephrology approach recommended. ([[sources/cardiorenal-aha-2019]], rating: very high)
+See [[entities/HFrEF]], [[entities/ICD]], and [[entities/CRT]] for full AUC 2025 scenarios, DANISH trial context, CKD considerations, and conduction system pacing ratings.
 
 ### TEER (Transcatheter Edge-to-Edge Repair) for Secondary MR
 - **Class IIb:** May be considered in carefully selected patients with significant functional MR + LVEF >20% + maximally optimised GDMT who remain symptomatic and have suitable anatomy. ([[sources/HF-ESC-2021]], rating: very high)
@@ -362,7 +340,7 @@ An AHA 2019 Scientific Statement (Cresci et al.) summarises six omics domains re
 - **BNP lower in obesity including in HF:** Normal BNP does not exclude HFpEF in obese patients. Weight loss after bariatric surgery increases NT-proBNP concomitantly with improved LVDD. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - **Low fitness explains ~50% of HF risk attributable to BMI:** Physical activity and improved cardiorespiratory fitness are highly encouraged in obese patients with HF. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - **Treatment in obesity:** SGLT2 inhibitors (dapagliflozin) reduce risk of worsening HF or CV death in overweight/obese HFrEF regardless of diabetes. GLP-1 agonists show promise for combined obesity–HF management. Weight loss improves candidacy for LVAD and heart transplantation. Class 3 obesity is a relative contraindication for heart transplantation (higher acute rejection and 5-year mortality). ([[sources/obesity-cv-aha-2021]], rating: very high)
-- See [[entities/Obesity]], [[concepts/Visceral-Adiposity]], [[concepts/HFpEF]], and [[concepts/Obesity-Paradox]].
+- See [[entities/Obesity]], [[concepts/Visceral-Adiposity]], [[entities/HFpEF]], and [[concepts/Obesity-Paradox]].
 
 ---
 
@@ -395,6 +373,7 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 ---
 
 ## Connections
+- Related to [[entities/HFrEF]] — HFrEF-specific hub: GDMT evidence, ischaemic CMP, ICD/CRT thresholds, HFimpEF
 - Related to [[entities/Amiodarone]]
 - Related to [[entities/Hypertension]] — antecedent in 71% HF; BP management critical in HFrEF and HFpEF
 - Related to [[entities/DCM]]
@@ -404,7 +383,7 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 - Related to [[entities/ATTR-Amyloidosis]]
 - Related to [[entities/Pulmonary-Hypertension]]
 - Related to [[entities/Obesity]] — obesity as major HF risk factor and HFpEF driver
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 - Related to [[concepts/Secondary-Mitral-Regurgitation]]
 - Related to [[concepts/Valvular-Heart-Disease]]
 - Related to [[concepts/Cardio-Oncology]]
@@ -433,6 +412,8 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 - [[sources/AKI-HF-AHA-2024]]
 - [[sources/CCS-AHA-2023]]
 - [[sources/Cardio-Oncology-ESC-2022]]
+- [[sources/acetazolamide-acutehf-nejm-2022]]
+- [[sources/dapagliflozin-deliver-nejm-2022]]
 - [[sources/HF-AHA-2022]]
 - [[sources/HF-ESC-2021]]
 - [[sources/HF-Precision-Medicine-AHA-2019]]
@@ -453,4 +434,8 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 - [[sources/rhc-hf-ehj-2025]]
 - [[sources/vhd-esc-2025]]
 - [[sources/takotsubo-nejm-2015]]
+- [[sources/dapagliflozin-hfref-nejm-2019]]
+- [[sources/empagliflozin-hfref-nejm-2020]]
+- [[sources/empagliflozin-hfpef-nejm-2021]]
 - [[sources/vericiguat-victoria-nejm-2020]]
+- [[sources/digitoxin-hfref-digithf-nejm-2025]]

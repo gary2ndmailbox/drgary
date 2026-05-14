@@ -63,7 +63,7 @@ Prevention of atrial failure from AtCM is the primary therapeutic goal: ([[sourc
 - Related to [[concepts/Atrial-Cardiomyopathy]] — atrial failure is end-stage AtCM
 - Related to [[entities/Atrial-Fibrillation]] — persistent AF defines advanced atrial failure
 - Related to [[entities/Heart-Failure]] — HF is the other defining consequence of atrial failure
-- Related to [[concepts/HFpEF]] — overlap between HFpEF and atrial failure phenotypes
+- Related to [[entities/HFpEF]] — overlap between HFpEF and atrial failure phenotypes
 - Related to [[concepts/Secondary-Mitral-Regurgitation]] — atrial-type SMR as consequence of atrial dilatation
 - Related to [[concepts/Tricuspid-Regurgitation]] — secondary TR in atrial failure
 - Related to [[sources/atrial-cmp-esc-2025]]

@@ -99,7 +99,7 @@ AHA Scientific Statements, heart failure, heart-assist devices, kidney diseases,
 
 ## Key Concepts Mentioned
 - [[concepts/Cardiorenal-Syndrome]] — central pathophysiological framework for HF-kidney interaction
-- [[concepts/HFpEF]] — context for kidney dysfunction in preserved EF HF
+- [[entities/HFpEF]] — context for kidney dysfunction in preserved EF HF
 
 ## Key Entities Mentioned
 - [[entities/Heart-Failure]] — primary disease context throughout

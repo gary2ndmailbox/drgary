@@ -528,7 +528,7 @@ Cardio-oncology · Cardiovascular toxicity · Anthracycline · Atrial fibrillati
 - [[concepts/HFA-ICOS-Risk-Stratification]] — pre-treatment CV toxicity risk tool
 - [[concepts/CHA2DS2-VA]] — stroke risk score; note: this guideline uses CHA2DS2-VASc (older version); updated by ESC 2024 AF guidelines
 - [[concepts/Late-Gadolinium-Enhancement]] — CMR for CTRCD and ICI myocarditis diagnosis
-- [[concepts/HFpEF]] — CTRCD may manifest as HFpEF phenotype
+- [[entities/HFpEF]] — CTRCD may manifest as HFpEF phenotype
 - [[concepts/Genetic-Testing-in-AF]] — genetic susceptibility to CTR-CVT noted as future research need
 
 ## Key Entities Mentioned

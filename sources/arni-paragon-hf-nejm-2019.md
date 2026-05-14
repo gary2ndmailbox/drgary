@@ -79,7 +79,7 @@ Heart failure, preserved ejection fraction, sacubitril–valsartan, angiotensin 
 - PARADIGM-HF-like entry criteria except for LVEF threshold — not directly comparable given different comparator (valsartan vs enalapril) and population.
 
 ## Key Concepts Mentioned
-- [[concepts/HFpEF]] — primary population; sacubitril–valsartan vs. valsartan
+- [[entities/HFpEF]] — primary population; sacubitril–valsartan vs. valsartan
 - [[concepts/Sacubitril-Valsartan-ARNI]] — drug under study; mechanism (neprilysin inhibition + AT1R blockade)
 - [[concepts/Pulmonary-Hypertension-Classification]] — HFmrEF boundary and subgroup signal
 
@@ -90,6 +90,6 @@ Heart failure, preserved ejection fraction, sacubitril–valsartan, angiotensin 
 ## Wiki Pages Updated
 - wiki/sources/arni-paragon-hf-nejm-2019.md — created
 - wiki/entities/Sacubitril-Valsartan.md — created
-- wiki/concepts/HFpEF.md — PARAGON-HF data added to management section and contradictions
+- wiki/entities/HFpEF.md — PARAGON-HF data added to management section and contradictions
 - wiki/sourceindex.md — entry added
 - wiki/wikiindex.md — Sacubitril-Valsartan entity added; HFpEF entry updated

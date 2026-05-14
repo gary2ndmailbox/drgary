@@ -150,7 +150,7 @@ Ratings apply regardless of GDMT duration given disease-specific arrhythmic mech
 
 ## Key Concepts Mentioned
 - [[concepts/Conduction-System-Pacing]] — Section 14 AUC ratings for HBP/LBBAP vs RV pacing and as CRT alternative
-- [[concepts/HFpEF]] — CCM fills gap for narrow-QRS HF with LVEF 25–45%
+- [[entities/HFpEF]] — CCM fills gap for narrow-QRS HF with LVEF 25–45%
 - [[concepts/VA-Risk-Stratification-DCM]] — NICM primary prevention ICD; LGE + LVEF 36–49% M(5–6)
 - [[concepts/Sudden-Cardiac-Death]] — disease-specific ICD thresholds across all sections
 - [[concepts/Arrhythmogenic-Cardiomyopathy]] — ARVC secondary/primary prevention ratings

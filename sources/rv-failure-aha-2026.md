@@ -108,7 +108,7 @@ AHA Scientific Statements · biomarkers · heart failure · hypertension, pulmon
 - [[concepts/RV-PA-Coupling]] — central concept; Ees/Ea ratio thresholds, noninvasive surrogates
 - [[concepts/PAH-Risk-Stratification]] — RV function as key risk parameter
 - [[concepts/Late-Gadolinium-Enhancement]] — CMR fibrosis detection in maladaptive RV remodeling
-- [[concepts/HFpEF]] — RV dysfunction recognised in HFpEF context
+- [[entities/HFpEF]] — RV dysfunction recognised in HFpEF context
 
 ## Key Entities Mentioned
 - [[entities/Pulmonary-Hypertension]] — primary disease context; sotatercept updated

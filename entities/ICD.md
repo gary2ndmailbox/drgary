@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Implantable Cardioverter-Defibrillator (ICD)"
 tags: [implantable-cardioverter-defibrillator, sudden-cardiac-death, heart-failure, arrhythmia, primary-prevention, secondary-prevention]
-source_count: 1
+source_count: 4
 ---
 
 # Implantable Cardioverter-Defibrillator (ICD)
@@ -25,7 +25,7 @@ An ICD is a surgically implanted device that continuously monitors cardiac rhyth
 
 ### Primary Prevention — CAD
 - **40-day post-MI waiting period** mandatory before primary prevention ICD assessment ([[sources/icd-crt-auc-2025]], rating: high)
-- CAD + LVEF ≤30% + >40 days post-MI + ≥3 months post-revascularisation: **A(8–9)** (MADIT-II basis) ([[sources/icd-crt-auc-2025]], rating: high)
+- CAD + LVEF ≤30% + >40 days post-MI + ≥3 months post-revascularisation: **A(8–9)**. **MADIT-II** (n=1,232; 3:2 ICD vs conventional; no EPS required; mean LVEF 23%; mean 20-month follow-up): all-cause mortality HR 0.69 (95% CI 0.51–0.93; P=0.016); 14.2% vs 19.8%; consistent across all subgroups; benefit emerged at ~9 months. Trial stopped early at efficacy boundary. HF hospitalisation trend higher in ICD arm (19.9% vs 14.9%; P=0.09). ([[sources/icd-icm-maditii-nejm-2002]], [[sources/icd-crt-auc-2025]], rating: very high)
 - CAD + LVEF 31–35% + NSVT + EPS-inducible sustained VT: **A(7–8)** ([[sources/icd-crt-auc-2025]], rating: high)
 - CAD + LVEF 31–35% + no NSVT: **M(4–5)** ([[sources/icd-crt-auc-2025]], rating: high)
 - 90-day post-revascularisation waiting period applies before reassessing LVEF and ICD candidacy ([[sources/icd-crt-auc-2025]], rating: high)
@@ -36,7 +36,7 @@ An ICD is a surgically implanted device that continuously monitors cardiac rhyth
 - **≥3 months GDMT + LVEF ≤35% + NYHA II–III, age ≥85:** M(5–6) — competing mortality reduces net benefit ([[sources/icd-crt-auc-2025]], rating: high)
 - **LGE-positive NICM + LVEF 36–49%:** M(5–6) — emerging evidence, not yet A ([[sources/icd-crt-auc-2025]], rating: high)
 - **NYHA IV + on transplant list/LVAD candidate:** A(7); **Refractory, no device option:** R(2) ([[sources/icd-crt-auc-2025]], rating: high)
-- **DANISH caveat:** DANISH trial (primary prevention NICM, HR for all-cause death 0.87, P=0.28) did not include SGLT2i or sacubitril–valsartan; modern GDMT substantially improves LVEF recovery and may shift the NNT ([[sources/icd-crt-auc-2025]], rating: high)
+- **DANISH caveat:** DANISH trial (n=1,116; LVEF ≤35%; NYHA II–IV; NT-proBNP >200; 58% CRT; median 67.6 months; enrolled 2008–2014): all-cause mortality HR 0.87 (95% CI 0.68–1.12; P=0.28) — NOT significant; SCD HR 0.50 (P=0.005) — halved; CV death HR 0.77 (NS); 31% non-CV deaths. Age <68 subgroup: HR 0.64 (P=0.01) — significant. Device infections (non-CRT ICD) HR 6.35 (P=0.006); inappropriate shocks 5.9%. DANISH did not include SGLT2i or sacubitril–valsartan; modern quadruple GDMT likely reduces background SCD further, potentially narrowing the NNT further. ([[sources/icd-nicm-danish-nejm-2016]], [[sources/icd-crt-auc-2025]], rating: high)
 
 ### Primary Prevention — Specific Etiologies
 (Ratings apply regardless of GDMT duration given disease-specific arrhythmic substrate)
@@ -68,10 +68,12 @@ An ICD is a surgically implanted device that continuously monitors cardiac rhyth
 - **Prior sustained VA regardless of current LVEF:** A(8–9) ([[sources/icd-crt-auc-2025]], rating: high)
 
 ## Contradictions / Open Questions
-- **DANISH trial — does benefit still apply with modern GDMT?** DANISH (2016) showed no significant benefit of ICD in NICM on all-cause mortality (HR 0.87, P=0.28), but GDMT did not include SGLT2i or sacubitril–valsartan. Both agents improve LVEF and may reduce sudden death risk independently, potentially narrowing ICD benefit margin further. ([[sources/icd-crt-auc-2025]], rating: high)
+- **MADIT-II: trial stopped early and pre-GDMT era limit modern applicability.** MADIT-II was stopped after a mean 20-month follow-up when the efficacy boundary was reached (P=0.027) — early termination typically overestimates effect size. The trial enrolled 1997–2001: no SGLT2i, no ARNi, no CRT-D; modern quadruple GDMT independently reduces arrhythmic substrate and improves LVEF, meaning the background SCD risk and residual NNT in contemporary practice may differ from the trial population. The entry LVEF threshold was ≤30% — current Class I guidelines use ≤35%, extrapolating beyond direct MADIT-II evidence (partially supported by SCD-HeFT). The higher HF hospitalisation trend in the ICD arm (19.9% vs 14.9%; P=0.09) raises the question of whether preventing SCD shifts the mode of death to progressive HF without changing overall healthcare burden. ([[sources/icd-icm-maditii-nejm-2002]], rating: very high)
+- **DANISH trial — does benefit still apply with modern GDMT?** DANISH (2016) showed no significant reduction in all-cause mortality with ICD in NICM (HR 0.87; 95% CI 0.68–1.12; P=0.28) despite a significant SCD reduction (HR 0.50; P=0.005). The neutral primary endpoint reflects a 31% competing non-CV mortality burden and a pre-SGLT2i/ARNi GDMT era (enrolled 2008–2014). Modern quadruple GDMT (including SGLT2i and ARNi) independently improves LVEF and may reduce arrhythmic substrate, potentially narrowing the residual ICD benefit further. Benefit was significant only in patients aged <68 years (HR 0.64; P=0.01); the ≥68 subgroup showed no benefit (HR 1.05). ([[sources/icd-nicm-danish-nejm-2016]], [[sources/icd-crt-auc-2025]], rating: high)
 - **LGE-guided ICD in NICM (LVEF 36–49%):** Growing observational evidence that LGE predicts SCD risk above and beyond LVEF, but no RCT has tested LGE-guided ICD implantation as a primary endpoint. AUC rates as M(5–6) only. The PARTITA trial (LGE + EPS-guided ICD in LVEF >35%) and ESTIMATE registry data support this but have methodological limitations.
 - **Age ≥85 ICD:** The AUC rates this May Be Appropriate, but NNT analysis and patient preference data are limited. Deactivation wishes not adequately captured in AUC scenarios.
 - **Wearable ICD (LifeVest):** Not covered in the AUC; indicated as bridge during waiting periods (40-day post-MI, post-revascularisation) but RCT evidence (VEST trial) showed no significant benefit on arrhythmic death.
+- **Diastolic dysfunction grading as a complementary primary prevention criterion (LVEF >35%):** A prospective pilot study (Pezawas et al., Circ EP 2020; n=210; 7-year follow-up) found grade III diastolic dysfunction (restrictive pattern) independently predicted arrhythmic death/RCA (HR 3.52; 95% CI 2.00–6.22; P<0.001) regardless of LVEF. In the LVEF >35% subgroup, grade III patients had 41% cumulative AD/RCA risk at 8 years — comparable to patients who do qualify for primary prevention ICD under current LVEF ≤35% criteria. This suggests a high-risk subgroup currently ineligible for ICD. Data are pilot-level only (single centre, pre-2016 ASE diastolic criteria); not yet incorporated into guidelines. Prospective randomised validation is required. ([[sources/arrhythmia-diastolic-circep-2020]], rating: medium)
 
 ## Connections
 - Related to [[entities/CRT]] — combined as CRT-D for HFrEF with broad QRS
@@ -85,5 +87,10 @@ An ICD is a surgically implanted device that continuously monitors cardiac rhyth
 - Related to [[concepts/HCM-Risk-SCD]] — risk factor model underpinning A(8)
 - Related to [[concepts/Arrhythmogenic-Cardiomyopathy]] — ARVC ICD ratings
 
+- Related to [[concepts/LV-Diastolic-Function]] — grade III diastolic dysfunction as candidate additional arrhythmic risk criterion
+
 ## Sources
 - [[sources/icd-crt-auc-2025]] — ACC/AHA/HRS 2025 AUC (primary source)
+- [[sources/icd-icm-maditii-nejm-2002]] — MADIT-II RCT: foundational primary prevention ICD in ICM; HR 0.69; basis for AUC A(8–9)
+- [[sources/icd-nicm-danish-nejm-2016]] — DANISH RCT: primary prevention ICD in NICM; neutral primary endpoint; SCD halved
+- [[sources/arrhythmia-diastolic-circep-2020]] — diastolic function and arrhythmic death risk (pilot data)

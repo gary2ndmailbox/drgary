@@ -41,7 +41,7 @@ Left atrial (LA) strain — specifically LA reservoir strain (LASr) — quantifi
 - Related to [[concepts/Atrial-Cardiomyopathy]]
 - Related to [[concepts/Atrial-Failure]]
 - Related to [[concepts/Inter-Atrial-Block]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 - Related to [[concepts/Late-Gadolinium-Enhancement]]
 - Related to [[entities/Atrial-Fibrillation]]
 

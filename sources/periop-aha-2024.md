@@ -314,7 +314,7 @@ AHA Scientific Statements · anesthetics · biomarkers · cardiac · preoperativ
 - [[concepts/Aortic-Regurgitation]] — perioperative AR management
 - [[concepts/Primary-Mitral-Regurgitation]] — perioperative MR management
 - [[concepts/TAVI]] — NCS timing after TAVI
-- [[concepts/HFpEF]] — SGLT2i perioperative discontinuation
+- [[entities/HFpEF]] — SGLT2i perioperative discontinuation
 - [[concepts/OSA-Arrhythmogenic-Substrate]] — perioperative OSA screening and management
 
 ## Key Entities Mentioned

@@ -368,7 +368,7 @@ Preferred: iNO and inhaled prostacyclin analogs (similar response rates; better 
 ## Connections
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Pulmonary-Hypertension]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 - Related to [[entities/CTEPH]]
 - Related to [[concepts/Aortic-Stenosis]]
 - Related to [[concepts/Primary-Mitral-Regurgitation]]

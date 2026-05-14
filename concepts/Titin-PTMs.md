@@ -54,7 +54,7 @@ Post-translational modifications (PTMs) of titin — primarily acetylation, oxid
 ## Connections
 - Related to [[entities/TTN]]
 - Related to [[concepts/Titin-Isoform-Switch]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/DCM]]
 

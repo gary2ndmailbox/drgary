@@ -188,7 +188,7 @@ Anderson-Fabry disease, Diastolic Dysfunction, Lysosomes, Mitochondria, Gb3, Lys
 
 ## Key Concepts Mentioned
 - [[concepts/Fabry-Cardiomyopathy]] — central subject; histopathology, biomarkers, ERT paradox, molecular pathways
-- [[concepts/HFpEF]] — diastolic dysfunction and HFpEF as dominant cardiac manifestation
+- [[entities/HFpEF]] — diastolic dysfunction and HFpEF as dominant cardiac manifestation
 - [[concepts/Late-Gadolinium-Enhancement]] — inferolateral midwall LGE; augmented by ERT per meta-analysis
 - [[concepts/AAV-Gene-Delivery]] — multiple AAV serotype trials in Fabry disease
 

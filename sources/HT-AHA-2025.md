@@ -220,7 +220,7 @@ Antihypertensive agents; blood pressure; blood pressure control; blood pressure 
 
 ## Key Concepts Mentioned
 - [[concepts/ASCVD-Risk-Assessment]] — PREVENT™ replaces PCEs for CVD risk estimation in HT; threshold lowered to 7.5%
-- [[concepts/HFpEF]] — specific antihypertensive guidance (BB avoided, ARNi/MRA/SGLT2i preferred)
+- [[entities/HFpEF]] — specific antihypertensive guidance (BB avoided, ARNi/MRA/SGLT2i preferred)
 - [[concepts/LV-Diastolic-Function]] — hypertension as leading cause of diastolic dysfunction and HFpEF
 - [[concepts/OSA-Arrhythmogenic-Substrate]] — OSA as most common secondary HT cause (25–50%)
 - [[concepts/Drug-Induced-Arrhythmia]] — multiple drugs elevate BP; drug-induced secondary HT recognized

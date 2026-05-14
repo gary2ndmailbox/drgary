@@ -74,7 +74,7 @@ Guidelines · Acute heart failure · Comorbidities · Chronic kidney disease · 
 - SGLT2 inhibitors not included in STRONG-HF protocol; their inclusion in the post-discharge recommendation is an extrapolation from other trials.
 
 ## Key Concepts Mentioned
-- [[concepts/HFpEF]] — SGLT2 inhibitor Class I recommendation; disease definition; NT-proBNP thresholds
+- [[entities/HFpEF]] — SGLT2 inhibitor Class I recommendation; disease definition; NT-proBNP thresholds
 - [[entities/Heart-Failure]] — full management update across HFrEF/HFmrEF/HFpEF
 
 ## Key Entities Mentioned
@@ -83,7 +83,7 @@ Guidelines · Acute heart failure · Comorbidities · Chronic kidney disease · 
 
 ## Wiki Pages Updated
 - wiki/sources/HF-update-ESC-2023.md (created)
-- wiki/concepts/HFpEF.md (created)
+- wiki/entities/HFpEF.md (created)
 - wiki/entities/Heart-Failure.md (created)
 - wiki/entities/DCM.md (updated — IV iron upgrade, STRONG-HF post-discharge strategy)
 - wiki/wikiindex.md (updated)

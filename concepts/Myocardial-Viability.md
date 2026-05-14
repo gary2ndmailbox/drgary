@@ -90,7 +90,7 @@ All modalities predict a similar degree of global LVEF improvement after revascu
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Chronic-Coronary-Disease]]
 - Related to [[entities/DCM]]
-- Related to [[concepts/HFpEF]]
+- Related to [[entities/HFpEF]]
 - Related to [[sources/imaging-viability-aha-2020]]
 
 ## Sources

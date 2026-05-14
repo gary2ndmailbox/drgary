@@ -99,7 +99,7 @@ Heart failure; reduced ejection fraction; soluble guanylate cyclase; cyclic GMP;
 - Subgroup findings (NT-proBNP interaction) are hypothesis-generating only
 
 ## Key Concepts Mentioned
-- [[concepts/HFpEF]] — trial context (HFrEF focused; contrasted against HFpEF)
+- [[entities/HFpEF]] — trial context (HFrEF focused; contrasted against HFpEF)
 - [[concepts/Titin-PTMs]] — cGMP-PKG axis mentioned as therapeutic pathway (RELAX, VITALITY, SOCRATES trials cited in context)
 
 ## Key Entities Mentioned

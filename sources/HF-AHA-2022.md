@@ -145,7 +145,7 @@ Heart failure; heart failure with reduced ejection fraction; heart failure with 
 - CHAMPION trial (PA pressure sensor) had methodological concerns (non-blinded, differential contact); GUIDE-HF negative trial not incorporated into final COR.
 
 ## Key Concepts Mentioned
-- [[concepts/HFpEF]] — pharmacotherapy, SGLT2i evidence, H2FPEF diagnostic score
+- [[entities/HFpEF]] — pharmacotherapy, SGLT2i evidence, H2FPEF diagnostic score
 - [[concepts/Genetic-Testing-in-AF]] — context for genetic testing in inherited cardiomyopathy
 - [[concepts/Late-Gadolinium-Enhancement]] — CMR role in HF characterization
 - [[concepts/Cascade-Family-Screening]] — 3-generation family history, first-degree relative screening
@@ -161,7 +161,7 @@ Heart failure; heart failure with reduced ejection fraction; heart failure with 
 ## Wiki Pages Updated
 - wiki/sources/HF-AHA-2022.md (created)
 - wiki/entities/Heart-Failure.md (updated: ACC/AHA staging, HFimpEF, cardiac amyloidosis, comparison to ESC guidelines)
-- wiki/concepts/HFpEF.md (updated: AHA 2022 COR 2a vs ESC Class I, H2FPEF score, nitrates/PDE5i COR 3)
+- wiki/entities/HFpEF.md (updated: AHA 2022 COR 2a vs ESC Class I, H2FPEF score, nitrates/PDE5i COR 3)
 - wiki/entities/DCM.md (updated: AHA genetic testing COR 2a; HFimpEF relapse data)
 - wiki/entities/LMNA.md (updated: AHA 2022 ICD COR note for genetic variants at LVEF >35%)
 - wiki/wikiindex.md (updated)

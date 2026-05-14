@@ -101,7 +101,7 @@ Heart failure, Cardiomyopathy, Sarcomere, Mechanical function, Signalling
 ## Key Concepts Mentioned
 - [[concepts/Titin-Isoform-Switch]] — N2B vs N2BA ratio as a stiffness regulator in health and HF
 - [[concepts/Titin-PTMs]] — Acetylation, oxidation, phosphorylation of titin spring
-- [[concepts/HFpEF]] — Titin stiffness as a pathophysiological mechanism; cGMP-PKG targeting
+- [[entities/HFpEF]] — Titin stiffness as a pathophysiological mechanism; cGMP-PKG targeting
 - [[concepts/iPSC-Derived-Cardiomyocytes]] — hiPSC-CM disease modelling for TTNtv-DCM
 
 ## Key Entities Mentioned
@@ -115,6 +115,6 @@ Heart failure, Cardiomyopathy, Sarcomere, Mechanical function, Signalling
 - `wiki/wikiindex.md` — updated
 - `wiki/entities/TTN.md` — molecular biology section added
 - `wiki/entities/DCM.md` — TTNtv pathomechanisms section added
-- `wiki/concepts/HFpEF.md` — titin stiffness mechanisms added
+- `wiki/entities/HFpEF.md` — titin stiffness mechanisms added
 - `wiki/concepts/Titin-PTMs.md` — created (new)
 - `wiki/concepts/Titin-Isoform-Switch.md` — created (new)

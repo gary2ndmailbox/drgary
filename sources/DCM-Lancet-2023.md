@@ -194,7 +194,7 @@ Dilated cardiomyopathy, genetic cardiomyopathy, myocarditis, titin, lamin A/C, e
 - [[concepts/AAV-Gene-Delivery]] — AAV9 LAMP2B Danon disease phase 1
 - [[concepts/CRISPR-Cas9-in-Channelopathies]] — CRISPR for frameshifts in genetic CMP
 - [[concepts/iPSC-Derived-Cardiomyocytes]] — PLN-R14del hiPSC-CMs; TTNtv models
-- [[concepts/HFpEF]] — TRED-HF; SGLT2i; HFrEF four-pillar therapy
+- [[entities/HFpEF]] — TRED-HF; SGLT2i; HFrEF four-pillar therapy
 
 ## Key Entities Mentioned
 - [[entities/DCM]] — central entity; genotype-phenotype table; management; DANISH; TRED-HF; gene therapy

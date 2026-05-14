@@ -55,7 +55,7 @@ The obesity paradox refers to the observation that in patients with established 
 ## Connections
 - Related to [[entities/Obesity]] — foundational entity page
 - Related to [[entities/Heart-Failure]] — obesity paradox in HFrEF and HFpEF
-- Related to [[concepts/HFpEF]] — obesity paradox less consistent in HFpEF
+- Related to [[entities/HFpEF]] — obesity paradox less consistent in HFpEF
 - Related to [[entities/Chronic-Coronary-Disease]] — obesity paradox after PCI and CABG
 - Related to [[concepts/Cardiac-Rehabilitation]] — fitness vs BMI as outcome determinant
 

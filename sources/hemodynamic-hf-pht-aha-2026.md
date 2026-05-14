@@ -190,7 +190,7 @@ AHA Scientific Statements · cardiac catheterization · dyspnea paroxysmal · he
 
 ## Key Concepts Mentioned
 - [[concepts/Right-Heart-Catheterization]] — primary concept updated
-- [[concepts/HFpEF]] — invasive diagnostic criteria; exercise hemodynamic thresholds
+- [[entities/HFpEF]] — invasive diagnostic criteria; exercise hemodynamic thresholds
 - [[concepts/PAH-Risk-Stratification]] — vasoreactivity testing indications
 - [[concepts/RV-PA-Coupling]] — exercise-induced PH; RV adaptation during exercise
 

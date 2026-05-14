@@ -179,7 +179,7 @@ Diastole, Echocardiography, Doppler, Heart failure, Left atrial strain, Diastoli
 
 ## Key Concepts Mentioned
 - [[concepts/LV-Diastolic-Function]] — primary focus of guideline
-- [[concepts/HFpEF]] — diagnosis algorithm and scoring systems
+- [[entities/HFpEF]] — diagnosis algorithm and scoring systems
 - [[concepts/Valvular-Heart-Disease]] — modifications for valvular populations
 
 ## Key Entities Mentioned
@@ -192,7 +192,7 @@ Diastole, Echocardiography, Doppler, Heart failure, Left atrial strain, Diastoli
 ## Wiki Pages Updated
 - Created: wiki/sources/echo-hfpef-ase-2025.md
 - Created: wiki/concepts/LV-Diastolic-Function.md
-- Updated: wiki/concepts/HFpEF.md
+- Updated: wiki/entities/HFpEF.md
 - Updated: wiki/entities/ATTR-Amyloidosis.md
 - Updated: wiki/wikiindex.md
 - Updated: wiki/sourceindex.md
