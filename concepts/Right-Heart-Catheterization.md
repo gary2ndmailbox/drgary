@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Right Heart Catheterization"
 tags: [right-heart-catheterization, pulmonary-hypertension, heart-failure, cardiogenic-shock, advanced-heart-failure, invasive-hemodynamics]
-source_count: 3
-last_updated: 2026-04-22
+source_count: 4
+last_updated: 2026-05-25
 ---
 
 # Right Heart Catheterization
@@ -27,7 +27,8 @@ Right heart catheterization (RHC) is an invasive haemodynamic procedure using a 
 
 **Cardiac output measurement**
 - Direct Fick = gold standard; requires direct O₂ consumption measurement (Douglas bag or metabolic cart — not widely available). ([[sources/rhc-hf-ehj-2025]], rating: high)
-- Thermodilution: inject 10 mL saline at known temperature; average 3 consistent values within 10% of each other; performing injections at the same respiratory phase improves precision; **remains accurate even in the presence of tricuspid regurgitation** — contrary to common belief; unreliable in intracardiac shunts or ECMO. ([[sources/rhc-hf-ehj-2025]], rating: high) ([[sources/hemodynamic-hf-pht-aha-2026]], rating: very high)
+- Thermodilution: inject 10 mL saline at known temperature; average 3 consistent values within 10% of each other; performing injections at the same respiratory phase improves precision; **remains accurate even in the presence of tricuspid regurgitation** — contrary to common belief; unreliable in intracardiac shunts or ECMO. ([[sources/rhc-hf-ehj-2025]], rating: high) ([[sources/hemodynamic-hf-pht-aha-2026]], rating: very high) — *see TR accuracy contradiction in [[concepts/Cardiac-Output-Measurement]]*
+- Detailed sources of thermodilution error (injectate warming, catheter conductive losses, respiratory cycling, TR, recirculation) and method comparison (IB-PATD vs CPATD vs TCPTD vs LiDCO): see [[concepts/Cardiac-Output-Measurement]] [[sources/co-indicator-anesthanalg-2010]] (high)
 - **Indirect Fick: confirmed inaccurate** — demonstrated inaccurate in numerous studies; formulae derived from infants/children or highly selected healthy adults do not reflect contemporary cardiac patients; thermodilution is preferred over indirect Fick. ([[sources/hemodynamic-hf-pht-aha-2026]], rating: very high)
 - **During exercise:** Indirect Fick cannot be estimated during exercise (PA saturation falls with exercise oxygen uptake in ways not captured by fixed formulae); use direct Fick (metabolic cart) or thermodilution. ([[sources/hemodynamic-hf-pht-aha-2026]], rating: very high)
 - Cardiac MRI with quantitative blood flow gating: reliable alternative in shunts or severe TR. ([[sources/rhc-hf-ehj-2025]], rating: high)
@@ -215,6 +216,12 @@ Right heart catheterization (RHC) is an invasive haemodynamic procedure using a 
 **Advanced haemodynamics in cardiogenic shock**
 - PAPI <2.0 and CPO <0.6 Watts: suggest Stage C cardiogenic shock (AHA guidelines)
 - Not yet adopted in European guidelines; prognostic value established ([[sources/rhc-hf-ehj-2025]], rating: high)
+- RV failure hemodynamic markers: RAP >15 mmHg, RAP/PCWP >0.6, PAPI <1.5, RV CPO <0.3 W (mean PAP replaces MAP); biventricular CS increasingly recognized ([[sources/rhc-hf-jacchf-2024]], rating: high)
+
+**HF-CS vs AMI-CS — a critical distinction**
+- **AMI-CS**: abrupt myocardial dysfunction → rapid clinical deterioration; readily identified clinically
+- **HF-CS** (progressive HF): insidious low CO with chronic adaptation → severe hemodynamic derangements (often more extreme than AMI-CS) but **preserved end-organ function and normal serum lactate** — CO may be profoundly reduced without the usual shock markers; overlapping clinical/physical findings, varying phenotypes, and rapid progression make prompt diagnosis challenging ([[sources/rhc-hf-jacchf-2024]], rating: high)
+- This phenotypic distinction is the key reason RHC adds most clinical value in HF-CS: clinical exam and biochemical markers underestimate severity; invasive hemodynamic profiling is required for accurate risk stratification ([[sources/rhc-hf-jacchf-2024]], rating: high)
 
 **Timing**
 - Early RHC (within 2 days): lower AKI incidence (OR 0.69), higher MCS use (OR 1.67), shorter stay vs late RHC (observational data, n=46,963) ([[sources/rhc-hf-ehj-2025]], rating: high)
@@ -341,6 +348,25 @@ Preferred: iNO and inhaled prostacyclin analogs (similar response rates; better 
 - Pulmonary artery capacitance (PAC = stroke volume / pulmonary pulse pressure) has additional prognostic value in idiopathic PAH and should be measured at initial catheterization [[sources/hemodynamics-circ-2012]] `high`
 - Decreased PAC is an early marker of pulmonary vascular disease — may identify risk before PVR rises [[sources/rhc-hf-ehj-2025]] `high`
 
+### Portal Hypertension vs HF-Related Liver Congestion
+
+- HF patients with systemic venous congestion may develop liver dysfunction; critical to distinguish intrinsic portal hypertension from HF-related hepatic congestion — portal HTN from liver disease may disqualify patients from LVAD or heart transplantation ([[sources/rhc-hf-jacchf-2024]], rating: high)
+- **Assessment**: measurement of hepatic vein wedge pressure
+- **Normal gradient** (hepatic vein → hepatic vein wedge): 1–5 mmHg; portal hypertension suspected when gradient **>5 mmHg** ([[sources/rhc-hf-jacchf-2024]], rating: high)
+- **Elevated hepatic vein pressure + normal gradient** → liver abnormalities likely due to HF congestion, not intrinsic liver disease ([[sources/rhc-hf-jacchf-2024]], rating: high)
+
+---
+
+### High-Output Heart Failure
+
+- Defined as HF signs/symptoms + CI **>4.0 L/min/m²** — uncommon ([[sources/rhc-hf-jacchf-2024]], rating: high)
+- Leading causes: obesity, liver disease, arteriovenous fistulas
+- AV fistula mechanism: ↑ venous return/preload + ↓ SVR + ↑ CO → over time → high-output HF, RV failure, and PH ([[sources/rhc-hf-jacchf-2024]], rating: high)
+- Fistula evaluation protocol: baseline hemodynamics → repeat after 1-minute fistula compression (shown safe); whether predictive of long-term improvement after fistula modification is unknown
+- Fistula takedown/surgical modification → may result in cardiac reverse remodeling or improved HF severity ([[sources/rhc-hf-jacchf-2024]], rating: high)
+
+---
+
 ### Future Directions
 
 **Non-invasive PAWP assessment** ([[sources/rhc-hf-ehj-2025]], rating: high)
@@ -356,6 +382,7 @@ Preferred: iNO and inhaled prostacyclin analogs (similar response rates; better 
 ---
 
 ## Contradictions / Open Questions
+- **Thermodilution accuracy in significant TR**: [[sources/rhc-hf-ehj-2025]] states thermodilution remains accurate in significant TR; [[sources/co-indicator-anesthanalg-2010]] reports conflicting direction of error (overestimate in low-flow, underestimate in high-flow; severity-dependent effects unresolved). Likely reflects different TR severity studied and publication year gap.
 - **ESC vs AHA on routine RHC in chronic HF:** ESC Class 2b for selected patients vs AHA Class 3 (routine use not recommended). The divergence reflects different interpretations of observational evidence rather than conflicting data. ([[sources/rhc-hf-ehj-2025]], rating: high)
 - **PAWP normal threshold:** The true physiological upper limit is 13 mmHg (meta-analysis), yet PH guidelines use 15 mmHg as the post-capillary PH threshold, creating a diagnostic grey zone (13–15 mmHg) where clinicians may under-recognise early LHD. ([[sources/rhc-hf-ehj-2025]], rating: high)
 - **Vasodilator testing in HTX:** One US study could not identify a survival benefit with a positive vasodilator test despite PVR reduction to <2.5 WU; another found improved survival. No absolute PVR cut-off endorsed by current guidelines. ([[sources/rhc-hf-ehj-2025]], rating: high)
@@ -367,7 +394,7 @@ Preferred: iNO and inhaled prostacyclin analogs (similar response rates; better 
 
 ## Connections
 - Related to [[entities/Heart-Failure]]
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/pulmonary-hypertension]]
 - Related to [[entities/HFpEF]]
 - Related to [[entities/CTEPH]]
 - Related to [[concepts/Aortic-Stenosis]]
@@ -376,6 +403,8 @@ Preferred: iNO and inhaled prostacyclin analogs (similar response rates; better 
 - Related to [[concepts/Mitral-Stenosis]]
 - Related to [[concepts/RV-PA-Coupling]]
 - Related to [[concepts/Constrictive-vs-Restrictive]] — haemodynamic differentiation of constrictive pericarditis vs RCM
+- Related to [[concepts/Cardiogenic-Shock]] — PAC guidance in CS; CPO, PAPi, PAWP-based staging
+- Related to [[concepts/Temporary-Mechanical-Circulatory-Support]] — PAC placement guides tMCS weaning decisions
 - Related to [[sources/rhc-hf-ehj-2025]]
 - Related to [[sources/hemodynamic-hf-pht-aha-2026]]
 
@@ -383,3 +412,5 @@ Preferred: iNO and inhaled prostacyclin analogs (similar response rates; better 
 - [[sources/hemodynamic-hf-pht-aha-2026]]
 - [[sources/hemodynamics-circ-2012]]
 - [[sources/rhc-hf-ehj-2025]]
+- [[sources/rhc-hf-jacchf-2024]]
+- [[sources/co-indicator-anesthanalg-2010]]

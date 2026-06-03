@@ -154,7 +154,7 @@ A structured, stepwise framework for evaluating and managing cardiovascular risk
 - Related to [[concepts/Periprocedural-CIED-Management]] — specialized framework for pacemakers, ICDs, CRT, and ILR perioperative management
 - Related to [[entities/Heart-Failure]] — perioperative HF management; SGLT2i discontinuation
 - Related to [[entities/Atrial-Fibrillation]] — perioperative AF; new-onset POAF stroke risk
-- Related to [[entities/Pulmonary-Hypertension]] — continue PAH therapy; specialised centre referral
+- Related to [[concepts/pulmonary-hypertension]] — continue PAH therapy; specialised centre referral
 - Related to [[entities/HCM]] — avoid LVOT aggravating factors
 - Related to [[concepts/Aortic-Stenosis]] — perioperative AS algorithm; TAVI before NCS
 - Related to [[concepts/Mitral-Stenosis]] — perioperative MS management

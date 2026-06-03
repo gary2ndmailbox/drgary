@@ -120,8 +120,12 @@ Dilated cardiomyopathy (DCM) is defined as LV dilatation and global or regional 
 
 #### Peripartum Cardiomyopathy
 - Defined as cardiomyopathy in last month of pregnancy or within 5 months of delivery, without another cause. Risk factors: African ancestry, multiparity, pre-eclampsia/hypertensive disorders of pregnancy, advanced maternal age.
-- Pathophysiology: "multiple hits" — insufficient vascular/metabolic cardiac adaptation + rapid hormonal fluctuations (prolactin, oestrogen, progesterone, FGF-21) + genetic predisposition (TTNtv in ~10%) + acquired triggers (pre-eclampsia, autoimmune, myocarditis).
-- Outcomes range from complete recovery to transplantation. Genetic counselling and TTNtv testing recommended. ([[sources/DCM-Lancet-2023]], rating: very high)
+- Pathophysiology: "multiple hits" — insufficient vascular/metabolic cardiac adaptation + rapid hormonal fluctuations (prolactin, oestrogen, progesterone, FGF-21) + genetic predisposition (TTNtv in ~10%) + acquired triggers (pre-eclampsia, autoimmune, myocarditis). ([[sources/DCM-Lancet-2023]], rating: very high)
+- **Vasculohormonal model (Arany NEJM 2024):** Prolactin cleavage to a cardiotoxic 16-kDa fragment (cathepsin D) + placental sFlt-1 (VEGF decoy receptor, also mechanistically central to preeclampsia) together cause cardiac vascular rarefaction and damage in genetically susceptible women. sFlt-1 explains the epidemiologic link between PPCM and preeclampsia/multiple gestations. ([[sources/peripartum-cmp-nejm-2024]], rating: high)
+- **Shared genetic spectrum with DCM:** ~15% of PPCM patients carry loss-of-function variants in DCM genes — with nearly identical variant frequencies as DCM cohorts — supporting the concept that PPCM and DCM share a genetic substrate and differ primarily in the nature of the environmental "second hit" (pregnancy hormones vs. alcohol, chemotherapy, etc.). ([[sources/peripartum-cmp-nejm-2024]], rating: high)
+- **Gene-specific arrhythmia risk in PPCM:** FLNC and DSP variants (associated with VA risk in DCM) likely confer similar arrhythmia risk in PPCM; LAMP2 (Danon's disease) and DMD (Duchenne's) variants can first present as PPCM. ([[sources/peripartum-cmp-nejm-2024]], rating: high)
+- **Bromocriptine** (prolactin suppression) is under investigation in the REBIRTH RCT (NCT05180773; n=200; expected 2026); wearable defibrillator preferred over ICD given frequent cardiac recovery. ([[sources/peripartum-cmp-nejm-2024]], rating: high)
+- Outcomes range from complete recovery to transplantation. Genetic counselling and TTNtv testing recommended. See [[entities/Peripartum-Cardiomyopathy]] for full detail. ([[sources/DCM-Lancet-2023]], [[sources/peripartum-cmp-nejm-2024]])
 
 #### Sport and Exercise Thresholds
 - Low-to-moderate intensity recreational exercise: integral part of DCM management.

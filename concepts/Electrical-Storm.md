@@ -5,14 +5,16 @@ tags:
   - ventricular-arrhythmia
   - ICD-risk-stratification
   - arrhythmia-management
-source_count: 1
-last_updated: 2026-04-11
+source_count: 3
+last_updated: 2026-05-16
 ---
 
 # Electrical Storm
 
 ## Definition
 Electrical storm (ES) is defined as ventricular arrhythmia (VA) that occurs **3 or more times within 24 hours** (each episode separated by at least 5 minutes), with each episode requiring termination by an intervention (ICD shock, overdrive pacing, or external cardioversion). It is a life-threatening condition associated with high in-hospital mortality and poor long-term prognosis.
+
+- **AHA 2017 definition (VA/SCD guideline):** VT/VF storm (electrical storm or arrhythmic storm) = a state of cardiac electrical instability defined by ≥3 episodes of sustained VT, VF, **or appropriate shocks from an ICD** within 24 hours. (No minimum inter-episode separation specified in the AHA definition, in contrast to the ESC ≥5 minutes separation requirement.) ([[sources/va-scd-aha-2017]], rating: very high)
 
 ## Key concepts
 - Incessant VT: a related but distinct entity — continuous sustained VT that recurs promptly despite repeated intervention over several hours. ([[sources/VA-SCD-ESC-2022]])
@@ -54,6 +56,7 @@ Electrical storm (ES) is defined as ventricular arrhythmia (VA) that occurs **3 
 - Catheter ablation is recommended for incessant VT or ES due to SMVT refractory to AADs.
 - Epicardial access may be required in non-ischaemic aetiology.
 - Ablation addresses reentrant substrate; not effective against triggered-activity VA.
+- **VANISH2 (2025):** VT storm was defined as the primary endpoint component in this trial; catheter ablation as first-line therapy showed a non-significant trend toward fewer VT storm events (HR 0.95) vs antiarrhythmic drugs over 4.3 years. This suggests ablation does not markedly reduce acute VT storm risk — its benefit is mainly on chronic arrhythmia suppression. ([[sources/vt-ablation-vanish2-nejm-2025]], rating: very high)
 
 **Step 5 — Mechanical circulatory support:**
 - Intra-aortic balloon pump or percutaneous LVAD (e.g., Impella) to maintain haemodynamic stability during ablation in high-risk patients.
@@ -77,6 +80,9 @@ Electrical storm (ES) is defined as ventricular arrhythmia (VA) that occurs **3 
 - Optimal pharmacological sequencing in SHD-associated ES not established by RCTs.
 - Role of stellate ganglion blockade vs. LCSD in refractory non-operative setting is unresolved.
 - Timing and selection criteria for emergency catheter ablation in haemodynamically unstable ES remain expert opinion (Level C evidence).
+- **Ablation does not markedly reduce VT storm:** VANISH2 (2025) found catheter ablation as first-line therapy led to a non-significant reduction in VT storm vs antiarrhythmic drugs (HR 0.95; 21.7% vs 23.5%). The primary benefit of ablation was on sub-threshold VT and ICD shocks, not ES episodes. This raises the question of whether ES reduction requires a different approach or endpoint than substrate ablation alone. ([[sources/vt-ablation-vanish2-nejm-2025]])
 
 ## Sources
 - [[sources/VA-SCD-ESC-2022]]
+- [[sources/va-scd-aha-2017]]
+- [[sources/vt-ablation-vanish2-nejm-2025]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Heart Failure with Preserved Ejection Fraction (HFpEF)"
 tags: [heart-failure, HFpEF, SGLT2-inhibitors, echocardiography, diastolic-function]
-source_count: 13
-last_updated: 2026-05-14
+source_count: 18
+last_updated: 2026-05-18
 ---
 
 # Heart Failure with Preserved Ejection Fraction (HFpEF)
@@ -14,6 +14,7 @@ HFpEF is defined by the presence of HF symptoms ± signs, LVEF ≥50%, and objec
 ## Epidemiology
 - HFpEF accounts for ~16% of outpatient HF in ESC Long-Term Registry; prevalence increases with age. ([[sources/HF-ESC-2021]], rating: very high)
 - Comorbidities (hypertension, obesity, T2DM, CKD, AF) are highly prevalent in HFpEF and drive pathophysiology. ([[sources/HF-ESC-2021]], rating: very high)
+- **COPD and HFpEF:** COPD is present in 14–34% of HFpEF hospital cohorts, 16% of RCT populations, and 14–34% of community/outpatient cohorts — higher prevalence than in other HF phenotypes. COPD is an independent prognostic risk factor: all-cause hospitalization RR 1.66 (95% CI 1.47–1.87), all-cause mortality RR 1.62 (95% CI 1.34–1.95), and post-discharge mortality RR 2.57 (95% CI 1.34–4.93). HF-caused hospitalization: RR 1.64. ([[sources/copd-hfpef-eschf-2025]], rating: high)
 - **Obesity and HFpEF:** HFpEF is more strongly associated with obesity than HFrEF. Overweight → 38% higher HFpEF risk; class 1 obesity → 56% higher HFpEF risk, independently of other CVD risk factors (Pandey et al., pooled analysis of 3 longitudinal studies). ([[sources/obesity-cv-aha-2021]], rating: very high)
 - Normal natriuretic peptide levels do not exclude HFpEF in obese patients — adipose tissue clears BNP, reducing measured levels even in the presence of elevated filling pressures. ([[sources/obesity-cv-aha-2021]], rating: very high)
 
@@ -21,6 +22,7 @@ HFpEF is defined by the presence of HF symptoms ± signs, LVEF ≥50%, and objec
 
 ### Comorbidity-Driven Mechanisms
 - Systemic comorbidities (hypertension, obesity, T2DM, CKD, AF) promote coronary microvascular inflammation, cardiomyocyte hypertrophy, and interstitial fibrosis — the dominant pathophysiological substrate in HFpEF. ([[sources/HF-ESC-2021]], rating: very high)
+- **COPD as comorbidity driver:** COPD activates the same coronary microvascular endothelial inflammation pathway as other HFpEF comorbidities — systemic pro-inflammatory state → microvascular inflammation → cardiomyocyte hypertrophy + interstitial fibrosis. COPD additionally augments left ventricular diastolic dysfunction (LVDD) risk and creates a bidirectional cycle where elevated LV filling pressures worsen during COPD exacerbations. Hypoxia/bronchodilators cause tachycardia (shortened diastolic filling); bronchial obstruction reduces venous return; pericardial constraint further impairs LV function. Patients with COPD+HFpEF show greater arterial stiffness and LV fibrosis than single-disease patients. ([[sources/copd-hfpef-eschf-2025]], rating: high)
 - Increased cardiomyocyte passive stiffness is a hallmark of HFpEF, arising from both extracellular matrix changes and intrinsic sarcomeric protein modifications.
 
 ### Obesity-HFpEF Phenotype
@@ -145,6 +147,25 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - **Safety:** Hyperkalemia doubled (18.7% vs 9.1%); creatinine doubling (10.2% vs 7.0%); hypokalemia reduced (16.2% vs 22.9%); ~34% discontinued drug. Frequent K/creatinine monitoring required. ([[sources/spironolactone-hfpef-topcat-nejm-2014]], rating: high)
 - **Guideline position:** AHA 2022 COR 2b, LOE B-R; ESC Class IIb — particularly at lower LVEF spectrum. Not Class I due to neutral primary endpoint (with the Russia/Georgia data integrity caveat). ([[sources/HF-AHA-2022]], rating: very high)
 
+### Nonsteroidal MRA (Finerenone) — FINEARTS-HF (NEJM 2024)
+- **FINEARTS-HF** (Solomon, McMurray et al., NEJM 2024; n=6,001; 654 sites; 37 countries; median 32 months; Bayer-funded): First MRA to achieve a significant primary endpoint in HFmrEF/HFpEF. Finerenone vs placebo in addition to usual therapy in patients with LVEF ≥40%.
+- **Primary composite (total worsening HF events + CV death):** Rate ratio **0.84 (95% CI 0.74–0.95; P=0.007)** — driven by HF events. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+- **Total worsening HF events:** Rate ratio 0.82 (95% CI 0.71–0.94; P=0.006) — significant. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+- **CV death:** HR 0.93 (95% CI 0.78–1.11) — **NOT significant**. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+- **All-cause death:** HR 0.93 (95% CI 0.83–1.06) — **NOT significant**. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+- **KCCQ total symptom score:** Difference +1.6 points (P<0.001) — statistically significant but below 5-point MCID. NYHA class improvement non-significant (OR 1.01). ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+- **Kidney composite:** HR 1.33 (95% CI 0.94–1.89) — NOT significant; numerically worse (opposite to CKD-T2DM trials). ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+- **Safety:** Hyperkalemia (K+ >6.0 mmol/L) 3.0% vs 1.4%; no hyperkalemia deaths; hypokalemia reduced. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+- **Key feature:** Benefit consistent in patients on SGLT2i at baseline — suggesting complementary mechanism to SGLT2i. Subgroup results consistent across all 17 prespecified subgroups including LVEF <60% vs ≥60%. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+
+### Beta-Blockers in HFpEF+COPD — Avoid
+- β-blockers are **not recommended** in HFpEF and are potentially detrimental (impair chronotropic reserve, worsen exercise tolerance). In the presence of coexisting COPD, this hazard is amplified. ([[sources/hf-copd-hfreview-2025]], rating: high)
+- Existing β-blockers should be **discontinued** in HFpEF+COPD (unless required for non-HF indication: angina, AF) to improve functional capacity and avoid respiratory side effects. ([[sources/hf-copd-hfreview-2025]], rating: high)
+- This contrasts sharply with HFrEF+COPD, where β-blockers remain Class I and bisoprolol reduces both HF events and COPD exacerbations. ([[sources/hf-copd-hfreview-2025]], rating: high)
+
+### SGLT-2 Inhibitors — Dual Benefit in COPD+HFpEF
+- In HFpEF patients with comorbid COPD, SGLT2 inhibitors may provide dual benefit: reducing HF hospitalizations (ESC 2023 Class I, Level A) and additionally reducing incident COPD and severe COPD exacerbations. Proposed mechanism: glucosuric effect → ↓serum glucose → ↓endogenous CO2 production → facilitates CO2 clearance in patients with CO2 retention. ([[sources/copd-hfpef-eschf-2025]], rating: high)
+
 ### ESC 2023 — SGLT2 Inhibitors (Class I, Level A)
 - **EMPEROR-Preserved (Anker, Packer et al., NEJM 2021; n=5,988; LVEF >40%; NYHA II–IV; ~50% T2DM; ~50% eGFR <60; median LVEF 54%; 622 centres; 23 countries; median 26.2 months; Boehringer Ingelheim/Eli Lilly-funded):** Empagliflozin 10 mg OD vs placebo. First large pharmacotherapy trial with a statistically significant positive primary outcome in HFpEF — ending two decades of failed trials in this population. Primary composite (CV death or first HF hospitalisation): **HR 0.79 (95% CI 0.69–0.90; P<0.001; NNT=31)**. HF hospitalisation component: HR 0.71 (95% CI 0.60–0.83). CV death: HR 0.91 (95% CI 0.76–1.09) — **not significant**. All-cause death: **HR 1.00** — completely neutral. Total (first + recurrent) HF hospitalisations: HR 0.73 (P<0.001). eGFR decline: −1.25 vs −2.62 mL/min/1.73m²/year (P<0.001). Benefit consistent across prespecified LVEF subgroups (thresholds 50% and 60%) and with/without T2DM. Safety: genital/urinary tract infections and hypotension more frequent with empagliflozin; serious AE burden lower overall. ([[sources/empagliflozin-hfpef-nejm-2021]], rating: very high; [[sources/HF-update-ESC-2023]], rating: very high)
 - **DELIVER (dapagliflozin, n=6263, LVEF >40%, including improved LVEF, median 2.3 years):** Primary composite of worsening HF or CV death reduced: **HR 0.82 (95% CI 0.73–0.92; P<0.001)**. Worsening HF significantly reduced (HR 0.79, 95% CI 0.69–0.91); **CV death not significantly reduced** (HR 0.88, 95% CI 0.74–1.05). Total event burden reduced (rate ratio 0.77; P<0.001). KCCQ total symptom score improved (win ratio 1.11; mean +2.4 points vs placebo). Benefit consistent across **full LVEF spectrum including LVEF ≥60%** (no heterogeneity; contrasts with EMPEROR-Preserved signal of attenuation at ≥65%), in patients with/without T2DM, enrolled during/after hospitalization, and in those with previously reduced LVEF improved to >40% (HFrecEF subgroup). Safety similar to placebo. ([[sources/dapagliflozin-deliver-nejm-2022]], rating: very high; [[sources/HF-update-ESC-2023]], rating: very high)
@@ -172,6 +193,34 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - **ESC 2023:** SGLT2i Class I, Level A — incorporates both EMPEROR-Preserved and DELIVER plus pooled meta-analysis. ([[sources/HF-update-ESC-2023]], rating: very high)
 - Both guidelines agree SGLT2i is beneficial in HFpEF; the difference in classification strength reflects publication timing, not disagreement on efficacy.
 
+### GLP-1 Receptor Agonist (Semaglutide) — STEP-HFpEF (NEJM 2023)
+- **STEP-HFpEF** (Kosiborod, Borlaug et al., NEJM 2023; n=529; LVEF ≥45%; BMI ≥30; no diabetes; 96 sites; 13 countries; 52 weeks; Novo Nordisk-funded): First pharmacologic trial to specifically target obesity as a therapeutic strategy in HFpEF.
+- **Dual primary endpoints (both P<0.001):**
+  - KCCQ-CSS: estimated difference **+7.8 points (95% CI 4.8–10.9)** — 4–15× larger than prior HFpEF pharmacotherapy trials (SGLT2i/ARNI/spironolactone: 0.5–2.3 points)
+  - Body weight: estimated difference **−10.7 percentage points (95% CI −11.9 to −9.4)**
+- **Confirmatory secondary endpoints (all P<0.001):**
+  - 6MWT: **+20.3m (95% CI 8.6–32.1)** — greater than HF-ACTION exercise training benefit in HFrEF; comparable to HFpEF exercise training trials
+  - Hierarchical composite (death/HF events/KCCQ/6MWT): **win ratio 1.72 (95% CI 1.37–2.15)**
+  - CRP: **−43.5% vs −7.3%** (treatment ratio 0.61) — robust anti-inflammatory effect
+- **Exploratory:** HF hospitalizations 1 vs 12 (HR 0.08; not powered); NT-proBNP fell despite weight loss (suggesting hemodynamic benefit beyond weight reduction alone)
+- **Safety:** Serious adverse events **13.3% vs 26.7% (P<0.001)** — approximately half the rate; driven by 4× fewer cardiac events (2.7% vs 11.3%); GI AEs led to more semaglutide discontinuations (35 vs 14) but discontinuation due to serious AEs was equal (6 vs 6)
+- **Current guideline status:** Not yet incorporated into AHA 2022 or ESC 2023/2024 guidelines (trial published August 2023 after the ESC HF update). Expected to receive recommendation in next guideline update cycle for the obesity-HFpEF phenotype.
+([[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
+
+### Dual GIP/GLP-1 Receptor Agonist (Tirzepatide) — SUMMIT (NEJM 2025)
+- **SUMMIT** (Packer, Zile, Borlaug et al., NEJM 2025; n=731; LVEF ≥50%; BMI ≥30; NYHA II–IV; 129 centres; 9 countries; median 104 weeks; Eli Lilly-funded): First trial to demonstrate significant reduction in hard cardiovascular outcomes in obesity-HFpEF, with two prospectively designated primary endpoints both met.
+- **NT-proBNP not mandated for entry** — key design distinction recognising that adiposity suppresses natriuretic peptides in obese HFpEF; median baseline NT-proBNP <200 pg/mL.
+- **Primary endpoint 1 — CV death or worsening HF (time-to-first event):** 36 (9.9%) vs 56 (15.3%); **HR 0.62 (95% CI 0.41–0.95; P=0.026)**
+  - Worsening HF events: HR 0.54 (95% CI 0.34–0.85)
+  - Worsening HF requiring hospitalisation: HR 0.44 (95% CI 0.22–0.87)
+  - CV death: HR 1.58 (95% CI 0.52–4.83) — NS; numerically higher with tirzepatide; underpowered
+- **Primary endpoint 2 — KCCQ-CSS at 52 weeks:** Between-group difference **+6.9 pts (95% CI 3.3–10.6; P<0.001)**
+- **Key secondary endpoints (all P<0.001):** Weight −13.9% vs −2.2% (difference −11.6pp); 6MWT +18.3m; CRP −38.8% vs −5.9%
+- **All-cause death:** HR 1.25 (95% CI 0.63–2.45) — NS; 19 tirzepatide vs 15 placebo; numerically higher; trial underpowered for mortality
+- **GI discontinuations:** 4.1% tirzepatide vs 0% placebo; overall serious adverse events similar
+- **Benefit consistent** across prespecified subgroups including NT-proBNP <200 pg/mL — suggests tirzepatide benefits low-NP obesity-HFpEF, challenging a requirement for elevated natriuretic peptides to initiate treatment
+([[sources/tirzepatide-hfpef-summit-nejm-2025]], rating: very high)
+
 ## Contradictions / Open Questions
 - **TOPCAT Russia/Georgia data integrity — the primary endpoint is unreliable:** Post-hoc metabolite analysis (Pfeffer et al. 2015, Circulation) found spironolactone metabolite canrenone in only ~38% of Russian "active treatment" participants vs >90% in the Americas, strongly suggesting widespread dispensing of placebo in both arms in Russia/Georgia. The anomalously low placebo event rate in Russia/Georgia (8.4% vs 31.8% in the Americas) is consistent with these patients either not having genuine HFpEF or receiving placebo regardless of assignment. When Russia/Georgia data are excluded, the primary composite shows benefit (Americas HR ~0.82; P=0.026) and the stratum heterogeneity resolves. This data integrity problem is the principal reason for the neutral overall primary endpoint and explains why MRA earned only COR 2b/Class IIb rather than a stronger recommendation. Without this problem, TOPCAT might have shown significant benefit — making MRA a stronger candidate for HFpEF treatment. ([[sources/spironolactone-hfpef-topcat-nejm-2014]], rating: high)
 - **TOPCAT stratum heterogeneity — two different HFpEF populations enrolled:** The BNP stratum showed significant benefit (HR 0.65; P=0.003) while the hospitalisation stratum showed no benefit (HR 1.01; P=0.92). This interaction (P=0.01) may reflect genuine biological differences between patients entering via biochemical evidence of HF (more reliable HFpEF diagnosis) vs. those entering via prior hospitalisation alone (potentially more heterogeneous, easier to fabricate in Russia/Georgia). BNP-stratum patients had higher creatinine and lower eGFR — suggesting a more volume-overloaded, MRA-responsive phenotype. ([[sources/spironolactone-hfpef-topcat-nejm-2014]], rating: high)
@@ -184,8 +233,16 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - **EMPEROR-Preserved: all-cause death HR 1.00 — no mortality benefit whatsoever:** The perfectly neutral all-cause mortality result (HR 1.00; 95% CI 0.87–1.15) in EMPEROR-Preserved contrasts with DAPA-HF (all-cause death HR 0.83, P=0.017 in HFrEF) and even with DELIVER's directional trend. HFpEF carries a meaningful annual mortality (~5–8%/year in trial populations), yet no pharmacotherapy has demonstrated mortality benefit. The Class I, Level A recommendation for SGLT2i rests entirely on composite HF hospitalisation reduction in a population where mortality remains unaddressed. ([[sources/empagliflozin-hfpef-nejm-2021]], rating: very high)
 - **EMPEROR-Preserved: high discontinuation rate (23%) may bias toward null for hard outcomes:** Nearly 1-in-4 patients stopped trial medication (similar in both groups), limiting the ability to detect mortality effects and potentially diluting the true composite benefit. This is higher than DAPA-HF (10.5%/10.9%) and DELIVER, and may partly explain why the primary benefit was driven by hospitalisation rather than mortality. ([[sources/empagliflozin-hfpef-nejm-2021]], rating: very high)
 - **NT-proBNP thresholds not mandated in recommendation:** Trial entry required elevated natriuretic peptides; the 2023 task force chose not to specify thresholds in the recommendation text, creating uncertainty about treating HFpEF with low natriuretic peptides. ([[sources/HF-update-ESC-2023]], rating: very high)
+- **Finerenone (FINEARTS-HF) and SGLT2i: both reduce HF hospitalizations but neither reduces mortality in HFpEF — cumulative pharmacotherapy failure for mortality reduction:** As of 2024, every pharmacotherapy trial in HFpEF (MRA, SGLT2i, ARNI, ARB, RAAS inhibition, PDE5 inhibitor, sGC stimulator) has failed to demonstrate a significant mortality benefit. FINEARTS-HF joins this pattern — CV death HR 0.93 (NS); all-cause death HR 0.93 (NS). The inability to reduce mortality despite meaningful HF hospitalization reduction suggests HFpEF mortality is driven by mechanisms (cancer, non-CV death, frailty) not targeted by these drugs, or that the disease is too heterogeneous for any single agent to show mortality benefit. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
+- **Finerenone vs spironolactone in HFpEF — not a direct comparison:** TOPCAT (spironolactone, HR 0.89, P=0.14) and FINEARTS-HF (finerenone, rate ratio 0.84, P=0.007) differ in: drug pharmacology, endpoint analysis method (time-to-first vs total events), background therapy (no SGLT2i in TOPCAT era vs 13.6% in FINEARTS-HF), follow-up duration, and critically — TOPCAT had severe data integrity problems in Russia/Georgia. It cannot be concluded that finerenone is superior to spironolactone; the apparent divergence in significance may largely reflect trial design and data integrity differences. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high; [[sources/spironolactone-hfpef-topcat-nejm-2014]] — high)
+- **Intentional weight loss refutes the obesity paradox in HFpEF:** Observational data had suggested weight loss was associated with worse HF prognosis (the "obesity paradox"), discouraging weight-loss strategies in HF. STEP-HFpEF demonstrates the opposite — that intentional pharmacologic weight loss (−13.3%) produces large improvements in symptoms, functional capacity, and fewer cardiac events in obesity-HFpEF. The reconciliation is that prior observational data captured unintentional weight loss from cardiac cachexia; intentional weight loss via pharmacotherapy is a fundamentally different phenomenon. ([[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
+- **Semaglutide KCCQ improvement 4–15× larger than all prior HFpEF pharmacotherapy — mechanism unclear:** The +7.8-point KCCQ-CSS difference far exceeds prior HFpEF trials (SGLT2i/ARNI/spironolactone: 0.5–2.3 points). This cannot be attributed to weight loss alone — the NT-proBNP fall despite weight loss and the 43.5% CRP reduction implicate direct hemodynamic and anti-inflammatory drug effects. The relative contributions of weight loss vs. direct GLP-1 signaling remain unresolved and cannot be disentangled without a trial design that isolates these mechanisms (e.g., matched weight loss control arm). ([[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
+- **Tirzepatide (SUMMIT): numerically higher all-cause and CV deaths despite reduced HF events — divergent signals within the same trial:** The composite HF outcome was significantly reduced (HR 0.62), yet all-cause deaths were numerically higher (19 vs 15; HR 1.25) and CV/undetermined deaths numerically higher (10 vs 5; HR 1.58), both non-significant. Authors propose HFpEF CV deaths usually do not reflect HF progression (11 of 15 total CV deaths not preceded by worsening HF), and prior GLP-1 RA outcome trials in obesity/T2DM show mortality reduction over longer follow-up. However, this divergence — fewer HF events but no mortality reduction — raises an unresolved question: does tirzepatide defer HF events without altering the underlying mortality trajectory in HFpEF? ([[sources/tirzepatide-hfpef-summit-nejm-2025]], rating: very high)
+- **SUMMIT primary endpoint revision and NP threshold question:** SUMMIT amended endpoints ~1 year before trial completion following FDA discussion, and notably did not require elevated NT-proBNP for enrollment (median NP <200 pg/mL). This challenges the premise that elevated natriuretic peptides should be required to initiate GLP-1 RA or dual GIP/GLP-1 RA therapy in obesity-HFpEF — subgroup analysis confirmed benefit even at NP <200 pg/mL. However, this also means the trial enrolled patients who may not meet guideline HFpEF definitions requiring elevated NP, limiting regulatory applicability. ([[sources/tirzepatide-hfpef-summit-nejm-2025]], rating: very high)
+- **Finerenone kidney composite numerically worse in HFpEF (HR 1.33) vs nephroprotective in CKD-T2DM:** FIDELIO-DKD and FIGARO-DKD established finerenone as nephroprotective in CKD+T2DM patients with significant albuminuria. FINEARTS-HF enrolled a low-albuminuria population with few kidney events — this patient profile may explain the absence (and numerical reversal) of a kidney benefit, and cautions against assuming nephroprotection from finerenone in HFpEF without significant CKD. ([[sources/finerenone-hfpef-fineartshf-nejm-2024]] — very high)
 - **Titin isoform switch direction in HFpEF is inconsistent:** Some studies show increased N2BA:N2B ratio (lower stiffness), others do not — the role of isoform switching as compensatory vs. pathological in HFpEF remains unresolved. ([[sources/TTN-CVResearch-2022]], rating: high)
 - **cGMP-PKG pathway as therapeutic target has failed in clinical trials:** Despite strong pre-clinical mechanistic rationale (RELAX, VITALITY, SOCRATES all negative), suggesting the titin phosphorylation model may be insufficient or not translatable in humans. ([[sources/TTN-CVResearch-2022]], rating: high)
+- **COPD diagnosis accuracy in HFpEF — systematic over/under-diagnosis:** HF causes pulmonary oedema, bronchial mucosal oedema, and reduced lung CO diffusion that can mimic COPD on spirometry; conversely, effective HF treatment can normalize spirometry. This confounds both COPD diagnosis and the prognostic data from studies relying on clinically-diagnosed COPD (most included in the 2025 meta-analysis). The true COPD prevalence and its independent prognostic weight in HFpEF may differ from estimates based on clinical diagnosis alone. ([[sources/copd-hfpef-eschf-2025]], rating: high)
 
 ## Connections
 - Related to [[concepts/Atrial-Cardiomyopathy]] — mechanical atrial dysfunction independent predictor in HFpEF; disproportionate LA myopathy phenotype
@@ -214,6 +271,17 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - Related to [[entities/Sacubitril-Valsartan]] — ARNI; PARAGON-HF trial primary evidence; COR 2b in AHA 2022
 - Related to [[sources/dapagliflozin-deliver-nejm-2022]] — DELIVER RCT; primary evidence for SGLT2i in HFpEF/HFmrEF
 - Related to [[sources/empagliflozin-hfpef-nejm-2021]] — EMPEROR-Preserved RCT; first large positive HFpEF pharmacotherapy trial
+- Related to [[entities/Finerenone]] — nonsteroidal MRA; FINEARTS-HF trial
+- Related to [[sources/finerenone-hfpef-fineartshf-nejm-2024]] — FINEARTS-HF RCT; first MRA with positive primary endpoint in HFpEF
+- Related to [[entities/Semaglutide]] — GLP-1 RA; STEP-HFpEF; largest symptom improvement of any HFpEF pharmacotherapy trial
+- Related to [[sources/semaglutide-stephfpef-nejm-2023]] — STEP-HFpEF RCT; first obesity-targeting pharmacotherapy in HFpEF
+- Related to [[entities/Tirzepatide]] — dual GIP/GLP-1 RA; SUMMIT; first hard composite endpoint benefit in obesity-HFpEF
+- Related to [[sources/tirzepatide-hfpef-summit-nejm-2025]] — SUMMIT RCT; HR 0.62 composite CV death or worsening HF
+- Related to [[entities/COPD]] — independent prognostic risk factor in HFpEF; prevalence 14–34%; shared microvascular inflammation pathway; β-blockers contraindicated in HFpEF+COPD
+- Related to [[concepts/HF-COPD-Comorbidity]] — bidirectional pathophysiology; diagnostic challenges; treatment interactions
+- Related to [[concepts/Cardiopulmonary-Exercise-Testing]] — CPET in HFpEF diagnostic workup; VE intercept as COPD identifier
+- Related to [[sources/copd-hfpef-eschf-2025]] — systematic review/meta-analysis (n=18,602); COPD increases hospitalization RR 1.66, mortality RR 1.62, post-discharge mortality RR 2.57
+- Related to [[sources/hf-copd-hfreview-2025]] — 2025 review; β-blockers to avoid in HFpEF+COPD; NP diagnostic limitations; CPET VE intercept
 
 ## Sources
 - [[sources/HF-AHA-2022]]
@@ -229,3 +297,8 @@ A two-step approach is used to define the presence of LV diastolic dysfunction. 
 - [[sources/arni-paragon-hf-nejm-2019]]
 - [[sources/empagliflozin-hfpef-nejm-2021]]
 - [[sources/spironolactone-hfpef-topcat-nejm-2014]]
+- [[sources/finerenone-hfpef-fineartshf-nejm-2024]]
+- [[sources/semaglutide-stephfpef-nejm-2023]]
+- [[sources/tirzepatide-hfpef-summit-nejm-2025]]
+- [[sources/copd-hfpef-eschf-2025]]
+- [[sources/hf-copd-hfreview-2025]]

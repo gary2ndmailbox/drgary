@@ -173,7 +173,7 @@ Cardio-oncology, vascular toxicity, venous thromboembolism, cancer-associated th
 - [[concepts/Preeclampsia]] — sFlt-1/VEGF inhibitor parallel mechanism
 
 ## Key Entities Mentioned
-- [[entities/Pulmonary-Hypertension]] — bleomycin-associated PAH; cyclophosphamide-associated PAH; dasatinib PAH
+- [[concepts/pulmonary-hypertension]] — bleomycin-associated PAH; cyclophosphamide-associated PAH; dasatinib PAH
 
 ## Wiki Pages Updated
 - wiki/sources/cardio-oncology-vascular-metabolic-aha-2019.md (created)
@@ -181,6 +181,6 @@ Cardio-oncology, vascular toxicity, venous thromboembolism, cancer-associated th
 - wiki/concepts/Clonal-Hematopoiesis.md (created)
 - wiki/concepts/Cancer-Therapy-Related-CV-Toxicity.md (updated — vascular mechanisms, VEGF HTN detail, metabolic complications)
 - wiki/concepts/Cardio-Oncology.md (updated — shared cancer-CVD risk section)
-- wiki/entities/Pulmonary-Hypertension.md (updated — bleomycin/cyclophosphamide PAH)
+- wiki/concepts/pulmonary-hypertension.md (updated — bleomycin/cyclophosphamide PAH)
 - wiki/sourceindex.md (updated)
 - wiki/wikiindex.md (updated)

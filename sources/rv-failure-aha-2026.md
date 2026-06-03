@@ -111,13 +111,13 @@ AHA Scientific Statements · biomarkers · heart failure · hypertension, pulmon
 - [[entities/HFpEF]] — RV dysfunction recognised in HFpEF context
 
 ## Key Entities Mentioned
-- [[entities/Pulmonary-Hypertension]] — primary disease context; sotatercept updated
+- [[concepts/pulmonary-hypertension]] — primary disease context; sotatercept updated
 - [[entities/CTEPH]] — Group 4 PH; RV failure implications
 - [[entities/Heart-Failure]] — RV failure as major determinant of HF outcomes
 
 ## Wiki Pages Updated
 - Created: `wiki/sources/rv-failure-aha-2026.md`
 - Created: `wiki/concepts/RV-PA-Coupling.md`
-- Updated: `wiki/entities/Pulmonary-Hypertension.md` — RV failure section and sotatercept
+- Updated: `wiki/concepts/pulmonary-hypertension.md` — RV failure section and sotatercept
 - Updated: `wiki/sourceindex.md`
 - Updated: `wiki/wikiindex.md`

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Sarcomere Biology"
 tags: [sarcomere, hypertrophic-cardiomyopathy, MYBPC3, crossbridge-cycling, cardiomyopathy]
-source_count: 1
-last_updated: 2026-05-09
+source_count: 2
+last_updated: 2026-05-22
 ---
 
 # Sarcomere Biology
@@ -30,7 +30,7 @@ The cardiac sarcomere is the basic contractile unit of the cardiomyocyte, compri
 ### Myofilament Ca²⁺ Sensitivity — The HCM Final Common Pathway
 
 - Increased myofilament Ca²⁺ sensitivity is the central functional consequence of most HCM mutations — including MYBPC3 haploinsufficiency (less crossbridge braking), MYH7 gain-of-function, TNNT2, and TPM1 mutations. The increased sensitivity means more crossbridges remain active at diastolic Ca²⁺ concentrations → impaired relaxation. ([[sources/mybpc3-gene-2015]] — medium)
-- **HCM therapeutic target:** Mavacamten and aficamten (allosteric myosin inhibitors) reduce crossbridge cycling by stabilising myosin in its folded-back OFF state — directly targeting excessive myofilament activation. ([[sources/mybpc3-gene-2015]])
+- **HCM therapeutic target:** Mavacamten and aficamten (allosteric myosin inhibitors) reduce crossbridge cycling by stabilising myosin in its folded-back OFF state — directly targeting excessive myofilament activation. ([[sources/mybpc3-gene-2015]]) In EXPLORER-HCM (N=251), mavacamten's sarcomere-level mechanism translated to a 35.6 mmHg LVOT gradient reduction and 80% greater NT-proBNP reduction vs placebo — consistent with downstream relief of myocardial wall stress from reduced crossbridge hyperactivity. ([[sources/mavacamten-explorer-hcm-lancet-2020]], rating: very high)
 
 ### Sarcomere Mutations and Disease
 
@@ -53,3 +53,4 @@ The cardiac sarcomere is the basic contractile unit of the cardiomyocyte, compri
 
 ## Sources
 - [[sources/mybpc3-gene-2015]]
+- [[sources/mavacamten-explorer-hcm-lancet-2020]]

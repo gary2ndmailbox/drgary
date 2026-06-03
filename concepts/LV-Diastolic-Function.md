@@ -161,7 +161,7 @@ Additional finding: LV mass index >115 g/m² (men) or >95 g/m² (women) after ex
 - Related to [[entities/HCM]]
 - Related to [[entities/ATTR-Amyloidosis]]
 - Related to [[entities/Atrial-Fibrillation]]
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/pulmonary-hypertension]]
 - Related to [[concepts/Valvular-Heart-Disease]]
 - Related to [[concepts/VA-Risk-Stratification-DCM]] — diastolic grade III as LVEF-independent arrhythmic risk predictor
 - Related to [[entities/ICD]] — diastolic grading as candidate additional primary prevention criterion

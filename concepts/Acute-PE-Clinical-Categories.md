@@ -5,7 +5,7 @@ tags:
   - pulmonary-embolism
   - risk-stratification
   - guidelines
-source_count: 1
+source_count: 2
 last_updated: 2026-04-21
 ---
 
@@ -79,8 +79,8 @@ The AHA/ACC Acute PE Clinical Categories is a five-category (A–E) classificati
 | A | ED discharge | Consider (based on location/DVT) | Not required | NOT indicated |
 | B | Early discharge (outpatient) | Yes (DOAC preferred) | Not required | NOT indicated |
 | C1–2 | Hospitalise | Yes (DOAC or LMWH) | Recommended | NOT indicated (C1); unclear (C2) |
-| C3 | Hospitalise (monitor 24–72h) | Yes | Recommended | Uncertain (2b) |
-| D1–2 | Hospitalise | Yes (LMWH or UFH) | Recommended | May consider CDL or MT (2b) |
+| C3 | Hospitalise (monitor 24–72h) | Yes | Recommended | CDL now supported by RCT (HI-PEITHO, 2026); guideline COR 2b likely to be upgraded |
+| D1–2 | Hospitalise | Yes (LMWH or UFH) | Recommended | CDL now supported by RCT (HI-PEITHO, 2026); may consider CDL or MT (2b) |
 | E1 | Hospitalise (ICU) | Yes (LMWH or UFH) | Recommended | Systemic thrombolysis, CDL, MT, or surgery (2a) |
 | E2 | Hospitalise (ICU) | Yes (LMWH or UFH) | Recommended | VA-ECMO (2a); systemic thrombolysis (2a); NOT surgery (3:NB) |
 
@@ -103,6 +103,7 @@ The AHA/ACC Acute PE Clinical Categories is a five-category (A–E) classificati
 - **Normotensive shock definition**: The 34% prevalence of isolated hypoperfusion (Cat D criteria) in intermediate-risk PE (FLASH registry) suggests many patients previously classified as intermediate-low are actually Cat D2 — this may upstage a significant proportion of patients toward advanced therapy. ([[sources/acute-pe-aha-2026]], rating: very high)
 - **Category transitions**: The guideline notes patients may transition between categories as clinical status evolves; no formal re-assessment protocol is defined for when and how to re-categorise.
 - **Subsegmental PE management (Cat B1)**: Whether to anticoagulate isolated subsegmental PE without DVT remains controversial; the guideline separates B1 from B2 but does not provide definitive anticoagulation recommendations for asymptomatic subsegmental PE.
+- **CDL evidence gap resolved by HI-PEITHO (2026)**: The AHA/ACC guideline assigned COR 2b to CDL for Cat C3–D based on indirect evidence; the guideline statement acknowledged no RCT had compared CDL vs anticoagulation alone. HI-PEITHO (NEJM 2026, n=544) now fills this gap: CDL + anticoagulation vs anticoagulation alone in intermediate-risk PE (Cat C3/D equivalent) — RR 0.39 (P=0.005) for primary composite, no ICH, major bleeding NS. The current COR 2b recommendation is likely to be upgraded in guideline updates. ([[sources/cdf-pe-hipeitho-nejm-2026]], rating: very high)
 
 ## Connections
 - Related to [[entities/Pulmonary-Embolism]]
@@ -110,3 +111,4 @@ The AHA/ACC Acute PE Clinical Categories is a five-category (A–E) classificati
 
 ## Sources
 - [[sources/acute-pe-aha-2026]]
+- [[sources/cdf-pe-hipeitho-nejm-2026]]

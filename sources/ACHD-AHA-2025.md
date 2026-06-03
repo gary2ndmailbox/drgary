@@ -178,13 +178,13 @@ Adult congenital heart disease, aortic coarctation, aortic valve stenosis, cardi
 - [[concepts/Tetralogy-of-Fallot]] — new PVR criteria (RVESVi), SCD risk stratification, ablation role
 - [[concepts/Fontan-Circulation]] — annual liver surveillance, antithrombotic upgrade, exercise, transplantation
 - [[concepts/Eisenmenger-Syndrome]] — PAH monotherapy COR 1, dual ERA+PDE5i COR 1, shunt closure COR 3:Harm
-- [[entities/Pulmonary-Hypertension]] — PAH-directed therapy in Eisenmenger; PVR thresholds for shunt closure
+- [[concepts/pulmonary-hypertension]] — PAH-directed therapy in Eisenmenger; PVR thresholds for shunt closure
 - [[entities/Heart-Failure]] — GDMT, CRT, ICD, MCS in ACHD with systemic LV dysfunction
 - [[concepts/Conduction-System-Pacing]] — physiological pacing in CCTGA; Fontan pacing strategy
 
 ## Key Entities Mentioned
 - [[entities/Atrial-Fibrillation]] — anticoagulation in Fontan, rhythm control in Eisenmenger and complex ACHD
-- [[entities/Pulmonary-Hypertension]] — Eisenmenger PAH therapy, ASD/VSD PH management
+- [[concepts/pulmonary-hypertension]] — Eisenmenger PAH therapy, ASD/VSD PH management
 - [[entities/Heart-Failure]] — ACHD HF section (new); GDMT, MCS, transplantation
 
 ## Wiki Pages Updated

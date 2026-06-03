@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Sacubitril–Valsartan (ARNI)"
 tags: [heart-failure, HFrEF, HFpEF, sacubitril-valsartan, angiotensin-neprilysin-inhibition]
-source_count: 2
+source_count: 3
 ---
 
 # Sacubitril–Valsartan (ARNI)
@@ -50,6 +50,14 @@ Sacubitril–valsartan (brand name: Entresto; formerly LCZ696) is an angiotensin
 - **ESC 2021:** Listed as having no convincing evidence in HFpEF.
 - The PARAGON-HF result provided sufficient signal to shift guideline language toward COR 2b in selected patients (lower EF, women) but did not meet the bar for a strong recommendation.
 
+### COPD+HFpEF — Dual Cardiac and Pulmonary Mechanisms (Mechanistic)
+- In the COPD+HFpEF comorbid population, sacubitril/valsartan (ARNI) may offer dual benefit through cardiac and pulmonary mechanisms — no dedicated RCT exists; evidence is mechanistic and from PARAGON-HF subgroup data. ([[sources/copd-hfpef-eschf-2025]], rating: high)
+- **Sacubitril (neprilysin inhibitor) — pulmonary effects:**
+  - Prevents degradation of natriuretic peptides (BNP, ANP) → ↑bioavailability → vasodilation + ↓pulmonary artery smooth muscle cell proliferation — potentially beneficial for COPD-related pulmonary vascular changes. ([[sources/copd-hfpef-eschf-2025]], rating: high)
+  - Induces bronchodilation by stimulating acetylcholine release from bronchial epithelial cells — direct airway benefit in COPD. ([[sources/copd-hfpef-eschf-2025]], rating: high)
+- **Valsartan+sacubitril combined — anti-remodelling:** Valsartan suppresses myocardial remodelling (guanine nucleotide-binding protein family inhibition); sacubitril prevents myocardial cell death (PTEN inhibition); additive effect → ↓LV extracellular matrix remodelling. ([[sources/copd-hfpef-eschf-2025]], rating: high)
+- These mechanisms support ARNI as a candidate for further clinical trial investigation specifically in the COPD+HFpEF population. ([[sources/copd-hfpef-eschf-2025]], rating: high)
+
 ## Contradictions / Open Questions
 - **PARADIGM-HF stopped early:** Terminated at the third planned interim analysis. Trials stopped early for benefit systematically overestimate the true effect size; the true HR may be closer to 0.85–0.88 than the reported 0.80. ([[sources/arni-paradigm-hf-nejm-2014]], rating: very high)
 - **KCCQ improvement below MCID:** The 1.64-point between-group KCCQ difference is statistically significant but below the ~5-point minimal clinically important difference, raising the question of whether the symptomatic benefit is clinically perceptible to individual patients. ([[sources/arni-paradigm-hf-nejm-2014]], rating: very high)
@@ -63,10 +71,11 @@ Sacubitril–valsartan (brand name: Entresto; formerly LCZ696) is an angiotensin
 ## Connections
 - Related to [[entities/HFpEF]] — primary evidence source; COR 2b basis
 - Related to [[entities/Heart-Failure]] — approved pillar therapy in HFrEF; investigational in HFpEF
-- Related to [[concepts/Pulmonary-Hypertension-Classification]] — HFmrEF EF boundary relevant to PARAGON-HF subgroup
+- Related to [[concepts/pulmonary-hypertension]] — HFmrEF EF boundary relevant to PARAGON-HF subgroup
 - Related to [[sources/HF-AHA-2022]] — COR 2b recommendation context
 - Related to [[sources/HF-ESC-2021]] — failed to reduce morbidity/mortality in HFpEF (pre-PARAGON-HF)
 
 ## Sources
 - [[sources/arni-paradigm-hf-nejm-2014]] — PARADIGM-HF RCT (HFrEF; primary evidence for Class I recommendation)
 - [[sources/arni-paragon-hf-nejm-2019]] — PARAGON-HF RCT (HFpEF; basis for COR 2b; primary endpoint negative P=0.06)
+- [[sources/copd-hfpef-eschf-2025]] — Meta-analysis; ARNI dual cardiac+pulmonary mechanisms in COPD+HFpEF

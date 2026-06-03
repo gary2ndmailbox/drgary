@@ -7,8 +7,8 @@ tags:
   - heritable-cardiovascular-disease
   - variant-interpretation
   - precision-medicine
-source_count: 1
-last_updated: 2026-04-28
+source_count: 2
+last_updated: 2026-05-17
 ---
 
 # Incidental Cardiovascular Genetic Variants
@@ -17,6 +17,13 @@ last_updated: 2026-04-28
 Incidental cardiovascular variants are rare variants in CVD-associated genes identified incidentally — that is, not related to the indication for which sequencing was ordered. Sources include exome/genome sequencing performed for unrelated clinical presentations, research biobanks, and direct-to-consumer (DTC) genetic testing. They overlap with, but are broader than, ACMG-defined "secondary findings" (LP/P variants in ACMG-78 genes). The cardinal challenge is that the burden of incidentally identified variants in CVD genes far exceeds the population prevalence of those diseases, making interpretation — rather than detection — the core clinical task.
 
 ## Key Concepts
+
+### Population Prevalence and Lifespan Impact of Actionable Genotypes
+- **4% of Icelanders (1 in 25; n=57,933 WGS) carry ≥1 actionable genotype** in ACMG SF v3.0 genes by manual curation — consistent with UK Biobank (2.0%), Qatar (2.3%), and US (2.8%) using automated methods on comparable gene lists ([[sources/genotype-lifespan-nejm-2023]] — high)
+- Carriers have shorter median survival (86 vs 87 years); 10th-percentile early death is 4 years earlier (69 vs 73 years) ([[sources/genotype-lifespan-nejm-2023]] — high)
+- **Cancer gene group dominates:** carriers 3 years shorter median survival; BRCA2/BRCA1/PALB2 main drivers ([[sources/genotype-lifespan-nejm-2023]] — high)
+- **Cardiovascular gene group:** no group-level survival difference; but LDLR (FH) −6.47 years and MYBPC3 (HCM) −2.18 years individually show lifespan associations — only 25% of CV group carriers carry these two variants ([[sources/genotype-lifespan-nejm-2023]] — high)
+- Implication: the case for returning ACMG secondary findings is strongest for cancer-group genes; cardiovascular gene group requires individual gene-level interpretation of actionability
 
 ### ACMG-78 Actionable Gene List — CVD Scope
 - 78 genes in the ACMG SF v3.1 list are considered clinically actionable; **42 (54%) are CVD-related**, spanning: dyslipidemias (FH: LDLR, APOB, PCSK9), cardiomyopathies (ACM: PKP2/DSP/DSC2/TMEM43/DSG2; DCM: TNNT2/LMNA/FLNC/TTN/BAG3/DES/RBM20/TNNC1; HCM: MYH7/MYBPC3/TNNI3/TPM1/MYL3/ACTC1/PRKAG2/MYL2; RCM: TTR; Fabry: GLA; Pompe: GAA; HH: HFE), inherited arrhythmias (LQTS: KCNQ1/KCNH2/SCN5A; BrS: SCN5A; CPVT: RYR2/CASQ2/TRDN), thoracic aortic disease (FBN1/TGFBR1/TGFBR2/SMAD3/ACTA2/MYH11), and vascular EDS (COL3A1) ([[sources/incident-gene-aha-2023]] — high)
@@ -82,12 +89,14 @@ The framework integrates the likelihood that a variant is truly disease-associat
 - No uniform reporting standards exist for pharmacogenomic incidental findings; pretest counselling is strongly recommended ([[sources/incident-gene-aha-2023]] — high)
 
 ## Contradictions / Open Questions
+- **Most ACMG cardiovascular gene carriers have no survival signal:** In Iceland (n=57,933 WGS), 75% of cardiovascular ACMG SF gene carriers carry variants that show no individual lifespan association. If the clinical rationale for returning secondary findings is to extend life expectancy, most cardiovascular ACMG SF gene-positive individuals derive uncertain mortality benefit from disclosure and surveillance. This fundamentally challenges the premise that all 73 ACMG genes are equally actionable. ([[sources/genotype-lifespan-nejm-2023]] — high)
 - **Variant burden vs disease prevalence gap:** The frequency of incidentally identified LP/P variants exceeds the prevalence of most CVDs, meaning that many LP/P-designated variants will not cause disease. The false-positive rate of current variant classification systems at population scale is unknown and likely significant. ([[sources/incident-gene-aha-2023]] — high)
 - **Laboratory inconsistency:** Multiple studies document significant inter-laboratory variability in variant pathogenicity classification for the same variant (Amendola et al. 2016; Bland et al. 2018). The Bayesian framework recommends re-evaluating the laboratory's assessment — but this requires specialist expertise not available in most clinical settings. ([[sources/incident-gene-aha-2023]] — high)
 - **VUS clinical limbo:** The recommendation is to not communicate VUSs from clinical testing and not use them for cascade testing. In practice, probands with inherited cardiomyopathies or channelopathies carry VUSs in the majority of cases — meaning most families cannot access genetic-informed cascade testing despite having a likely heritable condition. ([[sources/incident-gene-aha-2023]] — high; [[sources/genetic-cmp-jcf-2018]] — very high)
 - **Diverse populations and equity:** Non-European ancestry individuals face systematically higher VUS rates, making the Bayesian framework harder to apply meaningfully. This inequality is acknowledged but no specific corrective framework is provided. ([[sources/incident-gene-aha-2023]] — high)
 
 ## Connections
+- Related to [[concepts/ACMG-Secondary-Findings]] — the ACMG SF framework is the primary incidental variant reporting policy; population prevalence 4%; lifespan data
 - Related to [[concepts/Variant-Reclassification]] — 1–8%/year reclassification rate; VUS management
 - Related to [[concepts/Cascade-Family-Screening]] — LP/P-only cascade rule; posttest probability framework
 - Related to [[concepts/Cardiogenetic-Centers]] — multidisciplinary role in incidental variant evaluation
@@ -105,3 +114,4 @@ The framework integrates the likelihood that a variant is truly disease-associat
 ## Sources
 - [[sources/genetic-cmp-jcf-2018]]
 - [[sources/incident-gene-aha-2023]]
+- [[sources/genotype-lifespan-nejm-2023]]

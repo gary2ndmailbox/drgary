@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Torsades de Pointes"
 tags: [arrhythmia, channelopathies, LQTS, cardiac-electrophysiology, drug-induced-arrhythmias]
-source_count: 8
-last_updated: 2026-05-07
+source_count: 9
+last_updated: 2026-05-16
 ---
 
 # Torsades de Pointes
@@ -25,6 +25,8 @@ Torsades de pointes (TdP) is a polymorphic ventricular tachycardia characterised
 
 ### Acquired (Drug-Induced) TdP
 - **Prevalence and mechanism:** Acquired drug-induced TdP is the most common cause of TdP in clinical practice; >200 drugs with TdP potential remain available. Drugs cause TdP primarily through IKr inhibition, prolonging action potential duration and increasing EAD susceptibility. Some drugs additionally augment late sodium current (INa-L): dofetilide, ibutilide, d-sotalol, thioridazine, erythromycin. ([[sources/drug-arrhythmia-aha-2020]], rating: very high)
+- **Rare variants associated with acquired long QT/TdP:** KCNE1-p.D85N and SCN5A-p.S1103Y are consistently associated with drug-induced/acquired long QT syndrome and TdP across multiple cohorts. Genetic testing for these rare variants is reasonable in patients with acquired LQTS, particularly when one of the three risk predictors is present (age <40, QTc >440 ms baseline, or prior arrhythmic episodes). ([[sources/lqts-nejm-2025]], rating: very high)
+- **Three predictors for latent congenital LQTS in acquired LQTS:** age <40 years, QTc >440 ms at baseline, arrhythmic episodes — if present, molecular genetic testing should be offered. 61 common variants explain up to 30% of acquired LQTS variability (polygenic testing not yet recommended clinically). ([[sources/lqts-nejm-2025]])
 - **Amiodarone exception:** Amiodarone, unlike quinidine or sotalol, does not increase transmural dispersion of repolarization despite significant QTc prolongation — this partly explains its relatively low TdP incidence compared with other IKr blockers. ([[sources/drug-arrhythmia-aha-2020]], [[sources/amiodarone-cvdrug-2020]])
 - **Flecainide — QRS-driven QTc prolongation without TdP risk:** Flecainide prolongs QTc 3-8% but most of this change is due to QRS complex widening (11-27%), not ventricular repolarization prolongation. The JT interval (reflecting true repolarization) remains largely unchanged. Unlike IKr-blocking agents, flecainide does not meaningfully prolong ventricular APD and carries a low TdP risk. This illustrates that QTc prolongation is not universally a marker of TdP risk — the mechanism of QTc change must be considered. ([[sources/flecainide-af-europace-2011]], rating: medium)
 - **Risk factors for drug-induced TdP:** QTc >500 ms or increase >=60 ms from baseline; female sex; age >65; bradycardia; acute MI; hypokalaemia; hypomagnesaemia; hypocalcaemia; HFrEF; two or more concurrent QT-prolonging drugs; prior drug-induced TdP; pharmacokinetic drug interactions; renal or hepatic impairment with renally or hepatically cleared drugs. ([[sources/drug-arrhythmia-aha-2020]])
@@ -82,6 +84,7 @@ Torsades de pointes (TdP) is a polymorphic ventricular tachycardia characterised
 - Related to [[entities/Flecainide]]
 
 ## Sources
+- [[sources/lqts-nejm-2025]]
 - [[sources/Hormonal-Rx-AHA-2021]]
 - [[sources/VA-SCD-ESC-2022]]
 - [[sources/amiodarone-cvdrug-2020]]

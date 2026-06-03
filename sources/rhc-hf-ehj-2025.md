@@ -111,13 +111,13 @@ Right heart catheterization, Acute heart failure, Chronic heart failure, Cardiac
 
 ## Key Concepts Mentioned
 - [[concepts/Right-Heart-Catheterization]] — central subject of the review
-- [[entities/Pulmonary-Hypertension]] — classification framework; pre/post-capillary PH; PVR thresholds
+- [[concepts/pulmonary-hypertension]] — classification framework; pre/post-capillary PH; PVR thresholds
 - [[entities/Heart-Failure]] — acute, chronic, advanced HF haemodynamic thresholds
 - [[entities/HFpEF]] — diagnosis via exercise RHC, fluid challenge, passive leg raise; PAWP zone of uncertainty
 
 ## Key Entities Mentioned
 - [[entities/Heart-Failure]] — RHC across all HF phenotypes
-- [[entities/Pulmonary-Hypertension]] — PH classification; treatment implications
+- [[concepts/pulmonary-hypertension]] — PH classification; treatment implications
 - [[entities/CTEPH]] — mentioned in context of pre-capillary PH differential
 
 ## Wiki Pages Updated
@@ -126,4 +126,4 @@ Right heart catheterization, Acute heart failure, Chronic heart failure, Cardiac
 - `wiki/wikiindex.md` — updated (new concept page)
 - `wiki/concepts/Right-Heart-Catheterization.md` — created
 - `wiki/entities/Heart-Failure.md` — updated (RHC section)
-- `wiki/entities/Pulmonary-Hypertension.md` — updated (PAWP methodology and thresholds)
+- `wiki/concepts/pulmonary-hypertension.md` — updated (PAWP methodology and thresholds)

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "PVC Mapping and Ablation"
 tags: [premature-ventricular-complexes, catheter-ablation, ventricular-arrhythmias, electrophysiology, mapping]
-source_count: 1
-last_updated: 2026-05-01
+source_count: 2
+last_updated: 2026-05-29
 ---
 
 # PVC Mapping and Ablation
@@ -40,6 +40,14 @@ Catheter-based localisation and ablation of premature ventricular complexes (PVC
 | LV Purkinje | RBBB-like | Narrow QRS (<130 ms), rsR' in V1, initial Q in I |
 | Moderator band | LBBB | Left superior axis, late transition >V4 |
 | Basal crux | LBBB | Left superior axis, V2 transition, QS in inferior leads, MDI >0.55 |
+![](/raw/assets/PVC-Ablation-JACCEP-2024.pdf-0004-03.png)
+
+
+- **RVOT vs LVOT differentiation algorithms** — see [[concepts/OTVA-ECG-Localization]] for full algorithm tables and stepwise approach ([[sources/RVOT-LVOT-circ-ep-2019]], rating: high)
+- **Best overall algorithm**: Combined TZ index + V2S/V3R formula (Y = −1.15×TZ − 0.494×V2S/V3R; LVOT if ≥−0.76; Youden index 0.77; n=695) ([[sources/RVOT-LVOT-circ-ep-2019]])
+- **Best for V3 precordial transition** (38% of cases): V2S/V3R index ≤1.5 (sens 94%, spec 78% in V3 subgroup) or V3R/V7 index ≥0.85 (AUC 0.95, prospective accuracy 98.6%) ([[sources/RVOT-LVOT-circ-ep-2019]])
+- **Key pitfall — preferential conduction**: ~25% of aortic sinus OTVAs breakout earliest at the RVOT; excellent pacemap at RVOT but ablation fails; adjacent LVOT near-field signal is the true target ([[sources/RVOT-LVOT-circ-ep-2019]])
+
 
 ### Mapping Techniques
 
@@ -123,12 +131,13 @@ Catheter-based localisation and ablation of premature ventricular complexes (PVC
 - ECGI accuracy for non-outflow-tract PVCs and re-entrant arrhythmias is insufficient to guide catheter ablation; its role is currently limited to pre-stereotactic radioablation planning ([[sources/PVC-ablation-jaccep-2024]])
 
 ## Connections
+- Related to [[concepts/OTVA-ECG-Localization]] — comprehensive ECG algorithm reference for outflow tract PVCs
 - Related to [[concepts/PVC-Induced-Cardiomyopathy]]
 - Related to [[concepts/Pulsed-Field-Ablation]] — emerging ventricular PFA
 - Related to [[concepts/Catheter-Ablation-AF]] — shared energy sources and mapping technology
 - Related to [[concepts/Electrical-Storm]] — PVC-triggered VF management
 - Related to [[entities/Idiopathic-Ventricular-Fibrillation]] — short-coupled PVC triggers
-- Related to [[sources/PVC-ablation-jaccep-2024]]
 
 ## Sources
 - [[sources/PVC-ablation-jaccep-2024]]
+- [[sources/RVOT-LVOT-circ-ep-2019]]

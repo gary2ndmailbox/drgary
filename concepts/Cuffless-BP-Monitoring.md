@@ -13,6 +13,11 @@ Cuffless BP monitoring encompasses devices that estimate blood pressure without 
 
 ## Key Concepts
 
+### Wrist-Worn Oscillometric Devices (Cuff-Based)
+- Wrist-worn oscillometric devices (e.g., Omron HEM-6410T) differ from cuffless devices — they use an inflatable wrist cuff but at the wrist rather than the upper arm
+- Compared with traditional upper-arm oscillometric or auscultatory methods: **overestimate** BP in normotensive subjects and **underestimate** BP in hypertensive subjects; measurements differ by >5 mmHg in 40–50% of readings ([[sources/wearable-cv-nejm-2024]], rating: high)
+- Validated to ISO/ANSI/AAMI standards in some models, but systematic positional and population-dependent errors limit clinical reliability
+
 ### Technologies and Mechanisms
 - **Photoplethysmography (PPG):** Measures blood volume oscillations via reflected/transmitted light; most common cuffless sensor; subject to bias from skin melanin, cold temperatures (vasoconstriction), obesity, vessel stiffness, and sensor contact pressure; lowest accuracy at back-of-wrist ([[sources/cuffless-bp-aha-2026]], rating: high)
 - **Tonometry:** Force sensor over radial artery; reliable waveform but requires precise positioning directly over artery — difficult for self-use
@@ -70,3 +75,4 @@ Cuffless BP monitoring encompasses devices that estimate blood pressure without 
 ## Sources
 - [[sources/HT-AHA-2025]]
 - [[sources/cuffless-bp-aha-2026]]
+- [[sources/wearable-cv-nejm-2024]]

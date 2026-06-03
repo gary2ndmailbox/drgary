@@ -2,8 +2,8 @@
 dg-publish: true
 title: "HCM Risk-SCD (and HCM Risk-Kids)"
 tags: [sudden-cardiac-death, HCM, diagnostics, risk-stratification, guideline]
-source_count: 3
-last_updated: 2026-04-11
+source_count: 5
+last_updated: 2026-05-30
 ---
 
 # HCM Risk-SCD (and HCM Risk-Kids)
@@ -38,6 +38,15 @@ HCM Risk-SCD is a validated, quantitative risk-prediction calculator that provid
 - Validated after ASA in one study; LGE on CMR adds incremental prognostic value over the model but is not in the current calculator. ([[sources/esc-cmp-2023]])
 - ESC 2023 vs. AHA/ACC 2020 divergence: ESC mandates the tool as threshold-driven; AHA/ACC treats it as one element of shared decision-making — reflecting different philosophical stances on quantitative vs. qualitative risk assessment. ([[sources/esc-cmp-2023]])
 
+### AI-ECG for LV Scar Detection (XplainScar)
+- **XplainScar** is the first explainable ML model validated for detecting and localizing LV scar from standard 12-lead ECG in HCM — a potential non-invasive, low-cost alternative to LGE-MRI for longitudinal scar monitoring ([[sources/lvh-scar-aiecg-naturesr-2025]])
+- Trained on 500 JH patients; externally validated on 248 UCSF patients: global LV scar F1=89%, Se=91%, Sp=78%, PPV=88% on held-out set; processing time <1 min for 10 patients on a standard PC
+- Uses unsupervised ECG clustering + self-supervised learning (SCARF) + SHAP explainability; patient clustering is the critical step (removal drops F1 from 92% to 41%)
+- **ECG signatures identified**: Basal scar — deep Q waves and intrinsicoid QRS delay in aVR/V1; Apical scar — T wave inversion V2–V6 (confirms prior studies and suggests fibrosis drives repolarization inversion); Mid scar — T wave amplitude in V5/V6/aVR/aVL
+- Higher scar burden (>15% LV mass) associated with more widespread T wave inversion across limb and chest leads
+- **Current limitation**: Cannot quantify scar percentage; wall-level localization poor (septal F1~68%, anterior F1<30%); prospective validation required before clinical deployment as serial monitoring tool
+- See [[concepts/AI-ECG-HCM-Scar]] for full detail
+
 ### Novel Risk Markers for Early-Stage HCM (Under Investigation)
 - **Ion channel remodeling:** ↑INaL and ↑ILTCC detectable before structural changes; CaMKII-mediated and may reflect direct effect of gene mutation. See [[concepts/Ion-Channel-Remodeling-in-HCM]]. ([[sources/HCM-VA-FCVMed-2022]])
 - **Specific high-risk mutations:** MYH7-R403Q, MYH7-R453C, MYH7-G716R, MYH7-R719W, TNNT2-R92W associated with high SCD incidence. MYBPC3 carriers: ↑ventricular arrhythmia and syncope. Multiple pathogenic variants = ↑risk. ([[sources/HCM-VA-FCVMed-2022]])
@@ -67,6 +76,7 @@ HCM Risk-SCD is a validated, quantitative risk-prediction calculator that provid
 - LV apical aneurysm and LGE/EF are **not included** in the current 5-year SCD risk calculator inputs; their independent quantitative impact on 5-year risk estimates is undetermined. ([[sources/HCM-AHA-2024]])
 
 ## Contradictions / Open Questions
+- **AHA 2017 vs AHA 2024 vs ESC 2023 — risk factor evolution:** AHA 2017 (VA/SCD guideline) established the qualitative risk factor-based approach: established factors include LV wall ≥30mm, FHx SCD-HCM, unexplained syncope within 6 months, NSVT, and abnormal BP exercise response. EP study for HCM risk stratification is Class III No Benefit. This aligns with AHA 2024 framework but predates the LGE/LV aneurysm additions and the incorporation of newer CMR data. ([[sources/va-scd-aha-2017]])
 - **ESC 2023 (threshold-driven) vs. AHA 2024 (decision aid):** ESC 2023 mandates the calculator as a Class I requirement with specific ICD thresholds (≥6% = Class IIa; 4–6% = Class IIb). AHA 2024 explicitly states prespecified risk score thresholds should NOT be the sole arbiter of ICD decisions and treats the 5-year SCD estimate as a Class IIa aid to shared decision-making. The same calculator, trained on the same data, is used in fundamentally different ways by two major guidelines — producing different ICD implantation rates for identical risk estimates. ([[sources/esc-cmp-2023]], [[sources/HCM-AHA-2024]])
 - **LV apical aneurysm discordance:** AHA 2024 includes LV apical aneurysm with transmural scar/LGE as a major SCD risk factor (Class IIa for ICD). ESC 2023 does NOT recommend it as a sole ICD indication, noting insufficient data. Neither guideline includes apical aneurysm in the HCM Risk-SCD calculator inputs, meaning its quantitative contribution to 5-year risk is unknown. ([[sources/HCM-AHA-2024]], [[sources/esc-cmp-2023]])
 - **Calculator not validated for early-stage disease:** The HCM Risk-SCD model was trained on patients with established phenotypic HCM; its accuracy for patients with early-stage or mild structural remodeling is limited. Young asymptomatic patients can suffer SCD without meeting any traditional risk threshold, suggesting the model has a systematic blind spot for the highest-stakes population. ([[sources/HCM-VA-FCVMed-2022]])
@@ -83,3 +93,5 @@ HCM Risk-SCD is a validated, quantitative risk-prediction calculator that provid
 - [[sources/HCM-AHA-2024]]
 - [[sources/HCM-VA-FCVMed-2022]]
 - [[sources/esc-cmp-2023]]
+- [[sources/va-scd-aha-2017]]
+- [[sources/lvh-scar-aiecg-naturesr-2025]]

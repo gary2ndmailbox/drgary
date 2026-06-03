@@ -2,8 +2,8 @@
 dg-publish: true
 title: "AF-CARE Framework"
 tags: [atrial-fibrillation, guidelines, management-framework]
-source_count: 1
-last_updated: 2026-04-12
+source_count: 2
+last_updated: 2026-05-30
 ---
 
 # AF-CARE Framework
@@ -51,6 +51,9 @@ AF-CARE is the structured management framework introduced in the 2024 ESC Guidel
 - Related to [[concepts/CHA2DS2-VA]]
 - Related to [[concepts/Catheter-Ablation-AF]]
 - Related to [[entities/Atrial-Flutter]]
+- Related to [[concepts/NOAC-AF-Management]] — practical NOAC use within the [A] Avoid Stroke pillar
+- Related to [[concepts/NOAC-Perioperative]] — procedural management of anticoagulated AF patients
 
 ## Sources
 - [[sources/AF-ESC-2024]]
+- [[sources/noac-ehra-2018]]

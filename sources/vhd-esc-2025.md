@@ -162,13 +162,13 @@ Guidelines · European Society of Cardiology (ESC) · European Association for C
 - [[concepts/Structural-Valve-Deterioration]] — unified definitions for SVD
 - [[entities/Heart-Failure]] — GDMT in ventricular SMR; cardiogenic shock management
 - [[entities/Atrial-Fibrillation]] — LAAO, surgical ablation, anticoagulation strategy
-- [[entities/Pulmonary-Hypertension]] — TR evaluation; TEER contraindicated if severe pre-capillary PH
+- [[concepts/pulmonary-hypertension]] — TR evaluation; TEER contraindicated if severe pre-capillary PH
 - [[entities/ATTR-Amyloidosis]] — coexists with AS in elderly; valve intervention still beneficial
 
 ## Key Entities Mentioned
 - [[entities/Atrial-Fibrillation]] — AF-driven atrial SMR and TR; anticoagulation in VHD
 - [[entities/Heart-Failure]] — ventricular SMR; cardiogenic shock; GDMT optimisation
-- [[entities/Pulmonary-Hypertension]] — post-capillary PH in VHD; pre-capillary PH as contraindication to TR intervention
+- [[concepts/pulmonary-hypertension]] — post-capillary PH in VHD; pre-capillary PH as contraindication to TR intervention
 - [[entities/ATTR-Amyloidosis]] — co-existing AS; bone scintigraphy screening
 
 ## Wiki Pages Updated

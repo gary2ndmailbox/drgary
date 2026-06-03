@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Heart Failure"
 tags: [heart-failure, HFrEF, HFpEF, SGLT2-inhibitors, guideline, acute-heart-failure]
-source_count: 24
+source_count: 25
 last_updated: 2026-05-12
 ---
 
@@ -122,7 +122,7 @@ See [[concepts/Right-Heart-Catheterization]] for full methodology, pitfalls, and
 The four foundational drug classes each carry Class I / COR 1A recommendations (ESC 2021 and AHA 2022). Estimated 73% reduction in all-cause mortality with all four classes vs no treatment. ([[sources/HF-AHA-2022]], rating: very high)
 
 - **ARNi (sacubitril-valsartan):** COR 1A; preferred over ACEi for NYHA II–III; 20% RRR CV death/HF hospitalisation vs enalapril (PARADIGM-HF: HR 0.80; NNT 21; all-cause death HR 0.84; n=8,399; stopped early). ([[sources/arni-paradigm-hf-nejm-2014]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
-- **Beta-blocker / MRA / SGLT2i:** All COR 1A/Class I; SGLT2i reduces CV death and worsening HF regardless of diabetes status. **DAPA-HF** (McMurray, NEJM 2019; n=4,744; 55% no T2DM): primary composite HR 0.74 (NNT=21); all-cause death HR 0.83; renal AEs lower. **EMPEROR-Reduced** (Packer, NEJM 2020; n=3,730; 73% LVEF ≤30%; enriched severe disease): primary composite HR 0.75 (NNT=19); eGFR decline 4× slower (−0.55 vs −2.28 mL/min/yr; P<0.001); composite renal outcome HR 0.50; renal benefit persists post-discontinuation. ([[sources/dapagliflozin-hfref-nejm-2019]], [[sources/empagliflozin-hfref-nejm-2020]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
+- **Beta-blocker / MRA / SGLT2i:** All COR 1A/Class I. **MRA — RALES** (Pitt et al., NEJM 1999; n=1,663; LVEF ≤35%; NYHA III/IV; ACEi + loop diuretic background; pre-BB era; mean 24 months; stopped early): all-cause mortality RR 0.70 (95% CI 0.60–0.82; P<0.001; 30% RRR); progressive HF death RR 0.64 (P<0.001); SCD RR 0.71 (P=0.02); HF hospitalisation RR 0.65 (P<0.001); hyperkalemia 2% vs 1% (NS). SGLT2i reduces CV death and worsening HF regardless of diabetes status. **DAPA-HF** (McMurray, NEJM 2019; n=4,744; 55% no T2DM): primary composite HR 0.74 (NNT=21); all-cause death HR 0.83; renal AEs lower. **EMPEROR-Reduced** (Packer, NEJM 2020; n=3,730; 73% LVEF ≤30%; enriched severe disease): primary composite HR 0.75 (NNT=19); eGFR decline 4× slower (−0.55 vs −2.28 mL/min/yr; P<0.001); composite renal outcome HR 0.50; renal benefit persists post-discontinuation. ([[sources/dapagliflozin-hfref-nejm-2019]], [[sources/empagliflozin-hfref-nejm-2020]], [[sources/HF-AHA-2022]], [[sources/HF-ESC-2021]], rating: very high)
 - **Additional agents:** Loop diuretics (Class I, symptom relief); H-ISDN (COR 1A in self-identified Black patients with NYHA III–IV on GDMT); ivabradine (COR 2a); vericiguat (COR 2b); **digoxin/digitoxin (COR 2b):** DIGIT-HF (n=1,212; ARNi 39.5%, SGLT2i 19.3%; digitoxin 0.07 mg OD; median 36 months): primary composite HR 0.82 (P=0.03; NNT=22); all-cause death noninferiority confirmed; individual components NS; underpowered (1,212 vs planned 2,190); digitoxin ≠ digoxin. ([[sources/digitoxin-hfref-digithf-nejm-2025]], rating: high)
 - **Drugs to AVOID (COR 3 Harm):** Non-dihydropyridine CCBs, Class IC antiarrhythmics, dronedarone, thiazolidinediones, NSAIDs.
 
@@ -305,7 +305,7 @@ Over two-thirds of patients with advanced HF have kidney dysfunction. See [[conc
 - Post-capillary PH affects ≥50% of HFpEF patients; found in 60–70% of severe mitral valve disease and up to 50% of symptomatic aortic stenosis. ([[sources/PHT-ESC-2022]], rating: very high)
 - **PDE5i in HFpEF + isolated post-capillary PH: Class III** — not recommended. Consistent with AHA 2022 COR 3 No Benefit. ([[sources/PHT-ESC-2022]], rating: very high)
 - **CpcPH with severe pre-capillary component (PVR >5 WU):** Individualized approach (Class I); PAH drugs may be considered with close monitoring. ([[sources/PHT-ESC-2022]], rating: very high)
-- See [[entities/Pulmonary-Hypertension]] for full PH classification and management.
+- See [[concepts/pulmonary-hypertension]] for full PH classification and management.
 
 ### Genetic Testing
 - **COR 1, LOE B-NR:** Genetic screening and counseling for first-degree relatives of confirmed genetic/inherited cardiomyopathy. ([[sources/HF-AHA-2022]], rating: very high)
@@ -381,7 +381,7 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 - Related to [[entities/LMNA]]
 - Related to [[entities/TTN]]
 - Related to [[entities/ATTR-Amyloidosis]]
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/pulmonary-hypertension]]
 - Related to [[entities/Obesity]] — obesity as major HF risk factor and HFpEF driver
 - Related to [[entities/HFpEF]]
 - Related to [[concepts/Secondary-Mitral-Regurgitation]]
@@ -439,3 +439,4 @@ See [[concepts/CAM-in-Heart-Failure]] for full evidence synthesis.
 - [[sources/empagliflozin-hfpef-nejm-2021]]
 - [[sources/vericiguat-victoria-nejm-2020]]
 - [[sources/digitoxin-hfref-digithf-nejm-2025]]
+- [[sources/mra-hfref-rales-nejm-1999]]

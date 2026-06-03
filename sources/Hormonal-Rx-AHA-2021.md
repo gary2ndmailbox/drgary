@@ -118,7 +118,7 @@ Androgen deprivation therapy, breast neoplasms, cardiovascular system, endocrine
 ## Key Entities Mentioned
 - [[entities/Atrial-Fibrillation]] — AF risk with CDK4/6 inhibitor combinations
 - [[entities/Heart-Failure]] — increased risk with AIs and ADT
-- [[entities/Pulmonary-Hypertension]] — long-term risk with SERM-induced VTE/PE
+- [[concepts/pulmonary-hypertension]] — long-term risk with SERM-induced VTE/PE
 
 ## Wiki Pages Updated
 - `wiki/sources/Hormonal-Rx-AHA-2021.md` — created

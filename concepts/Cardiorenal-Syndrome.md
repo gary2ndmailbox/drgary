@@ -42,6 +42,13 @@ Cardiorenal syndrome (CRS) refers to the bidirectional pathophysiological intera
 - **Do NOT discontinue GDMT (including loop diuretics in congested patients) solely for eGFR decline** — de-escalating diuretics to preserve eGFR can lead to worsening congestion and adverse outcomes ([[sources/AKI-HF-AHA-2024]], rating: very high)
 - Initial SGLT2i eGFR dip paradoxically associated with improved cardiovascular outcomes and reduced major kidney events (DAPA-HF, EMPA-KIDNEY) ([[sources/AKI-HF-AHA-2024]], rating: very high)
 
+### SGLT2 Inhibitors in CKD (EMPA-KIDNEY Long-Term Evidence)
+- EMPA-KIDNEY post-trial follow-up (n=6,609; ~4 years total): empagliflozin reduced the composite of kidney disease progression or CV death HR 0.79 (95% CI 0.72–0.87) over combined active + post-trial periods ([[sources/empagliflozin-empakidney-nejm-2025]], rating: very high)
+- End-stage kidney disease: 9.0% vs 11.3% (HR 0.74; 95% CI 0.64–0.87); CV death: 3.8% vs 4.9% (HR 0.75; 95% CI 0.59–0.95) ([[sources/empagliflozin-empakidney-nejm-2025]], rating: very high)
+- A **disease-modifying legacy effect** was demonstrated: cardiorenal benefits persisted for ~12 months after stopping empagliflozin (post-trial HR 0.87; 95% CI 0.76–0.99), strongest in first 6 months (HR 0.60), attenuating by year 2 ([[sources/empagliflozin-empakidney-nejm-2025]], rating: very high)
+- Benefits were consistent across diabetic and non-diabetic CKD, all eGFR strata (including eGFR 20–29), all albuminuria categories, and primary kidney disease aetiology ([[sources/empagliflozin-empakidney-nejm-2025]], rating: very high)
+- See [[concepts/SGLT2-Inhibitors-in-CKD]] for full mechanistic and clinical detail
+
 ### Heart-Kidney (H-K) Profiles
 - Proposed clinical classification based on kidney function trajectory, hemodynamics, and treatment response ([[sources/AKI-HF-AHA-2024]], rating: very high):
   - **Profile A:** No kidney dysfunction
@@ -133,7 +140,9 @@ Cardiorenal syndrome (CRS) refers to the bidirectional pathophysiological intera
 - Related to [[entities/HFpEF]]
 - Related to [[concepts/Right-Heart-Catheterization]] — hemodynamic assessment is central to reversibility evaluation
 - Related to [[concepts/Diuretic-Resistance]] — mechanisms and management of diuretic resistance in CRS
+- Related to [[concepts/SGLT2-Inhibitors-in-CKD]] — full evidence base for SGLT2i renoprotection
 
 ## Sources
 - [[sources/AKI-HF-AHA-2024]]
 - [[sources/cardiorenal-aha-2019]]
+- [[sources/empagliflozin-empakidney-nejm-2025]]

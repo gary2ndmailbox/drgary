@@ -2,8 +2,8 @@
 dg-publish: true
 title: "KCNQ1"
 tags: [genetics, ion-channels, channelopathies, potassium-channel]
-source_count: 4
-last_updated: 2026-05-10
+source_count: 5
+last_updated: 2026-05-17
 ---
 
 # KCNQ1
@@ -23,6 +23,8 @@ KCNQ1 is the gene encoding the Kv7.1 α-subunit of the slow delayed rectifier po
 - **SupRep gene therapy for LQT1:** AAV9-SupRep (shRNA suppression of endogenous KCNQ1 + shRNA-immune KCNQ1 cDNA) normalized QTi/APD90 in transgenic LQT1 rabbits, restored physiological β-adrenergic QT shortening, and reduced QT dispersion (Bains 2024; Dotzler 2023). No adverse events. ([[sources/gene-therapy-arrhythmia-2025]])
 - Allele-specific RNAi for KCNQ1 is limited by the hundreds of rare variants — SupRep's mutation-agnostic approach is clinically superior. ([[sources/gene-therapy-arrhythmia-2025]])
 
+- **ACMG SF v3.0 listing — cause-of-death association (Iceland WGS):** KCNQ1 is listed in the ACMG SF v3.0 cardiovascular gene group (LQTS). In the Iceland population WGS study (n=57,933), KCNQ1 actionable genotype carriers were among the seven genes showing evidence of association between the genotype and a relevant disease listed as a cause, direct cause, or contributing factor on the Icelandic Death Registry death certificates (minimum n=6 deceased carriers with registry data). At group level, the overall cardiovascular ACMG gene group did not show a survival difference — but KCNQ1 emerged specifically in cause-of-death analysis, suggesting that LQTS-related arrhythmic death is recorded on death certificates in a proportion of carriers despite the overall neutral group survival signal. ([[sources/genotype-lifespan-nejm-2023]] — high)
+
 - **Association with early-onset AF:** KCNQ1 was the 5th most common gene harboring P/LP variants in 1293 patients with early-onset AF (diagnosed <66 years): 8 participants (6% of all disease-associated variants); median AF diagnosis age 43 years (IQR 29–57). KCNQ1 causes LQT1 (type 1 LQTS), and its presence in early-onset AF reflects the genetic overlap between LQTS and AF. ([[sources/eoaf-jama-2021]])
 
 ### Modifier Genes and Founder Populations
@@ -38,6 +40,7 @@ KCNQ1 is the gene encoding the Kv7.1 α-subunit of the slow delayed rectifier po
 - **SupRep mutation-agnostic rationale — validates complexity of KCNQ1 variant landscape:** The clinical rationale for AAV9-SupRep over allele-specific RNAi in LQT1 is that hundreds of rare KCNQ1 variants exist with no single predominant mutation. This implies that genetic testing in KCNQ1-positive LQT1 will identify diverse rare variants — most with limited variant-specific outcome data — complicating genotype-based risk stratification for individual patients. ([[sources/gene-therapy-arrhythmia-2025]])
 
 ## Connections
+- Related to [[concepts/ACMG-Secondary-Findings]] — KCNQ1 in cardiovascular ACMG SF group; cause-of-death association in Iceland WGS
 - Related to [[concepts/Cardiac-Action-Potential]]
 - Related to [[concepts/Ion-Channel-Mutations]]
 - Related to [[entities/Long-QT-Syndrome]]
@@ -53,3 +56,4 @@ KCNQ1 is the gene encoding the Kv7.1 α-subunit of the slow delayed rectifier po
 - [[sources/gene-therapy-arrhythmia-2025]]
 - [[sources/modifier-genes-scd-ehj-2018]]
 - [[sources/lqts-jaccep-2022]]
+- [[sources/genotype-lifespan-nejm-2023]]

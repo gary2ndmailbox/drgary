@@ -187,7 +187,7 @@ Diastole, Echocardiography, Doppler, Heart failure, Left atrial strain, Diastoli
 - [[entities/Heart-Failure]] — HFpEF diagnosis criteria, natriuretic peptides
 - [[entities/HCM]] — diastolic assessment in HCM
 - [[entities/Atrial-Fibrillation]] — LAP estimation in AF
-- [[entities/Pulmonary-Hypertension]] — LAP estimation algorithm modifications in PH
+- [[concepts/pulmonary-hypertension]] — LAP estimation algorithm modifications in PH
 
 ## Wiki Pages Updated
 - Created: wiki/sources/echo-hfpef-ase-2025.md

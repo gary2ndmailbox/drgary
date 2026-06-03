@@ -2,8 +2,8 @@
 dg-publish: true
 title: "AAV Gene Delivery"
 tags: [gene-therapy, viral-vectors, cardiac-delivery, channelopathies, gene-editing]
-source_count: 3
-last_updated: 2026-05-09
+source_count: 6
+last_updated: 2026-05-23
 ---
 
 # AAV Gene Delivery
@@ -68,6 +68,30 @@ Adeno-associated virus (AAV) vectors are the dominant platform for cardiac gene 
 - **Only PKP2 has reached clinical trial for arrhythmia (as of Jan 2024):** Among 22 identified molecular targets, PKP2 gene replacement (ACM — LEXEO/Rocket trial) is the sole arrhythmia target in a clinical trial. SERCA2a entered clinical trial (AskBio Phase 1) for heart failure — not arrhythmia. All remaining 20 targets are preclinical. ([[sources/aav-gene-therapy-arrhythmia-hr-2024]])
 - **Future directions:** Next-generation cardiotropic capsids with enhanced cardiac specificity; antibody-oligonucleotide conjugates; image-guided and magnetically guided delivery systems; extracellular vesicle-shielded vectors to evade pre-existing immunity. ([[sources/gene-therapy-arrhythmia-2025]])
 
+### Danon Disease — Longest Published AAV Cardiac Follow-Up (RP-A501)
+
+- **RP-A501 (rAAV9-LAMP2B) in Danon disease (n=7 males; 24–54 months; NEJM 2025):** Single IV infusion at low-dose (6.7×10¹³ gc/kg) or high-dose (1.1×10¹⁴ gc/kg); 3-drug immunomodulatory regimen required (prednisone + calcineurin inhibitor + rituximab); 7/7 alive at 4.5 years; LAMP2B protein confirmed in endomyocardial biopsy (6/6 at 12 months; 5/6 at 24–36 months). ([[sources/aav9-danon-nejm-2025]], rating: high)
+- **Efficacy in 6 evaluable patients (LVEF ≥40% at baseline):** LVM index median −23%; troponin I median −84%; natriuretic peptides median −57%; NYHA and KCCQ-12 improved ≥5 points in all 6; adult patients now aged 21–24 years — beyond the natural Danon disease transplant/death age of 19–21 years. ([[sources/aav9-danon-nejm-2025]], rating: high)
+- **Durability of expression confirmed:** Vector DNA and RNA largely sustained at 4.5 years — consistent with non-dividing adult cardiomyocytes preventing episomal dilution. This directly addresses the paediatric dilution concern: in children and adults with non-dividing cardiomyocytes, episomal AAV is stable; the dilution problem is specific to rapidly dividing infant cardiomyocytes (as in infantile-onset Pompe disease). ([[sources/aav9-danon-nejm-2025]], rating: high)
+- **Grade 4 complement-mediated TMA — the dominant safety signal:** Occurred in 1 adult patient receiving high-dose RP-A501 with LVEF 32% at baseline; resulted in thrombocytopenia, AKI requiring RRT, and ultimately cardiac transplantation at 5 months. Complement activation (sC5b-9) was more robust in adult than pediatric patients; mechanism is anti-capsid antibody-driven complement activation. LVEF <40% now an exclusion criterion; low-dose standardised for Phase 2. ([[sources/aav9-danon-nejm-2025]], rating: high)
+- **Immunomodulatory regimen required — and causes significant AEs:** Unlike the Pompe GC301 trial (prophylactic prednisolone only), RP-A501 required a 3-drug immunosuppressive regimen. This caused grade 3 glucocorticoid-induced skeletal myopathy in 3 patients (exacerbation of underlying Danon disease) and salmonella sepsis in 1. Immunosuppression is a critical component but carries its own morbidity — a major practical challenge in a population with pre-existing neuromuscular disease. ([[sources/aav9-danon-nejm-2025]], rating: high)
+- **Anti-LAMP2B antibodies detected (no clinical sequelae):** Binding antibodies to LAMP2B developed in several patients; no LAMP2B-specific T-cell response. This contrasts with GC301 (Pompe) where no anti-GAA antibodies emerged. The mechanism of differential transgene immunogenicity across disease targets is unresolved. ([[sources/aav9-danon-nejm-2025]], rating: high)
+
+### AAV-Based GET Clinical Fatalities in DMD — 2026 ACC Summary
+
+- **DMD — innate immune response fatality (clinical trial):** A 27-year-old with advanced DMD died 8 days after receiving AAV-based CRISPR epigenome editing therapy; cause was an innate immune response to the AAV vector that aggravated his baseline poor state of health from advanced disease. ([[sources/gene-editing-acc-2026]] — very high)
+- **First two boys treated with AAV-CRISPR-Cas12:** In a separate DMD clinical trial, the first two boys showed minimal evidence of long-term dystrophin rescue — despite initial expression. ([[sources/gene-editing-acc-2026]] — very high)
+- **ACC 2026 conclusion:** These events highlight the challenges of clinical translation of AAV-based GETs for myocardial and vascular diseases and suggest that ongoing efforts to develop nonviral methods for transient delivery into these tissues will be more fruitful. ([[sources/gene-editing-acc-2026]] — very high)
+- **Strategic implication (ACC 2026):** Liver-targeted diseases use LNP (re-dosable; lower immunogenicity; no viral genome; GalNAc ensures hepatic specificity); cardiac-targeted diseases require AAV but must contend with all AAV limitations. LNP modifications for non-liver targets are an active research frontier. ([[sources/gene-editing-acc-2026]] — very high)
+
+### Pompe Disease — First Human IV AAV9 Clinical Data (GC301)
+
+- **GC301 (rAAV9-coGAA) in infantile-onset Pompe disease (n=4 infants; NEJM 2025):** Single IV infusion at 1.2 × 10¹⁴ vg/kg + prophylactic prednisolone; 3/4 patients survived 52 weeks with improved cardiac (LVM index, LVEF) and psychomotor outcomes; 2 patients achieved normal HINE scores by 12 months of age; Patients 3 and 4 walked without assistance by 22–25 months. ([[sources/aav9-pompe-nejm-2025]], rating: high)
+- **Key immune finding — no anti-GAA antibodies detected:** Unlike enzyme-replacement therapy (which uniformly induces anti-rhGAA IgG in both CRIM-positive and CRIM-negative patients), no anti-GAA binding antibodies and no GAA-specific cellular responses were detected in any patient throughout the 52-week period. This negative immune response to the transgenic product is reported with other AAV-based therapies; mechanism likely involves hepatic expression promoting regulatory tolerance but remains incompletely understood. ([[sources/aav9-pompe-nejm-2025]], rating: high)
+- **AAV9 crosses the blood–brain barrier:** Preclinical and now clinical evidence (normalized HINE scores) that systemic IV AAV9 achieves CNS transduction — unlike rhGAA, which cannot cross the BBB and leaves CNS glycogen accumulation untreated (causing white matter abnormalities from ~2 years and progressive cognitive decline in ERT-treated survivors). ([[sources/aav9-pompe-nejm-2025]], rating: high)
+- **Respiratory infection impairs gene therapy efficacy:** GAA activity declined to near-baseline during intercurrent pneumonia in Patient 1; LVM index increased transiently during infections. Pneumonia occurred in all 4 patients. AAV9 does not transduce alveolar cells — respiratory tract vulnerability is not corrected by the vector. ([[sources/aav9-pompe-nejm-2025]], rating: high)
+- **Paediatric re-dosing problem applies:** Anti-AAV9 IgG developed and persisted in all 4 patients post-infusion. Episomal transgene dilution during infant growth combined with pre-existing immunity blocking re-dosing creates the same therapeutic catch-22 described for paediatric channelopathies — critical for IOPD where treatment begins in the first 6 months of life. ([[sources/aav9-pompe-nejm-2025]], rating: high)
+
 ## Contradictions / Open Questions
 
 - **IV vs. intracoronary route — no head-to-head data:** Intravenous delivery offers the lowest procedural risk but produces significant off-target liver transduction and lower cardiac uptake. Intracoronary delivery improves cardiac specificity but requires cath lab access and is less effective with coronary disease. No head-to-head RCT defines the optimal route for any cardiac gene therapy indication; route choice is extrapolated from animal studies and manufacturing constraints. ([[sources/gene-therapy-arrhythmia-2025]])
@@ -75,6 +99,9 @@ Adeno-associated virus (AAV) vectors are the dominant platform for cardiac gene 
 - **Episomal dilution vs. re-dosing impossibility in paediatrics:** Childhood-administered AAV therapy will be progressively diluted as cardiomyocytes expand, yet pre-existing immunity prevents re-treatment. This creates a therapeutic catch-22 specific to paediatric channelopathies. ([[sources/gene-therapy-arrhythmia-2025]])
 - **Publication bias inflates preclinical effect sizes:** No study in the 2024 systematic review reported failure. The OR 0.06 for combined VA inducibility almost certainly overestimates clinical translation readiness. This makes it difficult to identify which of the 22 targets are genuinely promising versus artefactually positive. ([[sources/aav-gene-therapy-arrhythmia-hr-2024]], rating: medium)
 - **Editing efficiency threshold discrepancy — 20% vs. >70%:** Base editing of SCN5A p.T1307M at 20% efficiency prevented fatal LQT3 arrhythmias (Qi 2024), conflicting with the >70% structural correction threshold in DMD and ARVC. The most likely explanation is disease-specific: electrophysiological rescue is a population-level emergent property (electrotonic coupling spreads benefit to neighbouring unedited cells), whereas structural repair requires per-cell correction. This distinction has direct implications for which diseases are tractable with lower editing efficiency. ([[sources/aav-gene-therapy-arrhythmia-hr-2024]], [[sources/gene-editing-cv-tcm-2025]])
+- **Anti-transgene immune tolerance in AAV-Pompe disease vs. anti-rhGAA in ERT:** GC301 (AAV9-GAA) induced no anti-GAA antibodies in any patient, while ERT universally induces anti-rhGAA IgG regardless of CRIM status. This discrepancy may reflect hepatic cross-presentation inducing regulatory T-cell tolerance for the AAV-expressed transgene. ([[sources/aav9-pompe-nejm-2025]], rating: high)
+- **Differential transgene immunogenicity — Danon vs. Pompe:** RP-A501 (AAV9-LAMP2B) induced anti-LAMP2B binding antibodies in several patients, while GC301 (AAV9-GAA) induced no anti-GAA antibodies in any patient, despite both delivering therapeutic proteins via systemic IV AAV9. The immunological divergence is unexplained — potentially related to differences in hepatic expression levels, protein structure, or endogenous protein absence (Danon males have zero LAMP2 vs. Pompe patients who may have residual GAA depending on CRIM status). This contrast has implications for how immunomodulatory regimens are designed for future AAV cardiac gene therapies. ([[sources/aav9-danon-nejm-2025]], [[sources/aav9-pompe-nejm-2025]], rating: high)
+- **Complement-mediated TMA — adults more than children, dose-dependent:** In the Danon RP-A501 trial, adult/adolescent patients showed more robust complement activation than pediatric patients; TMA occurred only in the high-dose adult with low LVEF. The pediatric patients had no serious treatment-related AEs. Whether this reflects immune maturity, dose, LVEF, or residual anti-AAV9 antibody load requires prospective characterisation. ([[sources/aav9-danon-nejm-2025]], rating: high)
 
 ## Connections
 - Related to [[concepts/SupRep-Therapy]]
@@ -82,14 +109,20 @@ Adeno-associated virus (AAV) vectors are the dominant platform for cardiac gene 
 - Related to [[concepts/CRISPR-Cas9-in-Channelopathies]]
 - Related to [[concepts/Gene-Editing-Risk-Benefit-Framework]]
 - Related to [[concepts/Epigenetics-Cardiac-Arrhythmia]]
+- Related to [[concepts/Pompe-Disease]]
+- Related to [[concepts/Danon-Disease]]
 - Related to [[entities/CPVT]]
 - Related to [[entities/Long-QT-Syndrome]]
 - Related to [[entities/Brugada-Syndrome]]
 - Related to [[entities/ARVC]]
 - Related to [[entities/RYR2]]
 - Related to [[entities/SCN5A]]
+- Related to [[entities/Genecradle-Therapeutics]]
 
 ## Sources
+- [[sources/gene-editing-acc-2026]]
 - [[sources/gene-therapy-arrhythmia-2025]]
 - [[sources/gene-editing-cv-tcm-2025]]
 - [[sources/aav-gene-therapy-arrhythmia-hr-2024]]
+- [[sources/aav9-pompe-nejm-2025]]
+- [[sources/aav9-danon-nejm-2025]]

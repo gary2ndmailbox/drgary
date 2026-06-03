@@ -38,6 +38,7 @@ Septal reduction therapy (SRT) encompasses invasive procedures to reduce the int
 - ASA: higher risk of AV block and larger residual LVOT gradients. ([[sources/esc-cmp-2023]])
 - Choice depends on anatomy, center expertise, and patient preference; multidisciplinary team assessment required. ([[sources/esc-cmp-2023]])
 - Note: Mavacamten (VALOR-HCM trial) significantly reduced the proportion of patients meeting SRT criteria at 16 and 32 weeks — may serve as a bridge to or substitute for SRT in selected patients. ([[sources/esc-cmp-2023]])
+- **SEQUOIA-HCM (NEJM 2024):** Aficamten reduced SRT eligibility duration by a mean of **78 fewer days** (95% CI −100 to −56) vs placebo over 24 weeks; 49.3% of aficamten patients achieved post-Valsalva LVOTO <30 mmHg vs 3.6% on placebo. Supports role of cardiac myosin inhibitors in deferring or eliminating SRT candidacy. ([[sources/aficamten-sequoiahcm-nejm-2024]], rating: very high)
 
 ### AHA 2024 — Additional Guidance and Outcome Benchmarks
 - **Required outcome targets at HCM centers (AHA 2024):** 30-day mortality ≤1% (both procedures); 30-day complications ≤5%; symptomatic improvement ≥1 NYHA class >90%; rest/provoked LVOT gradient <50 mmHg >90%. Permanent pacemaker rate: ≤5% (myectomy), ≤10% (ASA). Repeat procedure: ≤3% (myectomy), ≤10% (ASA). ([[sources/HCM-AHA-2024]])
@@ -62,3 +63,4 @@ Septal reduction therapy (SRT) encompasses invasive procedures to reduce the int
 ## Sources
 - [[sources/HCM-AHA-2024]]
 - [[sources/esc-cmp-2023]]
+- [[sources/aficamten-sequoiahcm-nejm-2024]]

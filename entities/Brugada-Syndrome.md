@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Brugada Syndrome"
 tags: [channelopathies, inherited-arrhythmias, sudden-cardiac-death, BrS]
-source_count: 10
-last_updated: 2026-05-09
+source_count: 11
+last_updated: 2026-05-30
 ---
 
 # Brugada Syndrome (BrS)
@@ -40,6 +40,7 @@ Brugada syndrome is an inherited channelopathy characterised by coved ST-segment
   - Type 1 (coved) — **diagnostic:** J-point ≥2 mm, descending ST-segment, negative T-wave in V1/V2.
   - Type 2 (saddleback): J-point ≥2 mm, terminal ST ≥1 mm, positive or biphasic T — not diagnostic alone.
   - Type 3: saddleback, terminal ST <1 mm — not diagnostic alone. ([[sources/channelopathies-jaha-2025]])
+- **Brugada vs True RBBB — Pseudo-RBBB distinction:** Brugada ECG is a pseudo-RBBB, NOT true RBBB. Key distinguishing feature: wide S wave in leads I and V6 is **absent** in Brugada (present in true RBBB); ST-T changes in Brugada are spontaneously dynamic. Brugada patients can occasionally have true coexistent RBBB, in which case the Brugada pattern is **concealed** within the RBBB morphology → **Chiale maneuver** (right apical ventricular pacing with appropriately timed AV intervals) can unmask the concealed Brugada ECG pattern. ([[sources/rbbb-ccr-2021]], medium)
 - **High precordial lead positions** (V1/V2 at ICS 2–4) increase diagnostic sensitivity ~1.5× versus standard positions; testing at both standard and high leads is required. ([[sources/brs-jaccep-2022]])
 - **Shanghai Diagnostic Score** (≥3.5 = probable/definite BrS; 2–3 = possible; <2 = non-diagnostic): integrates ECG type, clinical history (syncope, cardiac arrest), family history, and genetic findings. Accounts for phenocopies (RVOT compression, ischaemia, electrolyte disturbances, drug intoxication). ([[sources/channelopathies-jaha-2025]], [[sources/brs-jaccep-2022]])
 - **SCB provocation:** Indicated for type 2/3 ECG or clinical/family history suspicion. Agents: ajmaline (most potent; mainly Europe), flecainide/pilsicainide (Europe/Japan), procainamide (least potent; North America). False-positive rate with high-dose ajmaline: ~8% in BrS families (Tadros et al.); ~27% of AVNRT patients and 4.5% of healthy controls (Hasdemir et al.) — standardisation of protocols needed. Drug-induced type 1 alone is insufficient for definitive diagnosis; no current consensus. ([[sources/brs-jaccep-2022]])
@@ -190,3 +191,5 @@ Brugada syndrome is an inherited channelopathy characterised by coved ST-segment
 - Related to [[concepts/ClinGen-Gene-Disease-Validity]]
 - Related to [[sources/clingen-summary-2026-05-09]]
 - Related to [[sources/genetics-va-fcvm-2022]]
+- Related to [[sources/rbbb-ccr-2021]] — pseudo-RBBB vs true RBBB distinction; Chiale maneuver to unmask concealed Brugada ECG in true RBBB
+- Related to [[concepts/RBBB]] — differential diagnosis: Brugada pseudo-RBBB; key distinguishing features

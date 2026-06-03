@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Sudden Cardiac Death"
 tags: [sudden-cardiac-death, channelopathies, epidemiology, cardiology, circadian-rhythm]
-source_count: 6
+source_count: 7
 last_updated: 2026-05-01
 ---
 
@@ -12,8 +12,9 @@ last_updated: 2026-05-01
 Sudden cardiac death (SCD) is an unexpected death due to a cardiovascular event occurring within 1 hour of symptom onset (if witnessed) or within 24 hours of last being seen alive (if unwitnessed).
 
 ## Key Concepts
-- SCD accounts for approximately half of all cardiovascular deaths, resulting in 250,000–300,000 deaths annually in the United States. ([[sources/channelopathies-jaha-2025]])
-- Up to half of SCD cases represent the first clinical manifestation of underlying heart disease. ([[sources/channelopathies-jaha-2025]])
+- SCD accounts for approximately **50% of all cardiovascular deaths**. The 2017 AHA/ACC/HRS guideline estimates **230,000–350,000 SCD per year** in the US (range <170,000 to >450,000 depending on epidemiological methodology); the 2017 AHA statistics estimated **356,500 out-of-hospital cardiac arrests annually**. ([[sources/va-scd-aha-2017]], rating: very high) (Previous estimate of 250,000–300,000 from [[sources/channelopathies-jaha-2025]])
+- **Out-of-hospital cardiac arrest (OHCA) survival: ~10% overall** (6% when arrest occurs at home; best outcomes from witnessed arrest + bystander CPR + AED + shockable initial rhythm). In-hospital cardiac arrest survival to discharge: ~24%. ([[sources/va-scd-aha-2017]], rating: very high)
+- At least **25% of SCD cases are the first symptomatic cardiac event** ([[sources/va-scd-aha-2017]]); up to half of SCD cases represent the first clinical manifestation of underlying heart disease. ([[sources/channelopathies-jaha-2025]])
 - **Age-dependent etiology:** In younger individuals, primary electrical disorders, cardiomyopathies, myocarditis, and coronary anomalies predominate. From the fourth decade onward, coronary artery disease (especially acute coronary syndrome) accounts for ~50% of cases. In older populations, chronic structural diseases dominate. ([[sources/channelopathies-jaha-2025]])
 - **Channelopathies account for >50% of SCD in individuals aged <50 years**, making them a critical target for prevention in young patients. ([[sources/channelopathies-jaha-2025]])
 - Risk factors for SCD include hypertension, diabetes, dyslipidemia, obesity, and family history of SCD. ([[sources/channelopathies-jaha-2025]])
@@ -46,6 +47,10 @@ Sudden cardiac death (SCD) is an unexpected death due to a cardiovascular event 
 - **Aging reduces circadian substrate protection:** Aged mice (18–20 months) lose the time-of-day arrhythmia resistance peak seen in young mice, suggesting that aging diminishes circadian modulation of myocardial substrate protection. ([[sources/circadian-scd-jmcc-2025]], rating: high)
 - **LQT2 and time-of-day arrhythmia risk:** KCNH2 mutations shortening Kv11.1 protein t½ to <6 h amplify circadian APD swings — providing a mechanistic link between inherited channelopathy, circadian rhythm, and time-of-day arrhythmia clustering. See [[entities/Long-QT-Syndrome]] and [[concepts/Circadian-Rhythm-Cardiac-Electrophysiology]]. ([[sources/circadian-scd-jmcc-2025]], rating: high)
 - **Obesity as the most common non-ischaemic SCA cause:** Every 5-unit BMI increment confers 16% higher SCD risk; mechanisms include LVH, QT prolongation, premature ventricular complexes, autonomic imbalance, and epicardial fat infiltration. See [[entities/Obesity]] and [[concepts/Epicardial-Adipose-Tissue-Arrhythmogenesis]]. ([[sources/obesity-cv-aha-2021]], rating: very high)
+
+- **AHA 2017 VA mechanisms:** SCA/SCD from VA is mediated by three mechanisms: (1) enhanced automaticity (idiopathic VT, accelerated idioventricular rhythm in AMI); (2) triggered activity — early afterdepolarizations (EADs) → TdP in LQTS; delayed afterdepolarizations (DADs) → CPVT, digoxin toxicity, idiopathic outflow tract VA, HF-related VA; (3) reentry — the dominant mechanism for sustained VT in structural heart disease, circulating around scar (post-MI) or functional block. ([[sources/va-scd-aha-2017]], rating: very high)
+- **AHA 2017 SCD age-stratified risk:** Annual SCD risk ~1/100,000 in children/adolescents; steep increase from mid-20s to 35–40 years as ischemic HD emerges; ~1/1,000/year from age 35. SCD is uniformly more common in men at all ages. SCD incidence may decrease after age 75. ([[sources/va-scd-aha-2017]], rating: very high)
+- **Primary prevention ICD for SCD prevention in ischemic HD** provides **high value** (<$50,000/QALY) when arrhythmic death risk is high and competing nonarrhythmic mortality is low. Secondary prevention ICD provides **intermediate value** ($64,000–$100,000/QALY). ([[sources/va-scd-aha-2017]], rating: very high)
 
 ## Contradictions / Open Questions
 - **HCM SCD rate — all-cause cardiovascular mortality vs. SCD-specific rate:** HCM-VA-FCVMed-2022 reports SCD incidence 0.5–1%/year and childhood HCM 5-year SCD rate ~8–10%. ESC CMP 2023 reports annual cardiovascular mortality of 1–2%, which includes non-SCD cardiovascular deaths. Using these figures interchangeably conflates overall cardiovascular mortality with arrhythmic SCD, which may overestimate SCD risk and influence ICD implantation decisions. ([[sources/HCM-VA-FCVMed-2022]], [[sources/esc-cmp-2023]])
@@ -91,6 +96,7 @@ Sudden cardiac death (SCD) is an unexpected death due to a cardiovascular event 
 - Related to [[sources/circadian-scd-jmcc-2025]]
 
 ## Sources
+- [[sources/va-scd-aha-2017]]
 - [[sources/HCM-VA-FCVMed-2022]]
 - [[sources/VA-DCM-Sammani-2020]]
 - [[sources/VA-SCD-ESC-2022]]

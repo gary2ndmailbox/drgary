@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Amiodarone"
 tags: [amiodarone, antiarrhythmic-drugs, drug-toxicity, ventricular-arrhythmias, atrial-fibrillation]
-source_count: 6
+source_count: 7
 ---
 
 # Amiodarone
@@ -40,7 +40,7 @@ Amiodarone is a benzofuran-derived iodine-rich antiarrhythmic agent classified a
   - Kudenchuk 2016 (n=3026): no overall survival benefit; benefit signal in witnessed arrest subgroup only
 - **Hemodynamically tolerated VT:** PROCAMIO RCT (n=62) showed procainamide superior to amiodarone for acute termination and safety — but amiodarone remains widely used due to clinical familiarity. ([[sources/amiodarone-cvdrug-2020]])
 - **ICD storm / recurrent VT prevention:** First-line for ICD shocks. OPTIC study: amiodarone + β-blocker had lowest ICD shock rate vs β-blocker alone or sotalol (higher adverse events). ([[sources/amiodarone-cvdrug-2020]])
-- **Prophylactic amiodarone in HFrEF:** SCD-HeFT (n=2521) — amiodarone showed **no mortality benefit** vs placebo in symptomatic patients with LVEF <35%. Amiodarone does not replace ICD for primary prevention. ([[sources/amiodarone-cvdrug-2020]])
+- **Prophylactic amiodarone in HFrEF:** **SCD-HeFT** (Bardy et al., NEJM 2005; n=2,521; LVEF ≤35%; NYHA II [70%]/III [30%]; ACEi + BB background; median 45.5 months): amiodarone vs placebo overall HR 1.06 (P=0.53) — **no mortality benefit**. Prespecified NYHA class interaction (P=0.004): **NYHA II HR 0.85 (NS) — neutral; NYHA III HR 1.44 (97.5% CI 1.05–1.97) — increased mortality risk**. Amiodarone does not replace ICD for primary prevention; use with caution in NYHA III. ([[sources/icd-hfref-scdheft-nejm-2005]], [[sources/amiodarone-cvdrug-2020]])
 - **VANISH trial:** Catheter ablation superior to drug escalation (including amiodarone) in ischaemic cardiomyopathy with recurrent VT. ([[sources/amiodarone-cvdrug-2020]])
 
 ### Atrial Fibrillation
@@ -147,7 +147,7 @@ See dedicated concept page: [[concepts/Amiodarone-Pulmonary-Toxicity]]
 ## Contradictions / Open Questions
 - **Amiodarone in Anderson–Fabry Disease — contraindicated:** Amiodarone should be avoided in AFD patients because it interferes with lysosomal function, potentially worsening α-Gal A enzymatic deficiency and impairing the efficacy of both ERT and migalastat chaperone therapy. This is distinct from its general safety profile in HFrEF. Antiarrhythmic drug choices in AFD are severely constrained by coexisting LVH, HF, and renal dysfunction. ([[sources/fabry-ehj-2024]], rating: high)
 - **Amiodarone vs. procainamide for stable VT:** PROCAMIO RCT showed procainamide superior in acute termination; however the trial was small (n=62) and procainamide is unavailable as a long-term oral agent in the USA — the practical clinical choice between these two agents is context-dependent. ([[sources/amiodarone-cvdrug-2020]])
-- **Amiodarone in HFrEF — no mortality benefit (SCD-HeFT) but remains only safe AAD:** Amiodarone showed no mortality benefit vs placebo in HFrEF (LVEF <35%) in SCD-HeFT, yet guidelines still designate it the only safe antiarrhythmic for rhythm control in HFrEF. This creates a tension: amiodarone is "safe" in HFrEF in the sense of not worsening mortality, but it does not improve it — it is reserved for arrhythmia suppression as adjunct to ICD/ablation. ([[sources/amiodarone-cvdrug-2020]], [[sources/HF-ESC-2021]])
+- **Amiodarone in HFrEF — NYHA III harm signal vs "only safe AAD" designation:** SCD-HeFT (Bardy et al., NEJM 2005; n=2,521; LVEF ≤35%) showed amiodarone HR 1.06 overall (NS) vs placebo — the basis for "acceptable in HFrEF." However, a prespecified NYHA class interaction (P=0.004) revealed amiodarone HR 1.44 (97.5% CI 1.05–1.97) in NYHA III — statistically significant increased mortality risk. The "only safe antiarrhythmic in HFrEF" designation is most defensible for NYHA II (HR 0.85, neutral); in NYHA III, it is in tension with this significant interaction finding. Guidelines have not stratified the amiodarone safety recommendation by NYHA class. Biological plausibility is uncertain — could reflect disease severity rather than drug effect. ([[sources/icd-hfref-scdheft-nejm-2005]], [[sources/amiodarone-cvdrug-2020]], [[sources/HF-ESC-2021]])
 - **Amiodarone + sofosbuvir (HCV) interaction:** The FDA black box warning for fatal bradycardia with amiodarone + sofosbuvir-containing regimens represents a growing clinical risk as HCV treatment rates rise in older AF/VT patients. The mechanism (additive sinus/AV nodal depression) is not fully characterized. No prospective management protocol exists. ([[sources/amiodarone-cvdrug-2020]])
 - **AIT management — amiodarone continuation vs withdrawal:** ETA 2018 recommends continuing amiodarone for life-threatening arrhythmias in AIT. However, continuation prolongs iodine overload in Type 1 AIT and may delay Type 2 resolution. 75% of patients restarting amiodarone experience another AIT episode. The decision requires joint cardiologist-endocrinologist risk stratification with no high-quality trial to guide it. ([[sources/amiodarone-thyroid-jcem-2021]])
 - **APT and high-concentration oxygen:** Amiodarone-treated patients undergoing cardiac or pulmonary surgery face an ARDS risk with high FiO₂ — estimated 50% fatality; also reported with iodinated contrast media (2 fatal cases). No prospective protocol exists for managing amiodarone-treated patients perioperatively regarding oxygen concentration. Clinicians may not recognise this specific drug-oxygen interaction. ([[sources/amiodarone-pulmonary-clin-chest-2004]])
@@ -177,3 +177,4 @@ See dedicated concept page: [[concepts/Amiodarone-Pulmonary-Toxicity]]
 - Related to [[sources/amiodarone-thyroid-jcem-2021]]
 - Related to [[sources/amiodarone-pulmonary-clin-chest-2004]]
 - Related to [[sources/amiodarone-pulmonary-drugsafety-2010]]
+- Related to [[sources/icd-hfref-scdheft-nejm-2005]]

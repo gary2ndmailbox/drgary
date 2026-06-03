@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Cardiac Repolarization"
 tags: [cardiac-electrophysiology, long-qt-syndrome, short-qt-syndrome, channelopathies, arrhythmia]
-source_count: 2
+source_count: 3
 last_updated: 2026-05-01
 ---
 
@@ -24,6 +24,11 @@ Cardiac repolarization is the restoration of the resting membrane potential in c
 
 ### ECG Parameters of Repolarization
 - **QTc interval** is the primary clinical parameter; Bazett formula used most commonly but Fridericia preferred at higher heart rates. ([[sources/repolarisation-jaccep-2023]])
+- **AHA/ACCF/HRS 2009 QT measurement guidance**: use the lead showing the longest QT (usually V2 or V3); if that value differs >40 ms from adjacent leads, it may be in error — use adjacent leads instead; when T and U waves are inseparable, measure in leads without U waves (aVR or aVL) or use tangent method on T downslope ([[sources/ecg-sttu-aha-2009]], rating: high)
+- **AHA/ACCF/HRS 2009 QT normal thresholds**: **Prolonged QT** — women ≥460 ms; men >450 ms; **Short QT** — ≤390 ms (both sexes) ([[sources/ecg-sttu-aha-2009]], rating: high)
+- **QT correction formula recommendation**: AHA/ACCF/HRS 2009 recommends **linear regression functions** over Bazett's formula; Bazett leaves a residual positive correlation with heart rate (r = 0.32) and may substantially over-correct at high rates; Fridericia leaves negative residual (r = −0.26 to −0.32); QT correction should not be attempted when RR variability is large (e.g., AF) or when T-wave end identification is unreliable ([[sources/ecg-sttu-aha-2009]], rating: high)
+- **QT correction for QRS duration**: when ventricular conduction is prolonged, adjust for QRS duration using covariates in the formula or use the **JT interval** (QT − QRS duration) with JT-specific normal standards ([[sources/ecg-sttu-aha-2009]], rating: high)
+- **QT dispersion NOT recommended** for routine ECG reports (AHA/ACCF/HRS 2009): fundamental methodological problems — lead-to-lead QT differences largely reflect T-loop morphology and measurement artifact, not regional repolarization heterogeneity; concept has not been validated as a measure of localized repolarization dispersion ([[sources/ecg-sttu-aha-2009]], rating: high)
 - **Tpeak-to-T-end (TpTe):** Reflects transmural dispersion of repolarization; distinguishes LQTS mutation carriers from controls and differentiates LQTS subtypes — but is not sensitive enough to separate symptomatic from asymptomatic LQTS patients. ([[sources/repolarisation-jaccep-2023]])
 - **T-wave morphology:** Small variations in T-wave shape independently predict life-threatening arrhythmias in both low- and moderate-risk populations. AI-based morphology analysis achieves AUC 0.741 for identifying concealed LQTS (normal QTc). ([[sources/repolarisation-jaccep-2023]])
 - In **SQTS:** Short/absent ST segments; tall asymmetrical T-waves; prolonged TpTe; shorter J-point-to-Tpeak interval in symptomatic patients. QTc shortening severity does NOT correlate with arrhythmia risk. ([[sources/repolarisation-jaccep-2023]])
@@ -59,6 +64,7 @@ Cardiac repolarization is the restoration of the resting membrane potential in c
 - **EADs vs. R-from-T — relative contribution unresolved:** Both EADs and the R-from-T phenomenon have been proposed as the primary trigger for LQTS arrhythmias. Their relative contributions in human disease (vs. ex vivo/in silico models) remain unresolved. ([[sources/repolarisation-jaccep-2023]])
 - **Electromechanical window direction paradox:** Logic predicts that a longer mechanical systole relative to electrical systole (positive EM window) should be protective. However, clinical data show that a **decreased or negative** EM window is the risk factor for arrhythmias. The exact mechanism — implicating stretch-activated ion channels — is not yet fully understood. ([[sources/repolarisation-jaccep-2023]])
 - **SQTS: QTc severity does not predict arrhythmia risk** — unlike LQTS. This distinction is clinically important but lacks mechanistic explanation at the individual-patient level and has no clinical risk stratification tool equivalent to the Schwartz Score or LQTS 1-2-3 calculator. ([[sources/repolarisation-jaccep-2023]])
+- **Bazett formula persists despite AHA recommendation against it**: AHA/ACCF/HRS 2009 explicitly recommends linear regression over Bazett for QT correction (Bazett residual r = 0.32); yet Bazett remains the dominant formula in clinical practice and most guideline-defined thresholds (including LQTS diagnosis) are derived from Bazett-corrected values. This means the AHA-recommended QT thresholds (women ≥460 ms; men >450 ms using linear regression) are NOT interchangeable with Bazett-derived thresholds used in LQTS scoring systems (e.g., Schwartz Score: QTc ≥480 ms). ([[sources/ecg-sttu-aha-2009]], rating: high)
 
 - Related to [[concepts/ST-T-Changes]]
 - Related to [[sources/STT-mechanism-ACA-2026]]
@@ -77,3 +83,4 @@ Cardiac repolarization is the restoration of the resting membrane potential in c
 ## Sources
 - [[sources/STT-mechanism-ACA-2026]]
 - [[sources/repolarisation-jaccep-2023]]
+- [[sources/ecg-sttu-aha-2009]]

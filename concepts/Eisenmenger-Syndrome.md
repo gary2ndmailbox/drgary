@@ -95,7 +95,7 @@ Eisenmenger syndrome is the consequence of large, unrepaired intra- or extracard
 [[sources/ACHD-AHA-2025]] — very high
 
 ## Connections
-- Related to [[entities/Pulmonary-Hypertension]] — Eisenmenger is a subset of Group 1 PAH (PAH associated with CHD)
+- Related to [[concepts/pulmonary-hypertension]] — Eisenmenger is a subset of Group 1 PAH (PAH associated with CHD)
 - Related to [[concepts/ACHD-AP-Classification]] — Eisenmenger = Stage D by definition
 - Related to [[entities/Atrial-Fibrillation]] — rhythm control critically important in Eisenmenger
 - Related to [[concepts/Right-Heart-Catheterization]] — essential for diagnosis; quantifies PVR and shunt

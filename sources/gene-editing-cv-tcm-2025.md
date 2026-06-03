@@ -132,7 +132,7 @@ A clinical decision framework comparing gene editing to existing standard of car
 - [[entities/PKP2]] — ARVC; mosaicism concern in heterogeneous editing
 - [[entities/ATTR-Amyloidosis]] — TTR gene editing candidate
 - [[entities/Familial-Hypercholesterolemia]] — LDLR/PCSK9/ANGPTL3 editing
-- [[entities/Pulmonary-Hypertension]] — BMPR2 gene delivery in HPAH
+- [[concepts/pulmonary-hypertension]] — BMPR2 gene delivery in HPAH
 
 ## Wiki Pages Updated
 - [[wiki/sources/gene-editing-cv-tcm-2025]] (created)

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Renal Denervation"
 tags: [hypertension, resistant-hypertension, renal-denervation, catheter-based-therapy, sympathetic-nervous-system]
-source_count: 2
-last_updated: 2026-04-25
+source_count: 3
+last_updated: 2026-05-20
 ---
 
 # Renal Denervation
@@ -109,7 +109,23 @@ Three main RDN systems have been studied ([[sources/rnd-aha-2024]], rating: high
 - Multidisciplinary team (hypertension specialist + trained proceduralist: interventional radiologist, interventional cardiologist, or vascular surgeon) required for candidate selection and post-procedure follow-up
 - Physician concerns: invasive procedure, limited long-term data, continued medication reliance
 
+## ESC 2024 Guideline Recommendations (Upgraded from Class III in 2018)
+([[sources/ht-esc-2024]], rating: very high)
+
+| Indication | Class | Level | Key conditions |
+|---|---|---|---|
+| Resistant HT (uncontrolled on 3-drug combination incl. diuretic) | IIb | B | Medium-to-high volume centre; patient preference; multidisciplinary assessment |
+| Increased CVD risk + uncontrolled HT on <3 drugs | IIb | A | Patient preference; shared risk-benefit discussion |
+| First-line BP intervention | III | C | Not recommended regardless of setting |
+| eGFR <40 mL/min/1.73 m² or secondary HT causes | III | C | Insufficient evidence |
+
+- **2018 → 2024 change:** 2018 ESC guidelines classified all device-based BP therapy as Class III (not recommended); 2024 upgrades RDN to Class IIb based on second-generation sham-controlled trial data
+- **Comparison with AHA 2025 (COR 2b):** Both ESC 2024 and AHA 2025 converge on RDN as an option for carefully selected patients with refractory/resistant hypertension — neither recommends it as routine first or second-line therapy
+- **Unresolved issue (ESC 2024 explicit):** No adequately powered CVD outcomes trial exists; RDN effect (~6 mmHg office SBP, ~4 mmHg 24h ABPM) is equivalent to 1 standard medication and most medications are now generic — cost-effectiveness not established except potentially in high-risk resistant HT with non-adherence
+- Renal artery stenosis/dissection requiring stenting: 0.25–0.5%; no long-term sham-controlled safety data beyond 3 years
+
 ## Contradictions / Open Questions
+- **ESC 2024 vs AHA 2025 — indication scope:** ESC IIb, A for increased CVD risk patients with uncontrolled HT on <3 drugs (broader) vs AHA 2025 COR 2b for resistant HT only — ESC allows consideration earlier in the medication escalation pathway ([[sources/ht-esc-2024]], rating: very high; [[sources/HT-AHA-2025]], rating: very high)
 - **Inconsistent RCT efficacy:** Early trials (SYMPLICITY HTN-3, REDUCE HTN:REINFORCE, TARGET BP OFF-MED) negative; newer trials with better technique, drug surveillance, and sham control largely positive — creates uncertainty about generalising across device types ([[sources/rnd-aha-2024]], rating: high)
 - **No CVD outcomes data:** All RCT endpoints are BP-based; no completed trial demonstrates reduction in MI, stroke, or death
 - **Spironolactone vs RDN:** Two trials (DENERVHTA, Prague-15) show unipolar RF RDN inferior or equivalent to spironolactone as 4th agent — optimal sequencing unclear; MRA + RDN combination not studied ([[sources/rnd-aha-2024]], rating: high; [[sources/HT-AHA-2025]], rating: very high)
@@ -124,5 +140,6 @@ Three main RDN systems have been studied ([[sources/rnd-aha-2024]], rating: high
 - Related to [[sources/HT-AHA-2025]] (2025 AHA hypertension guideline: RDN COR 2b)
 
 ## Sources
+- [[sources/ht-esc-2024]]
 - [[sources/HT-AHA-2025]]
 - [[sources/rnd-aha-2024]]

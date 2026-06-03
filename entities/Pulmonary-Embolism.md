@@ -5,7 +5,7 @@ tags:
   - pulmonary-embolism
   - venous-thromboembolism
   - anticoagulation
-source_count: 1
+source_count: 2
 ---
 
 # Pulmonary Embolism
@@ -78,6 +78,7 @@ See detailed framework in [[concepts/Acute-PE-Clinical-Categories]].
 #### Advanced Therapies
 - **Systemic thrombolysis** (rt-PA 100 mg/2 h): COR 2a for Cat E1–2; COR 2b for Cat D; NOT for Cat A1–C2 (COR 3:Harm). Reduces cardiovascular collapse but increases ICH (2.4% in PEITHO). ([[sources/acute-pe-aha-2026]], rating: very high)
 - **CDL**: COR 2a for Cat E1; COR 2b for Cat D; lower bleeding risk than systemic thrombolysis (PEERLESS trial: no difference vs MT in 30-day mortality/bleeding). ([[sources/acute-pe-aha-2026]], rating: very high)
+- **HI-PEITHO RCT (2026) — CDL vs anticoagulation alone in intermediate-risk PE**: 544 patients (intermediate-risk: RV/LV ≥1.0 + elevated troponin + ≥2 cardiorespiratory distress criteria); ultrasound-facilitated CDL with alteplase (EkoSonic, 7-hour bilateral infusion, mean 16.9 mg) + anticoagulation vs anticoagulation alone. Primary composite (PE-related death + cardiorespiratory decompensation/collapse + PE recurrence at 7 days): **4.0% vs 10.3% (RR 0.39; 95% CI 0.20–0.77; P=0.005)**. Effect driven by reduction in cardiorespiratory decompensation/collapse (3.7% vs 10.3%). **No intracranial hemorrhage in either group.** Major bleeding at 30 days: 4.1% vs 3.0% (P=0.64). First RCT to directly compare CDL vs anticoagulation alone; guideline COR 2b for Cat C3–D likely to be upgraded. ([[sources/cdf-pe-hipeitho-nejm-2026]], rating: very high)
 - **Mechanical thrombectomy**: COR 2a for Cat E1; COR 2b for Cat D; no lytic agent; FLAME study: 1.9% in-hospital mortality. ([[sources/acute-pe-aha-2026]], rating: very high)
 - **Surgical embolectomy**: COR 2a for Cat E1; >97% survival in modern series; NOT for Cat E2 (mostly post-operative deaths from anoxic brain injury); NOT for Cat A–C3. ([[sources/acute-pe-aha-2026]], rating: very high)
 
@@ -102,15 +103,17 @@ See detailed framework in [[concepts/Acute-PE-Clinical-Categories]].
 
 ## Contradictions / Open Questions
 - **Systemic thrombolysis for Cat C3 is uncertain**: PEITHO trial prevented cardiovascular collapse but excess ICH; NNT=59 vs NNH=78 for ICH. The role of rescue thrombolysis (treat only those who deteriorate) may be equivalent to prophylactic thrombolysis. ([[sources/acute-pe-aha-2026]], rating: very high)
-- **CDL vs MT equivalence**: PEERLESS trial showed no difference in 30-day mortality or major bleeding, but CDL had more bailout events. Neither directly compared to anticoagulation alone in robust RCT. ([[sources/acute-pe-aha-2026]], rating: very high)
+- **CDL vs MT equivalence**: PEERLESS trial showed no difference in 30-day mortality or major bleeding, but CDL had more bailout events. ([[sources/acute-pe-aha-2026]], rating: very high)
+- **HI-PEITHO resolves the CDL vs anticoagulation gap**: HI-PEITHO (2026 NEJM RCT, n=544) now provides the first RCT demonstrating CDL superiority over anticoagulation alone in intermediate-risk PE (RR 0.39, P=0.005). The guideline COR 2b recommendation for Cat C3–D CDL was based on indirect evidence; HI-PEITHO directly addresses this gap. However, CDL vs MT head-to-head comparison in the same population (intermediate-risk, anticoagulation as common comparator) remains to be established — HI-PEITHO used CDL only; PEERLESS compared CDL vs MT in a similar risk group without anticoagulation-alone arm. ([[sources/cdf-pe-hipeitho-nejm-2026]], rating: very high)
 - **Long-term outcomes of advanced therapies**: Evidence limited to 30–90 days; no data on whether CDL or MT reduces CTEPD incidence or improves long-term functional outcomes. ([[sources/acute-pe-aha-2026]], rating: very high)
 - **Thrombus burden and risk**: Counter-intuitively, meta-analysis found higher all-cause mortality with lower obstruction index; thrombus burden not recommended for risk stratification in Cat A–C. ([[sources/acute-pe-aha-2026]], rating: very high)
 
 ## Connections
 - Related to [[concepts/Acute-PE-Clinical-Categories]]
 - Related to [[entities/CTEPH]]
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/pulmonary-hypertension]]
 - Related to [[sources/acute-pe-aha-2026]]
 
 ## Sources
 - [[sources/acute-pe-aha-2026]]
+- [[sources/cdf-pe-hipeitho-nejm-2026]]

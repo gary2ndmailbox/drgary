@@ -6,8 +6,8 @@ tags:
   - pulmonary-hypertension
   - RV-PA-coupling
   - hemodynamics
-source_count: 1
-last_updated: 2026-04-22
+source_count: 2
+last_updated: 2026-05-17
 ---
 
 # RV–PA Coupling
@@ -18,18 +18,21 @@ RV–PA coupling describes the mechanical match between right ventricular contra
 ## Key Concepts
 
 ### Ees/Ea Ratio — Gold Standard
-- **Optimal coupling:** Ees/Ea between 1.5 and 2.0 — right ventricle efficiently generates force relative to afterload
-- **Uncoupling threshold:** Ees/Ea <≈0.7 — key physiological threshold associated with RV failure; right ventricle unable to compensate for increased afterload
-- Measured invasively via RV conductance catheters using pressure–volume loop analysis
+- **Optimal coupling:** Ees/Ea between 1.5 and 2.0 — right ventricle efficiently generates force relative to afterload; maximal energy transfer from ventricle to circulation
+- **Uncoupling threshold:** Ees/Ea <0.6–0.8 — RV–PA uncoupling; associated with worse clinical outcomes ([[sources/rvfailure-nejm-2023]], rating: very high)
+- Measured invasively via RV conductance catheters during preload reduction (family of PV loops); end-systolic elastance = slope of end-systolic pressure-volume points; Ea = end-systolic pressure ÷ stroke volume
+- In PH: Ees initially increases to offset rising Ea (maintained coupling); eventually contractile reserve exhausted → Ea rises disproportionately → uncoupling ([[sources/rvfailure-nejm-2023]], rating: very high)
 - Clinically, uncoupling is associated with: reduced stroke volume, elevated right atrial pressure, impaired perfusion, increased susceptibility to ischaemia–reperfusion injury, and systemic venous congestion ([[sources/rv-failure-aha-2026]], rating: very high)
+- Single-beat methods (no preload manipulation) and combined RHC + CMR/3D echo approaches are being validated for clinical use ([[sources/rvfailure-nejm-2023]], rating: very high)
 
 ### RV Afterload — Multifactorial
 - RV afterload includes: pulmonary vascular resistance (PVR), pulmonary arterial compliance, characteristic impedance, and pulsatile load
 - PVR alone does not fully capture the haemodynamic burden on the right ventricle — compliance and pulsatile components are independent determinants of RV–PA coupling ([[sources/rv-failure-aha-2026]], rating: very high)
 
 ### Noninvasive Surrogates of RV–PA Coupling
-- **TAPSE/sPAP (tricuspid annular plane systolic excursion / systolic PA pressure):** Most widely used noninvasive coupling index; prognostic across precapillary and postcapillary PH and HF; limitations include: reflects longitudinal shortening only, influenced by angulation and preload, TAPSE may decrease early then plateau in advanced disease
-- **RV free wall strain / sPAP:** Emerging; superior to TAPSE/sPAP for predicting clinical outcomes in PAH — overcomes TAPSE limitations
+- **TAPSE/sPAP (tricuspid annular plane systolic excursion / systolic PA pressure):** Most widely used noninvasive coupling index; at least moderately correlated with gold-standard Ees/Ea; prognostic across precapillary and postcapillary PH and HF; limitations: reflects longitudinal shortening only, influenced by angulation and preload, TAPSE may decrease early then plateau in advanced disease ([[sources/rvfailure-nejm-2023]], rating: very high)
+- **RV free wall strain / sPAP:** Emerging; superior to TAPSE/sPAP for predicting clinical outcomes in PAH — overcomes TAPSE limitations; prognostic across broad cardiovascular disease spectrum ([[sources/rvfailure-nejm-2023]], rating: very high)
+- **CMR SV/ESV ratio:** Simplified RV–PA coupling surrogate; mathematically related to RVEF but non-linear → larger physiologic range and greater sensitivity to change when RVEF mildly–moderately reduced ([[sources/rvfailure-nejm-2023]], rating: very high)
 - **3D echocardiography and CMR volumetry:** RVEF (particularly change in RVEF with therapy) is a robust marker of disease progression and treatment efficacy
 - **CMR tissue characterisation (LGE, T1/T2 mapping):** Detects myocardial fibrosis and inflammation in maladaptive RV remodeling; associated with worse clinical outcomes ([[sources/rv-failure-aha-2026]], rating: very high)
 - **4D flow CMR:** Quantifies RV/RA morphology over time; predicts PH vs gold-standard RHC; assesses tricuspid regurgitation impact on RA function ([[sources/rv-failure-aha-2026]], rating: very high)
@@ -59,7 +62,8 @@ RV–PA coupling describes the mechanical match between right ventricular contra
 - **Sotatercept's long-term RV effects are unclear:** Sotatercept decreases RV mass and improves RVEF, but the long-term consequences of its direct myocardial effects (beyond pulmonary vascular remodeling) require further study ([[sources/rv-failure-aha-2026]], rating: very high)
 
 ## Connections
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/Right-Ventricular-Failure]]
+- Related to [[concepts/pulmonary-hypertension]]
 - Related to [[entities/CTEPH]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[concepts/PAH-Risk-Stratification]]
@@ -68,4 +72,5 @@ RV–PA coupling describes the mechanical match between right ventricular contra
 - Related to [[entities/HFpEF]]
 
 ## Sources
-- [[sources/rv-failure-aha-2026]]
+- [[sources/rvfailure-nejm-2023]] (very high)
+- [[sources/rv-failure-aha-2026]] (very high)

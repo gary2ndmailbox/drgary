@@ -156,7 +156,7 @@ Pregnancy, cardiovascular disease, modified WHO classification, congenital heart
 - [[entities/CPVT]] — non-selective beta-blockers Class I throughout pregnancy + 40 weeks postpartum
 - [[entities/Long-QT-Syndrome]] — postpartum high-risk period; non-selective beta-blockers; delivery risk tiers
 - [[entities/Atrial-Fibrillation]] — most common arrhythmia in pregnancy; management algorithm
-- [[entities/Pulmonary-Hypertension]] — mWHO IV; termination discussed; PAH therapies
+- [[concepts/pulmonary-hypertension]] — mWHO IV; termination discussed; PAH therapies
 - [[entities/Heart-Failure]] — acute HF management; contraindicated drugs
 
 ## Wiki Pages Updated

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "PVC-Induced Cardiomyopathy"
 tags: [premature-ventricular-complexes, PVC-induced-cardiomyopathy, ventricular-arrhythmias, heart-failure, electrophysiology]
-source_count: 1
-last_updated: 2026-05-01
+source_count: 2
+last_updated: 2026-05-29
 ---
 
 # PVC-Induced Cardiomyopathy
@@ -56,13 +56,15 @@ A reversible form of left ventricular (LV) systolic dysfunction caused or aggrav
 - No absolute PVC burden threshold defines cardiomyopathy risk; the 10–24% range represents a spectrum, not a clear cutoff ([[sources/PVC-ablation-jaccep-2024]])
 - Whether PVC-induced cardiomyopathy represents a pure reversible entity or unmasking of subclinical primary cardiomyopathy is uncertain; CMR detects LGE in 16% of apparently idiopathic PVCs, suggesting structural substrate in some cases ([[sources/PVC-ablation-jaccep-2024]])
 - Optimal timing of ablation in asymptomatic patients with preserved LVEF and frequent PVCs (prevent cardiomyopathy vs. await spontaneous resolution) is unresolved ([[sources/PVC-ablation-jaccep-2024]])
+- Non-RVOT outflow tract sites (LVOT, LV summit, AMC) are more likely to cause PVC-induced cardiomyopathy and have greater coupling interval variability with higher cardiac event risk compared to RVOT foci — but no prospective study has quantified this site-specific risk ([[sources/RVOT-LVOT-circ-ep-2019]])
 
 ## Connections
 - Related to [[concepts/PVC-Mapping-Ablation]]
+- Related to [[concepts/OTVA-ECG-Localization]] — non-RVOT sites have higher PVC-CM risk
 - Related to [[entities/DCM]] — reversible DCM mimic; differential diagnosis
 - Related to [[entities/Heart-Failure]] — heart failure as consequence of untreated PVC-induced CMP
 - Related to [[concepts/Late-Gadolinium-Enhancement]] — CMR screens for concealed structural disease
-- Related to [[sources/PVC-ablation-jaccep-2024]]
 
 ## Sources
 - [[sources/PVC-ablation-jaccep-2024]]
+- [[sources/RVOT-LVOT-circ-ep-2019]]

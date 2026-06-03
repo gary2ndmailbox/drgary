@@ -2,7 +2,7 @@
 dg-publish: true
 title: "VA Risk Stratification in Dilated Cardiomyopathy"
 tags: [dilated-cardiomyopathy, ventricular-arrhythmias, ICD, sudden-cardiac-death, risk-stratification]
-source_count: 6
+source_count: 7
 last_updated: 2026-05-14
 ---
 
@@ -42,7 +42,7 @@ Key pooled hazard ratios from the largest VA-specific DCM meta-analysis (Sammani
 - **Caveat:** Pilot study (n=210, single centre); diastolic grading used pre-2016 ASE criteria. Not included in current ESC/AHA VA risk stratification frameworks. See [[concepts/LV-Diastolic-Function]] for grading methodology.
 
 ### LVEF Limitations
-- The standard ICD threshold of LVEF ≤35% is derived from ischaemic disease populations. The DANISH trial (n=1,116; LVEF ≤35%; median 67.6 months) showed no all-cause mortality benefit in non-ischaemic DCM (HR 0.87; P=0.28), despite halving SCD (HR 0.50; P=0.005); benefit was age-dependent (HR 0.64 in age <68 subgroup, P=0.01). ([[sources/icd-nicm-danish-nejm-2016]], [[sources/VA-SCD-ESC-2022]], [[sources/VA-DCM-Sammani-2020]], high)
+- The standard ICD threshold of LVEF ≤35% was established by **SCD-HeFT** (Bardy et al., NEJM 2005; n=2,521; 48% non-ischaemic; LVEF ≤35%; median 45.5 months): ICD HR 0.77 (P=0.007) with no aetiology interaction (P=0.68), confirming primary prevention benefit applies equally to non-ischaemic HF. However, the subsequent **DANISH trial** (n=1,116; LVEF ≤35%; median 67.6 months; enrolled 2008–2014, after ARNi availability) showed no all-cause mortality benefit in NICM (HR 0.87; P=0.28), despite halving SCD (HR 0.50; P=0.005); benefit was age-dependent (HR 0.64 in age <68 subgroup, P=0.01). The discordance between SCD-HeFT (ACEi + BB background only) and DANISH (partial ARNi era) may reflect progressive GDMT improvements independently reducing arrhythmic substrate. ([[sources/icd-hfref-scdheft-nejm-2005]], [[sources/icd-nicm-danish-nejm-2016]], [[sources/VA-SCD-ESC-2022]], [[sources/VA-DCM-Sammani-2020]], high)
 - LVEF as a continuous echocardiographic variable predicts VA (HR 1.45 per 10%), but categorical cutoffs (LVEF <30% or <35%) are non-significant in pooled analysis, suggesting LVEF should not be the sole criterion. ([[sources/VA-DCM-Sammani-2020]], high)
 - Genotype-specific ICD criteria now extended to LVEF 35–50% range for high-risk genotypes (PLN, LMNA, FLNC, RBM20) with additional risk factors. ([[sources/VA-SCD-ESC-2022]])
 
@@ -81,3 +81,4 @@ Key pooled hazard ratios from the largest VA-specific DCM meta-analysis (Sammani
 - [[sources/esc-cmp-2023]]
 - [[sources/arrhythmia-diastolic-circep-2020]]
 - [[sources/icd-nicm-danish-nejm-2016]]
+- [[sources/icd-hfref-scdheft-nejm-2005]]

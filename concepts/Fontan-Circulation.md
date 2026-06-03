@@ -109,7 +109,7 @@ Before cardioversion (any duration of arrhythmia): TOE to exclude thrombus — m
 
 ## Connections
 - Related to [[concepts/ACHD-AP-Classification]] — Fontan is Class III; cannot be Stage A
-- Related to [[entities/Pulmonary-Hypertension]] — PVR assessment before Fontan; pulmonary vasodilators in Fontan
+- Related to [[concepts/pulmonary-hypertension]] — PVR assessment before Fontan; pulmonary vasodilators in Fontan
 - Related to [[entities/Heart-Failure]] — Fontan circulatory failure management; MCS and transplantation
 - Related to [[entities/Atrial-Fibrillation]] — AF/AFL in Fontan; antithrombotic therapy; rhythm control preferred
 - Related to [[concepts/Conduction-System-Pacing]] — pacing strategy in Fontan (minimise ventricular pacing; apical preferred if high burden)

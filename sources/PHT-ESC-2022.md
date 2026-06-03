@@ -138,16 +138,16 @@ Pulmonary hypertension, pulmonary arterial hypertension, CTEPH, haemodynamic def
 
 ## Key Concepts Mentioned
 - [[concepts/PAH-Risk-Stratification]] — 3-strata at diagnosis; 4-strata at follow-up; low-risk target
-- [[concepts/Pulmonary-Hypertension-Classification]] — 5-group clinical classification; pre/post-capillary definitions
+- [[concepts/pulmonary-hypertension]] — 5-group clinical classification; pre/post-capillary definitions
 - [[concepts/Right-Heart-Catheterization]] — gold standard for PH confirmation and haemodynamic assessment
 
 ## Key Entities Mentioned
-- [[entities/Pulmonary-Hypertension]] — main entity; diagnostic threshold, classification, management overview
+- [[concepts/pulmonary-hypertension]] — main entity; diagnostic threshold, classification, management overview
 - [[entities/CTEPH]] — Group 4; PEA/BPA/riociguat therapeutic algorithm
 - [[entities/Heart-Failure]] — Group 2 PH-LHD; HFpEF + PH; PDE5i Class III in post-capillary PH
 
 ## Wiki Pages Updated
-- [[entities/Pulmonary-Hypertension]] — created
+- [[concepts/pulmonary-hypertension]] — created
 - [[entities/CTEPH]] — created
 - [[concepts/PAH-Risk-Stratification]] — created
 - [[entities/Heart-Failure]] — added Group 2 PH-LHD section

@@ -106,7 +106,7 @@ Catheterization; hemodynamics
 
 ## Key Entities Mentioned
 - [[entities/HCM]] — hemodynamic assessment; LVOT gradient provocation; septal ablation requirements
-- [[entities/Pulmonary-Hypertension]] — catheterization technique and vasoreactivity testing
+- [[concepts/pulmonary-hypertension]] — catheterization technique and vasoreactivity testing
 - [[entities/RCM]] — constrictive vs restrictive differentiation by respiratory ventricular concordance/discordance
 
 ## Wiki Pages Updated

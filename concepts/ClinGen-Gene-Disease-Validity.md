@@ -83,7 +83,7 @@ Disease-specific expert panels in cardiovascular medicine:
 - Related to [[entities/Brugada-Syndrome]]
 - Related to [[entities/CPVT]]
 - Related to [[entities/Long-QT-Syndrome]]
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/pulmonary-hypertension]]
 
 ## Sources
 - [[sources/genetic-test-aha-2020]]

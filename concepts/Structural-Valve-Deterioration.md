@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Structural Valve Deterioration"
 tags: [valvular-heart-disease, prosthetic-valves]
-source_count: 2
-last_updated: 2026-04-19
+source_count: 3
+last_updated: 2026-05-17
 ---
 
 # Structural Valve Deterioration
@@ -43,6 +43,7 @@ Structural valve deterioration (SVD) refers to intrinsic permanent change in a p
 - Acute or subacute obstruction of mechanical or biological prosthesis
 - Management: thrombolysis for obstructive left-sided MHV thrombosis (if no contraindication); surgery for high-risk thrombolysis candidates; anticoagulation for non-obstructive thrombosis
 - Imaging critical: CCT and/or fluoroscopy to distinguish thrombosis from pannus
+- **TAVR vs SAVR thrombosis (PARTNER 3, low-risk, 5 years):** Clinically significant valve thrombosis by VARC-3 criteria occurred in 2.5% of TAVR patients vs 0.2% of SAVR patients; none of the 13 thrombosis patients died; 3 had strokes (1 disabling, 2 nondisabling); hemodynamic staging at thrombosis: 4 Stage 1 (no deterioration), 5 Stage 2 (moderate), 3 Stage 3 (severe); mechanism unknown — possibly differential anticoagulation patterns in early post-procedure period [[sources/tavr-partner3-5yr-nejm-2023]] `very high`
 
 ### Non-Structural Dysfunction
 - **Prosthesis-patient mismatch (PPM):** Indexed EOA too small for patient BSA — may lead to persistently elevated gradients post-implantation; severe PPM (iEOA <0.65 cm²/m²) is independently associated with adverse outcomes
@@ -54,7 +55,8 @@ Structural valve deterioration (SVD) refers to intrinsic permanent change in a p
 - Valve-in-valve TAVI is an established option for BHV degeneration — early SVD data for TAVI valves themselves are limited beyond 8–10 years [[sources/vhd-esc-2025]] `very high`
 
 ## Contradictions / Open Questions
-- Long-term durability of TAVI valves in younger patients is the critical unanswered question — 10+ year data are just beginning to emerge
+- Long-term durability of TAVI valves in younger patients is the critical unanswered question — PARTNER 3 shows similar bioprosthetic-valve failure at 5 years (TAVR 3.3% vs SAVR 3.8%) but 10+ year data are not yet available [[sources/tavr-partner3-5yr-nejm-2023]] `very high`
+- **TAVR valve thrombosis:** Significantly more frequent with TAVR (2.5%) vs SAVR (0.2%) in PARTNER 3 at 5 years; pathomechanism is speculative; clinical significance and optimal monitoring/prevention strategy are unresolved [[sources/tavr-partner3-5yr-nejm-2023]] `very high`
 - The optimal management of asymptomatic HALT detected on CCT surveillance is unclear — not all HALT progresses or causes adverse outcomes
 - Valve-in-valve TAVI for surgical BHV degeneration carries risk of high residual gradients (PPM within a ring) — optimal sizing and device selection require further study
 - SVD definitions remain heterogeneous in the literature; the 2025 unified definitions aim to standardise reporting but have not yet been prospectively validated across all valve types and positions
@@ -68,3 +70,4 @@ Structural valve deterioration (SVD) refers to intrinsic permanent change in a p
 ## Sources
 - [[sources/VHD-AHA-2020]]
 - [[sources/vhd-esc-2025]]
+- [[sources/tavr-partner3-5yr-nejm-2023]]

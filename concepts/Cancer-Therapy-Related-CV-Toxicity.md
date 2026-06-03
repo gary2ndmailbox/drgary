@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cancer Therapy-Related Cardiovascular Toxicity (CTR-CVT)"
 tags: [cardio-oncology, cardiovascular-toxicity, CTRCD, heart-failure, cancer, vascular-toxicity]
-source_count: 7
-last_updated: 2026-05-02
+source_count: 8
+last_updated: 2026-05-24
 ---
 
 # Cancer Therapy-Related Cardiovascular Toxicity (CTR-CVT)
@@ -164,10 +164,14 @@ The AHA 2023 Scientific Statement establishes an evidence-based multimodal imagi
 
 #### ICI Myocarditis Management
 - Interrupt ICI in all suspected cases; permanent cessation in confirmed myocarditis (Class I/C). ([[sources/Cardio-Oncology-ESC-2022]], rating: very high)
-- Classification: **Fulminant** (haemodynamic instability, HF requiring ventilation, complete AV block, significant VA) vs. **Non-fulminant**. ([[sources/Cardio-Oncology-ESC-2022]])
-- **Methylprednisolone 500–1000 mg IV daily × 3–5 days** (Class I/C). Switch to oral prednisolone 1 mg/kg/day after improvement (cTn >50% reduction from peak); wean 10 mg/week. ([[sources/Cardio-Oncology-ESC-2022]])
-- **Steroid-refractory:** Second-line immunosuppression (Class IIa/C) — mycophenolate, anti-thymocyte globulin, IVIG, plasma exchange, tocilizumab, abatacept, alemtuzumab, tofacitinib. **Caution: infliximab is associated with cardiac toxicity.** ([[sources/Cardio-Oncology-ESC-2022]])
-- **Fulminant:** ICU (level 3) + IV methylprednisolone + optimal CV treatment including MCS (Class I/C). ([[sources/Cardio-Oncology-ESC-2022]])
+- Classification: **Fulminant** (haemodynamic instability, HF requiring ventilation, complete AV block, significant VA) vs. **Non-fulminant** vs. **Steroid-refractory** (worsening despite high-dose methylprednisolone). ([[sources/Cardio-Oncology-ESC-2022]], [[sources/cancer-rx-cv-acc-2025]])
+- **Methylprednisolone 1,000 mg IV daily × 3 days** (ACC 2025), then oral prednisolone 1 mg/kg/day after improvement; wean ~10 mg/week over 5 weeks. ([[sources/cancer-rx-cv-acc-2025]], rating: very high)
+- **Steroid-refractory:** Second-line immunosuppression — mycophenolate mofetil, tacrolimus, ruxolitinib, abatacept, plasmapheresis, alemtuzumab, antithymocyte globulin, IVIG. **Infliximab: AVOID** — exacerbates HF in myocarditis patients. ([[sources/Cardio-Oncology-ESC-2022]], [[sources/cancer-rx-cv-acc-2025]])
+- **Fulminant:** ICU + IV methylprednisolone + optimal CV treatment including MCS (Class I/C); early additional immunosuppressants critical. ([[sources/Cardio-Oncology-ESC-2022]])
+- **Landmark — upfront targeted immunomodulation (Salem et al.):** Prospective observational study — abatacept + ruxolitinib upfront achieved **3.4% mortality vs. 60%** in historical steroids-only control group; ongoing RCTs will validate this approach. ([[sources/cancer-rx-cv-acc-2025]], rating: very high)
+- **Non-cardiac biomarkers for early detection:** CPK/AST/ALT/LDH rise ~20 days before clinical ICI myocarditis presentation; CPK has 99% sensitivity (23% specificity); absence of elevated CPK/AST/ALT/LDH makes significant ICI myocarditis highly unlikely. ([[sources/cancer-rx-cv-acc-2025]])
+- **cTnT thresholds:** <2× ULN (28 ng/L) mostly benign; >2-fold rise → ~1/3 develop ICI myocarditis; >32× ULN peak cTnT → 9× MACE risk at 100 days. ([[sources/cancer-rx-cv-acc-2025]])
+- **ICI rechallenge:** NCCN/ASCO recommend permanent discontinuation for grade ≥2; case-by-case rechallenge may be considered for low-severity if no oncological alternative. ([[sources/cancer-rx-cv-acc-2025]])
 
 #### Coronary Artery Disease in Cancer
 - Mechanisms: accelerated atherosclerosis (ADT, ICI, nilotinib, ponatinib, RT, VEGFi), vasospasm (bleomycin, fluoropyrimidines, taxanes, vinca alkaloids), coronary thrombosis (cisplatin, cyclophosphamide, erlotinib, ICI, IMiDs). ([[sources/Cardio-Oncology-ESC-2022]], rating: very high)
@@ -238,17 +242,39 @@ From 2019 AHA Vascular Cardio-Oncology Statement. ([[sources/cardio-oncology-vas
 - **Monitoring:** CV risk assessment + ECG + lipid profile + HbA1c (I/C); baseline TTE in symptomatic CVD history (I/C). ([[sources/Cardio-Oncology-ESC-2022]])
 - **Rechallenge after vasospasm:** Controversial; requires monitored unit + prophylactic long-acting nitrates + CCBs after excluding severe CAD.
 
-#### VEGFi (Bevacizumab, Sunitinib, Sorafenib, Pazopanib)
+#### VEGFi (Bevacizumab, Sunitinib, Sorafenib, Pazopanib, and others)
 - **Toxicities:** Hypertension (20–80%, class effect); arterial/venous thromboembolism; CTRCD; QTc prolongation (sunitinib, sorafenib, vandetanib). ([[sources/Cardio-Oncology-ESC-2022]])
+- **HTN mechanism (ACC 2025):** ↓eNOS/NO, ↑endothelin-1, capillary rarefaction, renal sodium retention ([[sources/cancer-rx-cv-acc-2025]], rating: very high)
+- **HTN management thresholds (ACC 2025):**
+  - Severe HTN (≥180/110 mmHg): withhold VEGF inhibitor until <160/100, then resume
+  - BP ≥160/100 on presentation: **initiate dual antihypertensives immediately**
+  - **BP target: <130/80 mmHg** regardless of CV risk factors
+  - Preferred: ACE-I/ARB + amlodipine (DHP CCB); avoid non-DHP CCBs (CYP3A4 drug interaction ↑ VEGF inhibitor levels) ([[sources/cancer-rx-cv-acc-2025]])
+- **VEGF inhibitor HF:** GDMT (ARNi/ACE-I/ARB, BB, MRA, SGLT2i); GLP-1 RA promising (pending RCT evidence) ([[sources/cancer-rx-cv-acc-2025]])
+- **VTE anticoagulation (ACC 2025):** Apixaban generally preferred (fewer bleeding events); LMWH for GI/GU malignancies; Khorana score or COMPASS-CAT for primary thromboprophylaxis ([[sources/cancer-rx-cv-acc-2025]])
+- **Ponatinib:** FDA Boxed Warning for arterial occlusive events (fatal MI, stroke, peripheral vascular disease); heightened surveillance with ankle-brachial index + antiplatelet + statin ([[sources/cancer-rx-cv-acc-2025]])
 - **Monitoring:** Daily home BP monitoring first cycle + after dose increases (I/C); QTc monthly × 3 months then every 3–6 months if prolongation risk (I/C); TTE every 3 months (high/VH risk, IIa/C) or 4 months (moderate risk, IIb/C) during year 1. When VEGFi stops, anticipate BP drop and pre-emptively reduce antihypertensives. ([[sources/Cardio-Oncology-ESC-2022]])
 
 #### BCR-ABL TKIs (Imatinib, Dasatinib, Nilotinib, Ponatinib)
 - **Toxicities:** Drug-specific — dasatinib: PAH (5%), HF, pleural/pericardial effusion; nilotinib + ponatinib: arterial occlusive events, PAD, MI; second/third-generation agents more cardiotoxic than imatinib; QTc prolongation. ([[sources/Cardio-Oncology-ESC-2022]])
 - **Monitoring:** Baseline CV risk assessment (I/C); CV risk assessment every 3 months year 1 (I/C); dasatinib: mandatory baseline TTE (I/C), TTE every 3 months year 1 in high/VH risk (IIa/C); nilotinib: QTc at baseline, 2 and 4 weeks, after dose increases (IIa/C), serial lipid profile + HbA1c; ponatinib: serial ankle-brachial index (IIb/C). ([[sources/Cardio-Oncology-ESC-2022]])
 
-#### BTK Inhibitors (Ibrutinib, Acalabrutinib)
+#### BTK Inhibitors (Ibrutinib, Acalabrutinib, Zanubrutinib, Pirtobrutinib)
 - **Toxicities:** AF (major toxicity); ventricular arrhythmias (without QT prolongation); hypertension; HF. Acalabrutinib: lower symptomatic CV events but comparable grade ≥3 AF in elderly/prior AF patients. ([[sources/Cardio-Oncology-ESC-2022]])
-- **Monitoring:** Baseline CV risk assessment + ECG + BP; serial BP monitoring; ECG if palpitations/syncope; TTE in symptomatic HF. ([[sources/Cardio-Oncology-ESC-2022]])
+- **AF incidence by generation:** Ibrutinib 3–16%; acalabrutinib 5–9%; zanubrutinib 3–6%; pirtobrutinib 3.2% ([[sources/cancer-rx-cv-acc-2025]], rating: very high)
+- **Hypertension incidence:** Ibrutinib — new HTN 71.6% of normotensive patients; worsening HTN 82.4%; high-grade HTN (>160/100) in up to 18%; acalabrutinib 59%; zanubrutinib 5–11% ([[sources/cancer-rx-cv-acc-2025]])
+- **HF:** Ibrutinib — VigiBase pharmacovigilance ROR 3.5 (P<0.0001) ([[sources/cancer-rx-cv-acc-2025]])
+- **Ventricular arrhythmia:** Ibrutinib — 12× higher VA risk vs. non-BTKi-treated subjects ([[sources/cancer-rx-cv-acc-2025]])
+- **Critical drug interactions with ibrutinib** ([[sources/cancer-rx-cv-acc-2025]]):
+  - Diltiazem/verapamil (non-DHP CCBs): **MAJOR** — ↑ ibrutinib levels **6–9×** via CYP3A4 inhibition → avoid; use DHP CCBs (amlodipine) instead
+  - Amiodarone/dronedarone: **MAJOR** — ↑ ibrutinib levels **6–9×** via CYP3A4 inhibition → avoid
+  - Dabigatran: **MAJOR** — ↑ dabigatran levels via P-glycoprotein inhibition → contraindicated
+  - Factor Xa inhibitors: Moderate interaction (↑ levels) — but no significant clinical adverse events observed; preferred anticoagulation class
+  - Digoxin: Moderate — ↑ levels; avoid
+- **AF management during ibrutinib:** Hemodynamic stability determines strategy; rate control with beta-blockers preferred (not non-DHP CCBs); Factor Xa inhibitors as preferred anticoagulation; avoid dabigatran; consider LAA closure or AF ablation in select patients with no oncological alternatives ([[sources/cancer-rx-cv-acc-2025]])
+- **HTN management:** Avoid non-DHP CCBs; thiazide+BB effective for prior HTN; thiazide+ACE-I/ARB for new-onset HTN; strongly consider switching to 2nd/3rd-gen BTKi ([[sources/cancer-rx-cv-acc-2025]])
+- **Monitoring (ACC 2025):** BP every visit; ECG every 3 months for year 1, then every 3–6 months; home BP monitoring; opportunistic AF screening ([[sources/cancer-rx-cv-acc-2025]])
+- **Switching:** Switch to acalabrutinib/zanubrutinib (2nd-gen) or pirtobrutinib (3rd-gen) if CV toxicity; ibrutinib's continued use despite alternatives often reflects insurance/accessibility barriers ([[sources/cancer-rx-cv-acc-2025]])
 
 #### Multiple Myeloma Therapies (Carfilzomib, Bortezomib, IMiDs)
 - **Toxicities:** Carfilzomib: HF/CTRCD, hypertension, VTE. IMiDs (thalidomide/lenalidomide): VTE, bradyarrhythmia. Proteasome inhibitors risk AL-cardiac amyloidosis. ([[sources/Cardio-Oncology-ESC-2022]])
@@ -383,6 +409,7 @@ For the complete drug-by-drug arrhythmia framework, see [[concepts/Cancer-Associ
 - Related to [[concepts/Clonal-Hematopoiesis]] — t-CH (TP53/PPM1D/CHEK2/ATM) selected by chemotherapy/radiation; amplifies anthracycline cardiomyopathy and myocardial fibrosis via NLRP3/IL-1β
 - Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
 - Related to [[sources/ch-aha-2026]]
+- Related to [[sources/cancer-rx-cv-acc-2025]] — 2025 ACC CCG: BTK/ICI/VEGF inhibitor CV toxicity; ibrutinib drug interaction tables; Salem abatacept+ruxolitinib landmark (3.4% vs 60% mortality); CPK 20-day pre-clinical rise; dual antihypertensive threshold; BP target <130/80 for VEGF inhibitors
 
 ## Sources
 - [[sources/Cardio-Oncology-ESC-2022]]
@@ -392,3 +419,4 @@ For the complete drug-by-drug arrhythmia framework, see [[concepts/Cancer-Associ
 - [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
 - [[sources/ch-aha-2026]]
 - [[sources/imaging-cardio-oncology-aha-2024]]
+- [[sources/cancer-rx-cv-acc-2025]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Visceral Adiposity and Ectopic Fat"
 tags: [obesity, cardiovascular-disease, visceral-adiposity, epicardial-fat, atrial-fibrillation]
-source_count: 1
-last_updated: 2026-04-29
+source_count: 2
+last_updated: 2026-05-17
 ---
 
 # Visceral Adiposity and Ectopic Fat
@@ -55,6 +55,10 @@ Visceral adiposity refers to excess intra-abdominal fat (visceral adipose tissue
 
 ---
 
+## Pharmacologic Reduction of Visceral Adiposity — Semaglutide in HFpEF
+- Semaglutide 2.4mg SC once weekly (GLP-1 receptor agonist) produced −13.3% weight loss vs −2.6% with placebo in 529 patients with obesity-HFpEF over 52 weeks (STEP-HFpEF, NEJM 2023). Reduction in visceral adipose tissue is proposed as a key mechanism of the concurrent large improvements in HF symptoms (+7.8 KCCQ-CSS points), exercise function (+20.3m 6MWT), and CRP (−43.5%). ([[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
+- NT-proBNP fell significantly despite weight loss (normally expected to rise with weight reduction in obesity, due to reduced natriuretic peptide clearance by adipose tissue) — indicating that VAT/visceral adiposity reduction produced genuine hemodynamic benefit beyond simple weight reduction. ([[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
+
 ## Impact of Lifestyle Interventions on Ectopic Fat
 - **Exercise:** Aerobic exercise (3–5 sessions/week for 12–52 weeks) reduces VAT by ~6.1% even in the absence of weight loss (meta-analysis); 150 min/week may be sufficient. High-intensity vs moderate-intensity exercise data are inconsistent. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - **Diet:** Caloric restriction reduces VAT and hepatic fat; exercise appears superior to diet alone for VAT reduction in most studies. ([[sources/obesity-cv-aha-2021]], rating: very high)
@@ -82,7 +86,10 @@ Visceral adiposity refers to excess intra-abdominal fat (visceral adipose tissue
 - Related to [[entities/Heart-Failure]] — VAT-driven hemodynamic changes and myocardial effects
 - Related to [[concepts/OSA-Arrhythmogenic-Substrate]] — EAT and sleep apnoea interaction
 - Related to [[entities/Obstructive-Sleep-Apnea]] — EAT and sleep apnoea severity independent of BMI
+- Related to [[entities/Semaglutide]] — GLP-1 RA reducing visceral fat as key HFpEF mechanism
+- Related to [[sources/semaglutide-stephfpef-nejm-2023]] — STEP-HFpEF; VAT reduction proposed key mechanism
 
 ## Sources
 - [[sources/epi-adipose-arrhythmia-jacc-2021]]
 - [[sources/obesity-cv-aha-2021]]
+- [[sources/semaglutide-stephfpef-nejm-2023]]

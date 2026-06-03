@@ -210,7 +210,7 @@ AHA Scientific Statements; acute kidney injury; biomarkers; cardio-renal syndrom
 ## Key Entities Mentioned
 - [[entities/Heart-Failure]] — CRS types 1–5 classification, beta-blockers/RAAS in CKD, device therapy
 - [[entities/ATTR-Amyloidosis]] — Type 5 CRS aetiology
-- [[entities/Pulmonary-Hypertension]] — RV dysfunction, PH in KT candidates
+- [[concepts/pulmonary-hypertension]] — RV dysfunction, PH in KT candidates
 
 ## Wiki Pages Updated
 - `wiki/sources/cardiorenal-aha-2019.md` — created

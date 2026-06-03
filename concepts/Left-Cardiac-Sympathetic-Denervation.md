@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Left Cardiac Sympathetic Denervation"
 tags: [surgery, channelopathies, LQTS, CPVT, arrhythmia-management]
-source_count: 4
-last_updated: 2026-05-09
+source_count: 5
+last_updated: 2026-05-16
 ---
 
 # Left Cardiac Sympathetic Denervation
@@ -13,6 +13,8 @@ Left cardiac sympathetic denervation (LCSD) is a surgical procedure involving th
 
 ## Key Concepts
 - **Indication in LQTS:** Recommended as an additional treatment when β-blockers are insufficient or intolerable. Post-LCSD QTc <500 ms predicts procedural effectiveness; persistent QTc >500 ms post-LCSD indicates elevated SCD risk and ICD candidacy. ([[sources/channelopathies-jaha-2025]])
+- **Electrical storm — 90% ICD shock reduction:** In patients with electrical storms (multiple VT/VF episodes requiring appropriate ICD interventions), LCSD reduces the annual incidence of ICD shocks by **90%**, thus preserving quality of life. Clinically significant QTc shortening occurs in most patients post-LCSD, and this shortening is associated with greater long-term protection. ([[sources/lqts-nejm-2025]], rating: very high)
+- **ICD should not be placed without LCSD discussion:** Given the constantly growing number of centres performing LCSD worldwide, there is no longer justification to implant an ICD in patients with recurrent syncope on beta-blockers without first informing them of the pros and cons of LCSD vs ICD. ([[sources/lqts-nejm-2025]])
 - **Indication in CPVT:** Effective antiarrhythmic intervention in patients refractory to pharmacological treatment; reduces proarrhythmogenic sympathetic stimulation. ([[sources/channelopathies-jaha-2025]])
 - **CPVT multicenter outcome data (n=63):** Major cardiac events declined from 86% (54/63) to 21% (13/63; p<0.001) over median 37-month follow-up; mean annual event rate fell from 3.4 to 0.5/year (**92% reduction**). In the subgroup persistently symptomatic on optimal medical therapy pre-LCSD, one-third experienced recurrent events post-LCSD. Study suggests LCSD is preferable to ICD for persistent syncope on optimal medical therapy and may complement ICD in patients with recurrent shocks. ([[sources/cpvt-jcm-2024]])
 - **Triple therapy:** Expert consensus now advocates nadolol + flecainide + LCSD as first-line approach in CPVT patients presenting with a sentinel SCA — LCSD provides an additional protection layer against the consequence of a single missed medication dose. ([[sources/cpvt-jcm-2024]])
@@ -45,3 +47,4 @@ Left cardiac sympathetic denervation (LCSD) is a surgical procedure involving th
 - [[sources/VA-SCD-ESC-2022]]
 - [[sources/precision-lqts-tcm-2024]]
 - [[sources/cpvt-jcm-2024]]
+- [[sources/lqts-nejm-2025]]

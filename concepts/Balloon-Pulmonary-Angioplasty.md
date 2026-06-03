@@ -99,7 +99,7 @@ Disease level on NS-iPA governs treatment selection:
 
 ## Connections
 - Related to [[entities/CTEPH]]
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/pulmonary-hypertension]]
 - Related to [[concepts/PAH-Risk-Stratification]]
 - Related to [[concepts/Right-Heart-Catheterization]]
 - Related to [[concepts/Acute-PE-Clinical-Categories]]

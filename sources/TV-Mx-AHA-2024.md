@@ -219,7 +219,7 @@ Tricuspid valve, tricuspid regurgitation, heart failure, heart valve prosthesis 
 - [[concepts/Structural-Valve-Deterioration]] — future concern for transcatheter TV devices
 
 ## Key Entities Mentioned
-- [[entities/Pulmonary-Hypertension]] — primary driver of ventricular secondary TR
+- [[concepts/pulmonary-hypertension]] — primary driver of ventricular secondary TR
 - [[entities/Heart-Failure]] — underlying substrate for secondary TR; GDMT cornerstone
 - [[entities/Atrial-Fibrillation]] — driver of atrial secondary TR; rhythm control variable benefit on TR
 

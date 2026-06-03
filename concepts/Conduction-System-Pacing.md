@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Conduction System Pacing"
 tags: [conduction-system-pacing, cardiac-pacing, his-bundle-pacing, left-bundle-area-pacing, cardiac-resynchronization-therapy]
-source_count: 4
-last_updated: 2026-05-11
+source_count: 5
+last_updated: 2026-05-23
 ---
 
 # Conduction System Pacing
@@ -71,6 +71,12 @@ CSP encompasses several distinct entities arranged by anatomical level [[sources
 - Ongoing trial: CSPOT (NCT04905290)
 - Both HOT-CRT and LOT-CRT remain investigational
 
+### ACC/AHA/HRS 2018 Guideline Recommendations for His Bundle Pacing
+- **Class IIa (B-R [SR])**: In patients with AV block requiring PPM + LVEF 36–50% + expected ventricular pacing >40%: physiologic pacing (CRT or His bundle pacing) preferred over RV pacing — prevents pacing-induced cardiomyopathy ([[sources/bradycardia-acc-aha-hrs-2018]], very high)
+- **Class IIb (B-R [SR])**: In patients with AV block at level of the AV node requiring PPM: His bundle pacing may be considered to maintain physiologic ventricular activation ([[sources/bradycardia-acc-aha-hrs-2018]], very high)
+- Context: 2018 guideline was the first ACC/AHA/HRS guideline to formally recommend His bundle pacing; evidence based on systematic review "Impact of Physiologic Versus Right Ventricular Pacing Among Patients With Left Ventricular Ejection Fraction Greater Than 35%"
+- Recommendations denoted by [SR] = informed by systematic review; precede the 2023 EHRA CSP expert consensus
+
 ### AUC 2025 Appropriateness Ratings for CSP
 The ACC/AHA/HRS 2025 AUC formally evaluated CSP scenarios ([[sources/icd-crt-auc-2025]], rating: high):
 - **HBP or LBBAP as alternative to RV pacing** (anticipated pacing burden >40%, normal LVEF): **A(7)** — physiological activation preferred over chronic RVP
@@ -109,6 +115,7 @@ Seven small RCTs (29–167 patients, 6–18 months follow-up) [[sources/csp-jacc
 - Related to [[entities/Atrial-Fibrillation]] (AVJ ablation: LBBAP preferred over HBP)
 
 ## Sources
+- [[sources/bradycardia-acc-aha-hrs-2018]] — 2018 ACC/AHA/HRS guideline; first formal Class IIa/IIb recommendations for His bundle pacing in AV block
 - [[sources/csp-ehra-2023]]
 - [[sources/csp-jaccep-2023]]
 - [[sources/periop-cied-aha-2024]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Gut Microbiome in Heart Failure"
 tags: [gut-microbiome, heart-failure, TMAO, dysbiosis, precision-medicine]
-source_count: 1
-last_updated: 2026-04-29
+source_count: 2
+last_updated: 2026-05-27
 ---
 
 # Gut Microbiome in Heart Failure
@@ -51,6 +51,8 @@ The gut microbiome in HF refers to how intestinal microbial composition and func
 #### Dietary Modification
 - **Mediterranean diet:** Adherence reduces the risk of developing HF by **21% over 10 years** (RR 0.79, 95% CI 0.68–0.93; P=0.004) in a large population-based cohort without known CVD. Mechanism includes reduced dietary trimethylamine-producing substrates → lower TMAO production. ([[sources/HF-Precision-Medicine-AHA-2019]], rating: high)
 - A 5-day diet change is sufficient to alter gut microbiome composition. Vegetarian/vegan diets further reduce trimethylamine substrate availability. ([[sources/HF-Precision-Medicine-AHA-2019]], rating: high)
+- **DASH diet and TMAO:** The DASH diet's high fiber and plant-based food content may favorably alter gut microbiome composition; very little is known about DASH-specific dietary modulation of gut microbiome in end-stage HF with chronic gut hypoperfusion. Metabolomic studies confirm gut-derived food-specific compounds (including benzoate pathway metabolites from soy) are detected in blood and urine after DASH interventions. ([[sources/dash-nutrients-2021]], rating: medium)
+- **DASH metabolomics in HFpEF:** A targeted metabolomics study in HFpEF patients on a DASH sodium-restricted diet found short-chain acyl carnitine metabolites (L-carnitine, propionyl carnitine) increased significantly, correlating with improved LV contractility and inversely with ventricular stiffness — suggesting metabolically beneficial gut–cardiac axis effects from dietary modification. ([[sources/dash-nutrients-2021]], rating: medium)
 
 #### Probiotics
 - Multiple probiotic strains shown to reduce blood pressure and cardiovascular risk in non-HF populations.
@@ -70,6 +72,7 @@ The gut microbiome in HF refers to how intestinal microbial composition and func
 ## Contradictions / Open Questions
 - **Current HF guideline-directed therapy and gut dysbiosis:** The effect of standard GDMT (beta-blockers, ACEi/ARNi, MRA, SGLT2i, diuretics) on gut microbiome composition and dysbiosis is largely unstudied — diuretic therapy may decrease intestinal oedema and normalise endotoxin levels, but no systematic study exists. ([[sources/HF-Precision-Medicine-AHA-2019]], rating: high)
 - **TMAO — biomarker or causal mediator?** TMAO strongly predicts outcomes, but whether lowering TMAO improves HF outcomes is unproven. Reducing dietary choline/carnitine to lower TMAO would conflict with potential benefits of carnitine supplementation in some HF patients. Causal evidence in humans is lacking. ([[sources/HF-Precision-Medicine-AHA-2019]], rating: high)
+- **L-carnitine direction of effect:** CAM-in-HF literature supports L-carnitine supplementation improving LVEF and BNP in HF (meta-analysis); yet gut microbiome research identifies carnitine as a TMAO precursor predicting adverse outcomes. The DASH metabolomics study shows increased acyl carnitines correlate with improved LV function in HFpEF. The net effect of L-carnitine in HF — beneficial (direct metabolic) vs harmful (via TMAO production) — remains unresolved and is likely microbiome-composition-dependent. [[sources/dash-nutrients-2021]] (medium); [[sources/HF-Precision-Medicine-AHA-2019]] (high)
 - **Gut intervention trial evidence is minimal:** All HF-specific microbiome intervention studies are small, short-term, or non-randomised. Fecal microbiota transplantation (FMT) has not been studied in HF. RCT-level evidence does not yet exist to support any specific microbiome-targeted intervention for HF outcomes. ([[sources/HF-Precision-Medicine-AHA-2019]], rating: high)
 
 ## Connections
@@ -80,3 +83,4 @@ The gut microbiome in HF refers to how intestinal microbial composition and func
 
 ## Sources
 - [[sources/HF-Precision-Medicine-AHA-2019]]
+- [[sources/dash-nutrients-2021]]

@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Hypertrophic Cardiomyopathy (HCM)"
 tags: [cardiomyopathy, sudden-cardiac-death, genetics, multimodality-imaging, guideline]
-source_count: 12
-last_updated: 2026-05-09
+source_count: 14
+last_updated: 2026-05-16
 ---
 
 # Hypertrophic Cardiomyopathy (HCM)
@@ -45,6 +45,8 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - Step-wise pharmacological therapy: (1) non-vasodilating beta-blockers (Class I, Level B); (2) verapamil or diltiazem (Class I, Level B); (3) disopyramide added to beta-blockers (Class I, Level B); (4) Mavacamten as addition (Class IIa, Level A). ([[sources/esc-cmp-2023]])
 - Vasodilators (nitrates, phosphodiesterase inhibitors, digoxin) should be avoided in LVOTO patients. ([[sources/esc-cmp-2023]])
 - Septal reduction therapy (surgical myectomy or alcohol septal ablation) for LVOTO ≥50 mmHg + NYHA III–IV refractory to maximal therapy (Class I). See [[concepts/Septal-Reduction-Therapy]]. ([[sources/esc-cmp-2023]])
+- **SEQUOIA-HCM (NEJM 2024) — aficamten vs placebo on background therapy:** Phase 3 RCT (N=282; 24 weeks) demonstrated aficamten added to background therapy (beta-blockers in 61%) improved peak VO2 by +1.7 ml/kg/min vs placebo (P<0.001) and hit all 10 secondary endpoints — NYHA improvement 58.5% vs 24.3%, Valsalva LVOTO −50 mmHg, KCCQ-CSS +7 points, NT-proBNP ~80% reduction, SRT eligibility 78 fewer days. Benefit was **consistent regardless of background beta-blocker use**. See [[entities/Aficamten]]. ([[sources/aficamten-sequoiahcm-nejm-2024]], rating: very high)
+- **MAPLE-HCM (NEJM 2025) — aficamten monotherapy superior to metoprolol monotherapy:** Phase 3 double-blind double-dummy RCT (N=175; 24 weeks) showed aficamten outperforms metoprolol on peak VO2 (+2.3 ml/kg/min difference; P<0.001), Valsalva LVOTO gradient (−40.7 vs −3.8 mmHg), NT-proBNP (81% relative difference favoring aficamten), and LAVi. Metoprolol, despite reducing HR by 23.4 bpm, did NOT improve LVOTO gradient, NT-proBNP, or LAVi — and peak VO2 actually decreased. This is the first RCT establishing cardiac myosin inhibitor superiority over beta-blockers as monotherapy for obstructive HCM. See [[entities/Aficamten]]. ([[sources/aficamten-maplehcm-nejm-2025]], rating: very high)
 
 ### Ventricular Arrhythmia and SCD Epidemiology
 - SCD incidence in HCM: **0.5–1% per year**; predominantly affects children and young people <30 years. ([[sources/HCM-VA-FCVMed-2022]])
@@ -91,8 +93,9 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - **Mavacamten is absolutely contraindicated in pregnancy** due to potential teratogenic effects (Class III: Harm — AHA 2024 new recommendation). ([[sources/HCM-AHA-2024]])
 - Pregnant women with HCM should be managed at comprehensive HCM centers with appropriate expertise. ([[sources/HCM-AHA-2024]])
 
-### Nonobstructive HCM — Disease Modification
+### Nonobstructive HCM — Disease Modification and Treatment
 - **Valsartan (NEW AHA 2024, Class IIb, Level B-R):** For patients ≤45 years with nonobstructive HCM due to a pathogenic/likely pathogenic sarcomeric variant and mild phenotype (NYHA I–II, max wall 13–25 mm, no secondary prevention ICD, no AF) — may slow adverse cardiac remodeling. Based on one RCT (n=178, 8–45 years of age). ([[sources/HCM-AHA-2024]])
+- **Mavacamten — NOT effective in nonobstructive HCM (ODYSSEY-HCM, NEJM 2025):** Phase 3 RCT (N=580; 201 centers; 22 countries; 48 weeks) showed mavacamten did NOT improve peak VO2 (P=0.07) or KCCQ-CSS (P=0.06) vs placebo in symptomatic nonobstructive HCM. Despite robust NT-proBNP reduction (geometric mean ratio 0.41), there was no clinical benefit — demonstrating that biomarker improvements do not reliably predict clinical efficacy in nonobstructive HCM. Safety concerns were significant: LVEF <50% in 21.5% vs 1.7% placebo; serious CHF events in 6.6% vs 1.7%. The dominant contributors to symptoms in nonobstructive HCM (diastolic dysfunction, subendocardial ischemia, LV noncompliance, microvascular disease) are not corrected by cardiac myosin inhibition. No approved pharmacotherapy exists for symptomatic nonobstructive HCM. See [[entities/Mavacamten]]. ([[sources/mavacamten-odysseyhcm-nejm-2025]], rating: very high)
 
 ### Atrial Fibrillation Management
 - **Anticoagulation with DOACs (or warfarin) is required for all patients with HCM and clinical AF, independent of CHA2DS2-VASc score** (Class I, Level B-NR). The HCM stroke risk from AF is not predicted by CHA2DS2-VASc — strokes occur even in patients with score of 0. ([[sources/HCM-AHA-2024]])
@@ -124,6 +127,8 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - **AHA 2024 vs. ESC 2023 — SCD risk tool as threshold vs. decision aid:** ESC 2023 mandates the HCM Risk-SCD calculator with a 6% threshold (Class I); AHA 2024 treats it as one element of shared decision-making (Class IIa), explicitly stating prespecified thresholds should NOT be the sole arbiter. This reflects fundamentally different philosophies on quantitative vs. qualitative risk assessment. ([[sources/HCM-AHA-2024]], [[sources/esc-cmp-2023]])
 - **Early-stage HCM risk stratification gap:** Current risk tools (HCM Risk-SCD, Risk-Kids) have limited accuracy for patients with early-stage or mild structural disease. Ion channel remodeling (↑INaL, ↑ILTCC) precedes structural changes — young asymptomatic patients can suffer SCD without the traditional risk markers. No validated tool captures pre-structural arrhythmic vulnerability. ([[sources/HCM-VA-FCVMed-2022]])
 - **ClinGen disputes multiple published "HCM genes" (2026):** The following genes previously attributed to HCM in publications or on older panels have been reclassified as "Disputing" by ClinGen expert curation (2026-05-09 report): CALR3 (01/2023), MYH6 (07/2023), CASQ2 (05/2022), DSP for HCM specifically (06/2022), VCL (05/2023), KCNQ1 (05/2022), ANKRD1 (02/2023). Clinicians using broad legacy panels may receive false-positive results for these genes. Note that DSP has **definitive** evidence for ACM/arrhythmogenic cardiomyopathy (with wooly hair/keratoderma phenotype) — the dispute applies specifically to isolated HCM without the skin phenotype. ([[sources/clingen-summary-2026-05-09]], rating: high)
+- **Mavacamten biomarker-clinical dissociation in nonobstructive HCM (ODYSSEY-HCM, 2025):** ODYSSEY-HCM showed NT-proBNP reduction of 59% (geometric mean ratio 0.41) with mavacamten vs placebo in nonobstructive HCM — a large biomarker benefit — yet neither primary clinical endpoint (peak VO2, KCCQ-CSS) was significantly improved. This challenges the assumption that NT-proBNP reduction in HCM predicts clinical benefit, and contrasts with obstructive HCM trials where biomarker and clinical endpoints tracked together. The mechanism is that NT-proBNP reduction (reflecting reduced myocardial wall stress/filling pressures) does not address the non-hemodynamic contributors to symptoms in nonobstructive HCM (diastolic dysfunction, microvascular ischemia, chronotropic incompetence). ([[sources/mavacamten-odysseyhcm-nejm-2025]], rating: very high)
+- **Beta-blockers as first-line Class I but inferior to cardiac myosin inhibitor on objective endpoints (MAPLE-HCM, 2025):** Both AHA 2024 and ESC 2023 position beta-blockers as Class I step-1 therapy for obstructive HCM; cardiac myosin inhibitors are step-3 (AHA) or step-4 (ESC). However, MAPLE-HCM (2025) showed aficamten monotherapy is superior to metoprolol monotherapy on all objective endpoints — peak VO2, LVOTO gradient, NT-proBNP, LAVi — while metoprolol failed to improve any objective hemodynamic parameter despite robust heart rate reduction. This is the first RCT evidence that the current step-care paradigm may be suboptimal for obstructive HCM. Guidelines have not yet been updated. ([[sources/aficamten-maplehcm-nejm-2025]], rating: very high)
 
 ## Connections
 - Related to [[concepts/Electrical-Remodeling]]
@@ -148,6 +153,7 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - Related to [[sources/periop-aha-2024]]
 - Related to [[concepts/Sports-Cardiology-SDM]]
 - Related to [[sources/competitive-sports-aha-2025]]
+- Related to [[entities/Aficamten]]
 - Related to [[concepts/Mitochondrial-Cardiomyopathy]]
 - Related to [[concepts/Heteroplasmy]]
 - Related to [[sources/mybpc3-gene-2015]]
@@ -171,3 +177,5 @@ Hypertrophic cardiomyopathy (HCM) is the most common inherited cardiomyopathy (p
 - [[sources/mitochondrial-cv-aha-2025]]
 - [[sources/mybpc3-gene-2015]]
 - [[sources/periop-aha-2024]]
+- [[sources/mavacamten-odysseyhcm-nejm-2025]]
+- [[sources/aficamten-maplehcm-nejm-2025]]

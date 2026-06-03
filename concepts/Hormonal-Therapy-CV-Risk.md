@@ -126,7 +126,7 @@ Hormonal therapies for hormone-dependent cancers — endocrine therapy for breas
 - Related to [[concepts/Dyslipidemia-Management]]
 - Related to [[entities/Heart-Failure]]
 - Related to [[entities/Atrial-Fibrillation]]
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/pulmonary-hypertension]]
 - Related to [[sources/Hormonal-Rx-AHA-2021]]
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
 

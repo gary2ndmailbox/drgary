@@ -6,8 +6,8 @@ tags:
   - catheter-ablation
   - rhythm-control
   - guidelines
-source_count: 6
-last_updated: 2026-04-15
+source_count: 10
+last_updated: 2026-05-18
 ---
 
 # Catheter Ablation for Atrial Fibrillation
@@ -30,13 +30,34 @@ Catheter ablation for AF (primarily pulmonary vein isolation, PVI) is a percutan
 ### AF with HFrEF
 - Class I recommendation if **high probability of tachycardia-induced cardiomyopathy** (TIC) — curative in this subgroup ([[sources/AF-ESC-2024]])
 - Class IIa in selected HFrEF patients to improve prognosis — supported by CASTLE-AF trial (catheter ablation vs. standard treatment: reduced all-cause mortality and HF hospitalization) ([[sources/AF-ESC-2024]])
-- CASTLE-HTx (end-stage HFrEF eligible for transplant): catheter ablation significantly reduced composite of death/LVAD implantation/urgent heart transplant ([[sources/AF-ESC-2024]])
 - CABANA trial (catheter ablation vs. AAD/rate control in symptomatic AF): no significant difference in mortality or morbidity in primary analysis; benefit in per-protocol subgroup analysis ([[sources/AF-ESC-2024]])
+
+### AF with End-Stage HFrEF — CASTLE-HTx (NEJM 2023)
+- CASTLE-HTx is the **first RCT of catheter ablation in end-stage HFrEF** (LVEF ≤35%, NYHA ≥II, referred for transplant/LVAD evaluation) with symptomatic AF. ([[sources/CA-HF-CASTLEHTx-NEJM-2023]], rating: very high)
+- **Primary composite endpoint** (all-cause death + LVAD implantation + urgent heart transplantation): **8% ablation vs 30% medical therapy; HR 0.24 (95% CI 0.11–0.52); P<0.001** — trial stopped early by DSMB for overwhelming efficacy after median 18-month follow-up
+- **All-cause mortality:** 6% vs 20%; HR 0.29 (95% CI 0.12–0.72); 2-year Kaplan–Meier 6% vs 23%
+- **LVAD implantation:** 1% vs 10%; cause-specific HR 0.09 (95% CI 0.01–0.70)
+- **Urgent heart transplantation:** 1% vs 6%; cause-specific HR 0.15 (95% CI 0.02–1.25)
+- **LVEF improvement:** +7.8 pp (ablation) vs +1.4 pp (medical) at 12 months; between-group difference 6.4 pp (95% CI 4.1–8.7)
+- **AF burden reduction:** −31.4 pp (ablation) vs −8.6 pp (medical) at 12 months; between-group difference 22.7 pp (95% CI 13.0–32.5)
+- At 12 months: 56% of ablation patients were free of primary endpoint events and not in persistent AF, vs only 9% of medical therapy patients
+- Technique: PVI targeting; PVI alone in 53%, PVI + additional substrate in 37%; 9% had multiple procedures; median 20 days from randomization to ablation
+- Procedural safety: 3 vascular access complications in ablation group, 1 in medical group — no atrioesophageal fistulae, no tamponade
+- **Key limitation:** Single-center, open-label, stopped early (18-month median vs 3-year planned follow-up) — effect size may be inflated; 16% of control patients crossed over to ablation (dilutes ITT treatment effect)
+- Clinical implication: Catheter ablation should be considered **before** heart transplant listing, not as an alternative to it — the authors note consideration for ablation should not postpone transplant listing ([[sources/CA-HF-CASTLEHTx-NEJM-2023]])
 
 ### Anticoagulation Around Ablation
 - **Uninterrupted OAC** is recommended during AF catheter ablation (Class I/A) ([[sources/AF-ESC-2024]])
 - OAC should be continued for at least 3 months post-ablation regardless of rhythm outcome ([[sources/AF-ESC-2024]])
 - Long-term OAC decision after ablation is based on thromboembolic risk (CHA2DS2-VA), not ablation success — OAC should NOT be stopped based on successful rhythm outcome in patients with elevated stroke risk ([[sources/AF-ESC-2024]])
+
+### LAAO as Alternative to Indefinite OAC Post-Ablation — OPTION Trial (NEJM 2025)
+- The OPTION trial (n=1,600; 106 sites; 10 countries; Watchman FLX vs OAC — 95% NOAC) is the first large RCT testing LAAO in patients undergoing catheter ablation with CHA₂DS₂-VASc ≥2 (men) / ≥3 (women). ([[sources/laao-option-nejm-2025]], rating: very high)
+- LAAO was performed concomitantly with ablation (40.9%) or 90–180 days sequentially; post-implant: OAC + aspirin × 90 days → aspirin alone to 12 months.
+- **Non-procedure-related bleeding (primary safety, superiority):** 8.5% LAAO vs 18.1% OAC; HR 0.44 (95% CI 0.33–0.59); P<0.001. LAAO reduces non-procedural bleeding by 56% relative to DOACs.
+- **Death/stroke/SE at 36 months (primary efficacy, noninferiority):** 5.3% vs 5.8%; HR 0.91; P<0.001 for NI. Ischemic stroke: 1.2% vs 1.3% — equally low in both arms.
+- The 18.1% bleeding rate in the OAC arm (despite HAS-BLED 1.2) underscores that long-term DOAC therapy generates substantial clinically relevant bleeding even in low-bleeding-risk post-ablation patients.
+- Clinical implication: LAAO at the time of ablation is a viable strategy to eliminate lifelong anticoagulation burden while maintaining equivalent stroke protection; the procedure adds a low complication burden (0.3% pericardial tamponade). ([[sources/laao-option-nejm-2025]], rating: very high)
 
 ### Repeat Ablation
 - Repeat catheter ablation: Class IIa/B in patients with AF recurrence after initial ablation whose symptoms were improved post-initial PVI or after failed initial PVI ([[sources/AF-ESC-2024]])
@@ -72,7 +93,9 @@ Catheter ablation for AF (primarily pulmonary vein isolation, PVI) is a percutan
 
 #### Pulsed-Field Ablation (PFA)
 - Non-thermal electroporation; tissue-selective — spares oesophagus, phrenic nerve, PV walls; ultra-rapid and not contact-force dependent ([[sources/ca-af-ehj-2024]])
-- ADVENT trial: PFA non-inferior to thermal ablation for freedom from recurrence, AAD use, cardioversion, or repeat ablation in PAF ([[sources/ca-af-ehj-2024]])
+- **ADVENT trial (NEJM 2023 — first RCT):** PFA non-inferior to thermal ablation for freedom from recurrence, AAD use, cardioversion, or repeat ablation in PAF (73.3% vs 71.3%; posterior probability of NI >0.999); safety noninferiority also met (2.1% vs 1.5%); PFA superior for PV preservation (−0.9% vs −12.0% cross-sectional area reduction; posterior superiority >0.999); shorter procedure time but more fluoroscopy; one death (catheter manipulation, not PFA energy); 3 asymptomatic MRI cerebral lesions in PFA arm vs 0 thermal; 607 patients, 30 centers, Bayesian adaptive design ([[sources/pfa-advent-nejm-2023]], rating: very high)
+- **SINGLE SHOT CHAMPION (NEJM 2025 — first RCT with superiority signal):** PFA vs cryoballoon in 210 patients with symptomatic paroxysmal AF; all patients received implantable cardiac monitor for continuous rhythm monitoring; PFA noninferior (P<0.001) AND formally superior to cryoablation (37.1% vs 50.7% recurrence days 91–365; −13.6 pp; 95% CI −26.9 to −0.3; P=0.046); recurrence also lower during blanking period (days 1–90: −20.0 pp); procedure time shorter by 18 min; safety comparable (1 stroke PFA vs 2 tamponades cryo); no PV stenosis, phrenic nerve palsy, or atrioesophageal fistula; operators had ≥6 months PFA experience; superiority P-value borderline — larger confirmatory RCTs needed ([[sources/pfa-cryo-singleshotchampion-nejm-2025]], rating: high)
+- **SINGLE SHOT CHAMPION vs ADVENT discrepancy:** Three key differences: (1) ADVENT operators had no prior PFA experience; (2) ADVENT used intermittent Holter monitoring vs continuous ICM in SINGLE SHOT CHAMPION; (3) ADVENT compared PFA vs mixed RF+cryo; SINGLE SHOT CHAMPION compared PFA vs cryo only ([[sources/pfa-cryo-singleshotchampion-nejm-2025]])
 - PULSED AF / PersAFOne: safety and efficacy confirmed in PAF and persistent AF ([[sources/ca-af-ehj-2024]])
 - Safety: no PV stenosis, no oesophageal/phrenic injury; coronary vasospasm (prevented by nitroglycerin); AKI from haemolysis (prevented by fluid loading) ([[sources/ca-af-ehj-2024]])
 - See also: [[concepts/Pulsed-Field-Ablation]]
@@ -137,17 +160,22 @@ Catheter ablation for AF (primarily pulmonary vein isolation, PVI) is a percutan
 - **Non-mitral cardiac surgery + AF:** Concomitant surgical ablation Class IIa/B ([[sources/AF-ESC-2024]])
 
 ## Contradictions / Open Questions
-- CABANA trial showed no significant mortality benefit of catheter ablation vs. drug therapy in per-protocol analysis, in contrast to CASTLE-AF showing benefit in HFrEF — indicating patient selection is critical ([[sources/AF-ESC-2024]], [[sources/AF-AHA-2023]])
+- CABANA trial showed no significant mortality benefit of catheter ablation vs. drug therapy in per-protocol analysis, in contrast to CASTLE-AF and CASTLE-HTx showing benefit in HFrEF/end-stage HFrEF — indicating patient selection is critical; sicker, HF-predominant patients appear to derive the greatest benefit ([[sources/AF-ESC-2024]], [[sources/AF-AHA-2023]], [[sources/CA-HF-CASTLEHTx-NEJM-2023]])
+- **CASTLE-HTx effect size vs external validity:** HR 0.24 for the primary composite endpoint is dramatically larger than seen in any prior AF ablation trial and must be interpreted cautiously — single-center, early termination, and 16% crossover in the control arm may inflate benefit estimates; multi-center replication is needed ([[sources/CA-HF-CASTLEHTx-NEJM-2023]], rating: very high)
+- **OAC after ablation — guideline mandate vs OPTION trial evidence:** Current ESC 2024 and AHA 2023 guidelines mandate indefinite OAC post-ablation based on stroke risk (CHA2DS2-VA), not ablation success. The OPTION trial demonstrates that LAAO at the time of ablation achieves equivalent stroke protection with substantially less bleeding (HR 0.44 for non-procedure-related bleeding) vs continued NOAC, challenging the blanket anticoagulation mandate. Whether guidelines should be updated to formally incorporate LAAO as an alternative is unresolved. ([[sources/laao-option-nejm-2025]], [[sources/AF-ESC-2024]], rating: very high)
 - It is unresolved whether continued anticoagulation can be safely stopped after successful ablation; current guidelines recommend stroke-risk-based continuation regardless of rhythm outcome ([[sources/AF-ESC-2024]])
 - Large variability in ablation strategies for persistent AF remains; no RCT data on optimal technique, substrate modification, or adjunctive lesion sets ([[sources/AF-ESC-2024]])
 - Sham-controlled ablation trials are lacking to separate procedural placebo effect from true ablation benefit on quality of life ([[sources/AF-ESC-2024]])
 - CAPLA RCT (no LAPWI benefit in persistent AF) vs meta-analysis of 8 RCTs (LAPWI benefit in persistent AF) remain unreconciled; patient selection and technique variation the most plausible explanations ([[sources/ca-af-ehj-2024]])
 - Whether choice of ablation modality (RF vs cryo) meaningfully affects AF progression rate requires further prospective validation ([[sources/ca-af-ehj-2024]])
 - MANIFEST-PF negative finding for adjunctive LAPWI with PFA at 12 months conflicts with RF/cryo meta-analyses; methodological limitations limit interpretation ([[sources/ca-af-ehj-2024]])
+- **PFA superiority signal (SINGLE SHOT CHAMPION) vs noninferiority only (ADVENT):** SINGLE SHOT CHAMPION (n=210; continuous ICM monitoring; experienced operators) showed borderline superiority of PFA over cryo (P=0.046); ADVENT (n=607; intermittent Holter; inexperienced PFA operators) showed noninferiority only. Whether the superiority signal is real or driven by monitoring sensitivity and operator experience requires replication in a larger confirmatory RCT ([[sources/pfa-cryo-singleshotchampion-nejm-2025]], [[sources/pfa-advent-nejm-2023]])
+- **Blanking period applicability to PFA:** SINGLE SHOT CHAMPION found lower recurrence even during the 90-day blanking period with PFA (−20.0 pp vs cryo), suggesting less ablation-related inflammation; whether the blanking period is necessary for PFA-based PVI is unresolved ([[sources/pfa-cryo-singleshotchampion-nejm-2025]])
 - **AHA vs. ESC Class I scope differs:** ESC Class I/A applies to first-line ablation in paroxysmal AF broadly; AHA Class I/A first-line is restricted to "selected younger patients with few comorbidities" — Class IIa/B-R for the broader paroxysmal/persistent population ([[sources/AF-AHA-2023]], [[sources/AF-ESC-2024]])
 - **4q25 SNP ablation outcome associations are hypothesis-generating only:** All evidence linking 4q25 rs2200733 and other SNPs to ablation outcomes is from retrospective observational studies — no prospective RCT has used genetic variant stratification for ablation patient selection. The conflicting data for rs10033464 across populations illustrates the risk of applying single-cohort SNP findings clinically. The largest multi-centre study (n=3,259) found no significant association between any common AF SNPs and ablation outcomes. ([[sources/genetic-af-dxmx-jce-2022]], [[sources/genetic-af-cjc-2024]], rating: medium/high respectively)
 
 ## Connections
+- Related to [[entities/LAAO]] — OPTION trial: LAAO concomitant with ablation as OAC alternative
 - Related to [[sources/genetic-af-dxmx-jce-2022]]
 - Related to [[sources/genetic-af-cjc-2024]]
 - Related to [[concepts/Genetic-Testing-in-AF]]
@@ -161,6 +189,10 @@ Catheter ablation for AF (primarily pulmonary vein isolation, PVI) is a percutan
 - Related to [[entities/MYH7]]
 
 ## Sources
+- [[sources/pfa-advent-nejm-2023]]
+- [[sources/pfa-cryo-singleshotchampion-nejm-2025]]
+- [[sources/CA-HF-CASTLEHTx-NEJM-2023]]
+- [[sources/laao-option-nejm-2025]]
 - [[sources/AF-AHA-2023]]
 - [[sources/AF-ESC-2024]]
 - [[sources/EAST-AFNET4-NEJM-2020]]

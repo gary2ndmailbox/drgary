@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cancer-Associated VTE"
 tags: [cancer-associated-VTE, venous-thromboembolism, anticoagulation, cardio-oncology, thrombosis]
-source_count: 1
-last_updated: 2026-04-30
+source_count: 2
+last_updated: 2026-05-19
 ---
 
 # Cancer-Associated VTE
@@ -62,6 +62,20 @@ Cancer-associated venous thromboembolism (VTE) — encompassing DVT, pulmonary e
 - **Apixaban vs. dalteparin** (abstract presentation): VTE recurrence 3.4% vs. 14.1% (HR 0.26, CI 0.09–0.80; P=0.018) with superior QoL and very low bleeding rates. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
 - **Conclusion (2019 view):** DOACs likely to become standard for cancer-associated VTE, but caveats apply — renal/liver dysfunction effects on dosing, drug-drug interactions (P-glycoprotein and CYP3A4 substrates), reversibility of anticoagulation
 
+#### Extended Duration Anticoagulation — API-CAT Trial (NEJM 2025)
+The API-CAT trial is the first double-blind RCT specifically addressing **which dose** of apixaban to use during the extended treatment phase (>6 months) in active cancer patients with DVT or PE. ([[sources/reduced-apixaban-apicat-nejm-2025]], rating: very high)
+
+- **Design:** N=1,766; 121 centers; 11 countries; randomized 1:1 to apixaban 2.5 mg BID vs 5.0 mg BID × 12 months; enrolled after completing ≥6 months of anticoagulation without symptomatic recurrence
+- **Eligibility:** Active cancer + proximal DVT or symptomatic/incidental PE; 75.5% PE index event; median time since index VTE 8.0 months; 92.6% ECOG 0–1
+- **Cancer sites:** Breast 22.7%, colorectal 15.2%, gynecologic 12.1%, lung 11.3%
+- **Primary efficacy outcome (recurrent VTE):** 2.1% (reduced) vs 2.8% (full); SHR 0.76 (95% CI 0.41–1.41; **P=0.001 for noninferiority; margin 2.00**) — noninferiority confirmed ✓
+- **Key secondary outcome (clinically relevant bleeding):** 12.1% vs 15.6%; SHR 0.75 (95% CI 0.58–0.97; **P=0.03 superiority**) — reduced dose superior ✓
+- Major bleeding: 2.9% vs 4.3% (SHR 0.66; CI 0.40–1.10; NS but directionally consistent); 2 fatal bleeds in each group
+- All-cause mortality: 17.7% vs 19.6% (HR 0.96; NS); ~83% cancer-related deaths
+- Net clinical benefit (VTE + major bleed + death): 19.9% vs 22.1% (HR 0.96; NS)
+- **Clinical implication:** Reduced-dose apixaban (2.5 mg BID) is the preferred extended-duration anticoagulation strategy in cancer-associated VTE beyond 6 months — maintains VTE protection and reduces bleeding
+- VTE recurrence rates were lower than anticipated (vs projected 4%/year), possibly due to inclusion of incidental VTE events and favorable cancer subtypes (breast cancer heavily represented)
+
 #### Immunomodulator (Thalidomide/Lenalidomide) VTE Prophylaxis
 - 3-tier risk stratification for thromboprophylaxis: ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
   - **Low risk** (single-agent thalidomide/analog, no additional risk factors): no prophylaxis required (<5%)
@@ -75,16 +89,23 @@ Cancer-associated venous thromboembolism (VTE) — encompassing DVT, pulmonary e
 - **BCR-ABL TKIs (ponatinib, nilotinib):** Arterial ischaemic events dominate; VTE also described. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
 
 ## Contradictions / Open Questions
-- DOAC data at time of this 2019 statement were from pilot studies and abstract presentations — prospective DOAC cancer-VTE RCTs were pending; subsequent data (Caravaggio, SELECT-D) have since supported DOAC use, but concerns about bleeding with GI/GU cancers persist.
+- DOAC data at time of this 2019 statement were from pilot studies and abstract presentations — prospective DOAC cancer-VTE RCTs were pending; subsequent data (Caravaggio, SELECT-D) have since supported DOAC use, but concerns about bleeding with GI/GU cancers persist. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
 - Ottawa Score validated in VTE-treatment RCTs but not in broader oncology populations.
 - No validated cancer-specific bleeding score exists; HAS-BLED underperforms in cancer patients (does not capture thrombocytopenia or intracranial metastases). See [[concepts/Cancer-Therapy-Related-CV-Toxicity]].
 - Routine VTE prophylaxis in cancer outpatients is not recommended, but selected high-risk patients (Khorana score ≥2) may benefit — guidelines evolving. ([[sources/cardio-oncology-vascular-metabolic-aha-2019]])
+- **API-CAT: recurrence rates (2.1–2.8%) much lower than the anticipated 4%/year used in power calculations** — lower-risk patients (incidental VTE, 22.7% breast cancer) may have been enrolled; whether results generalize to higher-risk populations (GI/GU cancers, hematological malignancies) is unconfirmed. ([[sources/reduced-apixaban-apicat-nejm-2025]])
+- **Optimal duration of extended anticoagulation beyond 24 months remains unknown** — API-CAT only covers 12 months of extended treatment; no data exist beyond 2 years from index VTE in a blinded RCT. ([[sources/reduced-apixaban-apicat-nejm-2025]])
+- **Dose during initial 6-month phase vs extended phase:** API-CAT enrolled patients who completed standard-dose initial therapy; whether starting with reduced-dose earlier is safe is unknown.
+- **Bleeding with reduced dose (12.1%) remains substantial** — absolute 3.5 pp reduction in clinically relevant bleeding is meaningful but high baseline rate highlights ongoing need for bleeding risk stratification tools in cancer patients. ([[sources/reduced-apixaban-apicat-nejm-2025]])
 
 ## Connections
 - Related to [[concepts/Cancer-Therapy-Related-CV-Toxicity]]
 - Related to [[concepts/Cardio-Oncology]]
-- Related to [[entities/Pulmonary-Hypertension]]
+- Related to [[concepts/Venous-Thromboembolism-Anticoagulation]] — non-cancer VTE NOAC evidence (COBRRA, HI-PRO) does NOT apply to cancer-associated VTE; cancer was an exclusion criterion in both trials
+- Related to [[concepts/pulmonary-hypertension]]
 - Related to [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+- Related to [[sources/reduced-apixaban-apicat-nejm-2025]]
 
 ## Sources
 - [[sources/cardio-oncology-vascular-metabolic-aha-2019]]
+- [[sources/reduced-apixaban-apicat-nejm-2025]]

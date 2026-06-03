@@ -213,7 +213,7 @@ See [[concepts/ClinGen-Gene-Disease-Validity]].
 - [[entities/Brugada-Syndrome]] — SCN5A only definitive; KCNH2/CACNA1C/ABCC9/SCN10A/TRPM4/SCN3B disputed/refuting
 - [[entities/CPVT]] — definitive: RYR2/CASQ2/TECRL/TRDN; moderate: CALM1/2/3; disputed: PKP2/KCNJ2
 - [[entities/Long-QT-Syndrome]] — definitive: KCNQ1/KCNH2/CALM1/2/3; strong: TRDN; disputed: SCN4B
-- [[entities/Pulmonary-Hypertension]] — definitive: BMPR2/CAV1/ATP13A3/EIF2AK4
+- [[concepts/pulmonary-hypertension]] — definitive: BMPR2/CAV1/ATP13A3/EIF2AK4
 - [[entities/SCN5A]] — new broad designation: "SCN5A-related cardiac rhythm disorder" (definitive 10/2025)
 - [[entities/PKP2]] — ARVC definitive; DCM and CPVT disputed; BrS disputing
 - [[entities/RYR2]] — CPVT definitive; ARVC refuting; HCM limited; DCM limited

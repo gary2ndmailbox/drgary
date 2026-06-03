@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Polygenic Risk Score"
 tags: [polygenic-risk-score, long-qt-syndrome, cardiac-repolarization, genetics, precision-medicine, cardiomyopathy, GWAS, inherited-arrhythmias]
-source_count: 4
-last_updated: 2026-05-07
+source_count: 5
+last_updated: 2026-05-16
 ---
 
 # Polygenic Risk Score (PRS)
@@ -38,6 +38,38 @@ A polygenic risk score (PRS) is an aggregate genetic risk estimate derived by su
 - A **61-SNP GWAS-derived QT risk score** (Strauss et al.) was prospectively validated in a randomised double-blind crossover trial of 3 QT-prolonging drugs, where it correlated with drug-induced QTc prolongation. Schwartz et al. propose applying this score to LQTS mutation carriers as the next step toward individual-level modifier gene risk stratification. ([[sources/modifier-genes-scd-ehj-2018]], rating: high)
 - Single GWAS-derived variants (e.g., NOS1AP, KCNH2-K897T) function as individual modifier alleles, distinct from multi-SNP PRS in methodology but overlapping in clinical intent: refining arrhythmic risk beyond the primary Mendelian mutation. NOS1AP variants explain only part of the polygenic modifier contribution; the multi-SNP QT-PRS captures the aggregate effect of common variants. See [[entities/NOS1AP]] and [[concepts/Modifier-Genes]]. ([[sources/modifier-genes-scd-ehj-2018]])
 
+### PRS for Coronary Artery Disease — Clinical Implementation Framework
+
+#### Population Distribution and Risk Thresholds
+- CAD PRS follows a Gaussian distribution in the general population; individual SNP effects are tiny but aggregate into meaningful gradients. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+- **Top 5% of CAD PRS → 3–5× the CAD risk** of those in the middle quintiles — comparable to the relative risk from familial hypercholesterolemia. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+- PRS is independent of family history — it adds risk information that family history alone cannot capture. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+- **346 CAD risk loci** identified in GWAS meta-analyses (>180,000 cases, >1 million total); current PRS includes all informative variants weighted by effect size, not just genome-wide significant ones. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+
+#### Three High-Value Clinical Populations for CAD PRS
+1. **Intermediate-risk adults (5–10% 10-year risk):** PRS reclassifies ~10% of these individuals to high-risk (2× event rate vs those not reclassified). This prevents approximately **1 event per 340 persons screened** (~7% of all events) — the highest-yield clinical scenario. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+2. **Young adults (age 40):** Clinical risk scores poorly calibrated in younger patients (identify only ~1 in 4 future major CV event patients). A 40-year-old man with no conventional risk factors in the **highest PRS quintile has a 30–40% risk of CAD by age 70** vs 10% in the lowest quintile — a 3–4× gradient undetectable by Framingham-based tools. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+3. **Premature CAD:** High PRS predicts recurrent events; useful for clarifying aetiology and potentially guiding therapy intensification when clinical equipoise exists. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+
+#### Combined Clinical + PRS Risk (Most Actionable Strategy)
+- PRS relative risk multiplies the absolute risk from a clinical risk calculator (PREVENT, PCE, SCORE2) — not additive, multiplicative. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+- If baseline clinical risk is low, a high PRS still has relatively modest absolute implications; PRS has most clinical impact at intermediate baseline clinical risk. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+- In one randomised trial, disclosing CAD PRS to intermediate-risk patients reduced MACE over ~10 years — the only prospective RCT evidence for PRS clinical utility in CAD. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+
+#### High PRS — Genetically Targeted Treatment
+- Healthy lifestyle **nearly counterbalances** a high CAD PRS in observational studies — genetic risk is not immutable. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+- High CAD PRS patients derive **greater absolute AND relative risk reduction** from lipid-lowering therapy:
+  - Statins (JUPITER, WOSCOPS, ASCOT): larger benefit in high-PRS individuals. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+  - PCSK9 inhibitors (FOURIER/evolocumab, ODYSSEY OUTCOMES/alirocumab): greater risk reduction in high-PRS patients. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+  - Mega 2015 Lancet multi-trial analysis: consistent PRS-stratified statin benefit across primary and secondary prevention. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+- This creates a clinical rationale for earlier or more intensive lipid-lowering in high-PRS individuals, particularly young adults in whom statins are otherwise deferred.
+
+#### CAD PRS Limitations
+- Predominantly European-ancestry derivation — reduced predictive accuracy in non-European populations. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
+- No single-consensus PRS; no agreed reporting standards (≥30 different CAD PRS in the literature).
+- Not yet incorporated into clinical guidelines (ESC 2021 CVD prevention; AHA PREVENT equations).
+- Insurance equity concerns: GINA protects against health insurance discrimination but not life, disability, or long-term care insurance.
+
 ### PRS in ASCVD and Other CVD
 - PRS has been validated for ASCVD risk stratification in the general population; genome-wide PRS for CAD has shown performance beyond traditional risk scores. See [[concepts/ASCVD-Risk-Assessment]] for the ACC/AHA PRS-in-ASCVD context. ([[sources/consumer-genetictest-aha-2025]])
 - DTC genetic testing companies offer PRS-based CVD risk reports; regulatory and clinical validity concerns exist (SNP chip coverage, ancestry mismatch, lack of integration with clinical risk factors). See [[concepts/DTC-Genetic-Testing]]. ([[sources/consumer-genetictest-aha-2025]])
@@ -66,6 +98,7 @@ A polygenic risk score (PRS) is an aggregate genetic risk estimate derived by su
 - **NOS1AP mechanistic confirmation:** NOS1AP variants (the most-replicated LQTS modifier discovered through QT-GWAS) were mechanistically validated in hiPSC-derived cardiomyocytes and mouse models via regulation of NOS1 (neuronal nitric oxide synthase) activity on cardiac repolarizing currents — confirming a biological pathway for the GWAS association. ([[sources/gwas-arrhythmias-cmp-genes-2025]])
 
 ## Contradictions / Open Questions
+- **CAD PRS — no guideline integration yet:** ESC 2021 CVD prevention guideline and AHA PREVENT equations do not incorporate CAD PRS despite robust evidence that it reclassifies intermediate-risk adults (preventing 1 event/340 screened) and identifies high-risk young adults. The barrier is implementation (no consensus PRS, ancestry limitations, cost-effectiveness uncertainty), not efficacy evidence. ([[sources/inherited-basis-cad-nejm-2026]], rating: high)
 - **PRS for LQTS — clinical utility not yet established:** Three PRS studies in LQTS (Lahrouchi, Kolder, Turkowski) give inconsistent results regarding QTc modulation and event prediction. Larger, well-characterised cohorts of probands and their gene-positive relatives are needed before PRS can inform clinical management. ([[sources/repolarisation-jaccep-2023]])
 - **Genotype-negative LQTS — PRS as a diagnostic tool?** The finding that genotype-negative LQTS patients have higher PRS than genotype-positive patients suggests that PRS could eventually serve as a diagnostic adjunct for this group. However, no threshold PRS for LQTS diagnosis exists, and the sensitivity/specificity have not been established. ([[sources/repolarisation-jaccep-2023]])
 - **SQTS — PRS entirely unstudied:** The authors note that modulatory variants (common or low-frequency) in SQTS have not been investigated. By analogy with LQTS, PRS from QTc-shortening variants would be expected to modulate SQTS susceptibility and severity — but this awaits investigation. ([[sources/repolarisation-jaccep-2023]])
@@ -94,5 +127,6 @@ A polygenic risk score (PRS) is an aggregate genetic risk estimate derived by su
 ## Sources
 - [[sources/consumer-genetictest-aha-2025]]
 - [[sources/gwas-arrhythmias-cmp-genes-2025]]
+- [[sources/inherited-basis-cad-nejm-2026]]
 - [[sources/modifier-genes-scd-ehj-2018]]
 - [[sources/repolarisation-jaccep-2023]]

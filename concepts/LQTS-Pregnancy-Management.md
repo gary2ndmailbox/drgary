@@ -6,8 +6,8 @@ tags:
   - pregnancy
   - arrhythmia-management
   - channelopathies
-source_count: 2
-last_updated: 2026-05-10
+source_count: 3
+last_updated: 2026-05-22
 ---
 
 # LQTS Pregnancy Management
@@ -62,9 +62,19 @@ LQTS during pregnancy presents a paradoxical risk profile: pregnancy is relative
 - **Anesthesia:** Combined spinal-epidural preferred (minimises sympathetic surges). Spinal alone avoided (sudden hemodynamic shifts → VA risk). Epidural allows gradual hemodynamic change. ([[sources/lqts-pregnancy-medicina-2022]])
 - Acute arrhythmia treatment during labour: 1st line — IV/oral beta-blocker; 2nd line — IV MgSO₄, lidocaine, mexiletine; 3rd line — transvenous pacing. ([[sources/lqts-pregnancy-medicina-2022]])
 
+### HRS 2023 Updates — Key Additions
+- **Nadolol superiority reinforced:** HRS 2023 affirms nadolol as the preferred long-acting beta-blocker for LQTS; however, its relatively high breast milk concentration means propranolol or metoprolol may be preferred during breastfeeding unless rhythm stability specifically requires nadolol ([[sources/arrhythmia-pregnancy-hrs-2023]], rating: very high)
+- **QTc >500 ms with LQTS2:** Consider ICD or wearable cardioverter defibrillator in the postpartum period ([[sources/arrhythmia-pregnancy-hrs-2023]])
+- **Three-tier IAS delivery framework (Figure 19, HRS 2023):** Low risk (no events, QTc ≤470 ms) → standard cardiology consultation; Medium risk (remote events or QTc ≥470 ms) → tertiary centre, IV line, external defibrillator; High risk (arrhythmic syncope/CA/sustained VA within 1 year on therapy) → cardiac operating theatre, arterial line, IV antiarrhythmics, telemetry ([[sources/arrhythmia-pregnancy-hrs-2023]])
+- **Fetal risk from maternal LQTS:** 8× higher stillbirth rate and 2× higher miscarriage rate compared to normal population (Cuneo et al., 148 pregnancies); maternal LQTS more dangerous for fetus than paternal LQTS ([[sources/arrhythmia-pregnancy-hrs-2023]])
+- **Fetal LQTS manifestations:** bradycardia, 2nd degree heart block, TdP; fetal echo at 20–22 weeks; rhythm abnormalities more reliably detected after 27 weeks ([[sources/arrhythmia-pregnancy-hrs-2023]])
+- **Perioperative QT-prolonging drug avoidance:** Ondansetron, ketamine, sevoflurane, succinylcholine — critical awareness in LQTS labour and delivery management ([[sources/arrhythmia-pregnancy-hrs-2023]])
+- **Wearable cardioverter defibrillator:** Very limited data in pregnancy (single case report in LQTS1 postpartum); available as option when ICD implantation is not feasible ([[sources/arrhythmia-pregnancy-hrs-2023]])
+
 ### Postpartum Follow-Up
 - No standardised guideline exists for postpartum surveillance interval.
 - Expert consensus: cardiologist review within first weeks postdelivery, then monthly for 9 months; ECG monitoring; beta-blocker dose adjustment. ([[sources/lqts-pregnancy-medicina-2022]])
+- HRS 2023: continue beta-blockers ≥9 months postpartum; plan active monitoring and delivery birth plan with electrophysiologist and cardio-obstetrics team ([[sources/arrhythmia-pregnancy-hrs-2023]])
 
 ## Contradictions / Open Questions
 - **Progesterone's protective mechanism not yet clinically actionable:** Strong preclinical data (Odening LQT2 rabbit model) support progesterone as antiarrhythmic in LQTS, yet no guideline currently recommends progesterone supplementation postpartum as an adjunct to beta-blockers. The biological rationale is established; clinical translation is absent.
@@ -84,3 +94,4 @@ LQTS during pregnancy presents a paradoxical risk profile: pregnancy is relative
 ## Sources
 - [[sources/lqts-pregnancy-medicina-2022]]
 - [[sources/cv-pregnancy-esc-2018]]
+- [[sources/arrhythmia-pregnancy-hrs-2023]] — 2023 HRS Expert Consensus (primary current guideline)

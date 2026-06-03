@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Inter-Atrial Block"
 tags: [inter-atrial-block, atrial-cardiomyopathy, electrocardiography, atrial-fibrillation, stroke]
-source_count: 1
-last_updated: 2026-05-09
+source_count: 2
+last_updated: 2026-05-16
 ---
 
 # Inter-Atrial Block
@@ -34,6 +34,15 @@ P-wave score ≥1 plus evidence of mechanical dysfunction, atrial enlargement, o
 - **AF risk:** Partial IAB confers **2× AF risk** vs normal P-wave; advanced IAB confers **4× AF risk**. ([[sources/atrial-cmp-esc-2025]] — high)
 - **Thromboembolic and clinical associations:** IAB is independently associated with stroke, cognitive impairment, heart failure, and all-cause mortality — even independent of AF diagnosis. The atrial substrate abnormality may drive thromboembolic risk beyond its role as an arrhythmia predictor. ([[sources/atrial-cmp-esc-2025]])
 
+### AHA 2009 Foundational Criteria and Terminology (Historical Basis)
+The 2025 ESC/HFA AtCM P-wave scoring system builds directly on the AHA 2009 ECG standardization criteria for "left atrial abnormality":
+- **PTF-V1 (P terminal force in V1):** amplitude × duration of terminal negative component in V1; the most frequently validated criterion; **PTF-V1 >40 mm·ms** = P-wave score 1 in 2025 AtCM framework ([[sources/ecg-chambers-aha-2009]], rating: high)
+- **P-wave duration ≥120 ms with notching ≥40 ms separation** — considered of equal value to PTF-V1
+- **AHA 2009 terminology recommendation:** "Left atrial abnormality" is preferred over enlargement, overload, strain, or hypertrophy — multiple anatomic changes produce similar P-wave patterns and cannot be reliably distinguished
+- **"Intraatrial conduction delay"** is preferred over "interatrial" — delay primarily involves Bachmann's bundle (a specialized pathway between the atria) and possibly left atrial myocardium; the anatomic distinction is usually not determinable by surface ECG
+
+**Right atrial abnormality criteria (AHA 2009):** Tall P wave >2.5 mm in lead II (peaked/pointed); prominent initial positivity in V1/V2 ≥1.5 mm (0.15 mV); P-wave duration usually normal (contrast with LAA); rightward P-wave axis as a supporting sign. ([[sources/ecg-chambers-aha-2009]], rating: high)
+
 ## Contradictions / Open Questions
 
 - **Anticoagulation in IAB without AF:** No RCT has established a role. The ARCADIA trial (apixaban vs aspirin in AtCM defined by BNP >250 pg/mL) was stopped early for futility. Whether IAB alone warrants anticoagulation remains unresolved. ([[sources/atrial-cmp-esc-2025]])
@@ -44,6 +53,8 @@ P-wave score ≥1 plus evidence of mechanical dysfunction, atrial enlargement, o
 - Related to [[concepts/Atrial-Failure]]
 - Related to [[concepts/Left-Atrial-Strain]]
 - Related to [[entities/Atrial-Fibrillation]]
+- Related to [[concepts/ECG-Ventricular-Hypertrophy]] — AHA 2009 atrial P-wave criteria; right atrial abnormality criteria
 
 ## Sources
 - [[sources/atrial-cmp-esc-2025]]
+- [[sources/ecg-chambers-aha-2009]]

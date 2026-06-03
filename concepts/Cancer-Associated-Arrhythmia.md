@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cancer-Associated Arrhythmia"
 tags: [arrhythmia, cardio-oncology, atrial-fibrillation, QT-prolongation, autonomic-dysfunction]
-source_count: 2
-last_updated: 2026-04-29
+source_count: 3
+last_updated: 2026-05-24
 ---
 
 # Cancer-Associated Arrhythmia
@@ -38,15 +38,23 @@ Cardiac arrhythmias in patients with cancer or cancer survivors arising from the
 - Meta-analysis of 8 RCTs (n=2,580): ibrutinib relative risk for AF 4.69 (95% CI 2.17–7.64, P<0.001). ([[sources/arrhythmia-cardio-oncology-aha-2021]])
 - Proposed mechanisms: on-target BTK inhibition; off-target Tec kinase inhibition; PI3K pathway inhibition; enhanced automaticity from altered sarcoplasmic reticulum calcium handling.
 - Patients developing AF on ibrutinib have increased risk of mortality, likely from ischaemic or haemorrhagic cerebrovascular events.
-- **Newer-generation BTKi** (acalabrutinib, zanubrutinib) have significantly lower AF rates due to higher BTK selectivity; choice between agents should factor in individual AF risk. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
+- **Newer-generation BTKi** (acalabrutinib, zanubrutinib) have significantly lower AF rates due to higher BTK selectivity; **pirtobrutinib** (third-generation reversible BTKi) AF incidence 3.2%; choice between agents should factor in individual AF risk. ([[sources/arrhythmia-cardio-oncology-aha-2021]], [[sources/cancer-rx-cv-acc-2025]])
+
+### Ibrutinib Drug Interactions — Key AF/Arrhythmia Implications (ACC 2025)
+- **Diltiazem/verapamil (non-DHP CCBs): MAJOR interaction** — ↑ ibrutinib plasma levels **6–9×** via CYP3A4 inhibition → contraindicated for rate control; use beta-blockers instead ([[sources/cancer-rx-cv-acc-2025]], rating: very high)
+- **Amiodarone/dronedarone: MAJOR interaction** — ↑ ibrutinib levels **6–9×** via CYP3A4 inhibition → avoid for rhythm control in ibrutinib-treated patients
+- **Dabigatran: MAJOR interaction** — ibrutinib inhibits P-glycoprotein efflux pump → ↑ dabigatran plasma levels → contraindicated; Factor Xa inhibitors are the preferred anticoagulant class
+- **Digoxin: Moderate** — ibrutinib P-gp inhibition ↑ digoxin levels → avoid
+- Dihydropyridine CCBs (amlodipine, nifedipine): safe — are CYP3A4 substrates but do not inhibit ibrutinib metabolism
 
 ### AF Management in Cancer — Key Principles
 - Follow general population algorithms with attention to **drug-drug interactions** (CYP 3A4, CYP 2D6, P-glycoprotein systems). ([[sources/arrhythmia-cardio-oncology-aha-2021]], [[sources/cardio-oncology-drug-aha-2022]])
-- **β-blockers:** preferred rate control agent.
-- **Diltiazem/verapamil:** use with caution — CYP 3A4 inhibition increases cancer drug concentrations.
-- **Digoxin:** use with caution — ibrutinib and other P-glycoprotein inhibitors increase digoxin toxicity.
-- **Dronedarone: avoid** in cancer — CYP 3A4 + P-glycoprotein effects cause dangerous drug accumulation.
-- **Amiodarone:** commonly used but increases cancer drug concentrations via same metabolic pathways; monitor closely.
+- **β-blockers:** preferred rate control agent; particularly important in ibrutinib-treated patients where non-DHP CCBs are contraindicated.
+- **Diltiazem/verapamil: CONTRAINDICATED with ibrutinib** — CYP3A4 inhibition increases ibrutinib 6–9×; avoid unless switching to 2nd/3rd-gen BTKi with ibrutinib dose reduction. ([[sources/cancer-rx-cv-acc-2025]], rating: very high)
+- **Digoxin:** AVOID with ibrutinib — P-gp inhibition increases digoxin levels significantly. ([[sources/cancer-rx-cv-acc-2025]])
+- **Dronedarone: avoid** in cancer — CYP 3A4 + P-glycoprotein effects cause dangerous drug accumulation; also MAJOR interaction with ibrutinib.
+- **Amiodarone:** MAJOR interaction with ibrutinib (6–9× ibrutinib level increase); if required, temporary ibrutinib dose reduction or withholding.
+- **Ibrutinib-AF algorithm (ACC 2025):** Assess hemodynamic stability first → unstable: cardioversion; stable: rule out reversible causes + rate control (beta-blockers preferred) → Factor Xa inhibitors preferred anticoagulation (dabigatran avoided); LAA closure and AF ablation acceptable in select patients. ([[sources/cancer-rx-cv-acc-2025]])
 - **Rhythm control:** EAST-AFNET 4 benefit not established in cancer patients; cardioversion less durable in inflammatory cancer milieu; antiarrhythmic drug interactions with cancer therapy require careful pharmacological review. ([[sources/arrhythmia-cardio-oncology-aha-2021]])
 
 ### Anticoagulation in Cancer-Associated AF
@@ -118,9 +126,11 @@ Cardiac arrhythmias in patients with cancer or cancer survivors arising from the
 - Related to [[sources/arrhythmia-cardio-oncology-aha-2021]]
 - Related to [[sources/cardio-oncology-drug-aha-2022]] — PK/PD drug interaction tables for antiarrhythmics with cancer drugs
 - Related to [[sources/Cardio-Oncology-ESC-2022]]
+- Related to [[sources/cancer-rx-cv-acc-2025]] — ibrutinib drug interaction tables (diltiazem/amiodarone 6–9× levels; dabigatran contraindicated); pirtobrutinib AF 3.2%; ibrutinib-AF hemodynamic stability algorithm; Factor Xa inhibitors as preferred anticoagulation
 
 ## Sources
 - [[sources/Cardio-Oncology-ESC-2022]]
 - [[sources/arrhythmia-cardio-oncology-aha-2021]]
 - [[sources/cardio-oncology-drug-aha-2022]]
 - [[sources/sdb-arrhythmia-aha-2022]]
+- [[sources/cancer-rx-cv-acc-2025]]

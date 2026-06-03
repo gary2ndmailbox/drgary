@@ -320,7 +320,7 @@ AHA Scientific Statements · anesthetics · biomarkers · cardiac · preoperativ
 ## Key Entities Mentioned
 - [[entities/Atrial-Fibrillation]] — perioperative AF management; new-onset POAF stroke risk
 - [[entities/Heart-Failure]] — HF perioperative risk; SGLT2i discontinuation; GDMT continuation
-- [[entities/Pulmonary-Hypertension]] — perioperative PH management; continue PAH therapies
+- [[concepts/pulmonary-hypertension]] — perioperative PH management; continue PAH therapies
 - [[entities/HCM]] — avoid LVOT aggravating factors; vasopressors preferred over inotropes
 - [[entities/Chronic-Coronary-Disease]] — perioperative revascularisation thresholds
 
@@ -329,7 +329,7 @@ AHA Scientific Statements · anesthetics · biomarkers · cardiac · preoperativ
 - wiki/concepts/Perioperative-Cardiovascular-Assessment.md (created)
 - wiki/entities/Atrial-Fibrillation.md (updated — perioperative AF section)
 - wiki/entities/Heart-Failure.md (updated — SGLT2i periop, GDMT continuation)
-- wiki/entities/Pulmonary-Hypertension.md (updated — perioperative PH management)
+- wiki/concepts/pulmonary-hypertension.md (updated — perioperative PH management)
 - wiki/entities/HCM.md (updated — perioperative HCM management)
 - wiki/concepts/Aortic-Stenosis.md (updated — perioperative AS algorithm)
 - wiki/concepts/Mitral-Stenosis.md (updated — perioperative MS management)

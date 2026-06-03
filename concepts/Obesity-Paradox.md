@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Obesity Paradox"
 tags: [obesity, cardiovascular-disease, heart-failure, coronary-artery-disease, prognosis]
-source_count: 1
-last_updated: 2026-04-29
+source_count: 2
+last_updated: 2026-05-17
 ---
 
 # Obesity Paradox
@@ -35,6 +35,10 @@ The obesity paradox refers to the observation that in patients with established 
 - BNP is lower in obesity including in HF — may mask severity. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - In advanced HF, extra adipose tissue and higher lean muscle mass may protect against cardiac cachexia and sarcopenia (both associated with very poor prognosis). ([[sources/obesity-cv-aha-2021]], rating: very high)
 
+**STEP-HFpEF — Intentional Pharmacologic Weight Loss in HFpEF**
+- STEP-HFpEF (Kosiborod et al., NEJM 2023; n=529; RCT) demonstrated that intentional weight loss with semaglutide 2.4mg (−13.3% body weight) in obesity-HFpEF produced large improvements in symptoms (+7.8 KCCQ-CSS points), exercise function (+20.3m 6MWT), and fewer cardiac events (serious adverse events 13.3% vs 26.7%) — directly contradicting the obesity paradox narrative for intentional weight loss. ([[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
+- This reconciles the obesity paradox with the finding that prior observational data capturing "weight loss" in HF patients were predominantly measuring unintentional weight loss from cardiac cachexia, which is a marker of disease severity — not a consequence of treatment. Intentional weight loss via pharmacotherapy or lifestyle intervention is a fundamentally different phenomenon. ([[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
+
 ### Proposed Mechanisms
 1. **Lead time bias:** Patients with obesity develop CVD earlier in their lifetime and are diagnosed and treated earlier, creating confounded comparisons when outcomes are measured from the time of diagnosis.
 2. **Cardiorespiratory fitness confounding:** Differences in fitness (not BMI itself) may explain more favorable CVD outcomes — higher fitness in some obese patients is a more relevant protective factor.
@@ -49,6 +53,7 @@ The obesity paradox refers to the observation that in patients with established 
 - **HFpEF context is less clear:** The paradox is more consistent for HFrEF than HFpEF. Some HFpEF studies show worse outcomes with higher WC in multivariate analysis. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - **Causality of the mechanism is unproven:** No study has directly demonstrated lead time bias or fitness confounding as the causal explanation for the paradox. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - **Clinical implications:** The obesity paradox should not discourage weight loss efforts in patients with established CVD. Bariatric surgery improves long-term CVD outcomes despite weight loss, which appears paradoxical in the context of the obesity paradox. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **STEP-HFpEF definitively contradicts the obesity paradox for intentional weight loss in HFpEF:** In an RCT, pharmacologic weight loss of −13.3% in obesity-HFpEF improved symptoms, exercise function, and reduced cardiac events — the opposite of what the obesity paradox would predict. The prior observational association between "weight loss" and poor HF prognosis was confounded by cardiac cachexia. STEP-HFpEF establishes that intentional, pharmacologically-mediated weight loss is safe and beneficial. ([[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
 
 ---
 
@@ -58,6 +63,9 @@ The obesity paradox refers to the observation that in patients with established 
 - Related to [[entities/HFpEF]] — obesity paradox less consistent in HFpEF
 - Related to [[entities/Chronic-Coronary-Disease]] — obesity paradox after PCI and CABG
 - Related to [[concepts/Cardiac-Rehabilitation]] — fitness vs BMI as outcome determinant
+- Related to [[entities/Semaglutide]] — STEP-HFpEF; intentional pharmacologic weight loss contradicts the obesity paradox
+- Related to [[sources/semaglutide-stephfpef-nejm-2023]] — STEP-HFpEF trial; key contradiction of the obesity paradox in HFpEF
 
 ## Sources
 - [[sources/obesity-cv-aha-2021]]
+- [[sources/semaglutide-stephfpef-nejm-2023]]

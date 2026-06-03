@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Atrial Cardiomyopathy"
 tags: [atrial-cardiomyopathy, atrial-fibrillation, heart-failure, atrial-fibrosis, electrocardiography]
-source_count: 1
-last_updated: 2026-05-01
+source_count: 2
+last_updated: 2026-05-17
 ---
 
 # Atrial Cardiomyopathy (AtCM)
@@ -81,6 +81,12 @@ The 'common soil hypothesis' proposes that shared stressors — ageing, cardio-m
 - **Epicardial adipose tissue (EAT):** Pro-inflammatory and pro-fibrotic paracrine signaling, atrial fat infiltration, ion channel alteration, gap junction modulation, autonomic dysfunction. More atrial EAT when AF co-occurs with HFpEF. EAT browning may offer protection in some contexts. Negative effects more pronounced in women. ([[sources/atrial-cmp-esc-2025]], rating: high)
 - **Ca²⁺ handling:** Ca²⁺ triggered activity is the major AF trigger in HFrEF; atrial cardiomyocytes show Ca²⁺ handling (not electrical) remodeling in HFrEF unless AF co-occurs; fatty acid metabolism defects in atrial cardiomyocytes in AF and HFpEF. ([[sources/atrial-cmp-esc-2025]], rating: high)
 
+### Monogenic Causes of Primary AtCM
+- **CORIN LOF (2023) — first described monogenic isolated LA cardiomyopathy:** Two Filipino siblings with homozygous *CORIN* frameshift (c.684dupG) presented with isolated LA fibrosis + LA hypertrophic cardiomyopathy + resistant hypertension + refractory AF — no ventricular involvement. CORIN (transmembrane serine protease on LA cardiomyocytes) cleaves proANP → active ANP; its complete loss abolishes ANP production. BNP rises compensatorily but cannot prevent β-ENaC upregulation (sodium retention → hypertension) or atrial fibroblast infiltration → fibrosis → AF substrate. [[sources/corin-acmp-nejm-2023]] (rating: medium)
+- This case demonstrates that ANP — not BNP — is essential for left atrial homeostasis; the LA-specific fibrotic phenotype is not replicated in *Corin*⁻/⁻ mice (hypertension + hypertrophy, no fibrosis), underscoring unique human LA dependence on ANP-mediated anti-fibrotic signalling
+- Prior monogenic links to the CORIN/ANP pathway: heterozygous *CORIN* missense variants → hypertension/preeclampsia; *NPPA* (ANP precursor) frameshift → familial AF (NEJM 2008)
+- Therapeutic implications: soluble corin infusion in knockout mice transiently restores the ANP axis; amiloride (ENaC blocker) targets the downstream sodium retention mechanism [[sources/corin-acmp-nejm-2023]] (rating: medium)
+
 ### Role of Right Heart and Comorbidities
 - Right heart dysfunction may contribute to LA myopathy via enhanced left-to-right atrial interaction and heightened pericardial constraint — the concept of 'disproportionate LA myopathy' in HFpEF
 - Tricuspid regurgitation causing RV volume overload may also lead to HFpEF and atrial myopathy
@@ -94,6 +100,7 @@ The 'common soil hypothesis' proposes that shared stressors — ageing, cardio-m
 - **When AtCM + confirmed HF or persistent AF → atrial failure:** treat each condition per respective ESC guidelines; cardiologist with HF or AF expertise recommended
 
 ## Contradictions / Open Questions
+- **CORIN LOF: mouse fibrosis discrepancy:** *Corin*⁻/⁻ mice develop hypertension and cardiac hypertrophy but not atrial fibrosis — yet both human siblings had prominent LA fibrosis. Whether this reflects species differences in atrial ANP sensitivity, longer life exposure, or LA-specific signalling pathways remains unresolved [[sources/corin-acmp-nejm-2023]] (rating: medium)
 - **AtCM framework vs. AF-first diagnostic paradigm:** Current AHA/ESC AF staging positions AF as the primary entity; AtCM framework positions AF as a late manifestation or consequence of underlying atrial disease. This re-frames the relationship between AF and stroke — LA size and LASr predict stroke better than AF episodes per se, challenging AF-centric risk stratification. ([[sources/atrial-cmp-esc-2025]], rating: high)
 - **ARCADIA trial futility (apixaban vs. aspirin in AtCM-defined cryptogenic stroke):** Stopped early with no benefit — raises the question of whether the AtCM markers used (BNP >250 pg/mL or PTF-V1 >40 mm/ms) adequately identified the subgroup that would benefit from anticoagulation, or whether anticoagulation in AtCM without AF truly lacks efficacy. ([[sources/atrial-cmp-esc-2025]], rating: high)
 - **Anticoagulation in AtCM without AF:** Not established; colchicine showed no AF prevention in largest RCTs; anticoagulation thresholds require dedicated trials
@@ -111,6 +118,8 @@ The 'common soil hypothesis' proposes that shared stressors — ageing, cardio-m
 - Related to [[concepts/AF-Staging]] — AtCM framework predates AF staging
 - Related to [[concepts/Atrial-Myopathy-in-HCM]] — specific genetic subset of AtCM
 - Related to [[concepts/Subclinical-AF]] — pre-AF stage, early detection
+- Related to [[entities/CORIN]] — monogenic cause of isolated primary LA cardiomyopathy via ANP pathway loss
 
 ## Sources
 - [[sources/atrial-cmp-esc-2025]]
+- [[sources/corin-acmp-nejm-2023]]

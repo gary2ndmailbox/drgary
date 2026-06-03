@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Hypertensive Disorders of Pregnancy"
 tags: [hypertensive-disorders-of-pregnancy, maternal-health, preeclampsia, blood-pressure-in-pregnancy, adverse-pregnancy-outcomes]
-source_count: 2
-last_updated: 2026-04-28
+source_count: 4
+last_updated: 2026-05-20
 ---
 
 # Hypertensive Disorders of Pregnancy
@@ -85,6 +85,39 @@ Sources: [[sources/ht-pregnancy-aha-2022]] (rating: high)
 **Avoid:** atenolol (fetal growth restriction); ACEi/ARBs/direct renin inhibitors (fetal renal development); MRA/spironolactone (antiandrogenic); nitroprusside
 **Diuretics:** generally avoided antepartum; furosemide RCT demonstrated 60% reduction in persistent postpartum HT (adjusted RR 0.40)
 
+### ESC 2024 Pregnancy-Specific Recommendations
+([[sources/ht-esc-2024]], rating: very high)
+
+**Treatment threshold:** All confirmed HDP (≥140/90 mmHg on two readings) should receive antihypertensive therapy (Class I, C) — lowered from ≥150/95 mmHg in 2018 ESC/ESH. Aligns with WHO/NICE/ISSHP; remains stricter than ACOG ≥160/110 mmHg threshold for non-severe HT.
+
+**BP targets:** SBP 110–140 mmHg and DBP 70–80 mmHg (Class I, C). Do not lower DBP below 80 mmHg (risk of uteroplacental insufficiency). Targets apply across all HDP types including chronic, gestational, and preeclampsia.
+
+**Preferred antihypertensive agents (all Class I, C):**
+- Oral labetalol 100–200 mg TDS/QDS (max 800 mg/day)
+- Oral extended-release (modified-release) nifedipine 10–40 mg OD/BD (preferred calcium channel blocker)
+- Oral methyldopa 250–500 mg TDS/QDS (max 3 g/day)
+- No single agent demonstrated superior fetal or maternal outcomes; choice guided by tolerability and comorbidity
+
+**Contraindicated agents (Class III, C):** ACE inhibitors, ARBs, direct renin inhibitors — associated with fetal/neonatal renal failure, oligohydramnios, and skull ossification defects. MRAs/spironolactone — antiandrogenic effects. Beta-1 selective agents (e.g., atenolol) — fetal growth restriction (use labetalol instead).
+
+**Acute severe hypertension (≥160/110 mmHg):** Parenteral labetalol (first-line), oral/sublingual nifedipine, or IV hydralazine. Target: SBP <160 mmHg within 15–30 min to prevent maternal stroke. IV magnesium sulfate for eclampsia prevention in severe preeclampsia.
+
+**Preeclampsia prevention (Class I, A):** Low-dose aspirin 100–150 mg/day from 11–14 weeks gestation to 36 weeks for women at high risk (≥1 high-risk factor: prior preeclampsia, chronic HT, diabetes, CKD, autoimmune disease, twin pregnancy; or ≥3 moderate-risk factors). Align with Fetal Medicine Foundation/ASPRE protocol.
+
+**Calcium supplementation (Class I, A):** 1.5–2 g/day elemental calcium from early pregnancy (12–20 weeks) in women with low dietary calcium intake (<800 mg/day) — reduces preeclampsia risk by 50–60% in calcium-deficient populations.
+
+**Post-partum follow-up (Class I, C):**
+- Continue antihypertensives postpartum; reassess at 3–6 months
+- Assess for persistent HT requiring long-term treatment
+- Annual BP, eGFR, fasting glucose, and BMI for at least 3 years post-HDP (recognition of elevated lifetime CVD risk)
+- Avoid diuretics if breastfeeding (hydrochlorothiazide/furosemide reduce milk production); labetalol, nifedipine, methyldopa, and enalapril are compatible with breastfeeding
+
+### sFlt-1 — Shared Mechanistic Link with Peripartum Cardiomyopathy
+- The placenta in late gestation abundantly secretes **sFlt-1 (soluble fms-like tyrosine kinase 1)** — a decoy receptor for VEGF — which is elevated in both preeclampsia and multiple gestations; sFlt-1 drives cardiovascular rarefaction and is now established as a direct trigger of peripartum cardiomyopathy in animal models [[sources/peripartum-cmp-nejm-2024]] (rating: high)
+- Subclinical cardiac dysfunction in patients with preeclampsia (even without overt PPCM) correlates with circulating sFlt-1 levels; activin A (another late-gestation placental peptide) also correlates with cardiac dysfunction, including 1 year post-delivery [[sources/peripartum-cmp-nejm-2024]] (rating: high)
+- This provides a molecular explanation for why 1/3–1/2 of all PPCM cases co-occur with HDP/preeclampsia — a shared vasculotoxic hormonal mechanism, not merely an epidemiologic co-occurrence
+- See [[entities/Peripartum-Cardiomyopathy]] for full PPCM management and prognosis
+
 ### Postpartum HDP
 - ~60% of maternal deaths occur in the first year postpartum; HDP remains a leading cause [[sources/ht-pregnancy-aha-2022]] (rating: high)
 - Prevalence: up to 8% in women without antepartum HT; up to 50% with prior preeclampsia at 6–12 weeks postpartum
@@ -112,6 +145,9 @@ Sources: [[sources/ht-pregnancy-aha-2022]] (rating: high)
 - **Postpartum treatment targets:** no specific trial-informed BP targets for the postpartum period exist; optimal duration/intensity of postpartum antihypertensive therapy unknown
 - **Long-term offspring neurodevelopment:** antihypertensive medication exposure in utero — long-term neurodevelopmental effects poorly studied
 - **De novo vs recurrent postpartum preeclampsia:** distinction between postpartum aggravation of antepartum HDP and truly de novo postpartum preeclampsia is unclear; role of magnesium sulfate for seizure prevention in postpartum setting undefined
+- **ESC 2024 threshold vs ACOG persistent gap:** ESC 2024 now formally recommends treatment at ≥140/90 mmHg for all confirmed HDP — this remains in direct conflict with ACOG's non-severe threshold of ≥160/110 mmHg; the CHAP trial (2022) supports the lower threshold but US guideline revision remains outstanding ([[sources/ht-esc-2024]], rating: very high)
+- **Aspirin timing and cessation:** ESC 2024 recommends aspirin cessation at 36 weeks (bleeding risk before delivery); ACOG and NICE recommend continuation until delivery — no head-to-head trial has compared these cessation strategies ([[sources/ht-esc-2024]], rating: very high)
+- **Post-partum ACE inhibitor initiation:** ESC 2024 permits enalapril (breastfeeding compatible) postpartum, which would be contraindicated antenatally; the transition from antepartum contraindication to postpartum permission requires clear patient counselling to prevent confusion ([[sources/ht-esc-2024]], rating: very high)
 
 ## Connections
 - Related to [[concepts/Preeclampsia]] — the most severe and mechanistically complex HDP subtype
@@ -120,8 +156,11 @@ Sources: [[sources/ht-pregnancy-aha-2022]] (rating: high)
 - Related to [[entities/Maternal-Health-Disparities]] — disproportionate HDP burden in Black and AIAN women
 - Related to [[entities/Hypertension]] — BP management principles; thresholds in pregnancy context
 - Related to [[entities/Heart-Failure]] — peripartum cardiomyopathy; long-term HF risk post-HDP
+- Related to [[entities/Peripartum-Cardiomyopathy]] — HDP/preeclampsia co-occurs in 1/3–1/2 of PPCM; shared sFlt-1 vasculotoxic mechanism
 - Related to [[concepts/LQTS-Pregnancy-Management]] — overlapping maternal CVH risk context
 
 ## Sources
 - [[sources/ht-pregnancy-aha-2022]]
 - [[sources/prepregnancy-aha-2023]]
+- [[sources/peripartum-cmp-nejm-2024]]
+- [[sources/ht-esc-2024]]

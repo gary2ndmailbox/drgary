@@ -2,8 +2,8 @@
 dg-publish: true
 title: "ACHD Anatomic–Physiologic (AP) Classification"
 tags: [congenital-heart-disease, risk-stratification, guideline]
-source_count: 1
-last_updated: 2026-04-21
+source_count: 2
+last_updated: 2026-05-26
 ---
 
 # ACHD Anatomic–Physiologic (AP) Classification
@@ -15,7 +15,7 @@ The ACHD Anatomic–Physiologic (AP) classification system assigns every adult w
 ## Key Concepts
 
 ### Anatomic Complexity Tiers
-- **Class I (Simple):** Secundum ASD, patent ductus arteriosus, VSD, pulmonary stenosis
+- **Class I (Simple):** Secundum ASD, patent ductus arteriosus, VSD, pulmonary stenosis — note: primum ASD (partial AVSD) is classified separately as moderate complexity due to AV valve abnormalities ([[sources/asd-ehj-2022]] — high)
 - **Class II (Moderate Complexity):** Bicuspid aortic valve, coarctation of the aorta, AVSD, Ebstein anomaly, tetralogy of Fallot, d-TGA after arterial switch, partial/total APVC, vascular ring/sling, subaortic stenosis, supravalvar aortic stenosis
 - **Class III (Great Complexity):** Fontan physiology, CCTGA, d-TGA after atrial switch (Mustard/Senning), d-TGA after Rastelli, truncus arteriosus, double-outlet RV, pulmonary atresia (all forms), single-ventricle anatomy (including HLHS), unrepaired or partially palliated cyanotic CHD
 [[sources/ACHD-AHA-2025]] — very high
@@ -60,7 +60,9 @@ An intracardiac shunt is hemodynamically significant if: evidence of **chamber e
 - Related to [[concepts/Tetralogy-of-Fallot]]
 - Related to [[concepts/Fontan-Circulation]]
 - Related to [[concepts/Eisenmenger-Syndrome]]
-- Related to [[entities/Pulmonary-Hypertension]] — PAH staging within AP class
+- Related to [[concepts/pulmonary-hypertension]] — PAH staging within AP class
+- Related to [[concepts/Atrial-Septal-Defect]] — most common CHD diagnosed in adulthood; secundum ASD = Class I Simple; ASD + PAH can reach Stage C–D
 
 ## Sources
 - [[sources/ACHD-AHA-2025]]
+- [[sources/asd-ehj-2022]]

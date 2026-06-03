@@ -2,8 +2,8 @@
 dg-publish: true
 title: "DAPT Strategies in ACS and CCD"
 tags: [acute-coronary-syndrome, chronic-coronary-disease, antiplatelet-therapy, DAPT, bleeding-risk, secondary-prevention]
-source_count: 4
-last_updated: 2026-04-24
+source_count: 5
+last_updated: 2026-05-20
 ---
 
 # Dual Antiplatelet Therapy (DAPT) Strategies in ACS and CCD
@@ -79,7 +79,8 @@ Dual antiplatelet therapy (DAPT) refers to the combination of aspirin and an ora
 - **Extended DAPT >12 months (up to 3 years) for prior MI, low bleeding risk (COR 2b/A):** PEGASUS-TIMI 54 (n=21,162, MI 1–3 years prior): ticagrelor 60 mg BID on background aspirin — 16% reduction in CV death/MI/stroke; absolute RR 1.09% over 31 months (NNT ~91); increased major bleeding. ([[sources/CCS-AHA-2023]], rating: very high)
 - **Low-dose rivaroxaban 2.5 mg BID + aspirin 81 mg (COR 2a/B-R):** High ischaemic risk (multivessel CAD + DM/recurrent MI/PAD/HF/CKD) + low-moderate bleeding risk + no OAC or DAPT indication — COMPASS trial: composite CV death/stroke/MI 4.1% vs 5.4% for aspirin alone (stopped early for benefit); major bleeding 3.1% vs 1.9% (HR 1.70). Not for patients on DAPT. ([[sources/CCS-AHA-2023]], rating: very high)
 - **Vorapaxar (PAR-1 inhibitor) (COR 2b/B-R):** Prior MI without stroke/TIA/ICH — reduces CV death/MI/stroke; **COR 3 Harm** if prior stroke/TIA/ICH — increased intracranial haemorrhage. TRAP 2P-TIMI 50: 13% net clinical benefit reduction. ([[sources/CCS-AHA-2023]], rating: very high)
-- **CCD + OAC (elective PCI) (COR 1/B-R):** DAPT 1–4 weeks → clopidogrel + DOAC × 6 months; aspirin for ≤1 month in high thrombotic risk (COR 2a); DOAC monotherapy may be considered after 1 year post-PCI without acute indication (COR 2b/C-LD) — AFIRE: rivaroxaban monotherapy noninferior to rivaroxaban + antiplatelet in CCD + AF >1 year post-revascularisation. ([[sources/CCS-AHA-2023]], rating: very high)
+- **CCD + OAC (elective PCI) (COR 1/B-R):** DAPT 1–4 weeks → clopidogrel + DOAC × 6 months; aspirin for ≤1 month in high thrombotic risk (COR 2a); DOAC monotherapy may be considered after 1 year post-PCI without acute indication (COR 2b/C-LD) — AFIRE: rivaroxaban monotherapy noninferior to rivaroxaban + antiplatelet in CCD + AF >1 year post-revascularisation (non-standard Japanese dose). ([[sources/CCS-AHA-2023]], rating: very high)
+- **EPIC-CAD (NEJM 2024) — definitive RCT for OAC monotherapy in stable CAD + AF:** 1,040 patients; edoxaban 60/30 mg monotherapy vs edoxaban + aspirin/clopidogrel; stable CAD (PCI ≥6 months, ACS ≥12 months, or medically managed); 12 months: NACE **HR 0.44 (P<0.001; NNT 10.6)**; ischemic events similar (NS; underpowered); major + CRNM bleeding **HR 0.34**. First trial using standard-dose edoxaban including medically managed CAD. East Asian only. Supports a stronger evidence base for discontinuing the antiplatelet in the chronic stable phase; guideline COR 2b likely to be upgraded. See [[concepts/AF-Stable-CAD-Antithrombotic]]. ([[sources/edoxaban-af-cad-nejm-2024]], rating: high)
 - **No DAPT without ACS/PCI indication (COR 3 No Benefit/A):** Clopidogrel + aspirin not better than aspirin alone for MACE in stable CCD — CHARISMA trial. ([[sources/CCS-AHA-2023]], rating: very high)
 - **NSAIDs (COR 3 Harm/B-R):** Coxibs, diclofenac, ibuprofen increase major vascular events (~37–70%), CV death, and HF risk; moderate-dose celecoxib may be noninferior to naproxen/ibuprofen in arthritis patients at high CV risk (PRECISION trial) but not preferred. ([[sources/CCS-AHA-2023]], rating: very high)
 
@@ -143,3 +144,4 @@ Dual antiplatelet therapy (DAPT) refers to the combination of aspirin and an ora
 - [[sources/CCS-AHA-2023]]
 - [[sources/ais-aha-2026]]
 - [[sources/periop-aha-2024]]
+- [[sources/edoxaban-af-cad-nejm-2024]]

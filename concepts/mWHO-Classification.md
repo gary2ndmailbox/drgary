@@ -61,7 +61,7 @@ The modified WHO (mWHO) classification is the primary prospectively validated ri
 - Related to [[concepts/Cardio-Obstetrics]] — mWHO is the central tool of the pregnancy heart team
 - Related to [[entities/Peripartum-Cardiomyopathy]] — prior PPCM with any residual LV dysfunction = mWHO IV
 - Related to [[concepts/Hypertensive-Disorders-of-Pregnancy]] — pre-eclampsia and gestational HTN influence subsequent mWHO assessment
-- Related to [[entities/Pulmonary-Hypertension]] — PAH is the prototypical mWHO IV condition
+- Related to [[concepts/pulmonary-hypertension]] — PAH is the prototypical mWHO IV condition
 - Related to [[concepts/Eisenmenger-Syndrome]] — mWHO IV (severe PH with right-to-left shunt)
 - Related to [[concepts/Fontan-Circulation]] — mWHO III (uncomplicated) or IV (complicated)
 

@@ -129,7 +129,7 @@ AHA Scientific Statements, angioplasty balloon, endarterectomy, hypertension pul
 
 ## Key Entities Mentioned
 - [[entities/CTEPH]] — primary disease entity; disease-level classification; PEA vs BPA decision
-- [[entities/Pulmonary-Hypertension]] — haemodynamic context; Group 4 PH
+- [[concepts/pulmonary-hypertension]] — haemodynamic context; Group 4 PH
 
 ## Wiki Pages Updated
 - `wiki/sources/BPA-AHA-2024.md` — created (this file)

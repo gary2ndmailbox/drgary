@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Obesity"
 tags: [obesity, cardiovascular-disease, metabolic-syndrome, cardiometabolic-risk]
-source_count: 2
-last_updated: 2026-04-29
+source_count: 3
+last_updated: 2026-05-25
 ---
 
 # Obesity
@@ -78,7 +78,24 @@ Obesity is a chronic, multifactorial disease with complex biological, psychosoci
 - Mediterranean diet reduces MACE in high-risk patients. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - Aerobic exercise reduces VAT even without weight loss (~6.1% reduction in meta-analysis). ([[sources/obesity-cv-aha-2021]], rating: very high)
 
-### Pharmacological
+### NuSH Pharmacotherapy (ACC 2025 Framework)
+The ACC 2025 Expert Consensus Statement formalised a paradigm shift: cardiologists are now expected to prescribe NuSH therapies for eligible obese CVD patients without requiring a failed lifestyle intervention attempt first. ([[sources/weight-mx-acc-2025]], rating: very high)
+
+**Weight loss thresholds for CV benefit:**
+- ≥5%: improved triglycerides, fasting glucose, systolic BP; incident disease prevention
+- 10–15%: CVD risk reduction
+- >15%: CV mortality reduction and HFpEF adverse outcome reduction ([[sources/weight-mx-acc-2025]], rating: very high)
+
+**Eligibility for NuSH therapies:** BMI ≥30 kg/m² OR BMI ≥27 kg/m² with a weight-related comorbidity; lifetime high BMI can be used. ([[sources/weight-mx-acc-2025]], rating: very high)
+
+**Approved agents and CV outcome evidence:**
+- **Liraglutide (Saxenda):** SCALE trial weight ↓8.0%; LEADER CVOT (T2DM high CV risk, n=9,340): MACE HR 0.87 (95% CI 0.78–0.97) ([[sources/weight-mx-acc-2025]], rating: very high)
+- **Semaglutide (Wegovy):** STEP-1 trial weight ↓14.9%; **SELECT** (CVD + BMI >27 + no T2DM, n=17,604, 3.3yr): MACE HR 0.80 (95% CI 0.72–0.90); weight ↓9.1 kg; HF hospitalization HR 0.79 NS — first MACE benefit in obese CVD patients without diabetes; STEP-HFpEF: KCCQ +7.8 pts + weight ↓10.7 pp in HFpEF ([[sources/weight-mx-acc-2025]], rating: very high; [[sources/semaglutide-stephfpef-nejm-2023]], rating: very high)
+- **Tirzepatide (Zepbound):** SURMOUNT-1 weight ↓20.9%; **SUMMIT** (HFpEF + obesity, n=731, 104 wk): CV death/worsening HF HR 0.62 (P=0.026) — first hard composite outcome benefit in obesity-HFpEF ([[sources/weight-mx-acc-2025]], rating: very high; [[sources/tirzepatide-hfpef-summit-nejm-2025]], rating: very high)
+
+**Practical points:** Compounded NuSH therapies are strongly discouraged. De-escalate antihypertensives and diuretics as weight falls. Long-term continuation is the default plan. See [[concepts/NuSH-Therapies]] for full prescribing framework.
+
+### Older Pharmacological Data
 - GLP-1 agonists (liraglutide 1.8 mg) reduce MACE and CV death in T2DM (LEADER trial). ([[sources/obesity-cv-aha-2021]], rating: very high)
 - SGLT2 inhibitors (dapagliflozin) reduce worsening HF or CV death in overweight/obese HFrEF regardless of diabetes. ([[sources/obesity-cv-aha-2021]], rating: very high)
 
@@ -92,16 +109,22 @@ Obesity is a chronic, multifactorial disease with complex biological, psychosoci
 
 ## Contradictions / Open Questions
 - **Obesity paradox in CVD:** Overweight/class 1 obesity confers better short-term CVD outcomes, but the mechanism is unclear. Proposed explanations include lead time bias, cardiorespiratory fitness confounding, and a "lean paradox" (low reserve against cardiac cachexia). The paradox wanes at class 3 obesity. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **SELECT confirms intentional pharmacologic weight loss reverses the obesity paradox:** Semaglutide 2.4 mg in CVD patients (no T2DM, BMI >27) reduced MACE HR 0.80 despite weight loss only ↓9.1 kg — confirming that pharmacologic weight loss in CVD patients is beneficial, not harmful. This directly contradicts observational "obesity paradox" data. ([[sources/weight-mx-acc-2025]], rating: very high)
 - **CAD risk mediation by traditional risk factors:** ~50% of the obesity–CAD association is explained by hypertension, dyslipidemia, and glucose intolerance, but the residual independent risk remains debated. ([[sources/obesity-cv-aha-2021]], rating: very high)
 - **Medical vs surgical weight loss and CVD:** No randomized controlled trial exists comparing bariatric surgery with optimal medical therapy for MACE as the primary endpoint. ([[sources/obesity-cv-aha-2021]], rating: very high)
+- **Tirzepatide MACE data outside HFpEF pending:** SELECT established semaglutide MACE benefit in non-T2DM CVD patients. Tirzepatide MACE data in non-HFpEF CVD patients without T2DM are awaited from SURMOUNT-MMO (n=15,374; estimated completion 2027). ([[sources/weight-mx-acc-2025]], rating: very high)
 
 ---
 
 ## Connections
+- Related to [[concepts/NuSH-Therapies]] — preferred pharmacotherapy framework for obesity-CVD; ACC 2025 CCG
+- Related to [[concepts/GLP-1-Receptor-Agonists]] — drug class; LEADER/SUSTAIN-6/SELECT CVOT data
+- Related to [[entities/Semaglutide]] — SELECT MACE benefit in CVD + obesity without T2DM; STEP-HFpEF
+- Related to [[entities/Tirzepatide]] — SUMMIT HFpEF composite benefit; greatest weight loss of available agents
 - Related to [[concepts/Visceral-Adiposity]] — VAT and ectopic fat as CVD risk mechanisms
-- Related to [[concepts/Obesity-Paradox]] — improved short-term CVD outcomes in overweight/mild obesity
+- Related to [[concepts/Obesity-Paradox]] — SELECT/SUMMIT data undermine observational paradox for intentional weight loss
 - Related to [[entities/HFpEF]] — obesity as dominant HFpEF phenotype driver
-- Related to [[entities/Heart-Failure]] — obesity as major HF risk factor
+- Related to [[entities/Heart-Failure]] — obesity as major HF risk factor; de-escalate diuretics on NuSH
 - Related to [[entities/Atrial-Fibrillation]] — obesity-AF epidemiology and epicardial fat mechanism
 - Related to [[concepts/Sudden-Cardiac-Death]] — obesity as most common nonischaemic SCD cause
 - Related to [[concepts/Dyslipidemia-Management]] — metabolic syndrome overlap
@@ -112,3 +135,4 @@ Obesity is a chronic, multifactorial disease with complex biological, psychosoci
 ## Sources
 - [[sources/epi-adipose-arrhythmia-jacc-2021]]
 - [[sources/obesity-cv-aha-2021]]
+- [[sources/weight-mx-acc-2025]]

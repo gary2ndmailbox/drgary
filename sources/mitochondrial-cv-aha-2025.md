@@ -115,7 +115,7 @@ AHA Scientific Statements; cardiovascular diseases; DNA, mitochondrial; genes, m
 - [[entities/Long-QT-Syndrome]] — LQT in multiple mitochondrial syndromes (Kearns-Sayre, Barth, Leigh, Pearson)
 - [[entities/Atrial-Fibrillation]] — MIDD (m.3243A>G) causes AF; mitochondrial haplogroups associated with AF
 - [[entities/Heart-Failure]] — leading cause of death in mitochondrial disorders; HF therapies appropriate
-- [[entities/Pulmonary-Hypertension]] — pulmonary hypertension and right-sided HF in heteroplasmic mouse models
+- [[concepts/pulmonary-hypertension]] — pulmonary hypertension and right-sided HF in heteroplasmic mouse models
 
 ## Wiki Pages Updated
 - `wiki/sources/mitochondrial-cv-aha-2025.md` — created (this file)

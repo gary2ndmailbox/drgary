@@ -2,7 +2,7 @@
 dg-publish: true
 title: "Cardiac Amyloidosis — Multimodality Imaging"
 tags: [cardiac-amyloidosis, multimodality-imaging, ATTR-amyloidosis, echocardiography, radionuclide-imaging]
-source_count: 2
+source_count: 3
 last_updated: 2026-04-22
 ---
 
@@ -161,6 +161,7 @@ Evidence-based appropriateness ratings across 32 clinical scenarios (modified De
 | Echo distinction | Cherry-on-top pattern present in both; does not differentiate subtype |
 
 ## Contradictions / Open Questions
+- **AL-specific cardiac imaging signals — distinct from ATTR but overlap is substantial:** AL amyloidosis causes cardiac involvement in 70–80% of patients with the same echo red flags (low voltage, concentric thickening, apical-sparing GLS, diastolic dysfunction) as ATTR. Key differences: AL more often subendocardial LGE on CMR (vs transmural in ATTR); scintigraphy Grade 0–1 in AL (Grade ≥2 in ATTR) but Grade ≥2 in >20% of AL — monoclonal exclusion before scintigraphy is non-negotiable. Echocardiography and CMR cannot reliably distinguish AL from ATTR subtype; mass spectrometry or immunohistochemistry of biopsy tissue is required. ([[sources/lc-amyloidosis-nejm-2024]], rating: very high)
 - **False-positive scintigraphy risk in lower-prevalence populations:** The 100% PPV was derived from expert centres with high pre-test probability (NYHA >II, advanced disease). The addendum acknowledges increased false-positive diagnoses as scintigraphy expanded to lower-prevalence settings. The PPV in primary care or unselected populations has not been validated. ([[sources/imaging-amyloidosis-aha-2021]])
 - **CMR vs scintigraphy for early disease detection:** ECV by CMR is elevated before LGE or scintigraphy becomes abnormal in some patients. Whether ECV-based early detection improves outcomes has not been studied prospectively. ([[sources/imaging-amyloidosis-aha-2021]])
 - **No validated imaging endpoint for therapy response:** Neither scintigraphy, CMR, nor echocardiography has been prospectively validated against survival as a therapy-response measure. Clinical trials of tafamidis and RNA-interference agents relied on biomarkers rather than imaging endpoints. ([[sources/imaging-amyloidosis-aha-2021]])
@@ -183,3 +184,4 @@ Evidence-based appropriateness ratings across 32 clinical scenarios (modified De
 - [[sources/imaging-amyloidosis-2nd-aha-2021]]
 - [[sources/imaging-amyloidosis-aha-2021]]
 - [[sources/imaging-cardio-oncology-aha-2024]]
+- [[sources/lc-amyloidosis-nejm-2024]]

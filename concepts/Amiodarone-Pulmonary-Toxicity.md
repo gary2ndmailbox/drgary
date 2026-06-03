@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Amiodarone Pulmonary Toxicity"
 tags: [amiodarone, drug-induced-lung-disease, pulmonary-toxicity, antiarrhythmic-drugs, drug-toxicity]
-source_count: 2
-last_updated: 2026-05-07
+source_count: 3
+last_updated: 2026-05-16
 ---
 
 # Amiodarone Pulmonary Toxicity
@@ -32,6 +32,7 @@ Amiodarone pulmonary toxicity (APT) is a spectrum of drug-induced lung injury af
 ### Epidemiology and Risk Factors
 - Cumulative prevalence 1–15%; dose-linked but NOT strictly dose-dependent: 0.1–0.5% at ≤200 mg/day; 5–15% at ≥500 mg/day; up to 50% at 1200 mg/day
 - **Quantitative cumulative incidence:** 4.2% at 1 year → 7.8% at 3 years → 10.6% at 5 years
+- **VANISH2 RCT real-world data (2025):** Among 213 patients randomized to antiarrhythmic drug therapy (sotalol or amiodarone) in a high-intensity, monitored RCT context over median 4.3 years: 1 patient (0.5%) died from pulmonary toxicity attributed to AAD treatment; 7 patients (3.3%) had pulmonary infiltrates or fibrosis attributed to AAD treatment; total of 46 patients (21.6%) had any nonfatal adverse event (pulmonary, GI, neurological, thyroid, hepatic) leading to drug discontinuation or dose reduction. ([[sources/vt-ablation-vanish2-nejm-2025]], rating: very high)
 - **Age is the strongest risk factor:** 3-fold increase per 10-year age increment over 60; DLCO decline accelerated in elderly
 - **Cumulative dose:** >10 g is an independent risk factor; risk persists up to 150 g cumulative; high DEAm plasma levels during maintenance = independent risk factor
 - Risk factors: male sex, age >40 years, cumulative exposure, pre-existing poor pulmonary function, emphysema, prior pneumonectomy
@@ -162,3 +163,4 @@ Amiodarone pulmonary toxicity (APT) is a spectrum of drug-induced lung injury af
 - [[sources/amiodarone-cvdrug-2020]]
 - [[sources/amiodarone-pulmonary-clin-chest-2004]]
 - [[sources/amiodarone-pulmonary-drugsafety-2010]]
+- [[sources/vt-ablation-vanish2-nejm-2025]]

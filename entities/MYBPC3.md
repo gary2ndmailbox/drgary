@@ -2,8 +2,8 @@
 dg-publish: true
 title: "MYBPC3 (Cardiac Myosin Binding Protein C)"
 tags: [genetics, hypertrophic-cardiomyopathy, sarcomere, sudden-cardiac-death, MYBPC3, gene-therapy, cardiomyopathy, DCM]
-source_count: 3
-last_updated: 2026-05-07
+source_count: 4
+last_updated: 2026-05-17
 ---
 
 # MYBPC3 (Cardiac Myosin Binding Protein C)
@@ -65,6 +65,13 @@ All identified founder MYBPC3 mutations are truncating, lacking the M-motif phos
 - **Incomplete penetrance and variable expressivity:** MYBPC3 mutations show highly variable penetrance; a genotype-positive first-degree relative of an HCM proband may never develop phenotypic disease. MYBPC3 is a primary target for cascade family screening — genotype-positive/phenotype-negative relatives require longitudinal surveillance but not pre-emptive ICD. ([[sources/HCM-VA-FCVMed-2022]], rating: high)
 - **Genotype-phenotype complexity:** Incomplete penetrance predictors are lacking, meaning genotype-positive individuals carry a labelled diagnosis with uncertain individual risk — with implications for insurance, employment, and psychological wellbeing. ([[sources/HCM-VA-FCVMed-2022]])
 
+### ACMG Secondary Findings — Lifespan and Cause-of-Death Data (Iceland WGS)
+- **MYBPC3 is listed in the ACMG SF v3.0 cardiovascular gene group** — among the cardiomyopathy genes for which LP/P variants must be reported as secondary findings in clinical exome/genome sequencing. ([[sources/genotype-lifespan-nejm-2023]] — high)
+- **Population lifespan impact (n=57,933 Icelandic WGS):** MYBPC3 actionable genotype carriers had a lifespan **−2.18 years shorter** (95% CI −3.44 to −0.92) than noncarriers. ([[sources/genotype-lifespan-nejm-2023]] — high)
+- **Cardiomyopathy as cause of death:** 10.4% of MYBPC3 actionable genotype carriers had cardiomyopathy listed on the death certificate vs 0.8% of noncarriers (OR 14.04; 95% CI 5.44 to 36.23). ([[sources/genotype-lifespan-nejm-2023]] — high)
+- **Composite dilution effect:** When combining all MYBPC3-associated conditions (cardiomyopathy + SCD + AF + HF), the cause-of-death OR was diluted to 1.34 (NS) — confirming that cardiomyopathy is the specific mechanism driving mortality, not the broader composite of MYBPC3-associated diseases. This has implications for how MYBPC3-related death should be analysed in future mortality studies. ([[sources/genotype-lifespan-nejm-2023]] — high)
+- MYBPC3 is one of only two cardiovascular ACMG SF genes (alongside LDLR/FH) with an individual lifespan signal in the Iceland WGS cohort — the remaining 75% of cardiovascular gene group carriers show no group-level survival difference. ([[sources/genotype-lifespan-nejm-2023]] — high)
+
 ### Gene Therapy
 - **Exon skipping (AON/AAV9):** AONs targeting exons 5 and 6 packaged under the U7 promoter in AAV9 induce an in-frame deletion → expression of an alternatively spliced Mybpc3 variant. Systemic administration to newborn Mybpc3 knock-in mice **prevented systolic dysfunction and LV hypertrophy** (Gedicke-Hornung et al. 2013). For human MYBPC3, 6 single or 5 double exon skips would preserve functionally important phosphorylation and binding sites, addressing ~50% of mutations including 35 within exon 25. ([[sources/mybpc3-gene-2015]], rating: medium)
 - **RNA trans-splicing:** Two pre-trans-splicing molecules (targeting 5' and 3' of MYBPC3 pre-mRNA) produce repaired full-length mRNA. Feasibility demonstrated in cells and in vivo, but efficiency was too low to prevent the disease phenotype in homozygous knock-in mice (Mearini et al. 2013). Theoretically the most powerful approach — only 2 molecules bypass all MYBPC3 mutations — but requires substantial efficiency improvement. ([[sources/mybpc3-gene-2015]])
@@ -72,12 +79,14 @@ All identified founder MYBPC3 mutations are truncating, lacking the M-motif phos
 - **CRISPR/Cas9:** Not evaluated for MYBPC3 at time of the 2015 review; under investigation in iPSC lines at that stage. Applicable per-founder mutation. For updated CRISPR cardiac data, see [[sources/gene-therapy-arrhythmia-2025]]. ([[sources/mybpc3-gene-2015]])
 
 ## Contradictions / Open Questions
+- **MYBPC3 cause-of-death signal — cardiomyopathy specific, composite diluted:** The strong cardiomyopathy cause-of-death association (OR 14.04) dissolves when the composite of all MYBPC3-associated conditions (including AF and HF) is analysed (OR 1.34; NS). This illustrates that HF and AF are common enough in the general population to dilute a gene-specific death signal — and underscores the methodological importance of selecting condition-specific (not composite) death analyses for ACMG gene mortality studies. ([[sources/genotype-lifespan-nejm-2023]] — high)
 - **K⁺ current reduction — mouse finding not replicated in human:** Mybpc3 knock-in mice show reduced K⁺ currents as the dominant proarrhythmic mechanism in HCM. This finding was NOT replicated in human MYBPC3-homozygous engineered heart tissue (EHT) or LV septum samples from HCM patients undergoing surgical myectomy. The translational gap undermines using mouse Mybpc3 models to guide antiarrhythmic drug development for human HCM. ([[sources/HCM-VA-FCVMed-2022]])
 - **Incomplete penetrance — no validated predictors:** MYBPC3 mutations show variable expressivity and incomplete penetrance. A genotype-positive relative may never develop phenotypic disease; current guidelines recommend surveillance but not pre-emptive ICD. No validated tool exists to predict individual penetrance — genotype-positive individuals carry a labelled diagnosis with uncertain personal risk, with implications for insurance, employment, and psychological wellbeing. ([[sources/HCM-VA-FCVMed-2022]])
 - **Haploinsufficiency vs. dominant-negative — therapeutically critical but unresolved per variant:** Most truncating variants produce haploinsufficiency (truncated protein absent by Western blot, degraded via NMD/UPS/autophagy). Some missense variants likely produce stable dominant-negative poison polypeptides incorporated into the sarcomere. The therapeutic implications differ — gene replacement addresses haploinsufficiency; gene silencing or exon skipping is needed for dominant-negative. Distinguishing the mechanism for individual variants is not routinely performed in clinical practice. ([[sources/HCM-VA-FCVMed-2022]], [[sources/mybpc3-gene-2015]])
 - **Opposing PTM effects on cMyBP-C — net disease fingerprint unknown:** Phosphorylation at the M-motif (PKA/CaMKII) is broadly protective — reduced in heart failure, phosphomimetic cardioprotective. However, S-glutathiolation increases myofilament Ca²⁺ sensitivity (potentially pathological), and acetylation may promote calpain-mediated proteolysis. The net PTM fingerprint under disease conditions and the question of which modifications to target therapeutically have not been systematically established. ([[sources/mybpc3-gene-2015]])
 
 ## Connections
+- Related to [[concepts/ACMG-Secondary-Findings]] — MYBPC3 in cardiovascular ACMG SF group; lifespan and cause-of-death data
 - Related to [[entities/HCM]]
 - Related to [[entities/DCM]]
 - Related to [[entities/MYH7]]
@@ -100,3 +109,4 @@ All identified founder MYBPC3 mutations are truncating, lacking the M-motif phos
 - [[sources/MYBPC3-MYH7-JACCEP-2024]]
 - [[sources/gene-therapy-arrhythmia-2025]]
 - [[sources/mybpc3-gene-2015]]
+- [[sources/genotype-lifespan-nejm-2023]]

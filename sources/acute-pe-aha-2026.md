@@ -202,7 +202,7 @@ Acute pulmonary embolism · anticoagulant · diagnosis · chronic thromboembolic
 ## Key Entities Mentioned
 - [[entities/Pulmonary-Embolism]] — primary entity
 - [[entities/CTEPH]] — post-PE sequelae; CTEPD distinct entity formalised
-- [[entities/Pulmonary-Hypertension]] — CTEPD/CTEPH relationship
+- [[concepts/pulmonary-hypertension]] — CTEPD/CTEPH relationship
 
 ## Wiki Pages Updated
 - Created: wiki/sources/acute-pe-aha-2026.md

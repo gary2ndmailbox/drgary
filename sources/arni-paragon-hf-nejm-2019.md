@@ -81,7 +81,7 @@ Heart failure, preserved ejection fraction, sacubitril–valsartan, angiotensin 
 ## Key Concepts Mentioned
 - [[entities/HFpEF]] — primary population; sacubitril–valsartan vs. valsartan
 - [[concepts/Sacubitril-Valsartan-ARNI]] — drug under study; mechanism (neprilysin inhibition + AT1R blockade)
-- [[concepts/Pulmonary-Hypertension-Classification]] — HFmrEF boundary and subgroup signal
+- [[concepts/pulmonary-hypertension]] — HFmrEF boundary and subgroup signal
 
 ## Key Entities Mentioned
 - [[entities/Sacubitril-Valsartan]] — ARNI under investigation

@@ -195,14 +195,14 @@ AHA Scientific Statements · cardiac catheterization · dyspnea paroxysmal · he
 - [[concepts/RV-PA-Coupling]] — exercise-induced PH; RV adaptation during exercise
 
 ## Key Entities Mentioned
-- [[entities/Pulmonary-Hypertension]] — AVT protocols; PH reversibility testing
+- [[concepts/pulmonary-hypertension]] — AVT protocols; PH reversibility testing
 - [[entities/Heart-Failure]] — remote monitoring; exercise hemodynamics; LVAD ramp protocols
 - [[entities/CTEPH]] — PAC perioperative guidance
 
 ## Wiki Pages Updated
 - Created: `wiki/sources/hemodynamic-hf-pht-aha-2026.md`
 - Updated: `wiki/concepts/Right-Heart-Catheterization.md` — major update (provocative protocols, HFpEF criteria, LVAD ramp, remote monitoring)
-- Updated: `wiki/entities/Pulmonary-Hypertension.md` — AVT protocol detail (adenosine caveat, updated positive response definition)
+- Updated: `wiki/concepts/pulmonary-hypertension.md` — AVT protocol detail (adenosine caveat, updated positive response definition)
 - Updated: `wiki/entities/Heart-Failure.md` — remote PA monitoring, exercise hemodynamics
 - Updated: `wiki/sourceindex.md`
 - Updated: `wiki/wikiindex.md`

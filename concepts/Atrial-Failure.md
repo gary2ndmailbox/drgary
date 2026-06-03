@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Atrial Failure"
 tags: [atrial-cardiomyopathy, atrial-fibrillation, heart-failure]
-source_count: 1
-last_updated: 2026-05-01
+source_count: 2
+last_updated: 2026-05-17
 ---
 
 # Atrial Failure
@@ -46,7 +46,7 @@ The AtCM P-wave score provides a graded progression to atrial failure: ([[source
 - Treat each condition (AF, HF) per respective ESC clinical guidelines ([[sources/atrial-cmp-esc-2025]], rating: high)
 - Monitoring by cardiologist with HF or AF expertise recommended, depending on local infrastructure
 - Aggressive comorbidity management for remaining modifiable risk factors
-- AF ablation in advanced atrial failure: appropriate strategy not yet established; ability to modify substrate and progression requires specific investigation
+- AF ablation in advanced atrial failure: CASTLE-HTx (NEJM 2023) provides direct RCT evidence — PVI in end-stage HFrEF (LVEF ≤35%) + symptomatic AF dramatically reduced the composite of death/LVAD/urgent transplant (8% vs 30%; HR 0.24; P<0.001) and all-cause mortality (6% vs 20%; HR 0.29); trial stopped early; single-center ([[sources/CA-HF-CASTLEHTx-NEJM-2023]], rating: very high)
 
 ### Prevention
 Prevention of atrial failure from AtCM is the primary therapeutic goal: ([[sources/atrial-cmp-esc-2025]], rating: high)
@@ -56,7 +56,7 @@ Prevention of atrial failure from AtCM is the primary therapeutic goal: ([[sourc
 
 ## Contradictions / Open Questions
 - **Clinical definition is composite:** Atrial failure requires both AtCM markers and either AF or HF — the directionality is unclear in individual patients (does AF cause HF, or does underlying AtCM cause both?). ([[sources/atrial-cmp-esc-2025]], rating: high)
-- **Ablation in atrial failure:** Whether catheter ablation can modify the substrate and reverse atrial failure or merely treat symptoms requires prospective RCT evidence
+- **Ablation in atrial failure:** CASTLE-HTx demonstrates dramatic hard-endpoint benefit of PVI in end-stage HFrEF + AF (HR 0.24 primary composite; HR 0.29 all-cause mortality), but patients were selected for HFrEF + AF phenotype, not the formal "atrial failure" diagnosis — whether the mechanism is reversal of tachycardia-induced cardiomyopathy vs true atrial substrate modification is unresolved; multi-center replication needed ([[sources/CA-HF-CASTLEHTx-NEJM-2023]], [[sources/atrial-cmp-esc-2025]])
 - **Distinction from HFpEF phenotype:** Interaction and ability to distinguish AtCM-related atrial failure from HFpEF phenotypes requires dedicated study; significant clinical overlap exists
 
 ## Connections
@@ -70,3 +70,4 @@ Prevention of atrial failure from AtCM is the primary therapeutic goal: ([[sourc
 
 ## Sources
 - [[sources/atrial-cmp-esc-2025]]
+- [[sources/CA-HF-CASTLEHTx-NEJM-2023]]

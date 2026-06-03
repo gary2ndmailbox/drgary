@@ -2,8 +2,8 @@
 dg-publish: true
 title: "Cardio-Obstetrics"
 tags: [cardio-obstetrics, cardiovascular-disease-in-pregnancy, maternal-health, multidisciplinary-team, peripartum-cardiomyopathy]
-source_count: 2
-last_updated: 2026-05-10
+source_count: 3
+last_updated: 2026-05-22
 ---
 
 # Cardio-Obstetrics
@@ -66,6 +66,23 @@ Cardio-obstetrics (also called the "pregnancy heart team") is a multidisciplinar
 | PAH | WHO Class IV; pregnancy often discouraged |
 | Ischemic heart disease | SCAD: conservative management; atherosclerotic STEMI: PCI |
 
+### Arrhythmia-Specific Cardio-Obstetrics Framework (HRS 2023)
+The 2023 HRS Consensus defines the "cardio-obstetrics team" as including — for arrhythmia management — a cardiac electrophysiologist, MFM subspecialist, anesthesiologist, neonatologist, and pediatric cardiologist/electrophysiologist (for fetal arrhythmias) [[sources/arrhythmia-pregnancy-hrs-2023]] (rating: very high)
+
+**Arrhythmia triage requiring immediate cardio-obstetrics involvement:**
+- Hemodynamically significant sustained tachyarrhythmia (SVT, AF/AFL, VT) requiring cardioversion or antiarrhythmic infusion
+- Maternal cardiac arrest (perimortem C-section within 5 minutes if viable fetus, at site of arrest)
+- Fetal incessant tachyarrhythmia (SVT >50% of time; AFL with hydrops)
+- Any inherited arrhythmia syndrome (IAS) in pregnancy — delivery planning, risk stratification
+- Complex catheter ablation during pregnancy (preparation for urgent delivery) [[sources/arrhythmia-pregnancy-hrs-2023]]
+
+**IAS-specific delivery planning (three-tier framework):**
+| Risk Level | Criteria | Management |
+|---|---|---|
+| Low | No prior events; QTc ≤470 ms | Standard cardiology consultation |
+| Medium | Remote events or QTc ≥470 ms | Tertiary centre; IV line; external defibrillator |
+| High | Arrhythmic syncope/CA/sustained VA within 1 year on therapy | Cardiac theatre; arterial line; IV antiarrhythmics; telemetry |
+
 ## Contradictions / Open Questions
 - Whether referral to dedicated cardio-obstetrics centres improves hard maternal/fetal outcomes over general obstetric care is not established — most evidence is observational [[sources/cv-pregnancy-aha-2020]] (rating: high)
 - Optimal timing and frequency of antepartum monitoring for lower-risk (WHO Class I–II) conditions is not defined by RCT data
@@ -79,7 +96,10 @@ Cardio-obstetrics (also called the "pregnancy heart team") is a multidisciplinar
 - Related to [[concepts/LQTS-Pregnancy-Management]] — LQTS-specific arrhythmia risk in pregnancy and postpartum
 - Related to [[entities/Maternal-Health-Disparities]] — racial/ethnic mortality disparities in maternal CVD
 - Related to [[entities/Hypertension]] — antihypertensive management in pregnancy and postpartum
+- Related to [[concepts/Arrhythmia-in-Pregnancy]] — comprehensive arrhythmia management framework (HRS 2023)
+- Related to [[concepts/Fetal-Arrhythmia]] — fetal arrhythmia team coordination
 
 ## Sources
 - [[sources/cv-pregnancy-aha-2020]]
 - [[sources/cv-pregnancy-esc-2018]]
+- [[sources/arrhythmia-pregnancy-hrs-2023]] — 2023 HRS Expert Consensus on arrhythmias in pregnancy

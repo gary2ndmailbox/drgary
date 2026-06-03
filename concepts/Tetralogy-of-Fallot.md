@@ -93,7 +93,7 @@ Tetralogy of Fallot (TOF) is one of the most common forms of congenital heart di
 
 ## Connections
 - Related to [[concepts/ACHD-AP-Classification]] — TOF is Class II anatomy
-- Related to [[entities/Pulmonary-Hypertension]] — PH assessment in TOF
+- Related to [[concepts/pulmonary-hypertension]] — PH assessment in TOF
 - Related to [[concepts/Late-Gadolinium-Enhancement]] — LGE extent guides VT substrate localisation and SCD risk
 - Related to [[concepts/TAVI]] — transcatheter pulmonary valve replacement parallels transcatheter aortic valve technology
 
